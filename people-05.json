@@ -1,0 +1,977 @@
+[
+  {
+    "id": "PEO-101",
+    "domain": "People",
+    "task": "1. Develop a common vision",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Vision that detects drift",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Team Performance Domain (2.2): establishing and maintaining vision",
+    "question": "Nadia Petrova is the project manager for an agile team building a volunteer-matching app for a regional food bank network. After six sprints, the team has added achievement badges, a donor leaderboard, and a social feed, each requested by an enthusiastic board member, while the core feature that matches volunteers to understaffed shifts is still clumsy. The team's vision statement describes the purpose and success of the app but gives no way to notice when work is moving away from it. What should Nadia do?",
+    "options": [
+      "Ask the board member to route future requests through a change control board so the team stops receiving new feature ideas",
+      "With the product owner and stakeholders, add measurable drift signals to the vision and re-order the backlog against it",
+      "Remove the badges, leaderboard, and social feed in the next sprint and tell the team to work only on shift matching",
+      "Print the existing vision statement on the team board and remind the developers of it at every daily standup meeting"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Ask what the current vision cannot do for the team, and whose call the order of the backlog is.",
+    "why": "A collaboratively developed vision should help the team tell when it is drifting, not just state purpose and success. Adding observable drift signals (for example, share of understaffed shifts filled, time to match a volunteer) with the product owner and stakeholders gives everyone a shared test for each request, and re-ordering the backlog against it keeps the product owner accountable for priorities. This fixes the cause rather than the symptom.",
+    "how": "When scope wanders away from purpose, strengthen the vision itself (purpose, success measures, drift signals) with the people who own it, then use it as the filter for prioritization.",
+    "optionNotes": [
+      "Incorrect — A change control board is a predictive mechanism; in agile the product owner filters requests, and blocking ideas does not fix the weak vision.",
+      "Correct — Adds the missing drift test to the vision with its owners and lets the product owner re-prioritize against it, addressing the root cause.",
+      "Incorrect — The project manager would be overriding the product owner's backlog decisions, and some of the features may still have value.",
+      "Incorrect — Repeating a vision that cannot detect drift makes it more visible but no more useful for decisions."
+    ],
+    "deepDive": "PMBOK 7 suggests a collaborative vision answer four questions: what the purpose is, what defines successful work, how the future will be better, and how the team will know it is drifting. A good vision is short, describes the best achievable outcome, creates a shared picture, and inspires. In agile, the product owner uses the vision and product goal to order the backlog; in predictive projects the charter and scope baseline play a similar filtering role. Exam trap: repeating a weak vision louder does not make it useful for decisions.",
+    "tags": [
+      "vision",
+      "scope drift",
+      "product owner",
+      "agile"
+    ]
+  },
+  {
+    "id": "PEO-102",
+    "domain": "People",
+    "task": "1. Develop a common vision",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Orientation before commitment",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Models (4.2.6.2): Drexler/Sibbet team performance model",
+    "question": "A water utility and two contractors have formed a joint team to replace smart-meter firmware; hardware work follows a stage-gated plan while firmware is built in sprints. At the first joint session, members went straight into debating release dates and staffing. Two weeks later, contractor engineers are optimizing for their own contract milestones, and the utility's staff ask why the project matters beyond regulatory compliance. Roles are clear and the plan is approved. What should the project manager do to address the root of the problem?",
+    "options": [
+      "Bring the joint team together to explore the project's purpose and intended outcomes, and how each group's work serves them",
+      "Tighten the contractors' milestone payments so that their incentives match the utility's delivery dates and quality expectations",
+      "Hold a team-building social event so that utility staff and contractor engineers can get to know and trust one another",
+      "Re-baseline the integrated schedule with each group so that commitments are realistic and progress is easier to track"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "The team started with 'how'; which earlier question in a team's formation was never answered?",
+    "why": "The group jumped to commitment and planning (the 'how') without orientation (the 'why'). When members don't share the purpose, they default to local goals, here contract milestones and bare compliance. Teams formed across organizations need extra up-front effort to build a one-team mindset, so revisiting purpose and outcomes, and linking each group's contribution to them, addresses the root cause. Trust building and re-planning matter, but they rest on a shared why.",
+    "how": "When a new team argues about 'how' and works in silos, check whether the earlier formation questions (why, who, what) were really answered, and go back to the missing one.",
+    "optionNotes": [
+      "Correct — Revisits orientation: a shared purpose and outcomes give contractors and utility staff a common reason to look beyond their own milestones.",
+      "Incorrect — Commercial incentives may deepen the focus on contract milestones and do nothing to create a shared sense of purpose.",
+      "Incorrect — Trust building is valuable, but it addresses 'who' while the missing piece is 'why'; socializing alone won't align goals.",
+      "Incorrect — Re-planning repeats the 'how' step the team rushed into; better dates will not fix a lack of shared purpose."
+    ],
+    "deepDive": "The Drexler/Sibbet model has seven stages: orientation (why), trust building (who), goal clarification (what), commitment (how), implementation, high performance, and renewal. Teams can and should go back to an earlier stage when it was skipped or when something changes. PMBOK 7 notes that teams formed through contracts or partnerships often have more rigid roles and need deliberate work to create a 'one team' mindset. Compared with Tuckman's stages, Drexler/Sibbet is handy for diagnosing which question a struggling team has not yet answered.",
+    "tags": [
+      "team development",
+      "drexler-sibbet",
+      "vision",
+      "contractors",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "PEO-103",
+    "domain": "People",
+    "task": "1. Develop a common vision",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Choosing a project vision statement",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Artifacts (4.6.1): project vision statement",
+    "question": "An insurer is starting a project to introduce an AI assistant that triages simple motor claims. The sponsor asks project manager Kwame Mensah to bring a draft vision statement to the kickoff that people from claims handling, data science, and compliance can all rally around. His team has produced four drafts. Which draft should Kwame bring to the kickoff?",
+    "options": [
+      "Deploy a gradient-boosted triage model on the new cloud platform by the third quarter, within the approved budget",
+      "Become the most innovative insurer in the region by putting artificial intelligence at the heart of everything we do",
+      "Settle simple claims within a day, fairly and explainably, so adjusters can focus on customers who need them most",
+      "Deliver a triage tool with 42 features covering intake, scoring, routing, dashboards, audit logs, and retraining"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "A vision describes a better future for people, not the technology used or the list of things to build.",
+    "why": "A good vision is concise, describes the best achievable outcome, creates a common picture, and inspires. The chosen draft states the outcome for customers and adjusters, signals what success looks like (claims settled within a day), and names the guardrails compliance cares about (fair, explainable), so every discipline sees its stake. The other drafts describe an output, a slogan, or a feature list.",
+    "how": "To judge a vision, test whether it states purpose, what success looks like, and how the future will be better, and whether the team could tell if it was drifting; outputs and slogans fail that test.",
+    "optionNotes": [
+      "Incorrect — Describes a technical output and a date; it speaks to data scientists but gives claims staff and compliance little reason to care.",
+      "Incorrect — A grand slogan with no concrete outcome, so it cannot guide decisions or show when the team is drifting.",
+      "Correct — Outcome-focused, short, and inspiring, with success and responsible-AI qualities that claims, data science, and compliance can all own.",
+      "Incorrect — A feature list is scope, not vision; it invites debate about features rather than the result they should produce."
+    ],
+    "deepDive": "PMBOK 7 lists the project vision statement as a strategy artifact that states the purpose and inspires contribution. For AI projects, visions built only on model metrics (accuracy, AUC) tend to split teams: data scientists optimize the model while operations and compliance feel ignored. Including the business outcome and responsible-AI qualities such as fairness, explainability, and human oversight aligns the disciplines early. Remember the difference: the charter authorizes the project; the vision inspires and guides decisions.",
+    "tags": [
+      "vision",
+      "ai",
+      "kickoff",
+      "outcomes"
+    ]
+  },
+  {
+    "id": "PEO-104",
+    "domain": "People",
+    "task": "1. Develop a common vision",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Sponsor restoring the vision",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Appendix X2: the sponsor's role in vision and resources",
+    "question": "Six months into a two-year warehouse automation project, the company reorganizes and the original sponsor moves to another division. The new sponsor, Ingrid Solberg, inherited the approved charter but has not yet met the team. Morale has dipped: several engineers ask whether the project still matters under the new strategy, and a functional manager has started pulling two specialists onto 'higher-priority' work. What should the project manager do FIRST?",
+    "options": [
+      "Reassure the team that the project is still funded and ask everyone to stay focused on the tasks in the approved schedule",
+      "Escalate the specialists' reassignment to the PMO and request a formal resource commitment from the functional manager",
+      "Submit a change request to re-baseline the schedule to reflect the two specialists' reduced availability going forward",
+      "Meet Ingrid to confirm how the project fits the new strategy and ask her to share its vision and priorities with the team"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Both the team's doubts and the drain on resources trace back to a role that has gone quiet.",
+    "why": "The loss of an active sponsor is behind both problems. Sponsors communicate the vision, keep the project aligned with business objectives, and help secure resources, all of which sit outside the project manager's authority. Engaging Ingrid first confirms whether the project still fits the new strategy, gives the team an authoritative answer about why it matters, and equips her to protect the specialists.",
+    "how": "When a project loses its link to strategy or its resources start drifting away, re-engage the sponsor before escalating elsewhere or re-planning; the sponsor supplies vision and authority the project manager lacks.",
+    "optionNotes": [
+      "Incorrect — Funding is not purpose; the project manager cannot credibly answer whether the project fits a strategy set above them.",
+      "Incorrect — Going to the PMO skips the new sponsor, whose role includes securing resources; it treats a symptom of disengagement.",
+      "Incorrect — Re-baselining accepts the loss of the specialists without first trying to restore the sponsor support that would prevent it.",
+      "Correct — Re-engages the sponsor, who can confirm strategic fit, restate the vision with authority, and help keep the specialists on the project."
+    ],
+    "deepDive": "PMBOK 7's appendix on the sponsor calls an active sponsor a critical success factor. Sponsors communicate vision and goals, advocate for the project, facilitate executive decisions, secure resources, remove obstacles beyond the team's authority, and monitor benefits after closure. When the role is vacant or disengaged, decisions slow down, priorities conflict, and team members get pulled away. After a reorganization, confirming strategic fit is also a governance check: if the project no longer fits, changing or stopping it may be the right outcome.",
+    "tags": [
+      "sponsor",
+      "vision",
+      "reorganization",
+      "predictive"
+    ]
+  },
+  {
+    "id": "PEO-105",
+    "domain": "People",
+    "task": "1. Develop a common vision",
+    "approach": "Agile",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Anchoring in a remote vision workshop",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Team Performance Domain (2.2): decision making (diverge/converge)",
+    "question": "Lucía Fernández is facilitating a remote vision workshop for a new citizen-services app, with twenty participants joining from four cities. In the first 30 minutes, the chief digital officer described her own picture of the product at length, and every later contribution has simply built on it. Frontline caseworkers, who know the users best, have barely spoken. Ninety minutes of the session remain. What should Lucía do NEXT?",
+    "options": [
+      "Adopt the chief digital officer's picture as the working vision, since she is the senior leader who will ultimately sponsor the app",
+      "Have everyone add ideas silently to a shared online board before any discussion, then cluster them and converge as a group",
+      "Call on the caseworkers one at a time to respond to the chief digital officer's picture in front of the whole group",
+      "End the workshop early and interview each participant privately over the next two weeks to collect their ideas"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "When one senior voice has anchored a group, how do you gather everyone's thinking independently before discussing it?",
+    "why": "The group is anchoring on its most senior voice. Group decisions work best in a diverge/converge pattern: people generate ideas individually first, so senior or charismatic participants do not unduly shape everyone else, and then the group converges. Silent, simultaneous input on a shared virtual board suits the remote setting, gives caseworkers an equal voice, and still lets the group finish within the session.",
+    "how": "When a session is dominated or anchored, switch to a diverge/converge technique: individual, simultaneous idea generation (silent brainstorming, anonymous input), then group clustering and convergence.",
+    "optionNotes": [
+      "Incorrect — Seniority is not insight; adopting one view loses the frontline knowledge the vision needs and weakens shared ownership.",
+      "Correct — Silent, parallel ideation removes the anchor, brings in caseworkers' knowledge, and fits the remote format before the group converges.",
+      "Incorrect — Singling out quiet people in public adds pressure, and their answers would still be framed as reactions to the anchor.",
+      "Incorrect — Overcorrects: private interviews lose momentum and the shared experience of building the vision together."
+    ],
+    "deepDive": "PMBOK 7 describes the diverge/converge pattern and techniques such as Roman voting, fist of five, and wideband Delphi, which gather individual input at the same moment to reduce groupthink. Brainwriting and silent affinity mapping apply the same idea to vision work. Shared online whiteboards and anonymous polls make this easier in virtual sessions than in a room. Exam trap: calling on quiet people publicly looks inclusive but often increases pressure; change the process instead.",
+    "tags": [
+      "vision",
+      "facilitation",
+      "virtual team",
+      "decision making"
+    ]
+  },
+  {
+    "id": "PEO-106",
+    "domain": "People",
+    "task": "1. Develop a common vision",
+    "approach": "Any",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Framing the vision as an outcome",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Principles (3.4): focus on value and outcomes",
+    "question": "A regional health authority is building a new community clinic. At a team meeting, project manager Sipho Ndlovu asks what the project is for. Most answers describe the output: 'a 2,000-square-metre building finished by March.' Nobody mentions that the reason for the clinic is to cut the average wait for a first appointment from six weeks to one. Sipho worries that design trade-offs will be made without that goal in mind. What should Sipho do?",
+    "options": [
+      "Add the waiting-time target to the risk register so that it is reviewed at the project's monthly risk meeting",
+      "Keep the team focused on the building, since the waiting-time outcome belongs to the operations team after handover",
+      "Reframe the vision around the patient outcome and refer to it whenever the team makes design or trade-off decisions",
+      "Ask the architect to design the most spacious building the budget allows so that future demand can be accommodated"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Ask what the building is ultimately supposed to change for people.",
+    "why": "Value comes from outcomes, not deliverables. A vision that says how the future will be better (much shorter waits) gives the team a shared reason for the work and a test for trade-offs, such as choosing more consultation rooms over a larger lobby. Referring to the outcome during decisions keeps local choices aligned with the purpose.",
+    "how": "When a team describes its project only as a deliverable, restate the vision in outcome terms and use it explicitly when making decisions.",
+    "optionNotes": [
+      "Incorrect — The waiting-time target is a goal, not an uncertain event; the risk register is the wrong home and won't guide daily decisions.",
+      "Incorrect — Operations realize the benefit, but design choices made now determine whether the benefit is even possible.",
+      "Correct — An outcome-based vision gives the team a shared purpose and a practical test for design and trade-off decisions.",
+      "Incorrect — More space is not the goal; this is gold plating that may spend budget without shortening waits."
+    ],
+    "deepDive": "PMBOK 7 treats value, including outcomes from the customer's point of view, as the ultimate indicator of success. Daniel Pink's 'purpose' motivator applies too: people commit more when they see how their work makes a difference. In predictive projects the business case and benefits management plan hold outcome targets; in agile work the product goal and outcome metrics play that role. Remember: 'the building is finished' is project success, while 'waits drop to one week' is the benefit the business case promised.",
+    "tags": [
+      "vision",
+      "outcomes",
+      "value",
+      "motivation"
+    ]
+  },
+  {
+    "id": "PEO-107",
+    "domain": "People",
+    "task": "1. Develop a common vision",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "multi",
+    "topic": "Keeping the vision in daily use",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Team Performance Domain (2.2): vision and objectives in team development",
+    "question": "A product team at a logistics start-up co-created a strong vision at kickoff: 'Any small shop can ship next-day without a contract.' Three months later the vision sits on a slide nobody opens. In refinement sessions, developers debate options on technical merit alone, and the product owner notices that recent features rarely help small shops. Which TWO actions would BEST keep the vision guiding day-to-day work? (Select two.)",
+    "options": [
+      "Open each refinement and review by restating the vision and asking how each candidate item moves it forward",
+      "Have the project manager approve every backlog item before refinement to confirm that it matches the vision",
+      "Ask the product owner to express the vision as outcome measures shown on the team board beside the backlog",
+      "Email the vision statement to the team every month and ask each member to confirm that they have read it",
+      "Replace the vision with a detailed feature roadmap so that the team always knows exactly what to build next"
+    ],
+    "answer": [
+      0,
+      2
+    ],
+    "hint": "A vision guides work only when it is visible and actually used at the moments decisions are made.",
+    "why": "PMBOK 7 says the vision should be communicated throughout the project and referenced when the team makes decisions and solves problems. Restating it at refinement and review puts it into the decision points, and turning it into visible outcome measures lets the team check whether work really helps small shops. Both keep ownership with the team and the product owner.",
+    "how": "To keep a vision alive, embed it where decisions happen (planning, refinement, reviews) and make progress toward it visible with outcome measures; do not rely on one-way reminders or central approval.",
+    "optionNotes": [
+      "Correct — Brings the vision into the conversations where priorities and designs are decided, so it shapes choices rather than sitting on a slide.",
+      "Incorrect — Central approval by the project manager bypasses the product owner and turns the vision into a control gate rather than a shared guide.",
+      "Correct — Outcome measures shown beside the backlog make the vision concrete and let the team see whether its work is moving the needle.",
+      "Incorrect — Push reminders and read receipts create compliance, not understanding, and don't connect the vision to decisions.",
+      "Incorrect — A roadmap helps sequence work but answers 'what next', not 'why'; replacing the vision loses the purpose that guides trade-offs."
+    ],
+    "deepDive": "Information radiators and product-goal boards turn an abstract vision into something teams see every day. In Scrum, the product goal is the long-term objective the product backlog serves, and the product owner is accountable for it. A roadmap is useful for sequencing but can crowd out the 'why' if it replaces the vision. A common trap is equating communication with sending documents: PMBOK 7 notes that push communication makes it hard to gauge whether the message landed.",
+    "tags": [
+      "vision",
+      "multi-select",
+      "refinement",
+      "information radiator",
+      "agile"
+    ]
+  },
+  {
+    "id": "PEO-108",
+    "domain": "People",
+    "task": "2. Manage conflicts",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Heated conflict in a video session",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Models (4.2.7.1): conflict model — withdrawal and problem solving",
+    "question": "During a video refinement session for a distributed agile team, two senior developers in different countries argue over whether to rebuild or patch the notification service. Voices rise, one developer says the other 'always cuts corners,' and several cameras switch off. Forty minutes of the session remain, and the item is not needed for at least two more sprints. What should the project manager do?",
+    "options": [
+      "Call a short break, then bring the two developers together later to weigh both options against agreed criteria",
+      "Decide on the patch approach now so the session can move on and the remaining backlog items still get refined",
+      "Let the argument run its course so the developers can vent their frustration and reach a decision without interference",
+      "Report the personal remark to both developers' line managers and ask them to deal with the behavior directly"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "The discussion is heated and the decision is not urgent; what does each of those facts allow you to do?",
+    "why": "The argument has turned personal and the decision is not urgent, so a brief withdrawal to let people cool off is appropriate. Withdrawal alone would only postpone the problem, so reconvening to assess both options against shared criteria brings the conflict back to the issue rather than the people. This restores a safe environment and still resolves the technical question.",
+    "how": "For a heated but non-urgent conflict: pause to cool down, then return to problem solving focused on the issue and shared criteria; force only when time or safety demands it, and escalate only if the team cannot resolve it.",
+    "optionNotes": [
+      "Correct — A cooling-off pause followed by structured problem solving keeps the conflict about the work and restores psychological safety.",
+      "Incorrect — Forcing is for urgent or safety situations; here there is time, and imposing an answer leaves the underlying disagreement unresolved.",
+      "Incorrect — Letting a personal attack continue signals it is acceptable and further damages safety for the whole team.",
+      "Incorrect — Escalating to line managers is premature for a first heated exchange the team can still resolve with facilitation."
+    ],
+    "deepDive": "PMBOK 7's conflict model lists confronting/problem solving, collaborating, compromising, smoothing/accommodating, forcing, and withdrawal/avoiding. Withdrawal is legitimate for a cooling-off period or when a problem may resolve itself, but here it is only a temporary step. In virtual teams, cameras going off and sudden silence are warning signs that psychological safety is slipping, so the facilitator should keep words and tone nonthreatening. Exam trap: forcing a decision because the project manager 'has the context' is only right when there is no time to collaborate.",
+    "tags": [
+      "conflict",
+      "virtual team",
+      "cooling off",
+      "agile"
+    ]
+  },
+  {
+    "id": "PEO-109",
+    "domain": "People",
+    "task": "2. Manage conflicts",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "When compromise is the best fit",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Models (4.2.7.1): conflict model — compromising",
+    "question": "Aarav Mehta manages a hybrid ERP rollout. He needs the company's only certified tax specialist full-time for four weeks to finish tax configuration before a fixed regulatory go-live. Her functional manager, Chen Wei, who holds the same rank as Aarav, needs her half-time for a quarter-end close that also cannot move. Both needs are legitimate, the sponsor is unavailable for two weeks, and a decision is needed by Friday. Which approach is MOST appropriate?",
+    "options": [
+      "Hold a series of workshops with Chen's team to design a solution that fully satisfies both the rollout and the close",
+      "Insist on full-time access, pointing out that missing the regulatory go-live carries penalties the close does not",
+      "Accept Chen's position for now and revisit the tax configuration work when the sponsor returns in two weeks",
+      "Agree a split with Chen, such as three days a week for the rollout, and cover routine setup work with a contractor"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Look at relative power, the time available, and whether both sides can be fully satisfied.",
+    "why": "The two managers have equal power, both deadlines are fixed, and there is no time for extended collaboration before Friday: the conditions under which give-and-take compromise is the best practical outcome. Each side gets enough of the specialist to meet its hard date, and a contractor for routine setup protects the critical tax work. Forcing fails without positional power, and accommodating puts the regulatory go-live at risk.",
+    "how": "Match the conflict mode to the situation: collaborate when time and trust allow a full win-win; compromise when parties have similar power, time is short, and neither can be fully satisfied; force only with authority and urgency.",
+    "optionNotes": [
+      "Incorrect — Collaboration is ideal when time allows, but a series of workshops cannot finish before Friday and neither fixed date can move.",
+      "Incorrect — Forcing needs authority Aarav does not have over a peer, and it damages a relationship he will need again.",
+      "Incorrect — Accommodating costs two of the four weeks and makes the fixed regulatory go-live very likely to slip.",
+      "Correct — A time-bound split between equal-power managers meets both fixed dates, and the contractor reduces the load on the scarce specialist."
+    ],
+    "deepDive": "PMBOK 7's conflict model uses almost this example: a project manager compromising with a technical manager over a team member's availability. Some older texts label compromise 'lose-lose', but PMI treats it as appropriate when a complete win-win cannot be reached in the time available and power is balanced. Exam trap: 'collaborate' is often the default best answer, yet fixed dates, equal power, and a hard deadline can make it impractical. If the compromise failed, escalating to the sponsor or resource manager would be the next step.",
+    "tags": [
+      "conflict",
+      "compromise",
+      "resources",
+      "matrix",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "PEO-110",
+    "domain": "People",
+    "task": "2. Manage conflicts",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Conflict over a regulator's rule",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Models (4.2.7.1): conflict model — withdrawal in no-win situations",
+    "question": "Two months before a pharmaceutical packaging line is validated, the national regulator issues a binding rule requiring an extra serialization check on every batch. The quality lead believes the check adds little safety value and wants the project to lodge a formal objection and pause the related work until the regulator responds, which could take months. The rule applies to all manufacturers. What is the BEST way for the project manager to handle this disagreement?",
+    "options": [
+      "Support the quality lead's objection and pause the related work until the regulator responds to the formal challenge",
+      "Proceed with the original design and add the serialization check only if an inspector raises it during validation",
+      "Accept the rule, assess its impact, and raise a change request to add the serialization check to the scope and plan",
+      "Hold a workshop with the quality team to reach a consensus on whether the new check is worth implementing at all"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Some disagreements cannot be won; what matters is whether the obligation is binding.",
+    "why": "The rule is binding and applies to everyone, so contesting it is a no-win conflict; PMBOK 7 gives complying with a regulator's requirement rather than challenging it as an example of appropriate withdrawal. The project manager then follows the normal predictive process: analyze the impact and use change control to add the work. The quality lead can still give feedback through industry channels without stalling the project.",
+    "how": "When a conflict concerns a confirmed legal or regulatory obligation, comply and manage the impact through the normal change process; don't debate, delay, or seek consensus on whether to obey it.",
+    "optionNotes": [
+      "Incorrect — Pausing work for months to challenge a rule that applies to every manufacturer risks the schedule with little chance of success.",
+      "Incorrect — Knowingly ignoring a binding rule is non-compliance and an ethical breach, and it would likely fail validation anyway.",
+      "Correct — Steps away from an unwinnable fight, complies with the binding rule, and uses change control to integrate the new work properly.",
+      "Incorrect — Compliance is not optional, so seeking consensus on whether to implement it wastes time and sends the wrong message."
+    ],
+    "deepDive": "Compliance is part of stewardship: stewards follow properly authorized laws and regulations and seek counsel when guidance conflicts. Withdrawal/avoiding in the Thomas-Kilmann sense here means stepping away from a fight you cannot win, not ignoring the requirement. In predictive projects a new regulation becomes a change request assessed for scope, schedule, cost, and risk; in agile work the product owner adds it to the backlog as a must-have item. Exam trap: consensus-building sounds collaborative, but compliance is not put to a vote.",
+    "tags": [
+      "conflict",
+      "compliance",
+      "regulation",
+      "change control",
+      "predictive"
+    ]
+  },
+  {
+    "id": "PEO-111",
+    "domain": "People",
+    "task": "2. Manage conflicts",
+    "approach": "Agile",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Old grievances in a retrospective",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Team Performance Domain (2.2): conflict management approaches",
+    "question": "In a sprint retrospective, the team discusses why a payment feature failed acceptance testing. A developer, Tomasz, says, 'This is exactly what happened on the loyalty project last year when QA ignored us,' and two testers become defensive. The conversation starts circling around who was to blame on the old project. As the facilitator, what should the project manager do?",
+    "options": [
+      "Let the team fully revisit the loyalty project so that old grievances are aired and can finally be put to rest",
+      "Acknowledge the frustration, then steer the discussion back to this sprint and what the team will change next",
+      "Ask Tomasz to leave the retrospective so that the testers feel safe to contribute without being blamed for the past",
+      "Skip the payment topic and move on to a less sensitive item so that the retrospective stays positive and on time"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Which point in time can the team actually do something about?",
+    "why": "Bringing up past conflicts rarely resolves the current one and often intensifies it. Keeping communication respectful, focusing on issues rather than people, and anchoring on the present and future turns the discussion back into problem solving about this sprint's acceptance failure. Acknowledging Tomasz's frustration keeps him engaged instead of shutting him down.",
+    "how": "In team conflict, keep it safe, keep it about the issue, and keep it in the present and future; redirect blame-focused discussions toward what the team can change.",
+    "optionNotes": [
+      "Incorrect — Rehashing last year's project inflames the conflict and does nothing to fix this sprint's acceptance failure.",
+      "Correct — Validates the emotion without reopening old blame, and refocuses the team on the current problem and next actions.",
+      "Incorrect — Excluding a team member is punitive and damages psychological safety for everyone, including the testers.",
+      "Incorrect — Avoiding the topic keeps the mood pleasant but leaves the real cause of the failed feature unexamined."
+    ],
+    "deepDive": "PMBOK 7 recommends four conflict approaches: keep communication open and respectful, focus on issues rather than people, focus on the present and future rather than the past, and search for alternatives together. Many retrospectives open with a prime directive (everyone did the best job they could with what they knew at the time) to discourage blame. Avoiding the topic protects harmony in the short term but leaves the defect cause in place. In agile events the facilitator protects the process and safety without taking over the content.",
+    "tags": [
+      "conflict",
+      "retrospective",
+      "blame",
+      "agile"
+    ]
+  },
+  {
+    "id": "PEO-112",
+    "domain": "People",
+    "task": "3. Lead the project team",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Structured coaching conversation",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Models (4.2.1.2): OSCAR coaching model",
+    "question": "Farah Siddiqui, a business analyst on the team, tells the project manager she wants to become a product owner within 18 months. In their first coaching conversation they agreed on that long-term goal and discussed where she stands today: strong stakeholder skills but little experience prioritizing a backlog or saying no to executives. Farah now wants to enroll immediately in a certification course. Using a structured coaching approach, what should the project manager do NEXT?",
+    "options": [
+      "Explore routes to her goal, such as shadowing a product owner or running a small backlog, and weigh each one",
+      "Approve the certification course and schedule a follow-up meeting to review her progress once she has completed it",
+      "Tell Farah which route is best, based on how the project manager has seen successful product owners develop",
+      "Ask Farah's functional manager to confirm whether a product owner position will open up by the time she is ready"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "In a coaching conversation, what comes between understanding where someone is and committing to what they will do?",
+    "why": "The OSCAR model runs Outcome, Situation, Choices/consequences, Actions, Review. Farah has defined her outcome and described her situation, so the next step is to lay out possible routes and their consequences so she can choose viable ones. Jumping straight to a course skips that analysis, and her real gaps (prioritization and influencing executives) may not be closed by a course alone. Coaching also means Farah chooses rather than the project manager prescribing.",
+    "how": "In coaching conversations, follow the sequence: agree the outcome, understand the situation, explore choices and their consequences, commit to specific time-bound actions, then review regularly.",
+    "optionNotes": [
+      "Correct — Moves to choices and consequences, helping Farah compare routes against her real skill gaps before committing to action.",
+      "Incorrect — Jumps straight to action and review, skipping the comparison of options that would show whether a course fits her gaps.",
+      "Incorrect — Prescribing a route is directing, not coaching; Farah is capable and committed and should own the choice.",
+      "Incorrect — Job availability is outside the coaching conversation and doesn't help her build the skills she has identified."
+    ],
+    "deepDive": "OSCAR is a coaching and mentoring model that PMBOK 7 lists with situational leadership models. It pairs well with Situational Leadership II: a capable, committed person benefits from a coaching or supporting style rather than directing. Actions in OSCAR should be immediate and attainable within a set timeframe, and the review step keeps motivation and accountability going. Exam trap: approving the obvious action feels supportive, but skipping choices and consequences can lock someone into a weak development path.",
+    "tags": [
+      "coaching",
+      "oscar",
+      "career development",
+      "leadership"
+    ]
+  },
+  {
+    "id": "PEO-113",
+    "domain": "People",
+    "task": "3. Lead the project team",
+    "approach": "Any",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Leading an expert who lost confidence",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Models (4.2.1.1): Situational Leadership II",
+    "question": "Rafael Gómez is the most experienced integration engineer on a data-platform project. After a production incident he was involved in was discussed openly at a leadership review, his confidence dropped. He now hesitates to make design calls he used to make alone and keeps asking the project manager to confirm routine decisions. His technical skills are unchanged. Which leadership approach is MOST appropriate for Rafael right now?",
+    "options": [
+      "Directing: give him clear, step-by-step instructions on each design decision until the risk of another incident is gone",
+      "Delegating: hand all decisions back to him so that he rebuilds his confidence by working through them without help",
+      "Supporting: involve him in decisions, listen to his concerns, and encourage him to make the calls he is able to make",
+      "Coaching: provide detailed direction on the design approach while also explaining the reasoning behind each decision"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Separate what he is able to do from how confident and committed he currently feels.",
+    "why": "Situational Leadership II matches leadership style to a person's competence and commitment for a given task. Rafael's competence is high but his confidence has dropped, which calls for a supporting style: little direction, plenty of support, shared decision making, and encouragement. Directing or coaching would add instructions he doesn't need and could erode his confidence further, while delegating assumes a commitment that isn't there yet.",
+    "how": "Diagnose development level on two axes, competence (ability, knowledge, skill) and commitment (confidence, motivation), then flex from directing to coaching to supporting to delegating as both rise.",
+    "optionNotes": [
+      "Incorrect — Directing suits someone who lacks skill; giving an expert step-by-step instructions signals distrust and deepens his hesitation.",
+      "Incorrect — Delegating fits high competence and high commitment; stepping back completely now may leave him feeling abandoned.",
+      "Correct — High competence with shaky commitment calls for low direction and high support while he regains confidence in his own judgment.",
+      "Incorrect — Coaching includes high direction, which suits developing skills; Rafael's skills are intact, so the extra direction is unnecessary."
+    ],
+    "deepDive": "PMBOK 7 presents Blanchard's Situational Leadership II as a way to tailor leadership to individuals. Development level is task-specific and can regress after a setback, so even an expert may temporarily need more support. Emotional intelligence matters here: social awareness to notice the confidence drop, and self-management to avoid simply taking decisions off his plate. Exam trap: 'most experienced' does not automatically mean 'delegate'; always check commitment as well as competence.",
+    "tags": [
+      "situational leadership",
+      "motivation",
+      "confidence",
+      "leadership"
+    ]
+  },
+  {
+    "id": "PEO-114",
+    "domain": "People",
+    "task": "3. Lead the project team",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Team anxiety about AI tools",
+    "source": "ECO 2026 · People Task 3 · Leading a team through AI tool adoption",
+    "question": "Leadership announces that all development teams will use an AI coding assistant from next quarter. On Bianca's agile team, several developers worry the tool will be used to measure and eventually replace them, and a senior developer warns that generated code will quietly erode quality. Energy in the last two sprints has dropped noticeably. As the team's servant leader, what should Bianca do?",
+    "options": [
+      "Tell the team the rollout decision is final and that any worries about job security should be raised with human resources",
+      "Ask leadership to exempt her team from the rollout until every developer feels comfortable with the new assistant",
+      "Run a sprint-long contest to see which developer produces the most accepted code with the assistant's help",
+      "Explain what is and isn't decided, then let the team set norms for using and reviewing the tool in its working agreement"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Fear grows from uncertainty and loss of control; what can a servant leader offer against each?",
+    "why": "The team's anxiety comes from uncertainty and a sense of losing control. Being transparent about what is actually decided addresses fears of a hidden agenda, and letting the team define how the assistant is used and how generated code is reviewed restores autonomy and tackles the quality concern directly. This supports the organization's decision while protecting the team's health.",
+    "how": "When an organizational change such as new AI tooling unsettles a team, be transparent about what is decided and unknown, then give the team ownership of how the change is applied through its own working agreements.",
+    "optionNotes": [
+      "Incorrect — Dismissing concerns and redirecting them to HR leaves the fear unaddressed and signals the leader isn't listening.",
+      "Incorrect — Shielding the team from an organizational decision it cannot veto delays the change and isolates the team.",
+      "Incorrect — Ranking individual output with the tool confirms the fear of surveillance and rewards volume over quality.",
+      "Correct — Transparency reduces fear, and team-owned usage and review norms restore autonomy while addressing the quality risk."
+    ],
+    "deepDive": "Daniel Pink's intrinsic motivators (autonomy, mastery, purpose) are threatened when tools are imposed and might be used for surveillance. The team charter or working agreement is the agile place to set norms such as 'all AI-generated code is peer-reviewed and covered by tests.' The Hawthorne effect warns that measuring individual output can distort behavior. It is fair to raise concerns about how any metrics will be used, but blocking the adoption itself is not the team's decision.",
+    "tags": [
+      "ai",
+      "team agreements",
+      "motivation",
+      "servant leadership",
+      "agile"
+    ]
+  },
+  {
+    "id": "PEO-115",
+    "domain": "People",
+    "task": "4. Engage stakeholders",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Reading the engagement matrix",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Artifacts (4.6.6): stakeholder engagement assessment matrix",
+    "question": "Refer to the exhibit. Hamid Rahimi is the project manager for a hybrid e-prescribing rollout across three hospitals; the software is built in sprints, while hardware and training follow a phased plan. The pilot starts in six weeks, and the team has capacity for one focused engagement effort this month. Which action should Hamid prioritize?",
+    "exhibit": {
+      "kind": "table",
+      "title": "Stakeholder engagement assessment matrix (C = current, D = desired)",
+      "columns": [
+        "Stakeholder",
+        "Unaware",
+        "Resistant",
+        "Neutral",
+        "Supportive",
+        "Leading",
+        "Influence on pilot"
+      ],
+      "rows": [
+        [
+          "Chief pharmacist",
+          "",
+          "C",
+          "",
+          "",
+          "D",
+          "High"
+        ],
+        [
+          "Medical director",
+          "",
+          "",
+          "",
+          "",
+          "C, D",
+          "High"
+        ],
+        [
+          "IT operations manager",
+          "",
+          "",
+          "C",
+          "D",
+          "",
+          "Medium"
+        ],
+        [
+          "Clinic receptionists",
+          "C",
+          "",
+          "D",
+          "",
+          "",
+          "Low"
+        ],
+        [
+          "Finance officer",
+          "",
+          "",
+          "",
+          "C, D",
+          "",
+          "Medium"
+        ]
+      ]
+    },
+    "options": [
+      "Chief pharmacist: ask the medical director to instruct her to support the rollout before the pilot begins in six weeks",
+      "Chief pharmacist: meet her to understand the concerns behind her resistance and involve her in shaping the medication workflow",
+      "IT operations manager: secure his support first, since a neutral stakeholder is the quickest and easiest one to convert",
+      "Clinic receptionists: run an awareness campaign, since they are the only group in the matrix that is still unaware of the project"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Weigh the size of each gap against the stakeholder's influence, then ask what actually moves someone out of resistance.",
+    "why": "The chief pharmacist combines the widest gap (resistant to leading) with high influence over medication workflows, so her engagement matters most to the pilot. Resistance usually has reasons, such as workload, safety, or professional autonomy, so the effective action is to understand those concerns and give her a real role in shaping the solution. Having the medical director order her support might win compliance but not the leading engagement the pilot needs.",
+    "how": "Read a stakeholder engagement assessment matrix for gaps between current (C) and desired (D) levels, prioritize by gap size combined with influence and timing, and close gaps by understanding and involving people rather than pressuring them.",
+    "optionNotes": [
+      "Incorrect — Right stakeholder, wrong method: an instruction from above may produce grudging compliance rather than the leadership the plan needs.",
+      "Correct — Targets the largest, highest-influence gap and uses listening and involvement, which can move a resistant expert toward leading.",
+      "Incorrect — Picks an easy win over the most important gap; a medium-influence neutral stakeholder matters less to the pilot than a resistant pharmacist.",
+      "Incorrect — The receptionists' gap is real but small and their influence is low, so this is not the best use of the only focused effort."
+    ],
+    "deepDive": "PMBOK 7 lists the stakeholder engagement assessment matrix as a visual artifact comparing current and desired engagement levels: unaware, resistant, neutral, supportive, and leading. The matrix shows gaps but doesn't prioritize them on its own, so combine it with power/interest or salience analysis and timing. Influential stakeholders who are unfavorable deserve early, genuine engagement so their concerns are understood. Keep the matrix within the team, because notes about individuals' attitudes can be misread.",
+    "tags": [
+      "stakeholder engagement",
+      "exhibit",
+      "resistance",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "PEO-116",
+    "domain": "People",
+    "task": "4. Engage stakeholders",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Keeping stakeholder analysis confidential",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Stakeholder Performance Domain (2.1): understanding and analyzing stakeholders",
+    "question": "An agile team at a university is replacing the student enrollment system. To promote transparency, the scrum master proposes posting the team's full stakeholder analysis, including notes such as 'Registrar: skeptical, protective of her staff, likely to slow approvals', on the project wiki, which faculty, administrators, and student representatives can all read. What should the project manager recommend?",
+    "options": [
+      "Keep the detailed analysis within the team and post a neutral summary of roles and engagement plans on the wiki",
+      "Publish the analysis as proposed, since agile teams value transparency and stakeholders should see how they are viewed",
+      "Rewrite the registrar's notes in positive language and then publish the full analysis so that no one will take offense",
+      "Stop recording stakeholder attitudes altogether so that nothing sensitive could ever be shared by mistake in the future"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Consider how notes written for the team's planning might read to the people they describe.",
+    "why": "Stakeholder analysis records perceptions of attitudes, power, and beliefs that can easily be misread outside the context in which they were written, so PMBOK 7 advises holding it in confidence within the project team. A neutral summary still supports transparency about who is involved and how they will be engaged, without damaging relationships, especially with an influential registrar whose support the team needs.",
+    "how": "Be transparent about the work and the engagement approach, but treat analytical notes about individual stakeholders as confidential team information.",
+    "optionNotes": [
+      "Correct — Protects sensitive judgments about individuals while still being open about roles and how stakeholders will be engaged.",
+      "Incorrect — Agile transparency is about the work and progress, not publishing candid assessments of people, which would damage trust.",
+      "Incorrect — Softened notes lose their planning value, and publishing the analysis still invites people to dispute how they are labeled.",
+      "Incorrect — Without recorded analysis, the team cannot plan engagement well; the fix is controlled access, not no analysis."
+    ],
+    "deepDive": "Transparency in agile refers to the work, progress, and impediments, not candid assessments of individuals. The stakeholder register can hold classification data, while sensitive notes are often kept separately with restricted access. PMBOK 7's tailoring questions also point out that stakeholders embedded in many networks may receive misinformation, which raises the cost of a leak. Exam trap: 'we value transparency' is not a reason to publish information that harms trust.",
+    "tags": [
+      "stakeholder analysis",
+      "confidentiality",
+      "transparency",
+      "agile"
+    ]
+  },
+  {
+    "id": "PEO-117",
+    "domain": "People",
+    "task": "4. Engage stakeholders",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "multi",
+    "topic": "Union concerns about automation",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Stakeholder Performance Domain (2.1): prioritizing and reprioritizing stakeholders",
+    "question": "A logistics company is running a hybrid project to introduce AI-guided picking robots in two warehouses. At initiation, the stakeholder register rated the warehouse workers' union as low interest because phase one covered only inventory software. Last week a leaked slide showed the robots could reduce picking roles by 30%; the union has requested an urgent meeting and is threatening to file a grievance. Which TWO actions should the project manager take NEXT? (Select two.)",
+    "options": [
+      "Update the stakeholder analysis and priority for the union to reflect its changed interest and power",
+      "Decline the meeting until the robot design is final so the project does not make premature commitments",
+      "Send all warehouse staff a detailed FAQ on the robots' technical features and the project timeline",
+      "Meet union representatives with HR and the sponsor to hear their concerns and agree how to involve them",
+      "Ask the legal team to handle all contact with the union so the project team can stay focused on delivery"
+    ],
+    "answer": [
+      0,
+      3
+    ],
+    "hint": "A stakeholder's interest and power can change overnight; what must be revisited, and what does real engagement require?",
+    "why": "Identifying and prioritizing stakeholders is ongoing: an event has raised the union's interest and power, so the analysis and engagement priority must be updated. Engagement is interactive, so the next step is a conversation, with HR and the sponsor who hold authority over workforce decisions, to understand concerns and agree how the union will take part. Delaying, pushing technical FAQs, or handing everything to legal would harden resistance.",
+    "how": "When a stakeholder's power or interest shifts, re-analyze and reprioritize, then engage directly and early through two-way dialogue with the right decision-makers present.",
+    "optionNotes": [
+      "Correct — The union's interest and power have clearly changed, so its analysis and priority must be updated to drive the right engagement.",
+      "Incorrect — Refusing to meet while the union is escalating signals disregard and increases the chance of a formal grievance.",
+      "Incorrect — One-way technical information misses the union's real concern, which is jobs, not how the robots work.",
+      "Correct — Two-way dialogue with the people who can speak to workforce plans surfaces concerns early and builds a basis for involvement.",
+      "Incorrect — Routing everything through legal makes the relationship adversarial and removes the project from a stakeholder it must engage."
+    ],
+    "deepDive": "PMBOK 7 notes that stakeholders' influence, power, and interest can change as the project unfolds, so prioritization has to be revisited. Automation and AI projects often create workforce stakeholders whose concerns are about jobs, reskilling, and fairness, matters for the sponsor and HR rather than the project team alone. A salience view would now rate the union high on power and urgency with a legitimate claim. Early engagement can also surface opportunities, such as redeployment and training plans, that reduce resistance.",
+    "tags": [
+      "stakeholder engagement",
+      "multi-select",
+      "ai",
+      "union",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "PEO-118",
+    "domain": "People",
+    "task": "4. Engage stakeholders",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Beliefs behind resistance",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Stakeholder Performance Domain (2.1): understanding feelings, beliefs, and values",
+    "question": "Dr. Oluwaseun Adeyemi, head of orthopedic surgery, has opposed a new standardized surgical-kit program at every steering meeting. The project manager has twice presented cost savings and supplier data, but the surgeon's resistance has only grown, and two other surgeons now repeat his objections. The program follows a predictive plan, with supplier contracts due for signature in two months. What should the project manager do NEXT?",
+    "options": [
+      "Prepare a more detailed cost-benefit analysis, with benchmarks from peer hospitals, for the next steering committee meeting",
+      "Ask the sponsor to remind Dr. Adeyemi that the program is approved and that his cooperation is expected",
+      "Sign the supplier contracts on schedule and plan to address the surgeons' concerns during implementation",
+      "Meet Dr. Adeyemi privately to understand the beliefs and values behind his objection before proposing anything further"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "If the same kind of evidence has failed twice, the objection may not be about that kind of evidence.",
+    "why": "The project manager keeps answering an economic question the surgeon hasn't asked. Stakeholder analysis should seek to understand feelings, beliefs, and values, here perhaps clinical autonomy or patient safety, because those drive behavior. A private conversation can reveal the real concern and may lead to design changes (for example, surgeon-specific kit options) that turn an influential opponent into a supporter, which also affects the two surgeons who follow him.",
+    "how": "When facts don't move a resistant stakeholder, stop presenting and start listening: uncover the beliefs, values, and interests behind the position, then engage on those.",
+    "optionNotes": [
+      "Incorrect — More of the same financial evidence is unlikely to work when the objection is probably not financial.",
+      "Incorrect — Using authority may silence him in meetings but deepens resistance and damages the relationship needed for adoption.",
+      "Incorrect — Locking in contracts while influential users oppose the design risks costly rework and a failed rollout.",
+      "Correct — Listening privately uncovers what really drives the resistance, which is the only basis for a response that can change it."
+    ],
+    "deepDive": "PMBOK 7 lists aspects to analyze for each stakeholder, including power, impact, attitude, beliefs, expectations, degree of influence, proximity, and interest. It also notes that stakeholders form alliances, so one influential opponent can bring others with him. Win-win negotiation requires seeing the situation from the other party's point of view. Escalating to authority may win compliance but often costs the relationship needed for adoption; emotional intelligence, especially social awareness and empathy, is the key skill here.",
+    "tags": [
+      "stakeholder engagement",
+      "resistance",
+      "empathy",
+      "predictive"
+    ]
+  },
+  {
+    "id": "PEO-119",
+    "domain": "People",
+    "task": "4. Engage stakeholders",
+    "approach": "Predictive",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Stakeholders who perceive an impact",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Stakeholder Performance Domain (2.1): identifying stakeholders who perceive impact",
+    "question": "A renewable energy firm is building a wind farm under a predictive plan. The approved environmental study places a village 12 kilometers away outside every noise and visual-impact zone, so the village was left out of the stakeholder register. Residents have now formed an action group claiming the turbines will lower property values and spoil the landscape, and a local councillor has started attending their meetings. The site engineer argues the village is simply not a stakeholder. What should the project manager do?",
+    "options": [
+      "Send the action group a formal letter summarizing the environmental study's findings to show their concerns are unfounded",
+      "Leave the village out of the register, since the approved study defines who is affected, and monitor local media coverage",
+      "Add the action group to the stakeholder register, analyze its concerns and influence, and plan how to engage residents",
+      "Ask the councillor to explain the environmental study to residents, since she is better placed to reassure them"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Is a stakeholder defined only by measured impact?",
+    "why": "Stakeholders include those who perceive themselves to be affected, not only those a study says are affected. The residents now have an alliance with a councillor, which gives them potential influence over permits and the schedule. Registering and analyzing the group, then planning genuine engagement, lets the project understand and respond to their concerns before they become an obstacle.",
+    "how": "Treat anyone who may affect, be affected by, or believes they are affected by the project as a stakeholder; identification is continuous, and perceived impacts deserve analysis and engagement.",
+    "optionNotes": [
+      "Incorrect — A one-way letter answers a values concern with data and tells residents they are wrong, which often hardens opposition.",
+      "Incorrect — The study defines measured impacts, not who can influence the project; ignoring an organized group with political ties is risky.",
+      "Correct — Recognizes perceived impact as a basis for being a stakeholder and starts the identify–analyze–engage cycle for a growing group.",
+      "Incorrect — Handing engagement to a third party with her own agenda gives up the project's direct relationship with the residents."
+    ],
+    "deepDive": "PMBOK 7's definition of a stakeholder explicitly includes those who 'perceive' themselves to be affected. Community stakeholders often form alliances with political actors, so analysis should consider relationships among stakeholders, not only individuals. Replying only with technical data is a common mistake because the concern is often about values and trust. In predictive projects the stakeholder register and engagement plan are updated as new stakeholders emerge; agile teams do the same through ongoing stakeholder mapping.",
+    "tags": [
+      "stakeholder identification",
+      "community",
+      "alliances",
+      "predictive"
+    ]
+  },
+  {
+    "id": "PEO-120",
+    "domain": "People",
+    "task": "4. Engage stakeholders",
+    "approach": "Agile",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Involving end users early",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Principles (3.3): engage stakeholders proactively",
+    "question": "The product owner for a new internal case-management tool wants to keep call-center agents out of sprint reviews until the minimum viable product is 'polished.' She worries the agents will flood the team with requests and slow development down. Once launched, the agents will use the tool eight hours a day. What should the project manager advise?",
+    "options": [
+      "Support the product owner's plan, since user feedback is more useful once the product is much closer to being finished",
+      "Invite a rotating group of agents to reviews now and agree with the product owner how to prioritize their input",
+      "Survey all of the agents once the tool launches to measure how satisfied they are with the delivered product",
+      "Let the agents send their requests directly to developers so that the product owner is not overwhelmed by them"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Think about when feedback is cheapest to act on, and who should decide what to do with it.",
+    "why": "Engagement should start early and continue throughout, and the agents largely define what 'valuable' means for a tool they will use all day. Inviting a manageable, rotating group to reviews gives fast feedback while the product can still change cheaply. Agreeing how feedback enters the backlog keeps the product owner in control of priorities, which answers her worry about being flooded.",
+    "how": "Engage the people who will use the product early and continuously, and protect focus by channeling their input through the product owner and backlog rather than by excluding them.",
+    "optionNotes": [
+      "Incorrect — Waiting until the product is polished makes feedback expensive to act on and risks building the wrong thing.",
+      "Correct — Early, structured user involvement gets feedback while change is cheap, and the product owner keeps control of priorities.",
+      "Incorrect — A survey after launch measures satisfaction too late to shape the product and is one-way rather than engaging.",
+      "Incorrect — Bypassing the product owner fragments priorities and disrupts the developers far more than reviews would."
+    ],
+    "deepDive": "PMBOK 7 notes that stakeholders shape requirements, acceptance criteria, and outcome realization, and that engagement starts before or when the project starts. In agile, the sprint review is the main inspect-and-adapt event with stakeholders, and late feedback is the most expensive kind. Exam trap: shielding the team from distraction is part of servant leadership, but not at the cost of excluding the users whose adoption determines value.",
+    "tags": [
+      "stakeholder engagement",
+      "sprint review",
+      "end users",
+      "agile"
+    ]
+  },
+  {
+    "id": "PEO-121",
+    "domain": "People",
+    "task": "5. Align stakeholder expectations",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Interest-based negotiation between units",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Models (4.2.7.2): negotiation — think win-win",
+    "question": "A bank's hybrid program is building a shared customer-onboarding platform. The retail division wants the fastest possible sign-up, with three screens and no document uploads. The compliance division insists on full identity checks at sign-up, which retail says will double abandonment. Regulations require identity verification before an account is opened but don't prescribe how or when documents are collected. Both sides have written position papers, and meetings have become a race to escalate. What should the project manager do?",
+    "options": [
+      "Have both leads define what each must protect, then develop options, such as risk-based checks, that meet both",
+      "Ask the sponsor to choose between the two position papers now so that design work can start without any further delay",
+      "Split the difference by requiring document uploads for half of all new customers, selected at random during sign-up",
+      "Adopt the compliance division's design, since regulatory requirements always outweigh commercial preferences in banking"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Look past what each side is demanding to what each side actually needs, and check what the regulation really fixes.",
+    "why": "The divisions are negotiating positions, not interests. Retail's interest is low abandonment; compliance's interest is meeting verification rules before an account opens. A win-win approach has each side look at the problem from the other's point of view, agree what an acceptable solution must satisfy, and generate options, such as verifying low-risk customers electronically and requesting documents later, that meet both. Escalating first takes ownership away before any options have been explored.",
+    "how": "When stakeholders are stuck on positions, surface the interests behind them, agree criteria for an acceptable solution, and generate options together; escalate only if no option meets the criteria.",
+    "optionNotes": [
+      "Correct — Moves from positions to interests and joint option-building, which can satisfy both the regulation and the retail goal.",
+      "Incorrect — Premature escalation: the sponsor would be choosing between two positions when a solution meeting both interests may exist.",
+      "Incorrect — An arbitrary split is a compromise that likely fails the regulation for some customers and still hurts conversion.",
+      "Incorrect — The regulation is fixed, but compliance's chosen method is not; treating the position as the requirement forecloses better options."
+    ],
+    "deepDive": "PMBOK 7 uses Covey's 'think win-win' as its negotiation model. Win-win needs character (integrity and a belief that there is enough value for everyone), trust (agreements on how to operate), and approach (seeing the other party's view and jointly identifying options). Lose-lose happens when competition overwhelms collaboration, as the escalation race here threatens. This is also the interest-based negotiation of Fisher and Ury: compliance obligations are fixed, but how they are met is often negotiable.",
+    "tags": [
+      "negotiation",
+      "win-win",
+      "alignment",
+      "compliance",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "PEO-122",
+    "domain": "People",
+    "task": "5. Align stakeholder expectations",
+    "approach": "Predictive",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Trade-offs beyond the PM's authority",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Team Performance Domain (2.2): decisions beyond the team's authority",
+    "question": "Midway through a predictive hospital-wing construction project, the head of nursing asks for two additional isolation rooms, while the chief financial officer insists the budget cannot grow at all. Adding the rooms would exceed the project manager's authority on both cost and scope. The two executives have told the project manager to 'just sort it out.' What should the project manager do?",
+    "options": [
+      "Tell the head of nursing that the request is out of scope, because the CFO controls the budget and has already said no",
+      "Add the rooms using the contingency reserve, since patient safety justifies using it without waiting for a decision",
+      "Escalate the disagreement to the sponsor right away and ask her to settle it directly with the two executives",
+      "Analyze options, such as converting two standard rooms or phasing the work, with their impacts, and take them to the sponsor"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "The decision belongs above you, but what should arrive with it?",
+    "why": "The decision exceeds the project manager's authority, so it must go to someone who has it, typically the sponsor or change control board. But first the project manager should investigate alternatives and their impacts on scope, cost, schedule, and clinical need, so the decision-maker can choose quickly and with evidence. Doing this also shows both executives that their concerns were taken seriously.",
+    "how": "For decisions outside your authority, frame the problem, develop alternatives with their impacts, and escalate to the proper authority with a recommendation: bring solutions, not just problems.",
+    "optionNotes": [
+      "Incorrect — The project manager would be deciding a trade-off above their authority and siding with one executive without analysis.",
+      "Incorrect — Contingency reserve covers identified risks, not new scope; using it this way bypasses change control and the sponsor.",
+      "Incorrect — Escalation is the right direction, but passing the problem up with no analysis slows the decision and adds little value.",
+      "Correct — Prepares evidence-based alternatives and routes the trade-off to the authority who can decide, in line with governance."
+    ],
+    "deepDive": "PMBOK 7 describes this pattern for decisions beyond the team's authority: investigate alternatives, consider the impacts of each, and escalate to the person with the proper authority while staying within governance. Among the sponsor's functions is balancing conflicting stakeholder needs and making trade-offs. In predictive projects the formal route is a change request evaluated by the change control board. Exam trap: 'escalate' is right in direction but weak without analysis, and reserves are not a way around change control.",
+    "tags": [
+      "escalation",
+      "trade-offs",
+      "sponsor",
+      "change control",
+      "predictive"
+    ]
+  },
+  {
+    "id": "PEO-123",
+    "domain": "People",
+    "task": "5. Align stakeholder expectations",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "How much planning is enough",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Models (4.2.7.3): planning — the optimum amount of planning",
+    "question": "An executive committee has approved a hybrid project to launch a subscription service in an unfamiliar market. The committee chair asks project manager Yuki Tanaka for a complete 18-month plan, with every feature, date, and cost fixed before any development starts, 'so there are no surprises.' Customer needs in the new market are largely unknown, and a competitor is expected to launch within a year. How should Yuki respond?",
+    "options": [
+      "Produce the full 18-month plan as requested, since executives need detailed commitments before approving continued funding",
+      "Tell the committee that agile projects don't produce long-range plans and that dates will emerge as the team delivers",
+      "Explain the risk of over-planning an unknown market and propose firm near-term plans with a roadmap refined by feedback",
+      "Delay the start by three months to do enough market research to fix every feature, date, and cost with confidence"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "More planning reduces some risks but creates others; where is the balance when needs are unknown and time matters?",
+    "why": "More planning reduces uncertainty only up to a point; beyond it, planning delays the return on investment, risks losing market share, and produces plans that will change anyway. With unknown customer needs and a competitor on the way, the sweet spot is detailed planning for the near term, a high-level roadmap for the rest, and deliberate learning to refine it. This meets the committee's need for predictability without false precision.",
+    "how": "Align expectations about planning with the level of uncertainty: plan in detail what is knowable, keep the rest at roadmap level, and explain the trade-off between planning effort and speed to value.",
+    "optionNotes": [
+      "Incorrect — A fully fixed plan for an unknown market gives false confidence and will need heavy rework as customer needs emerge.",
+      "Incorrect — Dismisses a legitimate need for predictability; hybrid delivery still offers roadmaps, forecasts, and decision points.",
+      "Correct — Balances the committee's need for visibility against the cost of over-planning, and builds in learning where uncertainty is highest.",
+      "Incorrect — Research helps, but delaying to remove uncertainty that can only be resolved by delivering hands the competitor the market."
+    ],
+    "deepDive": "PMBOK 7 cites Barry Boehm's planning model: there is an optimum amount of planning, different for every project, beyond which extra planning becomes counterproductive. Rolling wave planning and release planning are practical ways to reach that sweet spot. Executives' wish for 'no surprises' is really a wish for managed risk, and transparent forecasts with ranges, frequent reviews, and decision points on the roadmap often satisfy it better than a falsely precise plan.",
+    "tags": [
+      "planning",
+      "expectations",
+      "uncertainty",
+      "roadmap",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "PEO-124",
+    "domain": "People",
+    "task": "5. Align stakeholder expectations",
+    "approach": "Any",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Agreeing success criteria up front",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Principles (3.3): stakeholders define success factors",
+    "question": "At the start of a project to redesign a city's public-transport ticketing app, the project manager interviews key stakeholders. The transport director defines success as launching before new fare zones take effect; the customer-experience lead defines it as raising app-store ratings from 2.9 to 4.2; the finance lead defines it as cutting ticketing costs by 15%. What should the project manager do FIRST?",
+    "options": [
+      "Adopt the transport director's definition, because the fare-zone date is the firmest constraint the project faces",
+      "Facilitate a session where stakeholders agree the success criteria, their priority, and how each one will be measured",
+      "Record all three definitions in the charter and report progress against each one separately, without ranking them",
+      "Ask the development team which of the three definitions of success they believe is the most realistic to achieve"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Three different yardsticks will lead to three different sets of trade-off decisions later.",
+    "why": "Stakeholders help define success factors and take part in judging success. Three unranked definitions will produce conflicting decisions later. Having the stakeholders agree on the criteria, their relative priority, and how each will be measured aligns expectations now and gives the team a clear basis for trade-offs.",
+    "how": "At initiation, make success explicit: agree measurable success criteria and their priority with key stakeholders before planning trade-offs.",
+    "optionNotes": [
+      "Incorrect — The project manager would be choosing among stakeholders' goals alone; the other two would feel ignored and disagree later.",
+      "Correct — Creates one agreed, prioritized, measurable definition of success that everyone can plan and decide against.",
+      "Incorrect — Recording conflicting criteria without priorities defers the conflict to the worst moment, when trade-offs must be made.",
+      "Incorrect — Realism matters, but success criteria belong to the stakeholders who will judge and fund the outcome, not the developers."
+    ],
+    "deepDive": "PMBOK 7's stakeholder principle notes that stakeholders define success factors and participate in evaluating success, and its vision questions include 'What defines successful project work?'. Distinguish project success (on time, on budget) from product and business success (ratings, cost savings); both usually need measures. Criteria that were never agreed tend to resurface later as disputes about whether the project 'worked.' In agile work, success is often expressed as outcome metrics tied to the product goal.",
+    "tags": [
+      "success criteria",
+      "alignment",
+      "expectations",
+      "initiation"
+    ]
+  },
+  {
+    "id": "PEO-125",
+    "domain": "People",
+    "task": "5. Align stakeholder expectations",
+    "approach": "Agile",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Closing the gap users experience",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Models (4.2.2.3): gulf of execution and evaluation",
+    "question": "An agile team is building an online parking-permit portal for a city council. In usability testing, residents click 'Renew' expecting their permit to renew in one step, but the portal makes them upload proof of address again every time, and many abandon the process. The council's legal team confirms that proof of address is required only once a year. The product owner asks the project manager how best to close the gap between what residents expect and what the portal does. What should the project manager recommend?",
+    "options": [
+      "Explore a flow that reuses address proof from the past year, and test a prototype with residents before the next review",
+      "Add clearer on-screen instructions explaining why residents must upload proof of address each time they renew a permit",
+      "Keep the current flow for launch and measure abandonment afterward to decide whether a redesign is worth funding",
+      "Ask the council's communications team to publicize the renewal steps so residents know what to expect before they start"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Before explaining a gap to users, check whether the gap needs to exist at all.",
+    "why": "Residents' intention (renew in one step) and what the product lets them do (re-upload every time) are misaligned, and the legal constraint doesn't require the extra step. The best way to align expectations is therefore to close the gap in the product and confirm the fix with real users early, rather than explaining or publicizing an unnecessary burden. Testing a prototype before the review keeps the feedback loop short and cheap.",
+    "how": "When users' expectations and a product's behavior diverge, first check whether the gap is necessary; if not, change the product and validate with users, and use explanation only for gaps that must remain.",
+    "optionNotes": [
+      "Correct — Removes an unnecessary step that causes the mismatch and validates the change with residents while it is still cheap to adjust.",
+      "Incorrect — Instructions help users understand the product but leave in place a step the rules don't require, so abandonment continues.",
+      "Incorrect — The problem is already evidenced; launching it knowingly wastes residents' time and makes the later fix more expensive.",
+      "Incorrect — Publicity resets expectations downward to match a flaw instead of fixing the product to meet a reasonable expectation."
+    ],
+    "deepDive": "PMBOK 7 describes Donald Norman's gulf of execution (the gap between what a user intends and what the item allows or supports) and gulf of evaluation (how easily users can work out how to interpret and use the item). Clearer instructions narrow the gulf of evaluation but do not remove an unnecessary step. In agile, prototypes, usability tests, and frequent reviews are the main tools for aligning expectations with the product. Exam trap: communicating harder about a poor design treats the symptom.",
+    "tags": [
+      "expectations",
+      "usability",
+      "prototype",
+      "agile"
+    ]
+  }
+]

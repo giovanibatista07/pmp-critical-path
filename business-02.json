@@ -1,0 +1,905 @@
+[
+  {
+    "id": "BUS-026",
+    "domain": "Business Environment",
+    "task": "3. Manage and control changes",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Change across hybrid components",
+    "source": "ECO 2026 · Business Environment Task 3",
+    "question": "Corvina Medical is building a connected infusion pump under a hybrid approach: the software team works in two-week sprints, while the circuit board is under a predictive baseline with a fixed manufacturing order due for release in six weeks. At a sprint review, the product owner asks for a sensor-calibration feature that clinicians value highly. The lead developer points out that it would also need an extra connector on the circuit board. What should the project manager do?",
+    "options": [
+      "Ask the board vendor to add the connector informally now and raise the paperwork once the software works",
+      "Analyze the end-to-end impact, then take the board change to change control and the feature to the backlog",
+      "Let the product owner add the feature to the backlog now and ask the hardware team to adapt the board later",
+      "Decline the feature, because any change that touches the baselined hardware design is too risky at this point"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Ask which change mechanism governs each component, and whether their impacts can really be judged separately.",
+    "why": "The feature spans both parts of a hybrid product, so its impact on the board design, the manufacturing order, cost, schedule and regulatory evidence has to be analyzed together with its effect on the backlog. The baselined hardware element then goes through formal change control, because it alters a fixed order and baseline, while the software work is ordered by the product owner in the backlog. Handling both halves as one change stops the software from depending on hardware that will never be built.",
+    "how": "For a change that crosses hybrid components, run one integrated impact analysis, then use each component's own control path: formal change control for baselined predictive elements, backlog ordering for adaptive ones.",
+    "optionNotes": [
+      "Incorrect — An informal request to the vendor bypasses the contract and change control, and could alter a regulated device without an assessed, approved design change.",
+      "Correct — One integrated impact analysis, followed by the right control mechanism for each component, keeps the hardware baseline controlled and the backlog value-driven.",
+      "Incorrect — Treating this as a software-only backlog item ignores the hardware baseline and order deadline, so the feature may depend on a board that never exists.",
+      "Incorrect — Rejecting it outright is too rigid; a valuable change may still be affordable before the order is released, and the decision belongs to the change process."
+    ],
+    "deepDive": "Hybrid projects often combine a hardware or construction element with a high cost of change and a software element where change is cheap, and integration management keeps the two aligned. The last responsible moment matters here: once the manufacturing order is released, a board change becomes far more expensive, so decisions that touch it must be made before that date. Many hybrid teams keep a shared dependency or interface register so the product owner can see which backlog items need predictive-side approval. The exam trap is picking one mechanism for both components: backlog control alone ignores the baseline, while formal change control for every software tweak destroys agility. For regulated devices, the design-change record is also compliance evidence.",
+    "tags": [
+      "hybrid",
+      "change control",
+      "integration",
+      "last responsible moment"
+    ]
+  },
+  {
+    "id": "BUS-027",
+    "domain": "Business Environment",
+    "task": "3. Manage and control changes",
+    "approach": "Predictive",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Communicating approved changes",
+    "source": "ECO 2026 · Business Environment Task 3 (communicate change status)",
+    "question": "The change control board for a regional airport's baggage-system upgrade has approved a change that moves go-live back by two weeks. The project manager has updated the schedule baseline and recorded the decision in the change log. Airline operations, the ground-handling contractor and the airport's training unit all have staffing and training plans tied to the old date. The next monthly status report is due in three weeks. What should the project manager do NEXT?",
+    "options": [
+      "Inform each affected group of the change and its impacts now, as the communications plan sets out",
+      "Put the new date in next month's status report so that it reaches everyone together with the other updates",
+      "Tell the project team first, since they adjust their own work, and let each lead pass it on to their contacts",
+      "Point stakeholders to the updated change log, where they can already check any decision that concerns them"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "An approved change is not finished until the people whose plans depend on it know about it.",
+    "why": "Approval and a baseline update do not complete the change: groups whose plans rest on the old date must hear about it promptly so they can re-plan staffing and training. The communications plan identifies who needs change decisions, in what form and how quickly, so the project manager should proactively send the decision and its impacts to airline operations, the ground handler and the training unit now. Waiting three weeks, relying on second-hand relays or expecting people to read a log invites rework and conflict.",
+    "how": "After a change is approved: update plans and baselines, record the decision, then proactively communicate it and its impacts to every affected stakeholder through the planned channels — never rely on them to discover it.",
+    "optionNotes": [
+      "Correct — Proactive, planned communication gives each affected group the decision and its consequences in time to adjust their own plans.",
+      "Incorrect — A routine report three weeks away is too slow for a date change that affects other organizations' staffing and training.",
+      "Incorrect — The team is only one of several affected groups, and informal relays lose detail and leave external parties hearing late or inaccurately.",
+      "Incorrect — A change log is a record, not a communication; expecting stakeholders to find decisions there is passive and invites surprises."
+    ],
+    "deepDive": "In integrated change control, communicating the outcome of a change request — approved, rejected or deferred — is part of the process, not an optional extra. The stakeholder register and communications plan help surface indirect stakeholders such as operations, suppliers, training, customer service and marketing, who are easy to forget. A good change notice states what changed, why, the new dates or costs, what each group needs to do, and whom to contact. In agile settings the equivalent is updating the roadmap or release plan and walking stakeholders through it at the review rather than letting them find out at release. A common exam trap is 'include it in the next scheduled report', which sounds orderly but is too slow for a change that affects others' plans.",
+    "tags": [
+      "change communication",
+      "stakeholders",
+      "change control",
+      "communications plan"
+    ]
+  },
+  {
+    "id": "BUS-028",
+    "domain": "Business Environment",
+    "task": "3. Manage and control changes",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Types of change requests",
+    "source": "ECO 2026 · Business Environment Task 3",
+    "question": "During sprint 6 of a patient-portal project, a developer learns that a newly published vulnerability affects the third-party login library the team uses. No incident has occurred, the portal still meets every requirement and passes its tests, and nothing in the plan has slipped. The developer raises a change request to upgrade the library in the next sprint so the weakness cannot be exploited later. How should the project manager classify this change request?",
+    "options": [
+      "Preventive action",
+      "Corrective action",
+      "Defect repair",
+      "Update to a controlled document"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Ask whether anything has actually gone wrong yet, and whether the product currently fails to meet its requirements.",
+    "why": "Nothing has deviated from the plan and the product conforms to its requirements, so the request is not fixing an existing problem. Upgrading the library reduces the probability that a future security incident will harm the project's outcomes, which is the definition of a preventive action. Corrective action would realign performance that has already deviated, and defect repair would fix a component that fails its requirements.",
+    "how": "Classify change requests by timing and target: corrective action fixes a current deviation from the plan, preventive action avoids a future one, defect repair fixes a nonconforming product, and updates change controlled documents.",
+    "optionNotes": [
+      "Correct — The upgrade lowers the likelihood of a future negative event while performance and the product are still on track.",
+      "Incorrect — Corrective action addresses performance that has already departed from the plan; here nothing has slipped or failed.",
+      "Incorrect — The portal meets its requirements and passes testing, so there is no nonconforming deliverable to repair.",
+      "Incorrect — An update changes a formally controlled plan or document; this request changes the product's components to avoid a future problem."
+    ],
+    "deepDive": "PMI groups change requests into corrective action, preventive action, defect repair and updates to plans or documents, and exam items often hinge on timing: has the problem happened yet? Security patching is a common preventive action, and many organizations back it with policies requiring critical vulnerabilities to be fixed within set timeframes, which links the change to compliance. In agile teams the request would typically become a backlog item ordered by the product owner, often high because the security risk is time-sensitive. A frequent trap is calling any technical fix 'defect repair'; a defect exists only when the deliverable fails its requirements or specifications.",
+    "tags": [
+      "preventive action",
+      "change request types",
+      "security",
+      "agile"
+    ]
+  },
+  {
+    "id": "BUS-029",
+    "domain": "Business Environment",
+    "task": "3. Manage and control changes",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Emergency changes",
+    "source": "ECO 2026 · Business Environment Task 3",
+    "question": "At 9:40 on a Monday, the online ordering platform that a retail project released last week goes down, and the business estimates lost sales at $20,000 per hour. The team has found the cause: a configuration setting that must be changed. Normally such changes wait for Thursday's change advisory board, but the change management plan defines an emergency procedure with a designated on-call approver. What should the project manager do?",
+    "options": [
+      "Have the team apply the fix at once, since an outage this costly justifies setting change control aside",
+      "Submit the change to Thursday's board so it receives the same full review as every other change request",
+      "Ask the business to take orders manually until Thursday, then implement whatever the board approves",
+      "Get the on-call approver's authorization under the emergency procedure, then document and review it"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Urgency changes how fast a change is controlled — ask whether it changes whether it is controlled at all.",
+    "why": "The organization already has an authorized fast route for exactly this situation. Using the emergency procedure gets the fix in within minutes while keeping an accountable approver, and documenting it afterward plus a post-implementation review keep the change log, configuration records and lessons learned complete. Waiting until Thursday would cost roughly three days of outage — well over a million dollars at $20,000 per hour — while skipping approval risks a hasty change making things worse.",
+    "how": "For urgent changes, use the predefined expedited path: authorize quickly through the designated authority, implement, then document and review — never 'no process' and never 'business as usual'.",
+    "optionNotes": [
+      "Incorrect — Skipping authorization removes the check that stops a rushed change from causing a second failure, and leaves no accountable decision.",
+      "Incorrect — Treating an emergency like a normal change ignores a costly, ongoing outage when the plan provides a faster authorized route.",
+      "Incorrect — Accepting days of manual work and lost sales for a solvable problem ignores the business impact and the emergency procedure.",
+      "Correct — The expedited, authorized path balances speed with control, and the follow-up documentation and review keep records and learning intact."
+    ],
+    "deepDive": "IT service management frameworks such as ITIL distinguish standard changes (pre-approved and low risk), normal changes (assessed by a change advisory board) and emergency changes (authorized quickly by an emergency authority, sometimes a smaller emergency board). The principle tested here is that urgency changes the speed of control, not whether control applies: an emergency change still has an approver, a record and a review. The post-implementation review checks that the fix worked, looks for side-effects, and asks whether the root cause needs a preventive change through the normal process. Both 'fix it now, paperwork never' and 'wait for the scheduled board' are classic distractors.",
+    "tags": [
+      "emergency change",
+      "change control",
+      "ITIL",
+      "post-implementation review"
+    ]
+  },
+  {
+    "id": "BUS-030",
+    "domain": "Business Environment",
+    "task": "3. Manage and control changes",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Verifying implemented changes",
+    "source": "ECO 2026 · Business Environment Task 3 (implement approved changes)",
+    "question": "Last week, the team on a records-management project implemented an approved change request that adds a seven-year retention rule for customer files. The developer has marked the work 'complete' and asks the project manager to close the change request today so the change log looks clean for tomorrow's steering committee meeting. The change affects how the archive deletes records. What should the project manager do?",
+    "options": [
+      "Close the change request now, since the developer who built it has confirmed that the work is complete",
+      "Verify the change against what was approved, update the change log, and confirm the result with stakeholders",
+      "Leave the change request open until the final quality audit, which will review every change made on the project",
+      "Treat the change as complete, since approved changes are finished once they have been implemented and deployed"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Ask how an approved change is shown to have been implemented as approved before its record is closed.",
+    "why": "An approved change is only complete when someone has checked that it was implemented as approved. Here the retention rule controls how records are deleted, so an error could destroy files the organization must keep; verifying it against the approved request (for example, by testing deletion behavior), then updating the change log and confirming with the requester, closes the loop. A developer's self-report is not verification, and waiting for a final audit lets defects travel downstream.",
+    "how": "Approved change life cycle: approve → implement → verify it was implemented as approved → update records (change log, configuration, baselines) → communicate and close.",
+    "optionNotes": [
+      "Incorrect — A self-report is not verification; closing on the builder's word alone risks an untested rule deleting records the organization must keep.",
+      "Correct — Checking the implementation against the approved request, then updating records and confirming, is how an approved change is properly closed.",
+      "Incorrect — Deferring verification to the end lets a faulty change operate for months and makes problems harder and costlier to trace.",
+      "Incorrect — Implementation is not the last step; approved changes must be verified before they are recorded as complete."
+    ],
+    "deepDive": "In PMI's process model, approved change requests are an input to quality control, which checks that they were implemented as approved and produces verified deliverables. The change log should record the final status, and configuration records and baselines should reflect the implemented change. For compliance-related changes such as data retention, keeping verification evidence (test results and sign-off) helps in later audits. In agile teams the same discipline appears as acceptance criteria and a definition of done that apply to change-driven backlog items. A common trap is confusing 'implemented' with 'verified' — the exam expects both before closure.",
+    "tags": [
+      "verify change",
+      "control quality",
+      "change log",
+      "compliance"
+    ]
+  },
+  {
+    "id": "BUS-031",
+    "domain": "Business Environment",
+    "task": "3. Manage and control changes",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Change request during a go-live freeze",
+    "source": "ECO 2026 · Business Environment Task 3 · Change freeze and exception handling before cutover",
+    "question": "A hybrid ERP rollout at Tessaro Foods is three weeks from cutover. Configuration was built in sprints, but the change management plan now imposes a freeze: only defect fixes and CCB-approved exceptions may enter the release. The finance director asks for an extra field on the supplier-payment report, saying it will take 'one day' and is needed for quarter-end, two weeks after go-live. The developers agree it looks simple. What should the project manager do?",
+    "options": [
+      "Let a developer add the field this week, since it is small and can still be regression-tested before cutover",
+      "Log the request, assess its cutover risk and business need, and take it to the CCB as a freeze exception",
+      "Decline the request and explain that the freeze means no new changes can be considered until after go-live",
+      "Ask the sponsor to waive the freeze for this request, given the director's seniority and quarter-end deadline"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Ask what the change management plan says should happen to requests that arrive during a freeze, and who decides.",
+    "why": "A freeze does not stop requests from arriving; it means they are handled under stricter rules. The plan says exceptions need CCB approval, so the project manager records the request, has the team assess its effect on regression testing and cutover risk, weighs it against the quarter-end need (including alternatives such as a manual extract or an early post-go-live patch), and lets the CCB decide. That respects both the stakeholder and the agreed process.",
+    "how": "During a change freeze, log every request and route it through the defined exception path with an impact analysis; don't implement it informally, refuse it by reflex, or escalate around the change authority.",
+    "optionNotes": [
+      "Incorrect — Informal 'small' changes during a freeze are exactly what the freeze exists to prevent; an unassessed change can break a tested release at cutover.",
+      "Correct — It honors the freeze rules while taking the need seriously: the CCB decides with an impact analysis and alternatives such as a post-go-live patch.",
+      "Incorrect — The plan allows approved exceptions, so a blanket refusal ignores a legitimate need and takes a decision that belongs to the CCB.",
+      "Incorrect — Going to the sponsor bypasses the CCB, and seniority or deadline pressure is not a criterion for overriding an agreed change process."
+    ],
+    "deepDive": "Change freezes (code or configuration freezes) are common before cutover in predictive and hybrid releases because they protect a tested, stable baseline while the organization prepares to go live. A good change management plan defines the freeze window, what may still enter (typically severity-rated defects and regulatory items) and who approves exceptions. Deferred requests should be logged and planned into an early post-go-live release so stakeholders see that 'not now' does not mean 'never'. In purely agile work, the closest equivalent is the product owner protecting the sprint goal while new requests go to the product backlog. The exam trap is that both 'just do it, it's small' and 'rules are rules, no' skip the analysis and the rightful decision-maker.",
+    "tags": [
+      "change freeze",
+      "change control",
+      "CCB",
+      "hybrid",
+      "cutover"
+    ]
+  },
+  {
+    "id": "BUS-032",
+    "domain": "Business Environment",
+    "task": "4. Remove impediments and manage issues",
+    "approach": "Any",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Risk that occurs becomes an issue",
+    "source": "ECO 2026 · Business Environment Task 4",
+    "question": "On a warehouse automation project, the risk register lists 'conveyor motors delayed by supplier', with a contingency plan to switch the order to a pre-qualified second supplier. The procurement lead owns the risk, and the trigger is 'shipment more than five days late'. Today the supplier confirms the motors will arrive three weeks late, and their installation is on the critical path. What should the project manager do?",
+    "options": [
+      "Wait a few more days to see whether the supplier can recover some of the delay before any action is taken",
+      "Have the risk owner carry out the contingency plan, log the issue, and monitor whether the response works",
+      "Add a new risk describing the late delivery to the register and schedule a workshop to plan a fresh response",
+      "Escalate to the sponsor so that she can decide how the project should respond to the supplier's late delivery"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "The trigger in the register has been reached — ask what the planning work was done for.",
+    "why": "The risk has occurred, so it is now an issue, and its trigger condition has clearly been met. The response was planned in advance and has an owner, so the project manager should make sure the procurement lead executes the contingency plan, record the issue in the issue log, and monitor whether the second supplier delivers — ready to use a fallback if it does not. This is within the project's authority and uses the value of the earlier planning.",
+    "how": "When an identified risk occurs: treat it as an issue, have the risk owner implement the planned response, log and track it, and monitor effectiveness; improvise a workaround only when no planned response exists.",
+    "optionNotes": [
+      "Incorrect — The trigger has already been passed; waiting wastes the lead time the contingency plan needs on a critical-path activity.",
+      "Correct — Executing the planned response through its owner, logging the issue and monitoring results is exactly what the risk planning prepared for.",
+      "Incorrect — The event is no longer an uncertainty; re-analyzing it as a new risk delays a response that already exists.",
+      "Incorrect — A planned, owned response within the project's authority does not need a sponsor decision; escalating here only adds delay."
+    ],
+    "deepDive": "PMI distinguishes a risk (an uncertain future event) from an issue (a current condition that must be dealt with); when a risk occurs, the issue log tracks it while the risk register records that the response was used. Triggers are the warning signs that tell the owner to act, which is why risk registers pair each significant risk with an owner and a trigger. If the contingency plan fails, the fallback plan comes next; if nothing was planned, the team develops a workaround. Afterward, the outcome should feed the lessons learned register so future estimates of supplier risk improve. A common exam trap is escalating something the project has already planned for.",
+    "tags": [
+      "issue",
+      "contingency plan",
+      "risk response",
+      "triggers"
+    ]
+  },
+  {
+    "id": "BUS-033",
+    "domain": "Business Environment",
+    "task": "4. Remove impediments and manage issues",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Workarounds",
+    "source": "ECO 2026 · Business Environment Task 4 (apply intervention strategies)",
+    "question": "One week before a data-center migration weekend, a fault in the fire-alarm system forces the project team out of its building for five days. Nobody had identified this risk, so there was no plan for it. The team lead quickly arranges temporary desks and network access in a sister office across town, and work continues with little delay. Which statement BEST describes this response and what the project manager should do afterward?",
+    "options": [
+      "It is a fallback plan; charge its cost to the contingency reserve held for the risk",
+      "It is a contingency plan; update the register to show the planned response was used",
+      "It is a workaround; log it as an issue and check whether similar risks need adding",
+      "It is risk mitigation; close the risk, since its impact was reduced before migration"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Ask whether the event had been identified and whether the response existed before it happened.",
+    "why": "The event was never identified, and the response was improvised after it occurred, which makes it a workaround rather than a planned response. Contingency and fallback plans exist only for identified risks and are prepared in advance, and mitigation acts before an event to reduce its probability or impact. Afterward, the project manager should record the issue and its handling, and ask whether similar facility risks belong in the risk register so they are not missed next time.",
+    "how": "Identified risk with a planned response = contingency plan (then fallback if it fails); unidentified or unplanned event handled on the spot = workaround, followed by learning and register updates.",
+    "optionNotes": [
+      "Incorrect — A fallback plan is a pre-planned backup for an identified risk, and there was no contingency reserve for a risk nobody identified.",
+      "Incorrect — A contingency plan is prepared in advance for an identified risk; this response was invented after the event.",
+      "Correct — An unplanned response to an unidentified event is a workaround; logging it and reviewing the register turns the surprise into learning.",
+      "Incorrect — Mitigation reduces probability or impact before an event occurs; here the event had already happened when the team responded."
+    ],
+    "deepDive": "Workarounds deal with unknown-unknowns or with risks that were accepted passively, and they are typically funded from management reserve rather than contingency reserve, which covers identified risks. After a workaround, good practice is to record it in the issue log, capture a lesson, and reassess whether the risk identification process missed a category — facilities and site services are commonly overlooked. PMBOK 7 describes resilience as the ability to absorb impacts and recover quickly, which is what a well-handled workaround shows. The exam often tests the sequence: contingency plan first, fallback plan if it fails, workaround only when nothing was planned.",
+    "tags": [
+      "workaround",
+      "unknown-unknowns",
+      "issues",
+      "management reserve"
+    ]
+  },
+  {
+    "id": "BUS-034",
+    "domain": "Business Environment",
+    "task": "4. Remove impediments and manage issues",
+    "approach": "Any",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Issue log",
+    "source": "ECO 2026 · Business Environment Task 4 (resolve issues)",
+    "question": "Six weeks into a program to modernize a city's building-permit system, the same problems keep coming back in weekly meetings: a missing data-sharing agreement with the fire department, unclear ownership of the test environment, and slow sign-offs from the legal team. Each meeting ends with 'someone should look into it', but a week later nobody knows who acted or when each problem will be solved. What should the project manager do?",
+    "options": [
+      "Take personal ownership of every open problem so that there is one clear point of accountability",
+      "Add the problems to the risk register so that they are reviewed with the other project risks",
+      "Record each problem as an issue with an owner, priority and due date, and review it regularly",
+      "Keep each problem on the weekly agenda and discuss it until the group agrees that it is resolved"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Ask what is missing when a problem is discussed every week but nothing happens.",
+    "why": "These are current problems, not future uncertainties, so they are issues. What is missing is ownership and follow-through: an issue log assigns each issue to the person best placed to resolve it, sets a priority and target date, tracks status, and is reviewed regularly so slippage is visible and escalation can happen on time. More discussion or a single overloaded owner would not create that accountability.",
+    "how": "Issue management: log it → prioritize → assign an owner and due date → track and review → resolve or escalate → close and capture lessons.",
+    "optionNotes": [
+      "Incorrect — The project manager becomes a bottleneck, and issues such as a legal sign-off are better owned by people with the right authority and knowledge.",
+      "Incorrect — The problems are already happening, so they are issues, not risks; the risk register is for uncertain future events.",
+      "Correct — Named owners, priorities, dates and regular review turn open-ended discussion into accountable, visible action.",
+      "Incorrect — Discussion without ownership or deadlines is exactly what has failed for six weeks; more meeting time will not fix it."
+    ],
+    "deepDive": "A typical issue log records the issue, its type, who raised it and when, its impact and priority, the owner, the target resolution date, status, escalation level and final resolution. Issues that exceed the owner's authority or pass their target date should follow the escalation path set in the governance or communications plan. In agile teams, impediments serve the same purpose and are often made visible on a board with a 'blocked' marker and age. The exam contrast to remember: risk register = future uncertainty; issue log = current problems; change log = requested changes and their status.",
+    "tags": [
+      "issue log",
+      "ownership",
+      "accountability",
+      "escalation"
+    ]
+  },
+  {
+    "id": "BUS-035",
+    "domain": "Business Environment",
+    "task": "4. Remove impediments and manage issues",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Prioritizing impediments",
+    "source": "ECO 2026 · Business Environment Task 4 (prioritize obstacles)",
+    "question": "On day 3 of a two-week sprint, a Scrum team at a payments start-up lists five impediments: builds take 25 minutes per run; the production API key needed for a sprint-goal story has not been issued by the bank partner; the open-plan area is noisy; two developers want a cloud certification course next quarter; and a backlog item for a later release is vague. Otherwise the sprint is on track. Which impediment should the project manager work on FIRST?",
+    "options": [
+      "The slow builds, because every developer loses time to them on each run",
+      "The noisy work area, because it distracts the whole team every single day",
+      "The missing API key, because it blocks a story needed for the sprint goal",
+      "The vague backlog item, because unclear stories cause rework in later sprints"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Ask which obstacle threatens the commitment the team made for this sprint, and how long it might take to clear.",
+    "why": "Impediments are prioritized by their impact on delivering value now. The missing API key blocks work the sprint goal depends on, and because an external partner must issue it, the lead time makes it urgent on day 3. The slow builds and noise reduce efficiency but block nothing today, the training request is a future need, and the vague item can be refined in backlog refinement.",
+    "how": "Order impediments by impact and urgency: anything blocking the sprint goal or critical path first, then chronic productivity drains, then future or low-impact items.",
+    "optionNotes": [
+      "Incorrect — Slow builds are a real, recurring drain worth fixing soon, but they slow the work rather than block the sprint goal.",
+      "Incorrect — Noise is an irritant that affects comfort and focus, but it does not stop any committed work from being completed.",
+      "Correct — It directly blocks sprint-goal work, and the external lead time for the key means every day of delay raises the risk.",
+      "Incorrect — A vague item for a later release is normal refinement work for the product owner and team, not an urgent impediment."
+    ],
+    "deepDive": "Servant leaders remove impediments the team cannot remove itself, and they triage them by impact on the current goal first. Many teams track impediments on a visible board or 'blocked' column and watch how long items stay blocked, because aging blockers are a leading indicator of missed goals. Chronic issues such as slow builds are often best handled as improvement items raised in the retrospective, with the product owner making room for them in the backlog. The exam trap is choosing the problem that affects the most people rather than the one that blocks the commitment right now.",
+    "tags": [
+      "impediments",
+      "prioritization",
+      "sprint goal",
+      "servant leadership"
+    ]
+  },
+  {
+    "id": "BUS-036",
+    "domain": "Business Environment",
+    "task": "4. Remove impediments and manage issues",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Recurring issues",
+    "source": "ECO 2026 · Business Environment Task 4 / Task 6",
+    "question": "For the fourth time in two months, a release of a logistics company's customer portal has failed because configuration settings in production differ from those in staging. Each time, a senior engineer spends an evening fixing it by hand, and the release goes out a day late. The team says the fix is 'routine now' and wants to move on to feature work. What should the project manager do?",
+    "options": [
+      "Make the senior engineer the owner of every release so configuration problems are fixed as they appear",
+      "Keep fixing each failure by hand, since the fix is now quick and the releases do eventually go out",
+      "Release less often so that configuration problems occur fewer times and disrupt less of the work",
+      "Facilitate a root cause analysis with the team and implement a fix that prevents the drift"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Ask what the pattern — the same failure four times — says about the real problem.",
+    "why": "A problem that recurs four times in two months is a symptom of an unaddressed root cause, and fixing it by hand each time wastes effort, delays releases and depends on one person. Facilitating a root cause analysis with the team — for example, 5 Whys on how configuration drifts between environments — leads to a preventive fix such as keeping configuration in version control and deploying it automatically. That removes the recurrence instead of absorbing it.",
+    "how": "One-off issue → resolve it. Recurring issue → analyze the root cause, implement preventive action, verify that it works, and capture the lesson.",
+    "optionNotes": [
+      "Incorrect — Relying on one expert creates a single point of failure and still treats each failure after it happens rather than preventing it.",
+      "Incorrect — Repeated manual fixes treat the symptom, so the cost in late releases and evening work keeps coming back.",
+      "Incorrect — Releasing less often delays value and hides the problem, making each larger release riskier instead of removing the cause.",
+      "Correct — Root cause analysis followed by preventive action, such as managing configuration as code, eliminates the recurrence."
+    ],
+    "deepDive": "Root cause tools include 5 Whys, fishbone (Ishikawa) diagrams, fault tree analysis and Pareto analysis of failure categories. In DevOps practice, configuration drift is usually removed with infrastructure and configuration as code, automated pipelines and identical environments, which make releases repeatable. Recurring issues are also a continuous-improvement signal: the fix should be verified over the next few releases and the lesson shared with other teams. On the exam, 'the fix is quick' is never a reason to keep treating symptoms.",
+    "tags": [
+      "root cause analysis",
+      "preventive action",
+      "DevOps",
+      "recurring issues"
+    ]
+  },
+  {
+    "id": "BUS-037",
+    "domain": "Business Environment",
+    "task": "4. Remove impediments and manage issues",
+    "approach": "Agile",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Cross-team dependency blocker",
+    "source": "ECO 2026 · Business Environment Task 4 · Cross-team dependency impediment in scaled agile",
+    "question": "Five Scrum teams are building a new mobile banking release, coordinated by the project manager through a weekly cross-team sync. For two sprints, Team Kestrel's card-controls stories have been blocked waiting for an API from Team Orca, whose product owner has ranked that work below Orca's own features. Kestrel's Scrum Master has raised the block only in Kestrel's daily scrums, and the release goal depends on card controls. What should the project manager do?",
+    "options": [
+      "Ask Orca's developers to build the API in their next sprint, since the release goal depends on it",
+      "Have Kestrel build the API inside Orca's codebase itself so that it no longer has to wait for Orca",
+      "Raise it at the cross-team sync, show the dependency, and have both product owners agree an order",
+      "Escalate to the sponsor, who can direct Orca's product owner to reprioritize the API for the release"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Ask where cross-team conflicts are meant to be surfaced, and who owns the ordering of each team's work.",
+    "why": "The block is a cross-team dependency that no single team can resolve, and it has stayed invisible where it matters because it was discussed only inside Kestrel. The cross-team sync exists for exactly this, so the project manager should put it on that agenda, show it on a shared dependency board, and help the two product owners order the API against Orca's features using the release goal. Directing Orca's developers or escalating bypasses the product owners who own ordering, and building in another team's code without agreement creates quality and ownership problems.",
+    "how": "For cross-team impediments in scaled agile: surface them in the coordination forum, visualize dependencies with owners and dates, and let the relevant product owners resolve ordering against the shared goal; escalate only if they cannot agree.",
+    "optionNotes": [
+      "Incorrect — Directing another team's developers bypasses Orca's product owner, who is accountable for ordering that team's backlog.",
+      "Incorrect — Working in another team's code without agreement risks quality and ownership conflicts; any such arrangement must be agreed by both teams, not imposed.",
+      "Correct — Surfacing the dependency where teams coordinate and letting the product owners order work against the release goal resolves it at the right level.",
+      "Incorrect — Escalating before the product owners have even discussed the conflict is premature and takes a routine ordering decision away from them."
+    ],
+    "deepDive": "Scaled agile approaches all provide a cross-team forum for dependencies — a Scrum of Scrums, a release sync, or joint planning events where dependencies are mapped on a shared board. Visualizing each dependency with an owner and a needed-by date turns a hidden blocker into a shared decision. Where several product owners serve one product, a lead or chief product owner often arbitrates ordering conflicts, which is the natural escalation path if the two cannot agree. Longer term, organizations reduce dependencies by building teams around features or value streams rather than components. The exam trap is jumping to the sponsor or directing developers before using the product owners and the coordination forum.",
+    "tags": [
+      "impediments",
+      "dependencies",
+      "scaled agile",
+      "scrum of scrums",
+      "product owner"
+    ]
+  },
+  {
+    "id": "BUS-038",
+    "domain": "Business Environment",
+    "task": "4. Remove impediments and manage issues",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "External dependency issues",
+    "source": "ECO 2026 · Business Environment Task 4 (evaluate impact)",
+    "question": "A predictive project to build a distribution center needs a municipal grading permit before site work can start. The city has introduced a new environmental review, and the permit will now arrive six weeks later than planned. Site work is on the critical path, and the client's lease on its old warehouse ends two months after the planned opening date. What should the project manager do FIRST?",
+    "options": [
+      "Start the site work now and complete the permit paperwork in parallel to protect the opening date",
+      "Recommend cancelling the project, since a six-week critical-path delay undermines the business case",
+      "Accept the six-week delay, move the opening date back, and update the schedule baseline to match",
+      "Analyze the delay's impact on the schedule and lease, and look for options such as resequencing"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Ask what you need to know before deciding whether the delay can be absorbed, reduced or must be escalated.",
+    "why": "The permit is an external dependency the project cannot control, but its effect on the schedule is not yet known. The first step is to quantify the impact — including the lease deadline two months after opening — and look for ways to reduce it: resequencing work not tied to the permit, making sure the submission is complete to speed the review, pre-ordering long-lead items or fast-tracking later activities. With options and their costs in hand, the project manager can then seek any baseline change through change control and inform the client and sponsor.",
+    "how": "For an issue caused by an external dependency: assess the impact, develop options within the project's control, then escalate or request changes with a recommendation, and communicate.",
+    "optionNotes": [
+      "Incorrect — Starting regulated site work without the required permit is illegal and could trigger stop-work orders, fines or rework.",
+      "Incorrect — Cancellation is a governance decision, and recommending it is premature before the impact and recovery options are known.",
+      "Incorrect — Accepting the full delay without analysis gives up options, such as resequencing, that might protect the opening and lease deadline.",
+      "Correct — Impact analysis and recovery options come first; they give the sponsor and client a sound basis for any schedule change."
+    ],
+    "deepDive": "External dependencies such as permits, utilities, regulators and other projects should be identified early, logged as risks with owners and monitored, because the project cannot control them directly. When one slips, schedule compression options include fast-tracking (overlapping activities, which adds risk) and crashing (adding resources, which adds cost), alongside resequencing work that does not depend on the late item. Any change to the schedule baseline still goes through integrated change control. The exam trap is either passive acceptance or an illegal shortcut; the PMI answer analyzes and looks for options first.",
+    "tags": [
+      "external dependency",
+      "permits",
+      "critical path",
+      "schedule compression"
+    ]
+  },
+  {
+    "id": "BUS-039",
+    "domain": "Business Environment",
+    "task": "4. Remove impediments and manage issues",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Escalating organizational impediments",
+    "source": "ECO 2026 · Business Environment Task 4",
+    "question": "An agile team at a health insurer releases every two weeks, but each release needs sign-off from a security review board that meets monthly. Over the last quarter, finished features waited an average of 19 days for approval, and two customer commitments slipped. The project manager has worked with the board's staff to pre-book slots and bundle requests, without real improvement. What should the project manager do NEXT?",
+    "options": [
+      "Allow the team to skip the security review for changes it judges to be low risk, to keep work flowing",
+      "Pause new development until the security review board agrees to meet as often as the team releases",
+      "Escalate to leadership with the delay data and options such as pre-approved, automated checks",
+      "Treat the reviews as a fixed constraint and plan an extra month of buffer before every customer release"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Local fixes have been tried — ask who can change this constraint and what they would need to decide.",
+    "why": "The impediment sits outside the team and beyond the project manager's direct influence, and local attempts have not worked. Escalating to the leaders who own the security process is now appropriate, with evidence (a 19-day average wait and slipped commitments) and constructive options that keep the control's purpose while improving flow — for example, pre-approved design patterns, risk-based review tiers or automated security checks in the pipeline. That respects the control rather than bypassing it.",
+    "how": "Escalate organizational impediments once local efforts fail, and bring the data, the impact, what was tried, recommended options and the decision needed.",
+    "optionNotes": [
+      "Incorrect — Letting the team bypass a mandated security control creates compliance and security risk and erodes trust in the team.",
+      "Incorrect — Halting development is disproportionate, wastes capacity and pressures the board instead of solving the problem with it.",
+      "Correct — A data-backed escalation with options that preserve the purpose of security review gives leaders a clear, constructive decision.",
+      "Incorrect — Padding every release accepts a costly impediment as permanent and delays value that customers are already waiting for."
+    ],
+    "deepDive": "DevSecOps shifts security left by embedding security expertise and automated tests — static analysis, dependency scanning, policy as code — in the delivery pipeline, so most changes can be approved by evidence rather than meetings. Risk-based tiers, with pre-approved standard changes and full reviews only for high-risk ones, are another common remedy. Effective escalations are short: the problem, its measured impact, what was tried, options with trade-offs, and the decision needed from whom. The exam distinguishes this from premature escalation because local resolution was tried first here.",
+    "tags": [
+      "escalation",
+      "impediments",
+      "DevSecOps",
+      "governance"
+    ]
+  },
+  {
+    "id": "BUS-040",
+    "domain": "Business Environment",
+    "task": "4. Remove impediments and manage issues",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Product owner latency across time zones",
+    "source": "ECO 2026 · Business Environment Task 4 · Decision latency in a distributed agile team",
+    "question": "An agile team in Manila is building a claims app for an insurer whose product owner, Hélène, works in Toronto, 12 hours behind. When developers have a question about a story's business rules, they post it and wait until the next day for her answer, so many stories sit idle for a day or more and average cycle time has doubled. Hélène answers promptly during her own day but cannot change her hours. What should the project manager do?",
+    "options": [
+      "Ask the Manila developers to shift their working hours so they overlap with Toronto for most of the day",
+      "Let the developers decide business rules themselves when blocked, and correct any errors in later sprints",
+      "Ask the sponsor to replace Hélène with a product owner based in Manila to remove the time-zone gap",
+      "Agree with Hélène to refine stories further ahead and name a delegate who can answer in Manila's hours"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Ask why the work is waiting, and how the wait could be removed without anyone working unsustainable hours.",
+    "why": "The impediment is decision latency: work waits for answers that only one person in a distant time zone can give. Working with the product owner to reduce the questions (clearer acceptance criteria and examples agreed in refinement before the sprint) and to delegate day-to-day clarifications to someone available in Manila's hours, within limits she sets, tackles both causes while she stays accountable for the backlog. The alternatives burn out the team, create rework or remove a product owner who is doing her job.",
+    "how": "When wait states block flow, find why work waits and reduce it at the source — better refinement and delegated decision rights within clear limits — rather than demanding unsustainable hours or guesswork.",
+    "optionNotes": [
+      "Incorrect — Permanently moving a whole team's hours into the night is unsustainable and unfair, and it treats the symptom rather than the bottleneck.",
+      "Incorrect — Guessing business rules creates rework and quality risk, and it quietly takes decisions that belong to the product owner.",
+      "Incorrect — Replacing a responsive product owner over a solvable coordination problem is disproportionate and discards her business knowledge.",
+      "Correct — Better-prepared stories cut the number of questions, and a delegate with agreed limits answers the rest while Hélène keeps accountability."
+    ],
+    "deepDive": "Distributed teams often lose more time to waiting than to working, and flow metrics such as cycle time and blocked time make that cost visible. Common remedies include refining stories one or two sprints ahead with clear acceptance criteria and examples, written decision rules, a short daily overlap window, and a product owner delegate or business analyst who can clarify within agreed limits. The Scrum Guide allows the product owner to delegate work while remaining accountable, which is why a delegate is legitimate here. The exam pattern is to fix the system that causes the wait rather than demand heroics or bypass the product owner.",
+    "tags": [
+      "impediments",
+      "distributed teams",
+      "product owner",
+      "flow",
+      "cycle time"
+    ]
+  },
+  {
+    "id": "BUS-041",
+    "domain": "Business Environment",
+    "task": "5. Plan and manage risk",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Negative risk responses",
+    "source": "ECO 2026 · Business Environment Task 5 (execute responses)",
+    "question": "A hospital-construction project must ship a $1.8 million MRI scanner by sea. The team has already specified certified crating and shock sensors, which bring the chance of transit damage down to about 2%. Even so, damage would mean buying a replacement scanner, which the project budget could not absorb. The sponsor asks the project manager how to handle this remaining financial exposure. Which response is MOST appropriate?",
+    "options": [
+      "Transfer it by buying cargo insurance for the scanner's full replacement value",
+      "Avoid it by redesigning the project so that the scanner does not need to be shipped",
+      "Accept it by adding the scanner's full replacement cost to the contingency reserve",
+      "Mitigate it further by adding a second inspection and extra crating before loading"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Ask what kind of exposure is left once the probability is already low — and who is best placed to carry it.",
+    "why": "The probability has already been reduced sensibly, so what remains is a low-probability, high-impact financial exposure the project cannot absorb. Transferring that financial impact to an insurer for a modest premium is the efficient response. Setting aside the full replacement cost as contingency for a risk whose expected value is about $36,000 (0.02 × $1.8 million) would tie up funds, avoidance is not feasible because the scanner must be delivered, and further mitigation adds little once best practice is in place.",
+    "how": "Match the response to the residual profile: transfer suits low-probability, high-cost financial exposures a third party can bear; mitigate reduces probability or impact; avoid removes the cause; accept suits exposures within tolerance.",
+    "optionNotes": [
+      "Correct — Insurance moves the financial consequence of a rare but unaffordable loss to a third party at a known, modest cost.",
+      "Incorrect — The scanner has to reach the hospital, so there is no realistic way to remove the shipment; avoidance is not feasible.",
+      "Incorrect — Reserving the full replacement cost for a 2% risk ties up far more money than the exposure's expected value justifies.",
+      "Incorrect — Mitigation is already at best practice; more inspections barely change a 2% probability and do nothing about the financial impact."
+    ],
+    "deepDive": "PMI lists five threat responses: escalate, avoid, transfer, mitigate and accept (active acceptance with a contingency reserve, or passive acceptance). Transfer shifts ownership of the impact — usually financial — through insurance, performance bonds, warranties or contract terms, and it normally costs a premium. It does not remove the risk itself: a damaged scanner would still delay commissioning, so a schedule contingency may still be needed, and new risks created by the policy terms are secondary risks. Responses are often combined, as here, where mitigation came first and the residual exposure is transferred.",
+    "tags": [
+      "transfer",
+      "insurance",
+      "risk responses",
+      "residual risk"
+    ]
+  },
+  {
+    "id": "BUS-042",
+    "domain": "Business Environment",
+    "task": "5. Plan and manage risk",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Opportunity responses",
+    "source": "ECO 2026 · Business Environment Task 5",
+    "question": "A contractor's agreement to commission a water-treatment plant pays a $150,000 bonus if the plant is handed over four weeks early. The schedule shows an early finish is possible but far from certain. The sponsor says the bonus is strategically important and wants the early finish made as certain as possible, not merely more likely. Which risk response should the project manager plan?",
+    "options": [
+      "Enhance: add overtime to the commissioning tasks to raise the chance of finishing early",
+      "Exploit: commit the best engineers and the test rig to the critical commissioning work",
+      "Share: offer part of the bonus to the commissioning subcontractor in return for its help",
+      "Accept: take the bonus if the schedule happens to allow it, without changing any plans"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Notice the sponsor's exact words about how certain the early finish should be.",
+    "why": "The sponsor wants the opportunity realized with as much certainty as possible, which is the aim of an exploit response: act to remove the uncertainty so the opportunity definitely happens, for example by committing the most capable people and key equipment exclusively to the critical work. Enhancing only raises the probability, sharing gives part of the benefit to a partner, and accepting takes no action at all.",
+    "how": "Opportunity responses: exploit (make it certain), enhance (increase probability or impact), share (allocate to a third party best able to capture it), accept (take it if it comes), escalate (beyond the project's authority).",
+    "optionNotes": [
+      "Incorrect — Overtime is an enhance response: it makes the early finish more likely but does not aim to guarantee it, as the sponsor asked.",
+      "Correct — Exploiting aims to make the opportunity certain, for example by dedicating the best people and key equipment to the critical work.",
+      "Incorrect — Sharing makes sense when a partner is better placed to capture the upside; here the contractor can secure it without giving any away.",
+      "Incorrect — Passive acceptance takes no action, which conflicts with the sponsor's wish to make the early finish as certain as possible."
+    ],
+    "deepDive": "Threat and opportunity responses mirror each other: avoid ↔ exploit, transfer ↔ share, mitigate ↔ enhance, while accept and escalate apply to both. Exam items usually signal exploit with words such as 'ensure' or 'make certain', and enhance with 'increase the likelihood' or 'improve the impact'. Exploiting an opportunity can create secondary risks — pulling top engineers from other work may threaten another project — so the choice may need portfolio-level agreement. In agile work, opportunities often appear as backlog items that the product owner can move up to capture value sooner.",
+    "tags": [
+      "exploit",
+      "opportunities",
+      "positive risk",
+      "risk responses"
+    ]
+  },
+  {
+    "id": "BUS-043",
+    "domain": "Business Environment",
+    "task": "5. Plan and manage risk",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Expected monetary value (calculation)",
+    "source": "ECO 2026 · Business Environment Task 5 (analyze risks)",
+    "question": "During quantitative risk analysis for a factory fit-out, the team assesses two risks: a 30% chance that a supplier failure will cost $50,000, and a 20% chance that a bulk-purchase discount will save $20,000. The sponsor wants a single figure for the combined expected monetary value (EMV) of these two risks to inform the contingency discussion. What is the combined EMV?",
+    "options": [
+      "−$30,000",
+      "−$19,000",
+      "−$11,000",
+      "+$4,000"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Give each impact a sign before weighting it by its probability.",
+    "why": "EMV = probability × impact, with threats negative and opportunities positive. Threat: 0.30 × (−$50,000) = −$15,000. Opportunity: 0.20 × (+$20,000) = +$4,000. Combined EMV = −$15,000 + $4,000 = −$11,000, so the two risks together are expected to cost about $11,000.",
+    "how": "Give every impact a sign (threats negative, opportunities positive), multiply each by its probability, then add the results; never combine raw impacts or subtract an opportunity.",
+    "optionNotes": [
+      "Incorrect — This adds the raw impacts (−$50,000 + $20,000) without weighting them by their probabilities.",
+      "Incorrect — This subtracts the opportunity (−$15,000 − $4,000) instead of adding it, treating a saving as another cost.",
+      "Correct — The threat's −$15,000 plus the opportunity's +$4,000 gives a combined EMV of −$11,000.",
+      "Incorrect — This is the opportunity's EMV on its own; it leaves out the threat's expected cost of −$15,000."
+    ],
+    "deepDive": "EMV is the probability-weighted average outcome and is used in decision tree analysis and as one input to sizing contingency reserves. It assumes risk neutrality, so a risk-averse sponsor may still want protection against a single large loss even when the combined EMV is small. Including opportunities in the calculation is correct, but some organizations reserve only for threats and track opportunities separately. For overall project risk, Monte Carlo simulation gives a fuller picture than summing individual EMVs.",
+    "tags": [
+      "EMV",
+      "quantitative risk",
+      "calculation",
+      "opportunities"
+    ]
+  },
+  {
+    "id": "BUS-044",
+    "domain": "Business Environment",
+    "task": "5. Plan and manage risk",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Decision tree analysis",
+    "source": "ECO 2026 · Business Environment Task 5",
+    "question": "A logistics company must decide how to obtain a route-optimization module. Building it in-house would cost $120,000, with a 40% chance of a $50,000 overrun. Buying a commercial module would cost $150,000, with a 10% chance of $20,000 in extra integration work. The steering group judges other factors to be equal. Using decision tree analysis based on expected cost, which option should the project manager recommend?",
+    "options": [
+      "Build in-house: expected cost $140,000",
+      "Buy commercially: expected cost $150,000",
+      "Buy commercially: expected cost $152,000",
+      "Build in-house: expected cost $170,000"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Each branch's expected cost is its base cost plus the probability-weighted extra cost.",
+    "why": "Expected cost = base cost + (probability × extra cost). Build: $120,000 + 0.40 × $50,000 = $120,000 + $20,000 = $140,000. Buy: $150,000 + 0.10 × $20,000 = $150,000 + $2,000 = $152,000. Building has the lower expected cost by $12,000, so it is the branch to recommend.",
+    "how": "In a decision tree, calculate each branch's expected value by weighting outcomes by their probabilities, roll the values back to the decision node, and choose the lowest expected cost or highest expected value.",
+    "optionNotes": [
+      "Correct — $120,000 + (0.40 × $50,000) = $140,000, which is lower than the buy option's expected $152,000.",
+      "Incorrect — This uses the purchase price alone and ignores the 10% chance of $20,000 in extra integration work.",
+      "Incorrect — $152,000 is the correct expected cost for buying, but it is higher than building's $140,000.",
+      "Incorrect — This adds the full $50,000 overrun as if it were certain instead of its probability-weighted $20,000."
+    ],
+    "deepDive": "A decision tree maps each choice (decision node) and its uncertain outcomes (chance nodes), and the expected value of each branch is rolled back to the decision. The lowest expected cost is the default choice, but the final decision can still weigh factors the tree omits, such as strategic capability, vendor lock-in or the organization's risk attitude. A risk-averse sponsor might prefer buying if a $50,000 overrun would breach a hard funding limit, even though its expected cost is higher. Make-or-buy analysis in procurement planning often uses exactly this technique.",
+    "tags": [
+      "decision tree",
+      "EMV",
+      "make-or-buy",
+      "calculation"
+    ]
+  },
+  {
+    "id": "BUS-045",
+    "domain": "Business Environment",
+    "task": "5. Plan and manage risk",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Qualitative risk analysis",
+    "source": "ECO 2026 · Business Environment Task 5",
+    "question": "A risk workshop for a hospital's electronic-records migration has produced 60 risks. The steering committee meets in two days and wants to know which risks deserve detailed response planning first. The team has only rough judgments of likelihood and impact for most of them, and no cost or schedule models yet. Which technique should the project manager use FIRST?",
+    "options": [
+      "A decision tree comparing response options for each of the 60 risks",
+      "A probability and impact matrix to rate and rank all of the risks",
+      "A Monte Carlo simulation of the schedule using all identified risks",
+      "A sensitivity analysis showing which risks drive the cost outcome"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Ask which technique fits a long list, rough judgments and a two-day deadline.",
+    "why": "Qualitative analysis is the fast, low-cost way to prioritize a long list: each risk is rated for probability and impact against defined scales, and the matrix ranks them so the team can focus response planning — and any later quantitative analysis — on the high-priority few. With rough judgments, no models and two days, the quantitative techniques would be slow and would lack the data they need.",
+    "how": "Prioritize first with qualitative analysis (probability, impact and factors such as urgency); use quantitative techniques only for top risks or overall project risk when the data and stakes justify the effort.",
+    "optionNotes": [
+      "Incorrect — Decision trees compare specific alternatives; building 60 of them would be slow and is not a way to rank a risk list.",
+      "Correct — Rating every risk on agreed probability and impact scales quickly produces the ranked list the committee needs.",
+      "Incorrect — Monte Carlo needs a quantified model and is used for overall project risk or top risks, not for a first ranking of 60 risks.",
+      "Incorrect — Sensitivity (tornado) analysis needs a quantitative model that does not exist yet, and it ranks drivers of one outcome only."
+    ],
+    "deepDive": "Beyond probability and impact, qualitative analysis can use urgency, proximity, dormancy, manageability, controllability, detectability, connectivity and strategic impact to refine priorities. A risk data quality assessment checks whether the ratings are reliable enough to act on. Quantitative analysis — Monte Carlo, decision trees, sensitivity analysis — is usually reserved for high-stakes projects or the top-ranked risks because it needs models and effort. In agile settings, teams often do this ranking lightly and frequently, updating the backlog as risks change.",
+    "tags": [
+      "qualitative risk analysis",
+      "probability impact matrix",
+      "prioritization",
+      "risk"
+    ]
+  },
+  {
+    "id": "BUS-046",
+    "domain": "Business Environment",
+    "task": "5. Plan and manage risk",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Risk owners and triggers",
+    "source": "ECO 2026 · Business Environment Task 5 (maintain register)",
+    "question": "A software project's risk register includes 'key developer resigns', rated high, with a planned response: bring in a pre-approved contractor and run a two-week knowledge handover. Last month, two senior developers resigned within a week of each other, yet nobody activated the response for three weeks, and the handover window was lost. In the retrospective, each team lead said they assumed someone else was watching that risk. What was MOST likely missing from the register?",
+    "options": [
+      "A named owner to monitor the risk and a trigger that says when to act",
+      "A historical probability for resignations drawn from similar past projects",
+      "A risk category and a unique identifier for tracking and reporting the risk",
+      "A link to the risk breakdown structure and a statement of the root cause"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "The response was planned — ask what makes a planned response actually happen on time.",
+    "why": "The response itself existed; what failed was activation. A risk owner is accountable for monitoring a risk and launching its response, and a trigger is the observable condition — such as a key developer's resignation letter — that tells the owner to act. Without either, everyone assumed someone else was watching, and three weeks passed. Historical data, categories and root causes improve analysis but do not make anyone act.",
+    "how": "For every significant risk, record an owner (who acts), triggers (when to act) and the response (what to do), and review them regularly so planned responses are actually executed.",
+    "optionNotes": [
+      "Correct — A named owner plus a clear trigger makes someone accountable for noticing the event and launching the planned response promptly.",
+      "Incorrect — Historical probabilities improve the rating of the risk, but they would not have prompted anyone to act when it occurred.",
+      "Incorrect — Categories and IDs help organize and report risks, but they do not make anyone responsible for acting.",
+      "Incorrect — The risk breakdown structure and root cause support identification and analysis rather than timely execution of the response."
+    ],
+    "deepDive": "A complete risk register entry typically holds the description, cause and effect, probability, impact, priority, owner, response, triggers, contingency and fallback plans, and status. The risk owner may delegate specific actions to action owners, but someone must stay accountable for watching each risk. Triggers for staff attrition might include falling engagement scores, a competitor's hiring drive or a key person's reduced availability. In agile teams, risks are often reviewed in daily scrums and retrospectives with owners named on the risk board. Exam trap: a well-analyzed register still fails if nobody owns the response.",
+    "tags": [
+      "risk owner",
+      "triggers",
+      "risk register",
+      "accountability"
+    ]
+  },
+  {
+    "id": "BUS-047",
+    "domain": "Business Environment",
+    "task": "5. Plan and manage risk",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Secondary vs. residual risk",
+    "source": "ECO 2026 · Business Environment Task 5",
+    "question": "To reduce the risk of an outage in its ageing on-premises data center, a retailer's project moves the order system to a single cloud provider. The move cuts the outage probability sharply, but some chance of a regional cloud outage remains. The team also realizes the company may now depend on that provider's proprietary services, which would make a later switch costly. How should the project manager record these two risks in the register?",
+    "options": [
+      "Record vendor dependence as residual risk and the remaining outage chance as a secondary risk",
+      "Record vendor dependence as a trigger for the outage risk, and close the original outage risk",
+      "Record both as accepted risks, since each one follows directly from a response that was approved",
+      "Record vendor dependence as a secondary risk and the remaining outage chance as residual risk"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "For each risk, ask whether the response created it or whether it is what is left of the original risk.",
+    "why": "A secondary risk is a new risk that arises from implementing a response — dependence on one provider's proprietary services exists only because of the move to the cloud. Residual risk is what remains of the original risk after the response, which is the reduced but non-zero chance of an outage. Both belong in the register with owners and responses, and the secondary risk should have been weighed when the response was chosen.",
+    "how": "Residual = the original risk left over after its response; secondary = a new risk caused by the response. Record and manage both, and weigh secondary risks when selecting responses.",
+    "optionNotes": [
+      "Incorrect — This reverses the terms: the leftover outage chance is residual, and the new dependence created by the move is secondary.",
+      "Incorrect — A trigger is a warning sign that a risk is about to occur; vendor dependence is a separate risk, and the outage risk is reduced, not gone.",
+      "Incorrect — Approving a response does not make its consequences automatically accepted; each risk needs its own analysis, owner and response decision.",
+      "Correct — Vendor dependence arises from the response itself, while the reduced outage chance is what remains of the original risk."
+    ],
+    "deepDive": "Responses should be evaluated for the secondary risks they create; sometimes a response introduces bigger risks than it removes, so choosing one is a trade-off. Residual risk is often handled through active acceptance, such as a contingency reserve or fallback plan, if it is within the organization's thresholds. For vendor lock-in, typical responses include portability requirements, exit clauses and data-export rights negotiated at contract time. Exam distractors frequently swap the two definitions, so anchor on the question 'did the response create it, or is it what is left?'",
+    "tags": [
+      "secondary risk",
+      "residual risk",
+      "cloud",
+      "risk register"
+    ]
+  },
+  {
+    "id": "BUS-048",
+    "domain": "Business Environment",
+    "task": "5. Plan and manage risk",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Contingency vs. fallback plans",
+    "source": "ECO 2026 · Business Environment Task 5",
+    "question": "The risk register for a medical-device launch lists 'sole supplier cannot deliver the sensor chip'. The contingency plan — switching to a qualified second supplier — was triggered last week, but that supplier has now confirmed it also cannot deliver in time. The register records a fallback plan: use an alternative chip that has already passed bench testing, accepting a two-week redesign. What should the project manager do NOW?",
+    "options": [
+      "Work out a new workaround with the team, since the planned contingency response has failed",
+      "Have the risk owner put the recorded fallback plan into action and update the risk register",
+      "Hold a fresh risk workshop to identify new options before committing to any particular response",
+      "Request management reserve to fund whatever response the team eventually decides to pursue"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Recall the order in which planned and unplanned risk responses are meant to be used.",
+    "why": "A fallback plan is the planned response to use when the contingency plan proves ineffective, and one is already recorded with a tested alternative chip. The project manager should have the risk owner implement it now, update the risk register and issue log, raise any baseline change the redesign requires, and monitor the result. Improvising or re-analyzing wastes the planning already done, and reserve funding is not a plan.",
+    "how": "Sequence of responses: contingency plan (first planned response) → fallback plan (planned backup if it fails) → workaround (unplanned response when nothing planned remains).",
+    "optionNotes": [
+      "Incorrect — Workarounds are for unplanned events; a planned fallback already exists and should be used before improvising anything new.",
+      "Correct — The fallback plan was prepared for exactly this failure, so executing it now uses the earlier planning and saves precious time.",
+      "Incorrect — A new workshop delays action when a tested fallback is ready; the analysis was done when the fallback was planned.",
+      "Incorrect — Management reserve funds unknown-unknowns and is not a response plan; a known, planned response is available here."
+    ],
+    "deepDive": "For critical risks, planning both a contingency and a fallback response builds resilience, especially where a single point of failure such as a sole supplier exists. Contingency and fallback plans for identified risks are usually funded from the contingency reserve, while a genuinely unforeseen workaround may need management reserve with sponsor approval. The two-week redesign may still need a change request if it affects the schedule baseline. Exam items test both the order of use and the difference between planned responses (contingency, fallback) and unplanned ones (workarounds).",
+    "tags": [
+      "fallback plan",
+      "contingency plan",
+      "risk response",
+      "supplier risk"
+    ]
+  },
+  {
+    "id": "BUS-049",
+    "domain": "Business Environment",
+    "task": "5. Plan and manage risk",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Escalate response",
+    "source": "ECO 2026 · Business Environment Task 5",
+    "question": "While planning a customer-analytics project, the project manager learns that a draft corporate data policy may restrict how every project in the program stores customer data. Several other projects would be affected, and changing how the program handles customer data is outside the project manager's authority. The program manager is responsible for cross-project decisions and has not yet heard about the draft policy. How should the project manager respond to this risk?",
+    "options": [
+      "Avoid it by removing the customer-data features from scope so that the policy cannot apply",
+      "Mitigate it by redesigning this project's data storage to reduce its exposure to the policy",
+      "Accept it passively and deal with the policy's effects only if it is eventually approved",
+      "Escalate it to the program manager and confirm that the program level accepts ownership"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Ask at what level this threat can actually be managed, and by whom.",
+    "why": "The threat affects several projects and its response lies beyond the project manager's authority, which is exactly when PMI recommends escalation. The risk is raised to the program manager, who must accept ownership; from then on it is managed at program level, and the project records it for information and follows the program's decisions. Local responses would be partial, duplicated across projects or outside the project's authority.",
+    "how": "Escalate when a risk is outside the project's scope or the project manager's authority; confirm the receiving party accepts ownership and record the escalation in the risk register.",
+    "optionNotes": [
+      "Incorrect — Removing core features is drastic, may destroy the project's value, and still leaves the other projects exposed.",
+      "Incorrect — A single-project redesign cannot resolve a program-wide policy question and may conflict with other projects' approaches.",
+      "Incorrect — Passive acceptance ignores a significant, known threat that someone with the right authority could still manage.",
+      "Correct — The risk belongs at program level, and escalation is complete only when the program manager explicitly accepts ownership."
+    ],
+    "deepDive": "Escalation is a response for both threats and opportunities. Once the higher-level owner — program, portfolio or another part of the organization — accepts it, the project team typically stops monitoring the risk, although it may remain in the register marked as escalated. Escalating a risk transfers ownership of the risk itself, which differs from asking a sponsor to decide an issue. The common trap is 'escalating' by simply informing someone without confirming acceptance, which leaves the risk unowned.",
+    "tags": [
+      "escalate",
+      "program risk",
+      "risk ownership",
+      "governance"
+    ]
+  },
+  {
+    "id": "BUS-050",
+    "domain": "Business Environment",
+    "task": "5. Plan and manage risk",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Risk appetite and thresholds",
+    "source": "ECO 2026 · Business Environment Task 5 (develop management plan)",
+    "question": "At the kickoff of a two-year infrastructure project, the sponsor states that the board will not accept more than a 10% chance of exceeding the budget by over 5%. A month later, team members are scoring risks inconsistently, each using a different idea of what 'high impact' means, and some say the sponsor's statement is 'somewhere in the kickoff minutes'. What should the project manager do?",
+    "options": [
+      "Document the threshold in the risk management plan, with agreed probability and impact scales",
+      "Add the sponsor's statement to the risk register as a high-priority risk with an assigned owner",
+      "Rely on the project charter's summary of high-level risks, since it already records constraints",
+      "Log the scoring inconsistency as an issue and resolve it case by case as risks are reviewed"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Ask which document describes how risks will be judged on this project, rather than listing the risks themselves.",
+    "why": "Risk appetite, thresholds, and the probability and impact definitions used to score risks describe how risk will be managed, so they belong in the risk management plan. Recording the board's threshold there, with agreed scales tied to it, gives everyone the same yardstick, makes scoring consistent and shows the team when exposure requires escalation. The risk register holds individual risks, not the framework for judging them.",
+    "how": "Risk management plan = how risk is managed (methodology, roles, appetite, thresholds, scales, reporting); risk register = the individual risks; risk report = overall exposure and status.",
+    "optionNotes": [
+      "Correct — The plan is where thresholds and scoring definitions belong, giving the team one consistent basis for rating and escalating risks.",
+      "Incorrect — A threshold is a rule for judging risks, not a risk itself; putting it in the register would not fix inconsistent scoring.",
+      "Incorrect — The charter may summarize overall risk, but detailed thresholds and scoring definitions are set out in the risk management plan.",
+      "Incorrect — Case-by-case fixes treat the symptom; without shared definitions, the team will keep scoring risks inconsistently."
+    ],
+    "deepDive": "Risk attitude describes how willing stakeholders are to accept uncertainty (risk-averse, risk-tolerant, risk-seeking); risk appetite is the amount of uncertainty they will pursue for a reward; and a risk threshold is a measurable level of exposure at which they will act. Thresholds turn appetite into project-level rules, such as the probability of cost or schedule overrun that triggers escalation. The probability and impact definitions in the plan should be calibrated to those thresholds so that 'high' means the same thing to everyone. When the exam asks where these items are documented, the answer is the risk management plan.",
+    "tags": [
+      "risk management plan",
+      "risk appetite",
+      "thresholds",
+      "scoring"
+    ]
+  }
+]

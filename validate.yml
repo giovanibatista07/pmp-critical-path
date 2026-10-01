@@ -1,0 +1,21 @@
+name: Validate question bank
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate questions and coverage
+        run: python3 scripts/build.py --check --stats
+      - name: Check generated data is up to date
+        run: |
+          python3 scripts/build.py
+          git diff --exit-code -- data/ || (echo "data/*.js is stale — run: python3 scripts/build.py" && exit 1)

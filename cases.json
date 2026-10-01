@@ -1,0 +1,371 @@
+[
+  {
+    "id": "CS-01",
+    "title": "Smart infusion pump program",
+    "approach": "Hybrid",
+    "scenario": "Veltra Medical is developing NovaFlow, a smart infusion pump that hospitals will use to deliver intravenous medication. You are the program manager, reporting to Henrik Solberg, VP of R&D, who chairs the program steering group. The program runs two tracks with different life cycles.\n\n- Hardware track (pump mechanism, pressure sensors, housing): predictive, with design reviews at fixed gates. Hardware design freeze is in month 9, after which a €1.4 million tooling order is released.\n- Software track (dose-calculation firmware and a hospital dashboard): two Scrum teams in Porto and Pune working in two-week sprints. Aisha Rahman is the product owner.\n- A clinician advisory panel of nurses from two hospitals attends every second sprint review.\n- Integration testing needs the program's single hardware-in-the-loop (HIL) test rig. A second rig has a 14-week lead time.\n\nThe quality system follows medical-device design controls. Every requirement must trace to a verification test and to the hazard analysis in the risk file. Once a design output has been verified, any change to it needs a design change record approved by the design review board (engineering, quality and regulatory affairs) before release. Tomasz Nowak leads regulatory affairs and will compile the submission to the national device regulator after hardware verification.\n\nIt is now month 7. The software teams have completed nine sprints, and the panel's feedback has been positive. The hardware track is on schedule for design freeze, and Mei Lin, the hardware verification lead, is preparing the verification campaign. Henrik has told the steering group that the program's biggest exposure is 'finding out late that the parts don't fit together.'",
+    "questionIds": [
+      "PRO-235",
+      "PEO-189",
+      "PRO-236",
+      "BUS-147"
+    ]
+  },
+  {
+    "id": "CS-02",
+    "title": "Generative-AI assistant for a lending app",
+    "approach": "Agile",
+    "scenario": "Kestrel Pay is a digital lender that offers small personal loans through a mobile app. Its two Scrum teams are building 'Ask Kestrel', a generative-AI assistant that answers applicants' questions about loan terms and helps them complete the application. The assistant explains offers; it does not make or influence credit decisions, which stay with the existing rules-based engine. You are the delivery lead supporting both teams. Lucas Ferreira is the product owner, and Ravi Menon, the Chief Commercial Officer, sponsors the initiative.\n\n- The assistant calls a third-party large language model through an API. A data processing agreement allows the vendor to process masked conversation text only to generate answers; names, ID numbers and bank details are removed before any prompt is sent.\n- Nadia Haddad, the compliance officer, reviews each release against consumer-credit rules, which require that information given to applicants before they sign be accurate and understandable.\n- The product goal for the quarter is to raise the application completion rate without increasing complaints.\n\nA six-week pilot has just ended. About 4,000 applicants were randomly offered the assistant, and a control group of similar size and mix applied without it. In the control group, complaints ran at about 4 per 1,000 applicants in every segment. Reviewers sampled 10% of assistant conversations and flagged answers that were factually wrong about fees, rates or repayment terms. The exhibit summarizes the results by segment.\n\nRavi is keen to move fast. A competitor launched a similar assistant last month, and he is due to speak at a fintech conference in eight weeks.",
+    "exhibit": {
+      "kind": "table",
+      "title": "Pilot results by applicant segment (six weeks)",
+      "columns": [
+        "Segment",
+        "Pilot users",
+        "Completion with assistant",
+        "Completion in control group",
+        "Answers flagged as wrong",
+        "Complaints per 1,000 users"
+      ],
+      "rows": [
+        [
+          "Primary-language speakers under 65",
+          "2,900",
+          "71%",
+          "58%",
+          "1.8%",
+          "3"
+        ],
+        [
+          "Second-language speakers",
+          "700",
+          "49%",
+          "55%",
+          "7.9%",
+          "11"
+        ],
+        [
+          "Applicants aged 65+",
+          "400",
+          "60%",
+          "57%",
+          "2.4%",
+          "6"
+        ],
+        [
+          "All pilot users",
+          "4,000",
+          "66%",
+          "57%",
+          "2.9%",
+          "4.7"
+        ]
+      ]
+    },
+    "questionIds": [
+      "PRO-237",
+      "PEO-190",
+      "BUS-148",
+      "BUS-149"
+    ]
+  },
+  {
+    "id": "CS-03",
+    "title": "Harbour Road bridge replacement",
+    "approach": "Predictive",
+    "scenario": "The Portmara Transport Agency is replacing the ageing Harbour Road bridge. You are the agency's project manager. The main contractor, Castellan Civil Works, holds a lump-sum contract; the project's budget at completion (BAC) is $24.0 million over an 18-month schedule. The critical path runs through the pier foundations and then the bridge deck.\n\nKey contract terms:\n- Only the agency's contract administrator, Grace Okafor, may issue changes to the work, and changes must be in writing.\n- The contractor must give written notice of differing site conditions within 14 days of discovering them.\n- Claims follow a set procedure: notice, substantiation, negotiation, then referral to a dispute adjudicator if unresolved.\n\nBefore the pier 3 foundations can start, the regional water utility must move a large water main that crosses the site. Under an interagency agreement signed by both chief executives, the utility committed to finish the relocation by the end of month 9 and to take part in a joint coordination committee chaired by the agency's director of capital works.\n\nIt is the end of month 10. Excavation at piers 1 and 2 hit much softer clay than the geotechnical report predicted, and the deeper excavation has cost more and taken longer than planned. The contractor's monthly report stresses that the approach roads are ahead of plan and describes the project as 'broadly on track.' The agency's cost engineer has prepared the earned value summary in the exhibit for next week's steering meeting with the executive sponsor, Deputy Director Marta Kowalczyk.",
+    "exhibit": {
+      "kind": "table",
+      "title": "Earned value by control account, end of month 10 ($ million)",
+      "columns": [
+        "Control account",
+        "On critical path?",
+        "PV",
+        "EV",
+        "AC"
+      ],
+      "rows": [
+        [
+          "Demolition and site preparation",
+          "No",
+          "2.0",
+          "2.0",
+          "2.1"
+        ],
+        [
+          "Pier foundations (piers 1–4)",
+          "Yes",
+          "5.0",
+          "3.8",
+          "4.6"
+        ],
+        [
+          "Bridge deck",
+          "Yes",
+          "3.0",
+          "2.6",
+          "2.9"
+        ],
+        [
+          "Approach roads",
+          "No",
+          "3.0",
+          "3.2",
+          "3.3"
+        ],
+        [
+          "Drainage and lighting",
+          "No",
+          "1.0",
+          "0.8",
+          "0.8"
+        ],
+        [
+          "Total",
+          "—",
+          "14.0",
+          "12.4",
+          "13.7"
+        ]
+      ]
+    },
+    "questionIds": [
+      "PRO-238",
+      "PRO-239",
+      "PRO-240",
+      "BUS-150"
+    ]
+  },
+  {
+    "id": "CS-04",
+    "title": "Global ERP rollout in three waves",
+    "approach": "Hybrid",
+    "scenario": "Tessaro Foods, a food manufacturer with plants on three continents, is replacing its regional legacy systems with one cloud ERP platform. You are the program manager, and the chief operating officer, Leila Mansour, is the sponsor.\n\n- Configuration and integration work runs in three-week sprints with a distributed team: the core team and product owner in Kraków, developers in Manila, and business process owners in Campinas and Monterrey.\n- Go-lives follow a fixed wave plan, with cutover weekends agreed with each plant. The steering committee approves each go-live.\n- The system integrator, Orbis Consulting, works under a time-and-materials contract that ends eight weeks after the wave 3 go-live. Its consultants built most of the configuration, and much of the reasoning behind the design exists only in their heads.\n- After the program, an internal support team in Kraków will own the platform.\n- Each plant nominates super users who test the system, train colleagues and support them after go-live, while keeping their operational jobs.\n- Ines Duarte leads organizational change management for the program.\n\nThe program's daily coordination call is held at 16:00 Kraków time, which is 23:00 in Manila and 09:00 in Monterrey. Most design decisions are made on that call.\n\nIt is late July. Waves 1 and 2 are live, and wave 3 in Monterrey is planned for October. The exhibit shows the latest rollout figures, which Leila has asked you to explain at next week's steering committee.",
+    "exhibit": {
+      "kind": "table",
+      "title": "ERP rollout status by wave",
+      "columns": [
+        "Wave",
+        "Site",
+        "Go-live",
+        "Users trained",
+        "Weekly active users, 8 weeks after go-live",
+        "Orders entered outside the ERP"
+      ],
+      "rows": [
+        [
+          "1",
+          "Kraków plants (Poland)",
+          "February (done)",
+          "96%",
+          "91%",
+          "4%"
+        ],
+        [
+          "2",
+          "Campinas plant (Brazil)",
+          "May (done)",
+          "88%",
+          "62%",
+          "31%"
+        ],
+        [
+          "3",
+          "Monterrey plant (Mexico)",
+          "October (planned)",
+          "40% so far",
+          "—",
+          "—"
+        ]
+      ]
+    },
+    "questionIds": [
+      "BUS-151",
+      "PRO-241",
+      "PEO-191",
+      "PEO-192"
+    ]
+  },
+  {
+    "id": "CS-05",
+    "title": "Flood-response shelter and cash program",
+    "approach": "Hybrid",
+    "scenario": "Severe flooding has displaced thousands of families in the Laro River delta. Horizon Relief Alliance, an international NGO, has launched a 12-week response to reach 8,000 households with emergency shelter kits and cash vouchers. You are the program manager, based in the capital; Samuel Mensah is the field coordinator in the delta.\n\n- The response is funded by the Northland Humanitarian Fund under a grant agreement with a fixed target (8,000 households by week 12) and an approved budget by line. Moving more than 10% of the budget between lines needs the donor's written approval. The standard route takes up to 10 working days; an emergency modification procedure allows approval within 48 hours through the donor's field representative, Anneke de Vries.\n- The field team of 40 staff and 120 local volunteers works in weekly cycles: plan on Monday, distribute during the week, and review results and complaints on Saturday.\n- Beneficiary lists were compiled with district officials during the first, chaotic week of the response.\n- The national disaster management agency runs a coordination cell that includes a customs liaison officer for relief goods.\n\nIt is now week 6. The first 5,000 shelter kits have been held at the border crossing for 10 days because a tax-exemption certificate was issued with the wrong consignment number. A rapid market assessment shows that local markets have reopened faster than expected, and traders can now supply tarpaulins, tools and bedding. Distribution has reached 3,100 households against a plan of 5,000 by this point. Morale is high, and many volunteers come from the affected villages. The cold season starts in about four weeks.",
+    "questionIds": [
+      "PEO-193",
+      "BUS-152",
+      "BUS-153",
+      "PEO-194"
+    ]
+  },
+  {
+    "id": "CS-06",
+    "title": "Farm-to-kitchen ordering app launch",
+    "approach": "Agile",
+    "scenario": "Pantrio is a 20-person start-up building a mobile platform that lets restaurants order produce directly from local farms. One Scrum team of seven developers builds the product in two-week sprints. You are the project manager and also serve as the team's Scrum Master. The two co-founders share leadership: Tomás Reyes, the CEO, runs sales and fundraising, and Wen Liu, the chief product officer, is the product owner.\n\n- Release 1.0 must be shown live to investors at a seed-round demo day at the end of sprint 13. The date cannot move.\n- The product goal agreed at the start was: 'An independent restaurant can place, track and pay for a farm order in under five minutes.'\n- The definition of done includes automated tests and a security review of all payment code.\n- About 30 independent restaurants are using a beta version and give feedback at every sprint review.\n\nSince sprint 3, total scope has kept growing. After meetings with a regional restaurant chain that could become Pantrio's largest customer, Tomás has posted feature requests — multi-site accounts, bulk invoicing, approval workflows — straight into the team's chat, and developers have added them to the backlog as 'urgent.' Refinement has also split several large stories that proved bigger than expected. Wen says she has 'lost track of what is in the release.'\n\nIn the latest retrospective, developers said they no longer know who the product is for: about half of the new stories serve single-owner restaurants and the rest serve chains. Velocity has been fairly steady. The exhibit shows the release burnup at the end of sprint 8.",
+    "exhibit": {
+      "kind": "line",
+      "title": "Release 1.0 burnup, end of sprint 8",
+      "xLabel": "Sprint",
+      "yLabel": "Story points",
+      "x": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "series": [
+        {
+          "name": "Total scope",
+          "values": [
+            190,
+            190,
+            198,
+            212,
+            224,
+            236,
+            248,
+            260
+          ]
+        },
+        {
+          "name": "Completed",
+          "values": [
+            16,
+            36,
+            60,
+            84,
+            104,
+            128,
+            150,
+            172
+          ]
+        }
+      ]
+    },
+    "questionIds": [
+      "PRO-242",
+      "PEO-195",
+      "PRO-243"
+    ]
+  },
+  {
+    "id": "CS-07",
+    "title": "Enterprise PMO after a merger",
+    "approach": "Hybrid",
+    "scenario": "Last year two regional logistics firms, Norvik Freight and Castara Logistics, merged to form Norcast Group. The executive committee has created a single enterprise PMO for the combined portfolio of about 140 projects and appointed you as its director. The CEO, Amara Nwosu, has told you that within twelve months the PMO must 'show it is worth what it costs.'\n\nThe two legacy PMOs worked very differently:\n- Norvik's PMO ran a stage-gate method with nine gate documents; every project, and every change above $50,000, went to the monthly executive committee for approval.\n- Castara's PMO was a small team of agile coaches supporting 14 product teams, which were funded through quarterly product budgets and released software every few weeks.\n\nTo integrate quickly, the executive committee applied the Norvik gate process to the whole portfolio from January. Both former chief operating officers still sit on the committee, and projects that span both legacy businesses need sign-off from each of them. Several decisions have waited two or three months, and some product teams have begun splitting work into pieces below $50,000 so that it never reaches the committee.\n\nIngrid Halvorsen, who led Norvik's PMO, and Kwame Asante, who led Castara's, now report to you as portfolio leads. Both are respected in their former companies and both want the new PMO to succeed, but each believes their own approach should become the standard.\n\nThe exhibit shows the portfolio metrics the PMO has reported for the first two quarters after the merger.",
+    "exhibit": {
+      "kind": "table",
+      "title": "Norcast portfolio metrics, first two quarters",
+      "columns": [
+        "Metric",
+        "Q1",
+        "Q2"
+      ],
+      "rows": [
+        [
+          "Projects reporting green status (self-assessed)",
+          "64%",
+          "78%"
+        ],
+        [
+          "Gate documents submitted on time",
+          "71%",
+          "94%"
+        ],
+        [
+          "Median days from change request to decision",
+          "34",
+          "47"
+        ],
+        [
+          "Product teams releasing at least monthly",
+          "11 of 14",
+          "6 of 14"
+        ],
+        [
+          "Benefits realized vs. business case (projects closed in the quarter)",
+          "61%",
+          "48%"
+        ],
+        [
+          "Business-unit satisfaction with the PMO (1–5)",
+          "3.1",
+          "2.6"
+        ]
+      ]
+    },
+    "questionIds": [
+      "PRO-244",
+      "BUS-154",
+      "PEO-196"
+    ]
+  },
+  {
+    "id": "CS-08",
+    "title": "Solar-plus-storage park build",
+    "approach": "Predictive",
+    "scenario": "Ondara Energy is building the Redgum Flats solar park: 180 MW of solar panels and a 240 MWh battery on former grazing land near three farming villages. You are Ondara's project manager. Travessa EPC holds the engineering, procurement and construction (EPC) contract for most of the work, but Ondara bought the solar (PV) modules, the main power transformer and the battery containers directly to secure supply early, so it carries the delivery risk on those packages.\n\n- The grid operator has allocated a connection window at the end of month 20. If the plant misses it, the next window is six months later. Each month of delay costs about $2.1 million in lost power sales.\n- The project is funded by a green loan from two development banks. The loan agreement requires compliance with international environmental and social (E&S) performance standards, and Ondara must notify the lenders within five business days of any serious E&S incident or credible allegation of forced labor in its supply chain.\n- Since month 9, national import rules have required every shipment of solar modules to carry documents tracing it back to the polysilicon source; customs may detain shipments without them.\n- A community benefit agreement with the villages sets local-hiring targets, a grievance procedure with replies within 14 days, and rules for construction traffic.\n\nIt is month 11. Earthworks and piling are well advanced, and Travessa's crews are working six days a week. The exhibit summarizes the status of the supply packages that Ondara manages directly.",
+    "exhibit": {
+      "kind": "table",
+      "title": "Owner-procured supply packages, month 11",
+      "columns": [
+        "Package",
+        "Supplier",
+        "Delivery status",
+        "Traceability evidence",
+        "Delivery float to grid window"
+      ],
+      "rows": [
+        [
+          "PV modules, lot 1 (65% of volume)",
+          "Solenne Modules",
+          "40% of lot delivered; next shipment leaves port in 3 weeks",
+          "Certified to wafer level only",
+          "6 weeks"
+        ],
+        [
+          "PV modules, lot 2 (35% of volume)",
+          "Arctura PV",
+          "On schedule; spare capacity for up to 15% of total volume at a 7% premium",
+          "Third-party audited to polysilicon source",
+          "8 weeks"
+        ],
+        [
+          "Main power transformer ($6.0 million)",
+          "Voss Transformatoren",
+          "Factory reports a backlog in core-steel supply",
+          "Not applicable",
+          "4 weeks"
+        ],
+        [
+          "Battery containers",
+          "Kairo Storage",
+          "On schedule",
+          "Mineral sourcing audited",
+          "10 weeks"
+        ]
+      ]
+    },
+    "questionIds": [
+      "BUS-155",
+      "BUS-156",
+      "PEO-197"
+    ]
+  },
+  {
+    "id": "CS-09",
+    "title": "Permit portal recovery and handover",
+    "approach": "Hybrid",
+    "scenario": "The City of Varrow is replacing its paper-based building-permit process with an online portal. The project began two years ago with a fixed-price contract under which a vendor, Quillon Systems, would deliver the whole solution in 12 months. At month 14 an independent health check found the project five months late and 35% over budget, with scope still growing and a team working most weekends. It concluded that the original schedule had been unrealistic and the scope poorly defined. The sponsor, deputy city manager Rosa Calderón, appointed you to recover the project.\n\nThe steering committee approved your recovery plan:\n- Cut release 1 to the most common permit types, and move the remaining features to a 'phase 2' backlog.\n- Keep Quillon on a revised fixed-price contract for back-end integration, with 10% of the price retained until the end of a 90-day warranty period after go-live.\n- Build the public-facing screens with a city Scrum team; Farid Haddad from the permit office is the product owner.\n- Agree operational acceptance criteria with the city's IT service desk and the permit office: trained support staff, tested runbooks and 30 days of stable operation.\n\nThe team has since worked at a sustainable pace, and trust within it has visibly recovered. The portal went live three weeks ago, and hypercare runs for three more weeks. Online applications are above forecast. The business case expects average permit processing time to fall from 45 to 20 days, to be measured six months after launch.\n\nThe service desk manager, Mei Tanaka, says her team cannot yet support the portal: two of five runbooks are untested and half of her staff have not been trained. Quillon's contract ends when hypercare ends. The phase 2 backlog holds 40 items and has no approved funding. Rosa wants the project formally closed at the end of hypercare so that the unspent budget can be returned to the city.",
+    "questionIds": [
+      "PEO-198",
+      "PRO-245",
+      "PRO-246"
+    ]
+  }
+]

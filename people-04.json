@@ -1,0 +1,911 @@
+[
+  {
+    "id": "PEO-076",
+    "domain": "People",
+    "task": "6. Manage stakeholder expectations",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Benefits ramp-up expectations",
+    "source": "ECO 2026 · People Task 6 / Process Task 3 · Benefits realization timeline",
+    "question": "Pellham Distribution's new warehouse management system goes live next month. The operations director, Marcus Oyelaran, expects the 15% productivity gain from the business case to appear in the first week and has already told his board so. The benefits management plan, however, shows the gain ramping up over six months as staff become proficient, and it names the operations director as benefit owner. What should the project manager do?",
+    "options": [
+      "Walk Marcus through the benefits plan: the ramp-up, leading indicators, and his owner role",
+      "Delay go-live until all staff are fully proficient, so the 15% gain appears in the first week",
+      "Say nothing for now; Marcus will see the real numbers and adjust his expectations after go-live",
+      "Confirm the 15% first-week gain to keep go-live approval on track, and then manage it afterward"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Expectations that are not addressed before go-live tend to become disappointment after it.",
+    "why": "Managing expectations means closing gaps before they turn into problems, and Marcus has already repeated an unrealistic expectation to his board. The benefits management plan defines when benefits are expected, how they are measured, and who owns them, so walking him through the ramp-up and the leading indicators to watch (such as weekly pick rates and error rates) aligns his expectations with reality. It also lets him, as benefit owner, update his board before go-live.",
+    "how": "Benefits often materialize after the project ends. Make the timeline, measures, and owners explicit early, and never overpromise to win approval.",
+    "optionNotes": [
+      "Correct — Proactive, fact-based expectation management using the benefits plan, which lets the benefit owner reset his board's expectations in time.",
+      "Incorrect — Proficiency comes from using the system, so delaying go-live does not remove the ramp-up; it only postpones the benefits.",
+      "Incorrect — Staying silent lets an unrealistic expectation harden into a perception of failure, especially after he briefed his board.",
+      "Incorrect — Confirming a figure the plan contradicts is dishonest and guarantees a loss of trust when the first-week numbers arrive."
+    ],
+    "deepDive": "A benefits management plan typically records the target benefits, their strategic alignment, the timeframe for realizing each one, the benefit owner, the metrics, and the assumptions and risks. A productivity dip followed by gradual improvement, often called the J-curve, is normal after major system changes, so leading indicators are tracked to show the trend before the lagging benefit appears. The focus-on-value principle stresses outcomes over outputs, and benefits reviews often continue after project closure under the benefit owner. The exam trap is treating go-live as the moment benefits are delivered.",
+    "tags": [
+      "benefits management",
+      "expectations",
+      "go-live",
+      "value"
+    ]
+  },
+  {
+    "id": "PEO-077",
+    "domain": "People",
+    "task": "6. Manage stakeholder expectations",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "multi",
+    "topic": "Early warning of drifting customer expectations",
+    "source": "ECO 2026 · People Task 6 · Monitor stakeholder satisfaction",
+    "question": "An agile team at Pinewell Software is building a scheduling product for dental clinics. After six sprints the team is hitting its velocity targets, but the product owner worries that what clinics expect and what the product is becoming may be drifting apart, and nothing the team currently tracks would reveal it. Which TWO practices would give the project manager the MOST useful early warning? (Select two.)",
+    "options": [
+      "Tracking the team's velocity trend sprint by sprint",
+      "Having clinic users try each increment at the sprint review and give feedback",
+      "Reviewing the release burnup for growth in total scope",
+      "Comparing hours logged against the original estimates",
+      "Running a short satisfaction pulse with key clinic users every few weeks"
+    ],
+    "answer": [
+      1,
+      4
+    ],
+    "hint": "Which options actually hear from the clinics rather than measure the team?",
+    "why": "The concern is a gap between customer expectations and the evolving product, so the warning signals must come from customers. Hands-on feedback at every sprint review shows how users react to the actual increment, and a brief, regular satisfaction pulse tracks their perception between reviews. Velocity, burnup scope, and hours logged all describe the team's output and could stay green while the product drifts.",
+    "how": "To monitor satisfaction, choose practices that collect stakeholder feedback directly and frequently. Internal effort and output metrics describe the team, not what customers think.",
+    "optionNotes": [
+      "Incorrect — Velocity measures the team's output; it can be steady or rising while the product moves away from what clinics expect.",
+      "Correct — Users working with each increment reveal mismatches between their expectations and the product every sprint.",
+      "Incorrect — Scope growth in a burnup shows how much work was added, not whether customers are satisfied with it.",
+      "Incorrect — Comparing hours with estimates is an internal efficiency measure and says nothing about customer expectations.",
+      "Correct — A lightweight, frequent pulse measures customer perception directly and spots declining satisfaction between reviews."
+    ],
+    "deepDive": "Net Promoter Score is the percentage of promoters (scores 9–10) minus the percentage of detractors (0–6), and it is most useful when paired with a 'why' question that tells the team what to change. Other direct signals include usage analytics, support-ticket themes, and short interviews with users after a release. The Agile Practice Guide emphasizes frequent customer feedback as the main defense against building the wrong thing. The exam trap is choosing internal metrics that look rigorous but only describe the team.",
+    "tags": [
+      "satisfaction",
+      "NPS",
+      "sprint review",
+      "multi-select"
+    ]
+  },
+  {
+    "id": "PEO-078",
+    "domain": "People",
+    "task": "7. Help ensure knowledge transfer",
+    "approach": "Any",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Capturing a retiring expert's tacit knowledge",
+    "source": "ECO 2026 · People Task 7 · Identify and transfer critical knowledge",
+    "question": "Greta Lindahl, a senior engineer at Morrow Rail, has maintained the signaling system's legacy integration for 15 years and will retire in three months. Much of what she knows — which alarms are safe to ignore, how the interface behaves after power cuts, which workarounds keep it stable — has never been written down. Two junior engineers will take over from her. Which approach BEST transfers her knowledge?",
+    "options": [
+      "Ask Greta to write a complete operations manual covering everything she knows before she leaves",
+      "Pair Greta with her successors on real work through shadowing and mentoring, capturing insights",
+      "Arrange to hire Greta back as a consultant whenever problems occur after she has retired",
+      "Rely on the existing system documentation and add notes as new problems come up over time"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Most of what Greta knows is know-how built from experience; consider how that kind of knowledge moves between people.",
+    "why": "Greta's knowledge is largely tacit: judgment and experience about how the system really behaves. Tacit knowledge transfers best through interaction — shadowing, mentoring, and working side by side on real tasks — while the explicit parts that surface along the way are captured in runbooks or a wiki. Three months is enough for the juniors to handle real situations under her guidance.",
+    "how": "Explicit knowledge → codify it in documents, wikis, and the lessons learned register. Tacit knowledge → socialize it through mentoring, shadowing, storytelling, and communities of practice, capturing what can be written as it emerges.",
+    "optionNotes": [
+      "Incorrect — Writing alone captures only part of tacit know-how and places a heavy burden on Greta in a short time.",
+      "Correct — Combines interaction to transfer tacit judgment with capture of the explicit insights that emerge, before she leaves.",
+      "Incorrect — Rehiring her reactively is unreliable and costly, may not be possible, and builds no internal capability.",
+      "Incorrect — The existing documentation is exactly what lacks this knowledge, and waiting for failures on a signaling system is unsafe."
+    ],
+    "deepDive": "Nonaka and Takeuchi's SECI model describes four conversions: socialization (tacit to tacit), externalization (tacit to explicit), combination (explicit to explicit), and internalization (explicit to tacit). Shadowing and mentoring are socialization; writing runbooks from those sessions is externalization. Knowledge transfer is an ECO task in its own right, and critical-knowledge holders should be identified early, not only when they announce a departure. In agile teams, pairing and rotation achieve the same effect continuously.",
+    "tags": [
+      "tacit knowledge",
+      "mentoring",
+      "succession",
+      "SECI"
+    ]
+  },
+  {
+    "id": "PEO-079",
+    "domain": "People",
+    "task": "7. Help ensure knowledge transfer",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "When to capture lessons learned",
+    "source": "ECO 2026 · People Task 7 / Business Environment Task 6 · Lessons learned throughout the project",
+    "question": "Eight months into a 14-month predictive project to build a water-treatment control system, project manager Zeynep Aral notices that design reviews have slipped twice for the same reason: the client's approval committee meets only once a month. Her lead engineer suggests 'saving all this for the lessons-learned workshop at the end,' pointing out that the PMO only asks for lessons learned at closure. What should Zeynep do?",
+    "options": [
+      "Log the lesson in the register now, apply it to the next reviews, and consolidate at closure",
+      "Record lessons only when something goes wrong, so the team can concentrate on avoiding mistakes",
+      "Hold one lessons-learned workshop at closure, when the whole project can be seen objectively",
+      "Ask the PMO to run an independent lessons review after closure to avoid bias within the team"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "A lesson held back until the final workshop cannot help the six months of work that remain.",
+    "why": "Lessons learned should be captured throughout the project in the lessons learned register so they can improve the current project, then consolidated and transferred to the organization's repository at phase ends and closure. Here the lesson about the monthly approval committee can be applied immediately — for example by aligning review dates with committee meetings or agreeing delegated approvals. Waiting six months would all but guarantee the same slip happens again.",
+    "how": "'Throughout the project' is usually the right answer for lessons learned, risk identification, stakeholder identification, and quality management. Capture continuously, apply immediately, and consolidate at closure.",
+    "optionNotes": [
+      "Correct — Continuous capture lets the team apply the lesson to the remaining reviews, and the PMO still receives consolidated lessons at closure.",
+      "Incorrect — Successes and near misses are lessons too, and this problem has already occurred twice without being recorded.",
+      "Incorrect — Waiting until closure means insights fade from memory and the current project cannot benefit from them.",
+      "Incorrect — The project team owns capturing its lessons; an after-the-fact external review adds nothing for the current project."
+    ],
+    "deepDive": "The lessons learned register is a living project document updated throughout, while the lessons learned repository is the organizational process asset that receives its content at phase or project closure. In agile work, retrospectives at the end of every iteration are a built-in lessons learned practice whose improvements are applied immediately. Predictive projects can gain the same benefit by adding a short lessons check to phase gates or monthly reviews. The exam trap is the option that sounds thorough — one big workshop at the end — but helps only future projects.",
+    "tags": [
+      "lessons learned",
+      "retrospective",
+      "knowledge management",
+      "continuous improvement"
+    ]
+  },
+  {
+    "id": "PEO-080",
+    "domain": "People",
+    "task": "7. Help ensure knowledge transfer",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Lessons learned register at closure",
+    "source": "ECO 2026 · People Task 7 · Lessons learned register versus repository",
+    "question": "Ivan Petrov is closing a two-year bridge-rehabilitation project that his firm, Kelso Civil, delivered for a regional roads authority. His lessons learned register holds 64 entries on permitting, traffic management, and subcontractor performance. A colleague starting a similar project in another region next quarter asks him to send her 'the good stuff' directly. Kelso maintains a central knowledge base for all projects. What should Ivan do with the register as part of closure?",
+    "options": [
+      "Send the register to the colleague directly, since hers is the only similar project planned",
+      "Keep the register in his own files so that he can reuse the lessons on his next assignment",
+      "Transfer its content to the organization's lessons learned repository for future projects",
+      "Include the register in the final deliverables package handed over to the roads authority"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "The goal is for the organization — not just one or two people — to learn from the project.",
+    "why": "The lessons learned register is a project document; at closure its content is transferred to the organization's lessons learned repository, an organizational process asset available to every future project. That serves the colleague as well — she can draw on it, and Ivan can also brief her — while making sure the knowledge outlives both of their assignments. Keeping it or passing it on privately leaves the organization no wiser.",
+    "how": "Register = project-level, living document. Repository = organization-level store (an OPA). At closure, move lessons from the first to the second, then share them actively with those who need them.",
+    "optionNotes": [
+      "Incorrect — Sharing with one colleague helps her project but leaves the rest of the organization without the lessons; it can complement the transfer, not replace it.",
+      "Incorrect — Keeping lessons personally prevents organizational learning and ties the knowledge to one person's memory and files.",
+      "Correct — Moving the lessons into the repository turns them into organizational process assets that any future project can use.",
+      "Incorrect — Lessons learned are the firm's internal knowledge assets, not a contractual deliverable for the client's handover package."
+    ],
+    "deepDive": "Organizational process assets include processes, policies, templates, and knowledge repositories such as lessons learned, historical estimates, and configuration records; enterprise environmental factors are conditions outside the team's control. A repository is only valuable if it is searchable and used, so many PMOs tag lessons by category and push relevant ones to new project managers at initiation. Agile teams often share retrospective insights through communities of practice rather than documents alone. The exam trap is choosing a helpful personal action over the organizational one.",
+    "tags": [
+      "lessons learned",
+      "OPA",
+      "closure",
+      "knowledge repository"
+    ]
+  },
+  {
+    "id": "PEO-081",
+    "domain": "People",
+    "task": "7. Help ensure knowledge transfer",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Handover to an uninvolved operations team",
+    "source": "ECO 2026 · People Task 7 / Process Task 10 · Transition to operations",
+    "question": "A hybrid project at Brenmoor Telecom is building a new customer-support platform: the vendor integration is delivered predictively and the agent-facing features in sprints. Go-live is ten weeks away, after which the platform will be run by a 24/7 operations team that has not been involved in building it. The project team will be released to other work two weeks after go-live. What is the BEST way to ensure a smooth knowledge transfer?",
+    "options": [
+      "Let operations learn by handling incidents after go-live, with the project team on call for escalation",
+      "Keep the project team supporting the platform until operations say they feel ready to take it over",
+      "Send operations the full technical documentation on handover day and hold a detailed walkthrough",
+      "Plan the transition with operations now: joint runbooks, training, shadowing, and agreed support"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Knowledge transfer to operations should start well before the handover date.",
+    "why": "With ten weeks to go and an operations team that has not been involved, the transfer needs to start now. Planning it with operations — co-created runbooks, training, shadowing during late sprints and testing, and an agreed hypercare period — transfers both explicit and tacit knowledge and lets operations help define readiness criteria. That reduces operational risk and still allows the project team to be released as planned.",
+    "how": "For handover questions: plan early, involve the receiving party, train, document together, and define support arrangements and acceptance criteria for the transition.",
+    "optionNotes": [
+      "Incorrect — Learning through live incidents puts customers at risk on a 24/7 service and leaves operations unprepared on day one.",
+      "Incorrect — An open-ended support arrangement based on feelings prevents closure and ties up the project team indefinitely.",
+      "Incorrect — Documentation delivered on the last day is too little, too late, and cannot transfer the tacit knowledge operations will need.",
+      "Correct — Early, structured, hands-on transition planned with the receiving team transfers knowledge and builds operational readiness."
+    ],
+    "deepDive": "Many organizations use operational readiness criteria — monitoring in place, runbooks tested, support staffed and trained, escalation paths agreed — as part of the release decision. A hypercare period after go-live, with a defined end date and exit criteria, gives operations extra support without blurring accountability. DevOps practices shrink the gap altogether by having the same teams build and run the service. In predictive terms this is part of transitioning deliverables at closure; in agile, it belongs in the Definition of Done for releasable increments.",
+    "tags": [
+      "transition",
+      "operations",
+      "runbook",
+      "handover"
+    ]
+  },
+  {
+    "id": "PEO-082",
+    "domain": "People",
+    "task": "7. Help ensure knowledge transfer",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Repeated problems across parallel projects",
+    "source": "ECO 2026 · People Task 7 · Foster an environment for knowledge transfer",
+    "question": "Orsola Health is running three data-migration projects in parallel for different hospitals. In status reviews, the project manager of one of them notices that all three teams are separately struggling with the same patient-record matching problems and have each spent weeks building their own cleansing scripts. The teams rarely talk to one another, and the projects end at different times over the next year. What is the BEST way to help knowledge flow across these teams?",
+    "options": [
+      "Ask the PMO to standardize one migration procedure now and mandate it for all current projects",
+      "Have each project document its migration approach at closure so future projects can reuse it",
+      "Encourage a community of practice where the teams' practitioners regularly share techniques",
+      "Appoint one experienced expert to review and approve all data migrations across the projects"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "The teams face the same problem right now, so consider which option helps them before their projects end.",
+    "why": "Communities of practice connect people doing similar work across projects so they can share tacit and explicit knowledge continuously, while the work is happening. Here the three teams are solving the same problem in parallel, so a regular forum for their practitioners lets them reuse each other's scripts and techniques now. A mandated standard, closure documents, or a single approver either come too late or create bottlenecks.",
+    "how": "For cross-team knowledge sharing, look for networking mechanisms — communities of practice, guilds, lunch-and-learns — rather than only documents or single gatekeepers.",
+    "optionNotes": [
+      "Incorrect — A mandated standard might help later, but imposing one before the teams have compared approaches may lock in a weaker solution.",
+      "Incorrect — Documenting at closure is too late for teams working in parallel today and does nothing for the current projects.",
+      "Correct — A community of practice enables ongoing, peer-to-peer sharing so all three teams benefit while their work is under way.",
+      "Incorrect — A single approver creates a bottleneck and a single point of failure without helping the teams learn from one another."
+    ],
+    "deepDive": "Communities of practice are voluntary groups of practitioners who share a domain and learn together; in scaled agile organizations they are often called guilds or chapters. They transfer tacit knowledge well because they rely on conversation, demonstration, and storytelling rather than documents alone. The PMO can foster them by sponsoring time, tools, and a facilitator without controlling the content. Once practices mature, the community may codify them into shared standards or templates, turning tacit knowledge into explicit organizational assets.",
+    "tags": [
+      "community of practice",
+      "guild",
+      "knowledge sharing",
+      "PMO"
+    ]
+  },
+  {
+    "id": "PEO-083",
+    "domain": "People",
+    "task": "7. Help ensure knowledge transfer",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Single expert bottleneck in an agile team",
+    "source": "ECO 2026 · People Task 7 · Cross-training in agile teams",
+    "question": "On a Scrum team at Fenwick Payments, only Priya understands the payment-gateway module. When she took two weeks of leave last month, three payment stories stalled and the sprint goal was missed. Priya is also starting to feel overloaded, since every payment question comes to her. The team's retrospective identified this as its biggest risk. What should the project manager encourage the team to do?",
+    "options": [
+      "Ask Priya to document the module thoroughly while continuing to take all of the payment stories",
+      "Use pair or mob programming on payment stories and rotate team members through the module",
+      "Assign all payment stories to Priya to maximize efficiency, and plan sprints around her absences",
+      "Ask management to hire a second payment specialist so there is always backup for the module"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Think about the team's 'bus factor' and how skills spread in a cross-functional team.",
+    "why": "Concentrating knowledge in one person creates a single point of failure and a bottleneck, as the missed sprint goal showed. Pairing or mobbing on payment stories and rotating people through the module spreads hands-on knowledge across the team, builds T-shaped skills, and relieves Priya's overload. It uses real work to transfer knowledge rather than adding separate activities.",
+    "how": "Knowledge concentration is a risk. Agile answers favor cross-training, collective ownership, and pairing on real work over documentation alone, specialist hiring, or planning around the bottleneck.",
+    "optionNotes": [
+      "Incorrect — Documentation helps a little, but it builds no hands-on capability, and giving her all the stories keeps the silo in place.",
+      "Correct — Collaboration on real work spreads knowledge across the team, removes the single point of failure, and relieves Priya.",
+      "Incorrect — Routing all payment work to Priya deepens the silo, worsens her overload, and guarantees future stalls.",
+      "Incorrect — Hiring is slow and expensive, and knowledge would still sit with a few specialists rather than the whole team."
+    ],
+    "deepDive": "T-shaped people combine depth in one area with enough breadth to help across others, which is what makes cross-functional teams resilient. The bus factor is the number of people who could leave before work stalls; a factor of one is a critical risk. Extreme Programming promotes pair programming and collective code ownership for exactly this reason, and mob programming extends the idea to the whole team. In predictive projects, the equivalent response is cross-training and succession planning in the resource management plan.",
+    "tags": [
+      "pair programming",
+      "mob programming",
+      "T-shaped",
+      "bus factor"
+    ]
+  },
+  {
+    "id": "PEO-084",
+    "domain": "People",
+    "task": "7. Help ensure knowledge transfer",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Handing over the project manager role",
+    "source": "ECO 2026 · People Task 7 · Transferring knowledge when the project manager changes",
+    "question": "Tomasz Wilk has managed a hybrid ERP rollout at Kestrel Foods for 14 months and is being reassigned to an urgent acquisition project in three weeks. His successor, Aiko Tanaka, joins next week. Much of what keeps the project running lives in Tomasz's head: why certain vendor terms were negotiated, which plant managers need early warning of changes, and which risks he watches informally. The sponsor asks him to 'write everything down' before he leaves. What should Tomasz do?",
+    "options": [
+      "Work alongside Aiko during the overlap, introducing her to stakeholders and reviewing the logs together",
+      "Write a detailed handover document of everything he knows and store it in the repository for Aiko to read",
+      "Ask the sponsor to brief Aiko on the project's history, since the sponsor has the broadest view of the work",
+      "Give Aiko full access to the project repository and remain available by phone for questions after he moves"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Think about which parts of Tomasz's knowledge can be written down and which pass mainly through people and practice.",
+    "why": "Much of what Tomasz knows is tacit: the reasoning behind decisions, his relationships with plant managers and the subtle signals he watches. A document can capture explicit facts but not these. Working alongside Aiko during the overlap — joint stakeholder meetings, walking through the risk, issue, decision and assumption logs, and letting her lead while he observes — transfers both kinds of knowledge and gives stakeholders confidence in the new project manager. Filling gaps in the logs should be part of that joint work, not a substitute for it.",
+    "how": "For role handovers, combine explicit transfer (updated logs, plans and registers) with tacit transfer through a planned overlap, shadowing and personal introductions to key stakeholders.",
+    "optionNotes": [
+      "Correct — A structured overlap with personal introductions and joint log reviews transfers relationships and reasoning as well as documents.",
+      "Incorrect — A document captures facts but not relationships or judgment, and reading it alone gives Aiko no introductions to key stakeholders.",
+      "Incorrect — The sponsor lacks the day-to-day detail about vendor terms, plant relationships and informally watched risks that Tomasz holds.",
+      "Incorrect — Repository access and phone support leave Aiko to discover the gaps on her own after Tomasz is absorbed in urgent new work."
+    ],
+    "deepDive": "Explicit knowledge can be codified in documents, registers and repositories; tacit knowledge — judgment, context, relationships — moves mainly through conversation, shadowing and shared work. A sound project manager handover typically includes updated logs (risk, issue, decision, assumption and change), a stakeholder map with personal introductions, a list of open commitments, and a period in which the successor leads while the predecessor observes. The sponsor should formally announce the change so that stakeholders know who now holds the role and its authority. The same approach applies to any critical role change mid-project, such as a product owner or lead architect leaving. The exam trap is treating a comprehensive document as a complete handover.",
+    "tags": [
+      "knowledge transfer",
+      "handover",
+      "tacit knowledge",
+      "succession"
+    ]
+  },
+  {
+    "id": "PEO-085",
+    "domain": "People",
+    "task": "7. Help ensure knowledge transfer",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Knowledge transfer from a departing vendor",
+    "source": "ECO 2026 · People Task 7 / Process Task 5 · Contracted knowledge transfer",
+    "question": "Kestrel Systems, a contracted integration firm, will finish its work package on a predictive ERP project for Harlow Foods in four weeks. After that, Harlow's internal IT team will maintain the integration alone. So far the vendor has shared almost no design documentation, and the internal team has not seen the code. The procurement manager plans to close the contract as soon as the final invoice is approved. What should the project manager do?",
+    "options": [
+      "Ask the internal team to study and reverse-engineer the integration after the vendor has left",
+      "Rely on the vendor's standard warranty support for any maintenance questions that come up",
+      "Verify the contract's knowledge-transfer deliverables and schedule them before it closes",
+      "Extend the vendor's contract so that it can keep maintaining the integration over the long term"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Think about what must be true before a procurement can be formally closed.",
+    "why": "Knowledge-transfer items — documentation, source code, training, and handover sessions — should be explicit contract deliverables, verified and accepted before the procurement is closed. Checking them now, with four weeks left, leaves time to schedule sessions and receive documentation while the vendor is still engaged; if the contract lacks them, there is still time to negotiate a change. Once the contract closes, the leverage and the knowledge leave with the vendor.",
+    "how": "Before closing a procurement, verify that all deliverables, including documentation and knowledge transfer, have been received and accepted, then formally close the contract.",
+    "optionNotes": [
+      "Incorrect — Reverse-engineering after the vendor leaves is slow, costly, and risky when the knowledge could be transferred directly now.",
+      "Incorrect — Warranty covers defects in the delivered work, not ongoing knowledge or the internal team's ability to maintain it.",
+      "Correct — Confirms knowledge transfer is delivered and accepted while the vendor is still engaged and before the contract is closed.",
+      "Incorrect — Extending the contract indefinitely is costly and avoids building the internal capability the plan calls for."
+    ],
+    "deepDive": "A statement of work should specify documentation standards, source code delivery or escrow, training hours, handover sessions, and acceptance criteria for each knowledge-transfer deliverable. Procurement closure confirms that all deliverables are accepted, claims are settled, and records are archived; closing before knowledge transfer is verified gives away the buyer's leverage. In agile contracts, knowledge transfer can be built in by pairing vendor and internal developers throughout. The exam trap is letting an invoice approval drive contract closure before deliverables are verified.",
+    "tags": [
+      "procurement",
+      "vendor",
+      "knowledge transfer",
+      "closure"
+    ]
+  },
+  {
+    "id": "PEO-086",
+    "domain": "People",
+    "task": "7. Help ensure knowledge transfer",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Train-the-trainer for a large rollout",
+    "source": "ECO 2026 · People Task 7 · Train-the-trainer and sustained knowledge transfer",
+    "question": "A hybrid project is rolling out a new warehouse management system to 2,300 staff in 12 distribution centers for Norrland Retail, which run three shifts a day. The vendor's contract includes six trainers for eight weeks, enough to reach about a third of the staff. Warehouse staff turnover is around 35% a year, so new starters will need training long after the vendor has left. What is the BEST approach to knowledge transfer for end users?",
+    "options": [
+      "Extend the vendor's contract so that its trainers can train every current employee on all three shifts",
+      "Replace classroom sessions with the vendor's e-learning course and require staff to finish it before go-live",
+      "Train the shift supervisors on the system first and ask them to show their teams in the week after go-live",
+      "Have the vendor train and certify super users at each site, who then train their shifts and future starters"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Consider who will still be at each site to teach new starters a year after go-live.",
+    "why": "Six vendor trainers cannot reach 2,300 people on three shifts, and with 35% annual turnover the knowledge must live inside the organization after the vendor leaves. A train-the-trainer model uses the vendor's expertise to build certified super users at every site, who then train colleagues on their own shifts and onboard new starters, supported by job aids and refresher material. It multiplies the vendor's capacity and makes knowledge transfer self-sustaining.",
+    "how": "For large or long-lived user groups, build internal capability — train-the-trainer, super users and job aids — so that knowledge transfer continues after the project and its vendors have gone.",
+    "optionNotes": [
+      "Incorrect — More vendor trainers might reach today's staff, but the knowledge leaves with them and new starters would have no one to learn from.",
+      "Incorrect — E-learning alone rarely builds hands-on skill in warehouse workflows, and it leaves no local expert to support staff after go-live.",
+      "Incorrect — Supervisors are not prepared as trainers, and teaching after go-live leaves staff unready for their first shifts on the new system.",
+      "Correct — Certified super users multiply the vendor's reach across sites and shifts and stay in place to train future starters."
+    ],
+    "deepDive": "Train-the-trainer turns a scarce external resource into a network of internal experts; it works best when super users are chosen for credibility with their peers, released from part of their normal duties, and assessed before they teach. Job aids, sandbox environments and quick-reference guides support learning at the point of need. Training timed close to go-live reduces forgetting, and refresher sessions catch habits that drift afterward. Super users also become an early-warning network for adoption problems and a feedback channel to the product team. The exam trap is choosing the option that trains everyone today but leaves no capability for tomorrow.",
+    "tags": [
+      "train-the-trainer",
+      "super users",
+      "knowledge transfer",
+      "training",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "PEO-087",
+    "domain": "People",
+    "task": "7. Help ensure knowledge transfer",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "multi",
+    "topic": "Techniques for sharing tacit knowledge",
+    "source": "ECO 2026 · People Task 7 · Tacit knowledge sharing",
+    "question": "At Dunmore Water, lead field engineer Olga Petrenko can diagnose intermittent pump faults from the sound and vibration of the equipment — a skill built over 20 years that she struggles to put into words. She will move to a regional role in four months, and three junior engineers need to develop the same judgment. The project manager is planning the knowledge-transfer activities. Which TWO techniques are MOST effective here? (Select two.)",
+    "options": [
+      "Loading her past fault reports into the document management system",
+      "Storytelling sessions and a community of practice with other field engineers",
+      "Mentoring and job shadowing on live fault calls",
+      "Adding her key tips to the lessons learned repository",
+      "Writing standard operating procedures for pump diagnosis"
+    ],
+    "answer": [
+      1,
+      2
+    ],
+    "hint": "Olga's skill lives in experience and judgment that are hard to write down.",
+    "why": "Olga's diagnostic skill is tacit: it lives in experience and sensory judgment, not in any document. Tacit knowledge is shared best through human interaction — mentoring and shadowing her on live fault calls lets juniors see and hear what she notices, and storytelling within a community of practice passes on the context behind her decisions. Document systems, repositories, and procedures capture explicit knowledge and are useful complements, but they cannot carry this kind of judgment on their own.",
+    "how": "Classify the technique: interaction-based methods (mentoring, shadowing, storytelling, communities of practice) move tacit knowledge; repository- and document-based methods move explicit knowledge.",
+    "optionNotes": [
+      "Incorrect — Past reports are explicit records; they show outcomes but not the sensory judgment Olga used to reach them.",
+      "Correct — Stories and peer networks convey the context and reasoning behind her judgment in a way documents cannot.",
+      "Correct — Working alongside her on real faults lets juniors observe and practice the know-how directly before she moves.",
+      "Incorrect — A repository stores explicit lessons; short written tips cannot carry a skill she struggles to put into words.",
+      "Incorrect — Procedures codify explicit steps and help consistency, but they cannot transfer experience-based diagnostic judgment."
+    ],
+    "deepDive": "PMBOK lists knowledge management techniques such as networking, communities of practice, meetings, work shadowing, discussion forums, knowledge fairs, workshops, storytelling, and training for tacit knowledge, plus information management tools for explicit knowledge. In the SECI model, shadowing is socialization, while turning what the juniors learn into a diagnostic checklist is externalization, and both have a place. Recordings of real equipment sounds or AI-assisted diagnostic tools can supplement mentoring but not replace it. The exam trap is choosing tools that store knowledge rather than techniques that transfer it.",
+    "tags": [
+      "tacit knowledge",
+      "multi-select",
+      "knowledge management",
+      "mentoring"
+    ]
+  },
+  {
+    "id": "PEO-088",
+    "domain": "People",
+    "task": "8. Plan and manage communication",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Communication channels (calculation)",
+    "source": "ECO 2026 · People Task 8 · Communication channels formula",
+    "question": "A project team at Tellan Robotics grows from 8 to 12 people, including the project manager, when four integration specialists join for the testing phase. The project manager wants to show the sponsor why coordination suddenly feels harder. By how many communication channels does the team's communication complexity increase?",
+    "options": [
+      "4",
+      "28",
+      "38",
+      "66"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Channels = n(n − 1) / 2 — calculate before and after the change.",
+    "why": "Before: 8 × 7 ÷ 2 = 28 channels. After: 12 × 11 ÷ 2 = 66 channels. Increase: 66 − 28 = 38 additional channels, so adding four people (a 50% rise in headcount) more than doubles the number of communication paths.",
+    "how": "Read the wording carefully: 'how many channels' asks for the new total, while 'how many more' or 'by how many does it increase' asks for the difference. Include the project manager in n unless told otherwise.",
+    "optionNotes": [
+      "Incorrect — Four is the number of people added, not the number of communication channels those people create.",
+      "Incorrect — 28 is the original number of channels (8 × 7 ÷ 2), before the four specialists joined.",
+      "Correct — 12 × 11 ÷ 2 = 66 channels after, minus 8 × 7 ÷ 2 = 28 before, gives an increase of 38.",
+      "Incorrect — 66 is the new total number of channels, not the increase that the question asks for."
+    ],
+    "deepDive": "Because channels grow with roughly the square of team size, communication complexity rises much faster than headcount, which is one reason agile guidance favors small teams (the Scrum Guide suggests 10 or fewer people). Larger efforts manage this with team-of-teams structures, clear interfaces, and information radiators rather than everyone talking to everyone. As a program grows, deciding who needs to talk to whom, and through which forums, becomes one of the central management problems rather than an afterthought. On the exam, check whether the count includes the project manager and whether the question asks for a total or a change.",
+    "tags": [
+      "communication channels",
+      "calculation",
+      "formula"
+    ]
+  },
+  {
+    "id": "PEO-089",
+    "domain": "People",
+    "task": "8. Plan and manage communication",
+    "approach": "Any",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Choosing a method for an urgent decision",
+    "source": "ECO 2026 · People Task 8 · Choosing communication methods",
+    "question": "Two hours after a release at Brightmoor Bank, the team finds a critical defect that is double-charging some customers. The sponsor must decide today between rolling back the release, which delays a regulatory feature, and deploying a hotfix that has had limited testing. The technical lead and the risk manager recommend different options. Which communication approach should the project manager use to get the decision?",
+    "options": [
+      "Pull — update the project dashboard so the sponsor can review the details and both options",
+      "Push — email the sponsor a detailed report setting out both options and a recommendation",
+      "Log the defect in the issue log and add the decision to the agenda of the weekly status meeting",
+      "Interactive — a call with the sponsor, technical lead, and risk manager to decide together"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "The situation is urgent, complex, contested, and needs a decision today.",
+    "why": "Interactive communication is the most effective way to reach a common understanding when a topic is urgent, complex, and needs a decision — especially when the experts disagree. A call with the sponsor, technical lead, and risk manager allows questions, immediate clarification, and a decision within hours. The decision should then be confirmed in writing and recorded in the decision or issue log.",
+    "how": "Interactive for urgent, complex, sensitive, or contested decisions; push when specific people need information but no immediate discussion; pull for large audiences or reference information.",
+    "optionNotes": [
+      "Incorrect — Pull relies on the sponsor choosing to look; it is far too passive for an urgent decision affecting customers.",
+      "Incorrect — An email may be read late and cannot resolve the disagreement between the two experts in real time.",
+      "Incorrect — Waiting for a weekly meeting is unacceptable while customers are being double-charged today.",
+      "Correct — Real-time discussion lets the sponsor hear both expert views, ask questions, and decide quickly."
+    ],
+    "deepDive": "Choosing a communication method depends on urgency, complexity, sensitivity, the need for feedback, and audience size. After an interactive decision, follow up with a short written confirmation so there is a record of what was decided, by whom, and why. In agile teams the same principle favors direct conversation over tickets for anything ambiguous. The exam trap is the push option that feels thorough — a detailed report — when the situation demands a real-time conversation.",
+    "tags": [
+      "interactive communication",
+      "push",
+      "pull",
+      "decision"
+    ]
+  },
+  {
+    "id": "PEO-090",
+    "domain": "People",
+    "task": "8. Plan and manage communication",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Agreeing team communication norms",
+    "source": "ECO 2026 · People Task 8 · Team working agreements on communication channels",
+    "question": "A nine-person agile team at Cobalt Health uses a chat tool, email, tracker comments, video calls and a shared wiki, with no agreed purpose for any of them. Developers say constant chat pings break their concentration, an urgent production alert last week sat unnoticed in a busy thread for two hours, and two testers missed a design decision that was recorded only in a private message. What should the project manager do?",
+    "options": [
+      "Ask everyone to route questions and decisions through the project manager so that nothing gets missed",
+      "Facilitate a team agreement on what each channel is for, response times, and where decisions are kept",
+      "Move all team communication to email so that every message and decision leaves a formal written record",
+      "Turn off the chat tool during working hours and handle all questions at the next day's daily standup"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "The tools are not the real problem; ask who should decide how the team uses them.",
+    "why": "The symptoms — interruptions, a missed urgent alert and a decision hidden in a private message — come from having many channels and no shared norms for them. Facilitating a working agreement lets the team decide, for example, that production alerts go to a dedicated channel with a paging rule, that chat is for quick questions with no expectation of an instant reply, and that decisions are recorded in the wiki or tracker. Because the team creates the agreement, members are more likely to follow it and to improve it at retrospectives.",
+    "how": "When team communication is noisy or information goes missing, help the team agree explicit norms — channel purpose, response expectations and one place for decisions — and review them regularly.",
+    "optionNotes": [
+      "Incorrect — Making the project manager a message hub creates a bottleneck and discourages the direct collaboration that agile teams depend on.",
+      "Correct — A team-owned working agreement fixes the root cause: unclear channel purposes, unclear response expectations and no agreed place to record decisions.",
+      "Incorrect — Email-only communication slows collaboration and would bury urgent alerts even deeper; recording decisions does not require formalizing every message.",
+      "Incorrect — Banning chat removes a useful tool and would delay urgent issues until the next standup, which is worse than the current situation."
+    ],
+    "deepDive": "Working agreements, or team norms, commonly cover core hours, meeting etiquette, the purpose of each channel, expected response times and how decisions are captured. A simple pattern separates synchronous channels for urgent or complex matters from asynchronous ones for routine updates, and names a single source of truth for decisions, such as a decision log. Urgent operational alerts deserve their own route with clear on-call ownership so they are never lost in general conversation. Agile teams revisit these norms at retrospectives as their tools and membership change. The exam trap is imposing a rule from above instead of helping the team agree its own.",
+    "tags": [
+      "working agreement",
+      "communication channels",
+      "agile",
+      "decision log"
+    ]
+  },
+  {
+    "id": "PEO-091",
+    "domain": "People",
+    "task": "8. Plan and manage communication",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Where a stakeholder's reporting is defined",
+    "source": "ECO 2026 · People Task 8 · Communications management plan",
+    "question": "Kalinda Reyes has just replaced the regional director on a predictive hospital-construction project. In her first week she asks the project manager which reports she will receive, how often, in what format, and who will send them. Her predecessor had made several informal arrangements that no one documented. The project manager wants to answer her from the agreed plan and record any new needs she has. Which project document should the project manager consult and update?",
+    "options": [
+      "The issue log",
+      "The communications management plan",
+      "The stakeholder register",
+      "The stakeholder engagement assessment matrix"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Separate who stakeholders are and how engaged they are from how information actually reaches them.",
+    "why": "The communications management plan records each stakeholder's communication requirements: what information they receive, in what format, how often, through which method, and who is responsible for sending it, plus escalation paths. It is therefore the place to confirm Kalinda's arrangements and to capture her new needs, closing the informal gaps her predecessor left. The register identifies stakeholders, the assessment matrix tracks engagement levels, and the issue log tracks problems.",
+    "how": "Know what each document contains: stakeholder register = who stakeholders are and their characteristics; engagement plan and assessment matrix = current and desired engagement and strategies; communications management plan = what, when, how, and by whom information is communicated.",
+    "optionNotes": [
+      "Incorrect — The issue log tracks open problems, owners, and resolution dates, not who receives which reports and how often.",
+      "Correct — Defines who receives what information, in what format, how often, and from whom, so it answers her question and records new needs.",
+      "Incorrect — The register identifies stakeholders and their interests and influence, but not the reporting schedule or formats.",
+      "Incorrect — The assessment matrix compares current and desired engagement levels; it does not specify reports, frequency, or senders."
+    ],
+    "deepDive": "Typical contents of a communications management plan include stakeholder communication requirements, the information to be communicated with its format and language, the reason for distribution, timeframe and frequency, the responsible person, methods and technologies, resources, the escalation process, a glossary, and constraints. When a stakeholder changes, update both the stakeholder register and the communications plan, and check whether the engagement strategy still fits. Agile teams often keep a lighter communication agreement in the team charter plus information radiators. The exam trap is confusing the engagement plan (how to involve people) with the communications plan (how information flows).",
+    "tags": [
+      "communications management plan",
+      "stakeholder register",
+      "project documents"
+    ]
+  },
+  {
+    "id": "PEO-092",
+    "domain": "People",
+    "task": "8. Plan and manage communication",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Broadcast updates with no feedback",
+    "source": "ECO 2026 · People Task 8 · Establish feedback loops",
+    "question": "On a hybrid logistics-network program at Tamsin Freight, the project manager emails a detailed weekly update to 40 stakeholders across six countries. Replies are rare, and in the last month three regional managers were surprised by decisions that had been announced in those updates, including a change to cut-over dates. The communications plan specifies the weekly email but nothing else. What should the project manager do?",
+    "options": [
+      "Build in feedback loops, such as short check-ins and quick polls, to confirm understanding",
+      "Stop sending updates to stakeholders who never reply and focus on those who engage with them",
+      "Assume stakeholders are informed and satisfied, since nobody has raised a formal complaint yet",
+      "Make the weekly update longer and more detailed so every decision is fully documented in it"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Communication is not complete when a message is sent — only when it is understood.",
+    "why": "Without feedback, the project manager cannot tell whether information is received and understood, and the surprised regional managers show it often is not. Feedback loops — brief check-ins with key stakeholders, quick polls, read-and-confirm for critical decisions — confirm understanding and reveal where the approach needs to change. The communications plan should then be updated to include them.",
+    "how": "The sender is responsible for clarity and for confirming understanding; the receiver for acknowledging and responding. Build feedback mechanisms into the communication approach, especially for decisions that affect people's work.",
+    "optionNotes": [
+      "Correct — Confirms that key messages are understood and reveals where the communication approach needs to change.",
+      "Incorrect — Dropping silent stakeholders removes people who may need the information most, like the managers who were surprised.",
+      "Incorrect — Silence is not agreement or understanding; the surprised managers already show the updates are not landing.",
+      "Incorrect — More volume in a one-way channel does not create understanding and may make key decisions even harder to spot."
+    ],
+    "deepDive": "The basic communication model runs from the sender, who encodes the message, through a medium with noise to the receiver, who decodes it, followed by acknowledgment and feedback. Noise here includes volume, language, and time zones across six countries, so key decisions may need a separate, highlighted channel. In hybrid programs, cut-over decisions and other changes that affect operations often warrant interactive confirmation rather than broadcast alone. The exam trap is treating a sent message as a communicated message.",
+    "tags": [
+      "feedback loops",
+      "communication model",
+      "hybrid",
+      "distributed teams"
+    ]
+  },
+  {
+    "id": "PEO-093",
+    "domain": "People",
+    "task": "8. Plan and manage communication",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Green reports, red evidence",
+    "source": "ECO 2026 · People Task 8 / Process Task 9 · Promote transparency in status reporting",
+    "question": "Every workstream lead on a system-replacement project at Ardent Utilities has reported 'green' status for eight straight weeks. Reviewing the underlying data, the project manager notices that test pass rates have fallen from 92% to 71%, several tasks have sat at 90% complete for a month, and overtime has doubled. The monthly steering committee report is due in three days. What should the project manager do?",
+    "options": [
+      "Change the status to red in the steering committee report without discussing it with the leads first",
+      "Report green to the steering committee, since the workstream leads are the ones closest to the work",
+      "Ask the leads to stop tracking overtime, since it is not a reliable indicator of project progress",
+      "Review the objective data with the leads, discuss the gaps, and report the true status"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Green on the outside, red on the inside.",
+    "why": "This is 'watermelon' reporting: green on the surface while objective indicators — falling pass rates, tasks stuck at 90%, rising overtime — point to trouble. The project manager should review the evidence with the leads to understand why their reports differ from the data, then report status honestly to the steering committee. Doing it together preserves trust with the leads while meeting the obligation to be transparent.",
+    "how": "Trust but verify: base status on objective measures such as earned value, burnup, test results, and cycle time rather than opinion, discuss discrepancies with the people reporting, and then report the true picture.",
+    "optionNotes": [
+      "Incorrect — Overriding the leads without discussion damages trust and may miss context that the data alone does not show.",
+      "Incorrect — Passing on a status the project manager has good reason to believe is wrong violates the duty to report honestly.",
+      "Incorrect — Suppressing an uncomfortable warning indicator hides the risk instead of addressing its cause.",
+      "Correct — Combines objective evidence with dialogue and ends in transparent reporting to the steering committee."
+    ],
+    "deepDive": "The '90% complete syndrome' is a classic warning sign that remaining work is underestimated; objective measures such as earned value or accepted stories avoid it. Leads may report green out of optimism, fear of blame, or a culture that punishes bad news, so the conversation should also explore why. People readily explain away negative indicators while acting on positive ones (confirmation bias), which is how watermelon reports persist. The PMI Code of Ethics' honesty standard requires truthful reporting even when it is uncomfortable.",
+    "tags": [
+      "status reporting",
+      "transparency",
+      "watermelon",
+      "metrics"
+    ]
+  },
+  {
+    "id": "PEO-094",
+    "domain": "People",
+    "task": "8. Plan and manage communication",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Same word, different meanings",
+    "source": "ECO 2026 · People Task 8 · Shared terminology in hybrid status communication",
+    "question": "On a hybrid medical-imaging program at Halden Instruments, the hardware group reported 'Release 3 complete' in its monthly update, meaning the design had been released to manufacturing. The steering committee read it as meaning customers could now use Release 3, and the sales director announced it to two hospitals. The software teams use 'release' for a deployable increment, and the groups also use 'verified' and 'baseline' differently. What should the project manager do?",
+    "options": [
+      "Ask the hardware group to stop using the word 'release' and to describe its milestones in plain language",
+      "Send the steering committee a correction and ask the sales director to follow up with both hospitals",
+      "Correct the committee's reading, then agree shared definitions for key status terms across all groups",
+      "Adopt the software teams' definitions for the whole program, since most of the reporting comes from them"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Look for the underlying cause of the confusion, not only this month's damage.",
+    "why": "The immediate misunderstanding must be corrected so that the committee and the sales director can reset the hospitals' expectations, but it will recur unless its cause is fixed: the groups encode the same words differently. Agreeing shared definitions of status terms such as release, verified and baseline — making each group's meaning explicit and building them into the communications plan and report templates — removes the noise at its source. Doing both deals with today's impact and prevents the next incident.",
+    "how": "When a message is misread, fix the immediate misunderstanding, then remove the source of noise — for example with agreed definitions, consistent templates and confirmation of understanding for important messages.",
+    "optionNotes": [
+      "Incorrect — Banning one group's word treats half the problem and leaves the current misunderstanding with the committee and the hospitals uncorrected.",
+      "Incorrect — Correcting this report is necessary, but without shared definitions the same confusion will arise over 'verified' or 'baseline' next month.",
+      "Correct — Fixes the current misunderstanding and removes its root cause by making each key status term mean the same thing to everyone.",
+      "Incorrect — Imposing one group's vocabulary ignores legitimate hardware meanings, such as a design release to manufacturing, and invites resistance."
+    ],
+    "deepDive": "In the basic sender–receiver communication model, the sender encodes a message and the receiver decodes it through their own frame of reference; noise such as jargon, culture or distance distorts the meaning. Hybrid programs are especially prone to this, because predictive and agile groups use words like release, done, baseline and milestone differently. A program glossary, consistent report templates and qualifiers such as 'design release to manufacturing' versus 'customer release' reduce that noise. For high-impact messages, confirm understanding rather than assume it. The exam trap is fixing the single miscommunication without addressing why it happened.",
+    "tags": [
+      "communication model",
+      "glossary",
+      "hybrid",
+      "status reporting"
+    ]
+  },
+  {
+    "id": "PEO-095",
+    "domain": "People",
+    "task": "8. Plan and manage communication",
+    "approach": "Any",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Addressing conduct privately",
+    "source": "ECO 2026 · People Task 8 · Sensitive and confidential communication",
+    "question": "On a distributed project at Vantor Engineering, a senior designer has three times shared client drawings through a personal file-sharing account, which breaks the company's data-handling policy. Two teammates have noticed and are asking the project manager whether anything will be done. The designer is otherwise a strong performer and well liked. Which communication approach is MOST appropriate for addressing this with the designer?",
+    "options": [
+      "Hold a private conversation, then follow up in writing as HR policy requires",
+      "Mention it in the team's group chat so everyone is reminded of the rules at once",
+      "Email the designer a detailed warning and copy the team so expectations are clear",
+      "Raise it at the daily stand-up so the issue is addressed quickly and transparently"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Sensitivity and privacy matter as much as speed here.",
+    "why": "Conduct and policy issues are sensitive personnel matters, so they call for private, interactive communication that lets the project manager explain the concern, hear the designer's side, and agree on corrective action. A written follow-up, as HR policy requires, creates the appropriate record. Depending on company rules, the data-handling breach may also need to be reported to information security, but that never justifies discussing it publicly.",
+    "how": "Match the channel to the sensitivity: private and interactive for performance or conduct issues, formal written records as policy requires, and never public exposure.",
+    "optionNotes": [
+      "Correct — Private, two-way conversation respects the individual and allows discussion, and written follow-up documents it as policy requires.",
+      "Incorrect — Raising it in a group chat publicly exposes a colleague, breaches privacy, and turns a conduct issue into gossip.",
+      "Incorrect — Copying the team humiliates the designer, and email is a poor medium for a sensitive conversation that needs dialogue.",
+      "Incorrect — The stand-up is a short team coordination event, not a place for individual personnel or conduct issues."
+    ],
+    "deepDive": "Factors in choosing communication methods and technology include urgency, availability, ease of use, the project environment (co-located or virtual), and the sensitivity and confidentiality of the information. For distributed teams, a private video call is the closest substitute for a face-to-face conversation on a sensitive topic. Teammates who raised the concern can be told it is being handled without being given personal details. Data-handling breaches may also carry regulatory obligations, such as privacy notifications, which is why the organization's security and compliance processes should be followed.",
+    "tags": [
+      "confidentiality",
+      "personnel",
+      "communication technology",
+      "compliance"
+    ]
+  },
+  {
+    "id": "PEO-096",
+    "domain": "People",
+    "task": "8. Plan and manage communication",
+    "approach": "Agile",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Coordinating several agile teams",
+    "source": "ECO 2026 · People Task 8 · Agile practice: cross-team coordination at scale",
+    "question": "Five Scrum teams at Pellucid Travel work from one product backlog on a booking platform. Each team holds its own daily scrum and sprint review, but there is no forum where the teams talk to one another. In the last two sprints, three features failed integration testing because one team changed a shared payment service that two other teams depended on, and each of those teams learned of the change only when its build broke. What should the project manager do?",
+    "options": [
+      "Ask the product owner to approve every change to shared services before any team starts work on it",
+      "Make one team the owner of the payment service so that the other four teams no longer touch its code",
+      "Have each Scrum Master email the project manager a weekly list of planned changes to pass on",
+      "Help the teams set up a frequent cross-team sync and show shared dependencies on a common board"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Ask where, today, one team could hear about another team's change before it breaks their build.",
+    "why": "The integration failures come from a communication gap between the teams, not within them: there is no regular forum where teams share work that affects others. A frequent cross-team sync, such as a scrum of scrums with a representative from each team, plus a visible dependency board, lets teams flag changes to shared services before making them and agree the order of work. It keeps coordination with the people doing the work rather than routing it through a single approver or the project manager.",
+    "how": "When several agile teams share a product, design team-to-team communication explicitly — regular cross-team syncs, visible dependencies and shared integration practices — rather than relying on a central relay.",
+    "optionNotes": [
+      "Incorrect — Routing every shared-service change through the product owner creates a bottleneck and gives the backlog owner a technical role that belongs to the teams.",
+      "Incorrect — A single owning team turns every payment change into a hand-off and a queue, and it still leaves no forum for teams to coordinate.",
+      "Incorrect — A weekly relay through the project manager adds delay and a single point of failure; the teams need to talk to each other directly.",
+      "Correct — A regular cross-team sync and a shared dependency view let teams raise changes that affect others before those changes break integration."
+    ],
+    "deepDive": "Communication channels grow quickly with the number of people — n(n−1)/2 — so multi-team programs connect teams through representatives rather than having everyone talk to everyone. Common patterns include a scrum of scrums, in which team representatives meet several times a week to discuss cross-team impediments and dependencies, joint refinement for shared features, and a program board showing dependencies and integration points. Technical practices such as continuous integration and automated contract tests surface breaking changes within hours rather than at sprint end. Scaled agile frameworks formalize these forums, but the principle is simply that coordination should happen where the dependency is. The exam trap is centralizing communication through the project manager or product owner.",
+    "tags": [
+      "scrum of scrums",
+      "dependencies",
+      "multi-team",
+      "agile",
+      "communication"
+    ]
+  },
+  {
+    "id": "PEO-097",
+    "domain": "People",
+    "task": "8. Plan and manage communication",
+    "approach": "Any",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Meetings without outcomes",
+    "source": "ECO 2026 · People Task 8 · Effective meeting management",
+    "question": "The weekly coordination meeting on a campus-expansion project at Ridgeway University regularly overruns by 45 minutes, drifts between unrelated topics, and ends without clear decisions or owners. Several contractors have started sending junior staff instead of attending themselves, and two actions from last month were never completed because no one knew they had been assigned. What should the project manager do FIRST?",
+    "options": [
+      "Record every meeting so that participants can review discussions later and catch up on decisions",
+      "Cancel all recurring meetings and replace them with asynchronous written updates in a shared tool",
+      "Introduce basic meeting practices: a circulated agenda, a timebox, a facilitator, and action items",
+      "Invite more stakeholders to each meeting so that all viewpoints are represented and decisions stick"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "The problem is how the meeting is run, not whether it exists.",
+    "why": "The symptoms — overruns, drifting topics, no clear decisions or owners — all point to missing structure. A circulated agenda, a firm timebox, active facilitation, and recorded decisions and action items with owners and dates are the basic practices of effective meetings and address each symptom directly. Once the meeting delivers value, the contractors are more likely to attend in person again.",
+    "how": "For meeting-effectiveness questions, pick the answer that adds structure and accountability without removing necessary interaction.",
+    "optionNotes": [
+      "Incorrect — Recordings preserve the discussion but fix neither the lack of focus nor the missing owners for actions.",
+      "Incorrect — Some coordination needs real-time interaction; the problem is how the meeting is run, not that it exists.",
+      "Correct — Agenda, timebox, facilitation, and assigned actions directly address the overruns, the drift, and the lost follow-up.",
+      "Incorrect — Adding attendees usually makes meetings longer and less focused, worsening the problems already observed."
+    ],
+    "deepDive": "Meeting norms such as starting on time, keeping side conversations out, and using a 'parking lot' for off-topic items often belong in the team charter or working agreements. Distributing decisions and action items within 24 hours, with owners and due dates, closes the follow-up gap. When a norm keeps slipping, a visible team-agreed mechanism, such as always starting on time regardless of who is missing, changes behavior more reliably than repeated reminders. In agile settings, events are timeboxed by design, which is a useful model for any recurring meeting.",
+    "tags": [
+      "meetings",
+      "agenda",
+      "action items",
+      "facilitation"
+    ]
+  },
+  {
+    "id": "PEO-098",
+    "domain": "People",
+    "task": "8. Plan and manage communication",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Notifying a regulator of a process change",
+    "source": "ECO 2026 · People Task 8 / Business Environment Task 2 · Formal regulatory communication",
+    "question": "A predictive project at Serrano Pharma is changing a sterilization step in the manufacture of a licensed injectable drug. The quality director has a friendly relationship with the national regulator's inspector and suggests 'just giving her a heads-up by phone,' since the change is minor. Regulations require manufacturers to notify the regulator of process changes before implementation. How should the project manager ensure the regulator is properly informed?",
+    "options": [
+      "Have the quality director phone the inspector to explain the change and follow up if she asks",
+      "Submit a formal written notification through the regulator's required channel",
+      "Present the change to the inspector in a formal meeting, without submitting anything in writing",
+      "Message the inspector on the shared chat channel so there is a quick, informal written trace"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Consider what the regulation requires and what evidence you would need if an inspector later asked for proof.",
+    "why": "Communications with a regulator on compliance matters must be formal and written, follow the regulator's prescribed submission process, and leave an official, traceable record. A phone call, a meeting, or a chat message may supplement the submission but cannot replace it, however good the relationship. Keeping the record also protects the organization in later inspections.",
+    "how": "Formal written communication is used for contracts, legal notices, regulatory submissions, and other matters needing an official record; informal methods suit day-to-day coordination.",
+    "optionNotes": [
+      "Incorrect — A phone call leaves no official record and does not meet a regulatory notification requirement, however good the relationship.",
+      "Correct — A formal written submission through the prescribed channel meets the requirement and creates a traceable, official record.",
+      "Incorrect — A formal meeting can support the submission, but without a written notification the regulatory requirement is not met.",
+      "Incorrect — A chat message is informal, may never enter the regulator's official process, and is not an accepted submission."
+    ],
+    "deepDive": "Communication can be classified along several dimensions: internal or external, formal or informal, hierarchical (upward, downward, horizontal), official or unofficial, written or oral, and verbal or non-verbal. Regulatory notifications are external, formal, official, and written. Compliance obligations like this should be identified early and built into the project schedule, since some changes need approval, not just notification, before implementation. The exam trap is letting a good personal relationship substitute for the required formal process.",
+    "tags": [
+      "formal communication",
+      "regulator",
+      "compliance",
+      "pharmaceutical"
+    ]
+  },
+  {
+    "id": "PEO-099",
+    "domain": "People",
+    "task": "8. Plan and manage communication",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "multi",
+    "topic": "Pull communication for a large audience",
+    "source": "ECO 2026 · People Task 8 · Push, pull, and interactive methods",
+    "question": "A regulatory-reporting program at Norland Group has about 300 stakeholders in five countries. Most need decisions, schedules, and reference material only occasionally, and they complain that their inboxes are flooded with program emails. The project manager wants to make this information available for people to retrieve whenever they need it, while keeping direct methods for urgent items. Which TWO methods are examples of PULL communication? (Select two.)",
+    "options": [
+      "A weekly call between the project manager and the sponsor",
+      "A program wiki where stakeholders look up decisions and reference material",
+      "A recorded voicemail broadcast to all stakeholders",
+      "A self-service dashboard on the intranet showing schedule and status",
+      "A weekly status email sent to the steering committee"
+    ],
+    "answer": [
+      1,
+      3
+    ],
+    "hint": "With pull communication, the recipient decides when to access the information.",
+    "why": "Pull communication suits large audiences and large volumes of information: content is placed where recipients can retrieve it at their own discretion, such as wikis, intranet sites, knowledge repositories, and dashboards. A wiki of decisions and a self-service dashboard both let the 300 stakeholders get what they need when they need it, reducing inbox overload. The call is interactive, and the voicemail broadcast and status email are push.",
+    "how": "Push = sent to specific recipients (email, memo, voicemail). Pull = recipients retrieve it (portal, wiki, dashboard). Interactive = real-time, multidirectional exchange (meeting, call, video conference).",
+    "optionNotes": [
+      "Incorrect — A call is interactive communication: a real-time, two-way exchange between specific people.",
+      "Correct — Stakeholders retrieve decisions and reference material from the wiki when they need them, which is pull.",
+      "Incorrect — A broadcast voicemail is sent to recipients whether or not they want it at that moment, so it is push.",
+      "Correct — A self-service dashboard lets each stakeholder access status on demand, a classic pull method.",
+      "Incorrect — An email sent to named recipients is push communication, even when it goes to a whole committee."
+    ],
+    "deepDive": "Pull communication scales well but depends on people knowing where to look and trusting that the content is current, so it is often paired with short push alerts for important changes. Choosing among push, pull, and interactive methods is part of the communications management plan and should reflect urgency, audience size, and the need for feedback. Information radiators, such as visible boards in agile teams, are also a form of pull. The exam trap is labeling any written or recorded message as pull when it is actually sent to recipients.",
+    "tags": [
+      "pull",
+      "push",
+      "interactive",
+      "multi-select"
+    ]
+  },
+  {
+    "id": "PEO-100",
+    "domain": "People",
+    "task": "8. Plan and manage communication",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Tickets instead of conversation",
+    "source": "ECO 2026 · People Task 8 · Agile Manifesto principle 6",
+    "question": "A newly formed agile team at Corvid Games sits together in one studio, yet members communicate mostly through ticket comments and long email threads. In the last two sprints, three stories were built to the wrong interpretation, and a simple question about animation specs took four days and 23 messages to resolve. The team lead asks the project manager for help. What should the project manager encourage?",
+    "options": [
+      "Face-to-face conversation to clarify work, supported by visible task boards",
+      "More detailed ticket descriptions and acceptance criteria written before work starts",
+      "A formal weekly communication report summarizing decisions and open questions",
+      "Routing all questions through the product owner so that answers are consistent"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "One agile principle names the most efficient and effective method of conveying information within a development team.",
+    "why": "The principles behind the Agile Manifesto state that the most efficient and effective way to convey information to and within a development team is face-to-face conversation. The team already sits together, so a quick conversation would resolve in minutes what took four days of messages, and visible boards keep shared context in front of everyone. Lightweight written records can still capture decisions afterward.",
+    "how": "Agile communication favors rich, synchronous channels and osmotic communication through co-location and information radiators; use written text to record outcomes, not to hold the conversation.",
+    "optionNotes": [
+      "Correct — Rich, real-time conversation resolves ambiguity quickly, and visible boards keep the whole team working from the same picture.",
+      "Incorrect — More text up front adds effort but does not resolve misunderstandings as quickly or reliably as a conversation.",
+      "Incorrect — A weekly report adds overhead and delays answers that the team needs within hours, not days.",
+      "Incorrect — Funneling all questions through one person creates a bottleneck and reduces collaboration among the developers."
+    ],
+    "deepDive": "Media richness theory holds that richer channels — face-to-face, then video, then phone, then text — reduce ambiguity for complex or uncertain topics. Alistair Cockburn's idea of osmotic communication describes how co-located teams absorb useful information simply by overhearing one another. For distributed teams, video calls, shared digital boards, and working agreements about response times are the closest substitutes. The exam trap is choosing more documentation to fix a problem that is really about the communication channel.",
+    "tags": [
+      "face-to-face",
+      "Agile Manifesto",
+      "co-location",
+      "communication"
+    ]
+  }
+]

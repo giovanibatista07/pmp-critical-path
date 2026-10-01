@@ -1,0 +1,704 @@
+[
+  {
+    "id": "BUS-112",
+    "domain": "Business Environment",
+    "task": "1. Define and establish project governance",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Lean governance for agile teams",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 9: Evolving Nature of PMOs and Governance (governance in an agile and volatile world)",
+    "question": "A fintech's four Scrum teams deliver a mobile-lending product in a market where rules and competitor offers shift almost monthly. The enterprise PMO has proposed that each team produce a 20-page stage-gate pack before every quarterly release, reviewed by a committee that meets every six weeks. The teams estimate the packs would absorb about 15% of their capacity. The chief risk officer insists that some oversight is essential because the product handles consumer credit. What should the project manager recommend?",
+    "options": [
+      "Co-design with the PMO a lean model that reuses sprint reviews and live dashboards, with a few risk-based decision checkpoints",
+      "Adopt the stage-gate packs as proposed, because a consumer-credit product justifies the full level of documented oversight at every release",
+      "Ask the sponsor to exempt the agile teams from PMO oversight, since heavy documentation conflicts with agile values",
+      "Accept the packs but have the Scrum Masters write them outside sprint time so that the teams' capacity is protected"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Too little governance creates risk and too much slows value; look for the response that serves both the risk officer and the teams.",
+    "why": "The book frames modern governance as a light, lean structure that supports teams in delivering outcomes rather than adding bureaucracy, while warning that the absence of governance creates chaos and compliance exposure. Co-designing a model that draws on evidence the teams already produce (sprint reviews, dashboards) and adds a few risk-based decision points meets the risk officer's legitimate need while protecting delivery capacity. It also works with the PMO rather than around it.",
+    "how": "When governance and agility collide, tailor the governance: keep the oversight need, change the mechanism — reuse delivery artifacts, set decision points by risk and value, and co-design the model with the governance owners.",
+    "optionNotes": [
+      "Correct — It keeps oversight proportional to consumer-credit risk while drawing evidence from existing agile events, so governance supports delivery instead of consuming 15% of capacity.",
+      "Incorrect — Heavy, document-centric gates in a market that shifts monthly slow decisions and consume capacity; the risk officer's need can be met with lighter, more current evidence.",
+      "Incorrect — Removing oversight from a regulated credit product invites compliance risk, and escalating to the sponsor sidesteps collaboration with the PMO and the risk officer.",
+      "Incorrect — Shifting the paperwork to Scrum Masters hides the waste rather than removing it, and the six-week committee cycle still delays decisions."
+    ],
+    "deepDive": "Kerzner, Zeitoun and Vargas describe the modern PMO as a partner to delivery teams rather than an inspection unit, and argue that governance in volatile settings should be light and lean while still shaping desired behaviors. In practice this is 'minimum viable governance': agree which decisions need oversight, at what risk level, and what evidence proves it — often the product increment, the backlog and automated dashboards. Predictive stage gates are not wrong in themselves; they are mistuned when the market moves faster than the gate cycle. Exam trap: answers that abolish governance are as wrong as those that apply it rigidly.",
+    "tags": [
+      "governance",
+      "agile",
+      "pmo",
+      "tailoring"
+    ]
+  },
+  {
+    "id": "BUS-113",
+    "domain": "Business Environment",
+    "task": "1. Define and establish project governance",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Routing decisions by tolerance",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 9: Evolving Nature of PMOs and Governance (governance for effective decision-making)",
+    "question": "A hybrid smart-meter program combines agile software teams with a fixed-price hardware supplier. Refer to the exhibit. At a sprint review, the product owner and a software team propose replacing a low-value reporting feature with a usage-alert feature that customers keep requesting. Analysis shows the swap needs a firmware change from the hardware supplier costing $35,000 and would push the next release back by three weeks. How should the project manager route this decision?",
+    "exhibit": {
+      "kind": "table",
+      "title": "Program decision-rights matrix (excerpt)",
+      "columns": [
+        "Decision type",
+        "Tolerance",
+        "Decided by",
+        "Beyond tolerance, escalate to"
+      ],
+      "rows": [
+        [
+          "Reorder or swap backlog items within a release",
+          "No change to release date",
+          "Product owner",
+          "Program product council"
+        ],
+        [
+          "Change scope of the fixed-price hardware package",
+          "Cost impact up to $50,000",
+          "Change control board",
+          "Steering committee"
+        ],
+        [
+          "Move a release date",
+          "Up to 2 weeks",
+          "Program manager with product council",
+          "Steering committee"
+        ],
+        [
+          "Change a regulatory or safety requirement",
+          "No tolerance",
+          "Compliance lead and steering committee",
+          "—"
+        ]
+      ]
+    },
+    "options": [
+      "Let the product owner approve the swap, because reprioritizing backlog content is within the product owner's decision rights",
+      "Send the whole proposal to the steering committee, because any change touching the supplier's contract needs executive approval",
+      "Take the firmware change to the change control board and the three-week slip to the steering committee as one linked proposal",
+      "Have the program manager and product council approve the slip as a scope trade-off, then notify the change control board"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Break the proposal into its separate decisions and compare each one's impact with the tolerance shown for it.",
+    "why": "The matrix gives each decision type an owner and a tolerance. The firmware change is a scope change to the fixed-price hardware package at $35,000, within the change control board's $50,000 tolerance, so the CCB decides it. The release date moves three weeks, which exceeds the two-week tolerance of the program manager and product council, so that element must go to the steering committee. Presenting both as one linked proposal lets each body decide within its rights while seeing the whole trade-off.",
+    "how": "For decision-rights questions, classify each element of a change by decision type, compare its impact with the stated tolerance, and route it to the lowest body authorized to decide — escalating only the parts that exceed tolerance.",
+    "optionNotes": [
+      "Incorrect — Swapping backlog items is the product owner's call only when the release date is unchanged; this swap also alters hardware scope and slips the date.",
+      "Incorrect — Over-escalation: the $35,000 firmware change sits within the change control board's tolerance, so the steering committee need only decide the date slip.",
+      "Correct — Each element goes to the body the matrix empowers: hardware scope within $50,000 to the CCB, and the slip beyond two weeks to the steering committee.",
+      "Incorrect — The product council's authority ends at a two-week slip, and notifying the CCB afterward bypasses its approval of the fixed-price scope change."
+    ],
+    "deepDive": "The book stresses that governance should equip teams with decision frameworks so the right decisions are made at the right time and level, rather than pushing every change up the hierarchy. A decision-rights matrix makes tolerances explicit so teams can act quickly inside them and escalate only exceptions — the management-by-exception principle. In hybrid programs the adaptive part (the backlog) and the predictive part (contracted hardware) often have different owners, so one business change can trigger two decision paths. Exam trap: 'escalate everything to the steering committee' feels safe but slows delivery and undermines delegated authority.",
+    "tags": [
+      "governance",
+      "decision rights",
+      "hybrid",
+      "exhibit",
+      "escalation"
+    ]
+  },
+  {
+    "id": "BUS-114",
+    "domain": "Business Environment",
+    "task": "1. Define and establish project governance",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "PMO value perception",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 9: Evolving Nature of PMOs and Governance (PMOs in transformation, value perception)",
+    "question": "A manufacturing group's PMO has well-documented processes, a methodology used on 95% of projects, and a national award for PMO maturity. Yet at the annual budget review, two executives question whether it adds any value, and the CFO proposes cutting its headcount in half. The PMO director asks the project manager who leads the PMO's portfolio services to help prepare a response. What should they do FIRST?",
+    "options": [
+      "Compile the adoption rate, audit scores and maturity award into a report that demonstrates the PMO's value",
+      "Send the executives the full catalog of PMO functions and ask each of them to choose which services they want to keep funded",
+      "Benchmark against a leading published PMO model and add the functions it recommends that the PMO lacks today",
+      "Meet each customer group to learn which business benefits matter most to them, then compare those with current services"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Maturity describes how well the PMO works; value is judged by the people it serves.",
+    "why": "The book argues that a PMO is effectively a service provider whose survival depends on its customers perceiving value, and that high technical maturity does not guarantee that perception. The first step is to identify the PMO's customer groups and their priority benefits, expressed in their own benefit-oriented language, and then check which services actually generate those benefits. Only then can the PMO rebalance its services and present credible evidence of value.",
+    "how": "When a PMO's value is questioned, start from its customers: identify who they are and what outcomes they need, then align services and indicators to those outcomes before defending or expanding the PMO.",
+    "optionNotes": [
+      "Incorrect — Maturity evidence shows the PMO does things well, not that it does the things executives value; a highly mature PMO can still be closed.",
+      "Incorrect — A list of functions is written in the PMO's technical language; executives think in benefits and cannot judge which functions would deliver them.",
+      "Incorrect — Adopting a generic model as a 'magic pill' ignores this organization's specific needs and may add services nobody asked for.",
+      "Correct — Discovering each customer group's priority benefits in their own terms is the basis for realigning services and making the PMO's value visible."
+    ],
+    "deepDive": "In Pillar 9 the authors note that there is no universally 'ideal' PMO model; the many labels in the literature (enterprise PMO, value management office, agile office and so on) are perspectives to combine, not templates to copy. Value perception is subjective but manageable: identify customer groups and their relative weight, collect prioritized benefit expectations, link functions to those benefits, and define indicators that make delivered value visible — revisiting this yearly or after major organizational change. A PMO that delivers unwanted functions at high maturity does the wrong thing well. Exam tip: PMI favors understanding stakeholder needs before defending or redesigning a function.",
+    "tags": [
+      "pmo",
+      "value",
+      "governance",
+      "stakeholders"
+    ]
+  },
+  {
+    "id": "BUS-115",
+    "domain": "Business Environment",
+    "task": "1. Define and establish project governance",
+    "approach": "Any",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "PMO return on investment",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 9: Evolving Nature of PMOs and Governance (mathematical ROI of a PMO)",
+    "question": "A utility's executive team asks for a business case for a new enterprise PMO. A working group simulates the project portfolio and finds, at 90% confidence, annual gains of at least $2.6 million from avoided cost overruns and $1.4 million from earlier benefit delivery. Because a new ERP system and a market recovery will also improve results, the group uses a structured pairwise comparison and attributes 45% of these gains to the PMO. The PMO will cost $1.1 million per year. What is the PMO's expected annual return on investment?",
+    "options": [
+      "About 39%",
+      "About 64%",
+      "About 164%",
+      "About 264%"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Count only the gains the PMO itself causes, and remember what ROI divides by.",
+    "why": "Total gains = $2.6M + $1.4M = $4.0M. Gains attributable to the PMO = 45% × $4.0M = $1.8M. ROI = (attributable gains − PMO cost) ÷ PMO cost = ($1.8M − $1.1M) ÷ $1.1M = $0.7M ÷ $1.1M ≈ 0.636, or about 64%.",
+    "how": "For ROI questions: net benefit divided by the investment, where benefit counts only what the investment itself causes — apply any attribution or probability adjustment before subtracting the cost.",
+    "optionNotes": [
+      "Incorrect — 39% divides the net gain of $0.7M by the attributable gains of $1.8M instead of by the $1.1M investment.",
+      "Correct — Only the PMO's 45% share counts: ($4.0M × 0.45 − $1.1M) ÷ $1.1M = $0.7M ÷ $1.1M ≈ 64%.",
+      "Incorrect — 164% is the benefit-to-cost ratio ($1.8M ÷ $1.1M) shown as a percentage; ROI must first subtract the cost.",
+      "Incorrect — 264% credits the PMO with all $4.0M of gains, ignoring that 55% of the improvement comes from the ERP system and market recovery."
+    ],
+    "deepDive": "Pillar 9 presents a structured way to put a number on a PMO's 'intangible' value: list the portfolio, estimate optimistic, most likely and pessimistic gains in schedule, investment and results, simulate them, read the result at a chosen confidence level, subtract the PMO's setup and running costs, and adjust for the share of benefits truly attributable to the PMO. The attribution step matters because other drivers — new systems, exchange rates, market conditions — also move results. Doing the estimates in a working group reduces personal bias and later resistance. Related formulas: BCR = benefits ÷ costs; ROI = (benefits − costs) ÷ costs; payback = investment ÷ annual net benefit.",
+    "tags": [
+      "pmo",
+      "roi",
+      "calculation",
+      "governance",
+      "monte carlo"
+    ]
+  },
+  {
+    "id": "BUS-116",
+    "domain": "Business Environment",
+    "task": "1. Define and establish project governance",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Humanitarian program governance",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 2: Applying Project Management in Humanitarian and Social Initiatives (ownership and mutual accountability)",
+    "question": "After a major earthquake, an NGO consortium is designing governance for a three-year program: an adaptive emergency-shelter phase followed by a predictive rebuild of schools and clinics. Four donors, two UN agencies and the national reconstruction ministry will fund or deliver parts of it. To speed decisions, the donors propose a donor-only steering board, with the ministry receiving quarterly progress reports. What should the program manager recommend?",
+    "options": [
+      "Adopt the donor-only board, since the funders carry the financial risk and fast decisions in the emergency phase save lives",
+      "Form a joint board co-chaired by the ministry, with a shared results framework and mutual accountability for commitments",
+      "Set up separate governance for each donor's projects and coordinate them informally through monthly partner meetings",
+      "Let the UN agencies lead the board because of their humanitarian experience, with donors and the ministry as observers"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Ask who will own and run the schools and clinics long after the partners have left.",
+    "why": "Humanitarian and development programs work best when national actors own the program and all partners are mutually accountable for results — principles long endorsed in aid-effectiveness agreements. A joint board co-chaired by the ministry builds legitimacy and local capacity, and a shared results framework aligns donors and agencies on the same outcomes. The book's lessons show that solid governance and ownership set from the start considerably raise the chance that reconstruction delivers lasting benefits.",
+    "how": "For multi-stakeholder social-impact programs, design governance that includes the beneficiary country or community as an owner, uses one shared results framework, and makes each partner accountable; get speed from delegated authority, not from excluding owners.",
+    "optionNotes": [
+      "Incorrect — Excluding the ministry undermines national ownership and the sustainability of the rebuilt services; speed can come from delegated emergency authority instead.",
+      "Correct — It combines national ownership, partner alignment on shared outcomes and mutual accountability, which the book identifies as keys to successful reconstruction programs.",
+      "Incorrect — Fragmented, donor-by-donor governance duplicates effort and loses the program-level view of benefits, a known weakness of aid delivered as isolated projects.",
+      "Incorrect — Treating the ministry as an observer weakens ownership and local capacity building, even though the UN agencies bring valuable expertise."
+    ],
+    "deepDive": "Pillar 2 highlights that humanitarian programs are driven by benefits to beneficiaries rather than profit, follow the principles of humanity, neutrality and impartiality, and involve unusually complex funding flows (governments, multilaterals, vertical funds, NGOs, private donors). Grouping projects into a program with a theory of change or logframe, one results framework and joint governance improves value for money — economy, efficiency and effectiveness. 'Build back better' also depends on developing local capacity so the country can manage its own future after partners leave. A hybrid life cycle — adaptive for emergency response, predictive for engineered reconstruction — is common, but both phases should report into one governance structure.",
+    "tags": [
+      "humanitarian",
+      "governance",
+      "ownership",
+      "program",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "BUS-117",
+    "domain": "Business Environment",
+    "task": "2. Plan and manage project compliance",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Generative AI data exposure",
+    "source": "ECO 2026 · Business Environment Task 2 · AI tool use and data protection",
+    "question": "During a retrospective, a Scrum team at an insurance company mentions that several developers have been pasting real customer claim records into a free public generative-AI chatbot to create test data and draft acceptance criteria. They say it has doubled their speed. The company's information-security policy classifies claim data as confidential, and the regional privacy law requires some personal-data disclosures to be reported within 72 hours. What should the project manager do FIRST?",
+    "options": [
+      "Let the practice continue while the team writes a guideline on which fields to mask before pasting records into the tool",
+      "Add a backlog item to evaluate an approved enterprise AI tool and raise the data concern at the next sprint review",
+      "Stop the practice immediately and report it to the security and privacy officers so they can assess any disclosure",
+      "Remind the developers of the policy privately and have them delete their chat histories so no exposure record remains"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "A legal clock may already be running — who in the organization decides whether this is reportable?",
+    "why": "Confidential personal data has left the company's control, which is a potential privacy breach with a legal reporting deadline. The first duty is to stop further exposure and inform the people accountable for assessing and reporting incidents; the project manager does not decide whether it is reportable. Afterward the team can work with the product owner and security to adopt an approved AI tool or synthetic test data, keeping the productivity gain safely.",
+    "how": "When a compliance breach is discovered: contain it, report it through the defined channel (security, privacy, legal), then fix the process — never hide it, and never let a productivity gain justify continued non-compliance.",
+    "optionNotes": [
+      "Incorrect — Every additional paste may disclose more personal data; the masking guideline can come later, but the exposure must stop now.",
+      "Incorrect — Waiting for the next sprint review could run past the 72-hour reporting window and lets the exposure continue in the meantime.",
+      "Correct — Containing the exposure and escalating to the officers who own incident assessment meets both the policy and the legal reporting obligation.",
+      "Incorrect — Deleting evidence conceals a possible breach, violates the PMI Code of Ethics' honesty standard, and could itself be unlawful."
+    ],
+    "deepDive": "Generative-AI tools create a new class of compliance risk: data entered into a public model may be retained or used for training outside the organization's control. Good practice is an AI-use policy that states which data classes may be used with which approved tools, backed by technical controls such as enterprise instances, data-loss prevention, and synthetic or masked test data. In agile teams these constraints belong in the definition of done and working agreements, so compliance is built in rather than inspected later. Exam trap: options that protect velocity while 'planning' a fix are tempting, but a live legal exposure is contained first.",
+    "tags": [
+      "ai",
+      "privacy",
+      "compliance",
+      "data protection",
+      "agile"
+    ]
+  },
+  {
+    "id": "BUS-118",
+    "domain": "Business Environment",
+    "task": "2. Plan and manage project compliance",
+    "approach": "Any",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Humanitarian impartiality under pressure",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 2: Applying Project Management in Humanitarian and Social Initiatives (humanitarian principles)",
+    "question": "A project manager leads a food-assistance project after severe flooding. Needs assessments rank four districts by malnutrition and displacement. A provincial official, whose support is needed for road-access permits, asks that the first distributions go to a less-affected district that is his party's stronghold, hinting that permits may otherwise be delayed. Supplies will be limited for the first two weeks. What should the project manager do?",
+    "options": [
+      "Keep the needs-based order, explain the impartiality principle to the official, and raise the access risk with governance",
+      "Serve the official's district first for one week to secure the permits, then return to the needs-based distribution order",
+      "Split the first deliveries equally among all four districts so that no political group can claim the project shows favoritism",
+      "Pause distributions until the lead donor has resolved the permit issue directly with the provincial government's leadership"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Which principle governs who receives aid first, and whose job is it to handle the pressure on access?",
+    "why": "Humanitarian action is bound by humanity, neutrality and impartiality: aid goes to those in greatest need, without political discrimination. Diverting scarce supplies to a political stronghold under pressure would breach that principle and the PMI Code's fairness standard. The access threat is real, so the project manager treats it as a risk to be handled openly through the program's governance and coordination bodies, rather than trading aid for permits or halting life-saving work.",
+    "how": "When stakeholder pressure conflicts with a binding principle or ethical standard, hold the line on the principle, explain it respectfully, and escalate the resulting risk through governance rather than bargaining it away.",
+    "optionNotes": [
+      "Correct — It protects impartiality and the people in greatest need, while handling the permit threat openly through the governance and coordination structures built for such problems.",
+      "Incorrect — Even a temporary diversion trades aid for political favor, breaching impartiality and exposing the project to reputational and donor-compliance consequences.",
+      "Incorrect — Equal shares ignore the needs assessment; impartiality means aid in proportion to need, not identical amounts for every district.",
+      "Incorrect — Halting distributions harms the most vulnerable while the issue is resolved, and hands a field risk the project manager should manage to the donor."
+    ],
+    "deepDive": "Pillar 2 notes that humanitarian initiatives follow the global principles of humanity, neutrality and impartiality, alongside transparency, national ownership and mutual accountability; adherence is itself a measure of the humanitarian community's accountability. Impartiality is often misread as equal distribution — it actually means prioritizing by need without discrimination. Access constraints and political interference are classic humanitarian risks that belong in the risk register with owners and escalation paths. The item also maps to the PMI Code's fairness value (avoid favoritism and conflicts of interest) and to escalating what exceeds your authority instead of making unilateral concessions.",
+    "tags": [
+      "humanitarian",
+      "ethics",
+      "compliance",
+      "impartiality"
+    ]
+  },
+  {
+    "id": "BUS-119",
+    "domain": "Business Environment",
+    "task": "2. Plan and manage project compliance",
+    "approach": "Predictive",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Crisis regulatory reporting",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 6: New Forms of Project Leadership (crisis leadership)",
+    "question": "A project manager is completing the rollout of an infusion-pump software upgrade across 40 hospitals. Three hospitals report dosing alarms that failed to trigger, and one patient was harmed. The regulator requires such events to be reported within 10 days. The sponsor wants to wait until engineering finds the root cause, arguing that an incomplete report could cause panic and that legally there is still time. Day 6 has begun. What should the project manager do?",
+    "options": [
+      "Support the sponsor's plan, since the deadline has not passed and a complete report will be more useful to the regulator",
+      "Press for the report to be filed now with the facts known so far and for affected hospitals to get interim safety guidance",
+      "Report the events anonymously to the regulator yourself so that the sponsor's decision cannot delay the notification",
+      "Quietly pause the rollout at the remaining hospitals and revisit the reporting question once the root cause has been confirmed"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "In a crisis, what does withholding information because it is incomplete look like to regulators and the public?",
+    "why": "Patient harm has occurred and the legal clock is running. The book's crisis lessons are clear that withholding information because it is incomplete is seen as stonewalling, and that being technically within a legal deadline is no defense when the ethical duty is obvious. Filing a factual initial report on time, updated as the root cause emerges, meets the regulatory obligation, and interim guidance protects patients now. The project manager should press this through the sponsor and the regulatory function rather than act around them.",
+    "how": "When safety or a mandatory reporting obligation is at stake, comply fully and on time with the facts available, protect people first, and escalate internally if a sponsor resists — do not wait for perfect information.",
+    "optionNotes": [
+      "Incorrect — Waiting for a root cause risks missing the 10-day deadline and delays safety information while more patients may be exposed to the defect.",
+      "Correct — A timely, factual initial report meets the legal duty, and interim guidance reduces harm while engineering completes the investigation.",
+      "Incorrect — Going around the sponsor and the company's regulatory function is premature; the obligation should first be pressed through proper internal channels.",
+      "Incorrect — Pausing the rollout helps, but doing it quietly while delaying the report conceals a known safety issue from the regulator and hospitals."
+    ],
+    "deepDive": "Pillar 6 describes crisis leadership as different from routine project leadership: decisions are fast, information is partial, previously quiet stakeholders (regulators, media, victims' families) become central, and the organization must speak with one honest voice. The book's lessons include accepting responsibility early, never withholding information on the grounds that it is incomplete, documenting every decision, and putting human life ahead of schedule or cost. The crisis life cycle — early warning, understanding the problem, damage assessment, resolution, lessons learned — can run in hours or days, with stakeholder communication across every phase. For the exam, safety and legal reporting obligations call for decisive compliance.",
+    "tags": [
+      "crisis",
+      "compliance",
+      "safety",
+      "regulatory reporting",
+      "ethics"
+    ]
+  },
+  {
+    "id": "BUS-120",
+    "domain": "Business Environment",
+    "task": "2. Plan and manage project compliance",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Public contract scope change",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 1: Strategic Delivery Capability (legal-factor barriers)",
+    "question": "A vendor's hybrid team is building a permit-management system for a state agency under a fixed-price contract. The country's public procurement law requires a formal contract amendment, approved by the agency's tender board, for any change to contracted deliverables. The agency's product owner asks the team to drop a contracted reporting module in the next sprint and build a mobile inspection app instead, saying the swap is cost-neutral and everyone agrees. What should the project manager do?",
+    "options": [
+      "Make the swap in the next sprint, because it is cost-neutral and the product owner has the authority to prioritize the backlog",
+      "Build the mobile app in parallel as an unbilled extra, keeping the reporting module on plan so the contract is unaffected",
+      "Decline the request and tell the product owner that backlog reprioritization cannot apply to a fixed-price public contract",
+      "Confirm the swap alters contracted deliverables and start the amendment, proposing outcome-based terms for later phases"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Whose approval does the law require, and does the product owner's backlog authority reach that far?",
+    "why": "Replacing a contracted deliverable is a change to the contract, and the law prescribes who must approve it; the product owner's backlog authority cannot override the tender board. The project manager complies by starting the formal amendment rather than ignoring or refusing the business need. Because rigid, scope-heavy contracting struggles in volatile settings, the project manager also proposes, for future phases, terms framed around value objectives with flexible scope within the law.",
+    "how": "Compliance obligations bound agile flexibility: reprioritize freely inside what the contract and law allow, and when a change touches contracted scope, follow the mandated amendment process while working to make future agreements more adaptive.",
+    "optionNotes": [
+      "Incorrect — Cost neutrality does not make the change lawful; the product owner's backlog authority cannot override a statutory amendment requirement.",
+      "Incorrect — Unbilled extra work is gold plating that erodes the vendor's margin and may itself breach procurement rules on undeclared scope.",
+      "Incorrect — The need is legitimate and a lawful route exists; flatly refusing damages the relationship and ignores the amendment option.",
+      "Correct — It honors the procurement law, moves the customer's need through the proper channel, and improves future contracting for adaptability."
+    ],
+    "deepDive": "Pillar 1 lists legal factors among the main barriers to effective project management: rigid public procurement rules can make standard change practices unusable and stretch budgets and schedules. Pillar 9 adds that in volatile environments contracts should define value and benefit objectives rather than exhaustive scope, and budgets should be set incrementally. Agile-friendly contract forms include capacity-based (team-per-sprint) contracts, fixed price per increment, and clauses that allow scope swaps of equal size — but where a statute requires formal amendments, the project manager must follow it. Exam trap: 'agile' is never a reason to bypass legal or contractual obligations.",
+    "tags": [
+      "compliance",
+      "contracts",
+      "public sector",
+      "hybrid",
+      "change"
+    ]
+  },
+  {
+    "id": "BUS-121",
+    "domain": "Business Environment",
+    "task": "3. Manage and control changes",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Cumulative impact of small changes",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 9: Evolving Nature of PMOs and Governance (oversight of delegated decisions)",
+    "question": "A hybrid program is building a passenger-information system for a regional rail operator. Its change management plan lets workstream leads approve changes under €20,000 and five days of schedule impact without the change control board (CCB). Over four months the leads approved 23 such changes, each within the limits and logged. The project manager's roll-up now shows that together they cost €310,000, most of the remaining contingency, and push the integration milestone out by five weeks. The CCB has not seen any of them. What should the project manager do?",
+    "options": [
+      "Withdraw all delegated authority so that every change, however small, goes back to the CCB for a full review",
+      "Take no further action, because each change was approved correctly within the thresholds in the change plan",
+      "Report the cumulative impact to the CCB and sponsor, and propose cumulative limits for delegated approvals",
+      "Ask the workstream leads to reverse their latest changes until the total falls back within the contingency left"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Each decision was within the rules — so what is the governance body still missing?",
+    "why": "Delegated authority keeps small changes moving, but governance still needs to see their combined effect on cost, schedule and reserves. Here individually minor changes have consumed most of the contingency and moved a key milestone, which is clearly a matter for the CCB and sponsor. Reporting the cumulative impact lets them decide on the milestone and funding, and adding cumulative triggers, such as a monthly total or a share of contingency, closes the gap in the delegation rules without losing their speed. Revoking delegation brings back the old bottleneck, doing nothing hides a material variance, and reversing approved changes unilaterally wastes work and bypasses the decision makers.",
+    "how": "Delegated change authority still needs oversight: roll up the combined effect of small approved changes against reserves and milestones, report material totals to the governance body, and set cumulative as well as per-change limits.",
+    "optionNotes": [
+      "Incorrect — Removing all delegation overcorrects, recreating the slow, board-for-everything process that delegated approval was designed to avoid.",
+      "Incorrect — Each approval was valid, but a five-week milestone slip and a largely used contingency are material and must be visible to governance.",
+      "Correct — Governance sees the combined effect and can decide on funding and dates, and cumulative limits stop the gap from recurring.",
+      "Incorrect — Reversing approved changes on the project manager's own authority wastes work and pre-empts a decision that belongs to the CCB and sponsor."
+    ],
+    "deepDive": "The book argues that governance in volatile environments must be flexible, pushing decisions down to speed up delivery, while still giving decision makers the information they need to keep control. A known weakness of per-change limits is that many small, individually reasonable changes can add up to a large shift in cost or schedule that no governance body ever approved. Sound change management plans therefore include cumulative triggers, regular roll-ups of delegated approvals, and tracking of reserve consumption. In agile components the same idea appears as watching total scope growth on the burnup chart, even though each backlog change is the product owner's call.",
+    "tags": [
+      "change control",
+      "governance",
+      "delegation",
+      "contingency",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "BUS-122",
+    "domain": "Business Environment",
+    "task": "3. Manage and control changes",
+    "approach": "Predictive",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "New business owner change",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 10: Significant Growth in Value-Driven and Business-Related Metrics (changes that affect benefits)",
+    "question": "Halfway through a two-year predictive ERP upgrade, the business owner who sponsored the business case leaves the company. Her successor tells the project manager that he sees less value in the planned supplier-portal module and would rather redirect its budget to warehouse automation. The module's design is already baselined, and the supplier-portal build is due to start next month. What should the project manager do FIRST?",
+    "options": [
+      "Analyze the impact on the business case, benefits and baselines, then submit the proposal through integrated change control",
+      "Stop work on the supplier portal and start planning warehouse automation, because the new business owner controls the budget",
+      "Continue executing the baselined plan, since the business case approved by the former owner cannot be reopened mid-project",
+      "Ask the steering committee to confirm whether the new business owner has the authority to request changes to the project"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "In a predictive project with approved baselines, what must happen before anyone can decide on a redirection?",
+    "why": "A change in business ownership is one of the classic events that can alter a project's benefits, so the successor's view deserves serious analysis — but in a predictive project with approved baselines, redirection must go through integrated change control. The project manager first analyzes the impact on benefits, cost, schedule and dependencies so decision-makers can compare the options, then submits the change request. Acting on the request directly, or ignoring it, would both bypass governance.",
+    "how": "For a requested change in a predictive project: evaluate the impact first, submit a change request, let the authorized body decide, then update plans and communicate — never implement or reject it unilaterally.",
+    "optionNotes": [
+      "Correct — Impact analysis gives the change control board what it needs to decide, and the formal process protects both the baselines and the benefits.",
+      "Incorrect — Implementing an unapproved change bypasses integrated change control, even when the person requesting it controls the budget.",
+      "Incorrect — Business cases are living documents; benefits must be re-validated when ownership, assumptions or priorities shift.",
+      "Incorrect — The successor's authority is not really in doubt; escalating before analyzing the change adds delay without informing any decision."
+    ],
+    "deepDive": "Pillar 10 lists changes in the business owner or executive leadership, in assumptions, in constraints and in resource availability as the main forces that can shift a project's benefits and value over its life cycle — sometimes to the point where the project should be re-scoped or cancelled. Benefits realization management complements baseline control: the project manager maintains baselines, while the business owner and governance keep asking whether the investment still delivers value. In an agile setting the equivalent move would be a product-owner decision to reorder the backlog, within any contractual limits. Exam cue: 'FIRST' in a predictive change scenario usually means analyze the impact.",
+    "tags": [
+      "change control",
+      "benefits",
+      "business case",
+      "predictive"
+    ]
+  },
+  {
+    "id": "BUS-123",
+    "domain": "Business Environment",
+    "task": "4. Remove impediments and manage issues",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "multi",
+    "topic": "Appraisal barrier for dedicated teams",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 1: Strategic Delivery Capability (human resources barriers)",
+    "question": "A bank moved nine specialists from functional departments into a dedicated, co-located agile team for an 18-month digital-lending initiative. Eight months in, velocity is falling and two members have asked to return to their departments. In one-on-ones they explain that their functional managers, who still write their annual appraisals, rarely see their work, and that colleagues who stayed behind are being promoted ahead of them. Which two actions should the project manager take? (Select two.)",
+    "options": [
+      "Agree with the functional managers on a way for the product owner and team to provide performance input to each appraisal",
+      "Work with HR and the functional managers so that team achievements are visible and count toward promotion decisions",
+      "Release the two members to their departments and backfill their roles with contractors to avoid further disruption",
+      "Offer the team a completion bonus paid at the end of the 18 months, funded from the project's contingency reserve",
+      "Ask the sponsor to instruct the functional managers to give every team member an above-average appraisal this year"
+    ],
+    "answer": [
+      0,
+      1
+    ],
+    "hint": "The falling velocity is a symptom; which organizational system is creating the problem, and who owns it?",
+    "why": "The impediment is structural: people working full-time on the initiative are evaluated by managers who cannot see their work, so joining the team is damaging their careers. Giving the product owner and team a formal voice in appraisals and making their achievements count in promotion decisions removes that barrier at its source. Both actions need the functional managers and HR, because the project manager does not own the appraisal system.",
+    "how": "For impediments rooted in organizational systems (appraisals, rewards, policies), work with the system owners to change the mechanism rather than treating symptoms with one-off incentives or directives.",
+    "optionNotes": [
+      "Correct — Structured performance input from the people who actually see the work closes the visibility gap that is hurting appraisals.",
+      "Correct — Linking team achievements to promotion decisions ensures that dedicated project work advances careers rather than stalling them.",
+      "Incorrect — Releasing members treats the symptom, loses domain knowledge, and signals to the rest of the team that leaving is the answer.",
+      "Incorrect — Contingency reserve covers identified project risks, not retention bonuses, and a delayed payout does nothing to fix unfair appraisals.",
+      "Incorrect — Dictating ratings is unfair, bypasses the appraisal process, and would not withstand scrutiny from HR or other employees."
+    ],
+    "deepDive": "Pillar 1 groups barriers to project management into human resources, legal factors, the PMO, sponsorship, culture and implementation costs. Human resources barriers often surface late: a dedicated or co-located team can deliver successfully while its members receive mediocre reviews, miss promotions or even lose their former positions, because appraisal authority stayed with functional managers who never saw their work. The remedy is to align performance management and rewards with the new way of working before it creates resistance. In agile transformations this is a common hidden impediment: individual appraisals by functional managers clash with team-based delivery.",
+    "tags": [
+      "impediments",
+      "performance appraisal",
+      "agile",
+      "multi-select",
+      "organizational barriers"
+    ]
+  },
+  {
+    "id": "BUS-124",
+    "domain": "Business Environment",
+    "task": "4. Remove impediments and manage issues",
+    "approach": "Agile",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Low-level sponsorship barrier",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 1: Strategic Delivery Capability (sponsorship barriers)",
+    "question": "A government agency's agile team is building an online benefits-application service. The assigned sponsor is a mid-level manager who cannot approve design decisions that affect other departments; each such decision must travel up four levels of hierarchy and takes about three weeks. Five backlog items are now blocked, the team is partly idle every sprint, and the sponsor admits she is reluctant to push decisions upward. What should the project manager do?",
+    "options": [
+      "Have the product owner make the cross-department design decisions, since in Scrum the product owner decides what is built",
+      "Move the team to unblocked work each sprint and report the blocked items as an accepted constraint in the next review",
+      "Contact the director general directly to request faster decisions, bypassing the sponsor's slow chain of approval",
+      "Help the sponsor quantify the delay's cost and propose that governance delegate these decisions or name an empowered sponsor"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Is this a team problem or an authority problem — and whose support do you need to fix it properly?",
+    "why": "The blocked items are an organizational impediment: the sponsor lacks the authority the role requires, and the hierarchy slows every cross-department decision. The project manager's job is to remove it through the proper channel — making the cost of delay visible together with the sponsor and proposing a governance fix, such as delegated decision rights or a more senior sponsor. This keeps the sponsor engaged, respects the hierarchy, and tackles the root cause instead of working around it.",
+    "how": "For systemic impediments beyond the team's authority, quantify the impact, partner with the sponsor or owner, and propose a structural fix to governance; do not bypass roles or quietly absorb the delay.",
+    "optionNotes": [
+      "Incorrect — The product owner cannot decide matters that change other departments' processes; this shifts an authority problem onto a role that does not hold that authority.",
+      "Incorrect — Absorbing the delay hides a recurring impediment and accepts idle capacity instead of removing the cause.",
+      "Incorrect — Going over the sponsor's head damages trust and bypasses the governance path; escalation should be done with the sponsor, not around her.",
+      "Correct — It addresses the root cause, insufficient decision authority, through governance, backed by evidence and with the sponsor as a partner."
+    ],
+    "deepDive": "Pillar 1 describes sponsorship barriers: sponsors appointed without understanding the role, sponsorship placed at levels where people cannot make decisions, and hierarchical cultures in which decisions travel so far up that schedules lose meaning. Sponsors exist to give teams line of sight to strategy and to make decisions the team cannot. In agile, the servant-leader project manager or Scrum Master removes impediments the team cannot remove itself, often by raising organizational blockers with leadership. Making the cost of delay explicit — idle capacity, postponed benefits — is usually the most persuasive way to get decision rights changed.",
+    "tags": [
+      "impediments",
+      "sponsorship",
+      "agile",
+      "escalation",
+      "decision rights"
+    ]
+  },
+  {
+    "id": "BUS-125",
+    "domain": "Business Environment",
+    "task": "4. Remove impediments and manage issues",
+    "approach": "Predictive",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Closure barrier",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 1: Strategic Delivery Capability (barriers at project closure)",
+    "question": "A predictive plant-modernization project is in its final two months. The project manager notices that punch-list items are being completed slowly, and two senior engineers have started interviewing for other internal roles. In conversation, team members admit they do not know what their next assignments will be and fear being left without work when the project ends. What should the project manager do?",
+    "options": [
+      "Remind the team that final payments depend on closing the punch list and set daily completion targets for each engineer",
+      "Ask HR to block internal transfers of project staff until all of the closure activities have been formally completed",
+      "Work with the resource managers now to plan each member's release date and next assignment, and share the plan",
+      "Accept the slower pace as normal for the end of a project and extend the closure phase by a few additional weeks"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "What is the team actually worried about, and who can resolve that worry?",
+    "why": "The slowdown is caused by uncertainty about what comes next, a recognized barrier near project closure: people drag out the work or leave early to secure their future. Planning releases and next assignments with the resource managers — and communicating that plan — removes the fear at its source so the team can finish well. Pressure, transfer bans or simply extending the schedule leave the cause untouched.",
+    "how": "When behavior changes near closure, look for the underlying concern (job security, next assignment) and address it through early resource-release planning rather than tighter control.",
+    "optionNotes": [
+      "Incorrect — More pressure treats the symptom; people worried about their jobs will still put securing their next role first.",
+      "Incorrect — Blocking transfers is coercive, may harm careers, and deepens the resentment already slowing the work.",
+      "Correct — Early release and next-assignment planning removes the uncertainty that is driving both the slowdown and the early departures.",
+      "Incorrect — Accepting and extending wastes budget and delays benefits when the cause is known and can be addressed directly."
+    ],
+    "deepDive": "Pillar 1's barriers include one at closure: as a project winds down, workers worry about their next assignment and may stretch out closure or leave before the work is done; some also avoid lessons-learned sessions for fear of blame. A related 'prolonged employment' barrier appears when workers slow a project to extend their jobs. The resource management plan should include release criteria and timing, and closing activities should be planned as real work with owners. For lessons learned, a blameless format encourages honest contributions.",
+    "tags": [
+      "impediments",
+      "closure",
+      "resource release",
+      "predictive"
+    ]
+  },
+  {
+    "id": "BUS-126",
+    "domain": "Business Environment",
+    "task": "5. Plan and manage risk",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "multi",
+    "topic": "Build back better risk",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 2: Applying Project Management in Humanitarian and Social Initiatives (disaster risk context)",
+    "question": "After a cyclone destroyed 600 homes in a coastal town, a project manager is planning the housing reconstruction. Hazard maps show that 40% of the original plots lie in a zone that floods several times a decade. Residents want to rebuild exactly where and how they lived before, as fast as possible, and the donor emphasizes 'build back better.' Which two responses would MOST reduce the disaster risk the new homes will face? (Select two.)",
+    "options": [
+      "Work with residents and authorities to relocate homes out of the high-flood zone, with land and livelihood support",
+      "Use flood- and wind-resistant designs and train local builders to apply them in all of the reconstructed homes",
+      "Rebuild on the original plots using the previous designs, then insure the homes through a donor-funded policy",
+      "Add a sizable contingency reserve to the reconstruction budget to pay for repairs after the next major flood",
+      "Speed up construction with outside contractors so residents can move back in before the next cyclone season"
+    ],
+    "answer": [
+      0,
+      1
+    ],
+    "hint": "Disaster risk depends on the hazard, on who and what is exposed to it, and on how vulnerable they are — which of these can the project change?",
+    "why": "Disaster risk is commonly expressed as hazard × exposure × vulnerability, reduced by resilience. The project cannot change the hazard (cyclones and floods), but relocating out of the flood zone cuts exposure, and resilient construction by trained local builders cuts vulnerability while building local capacity — the essence of 'build back better.' Insurance and contingency deal with the financial consequences, not with the likelihood or severity of harm to residents.",
+    "how": "For threat responses, distinguish reducing probability or impact (avoid, mitigate) from handling financial consequences (transfer, accept); when lives and homes are at stake, prefer responses that reduce exposure and vulnerability themselves.",
+    "optionNotes": [
+      "Correct — Moving homes out of the frequently flooded zone reduces exposure, the factor that most directly drives future losses.",
+      "Correct — Resilient designs reduce vulnerability, and training local builders leaves lasting capacity after the project closes.",
+      "Incorrect — Insurance transfers part of the financial loss but leaves residents exposed to the same floods in equally weak houses.",
+      "Incorrect — A contingency reserve accepts the risk and pays for repairs afterward; it does not reduce the damage or the danger to residents.",
+      "Incorrect — Speed alone recreates the old exposure and, by relying on outside contractors, misses the chance to build local capacity."
+    ],
+    "deepDive": "Pillar 2 notes that humanitarian and development practitioners now treat disaster-risk reduction, local and national capacity, and resilient infrastructure as integral to — or prerequisites for — program success. The formulation disaster risk = hazard × exposure × vulnerability (moderated by resilience) maps neatly onto PMI's threat responses: avoid (remove exposure), mitigate (reduce vulnerability), transfer (insurance) and accept (reserves). Community engagement is essential, because relocation without livelihood support often fails as residents drift back to hazardous sites. Zoning maps that classify areas as no-return, return after mitigation, or safe are a common post-disaster tool.",
+    "tags": [
+      "risk",
+      "humanitarian",
+      "build back better",
+      "multi-select",
+      "risk response"
+    ]
+  },
+  {
+    "id": "BUS-127",
+    "domain": "Business Environment",
+    "task": "6. Continuous improvement",
+    "approach": "Any",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Sustaining competitive advantage",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 1: Strategic Delivery Capability (sustainable competitive advantage)",
+    "question": "An engineering contractor won most of its recent bids because clients valued its reliable project delivery. Over the past year, two competitors adopted similar methods, and the contractor's win rate dropped from 60% to 35%. The operations director proposes freezing the current methodology because it is proven and changing it would be risky. As head of the PMO, what should the project manager recommend?",
+    "options": [
+      "Freeze the methodology as proposed and focus the PMO on stricter compliance audits of every active project",
+      "Set up a continuous improvement cycle that draws on lessons from failures, client feedback and benchmarks",
+      "Hire a consultant to replace the methodology with the newest framework used by the leading competitors",
+      "Cut bid prices by 10% so the contractor can regain its win rate while keeping the methodology unchanged"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "What happens to an advantage once competitors can copy it?",
+    "why": "A competitive advantage built on project management excellence is short-lived: competitors copy it, and firms that stop improving lose it — the book describes maintaining excellence as a never-ending journey. A structured continuous improvement cycle, fed by failures as well as successes, client feedback and benchmarking, is what turns a temporary advantage into a sustainable one. Freezing, copying or cutting prices each ignores that mechanism.",
+    "how": "Treat project management capability as something to improve continuously: collect evidence (lessons, feedback, benchmarks), test improvements, and institutionalize the ones that work.",
+    "optionNotes": [
+      "Incorrect — Freezing the method is the complacency the book warns about; stricter audits improve conformance, not competitiveness.",
+      "Correct — Continuous improvement is what keeps an advantage sustainable once competitors counterattack by copying your methods.",
+      "Incorrect — Wholesale replacement with a competitor's framework discards what works and copies others instead of differentiating.",
+      "Incorrect — Price cuts erode margin and do nothing to rebuild the delivery advantage that clients were paying for."
+    ],
+    "deepDive": "Pillar 1 explains that maturity in project management can create a competitive advantage, but competitors counterattack and the advantage fades unless continuous improvement sustains it. The authors also argue that studying failures and mistakes often reveals more improvement opportunities than best practices alone. Elsewhere the book cites the 'failure of success' — long-successful firms growing complacent while conditions change. For the exam, continuous improvement spans retrospectives and lessons learned at project level and process improvement (Kaizen, PDCA, updates to organizational process assets) at organizational level.",
+    "tags": [
+      "continuous improvement",
+      "competitive advantage",
+      "pmo",
+      "lessons learned"
+    ]
+  },
+  {
+    "id": "BUS-128",
+    "domain": "Business Environment",
+    "task": "6. Continuous improvement",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "AI over lessons repository",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 4: Digitalization Is Central to Delivering Projects' Promises (knowledge repositories)",
+    "question": "A telecom company's PMO holds 12,000 lessons-learned documents that its hybrid project teams almost never consult; a survey says they are hard to search and often irrelevant. An executive proposes buying an AI assistant that answers natural-language questions over the whole repository and rolling it out to all 60 project teams next month. The project manager who leads the PMO's improvement backlog is asked for a recommendation. What should the project manager suggest?",
+    "options": [
+      "Buy the assistant and make its use mandatory in every phase-gate review so that teams build the habit of consulting it",
+      "Delete documents older than three years before rollout so the assistant draws only on recent and relevant lessons",
+      "Replace the repository with quarterly lessons-learned workshops, since documents and tools have failed to engage teams",
+      "Identify the knowledge teams most need for key decisions, curate that content, and pilot the assistant with a few teams"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "The survey named two problems; which of them would a new search tool not solve by itself?",
+    "why": "The book stresses that people use a knowledge system only when they see its value, and that teams should first map the mission-critical knowledge their work depends on. An AI assistant layered over 12,000 unsorted documents may simply produce fluent answers from irrelevant or outdated material. Mapping needs, curating the relevant content and piloting with a few teams lets the PMO measure whether the tool improves real decisions before scaling it.",
+    "how": "For improvement initiatives involving new tools, start from users' needs, fix the underlying content or process, and pilot with measurable outcomes before scaling — technology amplifies whatever quality it is given.",
+    "optionNotes": [
+      "Incorrect — Mandating a tool before proving its value produces box-ticking use and ignores the relevance problem the survey revealed.",
+      "Incorrect — Age is a poor proxy for relevance; some older lessons may be critical, and deletion does not identify what teams actually need.",
+      "Incorrect — Workshops help share tacit knowledge, but discarding the repository loses explicit knowledge and the chance to make it useful.",
+      "Correct — Starting from the decisions teams face and piloting on curated content tests the AI assistant's value before a full rollout."
+    ],
+    "deepDive": "Pillar 4 describes knowledge repositories — best-practice libraries, metrics and KPI libraries, customer knowledge, benchmarking studies, idea management — and notes that the hard part is converting information into usable knowledge. Knowledge can be explicit, tacit, situational, dispersed, experience-based or procedural, and teams are responsible for updating the repository, not just reading it. AI retrieval tools can make explicit knowledge far easier to find, but they need curated, well-tagged content and human validation of answers. Pair them with practices that transfer tacit knowledge, such as communities of practice, mentoring and storytelling.",
+    "tags": [
+      "ai",
+      "knowledge management",
+      "continuous improvement",
+      "pmo",
+      "lessons learned"
+    ]
+  },
+  {
+    "id": "BUS-129",
+    "domain": "Business Environment",
+    "task": "6. Continuous improvement",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Protected time to think",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 3: Project Management Is Creating Innovative Cultures (blocking off time to think)",
+    "question": "In a digital-banking program of eight agile teams, the product owners, Scrum Masters and architects spend about 80% of their week in status meetings and escalations. In a pulse survey they say they have no time to think through recurring integration problems or new product ideas, and improvement proposals have dropped sharply. Most of the status meetings repeat information already shown on the program's live dashboards. What should the program manager do?",
+    "options": [
+      "Replace most status meetings with the live dashboards and protect regular meeting-free blocks for reflection and problem-solving",
+      "Hold a two-day offsite each quarter where the leads brainstorm improvements, keeping the current meeting cadence unchanged",
+      "Require every lead to submit one improvement proposal per month so that idea generation becomes a measured objective",
+      "Hire a dedicated innovation manager to generate ideas so the leads can continue focusing on status meetings and escalations"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Before adding anything new, look at what is consuming the time the leads say they lack.",
+    "why": "The root cause is lack of time to think: the leads' calendars are full of meetings that duplicate dashboard data. Removing the redundant meetings and protecting meeting-free blocks gives them recurring time for reflection and problem-solving, which the book identifies as a key ingredient of innovative, continuously improving cultures. A quarterly offsite, a quota or a separate innovation role leaves the daily overload in place.",
+    "how": "To improve how work gets done, remove waste such as redundant status meetings before adding new activities, and protect capacity for reflection and improvement as a deliberate practice.",
+    "optionNotes": [
+      "Correct — It removes meetings that add no value and turns the recovered time into protected, recurring time to think and improve.",
+      "Incorrect — An occasional offsite adds another commitment while the day-to-day overload that suppresses thinking stays in place.",
+      "Incorrect — A quota adds pressure without creating time, and tends to produce low-quality ideas submitted just to meet the target.",
+      "Incorrect — Delegating improvement to one role implies it is someone else's job and leaves the leads just as overloaded as before."
+    ],
+    "deepDive": "Pillar 3's innovative culture model treats 'blocking off time to think' as a building block, arguing that noise and competing demands have made reflection a luxury, and that protected thinking time improves focus, creative problem-solving, quality, prioritization and decision-making. Lean thinking supports the first step: meetings that repeat what information radiators already show are waste. In Scrum, retrospective improvements can be added to the Sprint Backlog, and many teams reserve a share of capacity for improvement and learning. Exam cue: when people say they lack time to improve, look for options that create capacity rather than add demands.",
+    "tags": [
+      "continuous improvement",
+      "innovation",
+      "reflection",
+      "agile",
+      "waste"
+    ]
+  }
+]

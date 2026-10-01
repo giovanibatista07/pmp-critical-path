@@ -1,0 +1,521 @@
+[
+  {
+    "id": "BUS-130",
+    "domain": "Business Environment",
+    "task": "6. Continuous improvement",
+    "approach": "Agile",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Measurement inversion",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 10: Significant Growth in Value-Driven and Business-Related Metrics (failure of traditional metrics)",
+    "question": "An agile team at an online-education company reports excellent metrics every quarter: 98% of committed stories done, velocity up 20%, and almost no escaped defects. Yet course-completion rates, the outcome the product exists to improve, have not moved, and support tickets about confusing navigation are rising. The sponsor asks the project manager why all the dashboards are green while the business result is flat. What should the project manager propose?",
+    "options": [
+      "Raise the velocity target by a further 20% so that more features reach learners sooner and completion rates can improve",
+      "Keep the current metrics, since they show strong team performance and course completion depends mainly on marketing",
+      "Add outcome and value-in-use measures, such as completion rates and learner feedback, and use them to steer the backlog",
+      "Replace all team metrics with a single net promoter score so that the sponsor receives one simple measure of satisfaction"
+    ],
+    "answer": [2],
+    "hint": "Ask whether the team is measuring what matters or what is easy to count.",
+    "why": "The team is measuring output and process conformance rather than whether the product creates value — the book's 'measurement inversion' failure. Adding outcome measures (course completion) and value-in-use signals (learner feedback, support tickets) links the metrics to the objectives that justify the product and lets the product owner reprioritize toward the navigation problems. Output metrics can stay as team diagnostics, but they should no longer define success.",
+    "how": "When output metrics are green but outcomes are flat, redefine success around value: add outcome and customer-in-use measures tied to objectives, then let them drive prioritization.",
+    "optionNotes": [
+      "Incorrect — More output does not fix a value problem; it may add features learners find confusing and encourages inflated estimates.",
+      "Incorrect — Declaring success on output ignores the objective the product was funded for and the rising user complaints.",
+      "Correct — Outcome and value-in-use measures reveal whether the product works for learners and give the team a basis for reprioritizing.",
+      "Incorrect — A single lagging satisfaction score loses the diagnostic detail the team needs and still omits the completion outcome."
+    ],
+    "deepDive": "Pillar 10 lists typical causes of metric failure: performance expressed only in traditional or financial terms, measurement inversion (measuring the wrong things because they are easy), no link to requirements, objectives or success criteria, no link to customer satisfaction, and no feedback on value-in-use. The authors redefine success as achieving the desired business value within competing constraints, adding 'benefits at completion' and 'value at completion' to forecasts. In agile, outcome-oriented tools include OKRs, hypothesis-driven backlog items and product analytics. Exam trap: velocity is a planning aid for the team, not a measure of value or a target to be raised.",
+    "tags": ["metrics", "value", "outcomes", "agile", "continuous improvement"]
+  },
+  {
+    "id": "BUS-131",
+    "domain": "Business Environment",
+    "task": "6. Continuous improvement",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Health checks on green projects",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 10: Significant Growth in Value-Driven and Business-Related Metrics (project health checks)",
+    "question": "A PMO in an organization that runs both predictive and agile projects holds lessons-learned reviews only on projects that miss their targets. Its director notices that several projects reported green status until they were about 65% complete and then suddenly turned red. The project manager responsible for PMO improvement is asked how to catch such problems earlier and learn more from the portfolio. What should the project manager recommend?",
+    "options": [
+      "Run periodic, confidential health checks on a sample of projects, including those reporting green, to surface hidden issues",
+      "Require every project to add more earned value metrics to its monthly report so that emerging variances are detected sooner",
+      "Keep reviewing only troubled projects, but start those reviews earlier so that the causes of failure are captured in more detail",
+      "Ask sponsors to sign off each project's monthly status report to confirm that the reported color is accurate and complete"
+    ],
+    "answer": [0],
+    "hint": "Where are the problems hiding, and what would make people willing to reveal them?",
+    "why": "Projects that look healthy can hide problems until late, because time and cost metrics lag and teams are too close to the work to see the big picture. Periodic health checks — conducted confidentially so interviewees can be honest — on a sample that includes green projects surface issues while they are still fixable and capture good practices from successes, not only from failures. More of the same metrics or extra sign-offs do not change what gets seen.",
+    "how": "To improve portfolio learning and early warning, examine successful-looking projects too, use independent and psychologically safe reviews, and combine metrics with qualitative evidence.",
+    "optionNotes": [
+      "Correct — Independent health checks across green and red projects find hidden issues early and yield lessons from successes as well as failures.",
+      "Incorrect — Earned value metrics show past cost and schedule performance and can look fine while quality or stakeholder problems grow.",
+      "Incorrect — Reviewing only troubled projects misses the early warning signs in green projects and all the lessons from what went well.",
+      "Incorrect — A sponsor's signature adds formality but not insight; sponsors usually see the same filtered information the report contains."
+    ],
+    "deepDive": "Pillar 10 observes that many projects seem fine until they are 60–70% complete, when the truth emerges, partly because of disbelief in metrics and fear of what health checks might reveal. The book distinguishes audits (conformance to the methodology) from health checks (a forward-looking diagnosis of whether the project will actually succeed) and recommends reviewing projects that appear successful as well as those in trouble. Health checks work only if interviewees can be honest and management does not overreact to bad news. A related informal term is 'watermelon' reporting: green outside, red inside.",
+    "tags": ["health checks", "continuous improvement", "pmo", "early warning"]
+  },
+  {
+    "id": "BUS-132",
+    "domain": "Business Environment",
+    "task": "6. Continuous improvement",
+    "approach": "Any",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "PMO service scorecard",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 9: Evolving Nature of PMOs and Governance (PMO functions, benefits and maturity)",
+    "question": "A PMO surveyed its customers — executives, project managers and team members — and mapped each of its services to the benefits those customers ranked as top priority. It also rated how maturely it performs each service. Refer to the exhibit. With a flat budget, the PMO can take on only one major improvement this year. Which improvement should the project manager leading the PMO's improvement effort recommend?",
+    "exhibit": {
+      "kind": "table",
+      "title": "PMO service scorecard (maturity and customer rating on a 1–5 scale)",
+      "columns": ["PMO service", "Supports a top-priority customer benefit?", "Service maturity", "Customer value rating"],
+      "rows": [
+        ["Methodology and templates", "No", "5", "2.1"],
+        ["Executive status reporting", "Yes — reliable information for decisions", "4", "4.3"],
+        ["Portfolio prioritization support", "Yes — clear link from projects to strategy", "4", "3.9"],
+        ["Project management training", "No", "3", "3.0"],
+        ["Benefits tracking", "Yes — visibility of value delivered", "1", "1.8"]
+      ]
+    },
+    "options": [
+      "Refine the methodology and templates further, since this is the PMO's most mature service and it underpins all the others",
+      "Raise the maturity of benefits tracking, the service linked to a top-priority benefit that the PMO currently performs worst",
+      "Expand project management training, because stronger skills will eventually improve every other service the PMO offers",
+      "Redesign executive status reporting, since executives are the most influential customer group and drive the PMO budget"
+    ],
+    "answer": [1],
+    "hint": "Read two columns together: is the service one customers need, and is it being delivered well?",
+    "why": "The scorecard shows two different problems. Methodology is very mature but supports no priority benefit, so polishing it further is doing efficiently what customers do not value. Benefits tracking supports a top-priority benefit (visibility of value delivered) but has maturity 1 and the lowest customer rating — the right function done the wrong way. With one improvement slot, raising that service's maturity closes the biggest gap between what customers need and what they receive.",
+    "how": "When prioritizing PMO (or any service) improvements, first check alignment with customers' priority benefits, then invest in maturity where an aligned service performs poorly; do not polish services nobody values.",
+    "optionNotes": [
+      "Incorrect — Already at maturity 5 but unlinked to any priority benefit, further polish here adds little perceived value.",
+      "Correct — Aligned with a top-priority benefit yet least mature and lowest rated, benefits tracking offers the largest value gain from one improvement.",
+      "Incorrect — Training supports no top-priority benefit and is already moderately mature; its payoff is indirect and slow.",
+      "Incorrect — Executive reporting is already mature and highly rated; a customer group's influence alone does not make it the biggest gap."
+    ],
+    "deepDive": "Pillar 9 separates two questions: is the PMO offering the right functions — those that generate the benefits its customers prioritize — and is it performing them maturely enough to deliver those benefits? Providing the right function without maturity is doing the right thing the wrong way; providing unwanted functions at high maturity is doing the wrong thing well, a pattern that has led even award-winning PMOs to be closed. A simple function-to-benefit map with maturity and satisfaction scores, refreshed annually or after major change, keeps the service mix aligned. Exam tip: tables like this reward reading two columns together rather than picking the single lowest or highest number.",
+    "tags": ["pmo", "maturity", "continuous improvement", "exhibit", "value"]
+  },
+  {
+    "id": "BUS-133",
+    "domain": "Business Environment",
+    "task": "7. Support organizational change",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "multi",
+    "topic": "Driving AI tool adoption",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 4: Digitalization Is Central to Delivering Projects' Promises (BI and analytics as change initiatives)",
+    "question": "An agile team has delivered an AI-based demand-forecasting tool for a food distributor. In testing it beat the planners' spreadsheets on accuracy by 18%, and the sponsor calls it a strategic priority. Three months after release, only 4 of 30 planners use it regularly; the rest say they do not trust 'black-box' numbers and keep working from their spreadsheets. Which three actions should the project manager take to increase adoption? (Select three.)",
+    "options": [
+      "Show planners at every level how the forecasts are produced and what benefits they bring to their daily decisions",
+      "Recruit respected planners as champions who help peers, answer questions and relay concerns back to the team",
+      "Start with a few product categories where early, visible wins can build confidence before expanding further",
+      "Add more data sources and advanced features so that the tool becomes clearly superior to any spreadsheet",
+      "Ask IT to disable spreadsheet access for the planning department so that everyone must use the new tool"
+    ],
+    "answer": [0, 1, 2],
+    "hint": "The tool already works technically; what is missing is on the people side.",
+    "why": "The gap is awareness, trust and habit, not technology, so the rollout must be managed as a change initiative rather than an IT delivery. Building understanding of how and why the forecasts work, enlisting champions at all levels, and creating small, visible wins are established change practices that the book recommends for analytics initiatives. More features or forced usage do not build the trust the planners say is missing.",
+    "how": "When a delivered solution is not adopted, diagnose the human barriers (awareness, trust, skills, reinforcement) and apply change management — communication, champions, small wins, involvement — before adding features.",
+    "optionNotes": [
+      "Correct — Transparency about how the forecasts work and what they offer tackles the 'black-box' distrust and builds awareness across levels.",
+      "Correct — Peer champions give planners credible, local support and a channel for concerns, which speeds adoption.",
+      "Correct — Early wins in a few categories provide evidence of value and build a culture of small successes before scaling up.",
+      "Incorrect — The tool already outperforms the spreadsheets; extra complexity can deepen the black-box perception rather than build trust.",
+      "Incorrect — Forced adoption breeds resistance and workarounds, and removes a fallback before planners trust the new forecasts."
+    ],
+    "deepDive": "Pillar 4 argues that business intelligence and analytics initiatives fail when treated as IT projects; they are strategic change initiatives whose success depends on awareness of benefits across levels, staff skills, internal support and champions, small early wins, transparency and involvement, and embedding in the culture. AI tools add an explainability challenge: users need enough understanding of inputs and confidence ranges to trust outputs, plus a way to apply their own judgment. PMI's benefits realization view reinforces the point — value is realized only when outputs are used. ADKAR (awareness, desire, knowledge, ability, reinforcement) is a useful diagnostic.",
+    "tags": ["ai", "adoption", "change management", "multi-select", "agile"]
+  },
+  {
+    "id": "BUS-134",
+    "domain": "Business Environment",
+    "task": "7. Support organizational change",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Adoption readiness scorecard",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 9: Evolving Nature of PMOs and Governance (organizational change management competency)",
+    "question": "A hybrid program is rolling out a new procurement platform in three waves. After wave 1, the project manager scores adoption readiness for wave 2 on a 1–5 scale: case for change understood 4, leadership sponsorship 5, process and system readiness 4, skills and training 2, and reinforcement through metrics and incentives 2. Wave 2 goes live in six weeks. Which action should the project manager prioritize?",
+    "options": [
+      "Delay wave 2 until every readiness dimension reaches a score of at least 4, whatever the business cost of the delay",
+      "Proceed with wave 2 as planned, since sponsorship and the case for change score well and will carry adoption forward",
+      "Ask the wave 2 sponsors to issue a directive requiring all buyers to use the platform from the first day after go-live",
+      "Target the two weak dimensions with role-based training and updated performance metrics before wave 2 goes live"
+    ],
+    "answer": [3],
+    "hint": "A scorecard is a diagnostic — what is it telling you about where adoption is most likely to fail?",
+    "why": "The scorecard shows where adoption risk sits: skills and reinforcement are the weak links, while awareness, sponsorship and technical readiness are strong. Using the six weeks for role-based training and for aligning metrics and incentives with the new process tackles the most likely causes of non-adoption. The book presents adoption scorecards for exactly this purpose — to pinpoint bottlenecks to value realization and act on their causes.",
+    "how": "Use readiness or adoption scorecards diagnostically: address the lowest-scoring dimensions that block value, rather than applying blanket delays or directives.",
+    "optionNotes": [
+      "Incorrect — A blanket rule to delay ignores that only two dimensions are weak and that six weeks may be enough to fix them.",
+      "Incorrect — Strong sponsorship cannot make up for users who lack the skills and have no reinforcement to change their habits.",
+      "Incorrect — A directive adds pressure but no capability; users would still lack the skills and incentives to use the platform well.",
+      "Correct — It focuses limited time on the dimensions most likely to block adoption and value, exactly as the scorecard indicates."
+    ],
+    "deepDive": "In Pillar 9 the modern PMO needs four competencies: clearly defined outcomes, governance for effective decision-making, digitization over manual processes, and excellence in organizational change management — the 'last mile' of value realization. An adoption scorecard scores the conditions for change (purpose, engagement, capabilities, performance measures) so the PMO can spot bottlenecks against benchmarks from earlier programs. It mirrors ADKAR logic: knowledge and ability (training) and reinforcement (metrics, incentives) are frequent failure points even when awareness and desire are high. In a wave-based rollout, each wave is also a learning loop for the next one.",
+    "tags": ["organizational change", "adoption", "hybrid", "scorecard"]
+  },
+  {
+    "id": "BUS-135",
+    "domain": "Business Environment",
+    "task": "7. Support organizational change",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Contractors in change plans",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 7: Organizational Cultural Shift to the Project Way of Working (new workforce behavior)",
+    "question": "A logistics company is moving from functional projects to a hybrid, product-based way of working. About 40% of the people in its delivery teams are long-term contractors supplied by three vendors. The change plan, drafted by HR, includes town halls, coaching and new career paths, but only for employees. Two months in, employees are adapting, while contractor-staffed teams keep working the old way and handoffs between teams are suffering. What should the project manager do?",
+    "options": [
+      "Ask procurement to add penalty clauses to the vendor contracts for any contractors who do not follow the new way of working",
+      "Extend the change plan to contractors and their vendors, with shared coaching, communication and aligned expectations",
+      "Gradually replace the contractors with employees, since only employees can be expected to embrace the cultural change",
+      "Separate contractor teams from employee teams so that the old and new ways of working stop interfering with each other"
+    ],
+    "answer": [1],
+    "hint": "Who actually does the work that the change is meant to transform?",
+    "why": "The workforce doing the work includes contractors, so a change plan limited to employees leaves 40% of the delivery system unchanged. The book notes that organizations increasingly see their workforce as an ecosystem that includes suppliers and contractors, each with their own expectations and transformation journey. Extending coaching and communication to contractors, and aligning expectations with their vendors, closes the actual gap.",
+    "how": "Define the change audience by who does the work and who is affected — including contractors, suppliers and partners — then tailor engagement to each group's relationship and contracts.",
+    "optionNotes": [
+      "Incorrect — Penalties without enablement punish people who were never included in the change, and they strain vendor relationships.",
+      "Correct — Including contractors and their vendors in the change plan addresses the part of the workforce the plan had overlooked.",
+      "Incorrect — Replacing 40% of the workforce is slow, costly and loses knowledge, and assumes without evidence that contractors cannot change.",
+      "Incorrect — Separating the teams entrenches two operating models and makes handoffs worse instead of aligning the ways of working."
+    ],
+    "deepDive": "Pillar 7 identifies four factors tied to the cultural shift toward a project way of working: new workforce behavior, streamlined processes, flexibility and adaptability (supported by psychological safety), and diversity. Part of the new workforce behavior is a broader definition of the workforce that includes suppliers and contractors, together with a human-centric view of transformation that connects individual interests with organizational goals. Practically, the change stakeholder analysis should list vendor account managers and contractor leads, and contracts may need updating to fund training and new roles. PMI's change guidance likewise stresses identifying everyone affected, not just direct employees.",
+    "tags": ["organizational change", "workforce", "contractors", "hybrid", "stakeholders"]
+  },
+  {
+    "id": "BUS-136",
+    "domain": "Business Environment",
+    "task": "7. Support organizational change",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "One strategy, two approaches",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 7: Organizational Cultural Shift to the Project Way of Working (streamlining processes)",
+    "question": "A 90-year-old insurer wants to launch app-based, pay-per-use policies while continuing to improve its traditional products. The transformation team plans to move every business unit to a single new agile operating model within a year. Managers of the core products warn that their regulated, stable processes work well and that a forced switch could disrupt service to 2 million existing customers. What approach should the project manager recommend?",
+    "options": [
+      "Implement the single agile operating model across the whole insurer, since partial change would slow the cultural shift",
+      "Postpone the digital product until the core business has fully completed its move to the new agile operating model",
+      "Launch the digital product inside the existing core processes so the insurer keeps one consistent way of working",
+      "Pursue one strategy with two delivery approaches: improve the core with fitting methods and run the venture startup-style"
+    ],
+    "answer": [3],
+    "hint": "Are optimizing a stable, regulated core and exploring an uncertain new business really the same kind of work?",
+    "why": "The insurer faces two different kinds of work: optimizing a stable, regulated core and exploring an uncertain new business. The book describes incumbents handling this through a single strategy executed by two approaches — one team improving the traditional business and another operating like a startup — which avoids disrupting the whole value chain while enabling speed where it is needed. Tailoring the delivery approach to each context respects the core managers' valid concerns and the venture's need for agility.",
+    "how": "In organizational change, tailor the approach to the nature of the work: stable, well-understood work and exploratory, uncertain work can coexist under one strategy with different operating models and governance.",
+    "optionNotes": [
+      "Incorrect — Forcing one model on all work ignores context and risks disrupting millions of customers served by stable, regulated processes.",
+      "Incorrect — Waiting for a full transformation delays a strategic opportunity and ties the new venture to the slowest part of the change.",
+      "Incorrect — Embedding an exploratory product in heavy core processes usually smothers the speed and experimentation it needs.",
+      "Correct — A dual approach lets each part of the business use methods suited to its uncertainty while staying aligned to one strategy."
+    ],
+    "deepDive": "Pillar 7 notes that startups have far simpler processes than incumbents, and that changing processes is easier than changing attitudes. One response is 'one strategy, two approaches': split strategy execution between a team improving the traditional business and a team operating like a startup to rethink the offering. The idea echoes ambidextrous organizations and the dual operating system (hierarchy plus network). For the exam it is an application of tailoring: choose development approach and governance by uncertainty, criticality and regulation, not by fashion — and integrate the two through shared strategy, portfolio decisions and managed interfaces.",
+    "tags": ["organizational change", "tailoring", "operating model", "hybrid", "innovation"]
+  },
+  {
+    "id": "BUS-137",
+    "domain": "Business Environment",
+    "task": "7. Support organizational change",
+    "approach": "Agile",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Psychological safety after merger",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 7: Organizational Cultural Shift to the Project Way of Working (psychological safety and diversity)",
+    "question": "After a merger, a project manager is leading a newly combined agile team through a set of shared processes adopted from the acquiring company. In planning and retrospectives, only people from the acquiring company speak up, and problems with the new processes surface late, usually as defects. Informally, several members from the acquired company say they worry that criticizing the new ways of working could cost them their jobs. What should the project manager do FIRST?",
+    "options": [
+      "Build psychological safety by inviting input from everyone, modeling openness about mistakes and responding constructively",
+      "Ask the acquiring company's members to speak less in meetings so that the other members are pushed to contribute more",
+      "Report the members' silence to HR as a performance concern so that it can be addressed through the formal channels",
+      "Replace the retrospectives with an anonymous survey so the acquired team can raise issues without being identified"
+    ],
+    "answer": [0],
+    "hint": "What is really keeping half the team quiet?",
+    "why": "The silence is driven by fear, which is why process problems surface late as defects. The book stresses that organizations must boost psychological safety so people freely raise ideas, concerns and questions; that is what makes teams adaptable during change, and diverse perspectives help only when people feel safe to share them. The project manager acts first by modeling openness and explicitly inviting every voice.",
+    "how": "When people withhold concerns during a change, address the fear first: model fallibility, invite input explicitly, respond appreciatively to bad news, and make it safe to challenge the new ways of working.",
+    "optionNotes": [
+      "Correct — A safe climate addresses the root cause of the silence, lets problems surface early, and draws on the acquired team's different perspectives.",
+      "Incorrect — Silencing one group creates resentment and does nothing to remove the fear that stops the others from speaking.",
+      "Incorrect — Treating fear-driven silence as a performance issue confirms the fear and reduces safety even further.",
+      "Incorrect — Anonymous surveys can supplement dialogue, but replacing it avoids the trust problem and slows collaborative problem-solving."
+    ],
+    "deepDive": "Pillar 7 links the cultural shift to a project way of working with flexibility and adaptability, and argues that psychological safety — confidence that one can raise ideas, concerns and questions without punishment — is what allows people to adapt. Diversity strengthens innovation, problem-solving and customer understanding and reduces groupthink, but only when combined with safety to speak. Mergers are classic low-safety settings because of job uncertainty. In the Satir change model, a merger is the 'foreign element' that triggers chaos; leaders shorten that phase by creating safety and clarity.",
+    "tags": ["organizational change", "psychological safety", "agile", "merger", "diversity"]
+  },
+  {
+    "id": "BUS-138",
+    "domain": "Business Environment",
+    "task": "7. Support organizational change",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Refreshed executive role",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 3: Project Management Is Creating Innovative Cultures (refreshed executive role)",
+    "question": "A retailer's executive committee launched an enterprise shift to product-centric agile delivery a year ago. The executives still receive a monthly written status pack, ask mainly about percentage complete, and have not attended a single product review. Team members say leaders 'talk agile but manage the old way,' and product managers wait weeks for funding decisions. How should the project manager leading the transformation office support the change?",
+    "options": [
+      "Add agile metrics such as velocity and burndown to the monthly status pack so the executives learn the new vocabulary",
+      "Ask the executives to send a company-wide message reaffirming their full commitment to the agile transformation",
+      "Coach the executives to join product reviews, make funding decisions in shorter cycles and model the new behaviors",
+      "Shield the teams from the executives by routing every executive request through the transformation office first"
+    ],
+    "answer": [2],
+    "hint": "Employees are responding to what leaders do, not to what they say.",
+    "why": "The transformation is stalling because leaders' behavior contradicts the change they announced. The book describes a refreshed executive role in which leaders move from distant steering to engaged, product-owner-like sponsorship, working alongside teams and exemplifying servant leadership. Coaching the executives to take part in product reviews and to make faster funding decisions changes the signals the organization receives and removes a real impediment.",
+    "how": "In organizational change, visible leadership behavior outweighs messages: help sponsors model the new ways of working and adapt governance practices, such as funding cadence, to match them.",
+    "optionNotes": [
+      "Incorrect — Translating output metrics into agile terms keeps the old control mindset and can even turn velocity into a target.",
+      "Incorrect — Another message without behavior change widens the 'talk agile, manage old' gap employees already see.",
+      "Correct — Engaged participation and faster decisions by executives model the change and remove the funding-delay impediment.",
+      "Incorrect — Insulating teams from leaders removes the visibility and engagement that the transformation actually needs."
+    ],
+    "deepDive": "Pillar 3's innovative culture model includes a 'refreshed executive role': boardrooms become workrooms, executives focus on delivering rather than only steering, and they exemplify product-owner behavior and balanced sponsorship. In Kotter's terms this is the guiding coalition modeling the vision; in ADKAR terms it drives desire and reinforcement. Agile funding models, such as persistent product teams funded quarterly or on a rolling basis, are a governance change that must accompany the cultural change. Exam cue: when employees perceive a say-do gap, choose options that change leadership behavior, not just communications.",
+    "tags": ["organizational change", "leadership", "sponsorship", "agile transformation"]
+  },
+  {
+    "id": "BUS-139",
+    "domain": "Business Environment",
+    "task": "8. Evaluate external business environment changes",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Market shift to AI agents",
+    "source": "ECO 2026 · Business Environment Task 8 · Market signal analysis",
+    "question": "A product team is planning the next two releases of a travel company's booking app, following a roadmap approved 18 months ago that focuses on richer in-app search. The project manager has assembled industry data on how travelers book. Refer to the exhibit. What should the project manager do NEXT?",
+    "exhibit": {
+      "kind": "line",
+      "title": "Share of travel bookings by channel (% of market)",
+      "xLabel": "Quarter",
+      "yLabel": "% of bookings",
+      "x": ["Q1", "Q2", "Q3", "Q4", "Q5", "Q6", "Q7", "Q8"],
+      "series": [
+        {"name": "Booked via AI travel agents", "values": [2, 3, 5, 8, 12, 17, 23, 30]},
+        {"name": "Booked in company apps", "values": [21, 21, 20, 20, 19, 17, 15, 13]},
+        {"name": "Booked on company websites", "values": [34, 34, 33, 33, 33, 32, 32, 31]}
+      ]
+    },
+    "options": [
+      "Continue with the approved roadmap, because richer in-app search should win back the travelers now moving to AI agents",
+      "Share the trend with the product owner and sponsor and propose revisiting roadmap priorities and business-case assumptions",
+      "Redirect the team at once to build its own AI booking agent, because the app channel will be obsolete within a year",
+      "Log the trend in the risk register and review it again at the annual business-case refresh in nine months' time"
+    ],
+    "answer": [1],
+    "hint": "The data challenges an assumption; who owns the decisions that rest on it?",
+    "why": "The exhibit shows a sustained structural shift: bookings via AI agents grew from 2% to 30% of the market in eight quarters while app bookings fell from 21% to 13%, and website bookings stayed almost flat. That undermines the assumption behind an 18-month-old roadmap built around in-app search. The project manager should bring the evidence promptly to the product owner, who owns priorities, and the sponsor, who owns the business case, so they can re-evaluate — for example by exploring integration with AI agents — rather than continuing blindly or pivoting unilaterally.",
+    "how": "When external indicators contradict the assumptions behind a roadmap or business case, surface the evidence promptly to the decision owners and re-plan with them; do not ignore it and do not pivot without them.",
+    "optionNotes": [
+      "Incorrect — Improving in-app search assumes travelers still want to book in the app, the very assumption the data undermines.",
+      "Correct — It gets timely evidence to the people who own priorities and the business case so they can adapt the roadmap deliberately.",
+      "Incorrect — Pivoting unilaterally bypasses the product owner and sponsor, and building a proprietary agent is only one of several possible responses.",
+      "Incorrect — Waiting nine months lets the team keep building against a fading assumption while the shift accelerates."
+    ],
+    "deepDive": "Evaluating the external business environment means scanning for market, technology, regulatory and social changes (PESTLE) and judging their impact on objectives, benefits and plans. Leading indicators such as channel share give earlier warning than lagging ones such as revenue. In agile delivery the product owner adapts the roadmap and backlog; in predictive delivery the sponsor and governance re-validate the business case through change control. AI agents that act on customers' behalf are a current example of disintermediation risk: a business that owned the customer interface can become just one supplier behind an agent.",
+    "tags": ["external environment", "market trends", "ai", "exhibit", "roadmap"]
+  },
+  {
+    "id": "BUS-140",
+    "domain": "Business Environment",
+    "task": "8. Evaluate external business environment changes",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Portfolio realignment after disruption",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 1: Strategic Delivery Capability (strategic agility: reallocating the portfolio when global events disrupt assumptions)",
+    "question": "A medical-devices company is hit by a sudden global shortage of a key semiconductor. The portfolio board decides to move engineers onto redesigning two best-selling products around alternative chips, and asks every project manager to release capacity within a month. Hana leads a hybrid project, now at its midpoint, that is developing a patient-monitoring app; losing half her engineers would delay the full release by about five months. What should Hana do?",
+    "options": [
+      "Argue to keep her full team, pointing out that the board itself approved the app's business case and schedule",
+      "Release the engineers as asked but keep the original scope and date, asking the remaining team to cover the gap",
+      "Work with the product owner on options, such as a smaller first release, and show the board the value trade-offs",
+      "Ask the board to delay the chip redesign by a quarter so that her project can first reach its next major milestone"
+    ],
+    "answer": [2],
+    "hint": "When the organization shifts resources to answer an external shock, ask how your project can adapt rather than how it can be protected.",
+    "why": "Strategic agility means the portfolio can move people and money quickly when the external environment changes, and the board has made a legitimate priority call to protect core revenue. Hana's job is to make that decision work: reshape her project with the product owner, for example around a smaller first release of the most valuable features, and make the value and timing trade-offs transparent to the board. Resisting the decision or pretending the original plan still holds both undermine the organization's ability to adapt.",
+    "how": "When a disruption triggers portfolio reprioritization, support the strategic decision and adapt your project around it, showing decision makers the value impact of each option.",
+    "optionNotes": [
+      "Incorrect — An approved business case does not override a portfolio decision taken to answer a strategic threat; this is resistance, not agility.",
+      "Incorrect — Keeping the same scope and date with half the team is unrealistic and hides the real impact of the decision from the board.",
+      "Correct — It accepts the new priority and reshapes delivery to protect as much value as possible, with transparent trade-offs for the board.",
+      "Incorrect — The chip shortage threatens core revenue; asking the board to slow that response to protect one project misreads the priorities."
+    ],
+    "deepDive": "Kerzner, Zeitoun and Vargas describe strategic agility as the ability to shift budgets and people across the portfolio quickly when global events overturn assumptions, and they warn that today's portfolio metrics may not stay relevant for long. For project managers this means thinking like business managers: understanding why the portfolio moved and redesigning their own delivery to fit. Adaptive techniques such as minimum viable releases, value-based backlog ordering and incremental delivery make it easier to release capacity without losing all the value. In predictive projects the same decision is handled through a re-baseline approved via change control.",
+    "tags": ["strategic agility", "portfolio", "external environment", "prioritization", "hybrid"]
+  },
+  {
+    "id": "BUS-141",
+    "domain": "Business Environment",
+    "task": "8. Evaluate external business environment changes",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Humanitarian context shift and donor rules",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 2: Applying Project Management in Humanitarian and Social Initiatives (responding to the changing needs of affected people)",
+    "question": "Amara manages a donor-funded project rebuilding schools in a coastal district. Construction follows a predictive plan, while community programs run in short adaptive cycles. Severe flooding has just displaced thousands of families into nearby towns, and local partners report that the most urgent needs are now safe water and temporary learning spaces. The donor's grant is restricted to school reconstruction, but the grant agreement allows reprogramming requests. What should Amara do?",
+    "options": [
+      "Continue rebuilding the schools as planned, because the grant is restricted and the donor has not asked for any changes",
+      "Redirect part of the grant to water and temporary classrooms at once, and explain the change in the next donor report",
+      "Refer the new needs to the emergency agencies in the area and keep the project focused on its original reconstruction aims",
+      "Assess the new needs with local partners and affected families, and send the donor a rapid reprogramming request"
+    ],
+    "answer": [3],
+    "hint": "Balance two duties — to the people the project serves and to the funder whose rules govern the money — and look for the route that honors both.",
+    "why": "The external context has changed sharply, and humanitarian projects exist to meet the needs of affected people, so carrying on unchanged would deliver less value. Amara should verify the new needs with local partners and the families themselves and use the reprogramming route the agreement provides, making the case quickly. Moving restricted funds without approval breaks the donor agreement and puts future funding and the organization's credibility at risk, however good the cause.",
+    "how": "In humanitarian and donor-funded projects, respond to a changed context by reassessing needs with the affected community and using the funder's formal flexibility quickly — never by diverting restricted funds on your own authority.",
+    "optionNotes": [
+      "Incorrect — Ignoring a major shift in beneficiaries' needs delivers outputs that may no longer be the priority, and the agreement lets her propose changes.",
+      "Incorrect — Diverting restricted funds without approval breaches the donor agreement and damages accountability, however urgent the need.",
+      "Incorrect — Coordinating with emergency agencies is sensible, but refusing to adapt ignores the needs the project was created to serve.",
+      "Correct — It grounds the change in verified community needs and uses the donor's reprogramming route, balancing speed with accountability."
+    ],
+    "deepDive": "Kerzner, Zeitoun and Vargas note that humanitarian and social projects are driven by the relief of need rather than financial return, operate with scarce resources and life-or-death urgency, and must coordinate many actors while building local capacity. Accountability runs both upward to donors and downward to affected people, so assessing needs with communities is central. Most institutional donors offer reprogramming or modification procedures precisely because contexts change suddenly. 'Build back better' thinking also applies: temporary learning spaces can be planned so they feed into permanent, more resilient schools.",
+    "tags": ["humanitarian", "external environment", "donors", "reprogramming", "hybrid"]
+  },
+  {
+    "id": "BUS-142",
+    "domain": "Business Environment",
+    "task": "8. Evaluate external business environment changes",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "AI simulation changes the plan",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 4: Digitalization Is Central to Delivering Projects' Promises (experimenting capacity and context-driven planning)",
+    "question": "Tomas leads a team designing a new warehouse layout for a retail chain. The plan, written a year ago, allows four months for one detailed design followed by a physical pilot. The chain has since adopted an AI-driven digital twin that can simulate dozens of layouts against real order data in a single day. Senior managers are unsure how far to trust it, and the design team is comfortable with the original plan. What should Tomas do?",
+    "options": [
+      "Re-plan around short cycles that test layouts in the twin with managers, then confirm the best in a smaller pilot",
+      "Keep the original four-month design plan, and use the digital twin only at the end to check the final chosen layout",
+      "Let the digital twin select the optimal layout and move straight to rollout, since the simulations use real order data",
+      "Delay design work until the IT department has certified that the digital twin's results are fully reliable for use"
+    ],
+    "answer": [0],
+    "hint": "A new tool has changed what it costs to try an idea; ask how the plan and the people who must trust the result should respond.",
+    "why": "The new capability changes the economics of experimentation: testing a layout now takes a day, not months. Context-driven planning means adjusting the approach to fit — short cycles that explore many options with the managers who will live with the result, plus a smaller physical pilot to validate the twin and build trust. Ignoring the tool wastes its value, while handing the decision to the algorithm or waiting for perfect certainty skips the human judgment and validation the change needs.",
+    "how": "When digital or AI tools make experimentation cheap, re-plan to learn faster through short test cycles with stakeholders, and validate the tool's outputs rather than ignoring or blindly trusting them.",
+    "optionNotes": [
+      "Correct — It uses the new capacity to experiment, involves managers in shaping the design, and keeps a pilot to check the model against reality.",
+      "Incorrect — Using the twin only as a final check wastes its main benefit: exploring many options early, while changes are still cheap.",
+      "Incorrect — Skipping validation and stakeholder judgment treats the AI output as infallible and risks an expensive rollout mistake.",
+      "Incorrect — Waiting for full certification delays learning; trust in the tool is better built by comparing its predictions with a pilot."
+    ],
+    "deepDive": "Kerzner, Zeitoun and Vargas propose a digitalization-and-projects framework whose elements include experimenting capacity, context-driven planning, co-creation, virtual-team engagement, outcomes-focused work and ever-changing ways of working. Digital twins are a prime example of experimenting capacity, letting teams test ideas before committing capital. Context-driven planning means plans flex with the situation — here, the arrival of a tool that makes iteration cheap. The PMI angle is the same: adapt the development approach when the environment changes, keep people accountable for AI-assisted decisions, and validate models against reality.",
+    "tags": ["ai", "digital twin", "experimentation", "technology change", "agile"]
+  },
+  {
+    "id": "BUS-143",
+    "domain": "Business Environment",
+    "task": "8. Evaluate external business environment changes",
+    "approach": "Any",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Early warning of a supplier crisis",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 6: New Forms of Project Leadership (crisis leadership: early warnings, rapid decisions and transparency)",
+    "question": "Kenji is managing the launch of a home-battery product; 3,000 units are already installed in customers' homes. A news report and a regulator's alert say battery cells from the project's supplier have caught fire in another company's products. The supplier insists Kenji's cells come from a different batch and asks him to say nothing until its investigation ends in three weeks. Customers have started calling. What should Kenji do FIRST?",
+    "options": [
+      "Wait for the supplier's findings before acting, since its batch records suggest that Kenji's product is unaffected",
+      "Issue a statement that the product is safe and uses different cells, to reassure customers and protect the launch",
+      "Convene a crisis team with the sponsor, pause shipments and give customers honest updates while the batch is checked",
+      "Tell customers that the supplier is responsible for any risk, and refer all of their questions to the supplier's helpline"
+    ],
+    "answer": [2],
+    "hint": "In a possible safety crisis, think about who must be protected first and what silence or unverified claims would do to trust.",
+    "why": "Crisis leadership calls for fast, decisive action on early warning signs, even before the facts are complete, because delay and silence make a bad situation worse. Pausing shipments protects people while the batch claim is verified, and involving the sponsor gives the crisis team the authority and single voice it needs. Honest, regular updates keep customers' trust, whereas unverified reassurance, waiting or blaming the supplier are the behaviors that turn a manageable problem into a reputational disaster.",
+    "how": "In a crisis, put safety first, act decisively on early warnings, involve the sponsor, and communicate transparently and consistently; never hide, stall or shift blame.",
+    "optionNotes": [
+      "Incorrect — Waiting three weeks treats an early warning lightly, a classic crisis failure; a possible safety risk cannot wait for the supplier's timetable.",
+      "Incorrect — Declaring the product safe before the batch is verified could mislead customers and would destroy trust if the claim proved wrong.",
+      "Correct — It acts on the warning to protect people, brings in executive authority and keeps customers honestly informed while facts are confirmed.",
+      "Incorrect — Shifting blame to the supplier damages trust in both companies and abandons responsibility for the company's own customers."
+    ],
+    "deepDive": "Kerzner, Zeitoun and Vargas argue that normal project processes and leadership styles may not work in a crisis: time becomes an inflexible constraint, decisions must be made with incomplete information, and previously silent stakeholders become active. Lessons they draw from past crises include recognizing early that a crisis exists, taking responsibility quickly, not blaming partners, making actions match words, and never misleading the public. Sponsors often step in more directly and may act as the spokesperson. For the exam, safety threats justify decisive action such as stopping shipments or work, combined with the honesty required by PMI's code of ethics.",
+    "tags": ["crisis leadership", "safety", "transparency", "supplier", "external environment"]
+  },
+  {
+    "id": "BUS-144",
+    "domain": "Business Environment",
+    "task": "8. Evaluate external business environment changes",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "No stop criteria after a market shift",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 8: Adaptive Frameworks and Life Cycles (new causes of failure: untracked benefits and no cancellation criteria)",
+    "question": "Lucía manages a predictive project building a regional distribution center for a furniture retailer. The project is 70% complete and on schedule and budget. A competitor has since launched same-day delivery from small automated hubs, customers are switching quickly, and the retailer's own forecasts now show volumes through the new center, its main benefit, falling by about half. The steering committee has no agreed criteria for stopping a project and says, 'We're nearly done, so let's finish.' What should Lucía do?",
+    "options": [
+      "Complete the project as the committee directs, since it is on schedule and on budget and most of the money is spent",
+      "Stop work on the center at once, because the benefits in the approved business case can no longer be achieved",
+      "Log the forecast change in the risk register and report its effect on benefits in the review held after handover",
+      "Present the revised benefits against the remaining cost, and propose agreed criteria for continuing or stopping"
+    ],
+    "answer": [3],
+    "hint": "Being on schedule and on budget is not the same as delivering value — and the money already spent cannot be recovered either way.",
+    "why": "Being on time and on budget says nothing about whether the project will still deliver value, and the external change has cut its main benefit by about half. Lucía should show the committee the updated benefits compared with the cost still to be spent — money already spent is sunk and irrelevant to the decision — and help it agree explicit continue, change or stop criteria. Stopping is the committee's decision rather than hers, and waiting until after handover means benefits are not tracked across the life cycle.",
+    "how": "Track benefits, not just time and cost, throughout the life cycle; when external changes erode value, give governance forward-looking figures (remaining cost versus remaining benefit) and clear decision criteria.",
+    "optionNotes": [
+      "Incorrect — Finishing because most of the money is spent is the sunk-cost trap; the decision should rest on future cost and future benefit.",
+      "Incorrect — Stopping is a governance decision, and some benefit may remain; the project manager should inform that decision rather than make it.",
+      "Incorrect — Reporting the benefit loss only after handover fails to track value across the life cycle and removes the chance to change course.",
+      "Correct — It gives the committee forward-looking evidence and fills a known cause of failure: having no criteria for deciding when to stop."
+    ],
+    "deepDive": "Kerzner, Zeitoun and Vargas list new causes of complete or partial failure, including a focus on deliverables rather than benefits, not tracking benefits and value over the whole life cycle, using the wrong definition of success, and having no criteria for cancelling a failing project. A project can be green on time, cost and scope while its business case collapses. Good governance sets continuation criteria at approval, such as a minimum expected benefit or a maximum cost to complete, and revisits them at gates or whenever external conditions change. The authors see capturing lessons learned as the main safeguard against these causes recurring.",
+    "tags": ["benefits realization", "business case", "sunk cost", "governance", "predictive"]
+  },
+  {
+    "id": "BUS-145",
+    "domain": "Business Environment",
+    "task": "8. Evaluate external business environment changes",
+    "approach": "Agile",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Sequencing by cost of delay",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 1: Strategic Delivery Capability (strategic agility: making urgency and customer value explicit)",
+    "question": "A national instant-payments mandate takes effect next quarter, and rival banks are already launching new services. A product team at a mid-sized bank has two epics ready and can work on only one at a time. Merchant QR payments has a cost of delay of $30,000 per week and needs 2 weeks of work; instant payroll payouts has a cost of delay of $40,000 per week and needs 4 weeks. What is the total cost of delay if the team chooses the BEST sequence?",
+    "options": [
+      "$240,000",
+      "$300,000",
+      "$340,000",
+      "$420,000"
+    ],
+    "answer": [1],
+    "hint": "Each epic keeps costing money every week until it is delivered — try both orders before choosing.",
+    "why": "Cost of delay accrues for each epic until it is delivered. QR first: QR finishes at week 2 ($30,000 × 2 = $60,000) and payroll at week 6 ($40,000 × 6 = $240,000), a total of $300,000. Payroll first: payroll finishes at week 4 ($40,000 × 4 = $160,000) and QR at week 6 ($30,000 × 6 = $180,000), a total of $340,000. The best sequence therefore starts with QR, which also has the higher cost of delay divided by duration ($15,000 versus $10,000 per week of work).",
+    "how": "To sequence work under time pressure, divide cost of delay by duration (CD3, the core of WSJF) and do the highest ratio first; total cost of delay = Σ (weekly cost of delay × weeks until delivery).",
+    "optionNotes": [
+      "Incorrect — This counts only the payroll epic's cost and forgets that QR also costs $30,000 a week until it is delivered at week 2.",
+      "Correct — Delivering QR first gives $30,000 × 2 + $40,000 × 6 = $300,000, the lower total of the two possible sequences.",
+      "Incorrect — This is the total when the epic with the higher weekly cost of delay goes first; ranking by cost of delay alone ignores duration.",
+      "Incorrect — This charges the combined $70,000 a week for all six weeks, as if neither epic could be delivered until both were finished."
+    ],
+    "deepDive": "Cost of delay puts a price on time — the value lost each week a feature is not in customers' hands — and it rises sharply when an external change such as a regulatory mandate or a competitor's launch opens a window. Kerzner, Zeitoun and Vargas stress injecting urgency and customer focus into strategic delivery, and cost of delay is a practical way to make that urgency explicit in the backlog. CD3 (cost of delay divided by duration) underpins weighted shortest job first in scaled agile frameworks. A common trap is starting with the item that has the highest cost of delay even when a shorter item would release value sooner overall.",
+    "tags": ["cost of delay", "wsjf", "prioritization", "agile", "calculation"]
+  },
+  {
+    "id": "BUS-146",
+    "domain": "Business Environment",
+    "task": "8. Evaluate external business environment changes",
+    "approach": "Agile",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Planning amid shifting health guidance",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 2: Applying Project Management in Humanitarian and Social Initiatives (project practices during a health crisis)",
+    "question": "During an epidemic surge, Dr. Sofia Mendes is asked to set up a 60-bed temporary ward in a sports hall within three weeks. National health authorities are updating infection-control guidance every few days, and supplies such as ventilators arrive at short notice. Her deputy proposes spending the first week writing a detailed plan and baseline so that progress can be tracked precisely. What approach should Sofia take?",
+    "options": [
+      "Plan in short cycles, with daily priority reviews against the latest guidance and a minimum ward to open first",
+      "Adopt her deputy's approach, since a complete baseline is the most reliable way to control a high-risk project",
+      "Freeze the design using the current guidance and deal with any later guidance changes after the ward has opened",
+      "Wait for the authorities to publish stable guidance before starting, so that the ward will not need rework later"
+    ],
+    "answer": [0],
+    "hint": "Match how far ahead you plan in detail to how fast the outside world is changing.",
+    "why": "The external environment is changing every few days and the deadline is fixed, so a detailed up-front baseline would be outdated almost as soon as it was approved. Short planning cycles with daily reprioritization let the team absorb new guidance and supply changes quickly, and defining a minimum ward lets patients be treated as soon as possible, with capacity added in increments. Freezing the design or waiting for stability would either put patients at risk under outdated rules or miss the surge entirely.",
+    "how": "When external requirements change faster than a plan can be approved, use short planning horizons, frequent reprioritization and an incremental minimum viable outcome.",
+    "optionNotes": [
+      "Correct — Short cycles and daily reviews let the team track fast-changing guidance, and a minimum ward delivers urgent value early.",
+      "Incorrect — A detailed baseline would consume a third of the available time and would be out of date within days as guidance changes.",
+      "Incorrect — Ignoring new infection-control guidance until after opening could put patients and staff at risk and force disruptive rework.",
+      "Incorrect — Waiting for stable guidance would miss the surge; the ward is needed within weeks, so the team must adapt as it goes."
+    ],
+    "deepDive": "Kerzner, Zeitoun and Vargas describe how crisis and humanitarian projects face extreme time pressure, scarce resources and many coordinating parties, which forces practices to be adapted rather than applied by the book. In such settings, agile principles — short cycles, visible priorities, empowered teams and incremental delivery — fit better than a heavy baseline, although safety and regulatory rules still apply. Rolling-wave planning is the predictive equivalent: plan the near term in detail and later work at a higher level. The exam lesson is to match the planning horizon to the rate of external change.",
+    "tags": ["crisis", "adaptive planning", "healthcare", "external environment", "agile"]
+  }
+]

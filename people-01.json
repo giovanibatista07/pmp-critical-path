@@ -1,0 +1,918 @@
+[
+  {
+    "id": "PEO-001",
+    "domain": "People",
+    "task": "1. Develop a common vision",
+    "approach": "Hybrid",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Shared vision",
+    "source": "ECO 2026 · People Task 1 · Shared vision (PMBOK 8: focus on value)",
+    "question": "Lumora Bank has just chartered a hybrid project to modernize its customer self-service portal: the platform upgrade follows a fixed plan, while new features will be built in sprints. At the first full team meeting, the developers describe the goal as 'replacing the old tech stack,' the business analysts as 'cutting call-center volume,' and the marketing lead as 'winning younger customers.' Nobody disagrees openly, but each group is planning different priorities. What should the project manager do FIRST?",
+    "options": [
+      "Facilitate a visioning workshop with the team and key stakeholders to co-create one shared vision",
+      "Send the team the project charter and business case and ask everyone to read them before the next meeting",
+      "Ask the sponsor to email the team a clear written statement of the project goal and its success criteria",
+      "Start sprint planning right away so the team can discover the shared purpose through delivering increments"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Ask which action would actually reconcile three different mental models and create ownership, rather than transmit information one way.",
+    "why": "Each group holds a different mental model of the project's purpose, and all three are partly right: a new platform, fewer calls and new customers can all be real benefits. A facilitated visioning workshop, anchored in the charter and business case, lets the groups surface those interpretations, agree how they connect and which outcome matters most, and leave owning the result, for example as a vision statement or elevator pitch. Doing this first stops the fixed-plan and sprint streams from optimizing for different goals.",
+    "how": "When the task is to develop or foster a shared vision, prefer collaborative, facilitated actions over one-way communication, and do it before detailed planning or delivery begins.",
+    "optionNotes": [
+      "Correct — Co-creating the vision with the people doing the work and those receiving the value reconciles the three interpretations and builds commitment before plans diverge.",
+      "Incorrect — The charter and business case are useful inputs, but reading them alone rarely reconciles different mental models or creates ownership of a shared goal.",
+      "Incorrect — Sponsor input matters, yet a one-way email announces a goal without uncovering why the groups interpret it differently, so the misalignment persists quietly.",
+      "Incorrect — Delivering increments without an agreed purpose risks building toward three different goals; alignment on the vision should come before sprint planning."
+    ],
+    "deepDive": "Common vision tools include the product vision statement, the elevator pitch template (for [target customer] who [need], the [product] is a [category] that [benefit]; unlike [alternative]…), the product box, a vision board and a high-level roadmap. PMBOK 8's focus-on-value principle asks teams to keep intended outcomes and benefits visible across the life cycle, and a shared vision is the first step. In hybrid projects the vision matters doubly, because the predictive and adaptive streams must serve the same outcomes. The exam trap is choosing the 'efficient' one-way option (email, document, sponsor memo): transferring information is not the same as building shared understanding.",
+    "tags": [
+      "vision",
+      "facilitation",
+      "kickoff",
+      "charter",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "PEO-002",
+    "domain": "People",
+    "task": "1. Develop a common vision",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Root cause of misalignment",
+    "source": "ECO 2026 · People Task 1 (identify root causes of misalignment)",
+    "question": "Karsten Foods is rolling out a new ERP system under a predictive plan with two co-sponsors. The finance director measures success by cost reduction; the operations director wants faster order processing, even if running costs rise. Each has given the team direction that contradicts the other, and two design decisions are now stalled while team members argue about whose goal comes first. What is the BEST action for the project manager?",
+    "options": [
+      "Escalate immediately to the steering committee and pause design work until the two sponsors settle the direction",
+      "Review the business case and charter, then meet both sponsors together to agree on documented success criteria",
+      "Ask the team to satisfy both sponsors by planning cost-reduction and speed features as parallel workstreams",
+      "Follow the direction of the sponsor who contributes the larger share of the budget, and inform the other sponsor"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Before choosing a side or escalating, find where the misalignment comes from and who has the authority to resolve it.",
+    "why": "The ECO asks the project manager to identify the root causes of misalignment before acting. The business case and charter show what was originally approved and may already rank cost against speed; meeting both sponsors together puts the two decision makers at the same table, where they can reconcile priorities and record measurable success criteria the team can design against. Escalation to the steering committee becomes appropriate only if the sponsors cannot agree.",
+    "how": "For conflicting direction from decision makers: check the approved baseline documents, facilitate a joint decision by those who own the priorities, document it, and escalate through governance only if they cannot agree.",
+    "optionNotes": [
+      "Incorrect — Premature escalation; the PM has not yet tried to facilitate agreement, and pausing all design work adds delay before anyone has analyzed the conflict.",
+      "Correct — Uses the approved baseline to frame the discussion and resolves the root cause with both decision makers together, producing documented, measurable criteria.",
+      "Incorrect — Pursuing contradictory goals in parallel without a decision spreads effort, raises cost and hides the conflict instead of resolving it.",
+      "Incorrect — Budget share does not decide whose objectives are valid; siding with one sponsor damages trust and leaves the other sponsor's needs unmanaged."
+    ],
+    "deepDive": "Success criteria belong in the charter and should be refined early, ideally tied to the benefits in the business case. When sponsors disagree, useful techniques include mapping each objective to a business-case benefit, facilitated prioritization such as pairwise comparison or a weighted scoring model, and recording the outcome in the decision log. The trap is escalating first: PMI expects the project manager to try to resolve issues within their own authority. Persistent sponsor conflict is a governance matter that may then go to the steering committee with a clear options analysis.",
+    "tags": [
+      "sponsor",
+      "success criteria",
+      "business case",
+      "alignment",
+      "predictive"
+    ]
+  },
+  {
+    "id": "PEO-003",
+    "domain": "People",
+    "task": "1. Develop a common vision",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Missing product goal",
+    "source": "ECO 2026 · People Task 1 · Scrum Guide: the product goal",
+    "question": "Nine sprints into building a booking platform for Veradal Clinics, the Scrum team meets every sprint goal, and stakeholders like each increment. Yet in a retrospective the developers say they cannot tell what the increments are adding up to, and at the sprint review two stakeholders ask whether the product will ever handle multi-site scheduling. The product backlog holds 140 items, ordered mainly by which stakeholder asked most recently. What should the project manager do?",
+    "options": [
+      "Draft a twelve-month feature roadmap for the team and ask the steering group to approve it as the baseline",
+      "Coach the product owner to define a product goal with stakeholders and order the backlog toward it",
+      "Ask the developers to write longer sprint goals that describe how each sprint relates to the others",
+      "Group the 140 backlog items into themes by stakeholder so each group can see its own requests progress"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "The team keeps hitting short-term targets; ask what longer-term commitment the backlog is supposed to serve, and who owns it.",
+    "why": "Every sprint succeeds, but nothing links the sprints together: the backlog is ordered by recency, and nobody can say what the product is heading toward. In Scrum, the product goal is the long-term objective the product backlog is committed to, and the product owner is accountable for developing and communicating it. Coaching the product owner to define it with stakeholders and then order the backlog toward it gives the team and stakeholders a shared destination, and future sprint goals can show progress toward it.",
+    "how": "When an agile team delivers sprint by sprint but feels directionless, look for the missing link between vision and backlog — the product goal or roadmap — and help its owner, the product owner, create it with stakeholders rather than writing it yourself.",
+    "optionNotes": [
+      "Incorrect — A detailed, approved feature baseline is a predictive control that bypasses the product owner and locks in scope before anyone knows which outcome matters most.",
+      "Correct — A product goal gives the backlog a clear target, and the product owner is accountable for it, so this fixes the recency-driven ordering at its source.",
+      "Incorrect — Sprint goals can only connect to each other if a longer-term objective exists; longer wording treats the symptom and leaves the direction undefined.",
+      "Incorrect — Grouping by requester makes each stakeholder's list visible but reinforces ordering by who asks, not by progress toward a shared product outcome."
+    ],
+    "deepDive": "The 2020 Scrum Guide added the product goal as the commitment for the product backlog: a future state of the product that the team plans against, with one goal pursued at a time. The chain runs from product vision to product goal to sprint goal to increment, so each level explains the one below it. A backlog ordered by who asked most recently is a common symptom of a missing goal, because the product owner has no criterion for saying no. Project managers in hybrid or coaching roles support this by coaching the product owner and facilitating stakeholder input, not by taking over product decisions. Predictive projects create a similar link through the charter's objectives and the scope baseline.",
+    "tags": [
+      "product goal",
+      "product owner",
+      "backlog",
+      "scrum",
+      "vision"
+    ]
+  },
+  {
+    "id": "PEO-004",
+    "domain": "People",
+    "task": "1. Develop a common vision",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Checking understanding of the vision",
+    "source": "ECO 2026 · People Task 1 · Confirming shared understanding (back-brief)",
+    "question": "Leandro has just presented the charter for a predictive project to build a flood barrier for the coastal town of Marisca: protect 4,000 homes from a 1-in-100-year flood, within the approved budget and without harming the protected wetland beside the site. The 14 team members come from design, environmental, legal and construction firms, and on his last project each discipline turned out to have read the objectives differently. Everyone nodded at the kickoff and asked no questions. What is the BEST way for Leandro to confirm that the team shares the vision?",
+    "options": [
+      "Ask each team member to sign the charter to confirm that they have read and accepted its objectives",
+      "Email the kickoff slides with the objectives highlighted and invite written questions within one week",
+      "Review each discipline's first deliverable against the charter and correct any misreading at that point",
+      "Have each discipline lead explain back how their work serves the objectives, then discuss any gaps"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Silence at a kickoff shows that people heard the message — ask what would show that they understood it the same way.",
+    "why": "Nodding and silence show that the message was received, not that it was understood the same way, and multidisciplinary teams often read shared objectives through the lens of their own discipline. Asking each lead to explain back how their work serves the objectives — a back-brief — exposes differing interpretations immediately, while they are cheap to fix. Discussing the gaps as a group then builds a common understanding of the trade-offs among flood protection, budget and the wetland that the charter alone does not create.",
+    "how": "To confirm a shared vision, test understanding actively: have people restate the objectives and their own contribution in their own words, then resolve differences together — acknowledgments, signatures and documents alone do not prove alignment.",
+    "optionNotes": [
+      "Incorrect — A signature proves a document was received, not that everyone reads the objectives the same way; the misreadings seen on the last project would survive it.",
+      "Incorrect — Re-sending the same content is one-way communication, and people who think they already understand rarely submit questions, so hidden differences remain.",
+      "Incorrect — Waiting for first deliverables finds misreadings only after effort has gone toward the wrong target, which is exactly the costly pattern to avoid.",
+      "Correct — Explaining back in their own words surfaces different interpretations right away, and discussing them together builds one shared understanding of the objectives."
+    ],
+    "deepDive": "Back-briefing comes from military planning: after receiving the commander's intent, subordinates brief back their understanding and plan so that gaps surface before action. Project teams use the same idea at kickoffs, when new members join and after major changes. It reflects the feedback loop in communication models, where the sender is responsible for confirming that the message was understood, not merely sent. In agile settings, the equivalent check happens when the team restates the sprint goal or product goal in its own words during planning. A common exam trap is treating a signed charter or a distributed document as evidence of alignment.",
+    "tags": [
+      "vision",
+      "back-brief",
+      "kickoff",
+      "shared understanding",
+      "predictive"
+    ]
+  },
+  {
+    "id": "PEO-005",
+    "domain": "People",
+    "task": "1. Develop a common vision",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Information radiators",
+    "source": "ECO 2026 · People Task 1 (promote the vision)",
+    "question": "Kestrel Labs' agile team of eight works in a shared room on a field-service app. In the last two sprints, developers spent days polishing an admin dashboard nobody had asked for, while the product owner's top-priority mobile features slipped. In the retrospective, the team admits it 'loses sight of the big picture' between sprint reviews. The project manager wants the product vision and near-term goals visible every day. Which tool is MOST appropriate?",
+    "options": [
+      "A RACI chart attached to the team charter and reviewed at every sprint planning session",
+      "A vision statement emailed to the team at the start of each sprint along with the sprint goal",
+      "The approved roadmap document stored on the project site and linked from the team's wiki",
+      "A product vision board and roadmap displayed on the team wall as an information radiator"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Agile favors simple artifacts that people see without having to go looking for them.",
+    "why": "The team's problem is drift between reviews: it loses sight of priorities during day-to-day work. A vision board and roadmap on the wall act as an information radiator, visible to everyone every day without anyone opening a file or an email, so the team can check work against the goal and say no to low-value side work. Emails and stored documents are one-off push or on-demand pull communication that fades from attention quickly.",
+    "how": "When the need is to keep information continuously visible to an agile team, choose an information radiator (physical or digital) over documents stored in repositories or periodic messages.",
+    "optionNotes": [
+      "Incorrect — A RACI clarifies who does and decides what, but it says nothing about the product vision or which outcomes matter most right now.",
+      "Incorrect — A sprint-start email is one-off push communication; it is read once and forgotten, so it cannot keep the goal visible day to day.",
+      "Incorrect — A stored roadmap is pull communication that people must remember to open, which is exactly what is failing between sprint reviews.",
+      "Correct — A highly visible vision board and roadmap reinforce the goal daily and give the team a quick test of whether side work is worth doing."
+    ],
+    "deepDive": "Information radiators — big visible charts — include task boards, burndown and burnup charts, vision boards and impediment boards. Alistair Cockburn popularized the term, along with the related idea of osmotic communication: co-located people absorb information passively from their surroundings. Distributed teams use digital equivalents such as always-open shared dashboards. PMBOK communication models distinguish push, pull and interactive communication; a radiator works like continuous, ambient pull that needs no effort to consult. The trap in these questions is choosing a document that exists but that nobody looks at.",
+    "tags": [
+      "information radiator",
+      "vision board",
+      "agile",
+      "transparency"
+    ]
+  },
+  {
+    "id": "PEO-006",
+    "domain": "People",
+    "task": "1. Develop a common vision",
+    "approach": "Any",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Onboarding to the vision",
+    "source": "ECO 2026 · People Task 1 · Onboarding to the vision",
+    "question": "Halvorsen Medical's project to build a patient-intake tablet app is halfway through execution when Dmitri, a skilled mobile engineer, joins the team. After two weeks he is productive technically, but he keeps making design choices — dense screens, small tap targets, expert shortcuts — that clash with the app's intended users: elderly patients in busy waiting rooms. Nobody has yet walked him through the project's goals. What should the project manager do?",
+    "options": [
+      "Document the conflicting design choices and raise them in the engineer's next performance review",
+      "Walk him through the vision, business case and user personas, and pair him with a teammate",
+      "Ask the architect to review and approve every design choice the engineer makes from now on",
+      "Reassign the engineer to purely technical backlog items where user context matters much less"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Diagnose the gap first: the engineer's skill isn't the problem.",
+    "why": "Dmitri's choices are good engineering for the wrong users, which points to missing context rather than missing skill or motivation — and the stem confirms nobody walked him through the goals. Onboarding him to the vision, business case and personas supplies the explicit context, and pairing him with a teammate transfers the tacit knowledge about users that documents miss. He can then make aligned design decisions on his own.",
+    "how": "Diagnose before acting: is it a skill gap, a motivation gap or an information gap? Match the response — training for skill, a conversation for motivation, onboarding and context for information.",
+    "optionNotes": [
+      "Incorrect — Treating a context gap as a performance problem is premature and punitive, and waiting for a review lets misaligned designs keep piling up.",
+      "Correct — Onboarding to the vision and personas plus pairing fixes the root cause and equips him to make user-aligned decisions independently.",
+      "Incorrect — Approving every choice creates a bottleneck, disempowers a skilled engineer and treats the symptom instead of supplying the missing context.",
+      "Incorrect — Moving him away avoids the problem, underuses his skills and leaves him without the product understanding every team member needs."
+    ],
+    "deepDive": "Good onboarding kits include the charter or vision statement, a business-case summary, personas and customer journeys, an architecture overview, the team charter and working agreements, and a buddy or pairing partner. Personas are especially useful for design decisions because they make the intended user concrete. Time invested in onboarding is high-leverage, because the context a newcomer gains in the first weeks shapes every decision and deliverable they touch afterward. The pattern is the same whether the project is predictive or agile: plan onboarding as part of resource management and knowledge transfer instead of assuming experienced people will absorb the context on their own.",
+    "tags": [
+      "onboarding",
+      "vision",
+      "pairing",
+      "personas"
+    ]
+  },
+  {
+    "id": "PEO-007",
+    "domain": "People",
+    "task": "1. Develop a common vision",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Agreeing which constraint flexes",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Project Work Performance Domain (2.5.2): balancing competing constraints",
+    "question": "Tamsin Rail is replacing its passenger-information screens through a hybrid project: hardware installation follows a fixed plan, and the software is built in sprints. Asked about priorities, the sponsor says the date, budget and full feature set all matter equally. In the last month, one software team cut testing to protect the date, another delayed a release to add a feature, and the installation lead spent contingency to avoid descoping. Each believes it acted in the project's interest. What should the project manager do?",
+    "options": [
+      "Ask each team lead to escalate every trade-off decision to the project manager for approval from now on",
+      "Work with the sponsor to agree which constraint is fixed and which may flex, then share it with all teams",
+      "Remind all teams that date, budget and scope are equally important and must be protected at the same time",
+      "Set a rule that quality can never be reduced, and let each team decide the remaining trade-offs on its own"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Each team made a reasonable choice on its own; ask what shared guidance would have led them all to the same choice.",
+    "why": "The teams are not careless; they are making different trade-offs because the sponsor has declared every constraint equally important, which gives them no basis for consistent decisions. Balancing competing constraints is an ongoing activity, and it works best when the sponsor states in advance which constraint is fixed — for example, a date tied to the timetable change — and which can flex. Sharing that ranking gives every team, plan-driven and agile, the same decision rule, so trade-offs stay aligned without routing everything through the project manager.",
+    "how": "When teams make inconsistent trade-offs, give them a shared, sponsor-endorsed priority among the constraints (for example, a trade-off matrix or sliders) so decisions can stay with the teams while pointing the same way.",
+    "optionNotes": [
+      "Incorrect — Centralizing every trade-off creates a bottleneck and disempowers the teams, and it still leaves the project manager without the sponsor's view of what matters most.",
+      "Correct — A sponsor-endorsed ranking of the constraints gives every team the same decision rule, so local trade-offs become consistent across the plan-driven and agile parts.",
+      "Incorrect — Repeating that everything matters equally is what caused the problem; with no ranking, each team will keep resolving conflicts in its own way.",
+      "Incorrect — Protecting quality is sensible, but leaving schedule, cost and scope unranked still lets the teams pull in opposite directions on the other trade-offs."
+    ],
+    "deepDive": "A trade-off (or project priority) matrix records, for each constraint, whether it is fixed, to be optimized or allowed to flex; agile teams often show the same idea as a set of sliders in a chartering workshop. The sponsor or product owner should set these priorities because they reflect the business case, but the whole team should see and understand them. In agile delivery, iteration length and team cost are usually fixed and scope flexes through backlog ordering, while predictive components more often fix scope and manage time and cost within reserves. Hybrid projects need one explicit ranking so both sides make compatible decisions. The exam trap is the answer that all constraints are equally important, which sounds committed but gives the team no guidance.",
+    "tags": [
+      "trade-offs",
+      "constraints",
+      "sponsor",
+      "hybrid",
+      "priorities"
+    ]
+  },
+  {
+    "id": "PEO-008",
+    "domain": "People",
+    "task": "1. Develop a common vision",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Converging multiple stakeholder visions",
+    "source": "ECO 2026 · People Task 1 · Foster a shared vision with stakeholders",
+    "question": "Ostrava City Council launched a hybrid program to digitize permits across four departments: building, environment, transport and licensing. Each department head has a different picture of the future state — one wants a single citizen portal, another faster internal approvals, and two want to keep their own systems with better reporting. Three alignment meetings have ended with each head defending their own view, and the program roadmap is on hold. What should the project manager do NEXT?",
+    "options": [
+      "Ask the sponsor to choose one department's vision so the program can move forward without further delay",
+      "Write a vision statement that combines elements of all four views and circulate it to the heads for sign-off",
+      "Run a structured workshop, using techniques such as a product box, so the heads converge on shared outcomes",
+      "Let each department run its own sub-project with its own vision, coordinated through a monthly program review"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Unstructured discussion has already failed three times — what would change the dynamic rather than bypass it?",
+    "why": "The heads are defending positions, and more of the same meetings will not help. A structured technique such as a product box, cover story or impact map shifts attention from each department's preferred solution to the outcomes citizens and the council need, makes assumptions visible, and lets the heads build a vision they all own. If they still cannot converge, the sponsor can then decide with a clear view of the options.",
+    "how": "When stakeholders are stuck defending positions, change the process: use structured facilitation that focuses on interests and outcomes. Avoid options where the PM decides alone, the effort fragments, or the decision is pushed upward before facilitation has been tried.",
+    "optionNotes": [
+      "Incorrect — The sponsor may eventually decide, but imposing one department's view now alienates the other three and skips the facilitation the PM should try first.",
+      "Incorrect — A merged statement drafted by the PM bypasses real agreement and usually yields a vague compromise that nobody owns or defends later.",
+      "Correct — Structured facilitation moves the heads from positions to shared outcomes and creates a vision they own, on which the roadmap can then be built.",
+      "Incorrect — Splitting the program into separate visions destroys the integration benefits the program exists to deliver and entrenches the silos."
+    ],
+    "deepDive": "Alignment techniques include the product box (each group designs the box the product would be sold in, then the group converges), the cover story (imagine a future headline about the program's success), impact mapping (goal, actors, impacts, deliverables) and the nominal group technique. PMBOK 8's principle of adopting a holistic view asks leaders to see the whole system of stakeholders rather than optimize one silo. In programs, a shared vision also anchors benefits management, because each component's benefits must add up to the program's intended outcomes. The exam trap is escalating, or drafting a compromise yourself, before facilitation has been tried.",
+    "tags": [
+      "facilitation",
+      "program",
+      "stakeholders",
+      "vision",
+      "product box"
+    ]
+  },
+  {
+    "id": "PEO-009",
+    "domain": "People",
+    "task": "1. Develop a common vision",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Measurable success",
+    "source": "ECO 2026 · People Task 1 / Business Environment Task 1 · Measurable success criteria",
+    "question": "The team building Qadira Telecom's new customer onboarding app has agreed its vision: 'deliver a delightful onboarding experience.' At the next steering meeting, the sponsor, Farah Nasser, asks how anyone will know whether the vision has been achieved and whether the project is on track to deliver it. So far the team has tracked only the number of features completed per release. What should the project manager do?",
+    "options": [
+      "Use the number of features delivered each release as the success measure, since it is objective and easy to track",
+      "Wait until after launch, when real usage data exists, to decide which measures best reflect the vision",
+      "Work with stakeholders to define measurable success criteria and KPIs, such as onboarding completion rate",
+      "Explain that delight is subjective, so success will be judged by the sponsor's overall impression at launch"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "A vision inspires; something else tells you whether you got there — and it has to exist early enough to steer by.",
+    "why": "A vision becomes steerable only when it is translated into measurable outcomes. Defining success criteria and KPIs with stakeholders now — onboarding completion rate, time to first use, satisfaction scores — tells the team which trade-offs serve the vision and gives the sponsor a way to verify value. It also links the vision to benefits realization rather than to output counts.",
+    "how": "Prefer outcome measures (behavior change, benefits) over output measures (features built), and define them early, with stakeholders, so they can guide decisions during delivery.",
+    "optionNotes": [
+      "Incorrect — Feature count measures output, not whether new customers find onboarding easy; it can rise while the experience gets worse.",
+      "Incorrect — Criteria defined after launch cannot guide design trade-offs during the project, and they tempt people to pick measures that flatter the result.",
+      "Correct — Measurable outcomes agreed with stakeholders turn an inspiring vision into targets the team can steer toward and the sponsor can verify.",
+      "Incorrect — Subjective goals can still be measured through proxies such as satisfaction scores and completion rates; relying on one impression invites disputes later."
+    ],
+    "deepDive": "Common frameworks for making a vision measurable are OKRs (an objective plus measurable key results), SMART objectives, and a benefits management plan that names each benefit, its owner, measure, baseline and timing. Leading indicators such as completion rate show progress during delivery, while lagging indicators such as retention confirm benefits after launch. Whatever you measure shapes behavior, so pair each metric with a description of what it is meant to achieve to keep people from optimizing the number instead of the goal. In agile, the same idea appears as product goals and outcome-based roadmaps rather than feature lists.",
+    "tags": [
+      "kpi",
+      "success criteria",
+      "okr",
+      "outcomes"
+    ]
+  },
+  {
+    "id": "PEO-010",
+    "domain": "People",
+    "task": "1. Develop a common vision",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Joint planning across teams and suppliers",
+    "source": "ECO 2026 · People Task 1 · Joint planning to align teams on shared objectives",
+    "question": "Halvard Energy's hybrid program is delivering a smart-meter rollout through three internal agile teams and two suppliers working to fixed-price, plan-driven contracts. At the first end-to-end integration test, most interfaces failed. The retrospective shows each group built toward its own idea of success: the firmware supplier optimized unit cost, the app team optimized features, and the data team optimized report accuracy. Each group's plan was internally sound, and the project manager had shared the program charter with everyone. What should the project manager do NEXT?",
+    "options": [
+      "Issue an integrated master schedule with every interface date and require each group to report progress against it weekly",
+      "Hold a joint planning event in which all five groups review the objectives together, map dependencies and agree shared goals",
+      "Start a weekly coordination meeting for the five group leads so they can raise interface problems and agree fixes as they arise",
+      "Appoint a lead systems architect to own every interface specification and to approve any change that the groups want to make"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Every group had the charter and a sound plan, yet each aimed at a different target — ask what a document alone could not create.",
+    "why": "The failure is not a lack of plans or information — each group had the charter and a sound plan — but a lack of shared, cross-group understanding of what success means and how the pieces depend on each other. A joint planning event brings the internal teams and the suppliers together to interpret the program objectives as one team, surface dependencies visually and commit to shared goals, which is how scaled agile and hybrid programs build a common vision across teams. A coordination meeting, a master schedule or an architect helps afterwards, but on its own each manages symptoms of a vision that was never actually shared.",
+    "how": "When several teams each optimize locally, build shared understanding together: plan jointly with all parties, including suppliers, to agree common objectives and dependencies, then use coordination mechanisms to sustain the alignment.",
+    "optionNotes": [
+      "Incorrect — A master schedule controls dates but does not reconcile the groups' different ideas of success, so interfaces can arrive on time and still not fit.",
+      "Correct — Planning together makes the groups interpret the objectives jointly and see their dependencies, turning five local definitions of success into one shared one.",
+      "Incorrect — A leads' meeting is useful for ongoing coordination, but it reacts to interface problems after they occur instead of fixing the misaligned goals behind them.",
+      "Incorrect — Centralizing interface decisions in one architect may improve consistency, but each group still optimizes its own target, and the architect becomes a bottleneck."
+    ],
+    "deepDive": "Large agile and hybrid programs often use a big-room or increment planning event in which every team, including supplier teams, plans the next increment together against shared objectives and draws dependencies on a program board. Much of the value comes from the conversations rather than the plan: teams discover conflicting assumptions while they are still cheap to resolve. With fixed-price suppliers, the project manager may need the procurement lead to confirm how their participation fits the contract. After the event, lighter mechanisms such as a scrum of scrums or an integration lead keep the alignment alive. The exam trap is choosing a control artifact, such as a schedule or specification, when the stem shows that people with good plans held different ideas of the goal.",
+    "tags": [
+      "joint planning",
+      "hybrid",
+      "suppliers",
+      "dependencies",
+      "vision"
+    ]
+  },
+  {
+    "id": "PEO-011",
+    "domain": "People",
+    "task": "2. Manage conflicts",
+    "approach": "Agile",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Conflict during daily stand-up",
+    "source": "ECO 2026 · People Task 2 · Protecting the daily stand-up timebox",
+    "question": "Nine minutes into a 15-minute daily stand-up at Arcadia Games, two senior developers, Tomás and Keiko, start a heated debate about which caching strategy the new leaderboard service should use. The rest of the team is still waiting to give updates, and the discussion is getting louder. The decision affects this sprint's goal but does not need to be made in the next hour. What should the project manager do?",
+    "options": [
+      "Ask the developers to continue right after the stand-up and offer to facilitate using agreed criteria",
+      "Let the debate continue, since healthy technical disagreement helps the team reach a better design",
+      "Escalate the disagreement to the solution architect so an expert makes the call before the sprint slips",
+      "Decide on the caching strategy yourself immediately to end the debate and keep the stand-up on time"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Protect the purpose and timebox of the event — and make sure the disagreement still gets resolved.",
+    "why": "The daily stand-up is a short, timeboxed event for coordinating toward the sprint goal, not for solving design problems. Moving the debate to a follow-up immediately afterward protects the event for everyone else, and offering to facilitate with agreed criteria (latency, cost, complexity) helps the two developers reach a decision they both own. Because the decision is not urgent within the hour, there is no reason to force or escalate it.",
+    "how": "In agile events, protect the purpose and timebox and park detailed problem-solving for a follow-up; resolve technical disagreements collaboratively with the people doing the work before considering escalation.",
+    "optionNotes": [
+      "Correct — Protects the stand-up's timebox and purpose while making sure the disagreement is resolved promptly and collaboratively against objective criteria.",
+      "Incorrect — Healthy debate is valuable, but letting it consume the stand-up blocks everyone else's coordination and defeats the event's purpose.",
+      "Incorrect — Escalating before the developers have tried a structured discussion is premature and takes the decision away from the people who own the design.",
+      "Incorrect — A PM imposing a technical choice undermines self-management, may be the wrong call, and leaves neither developer owning the decision."
+    ],
+    "deepDive": "The Scrum Guide describes the Daily Scrum as a 15-minute event for Developers to inspect progress toward the Sprint Goal and adapt their plan; detailed discussions often happen right afterward in smaller groups. Many teams keep a 'parking lot' on the board to capture such topics. Techniques that help afterward include agreeing decision criteria first, a quick spike to test assumptions, and a lightweight architecture decision record. In predictive settings the equivalent is keeping status meetings to status and holding separate technical reviews. The trap is picking the option that sounds decisive (the PM decides) or the one that sounds empowering but ignores the timebox.",
+    "tags": [
+      "daily stand-up",
+      "timebox",
+      "conflict",
+      "facilitation",
+      "agile"
+    ]
+  },
+  {
+    "id": "PEO-012",
+    "domain": "People",
+    "task": "2. Manage conflicts",
+    "approach": "Any",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Conflict resolution modes",
+    "source": "ECO 2026 · People Task 2 · Conflict resolution modes (Thomas-Kilmann)",
+    "question": "At Veltro Pharma, the lab-systems lead and the quality-assurance lead disagree about how validation evidence for a new instrument interface should be stored. Nothing is urgent: go-live is three months away, the two leads will work together for years, and each has concerns the other has not fully heard. The project manager wants a resolution both will genuinely commit to and that will not resurface later. Which approach should the project manager use?",
+    "options": [
+      "Forcing — decide the storage approach yourself and direct both leads to follow it",
+      "Compromising — have each lead give up part of their position to reach a middle ground",
+      "Collaborating — explore both leads' concerns together and build a solution for both",
+      "Smoothing — stress the areas where they agree and play down the remaining differences"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Time is available and the relationship matters long term — which mode aims for both sides to fully win?",
+    "why": "Collaborating (problem solving) brings the underlying concerns into the open and builds a solution that satisfies both parties, which is why it produces the most durable commitment. The scenario gives it room to work: there is no emergency, the relationship is long term, and each lead has concerns the other has not heard. Compromise would leave both partly dissatisfied, smoothing would leave the issue unresolved, and forcing would create a winner and a loser.",
+    "how": "Choose the conflict mode from the situation: collaborate when time allows and commitment matters; force for emergencies, safety or legal rules; compromise when a quick partial solution is acceptable; smooth or withdraw only as temporary measures.",
+    "optionNotes": [
+      "Incorrect — Forcing imposes one view; it suits emergencies or clear rules, but here it would create a loser and weaken commitment to the decision.",
+      "Incorrect — Compromise gives each lead partial satisfaction; it helps under time pressure, but both sets of concerns stay partly unmet and can resurface.",
+      "Correct — Problem solving on underlying interests produces a solution both leads helped build, so commitment is genuine and the issue is unlikely to return.",
+      "Incorrect — Smoothing keeps the peace by downplaying differences, but the disagreement about validation evidence remains unresolved and will come back."
+    ],
+    "deepDive": "The five modes come from the Thomas-Kilmann instrument (competing, collaborating, compromising, avoiding, accommodating), which PMI calls force/direct, collaborate/problem solve, compromise/reconcile, withdraw/avoid and smooth/accommodate. The modes vary on two axes: assertiveness (pursuing your own concerns) and cooperativeness (pursuing the other party's). Collaborating is high on both, which is why it yields win-win outcomes, but it needs time, trust and willingness from both sides. Confronting the problem — not the person — is another name for problem solving. Exam items usually signal the right mode through clues such as time pressure, safety or the importance of the relationship.",
+    "tags": [
+      "conflict modes",
+      "collaborate",
+      "thomas-kilmann",
+      "conflict"
+    ]
+  },
+  {
+    "id": "PEO-013",
+    "domain": "People",
+    "task": "2. Manage conflicts",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "When forcing is appropriate",
+    "source": "ECO 2026 · People Task 2 · When forcing is appropriate (safety)",
+    "question": "On a hospital extension built by Meridian Build under a predictive plan, wind gusts have just exceeded the limit for crane lifts set in the approved safety plan. The site engineer, Priya, wants lifting stopped; the subcontractor's crane lead insists his crew can safely finish the last two lifts of the day, and a load is already being rigged. The argument is getting heated while workers wait below. What should the project manager do?",
+    "options": [
+      "Ask both parties to agree a compromise, such as a shorter lifting schedule restricted to lighter loads",
+      "Withdraw from the discussion and let the subcontractor decide, since his crew operates the crane",
+      "Schedule a meeting with both parties to collaborate on the best approach for the rest of the day",
+      "Direct that crane operations stop in line with the safety plan, then review the disagreement later"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Some situations make one conflict mode clearly right; look at the safety plan, the time available and who could be hurt.",
+    "why": "A documented safety threshold has been exceeded and a lift is imminent, so there is no time for a collaborative process and nothing legitimate to negotiate. Forcing (directing) is appropriate when safety or a legal rule is at stake and a quick decision is essential, and here the approved safety plan already defines the right action. Once people are safe, the project manager can review the disagreement and whether the plan's limit needs a formal change.",
+    "how": "Collaboration is usually preferred, but emergencies, safety hazards and legal or regulatory rules call for decisive direction: follow the rule immediately, then address the underlying disagreement.",
+    "optionNotes": [
+      "Incorrect — A documented safety limit is not open to compromise; lighter loads do not remove the wind risk the plan was written to control.",
+      "Incorrect — Withdrawing abdicates the PM's responsibility for safety and lets the party with a production incentive decide on a safety rule.",
+      "Incorrect — Collaboration is usually best, but a meeting takes time the situation does not allow while crews stay exposed to the hazard.",
+      "Correct — Safety and compliance require immediate, decisive action backed by the approved plan; the disagreement can be reviewed once people are safe."
+    ],
+    "deepDive": "The 2026 ECO stresses compliance, including health and safety (Business Environment Task 2). Forcing is the right tool when a quick decision is essential, a safety or legal rule applies, or an unpopular action must be implemented. Afterward, a short review can check whether the threshold is right; any change to it would go through the formal change process rather than being negotiated on site. This reflects the responsibility value in PMI's Code of Ethics, which puts people's safety ahead of schedule pressure. The exam trap: candidates who have learned that collaborating is usually best pick the meeting option and ignore the imminent hazard.",
+    "tags": [
+      "forcing",
+      "safety",
+      "compliance",
+      "conflict modes",
+      "predictive"
+    ]
+  },
+  {
+    "id": "PEO-014",
+    "domain": "People",
+    "task": "2. Manage conflicts",
+    "approach": "Any",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Resource conflict between projects",
+    "source": "ECO 2026 · People Task 2 · Resource conflict between projects",
+    "question": "Rafael manages a billing-system migration at Corvina Health; Anika manages a data-warehouse project in another division. Both depend on the same database specialist, Olu, who reports to the infrastructure functional manager. Both schedules show Olu working full-time next week on critical-path tasks, and Olu has just told both project managers he cannot do both. Rafael has already confirmed the impact on his own schedule. What should Rafael do FIRST?",
+    "options": [
+      "Meet Anika, and the functional manager if needed, to review both projects' priorities and negotiate",
+      "Escalate to his sponsor and ask for Olu to be assigned to the billing work, since it is critical-path",
+      "Hire a contractor immediately to cover Olu's work for the week so that neither project is delayed",
+      "Tell his team to proceed without Olu and absorb the delay using the schedule's contingency reserve"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Before escalating or spending money, ask who shares the problem and who owns the resource.",
+    "why": "Rafael has analyzed his own impact; the next step is to work the conflict with the people who share and own the resource. Anika and the functional manager can compare both projects' priorities and options — splitting Olu's time, resequencing tasks, or bringing in help — and often reach an agreement without escalation. Both projects have critical-path work, so 'critical path' does not settle the question; only if they cannot agree should it go up through governance with the analysis attached.",
+    "how": "For resource conflicts between projects: analyze the impact, negotiate with the other project manager and the resource owner, then escalate through governance only if unresolved; avoid unilateral actions that spend money or accept delay.",
+    "optionNotes": [
+      "Correct — Negotiating directly with the other project manager and the functional manager who owns Olu is the right first step and keeps the decision at the lowest workable level.",
+      "Incorrect — Escalating first bypasses the people who can solve the conflict and assumes his project matters more, although both projects have critical-path work.",
+      "Incorrect — Hiring a contractor spends money without approval or analysis and may not help, since a newcomer lacks Olu's knowledge of both systems.",
+      "Incorrect — Accepting a critical-path delay without negotiating or exploring options uses contingency meant for unknowns, not for an unmanaged conflict."
+    ],
+    "deepDive": "Classic research by Thamhain and Wilemon found that schedules, project priorities and resources are the top sources of project conflict, while personality clashes are among the least common. In matrix organizations functional managers own resources, so resource conflicts are usually negotiated with them; in a strong matrix the project manager has more authority, in a weak matrix less. Resource leveling, portfolio-level capacity planning and a clear escalation path in the governance plan all reduce these clashes. The exam trap: 'critical path' makes escalation feel justified, but when both projects claim it, priority is exactly what needs to be negotiated.",
+    "tags": [
+      "resources",
+      "matrix",
+      "negotiation",
+      "escalation"
+    ]
+  },
+  {
+    "id": "PEO-015",
+    "domain": "People",
+    "task": "2. Manage conflicts",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Conflict with the project manager",
+    "source": "ECO 2026 · People Task 2 · Conflict in which the project manager is a party",
+    "question": "On a hybrid warehouse-automation project at Brevik Logistics, the steering committee asked the project manager, Anjali, for a weekly written risk and progress summary from each workstream. In today's team meeting, Tomasz, the respected lead engineer, said in front of everyone that the summaries are 'bureaucracy that steals engineering time' and that his workstream will not produce them. The other leads went quiet. The steering committee does rely on the information for its funding decisions. What should Anjali do?",
+    "options": [
+      "Remind Tomasz in the meeting that the summaries are a steering committee requirement and are not optional",
+      "Drop the summaries for all workstreams and give the committee a verbal update at each meeting instead",
+      "Meet Tomasz privately to understand his concerns and agree a lighter way to meet the committee's need",
+      "Ask Tomasz's functional manager to remind him that project governance requirements apply to his workstream"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Anjali is herself a party to this conflict — ask which response deals with the interests on both sides rather than with who holds the authority.",
+    "why": "Anjali is a party to the conflict, so using her authority in public (forcing) would win compliance but damage trust with a respected lead and silence the others. The committee's need is legitimate, so dropping the summaries (accommodating) fails a governance requirement. A private conversation lets Anjali hear the interest behind Tomasz's position — protecting engineering time — and explain the committee's interest in timely risk information, so together they can find a format, such as a short template or data pulled from the team's board, that meets both.",
+    "how": "When you are one of the parties in a conflict, avoid leaning on positional power: discuss it privately, separate positions from interests, and look for an option that meets the legitimate needs on both sides before escalating.",
+    "optionNotes": [
+      "Incorrect — Asserting authority in public forces compliance, turns the disagreement into a status contest and discourages other leads from raising honest concerns.",
+      "Incorrect — Accommodating the objection abandons a legitimate governance need; the committee would lose the written risk information it uses for funding decisions.",
+      "Correct — A private, interest-based conversation respects the lead, addresses his real concern about engineering time and still meets the committee's information need.",
+      "Incorrect — Going to his manager escalates before any direct conversation and signals distrust, and it leaves his concern about wasted engineering time unexplored."
+    ],
+    "deepDive": "When the project manager is a party to a conflict, the usual neutral-facilitator role is compromised, so self-awareness and self-regulation matter: the instinct to defend one's authority often escalates things. Interest-based (principled) negotiation helps here — separate the people from the problem, focus on interests rather than positions, generate options and use objective criteria. Lean thinking supports the lead's concern, because reporting that nobody reads is waste; generating status automatically from existing tools or information radiators is often the best answer. If the direct conversation fails, the next step is a neutral facilitator or the sponsor, not a public showdown. The exam trap is choosing either extreme: forcing because governance requires it, or dropping the requirement to keep the peace.",
+    "tags": [
+      "conflict",
+      "positional power",
+      "interests",
+      "governance",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "PEO-016",
+    "domain": "People",
+    "task": "2. Manage conflicts",
+    "approach": "Agile",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Conflict built into opposing targets",
+    "source": "ECO 2026 · People Task 2 · Structural source of conflict (opposing objectives)",
+    "question": "At Corvella Bank, the agile digital-channels team is measured on the number of features it releases each quarter, and the operations team is measured on keeping incidents below a fixed monthly limit. The two leads now clash in every release meeting: operations blocks releases at the last minute, and developers accuse operations of 'gatekeeping.' The project manager has already run two facilitated sessions; the leads were courteous and agreed actions, but the clashes resumed within a week. What should the project manager do NEXT?",
+    "options": [
+      "Run a third facilitated session focused on rebuilding trust and agreeing ground rules for release meetings",
+      "Work with both teams' managers to replace the opposing targets with shared goals for stable, valuable releases",
+      "Set up a change advisory board that approves each release, so that disputes are settled by an independent panel",
+      "Escalate to the sponsor and ask for a ruling on whether feature output or incident limits take priority this year"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Two courteous sessions changed nothing, so ask what keeps pulling the leads back into the same conflict every release.",
+    "why": "The conflict is structural: each team is rewarded for an outcome that the other team's behavior threatens, so good-faith facilitation cannot hold — the targets recreate the clash at every release. Working with the managers who set the targets to replace them with shared goals, such as frequent releases that stay within agreed service levels, removes the source of the conflict and gives both teams a reason to collaborate on releasing safely. It is a collaborative, root-cause response within the project manager's influence, not a ruling that creates a winner and a loser.",
+    "how": "If a conflict keeps returning after facilitation, look for a structural cause — misaligned goals, incentives, roles or processes — and fix that cause with the people who control it rather than mediating the same dispute again.",
+    "optionNotes": [
+      "Incorrect — Two sessions have shown that the relationship is not the root problem; a third treats the symptom while the opposing targets keep regenerating the clash.",
+      "Correct — Shared goals remove the incentive conflict at its source, so both teams gain from releasing often and safely instead of blocking each other.",
+      "Incorrect — A new approval panel adds a gate and delay but leaves the opposing targets in place, so the teams would simply argue in a different forum.",
+      "Incorrect — Asking for a ruling escalates prematurely and forces a win-lose outcome; one team would still be measured against the other's success."
+    ],
+    "deepDive": "Conflict often has structural sources — competing objectives, scarce shared resources, unclear roles or reward systems — and structural conflict returns no matter how well people get along. The classic development-versus-operations tension, where one side is rewarded for change and the other for stability, is a key reason DevOps practices emphasize shared ownership, shared measures (for example, deployment frequency alongside change-failure rate) and automation that makes frequent change safe. The project manager rarely owns performance targets, so the move is to influence the managers who do. Systems thinking helps: look at how the parts of the system interact, not only at the people in the room. The exam trap is repeating a relationship intervention when the stem signals that the problem keeps coming back.",
+    "tags": [
+      "conflict",
+      "root cause",
+      "shared goals",
+      "devops",
+      "systems thinking"
+    ]
+  },
+  {
+    "id": "PEO-017",
+    "domain": "People",
+    "task": "2. Manage conflicts",
+    "approach": "Any",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Ground rules",
+    "source": "ECO 2026 · People Task 2 · Establish ground rules",
+    "question": "Rivermark Utilities has just formed a 12-person team from three departments to replace its outage-reporting system. In the first four project meetings, people interrupted each other, side conversations broke out, and two meetings ended without decisions. No one is behaving badly on purpose; each department simply brings different meeting habits. The team does not have a charter yet. What should the project manager do?",
+    "options": [
+      "Reduce the number and length of meetings so there are fewer opportunities for conflict to arise",
+      "Speak individually with each person who interrupts and ask them to change their meeting behavior",
+      "Ask the sponsor to attend the next few meetings so that their presence encourages more discipline",
+      "Facilitate the team in creating ground rules for meetings and record them in the team charter"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Different habits and no shared norms yet — which option creates a standard the whole team owns?",
+    "why": "The problem is team-wide and comes from missing shared norms, not from individual misconduct. Ground rules the team creates for itself — one conversation at a time, decisions recorded, how to disagree — set clear expectations and give everyone, not just the PM, a basis to hold each other accountable. Recording them in the team charter makes them durable and easy to revisit.",
+    "how": "Early, team-wide behavior problems call for a team charter, ground rules or working agreements created with the team; individual conversations are for specific people who persistently break agreed norms.",
+    "optionNotes": [
+      "Incorrect — Fewer meetings avoid the symptom but leave the team without norms, and cutting communication creates new problems of its own.",
+      "Incorrect — Individual talks suit a persistent offender, but this is a team-wide gap in shared norms that one-to-one conversations will not close.",
+      "Incorrect — Relying on the sponsor's authority does not build self-management, and discipline slips as soon as the sponsor stops attending.",
+      "Correct — Team-created ground rules recorded in the charter give the whole team a shared standard and help it move from storming to norming."
+    ],
+    "deepDive": "A team charter typically covers team values, working agreements, ground rules, meeting guidelines, the decision-making process, the conflict process and communication norms. Because the team writes it, members hold each other accountable rather than relying on the project manager. In Tuckman's model, clear norms help a team move from storming to norming, and the charter should be revisited when membership changes. Agile teams call these working agreements and review them in retrospectives. The trap here is the individual-conversation option: it sounds respectful but treats a system problem as a people problem.",
+    "tags": [
+      "ground rules",
+      "team charter",
+      "working agreements"
+    ]
+  },
+  {
+    "id": "PEO-018",
+    "domain": "People",
+    "task": "2. Manage conflicts",
+    "approach": "Predictive",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Requirement interpretation conflict",
+    "source": "ECO 2026 · People Task 2 · Requirement interpretation conflict",
+    "question": "During user acceptance testing of a new sales-reporting module at Lindqvist Retail, the customer's representative, Helga, insists the regional sales report must show real-time data. The team built it with an overnight refresh, which they believe matches the approved requirement. Helga says real-time was 'always the intent' and refuses to sign off. Both sides are frustrated, and go-live is three weeks away. What should the project manager do FIRST?",
+    "options": [
+      "Instruct the team to rebuild the report with real-time data to keep the customer satisfied and on schedule",
+      "Submit a change request for real-time data so the impact on cost and schedule can be evaluated by the CCB",
+      "Review the documented requirement and acceptance criteria with both parties to determine what was agreed",
+      "Tell the customer that the report meets the approved requirement and therefore must be accepted as delivered"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Before deciding who is right — or which process applies — establish the facts.",
+    "why": "The dispute turns on what was agreed, and neither side's memory is evidence. Reviewing the documented requirement, acceptance criteria and traceability matrix with both parties establishes whether the overnight refresh is a defect, whether the requirement was ambiguous, or whether real-time data is new scope. Only then can the project manager choose the right path: fix the defect, clarify and agree, or raise a change request.",
+    "how": "In predictive disputes about deliverables, go back to the baseline documents with the parties first; the facts decide whether the next step is a defect fix, a clarification or a change request.",
+    "optionNotes": [
+      "Incorrect — Rebuilding without analysis could be an unapproved scope change with cost and schedule impact, and it rewards pressure rather than facts.",
+      "Incorrect — A change request may well be needed, but only once the review shows real-time data is genuinely new scope rather than a defect.",
+      "Correct — Establishes the facts from the agreed baseline with both parties present, which decides whether this is a defect, an ambiguity or a change.",
+      "Incorrect — Asserting compliance before checking with the customer is confrontational, may be wrong, and damages the relationship just before go-live."
+    ],
+    "deepDive": "The requirements traceability matrix links each requirement to its business need, design, test cases and deliverable, which makes this kind of dispute quick to settle. Clear, testable acceptance criteria — for example 'data no older than 15 minutes' — prevent it in the first place. If the requirement proves ambiguous, record a lesson learned about writing measurable requirements and resolve the gap through change control. In agile, the same issue is handled by the product owner clarifying acceptance criteria during refinement. The exam trap is the change-request option: it follows a real process but skips the fact-finding that tells you whether a change exists at all.",
+    "tags": [
+      "requirements",
+      "acceptance criteria",
+      "traceability",
+      "uat",
+      "predictive"
+    ]
+  },
+  {
+    "id": "PEO-019",
+    "domain": "People",
+    "task": "2. Manage conflicts",
+    "approach": "Any",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Identifying smoothing",
+    "source": "ECO 2026 · People Task 2 · Recognizing conflict modes: smoothing",
+    "question": "Two days before a major release at Solstice Payments, developers Mateus and Yuki clash over code-review standards: Mateus wants two approvers for every change, Yuki thinks one is enough. The project manager meets them, highlights how much of the review process they already agree on and how both clearly care about quality, and asks them to set the remaining difference aside until after the release. Which conflict resolution technique is the project manager using?",
+    "options": [
+      "Forcing/directing",
+      "Compromising/reconciling",
+      "Smoothing/accommodating",
+      "Collaborating/problem solving"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Look at what the PM stresses — the common ground or the difference — and whether the underlying issue gets resolved.",
+    "why": "Smoothing (accommodating) emphasizes areas of agreement and downplays differences to preserve harmony. The project manager highlights the shared commitment to quality and the parts of the process they already agree on, and parks the real disagreement instead of resolving it. That is a reasonable short-term choice two days before a release, but the two-approver question must be revisited afterward or it will return.",
+    "how": "Identify a mode by its signature: emphasize agreement means smoothing; each side gives something up means compromise; retreat or postpone means withdrawal; impose a decision means forcing; explore interests for a win-win means collaborating.",
+    "optionNotes": [
+      "Incorrect — Forcing would mean the PM imposing one review standard, for example requiring two approvers; no decision is imposed here.",
+      "Incorrect — Compromise would have each developer give up part of their position, such as two approvers only for risky changes; nobody concedes anything.",
+      "Correct — Stressing common ground and downplaying the difference to keep harmony before the release is the signature of smoothing.",
+      "Incorrect — Collaborating would explore both developers' reasons to reach a solution both support; here the disagreement is deliberately left open."
+    ],
+    "deepDive": "Smoothing can look like withdrawing, but the emphasis differs: withdrawing retreats from the issue altogether, while smoothing actively highlights common ground to protect the relationship. Both are temporary; they buy time but do not resolve the underlying issue. Smoothing fits when harmony matters most in the moment, the issue matters less than the immediate goal, or emotions need time to cool. On the exam, a stem that stresses 'areas of agreement' points to smoothing, whereas postponing alone points to withdrawal. Good practice is to schedule the follow-up conversation so the parked issue is not forgotten.",
+    "tags": [
+      "smoothing",
+      "conflict modes",
+      "conflict"
+    ]
+  },
+  {
+    "id": "PEO-020",
+    "domain": "People",
+    "task": "2. Manage conflicts",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Cultural differences in virtual teams",
+    "source": "ECO 2026 · People Task 2 · Analyze the context of the conflict (distributed teams)",
+    "question": "Jun, a data engineer on Nordlys Analytics' hybrid team spread across four countries, never disagrees in video meetings. Afterward, though, he emails the project manager detailed concerns about decisions the team has just made. Several colleagues complain that he is disengaged and 'passive-aggressive,' and one has asked for him to be moved off the team. The PM has not yet discussed the pattern with Jun. What should the project manager do FIRST?",
+    "options": [
+      "Tell the member to speak up in meetings, or he will be left out of key discussions going forward",
+      "Document the behavior and share it with the member's functional manager to address in his review",
+      "Introduce anonymous written input before each meeting so the member can raise concerns in advance",
+      "Talk with the member one-on-one to understand his context, then adjust how the team gathers input"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "The ECO asks you to analyze the context of a conflict before choosing how to resolve it.",
+    "why": "Jun's behavior may reflect norms about disagreeing publicly, deference to seniority, comfort with the meeting language, or simply a preference to think before speaking — and the project manager does not yet know which. A private conversation to understand his perspective comes first; it respects him, protects psychological safety, and tells the PM which adjustment will actually help, such as pre-reads, round-robins or written comment windows. Anonymous input might be part of the answer, but choosing it before understanding the cause is guesswork.",
+    "how": "Seek to understand before acting: analyze the context of a conflict, especially across cultures, and then adapt team practices; avoid labeling, threatening or escalating before you know the cause.",
+    "optionNotes": [
+      "Incorrect — Threatening exclusion ignores the likely cultural or personal cause and damages psychological safety for him and for others watching.",
+      "Incorrect — Documenting for a review treats a possible communication-style difference as misconduct and escalates before any conversation has happened.",
+      "Incorrect — Anonymous input might help, but choosing a fix before understanding the cause is premature and may not address what is really happening.",
+      "Correct — Understanding his context first tells the PM which inclusive adjustment will work and signals respect to the whole team."
+    ],
+    "deepDive": "Hofstede's cultural dimensions — power distance, individualism, uncertainty avoidance and others — help explain why people differ in whether they voice disagreement publicly, and Erin Meyer's culture map adds dimensions such as direct versus indirect negative feedback. Inclusive facilitation techniques include silent brainstorming, round-robins, written pre-reads, asynchronous comment windows and rotating facilitators. In distributed teams, the team charter should record how input and disagreement are handled so nobody depends on a single meeting style. The trap here is choosing a sensible fix, such as anonymous input, before diagnosing: the right action at the wrong time.",
+    "tags": [
+      "virtual teams",
+      "culture",
+      "psychological safety",
+      "emotional intelligence"
+    ]
+  },
+  {
+    "id": "PEO-021",
+    "domain": "People",
+    "task": "2. Manage conflicts",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Estimation disagreement",
+    "source": "ECO 2026 · People Task 2 · Agile estimation disagreements",
+    "question": "During backlog refinement at Juniper Freight, the team plays planning poker on a story to add customs-document upload to the driver app. The cards show 2, 3, 3, 5 and 13. The developer who played 13, Aiyana, looks irritated when a colleague jokes that she is 'padding again,' and the discussion is turning tense. The product owner needs the story sized to plan the next sprint. What should the team do?",
+    "options": [
+      "Average the estimates so every team member's view is represented equally, then move to the next story",
+      "Split the difference between the extremes and record 8 points to keep refinement moving on schedule",
+      "Ask the most senior developer to decide, since they have the most experience with this part of the code",
+      "Have the highest and lowest estimators explain their reasoning, then estimate the story again"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "A wide spread usually means people are picturing different work, not that someone is estimating badly.",
+    "why": "Planning poker is designed to surface hidden assumptions. When the highest and lowest estimators explain their reasoning, the team discovers what one person knows and others missed — perhaps Aiyana knows the customs service is unreliable, or the 2 assumes an existing upload component — and the next round converges on a shared understanding. Discussing reasons also defuses the personal tension by making the disagreement about the work.",
+    "how": "In agile estimation, treat outliers as information: discuss the reasoning behind the extremes, then re-estimate toward consensus; avoid averaging, splitting the difference or deferring to seniority.",
+    "optionNotes": [
+      "Incorrect — Averaging hides the disagreement and discards the information behind the 13, which may be a real risk the rest of the team has missed.",
+      "Incorrect — Splitting the difference is an arbitrary compromise that settles a number without resolving the different understandings of the work.",
+      "Incorrect — Deferring to seniority undermines team ownership of estimates and may miss exactly the insight that the outlier estimate holds.",
+      "Correct — Hearing the reasoning behind the extremes surfaces hidden assumptions and risks, and re-estimating builds a shared, team-owned view of the story."
+    ],
+    "deepDive": "Planning poker is a lightweight variant of Wideband Delphi: estimates are revealed simultaneously to avoid anchoring, outliers explain their thinking, and the team re-votes until estimates converge. Relative sizing commonly uses a modified Fibonacci scale (1, 2, 3, 5, 8, 13, 20, 40, 100), whose widening gaps reflect growing uncertainty. If a story is still very uncertain after discussion, the team may split it or run a timeboxed spike. Remarks like 'padding again' threaten psychological safety, so a facilitator should steer the conversation back to assumptions. In predictive estimation, the parallels are expert judgment with Delphi rounds and three-point estimates.",
+    "tags": [
+      "planning poker",
+      "estimation",
+      "backlog refinement",
+      "wideband delphi",
+      "agile"
+    ]
+  },
+  {
+    "id": "PEO-022",
+    "domain": "People",
+    "task": "2. Manage conflicts",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Conflict turning personal",
+    "source": "ECO 2026 · People Task 2 · Conflict turning personal",
+    "question": "On a distributed team building a tax-filing platform for Calder Group, a disagreement between two engineers, Ravi and Lena, about database migration tooling has turned into personal insults in the team's public chat channel. Over the last hour, other team members have started posting in support of one side or the other, and work on the migration has stalled. What should the project manager do?",
+    "options": [
+      "Remove both individuals from the project to protect the rest of the team from further conflict",
+      "Address it promptly and privately with each person, restate ground rules, then refocus on the issue",
+      "Post a message in the channel reminding everyone of the team's values, and let the situation cool down",
+      "Wait for the next retrospective so the whole team can discuss the conflict and agree on a way forward"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Personal attacks need timely intervention in the right setting — and the original technical question still needs solving.",
+    "why": "Once conflict turns personal and starts to spread, the project manager should act quickly and privately with each person, reinforce the agreed ground rules about respectful communication, and then bring the discussion back to the technical question, ideally with both engineers working on it together. Private intervention avoids public humiliation, and refocusing on the problem stops a task conflict from hardening into a relationship conflict.",
+    "how": "Address conflict early, privately and directly; focus on the issue, not the personality; escalate to HR or functional managers only if unacceptable behavior continues.",
+    "optionNotes": [
+      "Incorrect — Removing both people is far too extreme as a first response; it loses their knowledge and leaves the tooling decision unresolved.",
+      "Correct — Timely private conversations stop the escalation, restating ground rules resets expectations, and refocusing turns the dispute back into problem solving.",
+      "Incorrect — A generic public reminder does not address the specific behavior, and letting it cool leaves both the insults and the tooling question unresolved.",
+      "Incorrect — Waiting for the retrospective lets the conflict spread and harden, and a group setting is the wrong place to address personal attacks."
+    ],
+    "deepDive": "Conflict is best handled early, in private and collaboratively, keeping the problem — not the person — in focus. Distributed teams need explicit norms for chat channels, because written messages lack tone and escalate quickly; many teams agree to move heated topics to a call. Where misconduct repeats, document incidents and follow organizational HR policy. In Tuckman's terms this is storming behavior, and a team charter with conflict guidelines gives the project manager an agreed standard to point back to. The trap is choosing a public reminder or waiting for a ceremony, which feel less confrontational but let the damage grow.",
+    "tags": [
+      "personal conflict",
+      "ground rules",
+      "private intervention",
+      "virtual teams"
+    ]
+  },
+  {
+    "id": "PEO-023",
+    "domain": "People",
+    "task": "2. Manage conflicts",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "multi",
+    "topic": "Preventing destructive conflict",
+    "source": "ECO 2026 · People Task 2 · Preventing destructive conflict",
+    "question": "Zenfield Robotics is forming a 14-person cross-functional team of mechanical, software and quality engineers to build a warehouse picking robot. On the company's last project, the same departments clashed repeatedly over who could approve design changes, and arguments in meetings turned personal. The project manager wants to prevent destructive conflict this time while keeping healthy debate. Which TWO actions will MOST help? (Select two.)",
+    "options": [
+      "Have the project manager make all technical decisions so that debates do not arise",
+      "Limit communication between functional groups to formal weekly status reports",
+      "Facilitate a team charter with ground rules and a conflict-resolution process",
+      "Clarify roles and decision rights, for example with a RACI for design changes",
+      "Discourage team members from raising disagreements openly in team meetings"
+    ],
+    "answer": [
+      2,
+      3
+    ],
+    "hint": "Look at the two causes of the last project's conflict: unclear authority and unmanaged behavior.",
+    "why": "The last project's conflicts came from unclear authority over design changes and from arguments that turned personal. A team charter with ground rules and an agreed conflict process sets expectations for how disagreements are handled, and clarifying roles and decision rights — a RACI showing one accountable approver — removes the ambiguity that sparked the clashes. Both are proactive, structural and created with the team, and both keep healthy task debate while preventing relationship conflict.",
+    "how": "For 'prevent conflict' questions, choose proactive, structural actions made with the team — charters, ground rules, clear roles and decision rights — and reject options that suppress disagreement or centralize every decision.",
+    "optionNotes": [
+      "Incorrect — Centralizing technical decisions in the PM disempowers engineers, creates resentment and loses the expertise that healthy debate brings.",
+      "Incorrect — Restricting contact to status reports increases misunderstandings between groups that must coordinate design details every day.",
+      "Correct — A charter with ground rules and a conflict process sets shared norms and gives the team a known path when disagreements arise.",
+      "Correct — Clear decision rights, with one accountable approver per design area, remove the ambiguity that caused the clashes on the last project.",
+      "Incorrect — Suppressing disagreement pushes conflict underground, where it festers and later erupts as exactly the destructive kind the PM wants to avoid."
+    ],
+    "deepDive": "Healthy task conflict improves decisions; relationship conflict damages teams. Lencioni's five dysfunctions of a team place fear of conflict just above absence of trust, arguing that teams which avoid debate make weaker decisions and commit less to them. Prevention therefore aims to channel conflict, not remove it: a team charter, a RACI or decision-rights matrix, and agreed escalation paths. In agile teams the same role is played by working agreements, a clear product owner for priority decisions, and retrospectives that surface friction early. The exam trap is options that sound calm (limit communication, discourage disagreement) but actually suppress useful debate.",
+    "tags": [
+      "team charter",
+      "raci",
+      "prevention",
+      "multi-select"
+    ]
+  },
+  {
+    "id": "PEO-024",
+    "domain": "People",
+    "task": "2. Manage conflicts",
+    "approach": "Predictive",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Conflict between senior stakeholders",
+    "source": "ECO 2026 · People Task 2 · Business Environment Task 1 (escalation paths)",
+    "question": "On a predictive medical-device software project at Castellan Diagnostics, the sponsor wants the lead verification specialist, Noor, to stay through final testing, five weeks away. Noor's functional manager needs her back in two weeks to prepare for a regulatory audit of another product. Both have told the project manager to 'make it work.' The PM has already analyzed the schedule, cost and compliance impact of each option. What should the project manager do NEXT?",
+    "options": [
+      "Present the impact analysis and options to both, facilitate a decision, and escalate per governance if needed",
+      "Keep the specialist on the project, since the sponsor has final authority over project priorities and funding",
+      "Ask the specialist which assignment she prefers, since she understands both workloads better than anyone else",
+      "Release the specialist to the functional manager, since regulatory work must always take priority over projects"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "The analysis is done; the question now is who owns this decision and through which channel it is made.",
+    "why": "The conflict is between two legitimate organizational priorities, and choosing between them is above the project manager's authority. Having done the analysis, the PM should make the trade-offs visible to both the sponsor and the functional manager and facilitate a decision between the people who own those priorities. If they cannot agree, the governance plan's escalation path determines who decides.",
+    "how": "When a conflict involves priorities above your authority: analyze impacts, present options, facilitate a decision among the owners, and escalate through governance if they cannot agree; never decide outside your authority.",
+    "optionNotes": [
+      "Correct — Transparent options and impacts let the priority owners decide, and the defined escalation path ensures a legitimate decision if they cannot agree.",
+      "Incorrect — The sponsor does not automatically override a functional manager's obligations, especially regulatory ones, and the PM would be deciding outside their authority.",
+      "Incorrect — Pushing an organizational priority decision onto the individual is unfair to her and yields a choice neither manager has agreed to.",
+      "Incorrect — Regulatory work matters, but the trade-off should be decided openly by the right authorities with full impact information, not assumed by the PM."
+    ],
+    "deepDive": "Governance (Business Environment Task 1) defines decision rights and escalation paths, which is what turns 'make it work' into a legitimate decision. A good escalation package contains the issue, the impact analysis, options with pros and cons, a recommendation and the date by which a decision is needed. In a matrix organization the sponsor and functional manager often share authority over people, so conflicts between them are normal and should be resolved openly. The exam trap: options that sound principled ('the sponsor has final authority', 'regulatory work always wins') are really the project manager deciding a trade-off that belongs to others.",
+    "tags": [
+      "escalation",
+      "governance",
+      "matrix",
+      "functional manager",
+      "predictive"
+    ]
+  },
+  {
+    "id": "PEO-025",
+    "domain": "People",
+    "task": "2. Manage conflicts",
+    "approach": "Agile",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Mid-sprint request splits the team",
+    "source": "ECO 2026 · People Task 2 · Scrum Guide: changes during the sprint",
+    "question": "Midway through a two-week sprint on a loyalty app at Ostara Retail, the product owner, Dmitri, returns from a sales meeting and tells the developers to start a new partner-offers feature immediately. The developers refuse, saying it would wreck the sprint goal, and the discussion turns into a shouting match in which Dmitri insists he 'owns the backlog.' The feature is valuable, but no contract or regulatory deadline depends on it. The project manager also serves as the team's Scrum Master. What should the project manager do?",
+    "options": [
+      "Support Dmitri's decision, since the product owner owns the backlog and can redirect the team's work at any time",
+      "Tell Dmitri that nothing can change during a sprint and that he must raise the request at the next sprint planning event",
+      "Ask the developers to take on the feature with extra hours so that both the request and the sprint goal are met",
+      "Facilitate a discussion against the sprint goal; if the feature does not fit, Dmitri ranks it first for next sprint"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Both sides are partly right about Scrum; ask who owns the product backlog, who owns the sprint backlog and what protects the sprint.",
+    "why": "Dmitri is right that he owns and orders the product backlog, and the developers are right that the sprint goal should be protected: in Scrum, no changes that endanger the sprint goal are made during the sprint, and the developers own the sprint backlog. The Scrum Guide does allow scope to be clarified and renegotiated with the product owner, so the servant-leader move is to facilitate that conversation against the sprint goal rather than rule for one side. With no hard deadline, a feature that does not fit goes to the top of the product backlog for the next sprint, which costs at most two weeks and keeps the team's commitment intact.",
+    "how": "For mid-sprint change conflicts in Scrum, coach both roles on their accountabilities, test the request against the sprint goal, renegotiate only what does not endanger it and route the rest through backlog ordering; cancel the sprint only if the goal becomes obsolete.",
+    "optionNotes": [
+      "Incorrect — The product owner orders the product backlog, but the developers own the sprint backlog; overriding them mid-sprint endangers the goal and simply accommodates one side.",
+      "Incorrect — Scope can be clarified and renegotiated with the product owner during a sprint; a flat refusal is rigid and leaves the underlying conflict unresolved.",
+      "Incorrect — Solving the conflict with extra hours undermines sustainable pace and hides the trade-off that the product owner needs to make explicitly.",
+      "Correct — A discussion anchored on the sprint goal respects both roles, keeps the team's commitment and still gets the valuable feature prioritized quickly."
+    ],
+    "deepDive": "The Scrum Guide says that during the sprint no changes are made that would endanger the sprint goal, quality does not decrease, and the product backlog is refined as needed; scope may be clarified and renegotiated with the product owner as more is learned. Only the product owner can cancel a sprint, and only if the sprint goal becomes obsolete, which is a drastic step reserved for major shifts. Frequent mid-sprint interruptions often signal that the sprint is too long for the business's rhythm or that stakeholders need a clearer route into backlog ordering. The Scrum Master's job in such conflicts is to coach both sides on their accountabilities, not to arbitrate. The exam trap is picking the absolute 'nothing can change' answer, or deferring to the product owner as if he were the team's manager.",
+    "tags": [
+      "scrum",
+      "sprint goal",
+      "product owner",
+      "conflict",
+      "agile"
+    ]
+  }
+]

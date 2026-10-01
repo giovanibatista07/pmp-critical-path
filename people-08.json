@@ -1,0 +1,675 @@
+[
+  {
+    "id": "PEO-171",
+    "domain": "People",
+    "task": "6. Manage stakeholder expectations",
+    "approach": "Hybrid",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "A new stakeholder replaces an observer",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 6: New Forms of Project Leadership (stakeholders change over the life cycle)",
+    "question": "Midway through a hybrid program to modernize a port's cargo-tracking systems, the long-serving customs liaison — who had attended only a few reviews and rarely commented — retired. His successor, Dr. Mensah, immediately asked for detailed weekly reports and said she expects to approve any feature that affects customs data. The team worries she will slow delivery. What should the project manager do FIRST?",
+    "options": [
+      "Send Dr. Mensah the same monthly summary her predecessor received, since the engagement approach was already agreed",
+      "Meet Dr. Mensah to understand her expectations and concerns, then revisit her role and the engagement plan together",
+      "Ask the sponsor to confirm that Dr. Mensah has no approval rights, so the team can continue without extra reviews",
+      "Add Dr. Mensah as an approver for every release so that her concerns about customs data are fully and quickly met"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Who is this stakeholder now, and what do you actually know about her needs?",
+    "why": "Stakeholders change over time through retirements, promotions and reassignments, and a successor may want a much more active role than the predecessor. Dr. Mensah's requests may reflect real accountability for customs data. Meeting her first to understand her needs, explain current arrangements and agree an appropriate role lets the project manager update the stakeholder register and engagement plan on facts. Ignoring her requests, trying to exclude her or granting blanket approval rights are all decisions made before understanding her.",
+    "how": "When a key stakeholder changes, treat the successor as a new stakeholder: engage early to understand expectations, then reassess and update the engagement plan and decision roles.",
+    "optionNotes": [
+      "Incorrect — The old arrangement suited a passive predecessor; applying it unchanged ignores a new stakeholder with different expectations and accountabilities.",
+      "Correct — Understanding her expectations first lets the project manager agree an appropriate role and update the engagement plan on facts, not assumptions.",
+      "Incorrect — Trying to exclude her before hearing her concerns turns a potentially legitimate stakeholder into an adversary and may ignore real compliance duties.",
+      "Incorrect — Blanket approval rights over every release is an overreaction that could slow delivery without confirming what she actually needs."
+    ],
+    "deepDive": "The book notes that on longer projects stakeholders change because of politics, promotions, retirements or reassignments, and that a new stakeholder may want an important role where the predecessor was only an observer. Stakeholders can also become more or less active in different life-cycle phases, so the team must know which ones are critical at any given point. PMBOK treats stakeholder identification and analysis as iterative rather than a one-time step at initiation. A successor's arrival is a trigger to revisit the register, the power/interest assessment and the engagement plan.",
+    "tags": [
+      "stakeholder changes",
+      "stakeholder register",
+      "engagement plan",
+      "reassessment",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "PEO-172",
+    "domain": "People",
+    "task": "6. Manage stakeholder expectations",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "A partner misses a committed payment",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 6: New Forms of Project Leadership (abiding by stakeholder agreements)",
+    "question": "A predictive project to build a shared regional cold-storage hub is funded by three agricultural cooperatives under an agreement signed at initiation. Each cooperative committed to pay its share at the start of each phase. Phase 3 began two weeks ago, but one cooperative has not paid, citing 'internal reprioritization,' and the other two are asking whether they should hold back their own payments. The contractors need a go-ahead within ten days. What should the project manager do?",
+    "options": [
+      "Reduce phase 3 scope to fit the funds received so far and ask the contractors to proceed with a smaller package",
+      "Ask the two paying cooperatives to cover the shortfall for now so that the contractors can begin on the agreed schedule",
+      "Pause the project until all three cooperatives confirm their future payments in writing, however long that takes",
+      "Raise the missed payment with the cooperative, citing the agreement, and take it through governance if unresolved"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "What did the partners agree at initiation, and who should decide if that agreement is not honored?",
+    "why": "Agreements made at initiation protect the project only if they are honored. The project manager should first address the lapse directly with the cooperative, referring to its commitment and seeking to understand its situation, while keeping the other partners informed. If it cannot be resolved within the project's authority and timeframe, the governance route set out in the agreement — for example, the partners' steering board — should decide. Cutting scope, shifting cost to other partners or pausing indefinitely are unilateral changes to the agreement.",
+    "how": "When a stakeholder breaks an agreed commitment, address it directly by reference to the agreement, keep the other parties informed and use the agreed governance or escalation path; do not quietly absorb or redistribute the impact.",
+    "optionNotes": [
+      "Incorrect — Cutting scope unilaterally changes the agreed baseline without the partners' decision and rewards the party that broke its commitment.",
+      "Incorrect — Shifting the burden to the paying partners changes their obligations without a governance decision and may prompt them to withhold too.",
+      "Incorrect — An open-ended pause harms all partners and contractors; the lapse should be resolved through the agreement, not by stopping everything.",
+      "Correct — Enforcing the agreement directly, then through the defined governance route, respects the partners' commitments and keeps the decision with the right people."
+    ],
+    "deepDive": "The book's micro-level model of stakeholder relations management includes a step to abide by agreements — making sure commitments made during initiation and planning, such as funding timing and resource sharing, are honored during execution. It notes that politics, economic conditions and other environmental factors can threaten those agreements, which is why they must be explicit from the start. In PMBOK terms, the issue log, the stakeholder engagement plan and the governance escalation path all play a part. The other partners' question about holding back shows why prompt, transparent handling matters: one broken commitment can unravel a coalition.",
+    "tags": [
+      "stakeholder agreements",
+      "funding",
+      "governance",
+      "escalation",
+      "predictive"
+    ]
+  },
+  {
+    "id": "PEO-173",
+    "domain": "People",
+    "task": "6. Manage stakeholder expectations",
+    "approach": "Predictive",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "A change with winners and losers",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 6: New Forms of Project Leadership (scope changes across competing stakeholders)",
+    "question": "On a predictive hospital-expansion project, the head of surgery submits a change request to add two operating theatres, which would bring prestige and revenue to her department. The change would move the planned outpatient pharmacy to a less accessible floor and delay the emergency department's new triage area by four months. She has strong board support and wants the change approved at next week's change control board. What should the project manager do?",
+    "options": [
+      "Analyze the impact on all affected departments and involve their leaders so the CCB weighs trade-offs openly",
+      "Recommend approval to the CCB, because the change has strong board support and would add revenue for the hospital",
+      "Reject the request now because it harms two other departments and would delay the approved project schedule",
+      "Negotiate privately with the head of surgery to scale the change down before it reaches the change control board"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Who else is affected by this change, and who has the authority to weigh those effects?",
+    "why": "A change that benefits one stakeholder can disadvantage others, and stakeholders often request changes in their own interest. The project manager's role is to make the full impact visible — on scope, schedule, cost, benefits and each affected department — and to make sure the pharmacy and emergency department leaders are heard before the CCB decides. Recommending approval because of political backing, rejecting it unilaterally or reshaping it privately all bypass a fair, informed decision.",
+    "how": "For changes with winners and losers, carry out integrated impact analysis across all affected stakeholders and let the authorized body decide with everyone's interests visible; the project manager neither approves nor rejects alone.",
+    "optionNotes": [
+      "Correct — Full impact analysis and a joint forum let the change control board weigh the trade-offs with every affected department's interests on the table.",
+      "Incorrect — Board support and revenue do not replace impact analysis; the change control board needs to see the costs to the other departments too.",
+      "Incorrect — The project manager has no authority to reject a change unilaterally; the request must go through impact analysis and the CCB.",
+      "Incorrect — Private negotiation with one stakeholder excludes the departments that would bear the impact and undermines transparent change control."
+    ],
+    "deepDive": "The book observes that on complex projects with many stakeholders, a scope change that benefits one stakeholder may disadvantage others, and that stakeholders often push changes for their own benefit while neglecting those around them. It suggests seeking solutions that satisfy several stakeholders at once and, where issues are shared, bringing those stakeholders into the same meeting rather than holding endless separate ones. In predictive projects, integrated change control provides the structure: log the request, analyze impacts across constraints and benefits, consult affected parties and let the CCB decide. A common exam trap is the PM approving or rejecting changes personally.",
+    "tags": [
+      "change control",
+      "competing interests",
+      "impact analysis",
+      "stakeholder expectations",
+      "predictive"
+    ]
+  },
+  {
+    "id": "PEO-174",
+    "domain": "People",
+    "task": "6. Manage stakeholder expectations",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Sprint review treated as sign-off",
+    "source": "ECO 2026 · People Task 6 · Agile practice",
+    "question": "A retail bank has moved its lending team from waterfall to Scrum. Business stakeholders now treat each sprint review as a formal sign-off gate: they withhold 'approval' of the increment until every minor wording change they suggest is made, and the developers have begun holding stories back from review to avoid rejection. The product owner is frustrated and asks the project manager for help. What should the project manager do?",
+    "options": [
+      "Introduce a formal acceptance form that stakeholders sign at each review so that their expectations are documented",
+      "Ask the developers to polish every story until it is flawless before showing it, so reviews stop producing changes",
+      "Clarify that the review gathers feedback for the backlog, while the PO accepts work against the agreed criteria",
+      "Cancel sprint reviews for now and let the product owner collect stakeholder feedback through individual emails"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "In Scrum, what is the sprint review for, and who accepts completed work?",
+    "why": "The stakeholders are applying a waterfall mindset and treating the review as a sign-off gate. In Scrum, the product owner accepts work against the definition of done and acceptance criteria, while the sprint review is a collaborative session in which stakeholders inspect the increment and their feedback shapes the product backlog. Clarifying these roles removes the approval standoff and stops the team hiding work. Signature forms, polishing or cancelling reviews reinforce the wrong expectations.",
+    "how": "Reset expectations about agile events: the sprint review is for inspection and adaptation, feedback goes into the backlog, and acceptance is the product owner's call against agreed criteria.",
+    "optionNotes": [
+      "Incorrect — A signature gate cements the waterfall mindset and will slow delivery further as stakeholders withhold approval over minor preferences.",
+      "Incorrect — Polishing everything before review delays feedback and wastes effort on details that stakeholders may well change anyway.",
+      "Correct — Clarifying that feedback feeds the backlog and that acceptance rests with the product owner removes the standoff and restores transparency.",
+      "Incorrect — Cancelling reviews removes the main inspect-and-adapt conversation and makes stakeholder feedback slower and less collaborative."
+    ],
+    "deepDive": "According to the Scrum Guide, the sprint review is a working session to inspect the outcome of the sprint and decide future adaptations; it should not be limited to a presentation, and the product backlog may be adjusted as a result. Acceptance of individual items is handled by the product owner against acceptance criteria and the definition of done. When stakeholders treat reviews as gates, teams often respond by hiding unfinished work — a loss of transparency that undermines empiricism. Coaching stakeholders on their role, and showing how their feedback becomes backlog items, is part of managing expectations during an agile transformation.",
+    "tags": [
+      "sprint review",
+      "acceptance",
+      "agile transformation",
+      "stakeholder expectations",
+      "agile"
+    ]
+  },
+  {
+    "id": "PEO-175",
+    "domain": "People",
+    "task": "6. Manage stakeholder expectations",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Reporting value, not just time and cost",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 6: New Forms of Project Leadership (forecasting benefits and value for stakeholders)",
+    "question": "An IT services firm is implementing a warehouse-management system for a client. Monthly client reviews cover only schedule and budget, both on track. Early user tests show pickers are slower with the new system, threatening the productivity gain the client's COO cited when approving the investment. The account manager suggests keeping the reviews focused on time and cost 'since that's what the contract measures.' What should the project manager do?",
+    "options": [
+      "Keep the reviews on schedule and budget, and raise the productivity issue only if it is still present after go-live",
+      "Add forecasts of expected benefits and value to the reviews, sharing the productivity risk and options to fix it",
+      "Resolve the productivity problem within the team first, and report it to the client once a proven fix is available",
+      "Ask the client's COO to lower the productivity target in the business case so that it matches current test results"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "What will the client ultimately judge this project on?",
+    "why": "Clients pay for the value they expect, not just for deliverables on time and on budget. Stakeholder reviews should include forecasts of benefits and value at completion alongside time and cost. Surfacing the productivity risk now, together with options, keeps the client's expectations realistic and lets both parties act while changes are still affordable. Holding it back until after go-live or until a fix exists risks a 'successful' project that the client sees as a failure.",
+    "how": "In stakeholder reviews, report forecasts of benefits and value alongside time and cost, and raise threats to expected value early, with options.",
+    "optionNotes": [
+      "Incorrect — Delaying bad news until after go-live removes options and damages trust; on-time delivery will not satisfy a client who loses the value.",
+      "Correct — Reporting value forecasts with options keeps expectations realistic and lets the client decide on corrective action while it is still affordable.",
+      "Incorrect — Working on a fix is sensible, but withholding a known threat to the client's business case until it is solved undermines transparency.",
+      "Incorrect — Lowering the target before analyzing causes and options changes the expectation to hide the problem instead of addressing it."
+    ],
+    "deepDive": "The book stresses that the value a customer expects — not the deliverable itself — determines whether a project is judged a success, and that the definition of value should be agreed jointly at initiation. It lists forecasts of time, cost, benefits and value at completion as standard content for stakeholder review meetings. PMBOK's measurement guidance likewise warns against relying only on time-and-cost metrics and recommends business-value and outcome measures. Under a contract the vendor may be paid for deliverables, but long-term relationships depend on the client actually realizing the benefits.",
+    "tags": [
+      "value",
+      "benefits",
+      "status reporting",
+      "transparency",
+      "stakeholder expectations"
+    ]
+  },
+  {
+    "id": "PEO-176",
+    "domain": "People",
+    "task": "6. Manage stakeholder expectations",
+    "approach": "Agile",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "AI productivity hype and the release date",
+    "source": "ECO 2026 · People Task 6 · Agile practice",
+    "question": "Two sprints after a product team adopted an AI coding assistant, the sponsor read a vendor claim that such tools 'double developer productivity.' She now wants the release date brought forward by six weeks and asks the project manager to confirm the new date to customers. Velocity has risen from 40 to 44 points, but code-review time has grown and two defects traced to generated code escaped into testing. What should the project manager do?",
+    "options": [
+      "Confirm the earlier date, since velocity is already rising, and ask the team to keep pushing for the promised gains",
+      "Double the team's velocity target for the next sprints so the forecast reflects the productivity the vendor claims",
+      "Decline to discuss the date until the AI tool has been in use for a full year and all of its effects are known",
+      "Share the actual data with the sponsor and agree to re-forecast after a few more sprints of measured delivery"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "What do the team's own numbers show compared with the vendor's claim?",
+    "why": "The team's data do not support the vendor's claim: velocity rose by only 10% (from 40 to 44 points, an increase of 4 ÷ 40), while review effort and escaped defects increased. Committing customers to an earlier date on that basis would set up a broken promise. Sharing the evidence and agreeing to update the forecast from several sprints of measured throughput and quality manages the sponsor's expectations with facts while still taking the potential gains seriously. Waiting a full year is excessive, and velocity targets would distort the metric.",
+    "how": "When new tools promise gains, manage expectations empirically: measure throughput and quality over several iterations, then update forecasts — never commit dates on the strength of vendor claims.",
+    "optionNotes": [
+      "Incorrect — A 10% rise over two sprints, with more rework, does not justify a six-week commitment to customers that the team may not meet.",
+      "Incorrect — Setting velocity targets distorts estimation and invites point inflation; it changes the numbers, not the team's real delivery capacity.",
+      "Incorrect — A year is far longer than needed; a few sprints of data can support a credible forecast, and refusing to engage frustrates the sponsor.",
+      "Correct — Presenting real data and re-forecasting from measured throughput and quality sets realistic expectations while keeping the potential gains in view."
+    ],
+    "deepDive": "AI assistants can speed up some coding tasks, but delivery depends on the whole flow — refinement, review, testing, integration and deployment — so a local speed-up often moves the bottleneck rather than removing it. Agile forecasting relies on empirical data: several sprints of velocity or throughput, ideally shown as a range, plus quality signals such as escaped defects and rework. Turning velocity into a target invites gaming, a pattern known as Goodhart's law. For AI and other emerging technology, the PMI-aligned stance is to evaluate real impact on value, quality and risk and communicate transparently rather than adopt the hype.",
+    "tags": [
+      "ai",
+      "forecasting",
+      "velocity",
+      "stakeholder expectations",
+      "agile"
+    ]
+  },
+  {
+    "id": "PEO-177",
+    "domain": "People",
+    "task": "7. Help ensure knowledge transfer",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Making a repository worth using",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 4: Digitalization (knowledge repositories)",
+    "question": "An engineering firm's PMO spent a year building a knowledge repository with lessons learned, templates, a metrics library and benchmarking studies. Usage data show that fewer than one in ten project managers opened it last quarter, and most say it is 'too big to find anything useful.' The PMO lead asks a senior project manager who runs a hybrid program for advice. What should the project manager recommend?",
+    "options": [
+      "Identify the knowledge each type of project needs most and build short look-ups into planning and retrospectives",
+      "Make use mandatory by requiring every project manager to cite at least five repository entries in each project plan",
+      "Add content from every closed project so that the repository becomes comprehensive enough to be worth consulting",
+      "Replace the repository with a newer knowledge-management platform that offers faster and smarter search features"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Why don't project managers find the repository useful in the middle of their work?",
+    "why": "People use a knowledge system only when they see its value in their own work. Mapping the mission-critical knowledge that different kinds of projects need, curating it and embedding brief look-ups at the moments decisions are made — planning, refinement, risk reviews and retrospectives — turns the repository from an archive into a working aid. Mandated citations produce box-ticking, more content worsens the overload, and a new platform does not fix a content and workflow problem.",
+    "how": "For knowledge reuse, start from the decisions teams make: curate the critical knowledge, then embed access into existing workflows and events rather than relying on mandates, volume or new tools.",
+    "optionNotes": [
+      "Correct — Curating critical knowledge and placing it where decisions are made shows project managers its value, which is what drives real use.",
+      "Incorrect — Mandatory citations encourage box-ticking; people will reference entries to comply without actually using the knowledge to decide better.",
+      "Incorrect — The complaint is that the repository is already too big to navigate; adding more unfiltered content makes the overload worse.",
+      "Incorrect — A new platform treats this as a tool problem, but the content and workflow issues would simply move to the new system."
+    ],
+    "deepDive": "The book describes knowledge repositories that combine best-practice libraries, metrics/KPI libraries, specialized knowledge, customer knowledge, benchmarking studies and idea management. It warns that getting people to use such a system is hard unless they recognize its value, and that care is needed over how much information to extract. It recommends first mapping the mission-critical knowledge assets that support the project's strategy, then deciding which to use and exploit. In agile and hybrid settings, just-in-time knowledge — checklists at refinement, risk patterns at planning, earlier lessons at retrospectives — works far better than a large archive.",
+    "tags": [
+      "knowledge repository",
+      "knowledge management",
+      "pmo",
+      "lessons learned",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "PEO-178",
+    "domain": "People",
+    "task": "7. Help ensure knowledge transfer",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Learning from past launches' data",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 4: Digitalization (information warehouses and commercialization data)",
+    "question": "A consumer-electronics company has formed a cross-functional team to design a new smart thermostat using a hybrid approach. Most team members are engineers who will hand over to manufacturing and marketing before launch. On the company's two previous connected products, early design choices led to costly warranty returns and installer complaints after launch. The project manager wants the team to avoid repeating this. Which action is MOST likely to help?",
+    "options": [
+      "Invite the previous project managers to the kickoff to share their personal views of what went wrong on those products",
+      "Add a post-launch support phase so that the same engineers handle the warranty returns during the first year of sales",
+      "Have the team study post-launch records of earlier products, such as warranty and installer data, before designing",
+      "Ask marketing to write detailed installer requirements now so that engineering can design strictly to that document"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Where does the evidence about the downstream effects of early design choices actually live?",
+    "why": "Team members who will not take part in commercialization still make the early decisions that drive downstream costs. Reviewing the commercialization records of earlier products — warranty returns, field failures, installer feedback — before key design decisions shows the team the real consequences of such choices and turns stored organizational data into usable knowledge. Recollections from previous managers are useful but partial, making engineers handle returns teaches the lesson too late, and a requirements document from one function captures only part of it.",
+    "how": "Transfer knowledge where decisions are made: give teams access to downstream data from past products (warranty, support, commercialization) before early design choices, not just anecdotes after the fact.",
+    "optionNotes": [
+      "Incorrect — Previous managers' recollections help, but they are partial and filtered; the team needs the detailed downstream data behind those problems.",
+      "Incorrect — Handling returns after launch teaches the lesson only once the costly design decisions have already been made and built.",
+      "Correct — Studying real commercialization data before key design choices shows the team the downstream effects of early decisions while it can still act.",
+      "Incorrect — A requirements document from one function captures only part of the lesson and replaces shared learning with a rigid hand-off."
+    ],
+    "deepDive": "The book argues that when a strategic project aims to create a commercially successful product, team members must understand the knowledge needed in the commercialization life cycle even if they will not take part in it, because wrong early decisions can cause serious problems later. It recommends reviewing commercialization records of previously introduced products, held in information warehouses, so the team understands the downstream impact of business decisions. This complements lessons-learned registers with hard operational data. In PMBOK terms, it means using organizational process assets and explicit knowledge proactively rather than simply archiving them.",
+    "tags": [
+      "knowledge transfer",
+      "information warehouse",
+      "lessons learned",
+      "product development",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "PEO-179",
+    "domain": "People",
+    "task": "7. Help ensure knowledge transfer",
+    "approach": "Predictive",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Debriefing stakeholders at closure",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 6: New Forms of Project Leadership (debriefing stakeholders)",
+    "question": "A construction company has just completed and closed the contract for a new terminal building at a regional airport. It is the company's second project for this airport authority, and a third is expected next year. The internal team has already held its lessons-learned session, and the project manager is finalizing closure activities. Which additional step will BEST improve the next project with this client?",
+    "options": [
+      "Archive the internal lessons-learned register in the company repository and share it with the next project's team",
+      "Hold a debrief with the airport authority's key stakeholders to capture their lessons and ideas for next time",
+      "Send the airport authority a satisfaction survey with a rating scale for schedule, cost and quality performance",
+      "Ask the sponsor to meet the airport's chief executive to discuss the commercial terms of the upcoming project"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Whose perspective on the project is still missing from the lessons captured so far?",
+    "why": "Internal lessons capture only the delivery team's view. A structured debrief with the client's key stakeholders after contract closure reveals what worked and what did not from their side — decision-making, communication, interfaces — and strengthens the relationship before the next project. A survey is thinner and less candid, archiving internal lessons is necessary but incomplete, and a commercial meeting is about sales rather than learning.",
+    "how": "Close stakeholder relationships as deliberately as you open them: debrief key stakeholders at closure to capture their lessons, especially when repeat work is likely.",
+    "optionNotes": [
+      "Incorrect — Archiving internal lessons is necessary but captures only the team's perspective, missing how the client experienced the project.",
+      "Correct — A client debrief captures lessons from the stakeholders' own perspective and strengthens the relationship ahead of the next project.",
+      "Incorrect — A rating survey gives scores but little insight into causes; it cannot replace a candid, two-way conversation with key stakeholders.",
+      "Incorrect — Discussing commercial terms is a sales activity; it does not capture lessons about how the two organizations worked together."
+    ],
+    "deepDive": "The book's micro-level stakeholder relations model ends with debriefing the stakeholders — a step after contract closure to capture lessons learned and best practices for the next project involving the same stakeholders. This extends lessons learned beyond the team to the people who experienced the project from outside. PMBOK treats knowledge capture as continuous, but closure is the natural point to review the whole relationship. Candid debriefs work best when neutrally facilitated and focused on improvement rather than blame.",
+    "tags": [
+      "lessons learned",
+      "stakeholder debrief",
+      "closure",
+      "client relationship",
+      "predictive"
+    ]
+  },
+  {
+    "id": "PEO-180",
+    "domain": "People",
+    "task": "7. Help ensure knowledge transfer",
+    "approach": "Any",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Protecting time to reflect",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 3: Innovative Cultures (blocking off time to think)",
+    "question": "A program team delivering three overlapping software releases for a telecom operator has cancelled its last four lessons-learned sessions because of deadline pressure. The same integration mistakes have now appeared in two consecutive releases, and team members say they are 'too busy firefighting to step back.' The next release starts in two weeks. What should the project manager do?",
+    "options": [
+      "Record the recurring mistakes in the issue log and ask each team lead to make sure they are prevented next time",
+      "Ask the PMO to run an independent audit of the program to find the reasons behind the recurring integration errors",
+      "Postpone reflection until all three releases are complete, then hold one thorough lessons-learned workshop",
+      "Protect a short, regular slot for the team to reflect on recent work and agree changes, despite the deadlines"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "What has disappeared from the team's routine, and what has happened since?",
+    "why": "Repeated mistakes show that the team has no time to think and learn. Protecting a short, recurring reflection slot lets the team analyze causes and agree specific changes while the lessons are fresh, which costs less than fighting the same fires again. Logging issues, commissioning an audit or waiting until the end all keep learning away from the people who can apply it in the next release.",
+    "how": "When delivery pressure crowds out reflection, protect short, regular learning time; frequent small reflections beat rare big workshops.",
+    "optionNotes": [
+      "Incorrect — Logging the issue and delegating prevention gives the team no time to understand causes, so the same mistakes are likely to recur.",
+      "Incorrect — An external audit may find causes, but the team learns less than by reflecting itself, and the findings arrive slowly.",
+      "Incorrect — Waiting until the end means the mistakes will repeat in the remaining releases, and memories of their causes will have faded.",
+      "Correct — Regular protected reflection lets the team learn while lessons are fresh and apply them to the very next release."
+    ],
+    "deepDive": "The book names blocking off time to think as a key ingredient of innovative cultures, citing benefits such as more creative problem solving, better quality, learning new practices and higher-quality decisions — and noting that competing demands have made such time a luxury. Agile builds this in through a retrospective at the end of every iteration; predictive projects can do the same with regular lessons-learned checkpoints rather than only at closure. PMBOK stresses capturing and applying knowledge throughout the project. Leaders signal that reflection matters by protecting the time even when deadlines press.",
+    "tags": [
+      "lessons learned",
+      "reflection",
+      "continuous learning",
+      "retrospectives",
+      "knowledge transfer"
+    ]
+  },
+  {
+    "id": "PEO-181",
+    "domain": "People",
+    "task": "7. Help ensure knowledge transfer",
+    "approach": "Agile",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Tacit knowledge before an expert retires",
+    "source": "ECO 2026 · People Task 7 · Agile practice",
+    "question": "Jorge, the only engineer who fully understands a payment-reconciliation engine, retires in eight weeks. His agile team proposes loading his design documents, code comments and chat history into an AI assistant so that anyone can 'ask Jorge's knowledge' after he leaves. Jorge has said that much of what he knows — why certain edge cases are handled as they are, and how to diagnose production failures — has never been written down. What should the project manager do?",
+    "options": [
+      "Rotate developers to pair with Jorge on live work and incidents, and use the AI assistant as a supplement to that",
+      "Proceed with the AI assistant as the main transfer method, since it will make all his written knowledge easy to query",
+      "Ask Jorge to spend his remaining weeks writing complete documentation of every edge case before he retires",
+      "Negotiate a consulting contract so that Jorge can be called in whenever the team meets a problem after he leaves"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "What kind of knowledge is Jorge describing, and can a tool built on his written records capture it?",
+    "why": "Much of Jorge's knowledge is tacit — judgment about edge cases and how to diagnose failures — and an AI assistant can draw only on what has already been written. Tacit knowledge transfers best through socialization: pairing and mobbing on real work and incidents, where others see how he reasons. The AI assistant can still help with the explicit part. Writing everything down in eight weeks is unrealistic and loses the judgment, and a consulting arrangement defers rather than solves the dependency.",
+    "how": "Match the transfer method to the type of knowledge: tacit knowledge needs people working together (pairing, mobbing, shadowing), while tools and documents handle explicit knowledge.",
+    "optionNotes": [
+      "Correct — Pairing on live work passes on tacit judgment that no document holds, while the AI assistant usefully covers the explicit material.",
+      "Incorrect — An AI assistant can only reflect what was written down; the unwritten diagnostic judgment Jorge described would be lost.",
+      "Incorrect — Documenting everything in eight weeks is unrealistic, and written text struggles to capture the judgment behind his decisions.",
+      "Incorrect — A consulting arrangement postpones the knowledge gap rather than closing it and leaves the team dependent on one person."
+    ],
+    "deepDive": "Nonaka and Takeuchi's SECI model distinguishes tacit knowledge (experience, judgment) from explicit knowledge (documents, code) and shows that tacit knowledge moves mainly through socialization — working side by side. Agile teams use pair programming, mob programming, shadowing and rotating on-call duties to spread such knowledge and raise the team's 'bus factor.' Generative AI tools can make explicit knowledge far easier to find and summarize, but they cannot capture what was never recorded and may present gaps with false confidence. A sound plan combines both, with the team checking AI answers against how the system really behaves.",
+    "tags": [
+      "tacit knowledge",
+      "pairing",
+      "ai",
+      "knowledge transfer",
+      "agile"
+    ]
+  },
+  {
+    "id": "PEO-182",
+    "domain": "People",
+    "task": "7. Help ensure knowledge transfer",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Supporting, not mandating, a CoP",
+    "source": "ECO 2026 · People Task 7 · Agile practice",
+    "question": "A company runs eight agile teams across two sites. Each team built its own approach to automated testing, and several solved the same problems independently. Testers from four teams recently started an informal community of practice that meets every two weeks and is already sharing useful patterns. The engineering director now wants to make attendance mandatory for all testers and require the group to publish a new testing standard every month. What should the project manager advise?",
+    "options": [
+      "Make attendance mandatory as the director proposes, so that all eight teams adopt the same testing practices quickly",
+      "Disband the informal group and replace it with a formal working group led by a manager with authority to set standards",
+      "Support the community with protected time and visible sponsorship, and let practitioners shape its agenda and outputs",
+      "Leave the community entirely alone, since any management attention would spoil its informal and voluntary character"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "What makes a community of practice work in the first place?",
+    "why": "Communities of practice work because practitioners join to learn from one another; their value comes from voluntary participation and member-driven topics. Leaders help most by legitimizing the community — giving protected time, sponsorship and channels to share its results — while letting members decide what to work on. Mandatory attendance and monthly standards turn it into a compliance committee, while ignoring it leaves the community without the time and recognition it needs to reach all eight teams.",
+    "how": "Support communities of practice with time, sponsorship and visibility, but keep participation voluntary and the agenda practitioner-led.",
+    "optionNotes": [
+      "Incorrect — Compulsory attendance and output quotas turn a learning community into a committee, and engagement and candor usually drop.",
+      "Incorrect — A manager-led working group loses the voluntary, peer-driven energy that made practitioners share solutions in the first place.",
+      "Correct — Protected time and sponsorship let the community grow and share knowledge across teams while practitioners keep ownership of its direction.",
+      "Incorrect — A completely hands-off stance leaves the community without time or recognition, so it may fade before reaching the other teams."
+    ],
+    "deepDive": "Communities of practice — also called guilds or chapters in scaled agile models — connect people who share a discipline across teams to spread tacit and explicit knowledge, reduce duplicated effort and build capability. They thrive on voluntary participation, a clear shared domain, regular interaction and leadership support without control. Useful support includes a time allowance (for example, a few hours per sprint), a sponsor who removes obstacles and channels for publishing reusable patterns. Standards can emerge from a community, but they work best when practitioners propose them rather than when they are imposed on a fixed schedule.",
+    "tags": [
+      "communities of practice",
+      "knowledge sharing",
+      "scaled agile",
+      "servant leadership",
+      "agile"
+    ]
+  },
+  {
+    "id": "PEO-183",
+    "domain": "People",
+    "task": "7. Help ensure knowledge transfer",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "multi",
+    "topic": "Sharing design rationale across sites",
+    "source": "ECO 2026 · People Task 7 · Agile practice",
+    "question": "A Scrum team is split between Nairobi and Kraków. Most senior developers sit in Kraków, where design choices are often settled in quick hallway conversations. Nairobi developers learn about these choices only when their pull requests are rejected, and new joiners keep reopening questions the team thought were settled because nobody recorded why they were decided. The team wants knowledge of design decisions to reach everyone. Which TWO practices should the project manager encourage? (Select two.)",
+    "options": [
+      "Have the Kraków lead approve every design decision so that the team always has one consistent source of answers",
+      "Record each significant design decision in a short, shared note of the context, options considered and rationale",
+      "Produce a comprehensive design document each quarter that summarizes all decisions made since the previous one",
+      "Hold design discussions in shared channels or open calls that both sites can join, instead of in hallway chats",
+      "Move all design work to Kraków, where most experienced developers are based, and let Nairobi focus on coding"
+    ],
+    "answer": [
+      1,
+      3
+    ],
+    "hint": "Where are design decisions being made, and where does their reasoning end up?",
+    "why": "Two things are going wrong: decisions are made where half the team cannot hear them, and the reasoning behind them is never captured. Holding design conversations where both sites can take part restores the informal knowledge flow that co-located developers take for granted, and short decision records preserve the 'why' so newcomers can find it instead of reopening debates. Centralizing approval or design in Kraków deepens the divide, and a quarterly document arrives too late to help.",
+    "how": "In distributed teams, replace hallway knowledge with deliberate practices: discuss decisions in shared, visible spaces and capture the rationale in lightweight, findable decision records at the time decisions are made.",
+    "optionNotes": [
+      "Incorrect — A single approver creates a bottleneck and keeps knowledge concentrated in one person instead of spreading it across both sites.",
+      "Correct — Short decision records capture context and rationale at the moment of decision, so newcomers learn why instead of reopening settled debates.",
+      "Incorrect — A quarterly summary arrives months after decisions are made, is costly to write and is unlikely to be read in time to help.",
+      "Correct — Discussing design where both sites can take part gives Nairobi developers the same informal knowledge flow as their Kraków colleagues.",
+      "Incorrect — Concentrating design in one site creates a two-class team, wastes Nairobi's capability and makes the knowledge gap permanent."
+    ],
+    "deepDive": "Co-located teams absorb a great deal through osmotic communication — overhearing discussions and seeing decisions being made — which distributed members miss unless it is deliberately recreated. Practices such as working out loud in shared channels, inclusive design huddles on video and rotating facilitation across sites help close the gap. Architecture decision records (short notes of context, options, decision and consequences, stored alongside the code) are a lightweight way to make rationale explicit and searchable. Together they turn tacit, local knowledge into shared team knowledge without heavy documentation.",
+    "tags": [
+      "decision records",
+      "distributed teams",
+      "knowledge sharing",
+      "osmotic communication",
+      "multi-select"
+    ]
+  },
+  {
+    "id": "PEO-184",
+    "domain": "People",
+    "task": "8. Plan and manage communication",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "One source of truth for status",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 4: Digitalization (information warehouses and a shared metrics library)",
+    "question": "A hybrid program is building a new distribution hub for a food wholesaler: the civil works follow a baseline schedule, while three agile teams build the warehouse software. At this month's steering meeting, the PMO report showed the program 72% complete, the software teams' tool showed 55% of release scope done, and finance's spend figure matched neither. Most of the meeting was spent arguing about whose numbers were right, and two decisions were deferred. What should the project manager do?",
+    "options": [
+      "Ask each workstream to reconcile its figures with the PMO before every steering meeting and footnote any gaps",
+      "Report only the PMO's figures to the steering committee, since the approved baseline is the official measure",
+      "Show all three sets of figures side by side so that steering members can judge for themselves which is right",
+      "Agree shared metric definitions with the data owners and feed every status report from one integrated source"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "When three reports disagree, is the problem the audience, the meeting, or where the numbers come from?",
+    "why": "The steering committee cannot decide because it receives three inconsistent versions of the truth, each drawn from a different system with its own idea of 'complete'. Agreeing common definitions with the data owners — for example, how baseline progress and story-point completion roll up, and which cost figure is authoritative — and drawing every report from one integrated source removes the conflict at its origin, so meetings can return to decisions. Manual reconciliation treats the symptom every month, reporting one source hides the software and financial picture, and side-by-side figures hand the confusion to the audience.",
+    "how": "When stakeholders receive conflicting figures, fix the data before the display: agree metric definitions and owners, and let one authoritative, integrated source feed every report so everyone discusses the same numbers.",
+    "optionNotes": [
+      "Incorrect — Monthly manual reconciliation treats the symptom, consumes effort every cycle, and leaves the different definitions of progress in place.",
+      "Incorrect — Reporting only the baseline view hides the software and financial picture, so steering decisions would rest on partial information.",
+      "Incorrect — Presenting conflicting numbers side by side pushes the reconciliation onto busy executives and invites the same debate at every meeting.",
+      "Correct — Common definitions and a single integrated data source remove the conflict at its root and let the committee spend its time deciding."
+    ],
+    "deepDive": "The book describes the growth of information warehouses and knowledge repositories, including libraries of metrics that set out which measures are available and how they should be displayed, as a foundation for business-intelligence-style project reporting. In hybrid programs a classic failure is that predictive and adaptive components measure progress differently, so rolled-up figures conflict and the reports lose credibility. A single source of truth needs agreed definitions (what 'complete' means for each workstream), named data owners and automated feeds rather than hand-built spreadsheets. Communication planning covers not only who receives what, but also where the authoritative information comes from.",
+    "tags": [
+      "communication",
+      "single source of truth",
+      "metrics",
+      "steering committee",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "PEO-185",
+    "domain": "People",
+    "task": "8. Plan and manage communication",
+    "approach": "Any",
+    "difficulty": "Hard",
+    "type": "multi",
+    "topic": "Validating KPIs for a dashboard",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 4: Digitalization (mapping dashboards to objectives)",
+    "question": "A PMO is building a benefits dashboard for a portfolio of customer-service transformation projects. Twenty-two candidate KPIs have been proposed, and the steering committee wants no more than eight on the dashboard. The project manager leading the work has already agreed the business objectives and key success factors with the sponsors. Which THREE checks should be applied when deciding whether each candidate KPI belongs on the dashboard? (Select three.)",
+    "options": [
+      "It is understood in the same way by the stakeholders who will use it to make decisions",
+      "It can be refreshed automatically in real time from current systems without manual effort",
+      "It traces back to an agreed objective or key success factor of the transformation",
+      "The corrective action to take when it moves into an unacceptable range is known in advance",
+      "It offers the most data dimensions so that users can explore any question they may have"
+    ],
+    "answer": [
+      0,
+      2,
+      3
+    ],
+    "hint": "What makes a metric useful for a decision rather than merely available?",
+    "why": "A KPI earns its place on a decision dashboard when stakeholders share an understanding of it, when it traces to an agreed objective or success factor, and when people know what to do if it signals a problem. These checks keep the dashboard focused on decisions rather than data. Real-time automation is convenient but does not make a metric meaningful, and cramming in dimensions turns a dashboard back into a data dump.",
+    "how": "Validate each KPI before it goes on a dashboard: shared understanding, traceability to objectives and success factors, a known corrective action and a clear owner; convenience and volume are not criteria.",
+    "optionNotes": [
+      "Correct — If stakeholders interpret a KPI differently, it will trigger arguments rather than decisions, so a shared understanding is essential.",
+      "Incorrect — Automation is a useful feature, but a metric that is easy to refresh can still be irrelevant to the transformation's objectives.",
+      "Correct — Traceability to an agreed objective or success factor ensures the KPI measures something that matters to the transformation's goals.",
+      "Correct — Knowing the corrective action in advance turns a red indicator into a timely decision instead of a debate about what to do.",
+      "Incorrect — Open-ended exploration belongs in ad-hoc analysis tools; on a decision dashboard, extra dimensions add clutter and dilute focus."
+    ],
+    "deepDive": "The book's approach to mapping dashboards to objectives starts with the business objectives, the gap between the current and target state, key success factors and current issues, and then defines KPIs with their values, dimensions, filters, targets and thresholds. It then validates each KPI by asking whether all stakeholders understand it, whether the corrective action is known when it turns negative, whether it traces to the success factors and solutions, and whether it is linked to a responsible department. PMBOK similarly recommends meaningful, SMART measures and warns against vanity metrics. Fewer, well-owned KPIs drive better decisions than many loosely defined ones.",
+    "tags": [
+      "kpis",
+      "dashboards",
+      "benefits",
+      "metrics",
+      "multi-select"
+    ]
+  },
+  {
+    "id": "PEO-186",
+    "domain": "People",
+    "task": "8. Plan and manage communication",
+    "approach": "Any",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Speaking with one voice in a crisis",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 6: New Forms of Project Leadership (crisis leadership and communication)",
+    "question": "A food manufacturer is midway through a project to upgrade a production line when a contamination incident at the same plant leads to hospitalizations and a product recall. The CEO has formed a crisis committee and is the designated spokesperson. Journalists are calling project team members directly. Some executives suggest saying nothing publicly until the root cause is confirmed, which may take weeks. The committee asks the project manager, who supports it, for a communication recommendation. What should the project manager recommend?",
+    "options": [
+      "Stay silent publicly until the investigation confirms the root cause, so that no inaccurate information is released",
+      "Route all statements through the spokesperson, sharing known facts and actions promptly and updating as they emerge",
+      "Let each department head answer journalists about their own area, so that responses are fast and technically accurate",
+      "Issue a statement that the upgrade project is unrelated to the incident, to protect the project and its team members"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "In a crisis, who should speak, how quickly, and with how much of what is already known?",
+    "why": "In a crisis the organization must speak with one voice, quickly and honestly. Sharing what is known — the facts, the actions being taken and concern for those affected — through the designated spokesperson, and updating as information emerges, builds trust. Withholding everything until the cause is confirmed is likely to be seen as stonewalling, multiple voices create contradictions, and a premature claim that the project is unrelated may prove false and destroy credibility.",
+    "how": "In a crisis: one designated voice, prompt and honest disclosure of what is known, compassion for those affected and regular updates — never silence until everything is certain.",
+    "optionNotes": [
+      "Incorrect — Waiting weeks for certainty is likely to look like stonewalling; the public and regulators expect prompt, honest updates on known facts.",
+      "Correct — One spokesperson sharing known facts and actions promptly, with regular updates, builds trust and avoids conflicting messages.",
+      "Incorrect — Multiple voices produce inconsistent messages and legal exposure; crisis communication must come from one coordinated source.",
+      "Incorrect — Declaring the project unrelated before the investigation ends may prove false and would badly damage the company's credibility."
+    ],
+    "deepDive": "The book argues that crises call for different leadership than normal projects: senior leaders usually head a crisis committee, the leader acts as the single spokesperson, and the company must speak with one voice marked by swiftness, honesty, openness, sincerity and compassion. It warns that withholding information because it is incomplete can be seen as stonewalling, and that the public often judges a company as victim or villain by how it communicates. It also stresses documenting decisions because of the legal issues involved. The project manager's role is usually supportive — briefing the team on what they may say and routing inquiries to the spokesperson.",
+    "tags": [
+      "crisis communication",
+      "spokesperson",
+      "transparency",
+      "crisis leadership",
+      "stakeholders"
+    ]
+  },
+  {
+    "id": "PEO-187",
+    "domain": "People",
+    "task": "8. Plan and manage communication",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "An AI-drafted update overstates progress",
+    "source": "ECO 2026 · People Task 8 · Agile practice",
+    "question": "On a hybrid CRM program, the project manager began using a generative AI tool to draft the weekly executive update from the team's work-tracking data. Last week's update, sent after a quick skim, said the customer-onboarding feature was '90% complete.' In fact, most of its stories were in progress or awaiting testing and none met the definition of done. The sponsor has already told the board the feature will launch this month. What should the project manager do?",
+    "options": [
+      "Stop using the AI tool for executive updates and go back to writing every status report manually from now on",
+      "Ask the vendor to fix the AI tool's logic and send the executives a correction once the tool has been repaired",
+      "Correct the update with the sponsor promptly, then add a human check of AI drafts against the definition of done",
+      "Let the next weekly update show the corrected status, so that the correction draws as little attention as possible"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Who is accountable for what an AI tool drafts on your behalf, and what does the sponsor need right now?",
+    "why": "The update misstated progress, and the sponsor has already relied on it. Honesty requires correcting it promptly and directly with the sponsor, so the board message can be fixed before expectations harden. The underlying cause is sending an AI draft without checking it against the agreed meaning of 'done'; adding a human review step keeps the efficiency of AI drafting while keeping the project manager accountable for accuracy. Abandoning the tool, blaming the vendor or waiting a week treats the symptom or hides the error.",
+    "how": "When AI drafts stakeholder communications, the project manager remains accountable: verify content against agreed definitions and sources before sending, and correct errors promptly and transparently.",
+    "optionNotes": [
+      "Incorrect — Abandoning the tool overreacts to a process gap and still leaves the sponsor and board holding wrong information that needs correcting now.",
+      "Incorrect — The project manager, not the vendor, is accountable for what was sent; waiting for a tool fix delays a correction the sponsor needs now.",
+      "Correct — Prompt, direct correction limits the damage, and a human check against the definition of done prevents the same error from recurring.",
+      "Incorrect — Quietly waiting lets the sponsor's board commitment stand on false information, which conflicts with the honesty standard of the PMI Code."
+    ],
+    "deepDive": "Generative AI can speed up status reporting, but it can misread data — for example, counting stories that have started rather than those that are done — and present errors with confidence. The PMI Code of Ethics and Professional Conduct (honesty, responsibility) applies whatever tool is used: the project manager owns the accuracy of what is communicated and must correct errors promptly. Good practice anchors AI summaries to agreed definitions such as the definition of done, cites the data source (for example, the board or burnup) and keeps a human in the loop for anything stakeholders will act on. Percent-complete figures for agile work are risky in any case; done versus not done is clearer.",
+    "tags": [
+      "ai",
+      "status reporting",
+      "honesty",
+      "definition of done",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "PEO-188",
+    "domain": "People",
+    "task": "8. Plan and manage communication",
+    "approach": "Agile",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Information radiators for remote members",
+    "source": "ECO 2026 · People Task 8 · Agile practice",
+    "question": "An agile team of nine used a large physical task board and a hand-drawn burndown chart in its office. After a reorganization, four members now work remotely from other cities, and they say they learn about blocked work and sprint progress only at the daily standup — sometimes a day late. The office-based members still update the physical board throughout the day. What should the project manager do?",
+    "options": [
+      "Move the team's board and burn chart to a shared digital tool that everyone updates and can see at any time",
+      "Photograph the physical board each afternoon and email the pictures to the remote members of the team",
+      "Ask the remote members to call an office colleague whenever they need an update on blocked work or progress",
+      "Add a second daily standup at the end of the day so that remote members hear about progress more often"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Can every team member see the same information at the same time?",
+    "why": "An information radiator works only if everyone can see it. For a partly distributed team, a shared digital board and burn chart that all members update gives everyone the same real-time view of progress and blockers. Photos are always out of date, relying on phone calls creates dependency and interruptions, and an extra standup adds meeting load without fixing the visibility gap between meetings.",
+    "how": "In distributed teams, move information radiators into a shared digital space so that all members, wherever they work, have the same real-time view; avoid creating two classes of information.",
+    "optionNotes": [
+      "Correct — A shared digital board gives every member the same up-to-date view of work and blockers, restoring the radiator's purpose for the whole team.",
+      "Incorrect — Daily photos are stale by the time they are seen and keep remote members as second-class consumers of team information.",
+      "Incorrect — Calling office colleagues adds interruptions and makes remote members dependent on others for basic information about their own work.",
+      "Incorrect — A second standup adds meeting overhead but still leaves remote members without continuous visibility between the meetings."
+    ],
+    "deepDive": "Information radiators — task boards, burn charts, cumulative flow diagrams — are highly visible displays that let anyone see the state of work without asking, supporting transparency and self-organization. When some members are remote, keeping a physical board creates an information gap between on-site and remote people that undermines collaboration. The usual fix is a single digital source of truth, such as an online board or dashboard, that everyone uses, sometimes mirrored on a screen in the office. Distributed teams lose osmotic communication, so deliberate visibility becomes even more important.",
+    "tags": [
+      "information radiator",
+      "distributed teams",
+      "transparency",
+      "task board",
+      "agile"
+    ]
+  }
+]

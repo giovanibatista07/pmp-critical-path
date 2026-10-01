@@ -1,0 +1,910 @@
+[
+  {
+    "id": "PRO-101",
+    "domain": "Process",
+    "task": "8. Plan and manage schedule",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "PERT three-point estimate (calculation)",
+    "source": "ECO 2026 · Process Task 8 (estimate tasks)",
+    "question": "Tamsin, the scheduler for a hospital's patient-records migration, is estimating the interface-integration activity. The integration lead gives three estimates: 4 days if the vendor's test environment is ready on day one, 7 days as the most likely case, and 16 days if the vendor's API documentation proves as poor as on the last project. The project's schedule management plan specifies beta (PERT) estimating for activities with this much uncertainty. What expected duration and standard deviation should Tamsin record?",
+    "options": [
+      "7 days; standard deviation 4 days",
+      "8 days; standard deviation 2 days",
+      "8 days; standard deviation 12 days",
+      "9 days; standard deviation 2 days"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Recall which of the three estimates the beta formula weights most heavily, and that the spread is measured across the whole optimistic-to-pessimistic range.",
+    "why": "Beta (PERT) expected duration = (O + 4M + P) ÷ 6 = (4 + 4×7 + 16) ÷ 6 = (4 + 28 + 16) ÷ 6 = 48 ÷ 6 = 8 days. Standard deviation = (P − O) ÷ 6 = (16 − 4) ÷ 6 = 12 ÷ 6 = 2 days. Tamsin should therefore record 8 days with a standard deviation of 2 days, which gives roughly a 68% chance of finishing between 6 and 10 days.",
+    "how": "For beta/PERT: E = (O + 4M + P) ÷ 6 and σ = (P − O) ÷ 6; for a triangular distribution: E = (O + M + P) ÷ 3. Check which distribution the stem specifies before you calculate.",
+    "optionNotes": [
+      "Incorrect — 7 days is simply the most likely estimate, and dividing the 12-day range by 3 instead of 6 inflates the standard deviation to 4.",
+      "Correct — (4 + 28 + 16) ÷ 6 = 8 days, and (16 − 4) ÷ 6 = 2 days, exactly as the beta (PERT) formulas require.",
+      "Incorrect — The expected duration is right, but 12 days is the full range between the pessimistic and optimistic estimates, not the standard deviation.",
+      "Incorrect — 9 days is the triangular average, (4 + 7 + 16) ÷ 3, which the schedule management plan did not specify for this activity."
+    ],
+    "deepDive": "Three-point estimating counters single-point optimism by making uncertainty explicit. With σ = 2 days, the activity has about a 68% chance of finishing within 8 ± 2 days, 95% within 8 ± 4 days and 99.7% within 8 ± 6 days. For a whole path, add the activity variances (σ²), not the standard deviations, and take the square root of the sum to get the path's standard deviation. Agile teams rarely use PERT on individual tasks, but the same idea appears in range-based release forecasts. A frequent exam trap is using the triangular formula when the stem says beta or PERT, or the reverse.",
+    "tags": [
+      "PERT",
+      "three-point estimate",
+      "beta distribution",
+      "estimating",
+      "calculation"
+    ]
+  },
+  {
+    "id": "PRO-102",
+    "domain": "Process",
+    "task": "8. Plan and manage schedule",
+    "approach": "Predictive",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Dependency types",
+    "source": "ECO 2026 · Process Task 8 (prepare schedule)",
+    "question": "Oskar is managing construction of a two-storey clinic in Tartu and is two weeks behind schedule. To fast-track, the site supervisor proposes overlapping several pairs of activities. One proposal is to begin pouring the foundation slab while the carpenters are still building the formwork that holds the concrete in shape. Oskar replies that this particular pair can never be overlapped, whatever the schedule pressure. How should the dependency between building the formwork and pouring the slab be classified?",
+    "options": [
+      "Discretionary — it reflects the crew's preferred sequence, so it could be relaxed",
+      "External — it is imposed by a party outside the project team's control",
+      "Resource-driven — one crew does both jobs, so they cannot run at the same time",
+      "Mandatory — it is inherent in the physical nature of the work itself"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Ask whether the sequence could physically be done any other way, and who imposes it.",
+    "why": "Concrete cannot be poured until the forms that contain it exist, so the sequence is dictated by the nature of the work — hard logic. Mandatory dependencies cannot be removed by fast-tracking; only discretionary (soft) logic can be overlapped at acceptable risk. Oskar should look for fast-tracking candidates among the discretionary dependencies on the critical path instead.",
+    "how": "Classify each dependency on two axes: mandatory versus discretionary (can the sequence be changed?) and internal versus external (who controls it?). Fast-tracking targets discretionary dependencies on the critical path.",
+    "optionNotes": [
+      "Incorrect — Discretionary logic is a preference that could be changed; here the concrete physically needs the forms, so no preference is involved.",
+      "Incorrect — External dependencies involve outside parties, such as a regulator's inspection; both activities here are performed by the project's own crews.",
+      "Incorrect — A resource constraint could be removed by adding a second crew; the forms must still exist before any concrete can be poured.",
+      "Correct — The sequence is inherent in the work (hard logic), so it cannot be overlapped regardless of schedule pressure."
+    ],
+    "deepDive": "Dependencies combine: formwork before pouring is mandatory and internal, a building inspector's sign-off before occupancy is mandatory and external, and a team's chosen order for painting rooms is discretionary and internal. Documenting discretionary dependencies matters because they are the first candidates for fast-tracking, and undocumented soft logic can silently restrict schedule options. Fast-tracking turns finish-to-start links into overlaps and raises rework risk, so it works best where partial information is usable. A common exam trap is treating a resource constraint as a logical dependency; resource limits are handled with resource leveling, not by changing the logic.",
+    "tags": [
+      "dependencies",
+      "mandatory",
+      "hard logic",
+      "fast-tracking"
+    ]
+  },
+  {
+    "id": "PRO-103",
+    "domain": "Process",
+    "task": "8. Plan and manage schedule",
+    "approach": "Predictive",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Leads and lags",
+    "source": "ECO 2026 · Process Task 8",
+    "question": "On a warehouse project for Kivu Logistics, the concrete floor slab must cure for three days after it is poured before racking installers can bolt shelving to it. The scheduler has linked the two activities with a plain finish-to-start relationship, so the software shows racking starting the morning after the pour, and the racking subcontractor has already booked that date. How should the project manager correct the schedule model?",
+    "options": [
+      "Add a three-day lead to the racking activity so that it starts earlier",
+      "Apply resource leveling across the curing period to move the racking",
+      "Keep the finish-to-start link and add a three-day lag after the pour",
+      "Change the link to start-to-start so that the two activities can overlap"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Ask whether the gap between these activities is work that consumes resources or simply waiting time.",
+    "why": "Curing is a waiting period after the predecessor finishes, during which no project resources work on it. The correct model is finish-to-start with a three-day lag, which moves the racking start to the fourth day after the pour. The PM should then confirm the revised date with the racking subcontractor before crews arrive to an unusable floor.",
+    "how": "Lag = a required delay of the successor after the predecessor's controlling event; lead = permission for the successor to start early, overlapping the predecessor. Use lags for waiting periods such as curing, drying or notice periods.",
+    "optionNotes": [
+      "Incorrect — A lead accelerates the successor, which would start racking even earlier than the current, already too-early date.",
+      "Incorrect — Leveling resolves resource over-allocation; the problem here is a missing waiting period in the logic, not resource demand.",
+      "Correct — Finish-to-start plus a three-day lag models the curing time and moves racking to the earliest safe date.",
+      "Incorrect — Start-to-start would allow racking to begin while the slab is still being poured, making the model even less realistic."
+    ],
+    "deepDive": "Leads and lags are applied to relationships: FS+3 means the successor starts three days after the predecessor finishes, and FS−2 (a two-day lead) means it starts two days before. Lags consume no resources, so a critical path containing a lag can be shortened only by changing logic or durations, not by adding people. Some schedulers model long waits such as curing as separate activities so they show clearly on reports; either way, the time must appear in the network. A classic exam trap is swapping the two terms: a lead overlaps work, a lag inserts waiting time.",
+    "tags": [
+      "lag",
+      "lead",
+      "dependencies",
+      "schedule model"
+    ]
+  },
+  {
+    "id": "PRO-104",
+    "domain": "Process",
+    "task": "8. Plan and manage schedule",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Relationship types",
+    "source": "ECO 2026 · Process Task 8",
+    "question": "At Nordlys Software, technical writers document each feature of a billing release while testers exercise it, because watching the tests shows them how the features actually behave. The writers therefore cannot begin until testing has begun, but they do not need testing to be finished before they start. The scheduler is building the network diagram and asks the project manager which logical relationship to use between 'System testing' (predecessor) and 'User documentation' (successor). Which relationship should the PM specify?",
+    "options": [
+      "Start-to-finish",
+      "Finish-to-finish",
+      "Start-to-start",
+      "Finish-to-start"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Identify which event of the predecessor, its start or its finish, controls which event of the successor.",
+    "why": "Documentation can start once testing starts, and neither activity has to finish for the other to begin. That is a start-to-start (SS) relationship: the successor's start depends on the predecessor's start. If the writers also could not finish until testing finished, the scheduler would add a finish-to-finish link as well.",
+    "how": "Translate the constraint into 'the successor cannot [start/finish] until the predecessor [starts/finishes]'. The first verb gives the successor's event and the second the predecessor's, which names the relationship type.",
+    "optionNotes": [
+      "Incorrect — Start-to-finish means the successor cannot finish until the predecessor starts, as when an old shift cannot end until the new one begins.",
+      "Incorrect — Finish-to-finish links the two finishes; it would say documentation cannot finish until testing finishes, which is not the stated constraint.",
+      "Correct — Documentation cannot start until testing starts, which is exactly a start-to-start relationship between the two activities.",
+      "Incorrect — Finish-to-start would make the writers wait for all testing to end, delaying documentation and losing the overlap the team wants."
+    ],
+    "deepDive": "The precedence diagramming method uses four relationships: finish-to-start (the most common), start-to-start, finish-to-finish and start-to-finish (rare). Real pairs often combine SS and FF — documentation starts after testing starts and finishes after testing finishes — sometimes with a lag such as SS+2 days. SS links are also how schedulers model fast-tracking, because they overlap activities that would otherwise run in sequence. A common exam trap is reading the relationship backwards; always identify the predecessor's controlling event before choosing.",
+    "tags": [
+      "start-to-start",
+      "precedence diagramming",
+      "dependencies",
+      "schedule model"
+    ]
+  },
+  {
+    "id": "PRO-105",
+    "domain": "Process",
+    "task": "8. Plan and manage schedule",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Flat sprint burndown",
+    "source": "ECO 2026 · Process Task 8 / Process Task 9",
+    "question": "Halfway through a ten-day sprint on a mobile banking app, the sprint burndown chart has been flat for four days. At each daily scrum, all six developers describe their items as 'still in progress,' and nobody raises a problem. The sponsor has noticed the chart on the team-room wall and asks the project manager, who serves the team as a servant leader, what is going on. What is the MOST appropriate interpretation and response?",
+    "options": [
+      "Scope was probably added mid-sprint; ask the product owner to extend the sprint",
+      "Work isn't reaching done; explore the blockers with the team and help remove them",
+      "Burndowns are unreliable mid-sprint; stop tracking it and judge progress at the review",
+      "The team is probably ahead and holding work back; pull extra stories into the sprint"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Think about what a burndown actually measures and why its line would stop moving while everyone reports being busy.",
+    "why": "A sprint burndown falls only when work is completed. Four flat days with everyone 'in progress' suggests work is stuck — hidden impediments, stories too large to finish, or too much started at once. The servant-leader response is to explore the causes with the team (for example, straight after the daily scrum), help remove impediments, and encourage finishing over starting; the chart is doing its job by making the problem visible early.",
+    "how": "Read burndown shapes: flat means nothing is finishing, rising means scope was added, and a cliff at the end means work finished in large, late batches. Respond by investigating with the team, not by bending the timebox.",
+    "optionNotes": [
+      "Incorrect — Nothing indicates that scope was added, and sprints are fixed timeboxes; extending one hides the problem instead of solving it.",
+      "Correct — Stuck work is the most likely cause, and a servant leader helps the team surface and remove whatever is blocking completion.",
+      "Incorrect — The chart is giving a timely warning; waiting until the sprint review throws away the chance to recover within the sprint.",
+      "Incorrect — A flat line means no work is being completed, which is the opposite of being ahead with spare capacity."
+    ],
+    "deepDive": "Many flat burndowns come from stories that are too large or from high work in progress: everyone starts something, nothing finishes, and the chart moves only at the end. Remedies include splitting stories vertically, limiting WIP, swarming on the oldest item and making blockers explicit at the daily scrum. In Scrum the developers own the sprint backlog and the daily scrum, so the PM or Scrum Master facilitates rather than assigns work. A common exam trap is extending the sprint; the timebox is protected, and unfinished work returns to the product backlog.",
+    "tags": [
+      "burndown",
+      "impediments",
+      "sprint",
+      "servant leadership",
+      "WIP"
+    ]
+  },
+  {
+    "id": "PRO-106",
+    "domain": "Process",
+    "task": "8. Plan and manage schedule",
+    "approach": "Agile",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Little's Law",
+    "source": "ECO 2026 · Process Task 8 (Kanban/flow)",
+    "question": "A Kanban team that handles claims-system enhancements for an insurer has about 20 items in progress on average and completes about 4 items per working day. The operations director complains that requests take too long to come through and suggests putting more items on the board so that 'more gets done.' Using Little's Law, what is the team's average cycle time, and what is the MOST effective way to shorten it?",
+    "options": [
+      "0.2 days; raise throughput, since WIP does not affect cycle time",
+      "5 days; lower the WIP limits while throughput stays the same",
+      "16 days; add team members so more items can be in progress",
+      "80 days; add items to the board so that more work gets started"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Relate the average amount of work in the system to the rate at which work leaves it.",
+    "why": "Little's Law: average cycle time = average WIP ÷ average throughput = 20 items ÷ 4 items per day = 5 days. With throughput stable, lowering WIP reduces cycle time proportionally — for example, 12 items ÷ 4 per day = 3 days. Adding items to the board, as the director suggests, would lengthen cycle time without increasing how much is finished.",
+    "how": "Little's Law: cycle time = WIP ÷ throughput (equivalently, throughput = WIP ÷ cycle time). To shorten cycle time without adding capacity, reduce WIP — stop starting, start finishing.",
+    "optionNotes": [
+      "Incorrect — 0.2 inverts the formula (4 ÷ 20); WIP is one of the two variables that determine cycle time.",
+      "Correct — 20 ÷ 4 = 5 days, and lowering WIP at the same throughput shortens the time each item spends in the system.",
+      "Incorrect — 16 subtracts instead of dividing, and adding people rarely raises throughput quickly, while more WIP lengthens cycle time.",
+      "Incorrect — 80 multiplies WIP by throughput, and starting more work raises WIP, which lengthens cycle time further."
+    ],
+    "deepDive": "Little's Law (L = λW) holds for stable systems: the average number of items in the system equals the completion rate multiplied by the average time each item spends there. Kanban uses it to justify WIP limits — less work in progress means less multitasking, shorter queues and faster, more predictable delivery. A cumulative flow diagram shows the same relationship visually: band thickness is WIP and horizontal distance approximates cycle time. A common trap is assuming that starting more work increases output; beyond the team's capacity it only adds queues. Adding people can help later, but new members usually reduce throughput briefly while they ramp up.",
+    "tags": [
+      "Little's Law",
+      "Kanban",
+      "WIP",
+      "cycle time",
+      "calculation"
+    ]
+  },
+  {
+    "id": "PRO-107",
+    "domain": "Process",
+    "task": "8. Plan and manage schedule",
+    "approach": "Predictive",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "SPI vs. the critical path",
+    "source": "ECO 2026 · Process Task 8 (analyze variations)",
+    "question": "In month six of a predictive project to build a regional water-treatment plant, the earned value report shows an overall SPI of 1.05. However, two critical-path activities — installing the filtration skids and the electrical tie-in — have slipped, leaving the critical path three days behind with no float remaining. Several non-critical civil activities finished well ahead of plan. The sponsor reads the SPI and tells the board the plant will open early. What should the project manager conclude?",
+    "options": [
+      "The plant should open on time, because the early and late work cancel each other out",
+      "SPI has no meaning on predictive projects, so only the Gantt chart should be used",
+      "It will likely open late: the critical path, not SPI, determines the end date",
+      "The plant will likely open early, since an SPI above 1.0 means the work is ahead"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Ask which measure tells you when the project will actually finish, and what an aggregate index can hide.",
+    "why": "SPI compares earned value with planned value across all work, so early completion of non-critical activities can offset critical-path delays and lift the index above 1.0. The finish date, however, is set by the critical path, which is three days behind with no float. The PM should correct the sponsor's message to the board and analyze recovery options for the critical path, such as fast-tracking or crashing.",
+    "how": "Cross-check EVM schedule indices with critical-path analysis before forecasting a finish date; an aggregate SPI cannot show whether the delayed work lies on the critical path.",
+    "optionNotes": [
+      "Incorrect — Gains on non-critical work do not offset critical-path delay; only the critical path determines when the project finishes.",
+      "Incorrect — SPI is a valid measure of schedule efficiency in value terms; it simply has to be interpreted alongside the critical path.",
+      "Correct — The critical path is three days behind with no float, so the end date is at risk whatever the aggregate SPI says.",
+      "Incorrect — An SPI above 1.0 reflects the value of all work performed, not whether the activities that drive the end date are on time."
+    ],
+    "deepDive": "Earned value measures schedule performance in cost units (SPI = EV ÷ PV), so it cannot tell critical from non-critical work. It also drifts back to 1.0 at completion, because EV eventually equals PV equals BAC even on a late project; earned schedule (ES) was developed to express schedule performance in time units instead. Reliable date forecasts combine EVM with critical-path or Monte Carlo analysis. Correcting the sponsor promptly is also a communication duty: executives who repeat an optimistic reading to a board lose credibility when the date slips. A frequent exam trap is treating SPI > 1 as proof that the project will finish early.",
+    "tags": [
+      "SPI",
+      "critical path",
+      "EVM",
+      "schedule analysis",
+      "forecasting"
+    ]
+  },
+  {
+    "id": "PRO-108",
+    "domain": "Process",
+    "task": "8. Plan and manage schedule",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Monte Carlo schedule analysis",
+    "source": "ECO 2026 · Process Task 8",
+    "question": "A metro-rail signaling upgrade has 140 activities, many with wide duration ranges because the legacy wiring is poorly documented, and three paths merge just before commissioning. The sponsor asks the project manager, 'What is the probability that we will be ready for passenger service by March 31?' The current schedule gives a single forecast date of March 24, and three-point estimates already exist for the uncertain activities. Which technique should the PM use to answer the sponsor's question?",
+    "options": [
+      "Resource smoothing, to keep the uncertain activities within their float",
+      "Monte Carlo simulation of the schedule, using the three-point estimates",
+      "The critical path method, using the most likely duration for each activity",
+      "A milestone chart showing March 31 against the March 24 forecast date"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Notice that the sponsor asked for a likelihood, not a date — which technique produces one?",
+    "why": "Monte Carlo simulation runs the schedule thousands of times, sampling each uncertain activity's duration from its range, and produces a distribution of possible finish dates — for example, 'a 62% chance of being ready by March 31.' It also captures merge bias where the three paths converge, which single-point CPM ignores. The existing three-point estimates provide the inputs.",
+    "how": "When a stakeholder asks how likely a date or cost is, use quantitative risk analysis — typically Monte Carlo simulation shown as an S-curve — rather than a deterministic technique.",
+    "optionNotes": [
+      "Incorrect — Resource smoothing adjusts resource use within available float; it does not estimate the probability of meeting a date.",
+      "Correct — Simulation turns the duration ranges into a probability distribution of finish dates, directly answering the sponsor's question.",
+      "Incorrect — CPM with single-point estimates produces one date with no probability attached and ignores merge bias where paths converge.",
+      "Incorrect — A milestone chart communicates dates clearly but says nothing about the likelihood of achieving them."
+    ],
+    "deepDive": "Monte Carlo output is usually shown as an S-curve of cumulative probability, and sensitivity (tornado) or criticality analysis shows which activities most influence the result. Merge bias explains why deterministic dates are optimistic: when several uncertain paths converge, the chance that all finish on time is lower than for any single path, so the March 24 date may have well under a 50% chance of being met. Agile teams apply the same idea by simulating release dates from historical throughput. A common exam trap is choosing CPM because it is familiar; CPM gives a date, not a confidence level.",
+    "tags": [
+      "Monte Carlo",
+      "quantitative risk",
+      "schedule risk",
+      "merge bias"
+    ]
+  },
+  {
+    "id": "PRO-109",
+    "domain": "Process",
+    "task": "8. Plan and manage schedule",
+    "approach": "Agile",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Timeboxing",
+    "source": "ECO 2026 · Process Task 8",
+    "question": "On the last day of a two-week sprint for a retail loyalty app, two stories committed at sprint planning are about 80% finished: the code is written, but testing is incomplete. The developers ask the project manager, who acts as the team's Scrum Master, to extend the sprint by three days so the stories can be completed and counted, because the sponsor watches velocity closely. What should happen?",
+    "options": [
+      "Split each story and count its finished part toward this sprint's velocity",
+      "Extend the sprint by three days so both stories can be finished properly",
+      "End the sprint on time and return both unfinished stories to the product backlog",
+      "Mark both stories done now and complete the remaining testing next sprint"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Consider what the timebox and the definition of done each protect.",
+    "why": "Sprints are fixed timeboxes, and 'done' is binary: stories that have not met the definition of done are not done and do not count toward velocity. The sprint ends on time, and the unfinished stories return to the product backlog, where the product owner decides whether to take them into the next sprint. The retrospective is where the team explores why the work did not finish, such as story size or late testing.",
+    "how": "In Scrum, protect the timebox and the definition of done. Treat a miss as information for the retrospective and for future planning, not as a reason to bend the rules.",
+    "optionNotes": [
+      "Incorrect — Splitting stories after the fact to claim partial credit inflates velocity and makes future forecasts less reliable.",
+      "Incorrect — Extending the timebox undermines cadence and predictability and hides the planning problem the team needs to learn from.",
+      "Correct — The timebox ends as planned, and the product owner reorders the unfinished work in the product backlog for a future sprint.",
+      "Incorrect — Untested work does not meet the definition of done; calling it done misreports progress and hides quality risk."
+    ],
+    "deepDive": "Timeboxing creates a regular rhythm for inspection and adaptation, limits the work at risk in any one cycle, and keeps velocity trustworthy as a planning input. Velocity counts only completed items, so partly done work scores zero this sprint and its full estimate when finished, possibly after re-estimation. If stories regularly miss, common fixes include splitting them smaller, testing earlier within the sprint and committing to less. Sponsors who manage by velocity alone create pressure to game it — a cue for the PM to explain what velocity is for.",
+    "tags": [
+      "timebox",
+      "sprint",
+      "definition of done",
+      "velocity"
+    ]
+  },
+  {
+    "id": "PRO-110",
+    "domain": "Process",
+    "task": "8. Plan and manage schedule",
+    "approach": "Predictive",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Milestone charts",
+    "source": "ECO 2026 · Process Task 8 / People Task 8",
+    "question": "The executive board of Halden Energy will review the company's wind-farm portfolio next week, and each project manager may submit one page. The board chair wants to see major events and their key dates — permits granted, turbines delivered, grid connection, commercial operation — and how they compare with the approved dates, but no activity-level detail. The project manager's integrated schedule contains about 900 activities. What should the project manager provide?",
+    "options": [
+      "A resource histogram showing peak crew levels by month",
+      "A summary network diagram showing the critical path logic",
+      "A milestone chart of planned versus forecast key dates",
+      "A Gantt chart of all 900 activities fitted onto one page"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Match the level of schedule detail to the audience and to the decisions they need to make.",
+    "why": "A milestone chart (milestone schedule) shows only significant events — zero-duration points such as permits granted or grid connection — with their baseline and forecast dates. It fits on one page and gives the board exactly what the chair asked for. More detailed views serve the project team and schedulers, not a portfolio board.",
+    "how": "Tailor schedule presentations to the audience: milestone charts for executives and sponsors, bar (Gantt) charts for managers and the team, and network diagrams for schedule analysis.",
+    "optionNotes": [
+      "Incorrect — A resource histogram shows labor demand over time, which the board did not request and which says nothing about key dates.",
+      "Incorrect — Network diagrams show logic for schedule analysis; they are too technical for a one-page executive view of key events.",
+      "Correct — Key events with baseline and forecast dates on a single page is exactly what the board chair requested.",
+      "Incorrect — Squeezing 900 activities onto one page is unreadable and provides the activity detail the board explicitly does not want."
+    ],
+    "deepDive": "Milestones have zero duration and mark significant points such as approvals, deliveries or phase completions; summary milestones often appear in the project charter. A milestone chart comparing baseline with forecast dates gives executives an early view of slippage without burying them in detail. In agile and hybrid settings the equivalent executive view is often a product roadmap or release plan showing target releases and key external dates. Tailoring communication to the audience is a core skill, and the exam usually rewards the view that answers the stakeholder's actual question.",
+    "tags": [
+      "milestone chart",
+      "executive reporting",
+      "schedule presentation",
+      "communication"
+    ]
+  },
+  {
+    "id": "PRO-111",
+    "domain": "Process",
+    "task": "8. Plan and manage schedule",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Changing the schedule baseline",
+    "source": "ECO 2026 · Process Task 8 (create baseline) / Business Environment Task 3",
+    "question": "On a predictive project to fit out a new data center for Ostrava Logistics, the change control board has just approved a change request to add a second cooling loop. The impact analysis the CCB accepted shows three extra weeks of work on the critical path and $180,000 of added cost, which the sponsor has funded. The team lead suggests leaving the schedule baseline alone so that the extra weeks 'show up honestly' as a variance. What should the project manager do with the schedule baseline?",
+    "options": [
+      "Revise the baseline to include the approved change, then communicate the new baseline",
+      "Keep the baseline unchanged and report the project as three weeks behind",
+      "Ask the team to absorb the added work within the existing milestone dates",
+      "Keep the current baseline and create a revised one when the project closes"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Distinguish between a variance the project must recover from and a change the authorized body has already accepted.",
+    "why": "Once a change is approved through integrated change control, the affected baselines are updated — here the schedule baseline, and the cost baseline for the $180,000 — so that performance is measured against the new agreed plan. Measuring against the old baseline would present an approved decision as a performance failure and obscure real variances. The PM then communicates the new baseline and updates the related plans and documents.",
+    "how": "Unapproved variance: keep the baseline and take corrective action. Approved change: update the affected baselines, keep prior versions for history, and communicate the result.",
+    "optionNotes": [
+      "Correct — Approved changes are the legitimate way to revise baselines, which keeps later variance analysis meaningful for everyone.",
+      "Incorrect — The three weeks were approved; showing them as a delay mixes an agreed decision with genuine performance problems.",
+      "Incorrect — Absorbing approved work without extra time is unrealistic and hides the impact that the CCB has already accepted.",
+      "Incorrect — Performance must be measured against a current baseline throughout execution, not one rebuilt at closure."
+    ],
+    "deepDive": "Baselines are the approved versions of scope, schedule and cost against which performance is measured, and together they form the performance measurement baseline. Earlier baseline versions should stay under configuration control so the project's history and the total effect of approved changes remain visible for lessons learned. Re-baselining without an approved change — to make a late project look on time — is a governance and ethics problem. In agile work the equivalent is updating the release plan or roadmap after the product owner reprioritizes. A common exam trap is confusing 'report honestly' with 'never change the baseline.'",
+    "tags": [
+      "schedule baseline",
+      "change control",
+      "rebaseline",
+      "integrated change control"
+    ]
+  },
+  {
+    "id": "PRO-112",
+    "domain": "Process",
+    "task": "9. Evaluate project status",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Work performance data, information, and reports",
+    "source": "ECO 2026 · Process Task 9 (develop metrics, identify artifacts)",
+    "question": "On a hybrid program for a public library system, the delivery team records that it completed 32 story points in the sprint just ended. A PMO analyst compares that figure with the forecast of 40 points and notes that the team achieved 80% of its forecast, below the 90% threshold in the governance plan. The project manager then includes that result, with a trend chart and a recommendation, in the steering committee's dashboard. How should these three items be classified, in order?",
+    "options": [
+      "Work performance reports, then data, then information",
+      "Work performance information, then data, then reports",
+      "Work performance data, then information, then reports",
+      "Deliverables, then verified deliverables, then accepted deliverables"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Ask how much analysis and packaging each item has received on its way to the decision makers.",
+    "why": "Work performance data are raw observations — the 32 points completed. Work performance information is data analyzed in context against the plan or thresholds — 80% of forecast, below the 90% threshold. Work performance reports compile that information, with trends and recommendations, for decision makers — the steering committee's dashboard.",
+    "how": "Data are raw facts from doing the work; information is data compared with the plan; reports package information for decisions. The same flow applies in agile, where burndowns and dashboards are reports built from raw completion data.",
+    "optionNotes": [
+      "Incorrect — The dashboard comes last, not first; the raw count of 32 points is data, not a report.",
+      "Incorrect — The first two are reversed: 32 points is a raw measurement, while 80% of forecast is the analyzed information.",
+      "Correct — Raw completion count, then comparison with the forecast and threshold, then a compiled dashboard for the steering committee.",
+      "Incorrect — These terms describe the acceptance states of deliverables, not how performance measurements are processed and reported."
+    ],
+    "deepDive": "Work performance reports include status reports, dashboards, heat maps, burndown and burnup charts, EVM graphs and forecasts. Because reports are what decision makers see, their quality depends on the data beneath them; unreliable raw data produce misleading reports however well they are designed. Velocity is primarily a planning aid for the team, so turning it into a performance target for a steering committee can invite gaming — a point the PM may want to raise. A common exam trap is swapping data and information; the test is whether the number has been compared with something.",
+    "tags": [
+      "work performance data",
+      "work performance information",
+      "reports",
+      "dashboards"
+    ]
+  },
+  {
+    "id": "PRO-113",
+    "domain": "Process",
+    "task": "9. Evaluate project status",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Burnup charts and scope growth",
+    "source": "ECO 2026 · Process Task 9",
+    "question": "Six months into building a citizen-services portal, a Scrum team's release burnup chart shows the completed-work line rising at a steady 30 points per sprint, yet the forecast release date has moved later at every monthly steering meeting. On the same chart, the total-scope line has risen from 300 to 380 points as stakeholders added requests through the product owner. A steering-committee member says the developers must be slowing down. What BEST explains the slipping forecast?",
+    "options": [
+      "Team velocity has fallen over the last few sprints and needs investigating",
+      "The chart is inaccurate, since scope is not re-estimated when items are added",
+      "Total scope has grown by about 27% while the team's delivery rate has stayed consistent",
+      "Sprint lengths have changed, which is distorting the completed-work trend"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "A burnup chart has two lines; check which one has actually moved.",
+    "why": "A burnup chart shows both completed work and total scope. The completed line is rising at a steady 30 points per sprint, so delivery has not slowed. The scope line has grown by 380 − 300 = 80 points, and 80 ÷ 300 ≈ 26.7% (about 27%); that growth, not the team, is pushing the forecast date out.",
+    "how": "Use a burnup chart when scope changes: it separates the rate of delivery from changes in total scope, which a single burndown line blends together. Base stakeholder conversations on which line moved.",
+    "optionNotes": [
+      "Incorrect — The completed-work line is rising at a steady rate, so there is no evidence that velocity has fallen.",
+      "Incorrect — The chart is working as intended: it reveals scope growth that a single burndown line would hide.",
+      "Correct — Scope grew from 300 to 380 points (about 27%) while delivery held steady, so the finish line keeps moving away.",
+      "Incorrect — Nothing suggests sprint lengths changed; the completed-work line is consistent from sprint to sprint."
+    ],
+    "deepDive": "Responses to scope growth are business decisions: the product owner can reprioritize and defer lower-value items, stakeholders can accept a later date, or the team can release a smaller first version and follow up quickly. Showing the burnup at the steering meeting turns an argument about blame into a factual trade-off between scope and date. Forecast ranges can be drawn by projecting the best and worst recent velocities against the current scope line. A common exam trap is blaming the team; the PM should protect the team from unfounded pressure while making the scope trend visible.",
+    "tags": [
+      "burnup",
+      "scope creep",
+      "forecasting",
+      "calculation"
+    ]
+  },
+  {
+    "id": "PRO-114",
+    "domain": "Process",
+    "task": "9. Evaluate project status",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Cumulative flow diagram",
+    "source": "ECO 2026 · Process Task 9",
+    "question": "A Kanban team building features for a hospital's patient portal reviews its cumulative flow diagram for the last eight weeks. The 'In development' band has stayed about the same thickness, but the 'In test' band has widened every week, and the 'Done' band has grown only slowly. The two testers say they are working flat out, while the developers keep pulling new items from 'To do' as soon as they finish coding. What does the diagram MOST likely indicate?",
+    "options": [
+      "Testing is the constraint, so cycle time is rising for new items",
+      "The team is delivering faster than planned, since total work is rising",
+      "Developers are starved of work and are waiting for new items to arrive",
+      "The backlog is shrinking because new requests have stopped arriving"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "In a cumulative flow diagram, ask what a band that keeps getting wider says about arrivals to and departures from that state.",
+    "why": "The thickness of a band in a CFD is the number of items in that state. A steadily widening 'In test' band with a slowly growing 'Done' band means items enter testing faster than they leave it, so testing is the constraint. As the queue in front of testing grows, each new item waits longer, and cycle time rises; developers pulling more work only lengthens the queue.",
+    "how": "Reading a CFD: vertical distance between band edges = WIP in a state; horizontal distance ≈ cycle time; a widening band signals a bottleneck at that state; a flat 'Done' band signals little delivery.",
+    "optionNotes": [
+      "Correct — Work accumulating in test while Done grows slowly marks testing as the constraint, and the growing queue lengthens cycle time.",
+      "Incorrect — Growth in total work is not delivery; the Done band, which represents finished work, is rising only slowly.",
+      "Incorrect — The development band is steady and developers keep pulling new items, so they are busy rather than waiting for work.",
+      "Incorrect — The To-do band shrinks because developers keep pulling items from it, not because new requests have stopped arriving."
+    ],
+    "deepDive": "The Theory of Constraints offers five focusing steps: identify the constraint, exploit it, subordinate everything else to it, elevate it, and repeat. Here that could mean developers helping to test (swarming), adding test automation, and lowering the WIP limit upstream so development stops flooding the queue. Little's Law explains the effect: with throughput capped by testing, every extra item in progress adds to average cycle time. A common exam trap is reading a CFD's total height as progress; only the Done band represents delivered value.",
+    "tags": [
+      "cumulative flow diagram",
+      "bottleneck",
+      "Kanban",
+      "Theory of Constraints"
+    ]
+  },
+  {
+    "id": "PRO-115",
+    "domain": "Process",
+    "task": "9. Evaluate project status",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Leading vs. lagging indicators",
+    "source": "ECO 2026 · Process Task 9 (develop metrics)",
+    "question": "A project manager is setting up monthly reporting for a two-year project to bore a road tunnel under a river. On the sponsor's previous project, problems appeared in the monthly report only after they had already caused cost overruns and missed dates, and she has asked for 'something that warns us while there is still time to act.' The PM is choosing one additional measure to put on the front page of the report. Which measure BEST meets the sponsor's request?",
+    "options": [
+      "Trend in open high-rated risks and unresolved critical defects",
+      "Final cost at completion compared with the approved budget",
+      "Benefits realized in the first year after the tunnel opens",
+      "Stakeholder satisfaction measured at the project closure review"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Ask which measure changes before results are affected rather than after.",
+    "why": "A leading indicator moves before outcomes are affected: a rising number of open high-rated risks or unresolved critical defects predicts future schedule, cost and quality problems while there is still time to intervene. Final cost, realized benefits and closure satisfaction are lagging indicators; they confirm results only once they have happened. Adding a leading measure addresses exactly the gap the sponsor described.",
+    "how": "Leading indicators predict (risk and defect trends, WIP, cycle time, team health); lagging indicators confirm (final cost, benefits, satisfaction at closure). Use both, and act on leading signals early.",
+    "optionNotes": [
+      "Correct — Growing risk and defect backlogs signal trouble ahead, giving the team time to intervene before costs or dates slip.",
+      "Incorrect — Cost at completion is known only at the end of the project; it confirms the result rather than warning of it.",
+      "Incorrect — First-year benefits are measured after the tunnel opens, far too late to warn of problems during construction.",
+      "Incorrect — Satisfaction measured at closure is a lagging outcome and cannot guide corrective action during delivery."
+    ],
+    "deepDive": "Good reports pair leading and lagging measures: lagging measures tell you whether you achieved the result, and leading measures tell you whether you are likely to. In agile teams, typical leading indicators include growing WIP, lengthening cycle time, rising escaped defects and falling sprint-goal success. A known pitfall is confirmation bias — people act quickly on encouraging signals and explain away worrying ones — so agree thresholds and responses in advance. Another trap is choosing measures because they are easy to collect; the real test is whether the measure changes before the outcome does.",
+    "tags": [
+      "leading indicators",
+      "lagging indicators",
+      "KPIs",
+      "status reporting"
+    ]
+  },
+  {
+    "id": "PRO-116",
+    "domain": "Process",
+    "task": "9. Evaluate project status",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Variance thresholds",
+    "source": "ECO 2026 · Process Task 9",
+    "question": "The cost management plan for a predictive hospital-wing renovation sets a variance threshold of ±5%; beyond it, the project manager must take corrective action and report to the sponsor. This month's earned value report shows a cost variance of −3%, much like last month's −2.8%, and the cost engineer confirms that the cause was a one-off price rise on flooring materials that have already been bought. What should the project manager do?",
+    "options": [
+      "Escalate the variance to the sponsor now so that it is aware of it early",
+      "Keep monitoring the trend; formal corrective action isn't required yet",
+      "Submit a change request for more budget to cover the current variance",
+      "Freeze all discretionary spending until the variance returns to zero"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Recall why the cost management plan defines thresholds at all, and whether this variance or its trend crosses one.",
+    "why": "The variance is within the ±5% threshold agreed in the cost management plan, its cause is understood and one-off, and the trend is stable (−2.8% to −3%). Under management by exception, no formal corrective action or escalation is required; the PM keeps monitoring and explains the variance in the routine status report. If the trend began moving toward the threshold, preventive action would then be appropriate.",
+    "how": "Management by exception: act formally when a variance breaches its threshold or a trend predicts that it will; otherwise monitor, explain in routine reporting, and respect the agreed tolerances.",
+    "optionNotes": [
+      "Incorrect — Escalating a variance inside the agreed tolerance wastes the sponsor's attention and undermines the purpose of thresholds.",
+      "Correct — The variance is within tolerance, stable and explained, so continued monitoring through normal reporting is appropriate.",
+      "Incorrect — Requesting more budget for a small, in-tolerance variance with a one-off cause is an overreaction to the data.",
+      "Incorrect — Freezing spending is a disruptive response to a variance that is within tolerance and has a known one-off cause."
+    ],
+    "deepDive": "Thresholds (tolerances) are set in the cost and schedule management plans, often per control account, and define when the PM must act and when the sponsor must be told. Trend analysis over several periods matters more than a single reading: a series such as −1%, −2%, −3%, −4% is a warning even though every value is within tolerance. In PRINCE2-style governance, tolerances also define when an issue must be escalated to the next management level. Agile programs use similar guardrails on budget burn per sprint or quarter. A common exam trap is choosing escalation for every variance; PMI favors acting within delegated authority.",
+    "tags": [
+      "variance thresholds",
+      "management by exception",
+      "trend analysis",
+      "cost control"
+    ]
+  },
+  {
+    "id": "PRO-117",
+    "domain": "Process",
+    "task": "9. Evaluate project status",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Interpreting mixed EVM signals",
+    "source": "ECO 2026 · Process Task 9",
+    "question": "On a predictive road-resurfacing contract, the client's project manager receives the monthly earned value report: SPI = 1.10 and CPI = 0.90. Two months ago, to beat the winter paving deadline, the contractor added a night shift paid at premium rates and hired extra rollers. The client's sponsor, reading the report, asks whether such opposite results mean the data are wrong. Which explanation is MOST consistent with these results?",
+    "options": [
+      "Behind schedule and under budget, because spending has been slow",
+      "On track overall, since the two indices roughly offset each other",
+      "Ahead of schedule and over budget, consistent with the premium-rate night shift",
+      "The indices contradict each other, so the earned value data are flawed"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Interpret each index on its own first, then look in the scenario for a cause that could produce both.",
+    "why": "SPI = EV ÷ PV = 1.10, so the work performed is worth more than was planned to date — ahead of schedule. CPI = EV ÷ AC = 0.90, so each dollar spent has earned only $0.90 of planned value — over budget. Paying premium rates for night shifts and extra equipment (crashing) buys schedule at extra cost, which produces exactly this pattern, so the data are consistent.",
+    "how": "Interpret SPI and CPI separately (above 1 is favorable, below 1 unfavorable), then look for a plausible link, such as crashing (ahead, over budget) or understaffing (behind, under budget).",
+    "optionNotes": [
+      "Incorrect — This reverses both indices; an SPI above 1.0 means ahead of schedule and a CPI below 1.0 means over budget.",
+      "Incorrect — The indices measure different things and cannot be netted against each other; cost performance is clearly unfavorable.",
+      "Correct — Paying premium rates to accelerate the work is a classic cause of ahead-of-schedule, over-budget performance.",
+      "Incorrect — Opposite indices are common and are explained here by the contractor's decision to accelerate at extra cost."
+    ],
+    "deepDive": "Report results like these with context: whether the schedule gain was worth the cost depends on the sponsor's priorities, such as a hard winter deadline versus a fixed budget. Forecasts should reflect the pattern — for example, EAC = BAC ÷ CPI if the overrun is expected to continue while the night shift runs. The opposite pattern (SPI below 1, CPI above 1) often points to understaffing: less work done and less money spent. A common exam trap is averaging the two indices or assuming that opposite indices mean bad data.",
+    "tags": [
+      "EVM",
+      "CPI",
+      "SPI",
+      "interpretation",
+      "crashing"
+    ]
+  },
+  {
+    "id": "PRO-118",
+    "domain": "Process",
+    "task": "9. Evaluate project status",
+    "approach": "Agile",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Earned value on an agile release",
+    "source": "ECO 2026 · Process Task 9 · Agile earned value from release data",
+    "question": "A Scrum team is building a claims portal for an insurer under a release plan of 12 two-week sprints, 240 story points and a budget of $600,000 spread evenly across the sprints. The PMO requires earned value reporting on every project. After sprint 6, the team has completed 108 points that meet the definition of done, and the actual cost to date is $330,000. The team lead's draft report says 'on track — 6 of 12 sprints done.' Which assessment should the project manager report?",
+    "options": [
+      "SPI 1.00 and CPI 0.91: on schedule, with spending slightly above plan",
+      "SPI 1.11 and CPI 1.22: ahead of schedule and under budget",
+      "SPI 0.90 and CPI 0.91: slightly behind, with cost close to plan",
+      "SPI 0.90 and CPI 0.82: behind schedule and over budget"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "In agile earned value, ask what should represent planned progress and what should represent earned progress — calendar time or finished work.",
+    "why": "Planned value comes from the release plan: 6 ÷ 12 sprints = 50% × $600,000 = $300,000. Earned value comes from done work: 108 ÷ 240 points = 45% × $600,000 = $270,000. SPI = EV ÷ PV = 270,000 ÷ 300,000 = 0.90, and CPI = EV ÷ AC = 270,000 ÷ 330,000 ≈ 0.82. The release is behind schedule and over budget, so the team lead's 'on track' message, which treats elapsed sprints as progress, should not go to the PMO.",
+    "how": "Agile (release-level) EVM: PV = (sprints completed ÷ planned sprints) × BAC; EV = (done points ÷ planned release points) × BAC; then SPI = EV ÷ PV and CPI = EV ÷ AC. Only work that meets the definition of done earns value.",
+    "optionNotes": [
+      "Incorrect — Elapsed sprints measure time, not progress, and dividing PV rather than EV by actual cost understates the overrun.",
+      "Incorrect — Both ratios are inverted (PV ÷ EV and AC ÷ EV), which turns an unfavorable result into an apparently favorable one.",
+      "Incorrect — SPI is right, but CPI must use earned value (270,000 ÷ 330,000), not planned value, so the cost overrun is larger.",
+      "Correct — EV of $270,000 against PV of $300,000 and AC of $330,000 gives SPI 0.90 and CPI about 0.82."
+    ],
+    "deepDive": "Release-level earned value lets a PMO compare agile work with predictive reporting without imposing task-level tracking: the release plan supplies the baseline, and story points that meet the definition of done supply earned value. It depends on a stable release scope and consistent estimating, so when the product owner adds or removes points the baseline must be updated, much as an approved change re-baselines a predictive project. Burnup charts tell the same story visually, and many teams show both. If CPI stays near 0.82, EAC = BAC ÷ CPI = 600,000 ÷ 0.818 ≈ $733,000, which is why the PMO needs an honest report now. A common trap is treating elapsed time or effort spent as earned value.",
+    "tags": [
+      "agile EVM",
+      "earned value",
+      "story points",
+      "status reporting",
+      "calculation"
+    ]
+  },
+  {
+    "id": "PRO-119",
+    "domain": "Process",
+    "task": "9. Evaluate project status",
+    "approach": "Hybrid",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Keeping artifacts current",
+    "source": "ECO 2026 · Process Task 9 (ensure documentation is up to date)",
+    "question": "The day before a quarterly steering committee review of a hybrid ERP rollout, the project manager notices that the risk register was last updated two months ago. Since then, two listed risks — a data-migration tool failure and a key consultant's departure — have actually occurred and are being handled informally, and several new concerns have been raised in team retrospectives. The committee will use the register to decide whether to release contingency funds. What should the PM do?",
+    "options": [
+      "Ask the committee to postpone the review until the register is fully rebuilt",
+      "Update the register with risk owners today and log the occurred risks as issues",
+      "Leave the risk register out of the pack to avoid confusing the committee",
+      "Present the register as it stands and explain the outdated items at the next review"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Decisions are only as good as the information they rest on; ask what the committee needs and how quickly it can be put right.",
+    "why": "The committee will decide on contingency funds using the register, so it must reflect reality. Working with the risk owners to update it — closing the risks that have occurred and recording them as issues in the issue log, and adding the new concerns with owners — is achievable in a day and gives the committee accurate information. The PM should also be open with the committee that the register had lapsed.",
+    "how": "Before any decision forum, confirm that the artifacts the decision depends on are current. Risks that have occurred become issues; new risks are analyzed and given owners.",
+    "optionNotes": [
+      "Incorrect — Postponing a governance review is unnecessary when the register can be brought up to date with the owners in a day.",
+      "Correct — Updating with the owners and moving occurred risks to the issue log gives the committee accurate information for its decision.",
+      "Incorrect — Omitting the register hides information the committee needs to decide on contingency funds, which is a transparency failure.",
+      "Incorrect — Knowingly presenting outdated information would mislead the decision, and explaining it later cannot undo a poor choice."
+    ],
+    "deepDive": "Risks that occur become issues and move to the issue log with an owner and a resolution plan, while the register is updated to close them and capture lessons. After the meeting, the PM should fix the root cause — for example, by making risk review a standing item in weekly status meetings or sprint retrospectives and ensuring each owner updates their risks. In agile teams, risk-adjusted backlogs and risk burndown charts keep risk information visible and current. A common exam trap is choosing to postpone; PMI expects the PM to correct the information and proceed.",
+    "tags": [
+      "risk register",
+      "documentation",
+      "status reporting",
+      "issue log"
+    ]
+  },
+  {
+    "id": "PRO-120",
+    "domain": "Process",
+    "task": "10. Manage project closure",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Sequence of closure activities",
+    "source": "ECO 2026 · Process Task 10 (obtain stakeholder approval)",
+    "question": "On a predictive project to install a new baggage-handling line at a regional airport, the contractor has finished all deliverables, and the final performance tests passed yesterday. The airport's operations director is pleased but has not yet signed the acceptance certificate that the contract requires. The functional managers want their engineers back, the team is planning a celebration, and the PMO wants the records archived by month-end. What should the project manager do FIRST?",
+    "options": [
+      "Release the engineers to their functional managers to reduce costs",
+      "Obtain the operations director's formal acceptance of the deliverables",
+      "Archive the project records in the PMO repository before month-end",
+      "Hold the team celebration while everyone is still available to attend"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Ask which closure step all the others depend on.",
+    "why": "Formal acceptance confirms that the deliverables meet the agreed criteria and unlocks the rest of closure. Until the operations director signs the acceptance certificate, the team may still be needed for fixes, and final reports, archiving and celebrations would be premature. Once acceptance is obtained, the PM closes procurements, finalizes lessons learned and the final report, archives records and releases resources.",
+    "how": "Closure sequence: obtain formal acceptance → transfer the product to operations → close contracts → finalize lessons learned and the final report → archive → release resources → celebrate.",
+    "optionNotes": [
+      "Incorrect — Releasing engineers before acceptance risks losing the people needed if the director finds problems during final review.",
+      "Correct — Acceptance is the gateway to closure; every other closure activity depends on confirming the customer accepts the deliverables.",
+      "Incorrect — Archiving belongs near the end of closure, after acceptance, the final report and lessons learned are complete.",
+      "Incorrect — Recognition matters, but celebrating comes after acceptance and the key closure activities have been completed."
+    ],
+    "deepDive": "Closing a project or phase also includes transferring the product to operations, confirming that contractual obligations are met, measuring stakeholder satisfaction, and updating organizational process assets such as lessons learned and historical estimates. In agile work, acceptance happens incrementally as the product owner accepts each increment, so final closure focuses more on transition, knowledge transfer and the final retrospective. A common exam trap is picking a cost-saving action, such as releasing people, before acceptance. Another is assuming passed tests equal acceptance: tests verify the deliverables, but only the customer or sponsor can formally accept them.",
+    "tags": [
+      "closure",
+      "acceptance",
+      "release resources",
+      "closure sequence"
+    ]
+  },
+  {
+    "id": "PRO-121",
+    "domain": "Process",
+    "task": "10. Manage project closure",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Closing a terminated project",
+    "source": "ECO 2026 · Process Task 10 (determine closure criteria)",
+    "question": "Four months into a nine-month project to build a customer-loyalty platform for Arcadia Retail, the executive team changes strategy and the sponsor cancels the project in writing. About half of the features are built, two contractors are on fixed-term agreements, and some finished data-integration components could be reused by another team. A team lead suggests simply moving everyone onto new work on Monday. What should the project manager do?",
+    "options": [
+      "Finish the remaining features anyway, because the budget has already been committed",
+      "Keep work going until the steering committee confirms the cancellation at its next review",
+      "Stop work and reassign everyone on Monday, since a canceled project needs no formal closure",
+      "Close formally: record status and lessons, settle the contracts, hand over reusable work"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Ask whether the reasons for closing a project properly disappear when it ends early.",
+    "why": "Early termination still requires formal closure. The PM should document what was completed and why the project ended, capture lessons learned, settle the contractors' agreements under their termination terms, archive the records, and hand the reusable integration components to the team that can use them, then release people in a planned way. Skipping closure loses knowledge and can leave contractual and financial obligations open.",
+    "how": "Closure applies whether a project finishes, fails or is canceled; for a terminated project, focus on documenting the state of the work, settling contracts, transferring anything reusable, and capturing lessons.",
+    "optionNotes": [
+      "Incorrect — Committed budget is a sunk-cost argument; spending more on work the organization no longer wants destroys value.",
+      "Incorrect — The sponsor has authority to cancel and has done so in writing; continuing spends money against a decision already made.",
+      "Incorrect — Skipping closure loses knowledge, may leave contracts and costs open, and wastes the reusable components.",
+      "Correct — Formal closure preserves knowledge and reusable assets and settles obligations even though the project ended early."
+    ],
+    "deepDive": "Canceling a project that no longer fits strategy is good governance rather than failure, because it frees resources for higher-value work. Contracts are usually closed through termination-for-convenience clauses, which may require payment for work performed and reasonable wind-down costs. Lessons from terminated projects are especially valuable — for example, how the business case was built and whether an earlier gate could have caught the misfit. In agile settings some increments may already be in use, so the PM should confirm what is live before shutting anything down. A classic exam trap is the sunk-cost argument for finishing anyway.",
+    "tags": [
+      "termination",
+      "closure",
+      "lessons learned",
+      "sunk cost"
+    ]
+  },
+  {
+    "id": "PRO-122",
+    "domain": "Process",
+    "task": "10. Manage project closure",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Customer won't sign acceptance",
+    "source": "ECO 2026 · Process Task 10 (validate readiness)",
+    "question": "A systems integrator has delivered a warehouse-management system to Brightwater Foods under a fixed-price contract. Test records show that every documented acceptance criterion has been met, but Brightwater's operations director refuses to sign the acceptance certificate, citing 'general dissatisfaction' with the system. No specific defects have been reported, and the contract says acceptance may not be unreasonably withheld. What should the project manager do FIRST?",
+    "options": [
+      "Offer a few extra reports at no charge to encourage the director to sign",
+      "Close the project without the signature, since all criteria have been met",
+      "Remind the director that the contract provides remedies for refusing to sign",
+      "Meet the director to learn the concerns and compare them with the criteria"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Before choosing any remedy, ask what you actually know about the reason for the refusal.",
+    "why": "The PM does not yet know what lies behind the 'general dissatisfaction.' Meeting the director to understand the concerns and reviewing them against the agreed criteria separates genuine defects (which must be fixed), new requirements (which go through change control) and expectations outside the contract. Only if the director still withholds acceptance without cause should the PM escalate through governance or the contract's dispute process.",
+    "how": "For acceptance disputes: listen → compare with the agreed acceptance criteria → fix defects or route new requests to change control → escalate through the contract or governance only if needed.",
+    "optionNotes": [
+      "Incorrect — Free extras are gold plating; they may not address the real concern and set a precedent of buying acceptance.",
+      "Incorrect — Formal acceptance is needed for closure; closing without it leaves the contract and final payment in dispute.",
+      "Incorrect — Invoking contractual remedies first damages the relationship before anyone understands what the concern is.",
+      "Correct — Understanding the concern and comparing it with the agreed criteria is the necessary first step before any fix or escalation."
+    ],
+    "deepDive": "Clear, measurable acceptance criteria agreed early — in the scope statement, the contract or user stories — are the best prevention for this situation. 'General dissatisfaction' often signals expectations that were never written down, such as usability or reporting needs, and a conversation can turn them into specific requests. Valid new needs become change requests, not free work. In agile delivery, frequent reviews and incremental acceptance reduce the risk of a surprise refusal at the end. A common exam trap is picking the contractual or escalation option first; PMI favors understanding before escalating.",
+    "tags": [
+      "acceptance",
+      "closure",
+      "customer",
+      "escalation",
+      "gold plating"
+    ]
+  },
+  {
+    "id": "PRO-123",
+    "domain": "Process",
+    "task": "10. Manage project closure",
+    "approach": "Predictive",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Final report",
+    "source": "ECO 2026 · Process Task 10 (conclude activities)",
+    "question": "The nine-month project to roll out electronic patient check-in across twelve clinics has been formally accepted by the sponsor. The PMO asks the project manager for the final report, which will go to the sponsor, the clinics' operations director and the organization's lessons repository. A new project coordinator has started drafting it and asks what should form the core of the report. What should the PM tell the coordinator to include?",
+    "options": [
+      "Results versus objectives and how the product serves the business need",
+      "Each team member's detailed daily time sheets for the whole nine months",
+      "The individual performance ratings of each team member for HR records",
+      "A draft charter for the next rollout phase, with updated cost estimates"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Think about who reads a final report and what they need to learn from it.",
+    "why": "The final report summarizes the project's performance: the scope, quality, schedule and cost objectives and whether they were met, how the product was validated, how it addresses the business need and expected benefits, and the major risks and issues and how they were resolved. It serves the sponsor and operations and feeds the lessons repository. Raw time sheets and personnel ratings do not belong in it, and a next-phase charter is a separate document.",
+    "how": "Final report = a concise summary of results against objectives and the business case; leave out raw data and confidential personnel information.",
+    "optionNotes": [
+      "Correct — Comparing results with objectives and linking the product to the business need is the core purpose of the final report.",
+      "Incorrect — Raw time sheets are detailed data kept in the project records, not summarized findings for the sponsor and operations.",
+      "Incorrect — Individual performance ratings are confidential HR information and do not belong in a widely shared project report.",
+      "Incorrect — A charter for the next phase is a separate authorizing document produced through the organization's initiation process."
+    ],
+    "deepDive": "Final reports and lessons learned become organizational process assets that improve future estimates, risk identification and planning. Benefits often continue to accrue after closure, so the report typically notes how and by whom they will be measured — for example, a benefits owner in operations. In agile programs, the equivalent summary draws on release outcomes, product metrics and the final retrospective. A common exam trap is confusing the final report with the archive: the archive stores detailed records, while the report summarizes what they show.",
+    "tags": [
+      "final report",
+      "closure",
+      "OPA",
+      "lessons learned"
+    ]
+  },
+  {
+    "id": "PRO-124",
+    "domain": "Process",
+    "task": "10. Manage project closure",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Releasing resources",
+    "source": "ECO 2026 · Process Task 10",
+    "question": "Yesterday a hybrid project went live with a new field-service scheduling system for a water utility. Acceptance testing in production and a four-week hypercare period are still under way, and the transition plan names two developers to fix production defects during hypercare. Their functional manager emails the project manager asking to move both developers to another project tomorrow because 'the software is live.' What should the project manager do?",
+    "options": [
+      "Release both developers now and ask them to cover hypercare in their spare time",
+      "Keep both developers on the project until their next assignment needs them",
+      "Release the developers tomorrow, since the go-live milestone has been achieved",
+      "Agree a release date after acceptance and hypercare, and confirm it in writing"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Consider which project obligations remain after go-live, and how to treat the functional manager as a partner.",
+    "why": "Go-live is not the end of the project's obligations: acceptance and hypercare are still under way, and the transition plan relies on these developers to fix defects. The PM should explain this and agree a firm release date after acceptance and hypercare, so the functional manager can plan the next assignment. That honors both the project's commitments and the organization's need for the people.",
+    "how": "Plan resource release as part of closure: release people after acceptance, knowledge transfer and support periods, and agree the dates with functional managers in advance.",
+    "optionNotes": [
+      "Incorrect — Spare-time support is unreliable in a critical period and unfair to developers who will have new commitments.",
+      "Incorrect — Holding people beyond the defined need is poor stewardship and damages trust with functional managers.",
+      "Incorrect — Releasing them now leaves no one to fix defects found during acceptance or hypercare, putting operations at risk.",
+      "Correct — A negotiated, documented release date after the remaining obligations meets both the project's and the organization's needs."
+    ],
+    "deepDive": "Hypercare is an intensive support period after go-live, often staffed by the project team, before support fully transfers to operations. Good transition plans define hypercare exit criteria — for example, no open severity-1 defects and a stable incident rate — and knowledge-transfer tasks so operations staff can take over. Releasing resources is itself a closure activity: update resource calendars, give performance input to functional managers, and recognize contributions. A common exam trap is treating go-live as the finish line; in hybrid and agile settings, transition and readiness for benefits matter as much as delivery.",
+    "tags": [
+      "release resources",
+      "hypercare",
+      "transition",
+      "closure",
+      "functional manager"
+    ]
+  },
+  {
+    "id": "PRO-125",
+    "domain": "Process",
+    "task": "10. Manage project closure",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Ending an agile project",
+    "source": "ECO 2026 · Process Task 10 (determine closure criteria)",
+    "question": "After fourteen sprints, an agile team at a travel company has delivered all the high-value features of a booking app, and the usage and conversion targets in the business case have been met. The remaining product backlog items are minor enhancements whose estimated value is well below the cost of another quarter of development. The sponsor asks the project manager what should happen next. What is the BEST course of action?",
+    "options": [
+      "Keep the team working until every item in the product backlog is complete",
+      "Disband the team at once, since the valuable work has already been delivered",
+      "Support a PO and sponsor decision to stop, then close out and hand over the product",
+      "Create a new backlog of speculative features so that the team stays together"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "In adaptive work, ask what should decide when to stop — the size of the backlog or something else.",
+    "why": "Agile work can end when the value of the remaining backlog no longer justifies its cost; here the business-case targets are met and the remaining items are worth less than another quarter of work. That decision belongs to the product owner and sponsor, supported by the PM's data. The team then closes out properly: a final retrospective, knowledge transfer and handover to the support team, and a planned release of people.",
+    "how": "Value-driven closure: stop when the value of the remaining work is lower than its cost, and still perform closure — retrospective, transition, knowledge transfer and resource release.",
+    "optionNotes": [
+      "Incorrect — Completing low-value items spends money that could create more value elsewhere; the backlog is a set of options, not a contract.",
+      "Incorrect — Stopping abruptly skips the handover, knowledge transfer and final retrospective that protect the product's future.",
+      "Correct — The value-based decision sits with the product owner and sponsor, followed by an orderly closure and transition.",
+      "Incorrect — Inventing work without a value case keeps the team busy but wastes funding; a team needs a real mission to stay together."
+    ],
+    "deepDive": "Adaptive approaches make early stopping normal: because the highest-value items are delivered first, each decision to continue is effectively a small investment decision. Some agile contracts formalize this with early-termination clauses that let the customer stop once enough value has been delivered, often with a modest fee to the supplier. Long-lived, stable teams can be redeployed to the next valuable product rather than disbanded, which preserves their performance. A common exam trap is equating an empty backlog with done; value, not backlog size, decides.",
+    "tags": [
+      "agile closure",
+      "value",
+      "retrospective",
+      "product owner"
+    ]
+  }
+]

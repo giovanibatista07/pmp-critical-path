@@ -1,0 +1,908 @@
+[
+  {
+    "id": "PEO-051",
+    "domain": "People",
+    "task": "4. Engage stakeholders",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Tailoring reports to an executive",
+    "source": "ECO 2026 · People Task 4 · Tailor communication to stakeholder needs",
+    "question": "Eight months into a warehouse modernization project at Solvane Logistics, the chief operating officer tells project manager Tomás Ilunga that the 25-page monthly status report is 'unreadable' and that she stopped opening it two months ago. She approves funding at each phase gate, and the next gate review is in six weeks. The report follows the PMO's standard template and goes to 14 stakeholders, most of whom say it works well for them. What should Tomás do FIRST?",
+    "options": [
+      "Keep sending the full report, since it follows the PMO template, and flag the pages she should read",
+      "Ask her executive assistant to read each report and brief her on anything that needs her attention",
+      "Ask what she needs to decide and in what format, then tailor her updates and revise the plan",
+      "Replace the report for all 14 recipients with a one-page dashboard before the next gate review"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "The report fails one high-power stakeholder while working for the rest, so consider whose needs are unmet and how you would learn them.",
+    "why": "The report works for most recipients but fails the one stakeholder who controls gate funding, so the fix must be specific to her. Asking what decisions she makes and what format suits her lets Tomás give her a concise, tailored view — for example a one-page summary of exceptions, trends, and decisions needed — and record the change in the communications management plan. Doing this now, six weeks before the gate, keeps a high-power stakeholder informed and engaged.",
+    "how": "When a stakeholder is not absorbing project information, ask about their needs, tailor content, format, and frequency for them, and update the communications and engagement plans. Do not keep repeating an approach that is failing, and do not change it for everyone without evidence.",
+    "optionNotes": [
+      "Incorrect — Information that is not read has not been communicated; following the template does not fix a format that fails this stakeholder.",
+      "Incorrect — Delegating the reading to an assistant adds a filter, loses nuance, and still does not meet the COO's own information needs.",
+      "Correct — Asking first, then tailoring content and format for her and updating the plan, closes the real gap with a key decision maker.",
+      "Incorrect — Changing the report for all 14 recipients acts before understanding her needs and disrupts readers who are satisfied with it."
+    ],
+    "deepDive": "Communication requirements analysis asks who needs what information, when, in what format, why, and through which channel. Executives usually want exceptions, trends, forecasts, and decisions needed rather than activity detail, so a one-page dashboard with links to the detail often works. In predictive and agile settings alike, tailoring is a core principle: one project can support several views of status for different audiences. A common exam trap is choosing a sweeping change for everyone when the evidence concerns only one stakeholder.",
+    "tags": [
+      "tailoring",
+      "executive summary",
+      "communications plan",
+      "stakeholder engagement"
+    ]
+  },
+  {
+    "id": "PEO-052",
+    "domain": "People",
+    "task": "4. Engage stakeholders",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Engaging a resistant union representative",
+    "source": "ECO 2026 · People Task 4 · Execute the stakeholder engagement plan",
+    "question": "Harrowgate Foods is automating the packaging lines at its largest plant, and the new equipment requires moving from three fixed shifts to a rotating pattern. Delphine Okafor, the union representative trusted by about 400 line workers, has told the plant newsletter the project is 'automation by stealth' and hinted at a work-to-rule protest. Design is 60% complete and the shift model has not yet been finalized. What is the BEST way for the project manager to engage Delphine?",
+    "options": [
+      "Invite her into the shift-design workshops now to hear concerns and shape how changes roll out",
+      "Present the finished shift schedule to the union formally once the whole design has been approved",
+      "Ask HR to manage all contact with the union, since labor relations fall within HR's remit",
+      "Ask the sponsor to issue an executive mandate for the new shifts before engaging the union"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "With a resistant, high-influence stakeholder, think about the point at which their input can still change the outcome.",
+    "why": "Delphine is resistant and highly influential, so the engagement strategy should move her toward supportive by giving her real influence while design decisions are still open. Involving her in the shift-design workshops surfaces the workers' concerns early, lets the design address them, and builds ownership of how the change is introduced. Because the shift model is not yet final, her input is still cheap to incorporate.",
+    "how": "Resistant plus high influence means engage more, and earlier: listen, involve, and co-create while decisions can still change. Informing after the fact, delegating the relationship, or forcing a mandate usually hardens resistance.",
+    "optionNotes": [
+      "Correct — Early involvement while the shift model is still open lets concerns shape the design and turns a potential blocker into a partner.",
+      "Incorrect — Informing the union after decisions are final is consultation in name only and is likely to trigger the protest she hinted at.",
+      "Incorrect — HR can support, but the project manager remains accountable for engaging this key stakeholder and understanding her concerns.",
+      "Incorrect — An executive mandate escalates before any dialogue and signals that workers' concerns do not matter, deepening resistance."
+    ],
+    "deepDive": "A stakeholder engagement assessment matrix compares each stakeholder's current engagement level (unaware, resistant, neutral, supportive, leading) with the desired level, and the plan sets strategies to close the gap. Where labor agreements apply, consultation on changes to working conditions may also be a contractual or legal obligation, so early involvement serves compliance as well as buy-in. Change models such as ADKAR stress that awareness and desire come before knowledge and ability: people resist changes done to them more than changes they help shape. The exam trap is treating resistance as something to route around rather than something to understand.",
+    "tags": [
+      "resistance",
+      "stakeholder engagement",
+      "labor union",
+      "organizational change"
+    ]
+  },
+  {
+    "id": "PEO-053",
+    "domain": "People",
+    "task": "4. Engage stakeholders",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Stakeholders skipping sprint reviews",
+    "source": "ECO 2026 · People Task 4 · Scrum sprint review",
+    "question": "A seven-person Scrum team at Veltra Insurance is building a claims self-service portal. For the last three sprint reviews, the four claims managers who requested the portal have not attended, saying month-end workloads leave them no time. The reviews run 90 minutes on the last Friday afternoon of each sprint and open with 40 minutes of slides before the demo. Developers worry they are building features no one has validated. What should the project manager do?",
+    "options": [
+      "Ask the product owner to accept every increment on the managers' behalf until their workload eases",
+      "Meet the managers to learn what keeps them away, then adapt the review's timing, length, and format",
+      "Pause sprint reviews until month-end is over, then hold one combined review of all recent increments",
+      "Email a recording of each demo to the managers and treat no reply within a week as their acceptance"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Ask yourself what the team loses if the people who will use the portal stop inspecting the increment.",
+    "why": "The sprint review exists so the people who will use the product can inspect the increment and influence what comes next; without them the team is guessing. Finding out why the managers stay away — here a long, slide-heavy session at the busiest time of the month — lets the project manager fix the real obstacle with a shorter, demo-first review at a better time. Restoring the feedback loop is far more valuable than any substitute for it.",
+    "how": "In agile, a broken feedback loop is a major risk. Diagnose why stakeholders disengage and make participation easier; do not replace their input with assumptions, silence, or a proxy.",
+    "optionNotes": [
+      "Incorrect — The product owner represents stakeholders but cannot replace the direct feedback of the people who will use the portal every day.",
+      "Correct — Understanding the barrier and redesigning the review around it restores the feedback loop the team needs to build the right product.",
+      "Incorrect — Pausing reviews removes the inspection point and lets unvalidated work pile up, raising the cost of late changes.",
+      "Incorrect — Silence is not acceptance; a passive recording loses the conversation that turns stakeholder feedback into backlog changes."
+    ],
+    "deepDive": "The Scrum Guide describes the sprint review as a working session in which the Scrum team and stakeholders inspect the increment and decide what to adapt next — not a slide presentation. Useful tactics when attendance drops include shorter demo-first sessions, a better time slot, inviting only the stakeholders relevant to that sprint's work, and letting users try the increment hands-on. The Agile Practice Guide stresses that frequent customer feedback reduces the risk of building the wrong thing. A frequent exam trap is an option that keeps the ceremony on paper, such as an unwatched recording, while losing its purpose.",
+    "tags": [
+      "sprint review",
+      "feedback",
+      "stakeholders",
+      "agile"
+    ]
+  },
+  {
+    "id": "PEO-054",
+    "domain": "People",
+    "task": "4. Engage stakeholders",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Senior opponent of the project",
+    "source": "ECO 2026 · People Task 4 · Understanding stakeholder opposition",
+    "question": "Halvorsen Energy approved a $3.2 million customer-service portal last quarter. Project manager Aiko Brandt hears that Rashid Mansour, director of field operations, told other directors at a leadership offsite that the project is 'a waste of money' and should be canceled. His technicians will have to change how they log service visits, and he was not interviewed during requirements gathering. Several directors now seem hesitant. What should Aiko do FIRST?",
+    "options": [
+      "Ask the sponsor to raise Rashid's comments at the next steering committee and restate support",
+      "Send Rashid the approved business case with a note offering to answer any of his questions",
+      "Meet Rashid privately to understand his concerns and how the change affects his field teams",
+      "Share benefits data with the other directors so his criticism does not erode their support"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Consider what might explain why an influential director turned against the project, and who can tell you.",
+    "why": "Opposition from an influential director usually has a cause — here, a change to his teams' work and the fact that he was never consulted. A private conversation lets Aiko hear his concerns, correct any misunderstandings, and find adjustments that address legitimate issues, which is the most likely way to move him from resistant toward neutral or supportive. Escalating or lobbying around him before listening would harden his position.",
+    "how": "With a difficult or opposing stakeholder, the first step is to listen and understand their interests; persuasion, adjustments, or escalation come afterward and are informed by what you learn. Record the findings in the stakeholder register and engagement plan.",
+    "optionNotes": [
+      "Incorrect — Escalating to the sponsor before talking to Rashid uses authority to silence him and is likely to deepen his resistance.",
+      "Incorrect — Sending documents is one-way push communication that assumes the issue is missing information rather than an unaddressed impact.",
+      "Correct — A private, listening-first meeting uncovers the cause of the opposition and gives Aiko a basis for a tailored engagement strategy.",
+      "Incorrect — Lobbying his peers works around Rashid instead of with him, may look political, and is likely to increase the conflict."
+    ],
+    "deepDive": "Stakeholder analysis considers interest, power, influence, and attitude; a powerful stakeholder who was never consulted is a classic source of late resistance. 'Seek first to understand' is a reliable guide for PMP stakeholder questions: listen, record the concerns in the stakeholder register, and set a desired engagement level with strategies to reach it. In agile settings, inviting such a stakeholder to reviews or refinement sessions gives him a real voice in the product. The common trap is jumping to persuasion or escalation because the opposition feels urgent.",
+    "tags": [
+      "opposition",
+      "listening",
+      "stakeholder engagement",
+      "influence"
+    ]
+  },
+  {
+    "id": "PEO-055",
+    "domain": "People",
+    "task": "4. Engage stakeholders",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Engaging a large user group through a panel",
+    "source": "ECO 2026 · People Task 4 · Engaging large, dispersed user groups through representatives",
+    "question": "Tellamar Veterinary Group is replacing the scheduling and records system used by about 1,600 staff in 140 clinics. The software is built in two-week sprints, while the clinic rollout follows a phased plan. Sprint reviews are attended only by head-office managers, and after the first pilot release, clinic receptionists complained that the new check-in flow doubles their clicks. The product owner proposes emailing a satisfaction survey to all clinic staff after each release. What should the project manager recommend?",
+    "options": [
+      "Invite all clinic staff to every sprint review so that each person can give feedback directly to the team",
+      "Ask head-office managers to gather clinic feedback and relay it to the product owner before each review",
+      "Adopt the survey, since it reaches every clinic and gives the team measurable data after each release",
+      "Form a rotating panel of front-line staff from different clinic types to join refinement and reviews"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Think about how early, and from whom, the team currently hears about problems like the check-in flow.",
+    "why": "The pilot complaint shows that the people who use the system every day are not represented where the product is shaped. A small, rotating panel of receptionists, vets and nurses from different clinic types gives the team direct, early feedback during refinement and at sprint reviews, before features reach 140 clinics, while keeping the group workable. Rotating members and sharing the panel's outcomes with all clinics widens engagement over time. A post-release survey can supplement this, but it arrives after a problem has shipped and cannot explore why a workflow is awkward.",
+    "how": "When a stakeholder group is too large to involve directly, engage it through representatives chosen to reflect its variety, involve them early and continuously, and close the loop with the wider group.",
+    "optionNotes": [
+      "Incorrect — Opening reviews to 1,600 people is unworkable and would drown useful feedback; engagement has to be designed to fit the size of the group.",
+      "Incorrect — Relaying feedback through head-office managers keeps the real users one step removed, which is the same gap that let the check-in problem through.",
+      "Incorrect — A post-release survey reports problems only after they reach clinics and cannot explore why a workflow fails; it suits a supporting role.",
+      "Correct — A representative, rotating user panel brings real workflow knowledge into refinement and reviews early, at a size the team can work with."
+    ],
+    "deepDive": "Engagement techniques scale differently: individual interviews suit a few key people, while large groups are engaged through representatives, focus groups, user panels, surveys and community channels. Representatives should cover the variety within the group — here clinic size, role and region — and rotate so that more people feel heard and no single view dominates. Agile teams gain most when these users take part in refinement and sprint reviews, because their feedback changes the backlog before release. In a phased rollout the same panel can also help plan training and cutover for each wave. The exam trap is mistaking a broadcast or a survey for engagement: surveys measure satisfaction, but collaboration shapes the product.",
+    "tags": [
+      "stakeholder engagement",
+      "user panel",
+      "sprint review",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "PEO-056",
+    "domain": "People",
+    "task": "4. Engage stakeholders",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "multi",
+    "topic": "Sources for stakeholder identification",
+    "source": "ECO 2026 · People Task 4 · Identify stakeholders early",
+    "question": "Two days after the steering committee authorized a project to move Brightwater Council's building-permit system to the cloud, project manager Nnamdi Eze wants to draft an initial stakeholder register before planning workshops begin. No team has been assigned, no requirements have been gathered, and no work has started. Which TWO sources should Nnamdi use FIRST to identify stakeholders? (Select two.)",
+    "options": [
+      "The approved business case and benefits management plan",
+      "The requirements traceability matrix",
+      "Work performance reports",
+      "Team performance assessments",
+      "The signed project charter"
+    ],
+    "answer": [
+      0,
+      4
+    ],
+    "hint": "Eliminate anything that can only exist once requirements work or execution has begun.",
+    "why": "At authorization, the charter names the sponsor, key stakeholders, and high-level requirements, while the business case and benefits management plan describe who will benefit, who owns the benefits, and who will be affected by the outcomes. Both exist before planning starts. The traceability matrix, work performance reports, and team assessments are produced only after requirements work or execution has begun.",
+    "how": "For 'initial' or 'early' questions, first eliminate artifacts that cannot exist yet, then choose the sources that describe purpose, beneficiaries, and affected parties.",
+    "optionNotes": [
+      "Correct — Shows who benefits, who owns the benefits, and which groups the outcomes will affect, and it is available at authorization.",
+      "Incorrect — The traceability matrix links requirements to deliverables and cannot exist before any requirements have been gathered.",
+      "Incorrect — Work performance reports summarize execution progress, so none exist two days after authorization.",
+      "Incorrect — Team performance assessments evaluate a team that has not yet been assigned; they are produced during execution.",
+      "Correct — The charter names the sponsor and key stakeholders and summarizes the purpose, making it a primary early source."
+    ],
+    "deepDive": "Other useful inputs for stakeholder identification include agreements with suppliers, enterprise environmental factors such as regulations and organizational culture, organizational process assets such as register templates and lessons from similar projects, and expert judgment or interviews. Identification is iterative: it starts at authorization and continues as phases begin, the organization changes, or new groups surface. In agile work, discovery activities such as persona mapping and stakeholder workshops serve the same purpose. A classic trap is picking a useful document that simply does not exist yet at the point described.",
+    "tags": [
+      "identify stakeholders",
+      "charter",
+      "business case",
+      "multi-select"
+    ]
+  },
+  {
+    "id": "PEO-057",
+    "domain": "People",
+    "task": "4. Engage stakeholders",
+    "approach": "Hybrid",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Stakeholder overwhelmed by messages",
+    "source": "ECO 2026 · People Task 4 · Tailor communication channels",
+    "question": "Ingrid Solberg heads the finance department that must approve each release's cost allocation on a hybrid ERP upgrade. She tells the project manager she receives about 30 project emails and six meeting invitations a week, has started ignoring them, and missed a budget approval request that is now holding up the next release. Most of the messages are general updates copied to a wide distribution list. What should the project manager do?",
+    "options": [
+      "Tell her director that project approvals are being held up by her lack of response",
+      "Mark every future message to her as high priority so approvals stand out in her inbox",
+      "Agree with her a focused channel and cadence for decisions, and update the engagement plan",
+      "Cut project communications for everyone to one consolidated status report at the end of each month"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "More communication is not always better communication.",
+    "why": "Over-communication causes disengagement just as surely as under-communication, and here it has already delayed a release. Agreeing with Ingrid on a dedicated channel and rhythm for the few items that need her decision — separate from general updates she can look at when she chooses — restores engagement where it matters. Recording the change in the engagement and communications plans keeps everyone consistent.",
+    "how": "Use pull communication (dashboards, digests) for general information and push or interactive communication for items that require action. When a stakeholder disengages, adjust the approach for that stakeholder and update the plans.",
+    "optionNotes": [
+      "Incorrect — Escalating blames the stakeholder when the root cause is the project's own communication approach, and it damages the relationship.",
+      "Incorrect — Marking everything urgent makes nothing urgent; the volume problem remains and she will soon ignore the flags as well.",
+      "Correct — Separating decisions from general updates, in a format she agrees to, fixes the cause and records the change in the plan.",
+      "Incorrect — Changing communication for everyone overreacts to one person's need and would slow information that others rely on."
+    ],
+    "deepDive": "Communication methods are interactive (meetings and calls, for decisions and complex issues), push (emails and memos sent to specific people), and pull (dashboards, wikis, and portals accessed when needed). In hybrid projects, release approvals often need a clear decision cadence, such as a short approval call before each release, while sprint-level detail stays in pull channels. A decision log that shows each approver only what awaits them is another common remedy. The exam trap is choosing a louder version of the same approach, such as more flags or escalation, instead of redesigning it.",
+    "tags": [
+      "communication methods",
+      "push pull",
+      "engagement",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "PEO-058",
+    "domain": "People",
+    "task": "5. Align stakeholder expectations",
+    "approach": "Agile",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "MoSCoW prioritization",
+    "source": "ECO 2026 · People Task 5 · Collaborative prioritization",
+    "question": "Sales, compliance, and customer service have submitted 40 requirements for the first release of Castara Bank's small-business app, but the team's forecast capacity covers about half. Each group insists its items are essential. The product owner has one two-hour workshop with all three groups and wants them to leave agreeing on what the release must contain and, just as important, what will explicitly be left out this time. Which technique should the project manager suggest for the workshop?",
+    "options": [
+      "Monte Carlo simulation of the backlog, to show how many of the requirements the team can finish",
+      "MoSCoW prioritization, sorting each item into must, should, could, or won't have this time",
+      "A Kano survey of end users, to classify each requirement by its effect on customer satisfaction",
+      "Pareto analysis, to find the few requirements that account for most of the expected business value"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "The groups need a quick, shared way to agree priorities in the room — not a forecast, a survey, or a statistical chart.",
+    "why": "MoSCoW is a simple, collaborative technique that lets stakeholders sort items into must-have, should-have, could-have, and won't-have-this-time within a single workshop. The 'won't have this time' category is exactly what the product owner needs: it makes deferred items explicit, which sets expectations and prevents later surprise. The other techniques forecast, survey, or analyze rather than producing an agreed release scope in the room.",
+    "how": "Know when each prioritization technique fits: MoSCoW for quick stakeholder agreement on release scope, Kano for customer-satisfaction effects, WSJF for economic sequencing, 100-point or dot voting for group preferences, and value-versus-effort for fast trade-offs.",
+    "optionNotes": [
+      "Incorrect — Monte Carlo forecasts likely delivery outcomes from historical data; it does not help stakeholders agree which requirements matter most.",
+      "Correct — MoSCoW produces a shared release scope in one session and explicitly records what is deferred, which aligns expectations.",
+      "Incorrect — Kano needs end-user survey data and classifies satisfaction effects; it cannot be run and agreed within a two-hour workshop.",
+      "Incorrect — Pareto thinking may show where value concentrates, but it gives stakeholders no shared way to agree what is in and out of this release."
+    ],
+    "deepDive": "A common rule of thumb in MoSCoW is to keep must-haves to roughly 60% of capacity so that should-haves and could-haves provide contingency; could-haves are the first to drop. The 'won't have this time' bucket is not a rejection but an expectation-setting tool that clarifies what is deferred. MoSCoW works for predictive requirements baselines as well as agile release planning. Its weakness is that stakeholders may label everything a must, so the facilitator should test each must-have against the release goal.",
+    "tags": [
+      "MoSCoW",
+      "prioritization",
+      "product backlog",
+      "expectations"
+    ]
+  },
+  {
+    "id": "PEO-059",
+    "domain": "People",
+    "task": "5. Align stakeholder expectations",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Kano: basic quality versus delighter",
+    "source": "ECO 2026 · People Task 5 · Kano model",
+    "question": "User research for Norvik Bank's new mobile app shows that customers rarely mention secure login when asked what they value, but satisfaction collapses whenever login fails or feels unsafe. A personalized savings coach, by contrast, surprised and delighted test users. Before launch, the team has capacity for only one of two epics: hardening login or building the coach. A marketing stakeholder argues the login work 'adds no value because nobody praises it.' How should the project manager help stakeholders classify and treat secure login?",
+    "options": [
+      "As a delighter to add later, once the savings coach has proven its value with customers",
+      "As a performance feature, since each extra security step will raise satisfaction further",
+      "As an indifferent feature, since customers never mention it when describing what they value",
+      "As a basic quality that must be solid at launch, even though it will not earn any praise"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "In the Kano model, compare what happens to satisfaction when a feature is present with what happens when it is absent.",
+    "why": "In the Kano model, basic (must-be) qualities are expected: having them does not raise satisfaction, but lacking them causes strong dissatisfaction — exactly the login pattern in the research. Because a login failure would sink the launch regardless of the coach, the basic quality comes first and the delighter can follow. The stakeholder's argument confuses 'nobody praises it' with 'nobody needs it.'",
+    "how": "Kano categories: basic (expected; absence hurts), performance (more is better, roughly linear), delighter (unexpected; presence excites), indifferent (no effect), and reverse (some users dislike it). Deliver the basics first, then invest in performance and delight.",
+    "optionNotes": [
+      "Incorrect — The savings coach is the delighter; treating login that way risks the strong dissatisfaction the research shows when it fails.",
+      "Incorrect — Performance features raise satisfaction roughly in proportion to how much is delivered; extra login steps would more likely annoy users.",
+      "Incorrect — Indifferent features have no effect either way, but login failures sharply reduce satisfaction, so customers clearly care about it.",
+      "Correct — Login is expected and unnoticed until it fails, the signature of a basic quality that has to be present at launch."
+    ],
+    "deepDive": "The Kano model plots customer satisfaction against how fully a feature is delivered and shows that different features behave differently. Over time, delighters drift toward basics as customers get used to them, so features that once surprised users become expected. For MVP planning, include the basics that make the product viable plus enough performance or delight to test the value hypothesis. A common trap is reading silence in interviews as indifference when it really signals an unspoken expectation.",
+    "tags": [
+      "Kano",
+      "prioritization",
+      "customer satisfaction",
+      "MVP"
+    ]
+  },
+  {
+    "id": "PEO-060",
+    "domain": "People",
+    "task": "5. Align stakeholder expectations",
+    "approach": "Predictive",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Budget cut with unchanged expectations",
+    "source": "ECO 2026 · People Task 5 · Competing constraints and trade-offs",
+    "question": "Midway through a predictive project to build a regional distribution center for Castellan Retail, the sponsor announces a 20% budget cut as part of a company-wide savings program. In the same meeting he says he still expects the full scope, the original opening date, and the same quality standards. Little contingency reserve remains, and the critical path has no float. What should the project manager do?",
+    "options": [
+      "Raise a change request cutting scope by 20% to match the new budget and send it to the CCB",
+      "Accept the new budget and ask the team to find savings and work overtime to protect the scope",
+      "Analyze the impact and give the sponsor options showing each trade-off so he can decide",
+      "Trim the testing planned for the final phase so the date and the full scope can still be met"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Scope, schedule, cost, and quality are linked — whose decision is the trade-off, and what does that person need before making it?",
+    "why": "A 20% cut with no reserve and no float cannot leave scope, time, and quality untouched, so the sponsor's expectations are unrealistic. The project manager's job is to analyze the impact and lay out realistic options — reduced or phased scope, a later date, or accepted risk — so the sponsor can decide with full information. The chosen option then goes through change control to update the baselines.",
+    "how": "When expectations conflict with constraints: analyze the impact, present options and trade-offs, let the authorized decision maker choose, then update baselines through change control and communicate the result.",
+    "optionNotes": [
+      "Incorrect — Change control is right eventually, but choosing the scope cut unilaterally skips the analysis and the sponsor's trade-off decision.",
+      "Incorrect — Silently accepting an unachievable target hides the risk, burns out the team, and sets the project up to fail.",
+      "Correct — Transparent impact analysis with options lets the sponsor align his expectations with what the new budget can actually deliver.",
+      "Incorrect — Quietly reducing quality to hit other targets is dishonest and creates larger failures and costs after handover."
+    ],
+    "deepDive": "Competing constraints include scope, schedule, cost, quality, resources, and risk, and changing one ripples through the others. The PMI Code of Ethics requires honesty: a project manager must not promise what the evidence says cannot be delivered. In agile settings the same pressure is usually handled by keeping time and cost fixed and flexing scope through backlog prioritization. The exam trap is an option that follows the process but makes the trade-off decision on the sponsor's behalf.",
+    "tags": [
+      "constraints",
+      "trade-offs",
+      "sponsor",
+      "ethics"
+    ]
+  },
+  {
+    "id": "PEO-061",
+    "domain": "People",
+    "task": "5. Align stakeholder expectations",
+    "approach": "Agile",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Agile documentation misconception",
+    "source": "ECO 2026 · People Task 5 · Correcting misconceptions about agile",
+    "question": "A Scrum team at Meridian Credit Union is replacing the loan-origination system, which is subject to an annual external audit. At a planning workshop, compliance manager Farah Qureshi says, 'Agile means no documentation, so this project will fail our audit,' and asks the sponsor to switch to a waterfall approach. The team has already delivered two increments that users like. What should the project manager do?",
+    "options": [
+      "Recommend a switch to a predictive approach so that the audit documentation will be complete",
+      "Explain that agile teams still document, and agree with her which audit artifacts to build in",
+      "Explain that auditors now focus on outcomes, so agile teams need not produce audit evidence",
+      "Ask the team to document every design decision in full detail so that any audit request can be met"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Recall what the Agile Manifesto actually says about the items on the right-hand side of each value statement.",
+    "why": "Agile does not mean no documentation; the Manifesto values working software more than comprehensive documentation while still recognizing that documentation has value. The project manager should correct the misconception and then collaborate with Farah to identify the evidence the audit needs, building it into the work through backlog items or the Definition of Done. That meets the legitimate compliance need without abandoning an approach that is already delivering value.",
+    "how": "When a stakeholder misunderstands agile, educate them and then collaborate to meet their legitimate need within agile practices. Neither dismiss the need nor abandon the approach.",
+    "optionNotes": [
+      "Incorrect — Changing the delivery approach because of a misconception discards two successful increments and does not address the actual audit requirements.",
+      "Correct — Corrects the misconception and meets the legitimate compliance need by building the required evidence into the team's normal work.",
+      "Incorrect — Audit requirements still apply to agile projects; dismissing them misinforms the stakeholder and creates a real compliance risk.",
+      "Incorrect — Documenting everything in full detail creates waste; the team should produce the evidence that is actually needed, not all possible evidence."
+    ],
+    "deepDive": "The Agile Manifesto's four values prefer individuals and interactions, working software, customer collaboration, and responding to change, while stating that the items they are preferred over, including documentation, still have value. In regulated environments, agile teams commonly add compliance evidence to the Definition of Done, automate traceability through their tooling, and invite auditors to reviews. The Agile Practice Guide notes that agile approaches can satisfy regulatory constraints when compliance needs are planned into the backlog. A frequent trap is swinging to either extreme: no documentation or exhaustive documentation.",
+    "tags": [
+      "Agile Manifesto",
+      "documentation",
+      "compliance",
+      "education"
+    ]
+  },
+  {
+    "id": "PEO-062",
+    "domain": "People",
+    "task": "5. Align stakeholder expectations",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Deferred feature in an MVP",
+    "source": "ECO 2026 · People Task 5 · MVP and roadmap expectations",
+    "question": "Tavira Travel's booking app will release its MVP next week; the MVP is meant to test whether customers will book multi-city trips on mobile. Marketing director Sienna Moreau is upset that social-media sharing is missing: she had told her team it was essential and planned a launch campaign around it. The product owner deliberately deferred sharing to the second release so the core booking hypothesis could be tested first. What should the project manager do?",
+    "options": [
+      "Ask the team to add social sharing to the current sprint so the launch campaign can go ahead",
+      "Tell Sienna the product owner's prioritization is final and the roadmap will not be changed",
+      "Escalate the disagreement to the sponsor, since it affects a planned marketing campaign launch",
+      "Bring Sienna and the product owner together to discuss the MVP's aim, roadmap, and campaign"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Ask who owns backlog priority, and what an MVP is designed to learn.",
+    "why": "The MVP is the smallest release that delivers value and tests the key assumption — here, mobile multi-city booking. Bringing Sienna and the product owner together lets her understand the MVP's purpose and when sharing is planned, and lets the product owner weigh her campaign needs (perhaps by moving the campaign or re-ranking sharing) with full information. The product owner remains the decision maker on priority.",
+    "how": "In agile, the project manager facilitates alignment between stakeholders and the product owner, who owns the backlog. Do not bypass the product owner, dismiss the stakeholder, or escalate before the two have talked.",
+    "optionNotes": [
+      "Incorrect — Adding work mid-sprint bypasses the product owner and endangers the sprint goal just before the MVP release.",
+      "Incorrect — Dismissive; her input may be valuable, and shutting her out damages engagement with an influential stakeholder.",
+      "Incorrect — Escalation is premature because the stakeholder and the product owner have not yet discussed the trade-off together.",
+      "Correct — Facilitates shared understanding of the MVP and roadmap and lets the product owner decide with her needs in view."
+    ],
+    "deepDive": "An MVP (minimum viable product) tests a value hypothesis with the least effort, while an MMF (minimum marketable feature) is the smallest piece of functionality that delivers value users would recognize. A visible product roadmap shows when deferred items are expected and is one of the best tools for managing expectations about what a release will not contain. Marketing launches are often better aligned to a later, more complete release than to an MVP whose purpose is learning. The exam trap is either bypassing the product owner or treating the product owner's decision as closed to input.",
+    "tags": [
+      "MVP",
+      "product owner",
+      "roadmap",
+      "expectations"
+    ]
+  },
+  {
+    "id": "PEO-063",
+    "domain": "People",
+    "task": "5. Align stakeholder expectations",
+    "approach": "Predictive",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Early estimate taken as a commitment",
+    "source": "ECO 2026 · People Task 5 · Communicating estimate ranges and their basis",
+    "question": "During initiation of a new regional water-treatment plant for Arkwell County, project manager Nadia Osei gave the sponsor a rough estimate of $18–30 million, based on two similar plants and made before any site survey. The sponsor has since told the county board that the plant 'will cost $18 million,' and the board's finance office has begun drafting a bond issue for that amount. Detailed design, which will support a definitive estimate, starts next month. What should Nadia do?",
+    "options": [
+      "Wait until detailed design produces a definitive estimate, then report any difference to the board",
+      "Meet the sponsor now to explain the range and its basis, and agree how to update the board",
+      "Add a contingency reserve to the design budget so that the $18 million figure can still be met",
+      "Write to the county board directly to correct the sponsor's figure before the bond is drafted"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Ask who communicated the figure, what it was based on, and how soon the misunderstanding will start causing harm.",
+    "why": "A rough estimate made before a site survey carries a wide range, and quoting only its lower bound creates an expectation the project is unlikely to meet; a bond sized on that figure could leave the county short of funds. Nadia should raise this with the sponsor promptly, explain the basis and uncertainty of the estimate, and agree how to present a range to the board, together with the date when the definitive estimate will be ready. Working through the sponsor respects the governance path while correcting the expectation before decisions are locked in.",
+    "how": "Communicate estimates as ranges with their basis and confidence, correct misunderstandings early through the proper channel, and tell stakeholders when and how the estimate will be refined.",
+    "optionNotes": [
+      "Incorrect — Waiting lets the board size the bond on a figure that is probably too low, and the misunderstanding grows harder to fix the longer it stands.",
+      "Correct — Promptly explaining the range and its basis to the sponsor, then agreeing the message to the board, corrects the expectation through the right channel.",
+      "Incorrect — Reserves cover identified risks within an estimate; they cannot turn the lowest point of an early range into a reliable budget.",
+      "Incorrect — Going around the sponsor damages trust and governance; the sponsor should first understand the issue and then lead the correction."
+    ],
+    "deepDive": "Estimates become more accurate as the project is progressively elaborated, which is the idea behind the cone of uncertainty. Commonly cited ranges are roughly −25% to +75% for an early rough order of magnitude estimate and about −5% to +10% for a definitive estimate, although organizations set their own. Documenting the basis of estimates — analogies used, assumptions, exclusions — makes a range defensible and shows stakeholders what will narrow it. The sponsor owns the business case and funding request, so the project manager equips the sponsor rather than competing with them. A frequent exam trap is protecting a quoted number with padding instead of correcting the expectation.",
+    "tags": [
+      "estimates",
+      "expectations",
+      "sponsor",
+      "basis of estimates"
+    ]
+  },
+  {
+    "id": "PEO-064",
+    "domain": "People",
+    "task": "5. Align stakeholder expectations",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Disputed meaning of 'done'",
+    "source": "ECO 2026 · People Task 5 · Definition of Done",
+    "question": "At the last two sprint reviews for a customer-data platform at Oriel Health, developers presented stories as 'done,' but operations manager Kwame Asante refused to deploy them because they had not been security-scanned or documented for the support desk. The developers say those steps were never part of their work; Kwame says they are organizational standards for anything that goes live. Stakeholders are losing confidence in reported progress. What should the project manager facilitate?",
+    "options": [
+      "A rule that operations must review and approve every story before it can be marked as done",
+      "Adding scanning and support notes as acceptance criteria on the stories Kwame has rejected",
+      "A hardening sprint before release to complete the outstanding security scans and support documents",
+      "A shared Definition of Done that includes the scanning and documentation the organization requires"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Is this dispute about what one particular story should do, or about something broader?",
+    "why": "The team and operations disagree about what 'done' means, and the organizational standards say scanning and support documentation are required for anything that goes live. A shared Definition of Done makes that quality standard explicit and applies it to every increment, so progress reported at reviews is real and deployable. It also prevents hidden undone work from piling up before release.",
+    "how": "Disagreement about what 'done' means for all work points to the Definition of Done; disagreement about how a specific story should behave points to its acceptance criteria. Build quality into every increment rather than deferring it.",
+    "optionNotes": [
+      "Incorrect — An approval gate for every story adds a bottleneck and inspects quality in, instead of building the standard into the team's work.",
+      "Incorrect — Acceptance criteria are story-specific; fixing only the rejected stories leaves every future story exposed to the same gap.",
+      "Incorrect — Deferring security and documentation to a hardening sprint accumulates undone work, hides true progress, and increases release risk.",
+      "Correct — Makes the organization's quality standard explicit for every increment, so 'done' means deployable for everyone involved."
+    ],
+    "deepDive": "The Scrum Guide describes the Definition of Done as a formal description of the state of the increment when it meets the quality measures required for the product, and says organizational standards form the minimum the team must follow. Work that does not meet it cannot be released or presented as done at the sprint review. Regular hardening sprints are widely seen as a sign that the Definition of Done is too weak. In hybrid environments, operations acceptance criteria often feed directly into the Definition of Done to ease the transition to support.",
+    "tags": [
+      "Definition of Done",
+      "quality",
+      "operations",
+      "acceptance criteria"
+    ]
+  },
+  {
+    "id": "PEO-065",
+    "domain": "People",
+    "task": "5. Align stakeholder expectations",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Forecasting a range from velocity",
+    "source": "ECO 2026 · People Task 5 · Agile release forecasting",
+    "question": "Sales director Solenne Park demands an exact delivery date for the remaining 120 story points of Arbor Analytics' product backlog so she can promise it to a key customer. The team's velocity over its last six two-week sprints was 18, 24, 21, 26, 22, and 21 points, and no scope changes are expected. What is the BEST way for the project manager to set her expectations?",
+    "options": [
+      "Commit to 5 sprints (10 weeks), based on the team's best recent velocity of 26 points",
+      "Commit to 6 sprints (12 weeks), based on the team's average velocity of 22 points",
+      "Forecast 5 to 7 sprints (10 to 14 weeks) and refine the forecast after every sprint",
+      "Explain that agile teams do not commit to dates, so no delivery date can be given yet"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Use the fastest and slowest observed velocities, and remember that a forecast is not a promise.",
+    "why": "Best case: 120 ÷ 26 = 4.6, rounded up to 5 sprints (10 weeks). Worst case: 120 ÷ 18 = 6.7, rounded up to 7 sprints (14 weeks). The average (132 ÷ 6 = 22 points, and 120 ÷ 22 = 5.5, so 6 sprints) sits in the middle but hides the real variation, so a range of 5 to 7 sprints, refined as each sprint's actual velocity comes in, is both honest and useful.",
+    "how": "Agile forecasting divides remaining work by the observed velocity range and rounds up to whole iterations, giving a range of dates. Communicate ranges, update them every iteration, and never convert a forecast into a promise.",
+    "optionNotes": [
+      "Incorrect — Using only the best velocity turns an optimistic case into a commitment; 120 ÷ 26 = 4.6 fits five sprints only if every sprint is the fastest.",
+      "Incorrect — The average gives 120 ÷ 22 = 5.5, so 6 sprints, but a single-point commitment hides the variation from 18 to 26 points.",
+      "Correct — The velocity range gives 120 ÷ 26 ≈ 5 to 120 ÷ 18 ≈ 7 sprints, an honest forecast that narrows as data accumulates.",
+      "Incorrect — Agile teams can and should forecast from empirical data; refusing to give any date damages trust with the stakeholder."
+    ],
+    "deepDive": "Richer forecasting tools include burnup charts with optimistic and pessimistic trend lines and Monte Carlo simulation using historical velocity or throughput, which can express the forecast as a probability, such as 85% confidence by sprint 7. The cone of uncertainty explains why the range narrows as the project progresses and more data accumulates. Predictive projects handle the same issue with three-point estimates and schedule reserves. The exam trap is presenting the average or best case as a firm date, which turns uncertainty into a broken promise later.",
+    "tags": [
+      "velocity",
+      "forecasting",
+      "release planning",
+      "calculation"
+    ]
+  },
+  {
+    "id": "PEO-066",
+    "domain": "People",
+    "task": "5. Align stakeholder expectations",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Bridging PMO and agile reporting",
+    "source": "ECO 2026 · People Task 5 / Business Environment Task 1 · Hybrid governance reporting",
+    "question": "At Quillon Aerospace, the PMO requires monthly stage-gate reports showing percent complete against milestones. On a hybrid program to build maintenance-planning tools, the hardware work follows a predictive plan, while the software is delivered by a Scrum team working from a product backlog in two-week sprints. The PMO director complains that the software figures 'never match our template' and is starting to question whether the team is in control. What should the project manager do?",
+    "options": [
+      "Work with the PMO to agree hybrid reporting, such as mapping releases to milestones with burnups",
+      "Have the Scrum team keep a detailed predictive schedule beside the backlog to report percent complete",
+      "Explain to the PMO director that agile teams cannot report their progress against milestone dates",
+      "Produce the PMO report separately from the sprint data and accept that the two sets will not match"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "The PMO's need for oversight is legitimate — and so is the team's way of working.",
+    "why": "The PMO's need for visibility is legitimate, and so is the team's adaptive way of working. Agreeing with the PMO on a tailored reporting approach — for example, mapping planned releases to the stage-gate milestones and showing progress with release burnups — gives governance meaningful, evidence-based status without forcing the team into a parallel predictive plan. Agreeing it collaboratively also rebuilds the director's confidence.",
+    "how": "In hybrid governance questions, look for tailoring that satisfies both the governance body and the delivery team, agreed with the governance body rather than imposed on either side.",
+    "optionNotes": [
+      "Correct — Tailors reporting so governance sees meaningful progress against milestones while the team keeps its adaptive delivery practices.",
+      "Incorrect — Maintaining a duplicate predictive schedule is wasteful and distorts how the team works just to fit a report template.",
+      "Incorrect — Agile progress can be related to milestones; dismissing the PMO's legitimate need for oversight damages trust further.",
+      "Incorrect — Two sets of numbers that disagree destroy credibility with governance and make the control concern worse."
+    ],
+    "deepDive": "A release burnup shows total scope and completed work over time, so both progress and scope change are visible — a good fit for executive reporting. Other bridges include milestone-to-release maps, feature-level percent complete based on accepted stories, and agile earned value, which uses story points to compute schedule and cost indices. PMBOK 7 treats tailoring as a core principle: the governance approach itself can be adapted to the delivery approach. The exam trap is an answer that forces one side's format onto the other instead of agreeing a translation.",
+    "tags": [
+      "hybrid",
+      "PMO",
+      "burnup",
+      "reporting",
+      "governance"
+    ]
+  },
+  {
+    "id": "PEO-067",
+    "domain": "People",
+    "task": "5. Align stakeholder expectations",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Conflicting expectations across user groups",
+    "source": "ECO 2026 · People Task 5 · Categorize stakeholders and identify expectations",
+    "question": "On a records-system project at Saint Aldric Medical Center, clinicians want as few clicks as possible, finance staff want detailed cost tracking on every order, and IT security wants strict access controls with frequent re-authentication. Each group has sent its demands directly to the project manager, and some appear to conflict. Requirements workshops start next week. What should the project manager do FIRST to align these stakeholders?",
+    "options": [
+      "Document each group's expectations, find the real conflicts, and facilitate agreement on priorities",
+      "Implement the security requirements first, since they are mandatory, and then address other needs",
+      "Configure a separate version of the system for each group so every group gets what it asked for",
+      "Ask the sponsor to decide which group's needs matter most, and then design the system around that group"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "You cannot align expectations you have not yet made explicit.",
+    "why": "Aligning expectations starts with making them explicit: capturing what each group expects, categorizing the stakeholders, and separating real conflicts from perceived ones. With that picture, the project manager can facilitate a structured discussion on priorities, often finding integrated solutions such as single sign-on with role-based access. Imposing an order, splitting the system, or escalating would all happen before anyone understands the actual conflicts.",
+    "how": "To align expectations: identify and categorize stakeholders, document their expectations, find the true conflicts, facilitate agreement, and record the outcomes in requirements, acceptance criteria, and a decision log.",
+    "optionNotes": [
+      "Correct — Making expectations explicit reveals which conflicts are real and sets up a facilitated, shared agreement on priorities.",
+      "Incorrect — Security matters, but acting before analysis ignores other legitimate needs and may create conflicts that a combined design would avoid.",
+      "Incorrect — Separate versions add cost and complexity and leave the underlying conflicts between the groups unresolved.",
+      "Incorrect — Escalating to the sponsor is premature; the project manager should analyze and facilitate before asking for a ruling."
+    ],
+    "deepDive": "Many apparent conflicts disappear once explored: single sign-on with badge tap-in and role-based access can satisfy both clinicians' need for speed and security's need for control. Helpful tools include stakeholder categorization (power-interest grids, the salience model), requirements workshops, and prioritization techniques. In agile contexts the same work happens through product discovery and backlog refinement with representatives of each user group. The exam trap is picking a decisive-sounding action, such as prioritizing the 'mandatory' requirement, before the expectations have been documented and analyzed.",
+    "tags": [
+      "expectations",
+      "requirements",
+      "facilitation",
+      "healthcare"
+    ]
+  },
+  {
+    "id": "PEO-068",
+    "domain": "People",
+    "task": "6. Manage stakeholder expectations",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Satisfaction falling despite on-time delivery",
+    "source": "ECO 2026 · People Task 6 · Monitor stakeholder satisfaction",
+    "question": "Kerrow Utilities, a client of Brightline Systems, rates its satisfaction with a meter-data project every quarter. The latest score dropped from 8.2 to 6.1 out of 10, although every milestone has been met on time and within budget. The survey's free-text comments are brief and vague. Kerrow's program director will decide on renewing the second-phase contract in four months. What should Brightline's project manager do NEXT?",
+    "options": [
+      "Talk with the client's director and users to find the specific causes, then agree actions",
+      "Offer the client a discount on the next milestone payment to restore goodwill before renewal",
+      "Take no action for now, since the project is on schedule and milestones are being met on budget",
+      "Double the number of status reports and meetings so the client feels better informed on progress"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "On-time delivery does not guarantee a satisfied customer — what is actually driving the drop?",
+    "why": "A sharp satisfaction drop signals that expectations are not being met — perhaps communication, perceived quality, or the relevance of what is being delivered — even when schedule and cost are on track. Because the survey comments are too vague to act on, the next step is to gather specific feedback from the client to find the root causes. Only then can the project manager agree targeted actions and check that they work before the renewal decision.",
+    "how": "Monitor, then investigate the root cause, act, and verify. Avoid choosing a solution — concessions, more reports, or nothing at all — before you understand the problem.",
+    "optionNotes": [
+      "Correct — Direct conversations uncover the real causes behind a vague score, so the actions that follow address what the client actually cares about.",
+      "Incorrect — A financial concession chosen without understanding the problem may not help and sets a costly precedent.",
+      "Incorrect — Schedule and cost performance are not the same as stakeholder satisfaction; ignoring the signal puts the renewal at risk.",
+      "Incorrect — More reports and meetings assume the cause is too little information, which nothing in the data supports."
+    ],
+    "deepDive": "Customer satisfaction is part of quality, often described as conformance to requirements plus fitness for use. Useful monitoring tools include surveys, Net Promoter Score, interviews, focus groups, and feedback at reviews, and the findings should update the stakeholder engagement plan. The watermelon effect — green metrics outside, red experience inside — is common when a project tracks outputs such as milestones but not outcomes. The exam trap is answering with a solution before the cause is known.",
+    "tags": [
+      "satisfaction",
+      "root cause",
+      "customer",
+      "feedback"
+    ]
+  },
+  {
+    "id": "PEO-069",
+    "domain": "People",
+    "task": "6. Manage stakeholder expectations",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Stakeholder bypassing the product owner",
+    "source": "ECO 2026 · People Task 6 · Protect the sprint and backlog ownership",
+    "question": "Halden Retail's e-commerce director has started messaging developers directly to request 'small tweaks' to the checkout page, and the developers, keen to keep her happy, have been slipping them into the current sprint. Two sprint goals have now been missed, and the product owner learned about the tweaks only at the sprint review. The director is influential and genuinely enthusiastic about the product. What should the project manager do?",
+    "options": [
+      "Have developers log each tweak in a spreadsheet so the extra work is visible at the next review",
+      "Ask the director to stop contacting the development team directly for the rest of the project",
+      "Coach the director and team to route requests to the product owner, and protect the sprint goal",
+      "Allow the tweaks as long as each one is small, since they keep an influential stakeholder engaged"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Ask who decides what the team works on, and in what order.",
+    "why": "Unplanned work is undermining sprint goals and bypassing the product owner's accountability for the backlog. The project manager, acting as a servant leader, should coach the developers to protect the sprint goal and coach the director to bring ideas to the product owner, who can order them against everything else. This keeps an enthusiastic stakeholder engaged while restoring the team's focus.",
+    "how": "When requests bypass the product owner, route them to the product backlog through the product owner and protect the sprint goal, while keeping the stakeholder's enthusiasm and ideas welcome.",
+    "optionNotes": [
+      "Incorrect — Tracking the tweaks makes them visible but does not stop the disruption or restore the product owner's prioritization.",
+      "Incorrect — Cutting off contact is too harsh and damages a valuable relationship; collaboration with stakeholders is welcome through the right channel.",
+      "Correct — Restores the product owner's role in ordering work and protects the sprint goal while keeping the director engaged.",
+      "Incorrect — Allowing unmanaged additions is scope creep that hides the real cost of changes and has already cost two sprint goals."
+    ],
+    "deepDive": "The Scrum Guide makes the product owner accountable for product backlog management and says that for the product owner to succeed, the organization must respect their decisions. During a sprint, no changes are made that would endanger the sprint goal; new ideas go to the backlog to be ordered. The developers share accountability here because they accepted the requests, so coaching both sides matters. In predictive projects the equivalent is routing informal requests through change control rather than letting them leak into the work.",
+    "tags": [
+      "scope creep",
+      "product owner",
+      "sprint goal",
+      "agile"
+    ]
+  },
+  {
+    "id": "PEO-070",
+    "domain": "People",
+    "task": "6. Manage stakeholder expectations",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Sponsor surprised at the sprint review",
+    "source": "ECO 2026 · People Task 6 · Inspect and adapt at the sprint review",
+    "question": "At a sprint review for a fleet-tracking app at Ostrava Freight, the sponsor watches a demo of the new route-planning screen and says it 'isn't what I expected.' The story met every acceptance criterion the product owner wrote and satisfies the team's Definition of Done. The sponsor goes on to describe a different workflow that the dispatchers actually follow each morning. What should happen NEXT?",
+    "options": [
+      "Point out that the story met its acceptance criteria, so it is accepted and the feedback is noted",
+      "Capture the feedback, explore it with the product owner, and update the product backlog to match",
+      "Replace the product owner, since the acceptance criteria clearly missed what the sponsor intended",
+      "Declare the story rejected and have the team redo it next sprint to match the sponsor's workflow"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "The sprint review exists precisely to discover this kind of gap while it is still cheap to fix.",
+    "why": "The sprint review is an inspect-and-adapt event, and new understanding of how dispatchers work is exactly the feedback it is designed to surface. The story met its agreed criteria, so it is done; the new insight becomes new or updated backlog items that the product owner orders against other work. The team may also use the retrospective to improve how acceptance criteria are written with users.",
+    "how": "Feedback that reveals a new or changed need goes to the product backlog through the product owner; it is not a sprint failure. Inspect the process too, for example how requirements are elicited.",
+    "optionNotes": [
+      "Incorrect — Treating the story as closed and merely noting the feedback dismisses valuable learning from the sponsor about the real workflow.",
+      "Correct — Turns the sponsor's feedback into backlog changes through the product owner, which is exactly how the review is meant to work.",
+      "Incorrect — Replacing the product owner overreacts; the process is working as designed by exposing the gap early.",
+      "Incorrect — The work met its agreed criteria; the change is new learning that the product owner should order, not automatic rework."
+    ],
+    "deepDive": "Early feedback is cheap and late feedback is expensive, which is why agile teams demonstrate working increments frequently. When reviews regularly surface surprises, the root cause is usually that the people who know the work are not involved early enough, so consider inviting dispatchers or the sponsor to backlog refinement and using story mapping or example-based acceptance criteria. Predictive projects find the same gaps later, often during user acceptance testing, when fixes cost more. The exam trap is treating a feedback event as a failure event.",
+    "tags": [
+      "sprint review",
+      "feedback",
+      "acceptance criteria",
+      "backlog"
+    ]
+  },
+  {
+    "id": "PEO-071",
+    "domain": "People",
+    "task": "6. Manage stakeholder expectations",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Client learns of a slip from a vendor",
+    "source": "ECO 2026 · People Task 6 · Timely, honest communication of bad news",
+    "question": "Project manager Lukas Brenner has known for three weeks that the factory acceptance test milestone on a predictive packaging-line project will slip by one month, but he held off telling the client until he could 'find a solution first.' This morning the client's plant director, Noor Haddad, learned about the slip from an equipment vendor and called Lukas, clearly angry. Recovery options are still being evaluated. What should Lukas do NOW?",
+    "options": [
+      "Email Noor a revised schedule today with a short explanation of what caused the slip",
+      "Remind Noor that the vendor should not have shared project information before him",
+      "Ask the team to work overtime to recover the month before discussing the slip with Noor",
+      "Meet Noor promptly, own the late notice, explain the impact, and share recovery options"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Trust has been damaged by silence; think about what rebuilds it.",
+    "why": "The client's anger is about trust as much as about the slip, and the damage came from Lukas withholding bad news. Meeting Noor promptly, acknowledging that she should have heard it from him, explaining the impact, and sharing the recovery options being evaluated is honest, accountable, and solution-oriented. He should then agree a threshold for immediate notification in the communications plan so it does not happen again.",
+    "how": "Share bad news early, even before you have a solution. When trust is damaged: acknowledge the failure, explain the facts and impact, offer options, and commit to a better practice.",
+    "optionNotes": [
+      "Incorrect — An email is too impersonal for a trust-damaging situation and neither acknowledges the late notice nor engages her in the options.",
+      "Incorrect — Blaming the vendor deflects responsibility from the project manager's own communication failure and will anger the client further.",
+      "Incorrect — Delaying the conversation again repeats the original mistake, and overtime may not recover the month anyway.",
+      "Correct — Honest, accountable, face-to-face communication with options is the fastest route to restoring the client's trust."
+    ],
+    "deepDive": "The PMI Code of Ethics' honesty standard expects accurate information to be provided in a timely manner, and withholding a known schedule impact falls short of it. Good communications plans define escalation thresholds, for example that any milestone variance over two weeks is reported to the client within 48 hours. In agile settings, transparency is built in through visible boards and frequent reviews, which makes this kind of surprise much less likely. A healthy project culture is one where bad news travels faster than good news.",
+    "tags": [
+      "bad news",
+      "transparency",
+      "ethics",
+      "communication"
+    ]
+  },
+  {
+    "id": "PEO-072",
+    "domain": "People",
+    "task": "6. Manage stakeholder expectations",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Hypercare expectations after go-live",
+    "source": "ECO 2026 · People Task 6 · Managing expectations during hypercare",
+    "question": "A hybrid project has just launched a field-service scheduling app for Brightwater Utilities. The go-live plan, agreed with operations, sets a four-week hypercare period in which defects are handled by severity: critical ones within four hours, minor ones in scheduled releases. In week one, the operations director complains that 30 of 45 reported issues are still open and says users expect 'everything fixed by Friday.' Twenty-eight of the open issues are minor cosmetic defects. What should the project manager do?",
+    "options": [
+      "Review the open issues with the director against the agreed severity rules and share a daily triage view",
+      "Have the team fix all 30 open issues by Friday so that users keep their confidence in the new app",
+      "Tell the director that the agreed hypercare terms are final and minor issues must wait for scheduled releases",
+      "Extend the hypercare period by a month so that the team has more time to close the open issues calmly"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "The priorities were agreed before go-live; think about how to make them visible and credible to the people who are now frustrated.",
+    "why": "The director's frustration comes from a raw count of open issues, not from the severity rules everyone agreed before go-live. Walking through the open list with her against those rules shows that critical issues are handled within four hours and that almost everything left is cosmetic, and a short daily triage view keeps her and the users informed as issues close. If she believes an issue is more urgent than its rating, it can be reclassified through the agreed triage. This realigns expectations with the plan while treating her concern seriously.",
+    "how": "When stakeholders are frustrated after a release, revisit the agreed criteria together, make status transparent in their terms, and change priorities only through the agreed process.",
+    "optionNotes": [
+      "Correct — Revisiting the agreed severity rules together and providing a daily triage view resets expectations with evidence and keeps the director engaged.",
+      "Incorrect — Rushing 30 fixes overrides the agreed triage, risks new defects in a live system, and teaches users that pressure beats priorities.",
+      "Incorrect — The terms are right, but simply restating them is defensive; it shows no progress and does nothing to learn why users feel unsupported.",
+      "Incorrect — Extending hypercare changes the transition plan without closing the expectation gap, and it needs agreement from operations and the sponsor."
+    ],
+    "deepDive": "Hypercare is a period of heightened support right after go-live, usually with the project team on hand, severity-based response targets and clear exit criteria for handing support to operations. Agreeing severity levels and response times with operations before launch is what makes post-go-live expectations manageable. A simple view of open issues by severity, trend and target turns an alarming count into meaningful information. In agile releases the same principle applies: the product owner orders defect fixes in the backlog against other work rather than treating every report as urgent. The exam trap is either giving in to pressure or hiding behind the agreement without engaging.",
+    "tags": [
+      "hypercare",
+      "go-live",
+      "expectations",
+      "triage",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "PEO-073",
+    "domain": "People",
+    "task": "6. Manage stakeholder expectations",
+    "approach": "Predictive",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Client adding 'small' requirements informally",
+    "source": "ECO 2026 · People Task 6 / Business Environment Task 3 · Change control with clients",
+    "question": "On a fixed-price, fixed-scope predictive project to build a customer portal for Lindqvist Insurance, the client's product manager adds one or two 'small' requirements during each weekly call and expects them in the current delivery. None has been assessed for impact, and the team estimates the last six together add about three weeks of work. The client values the relationship and is otherwise happy. What should the project manager do?",
+    "options": [
+      "Refuse all further changes until the current delivery is complete and has been formally accepted",
+      "Explain the change control process and help the client submit the additions as change requests",
+      "Accept the small changes to protect the relationship, since each one takes the team little effort",
+      "Add the changes to the current delivery and bill the extra effort to the client in the final invoice"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "In predictive projects, changes to the agreed baseline follow a defined path, however small each one seems.",
+    "why": "Individually small additions have already added about three weeks of unassessed work, which is classic scope creep on a fixed-price contract. The change control process evaluates each request's impact on scope, schedule, cost, quality, and risk before an authorized decision is made. Explaining the process and helping the client use it keeps the relationship healthy while protecting the baseline and the contract.",
+    "how": "Change requested → document → analyze impact → decision by the change control board or authorized person → update baselines → communicate. Never implement unapproved changes, and never simply refuse to consider them.",
+    "optionNotes": [
+      "Incorrect — A blanket refusal is too rigid; some of the additions may be valuable and deserve an impact assessment and decision.",
+      "Correct — Uses integrated change control while staying helpful, so each addition is assessed and decided before any work starts.",
+      "Incorrect — Unmanaged additions are scope creep; together they already threaten about three weeks on a fixed-price contract.",
+      "Incorrect — Doing unapproved work and billing it later surprises the client, damages trust, and may breach the contract terms."
+    ],
+    "deepDive": "Integrated change control reviews all change requests, approves or rejects them, and manages changes to deliverables, project documents, and the project management plan, with a change log recording each decision. On fixed-price contracts, scope changes usually require a contract amendment, so the procurement terms matter as well. Adaptive projects handle the same pressure differently: new requests go to the product backlog, and the product owner trades them off against existing items. The exam trap is the 'relationship-friendly' option that quietly absorbs changes.",
+    "tags": [
+      "change control",
+      "scope creep",
+      "client",
+      "fixed price"
+    ]
+  },
+  {
+    "id": "PEO-074",
+    "domain": "People",
+    "task": "6. Manage stakeholder expectations",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Stakeholder needs outgrow the communications plan",
+    "source": "ECO 2026 · People Task 6 · Maintain alignment as needs change",
+    "question": "The communications plan for a hybrid finance-systems program at Aldermoor Group gives regional director Chiara Bellini a monthly written report. The program's second release will now change her region's cost allocations next quarter, so she asks for a short weekly call with the project manager to track decisions that affect her budget. The PMO points out that the communications plan was approved at the start of the program. What should the project manager do?",
+    "options": [
+      "Agree to the weekly call and update the engagement and communications plans",
+      "Send the monthly written report every week instead, so she receives updates more often",
+      "Ask the sponsor whether the director really needs weekly calls before changing anything",
+      "Keep the monthly report, since that is what the approved communications plan specifies"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Plans are living documents, and stakeholder needs change as the project begins to affect them differently.",
+    "why": "Chiara's needs have changed because the program now affects her budget directly, and a short weekly call is a reasonable, low-cost way to keep a key stakeholder aligned. The project manager should adapt and record the new arrangement in the engagement and communications plans so everyone follows the same approach. If those plans are formally controlled components, the update follows the program's change process, but the need itself should be met.",
+    "how": "When a stakeholder's needs change, adapt the approach and update the relevant plans through the agreed process. Do not hide behind an outdated plan or escalate a reasonable request.",
+    "optionNotes": [
+      "Correct — Adapts to a legitimate change in her needs and keeps the plans current so the new arrangement is visible to everyone.",
+      "Incorrect — Sending more paperwork increases volume without providing the interactive discussion of decisions she actually asked for.",
+      "Incorrect — Escalating a reasonable, low-cost request wastes the sponsor's time and signals that her needs are a burden.",
+      "Incorrect — Rigidly following an outdated plan disengages a stakeholder whose budget the program is about to affect."
+    ],
+    "deepDive": "The stakeholder engagement plan and the communications management plan are living documents, revisited when stakeholders' involvement, interests, or influence change — for example when a release begins to affect a new group. If they are baselined components of the project management plan, significant changes go through change control, but routine updates are usually within the project manager's authority. In hybrid programs, stakeholders affected by specific releases often need a tighter cadence around those releases. The exam trap is treating the approved plan as a reason not to adapt.",
+    "tags": [
+      "communications plan",
+      "engagement plan",
+      "adaptation",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "PEO-075",
+    "domain": "People",
+    "task": "6. Manage stakeholder expectations",
+    "approach": "Agile",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Comparing teams by velocity",
+    "source": "ECO 2026 · People Task 6 · Agile practice: velocity is team-specific",
+    "question": "At Verdana Learning, four Scrum teams build different parts of an online course platform. The vice president of engineering has noticed that Team A averages 62 story points per sprint while Team D averages 24. She plans to publish a monthly velocity league table, set every team a target of 60 points, and link quarterly bonuses to it. The teams estimate independently, each using its own reference stories. What should the project manager do?",
+    "options": [
+      "Normalize the four teams' story points to a common scale so that the league table compares like with like",
+      "Support the target, since a visible stretch goal should push the slower teams to match Team A's pace",
+      "Ask Team D to re-estimate its backlog using Team A's reference stories so its figures are comparable",
+      "Explain that velocity is each team's own planning aid, and suggest value and outcome measures instead"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Ask what would happen to story-point estimates once people are paid according to them.",
+    "why": "Story points are relative estimates calibrated within each team, so 62 points for Team A and 24 for Team D say nothing about which team delivers more value. Turning velocity into a target tied to bonuses invites point inflation and quality shortcuts, which would destroy its usefulness for forecasting. The project manager should help the vice president understand what velocity is for and offer measures that answer her real question, such as outcomes achieved, customer satisfaction, cycle time and predictability against each team's own forecasts.",
+    "how": "When a stakeholder misuses an agile metric, explain its purpose and limits, point out the behavior a target would create, and offer measures that address what the stakeholder actually wants to know.",
+    "optionNotes": [
+      "Incorrect — Normalized points still become a target once bonuses depend on them, so inflation and gaming would follow; the underlying misuse remains.",
+      "Incorrect — A points target rewards inflating estimates rather than delivering more value, and it would make every team's forecasts unreliable.",
+      "Incorrect — Imposing another team's scale disrupts Team D's forecasting and still feeds a comparison that velocity was never designed for.",
+      "Correct — Clarifies what velocity can and cannot show and steers the executive toward measures that reflect value and delivery performance."
+    ],
+    "deepDive": "Velocity is the amount of work a team completes in a sprint, measured in its own units; it is useful for that team's release forecasting and little else. Goodhart's law applies directly: when a measure becomes a target, it stops being a good measure, and a team can double its velocity overnight simply by re-estimating. Better cross-team signals include business outcomes, lead and cycle time, escaped defects, stakeholder satisfaction and how reliably teams meet their own sprint goals. Some scaled frameworks normalize story points for portfolio-level forecasting, but not for ranking or rewarding teams. The exam trap is any answer that turns velocity into a performance target.",
+    "tags": [
+      "velocity",
+      "metrics",
+      "expectations",
+      "agile",
+      "gaming"
+    ]
+  }
+]

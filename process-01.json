@@ -1,0 +1,906 @@
+[
+  {
+    "id": "PRO-001",
+    "domain": "Process",
+    "task": "1. Develop an integrated project management plan and plan delivery",
+    "approach": "Agile",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Selecting a delivery approach",
+    "source": "ECO 2026 · Process Task 1 (recommend approach) · PMBOK 8 tailoring",
+    "question": "Lumora Fitness, an equipment retailer, wants a subscription mobile app for home-workout customers, a segment it has never served. Marketing cannot say which features people will pay for, and the sponsor expects needs to shift once early users try the app. The four developers have built similar apps on the same technology stack many times. The sponsor asks the project manager to recommend a delivery approach. Which approach is MOST appropriate?",
+    "options": [
+      "Predictive: extend requirements gathering with focus groups until the feature list can be signed off and baselined",
+      "Adaptive: deliver working increments in short iterations and reorder the backlog from real users' feedback",
+      "Predictive: build the complete app to a fixed specification, then run one beta test with customers before launch",
+      "Iterative: refine prototypes internally with staff only, and release to customers once the design is final"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Ask where the uncertainty lies — in the requirements or in the technology — and what would actually reduce it.",
+    "why": "The uncertainty here is about requirements and value, not technology: nobody knows which features customers will pay for, and needs are expected to shift. An adaptive approach reduces that uncertainty by putting working increments in front of real users early and reordering the backlog from what they do. Familiar technology removes the main technical risk, so short feedback cycles are cheap and safe.",
+    "how": "Match the life cycle to the type of uncertainty: stable requirements and a high cost of change favor predictive; unclear or evolving requirements favor adaptive; a mix across components favors hybrid.",
+    "optionNotes": [
+      "Incorrect — More up-front analysis cannot settle what only real usage reveals; the signed-off list would be a guess that later changes make expensive.",
+      "Correct — Short iterations with real-user feedback resolve requirements uncertainty fastest and let the product owner steer toward features customers value.",
+      "Incorrect — A single beta at the end delays learning until most of the budget is spent, raising the risk of building the wrong app.",
+      "Incorrect — Iterating is right, but internal staff are not the target customers; feedback from the actual market is what the team lacks."
+    ],
+    "deepDive": "A Stacey-style view plots requirements uncertainty against technical uncertainty: low on both suits predictive, high requirements uncertainty suits adaptive, and very high on both calls for short experiments. PMI also weighs product factors (innovation, ease of change, delivery options, safety, regulation), project factors (stakeholders, schedule, funding) and organizational factors (culture, capability, team location). A common exam trap is treating more planning as a cure for requirements uncertainty; planning helps with complicated work, not with unknown customer preferences. Iterating without real users also misses the point, because the aim is validated learning about value.",
+    "tags": [
+      "delivery approach",
+      "agile",
+      "Stacey matrix",
+      "tailoring",
+      "uncertainty"
+    ]
+  },
+  {
+    "id": "PRO-002",
+    "domain": "Process",
+    "task": "1. Develop an integrated project management plan and plan delivery",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "When predictive fits",
+    "source": "ECO 2026 · Process Task 1",
+    "question": "Vardø Grid Services is building a new 132 kV electrical substation. The design follows national engineering standards, the protection equipment has a 40-week manufacturing lead time, and any design change after civil works start needs re-approval by the energy regulator plus costly rework. A newly hired team lead suggests running the whole project in two-week sprints 'to stay flexible.' Which delivery approach should the project manager recommend?",
+    "options": [
+      "Adaptive: two-week sprints with a demo to the utility at each review, so the design can evolve as work proceeds",
+      "Iterative: refine the substation design with the regulator over several prototype cycles before committing to it",
+      "Predictive: complete the design and approvals up front, then baseline scope, schedule and cost for execution",
+      "Flow-based Kanban: pull construction work items onto the site whenever crew capacity becomes available"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Consider how stable the requirements are and what a late change would cost on this kind of work.",
+    "why": "Requirements are fixed by engineering standards, the design is well understood, long-lead equipment must be ordered against a firm specification, and changes after construction starts trigger re-approval and rework. Those are the classic conditions for a predictive life cycle: invest in design and approvals up front, baseline, then control changes formally. Sprints would add ceremony without reducing any real uncertainty.",
+    "how": "Predictive clues: known and stable scope, physical construction, long-lead procurement, strict regulatory approval, and a high cost of change late in the life cycle.",
+    "optionNotes": [
+      "Incorrect — Sprints help when requirements are uncertain; here scope is fixed by standards and physical changes after construction starts are very expensive.",
+      "Incorrect — The standards already define the design; repeated prototype cycles with the regulator add delay without resolving any real unknowns.",
+      "Correct — Stable, regulated requirements with long-lead equipment and a high cost of change are best served by thorough up-front design and baselines.",
+      "Incorrect — Kanban suits a continuous flow of similar work items such as maintenance tickets, not a one-off regulated build with fixed sequencing."
+    ],
+    "deepDive": "Predictive does not ban agile ideas: the substation's protection-and-control software or its commissioning scripts could still be built iteratively, which would make the overall project hybrid. The cost-of-change curve explains the choice — when late change is very expensive, front-loading design is cheaper than discovering problems during construction. A common exam trap is treating 'flexibility' as a goal in itself; the approach should be tailored to the kind of uncertainty and the cost of change. Long-lead procurement is another strong predictive signal because orders must be placed against a firm specification.",
+    "tags": [
+      "predictive",
+      "delivery approach",
+      "construction",
+      "cost of change",
+      "regulation"
+    ]
+  },
+  {
+    "id": "PRO-003",
+    "domain": "Process",
+    "task": "1. Develop an integrated project management plan and plan delivery",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Hybrid approach",
+    "source": "ECO 2026 · Process Task 1",
+    "question": "Qirra MedTech is developing a wearable infusion pump and a companion smartphone app. The pump's custom circuit boards take 16 weeks to manufacture, and regulatory design controls require documented design reviews and verification before submission. The app's dashboards will change as clinicians use early versions in a pilot ward. The steering committee asks the project manager to recommend a delivery approach for the project. What should the project manager recommend?",
+    "options": [
+      "Hybrid: predictive for the pump and regulatory milestones, iterative for the app, with planned integration points",
+      "Fully agile for both parts, so the pump hardware and the app evolve together from each round of clinician feedback",
+      "Fully predictive for both parts, so a single integrated baseline and design history file satisfies the regulator",
+      "Each team picks its own approach, and the pump and app are integrated for the first time during final system testing"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Look at each component separately: how uncertain are its requirements, and how costly is it to change?",
+    "why": "The two components have opposite characteristics. The pump has long manufacturing lead times and formal design controls, so its requirements must be fixed and verified early; the app's value depends on clinician learning, so it benefits from short iterations. A hybrid life cycle tailors the approach per component while planned integration points and shared governance keep them compatible for regulatory submission.",
+    "how": "When components differ sharply in uncertainty and cost of change, recommend a hybrid approach — but always plan the integration and governance that tie the parts together.",
+    "optionNotes": [
+      "Correct — Tailors the life cycle to each component's uncertainty and cost of change, while planned integration points keep the pump and app aligned.",
+      "Incorrect — Sixteen-week board lead times and formal design controls make frequent hardware change impractical and would jeopardize regulatory verification.",
+      "Incorrect — Freezing the app's requirements up front ignores the clinician learning that will determine which dashboards actually deliver value.",
+      "Incorrect — Choosing approaches per team is reasonable, but leaving integration to final testing invites late, expensive incompatibilities between pump and app."
+    ],
+    "deepDive": "PMI describes several hybrid patterns: sequential (for example, predictive design followed by agile build), parallel (different components on different life cycles, as here) and blended (a predictive framework using agile practices such as daily stand-ups). In regulated medical products, the app can still be developed iteratively as long as design controls, traceability and verification records are maintained for each release. The common exam trap is choosing 'fully agile' or 'fully predictive' for the whole project when the scenario signals mixed characteristics. Another trap is picking a hybrid option that forgets integration — hybrid needs more coordination, not less.",
+    "tags": [
+      "hybrid",
+      "tailoring",
+      "medical device",
+      "integration",
+      "regulation"
+    ]
+  },
+  {
+    "id": "PRO-004",
+    "domain": "Process",
+    "task": "1. Develop an integrated project management plan and plan delivery",
+    "approach": "Any",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Tailoring",
+    "source": "ECO 2026 · Process Task 1 (assess needs and complexity) · PMBOK 8",
+    "question": "At Brightwater Insurance, the PMO methodology lists 22 mandatory documents for every project. Amara Nwosu is leading a six-week, low-risk internal improvement to the claims-intake form with a co-located team of four and a budget well below the PMO's small-project threshold. Two team members point out that completing the full document set would take longer than the change itself. What should Amara do?",
+    "options": [
+      "Produce all 22 documents, because consistent use of the methodology is what the internal auditors will check",
+      "Ask the sponsor to exempt the whole project from the methodology because it is small and low risk",
+      "Skip formal documentation, since a small co-located team can coordinate the work informally",
+      "Tailor the processes and artifacts to the project's size and risk, and agree the tailoring with the PMO"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Think about how PMI expects a methodology to be applied to projects of very different size and risk.",
+    "why": "Tailoring means adapting processes, artifacts and practices to the project's size, complexity, risk and environment. A six-week, low-risk change needs only the artifacts that add value (for example scope, risks and decisions), and agreeing that tailoring with the PMO keeps governance and audit trails intact. This avoids both over-processing and uncontrolled informality.",
+    "how": "Tailoring is expected, not a loophole: assess the context, keep what adds value, and document and agree the tailoring decisions with the relevant governance body.",
+    "optionNotes": [
+      "Incorrect — Applying every artifact regardless of context over-processes a small project; auditors look for appropriate, agreed control rather than maximum paperwork.",
+      "Incorrect — Seeking a full exemption goes too far; the methodology already allows tailoring, and some governance is still needed.",
+      "Incorrect — Even small projects need minimal records of scope, risks and decisions, and dropping them bypasses the PMO without agreement.",
+      "Correct — Right-sizing processes to the context and agreeing it with the PMO delivers efficiency while keeping governance and compliance intact."
+    ],
+    "deepDive": "PMI's tailoring flow is to select the initial development approach, tailor for the organization, tailor for the project, and then keep improving through retrospectives and lessons learned. Tailoring can add rigor as well as remove it — a safety-critical project may need more documentation than the standard set. The PMBOK 8 principles such as 'Focus on value' and 'Adopt a holistic view' guide these choices. A frequent exam trap is treating the methodology as either untouchable or optional; the best answer is usually a deliberate, documented, approved adaptation.",
+    "tags": [
+      "tailoring",
+      "PMO",
+      "methodology",
+      "governance"
+    ]
+  },
+  {
+    "id": "PRO-005",
+    "domain": "Process",
+    "task": "1. Develop an integrated project management plan and plan delivery",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Project management plan components",
+    "source": "ECO 2026 · Process Task 1",
+    "question": "During a PMO audit of the Harbor Line tram-extension project, the reviewer asks Keanu Makoa which items in his project folder are components of the project management plan and therefore fall under the plan's change control once baselined. The folder holds the risk management plan, the change management plan, the signed project charter and the approved scope baseline. Which item is NOT a component of the project management plan?",
+    "options": [
+      "The risk management plan",
+      "The change management plan",
+      "The signed project charter",
+      "The approved scope baseline"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Consider which document has to exist before planning can even begin, and who owns it.",
+    "why": "The project charter is issued by the sponsor to authorize the project and the project manager's authority. It is an input to developing the project management plan, not one of its components, and changes to it are made by the sponsor rather than through the plan's change control. The risk and change management plans are subsidiary plans, and the scope baseline is one of the plan's baselines.",
+    "how": "Project management plan = subsidiary management plans + baselines (scope, schedule, cost, performance measurement) + change and configuration management plans, life cycle and development approach. Charters, business cases and project documents sit outside it.",
+    "optionNotes": [
+      "Incorrect — The risk management plan is a subsidiary plan and therefore part of the project management plan.",
+      "Incorrect — The change management plan is a component; it describes how change requests are handled throughout the project.",
+      "Correct — The charter authorizes the project and precedes planning; it is an input to the plan, owned by the sponsor.",
+      "Incorrect — The scope baseline (scope statement, WBS and WBS dictionary) is one of the plan's baselines."
+    ],
+    "deepDive": "Project documents such as the issue log, risk register, stakeholder register and lessons learned register are also separate from the project management plan; they are updated as work progresses without formal change control. Baselined plan components can only change through approved change requests. In agile settings the equivalent of the plan is lighter — a product vision, roadmap, release plan and working agreements — but the charter still provides authorization. A common trap is assuming anything called a 'plan' or anything signed must be part of the project management plan.",
+    "tags": [
+      "project management plan",
+      "charter",
+      "baselines",
+      "change control"
+    ]
+  },
+  {
+    "id": "PRO-006",
+    "domain": "Process",
+    "task": "1. Develop an integrated project management plan and plan delivery",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Analogous estimating",
+    "source": "ECO 2026 · Process Task 1 (estimate effort)",
+    "question": "Two days after a project idea is proposed at Kestrel Logistics, the sponsor asks Priya Raman for a rough duration estimate to present to the steering committee tomorrow. No WBS or activity list exists yet. Last year the company completed a warehouse-scanner rollout of similar size and complexity, and its actual schedule is stored in the lessons-learned repository. Which estimating technique should Priya use?",
+    "options": [
+      "Analogous estimating, scaling the actual duration of last year's similar rollout",
+      "Bottom-up estimating, summing duration estimates for each work package",
+      "Parametric estimating, applying a validated productivity rate to measured quantities",
+      "Three-point estimating, weighting optimistic, likely and pessimistic durations per activity"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Match the technique to how much detail exists today and how quickly the number is needed.",
+    "why": "With no WBS, no activity list and a one-day deadline, Priya needs a fast top-down estimate. Analogous estimating uses the actual duration of a similar past project, adjusted for known differences, which is quick and cheap though less accurate. The historical data from the lessons-learned repository makes it the natural choice.",
+    "how": "Match the technique to the information available: analogous (top-down, fast, least accurate, needs a similar past project); parametric (rate × quantity from a validated model); bottom-up (sum of detailed estimates, most accurate, slowest); three-point (explicit uncertainty from optimistic, most likely and pessimistic values).",
+    "optionNotes": [
+      "Correct — A fast, top-down estimate based on a similar completed project fits early initiation when little detail exists.",
+      "Incorrect — Bottom-up needs decomposed work packages, which do not exist yet, and would take far longer than one day.",
+      "Incorrect — Parametric needs a validated model and measured quantities such as units or square meters; neither is available this early.",
+      "Incorrect — Three-point estimates are made per activity, so they also need a level of detail the project does not yet have."
+    ],
+    "deepDive": "Estimate accuracy improves as the project progresses: a rough order of magnitude estimate in initiation is often quoted as −25% to +75%, while a definitive estimate later may be −5% to +10%. Analogous estimates should be presented as a range, with the key assumptions, so the steering committee does not treat them as commitments. In agile, relative estimating (story points, affinity estimation) plays a similar role for early release forecasting. A common trap is choosing the most accurate technique rather than the one that fits the available information and time.",
+    "tags": [
+      "analogous estimating",
+      "estimation",
+      "ROM",
+      "historical data"
+    ]
+  },
+  {
+    "id": "PRO-007",
+    "domain": "Process",
+    "task": "1. Develop an integrated project management plan and plan delivery",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Rolling wave planning",
+    "source": "ECO 2026 · Process Task 1",
+    "question": "Novaterra Labs is planning a two-year project to build a pilot biofuel research facility. The first six months — site preparation and laboratory fit-out — are well understood. Which fermentation equipment is needed later depends on the results of early experiments. The sponsor still wants an overall plan for the funding decision. Which planning approach should the project manager use?",
+    "options": [
+      "Decompose all phases to activity level now and baseline them, then handle unknowns later through change control",
+      "Detail the near-term work and hold later phases as planning packages, elaborating them as results arrive",
+      "Plan only the first six months and leave later phases unplanned until the experiments are complete",
+      "Fast-track the later phases so they overlap the early experiments and recover some schedule time"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "How can the plan be both complete enough for funding and honest about what is not yet known?",
+    "why": "Rolling wave planning is progressive elaboration in practice: work in the near term is planned in detail, while later work is held at a higher level, such as planning packages, and refined as information emerges. It gives the sponsor an overall plan for funding without the false precision of detailing work that depends on unknown experiment results.",
+    "how": "When near-term work is clear but later work depends on future information, use rolling wave planning: detail the next wave and keep the rest at summary level until it can be elaborated.",
+    "optionNotes": [
+      "Incorrect — Detailing work that depends on unknown results creates false precision, wasted planning effort and a stream of avoidable change requests.",
+      "Correct — Detailed near-term planning plus planning packages for later phases gives a full picture now and refines it as knowledge grows.",
+      "Incorrect — The sponsor needs an overall plan for funding and resources; leaving later phases blank hides their cost and risk.",
+      "Incorrect — Fast tracking is a schedule compression technique; overlapping work with the experiments it depends on would add risk, not planning clarity."
+    ],
+    "deepDive": "In a WBS, a planning package sits below a control account and above work packages: its content is known broadly but it has no detailed schedule activities yet. Rolling wave planning is the predictive cousin of agile backlog refinement, where items near the top are detailed and lower items stay coarse. Both reflect progressive elaboration — plans become more detailed as information improves. A common trap is to confuse 'uncertain later work' with 'no need to plan'; stakeholders still need a high-level view for budgets and resources.",
+    "tags": [
+      "rolling wave",
+      "progressive elaboration",
+      "planning package",
+      "uncertainty"
+    ]
+  },
+  {
+    "id": "PRO-008",
+    "domain": "Process",
+    "task": "1. Develop an integrated project management plan and plan delivery",
+    "approach": "Any",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Charter authorization",
+    "source": "ECO 2026 · Process Task 1 / Business Environment Task 1",
+    "question": "At Solenne Retail, the chief information officer has asked Tomás Oliveira to lead a new loyalty-platform project and has agreed to fund it. Tomás drafted the project charter with the business lead, but two functional managers say they will not release staff until the project is 'official.' Tomás wants the charter signed so that he has authority to apply organizational resources. Who should sign the charter?",
+    "options": [
+      "The functional managers, since they will provide most of the staff and equipment",
+      "Tomás himself, as the project manager who drafted it and will lead the project",
+      "The core project team, to show collective commitment to the project's objectives",
+      "The sponsor, who is external to the project and has authority to fund it"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Authorization must come from someone outside the project who controls the money.",
+    "why": "The charter is issued by the project initiator or sponsor — here the CIO — who is external to the project and has the authority to fund it and commit resources. Signing it formally authorizes the project and names Tomás as project manager with authority to use organizational resources. Project managers often help draft the charter, but they cannot authorize their own project.",
+    "how": "The sponsor or initiator issues and signs the charter; the project manager should be assigned as early as possible, ideally while the charter is being developed.",
+    "optionNotes": [
+      "Incorrect — Functional managers supply resources but normally lack authority to launch and fund a project; their release of staff follows the sponsor's authorization.",
+      "Incorrect — The project manager may draft the charter, but self-authorization carries no organizational weight and would not convince the functional managers.",
+      "Incorrect — Team commitment matters, but the team is not the authorizing body and cannot commit organizational funding.",
+      "Correct — The sponsor sits outside the project, controls its funding and can formally authorize it and the project manager's authority."
+    ],
+    "deepDive": "Typical charter contents include the purpose, measurable objectives and success criteria, high-level requirements and boundaries, key deliverables, overall risk, summary milestones, pre-approved financial resources, key stakeholders, approval and exit criteria, and the assigned project manager's authority. In agile settings a team or product charter captures the vision, working agreements and success measures, but funding authority still rests with a sponsor or governance body. A common trap is choosing the person who wrote the charter rather than the person with authority to approve it.",
+    "tags": [
+      "charter",
+      "sponsor",
+      "authorization",
+      "governance"
+    ]
+  },
+  {
+    "id": "PRO-009",
+    "domain": "Process",
+    "task": "1. Develop an integrated project management plan and plan delivery",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Business case vs. charter",
+    "source": "ECO 2026 · Process Task 1 / Process Task 3",
+    "question": "A new PMO analyst at Corvalis Foods merges the business case and the project charter for a packaging-line upgrade into one document 'to save paperwork.' The sponsor objects, saying the two documents serve different purposes and are used at different points in the decision process. The project manager is asked to explain the difference to the analyst. Which explanation is correct?",
+    "options": [
+      "The charter is prepared by the PMO to track benefits; the business case is prepared by the PM to guide planning",
+      "They are interchangeable; the sponsor simply prefers two documents for the same authorization decision",
+      "The business case justifies the investment and its benefits; the charter formally authorizes the project",
+      "The business case formally authorizes the project; the charter justifies it with the costs and benefits"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "One document answers 'should we invest?' — the other answers 'are we cleared to start?'",
+    "why": "The business case explains why the investment is worthwhile: the need, the options considered, costs, benefits and often NPV or ROI. Once the organization decides to invest, the sponsor issues the charter, which draws on the business case to formally authorize the project and the project manager's authority. Merging them blurs the investment decision and the authorization.",
+    "how": "Business documents (business case, benefits management plan) justify and track value and usually sit outside the project; the charter is the authorization that starts it.",
+    "optionNotes": [
+      "Incorrect — Business cases are usually owned by the business or sponsor, and the charter authorizes the project rather than tracking benefits.",
+      "Incorrect — The documents have different purposes, owners and timing; they are not two names for one authorization.",
+      "Correct — Justification of value comes first in the business case; formal authorization of the project and the PM follows in the charter.",
+      "Incorrect — This reverses the roles: the business case justifies, and the charter authorizes."
+    ],
+    "deepDive": "The business case and benefits management plan are revisited throughout the project, especially at phase gates, to confirm the investment is still worthwhile. A solid business case estimates the initial investment, projects the future cash flows the project will generate, evaluates them with payback, NPV and IRR, and tests how sensitive the result is to the key assumptions. In agile programs a lean business case or product vision may replace a thick document, but the separation between justification and authorization remains. A common trap is reversing the two documents' roles.",
+    "tags": [
+      "business case",
+      "charter",
+      "benefits",
+      "authorization"
+    ]
+  },
+  {
+    "id": "PRO-010",
+    "domain": "Process",
+    "task": "1. Develop an integrated project management plan and plan delivery",
+    "approach": "Predictive",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Kickoff meeting",
+    "source": "ECO 2026 · Process Task 1",
+    "question": "Planning for the Ashgrove hospital wing refit is complete: the plan is baselined, the contractors are appointed and the charter was signed three months ago. Jana Kowalski is preparing the kickoff meeting for the team, the contractors and key hospital stakeholders. A newly appointed sponsor representative asks what the meeting is meant to achieve. What is its main purpose?",
+    "options": [
+      "To align everyone on objectives, plan and roles and gain their commitment to execution",
+      "To quantify the major project risks and agree the contingency reserves with the sponsor",
+      "To confirm that all contracts are signed and that vendors understand their obligations",
+      "To obtain the sponsor's formal approval of the charter and the project manager's authority"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Consider where this meeting sits in the life cycle and what has already been decided before it.",
+    "why": "In a predictive project the kickoff usually marks the move from planning into execution. Its purpose is to align the team and stakeholders on objectives, the plan, roles and expectations, and to build commitment before work starts. The charter, risk analysis and contracts are already in place by this point.",
+    "how": "Kickoff = alignment and commitment at the start of execution. Charter approval happens earlier, and detailed risk analysis and reserve setting are planning activities.",
+    "optionNotes": [
+      "Correct — The kickoff aligns team and stakeholders on objectives, plan and roles and secures their commitment as execution begins.",
+      "Incorrect — Quantitative risk analysis and contingency reserves are set during planning, which is already complete and baselined.",
+      "Incorrect — Contracts are managed through procurement processes; the contractors are already appointed, so the kickoff is not for confirming signatures.",
+      "Incorrect — The charter was approved three months ago; it authorizes the project before planning, not at the kickoff."
+    ],
+    "deepDive": "Large or distributed projects may hold separate kickoffs — for example an internal one for the team and an external one with customers and contractors — and multi-phase projects often hold a kickoff at the start of each phase. In agile, the equivalent alignment happens through chartering workshops, a product vision session and release planning, repeated lightly at each iteration through sprint planning. A common exam trap is confusing the kickoff with charter approval or with detailed planning sessions.",
+    "tags": [
+      "kickoff",
+      "alignment",
+      "execution",
+      "stakeholders"
+    ]
+  },
+  {
+    "id": "PRO-011",
+    "domain": "Process",
+    "task": "1. Develop an integrated project management plan and plan delivery",
+    "approach": "Any",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Assumptions proven false",
+    "source": "ECO 2026 · Process Task 1",
+    "question": "The plan for Tidewell Bank's mobile-onboarding release assumed that a partner's identity-verification API would be available by June. In April, the partner announces that the API will not ship until September. The release is scheduled for July, and marketing has already booked the launch campaign. The sponsor is traveling until next week. What should the project manager do FIRST?",
+    "options": [
+      "Ask the partner to bring the API release forward so the original plan can go ahead",
+      "Remove the identity-verification feature from scope to protect the July go-live",
+      "Update the assumption log, analyze the impact, and develop response options",
+      "Tell marketing to move the launch to September to match the partner's new date"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "An assumption that has just proven false has become something else — what does that require before anyone acts on it?",
+    "why": "A planning assumption has proven invalid, so it now behaves as an issue with schedule and scope impact. The project manager should first record it, analyze the impact on dates, scope and dependencies, and prepare response options (for example resequencing, a temporary manual check or a phased launch). Only then can the right decision — and any change request — be taken with the sponsor and stakeholders.",
+    "how": "Invalid assumption → update the assumption log → analyze impact → develop responses → raise change requests if baselines are affected. Avoid acting on a single option before the analysis.",
+    "optionNotes": [
+      "Incorrect — Worth trying later as one response option, but asking before understanding the impact and alternatives skips the analysis step.",
+      "Incorrect — Cutting scope is premature; alternatives such as a manual interim check or resequencing may protect both the feature and the date.",
+      "Correct — Recording the invalid assumption and analyzing its impact comes first, so that responses and any change request rest on facts.",
+      "Incorrect — Moving the launch is a baseline decision for the sponsor and change control, and it may not even be necessary."
+    ],
+    "deepDive": "The assumption log records assumptions and constraints throughout the project, and assumption and constraint analysis is a recognized risk identification technique. When an assumption is still uncertain, treat it as a risk; when it has already failed, it is an issue that needs a response now. Exam questions that ask what to do FIRST usually reward analysis before action, especially when the options include premature scope cuts or schedule changes. In agile teams the same idea appears as validating assumptions early through spikes or experiments.",
+    "tags": [
+      "assumption log",
+      "risk",
+      "impact analysis",
+      "issue"
+    ]
+  },
+  {
+    "id": "PRO-012",
+    "domain": "Process",
+    "task": "1. Develop an integrated project management plan and plan delivery",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Determining information requirements",
+    "source": "ECO 2026 · Process Task 1 (determine information requirements)",
+    "question": "Halvard Energy's grid-modernization program uses four vendors. During planning, the project manager notices that one vendor reports progress weekly in a spreadsheet, another monthly in slides, and two report only at milestones through short emails. The steering committee wants a single consolidated view of progress, cost and risk every month. What should the project manager define in the integrated plan?",
+    "options": [
+      "Nothing extra; let each vendor keep its own format so reporting adds no contract overhead",
+      "Common information requirements: the data, format, frequency and tools for each vendor",
+      "A rule that only the project manager may talk to vendors, to control the information flow",
+      "A single combined status meeting with all vendors at the end of each program phase"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Think about what must be agreed up front for four different sources of information to roll up into one view.",
+    "why": "Integration depends on consistent information. Defining information requirements — which data each vendor provides, in what format, how often, through which tool and who is responsible — lets the project manager aggregate progress, cost and risk into the monthly consolidated view. Building these requirements into the vendors' statements of work makes them enforceable.",
+    "how": "Plan the information architecture early: who provides what, in which format, when and through which tool, and write vendor reporting obligations into contracts or SOWs.",
+    "optionNotes": [
+      "Incorrect — Inconsistent formats and frequencies make consolidation slow and unreliable, so the steering committee would not get a comparable monthly view.",
+      "Correct — Standard data, format, frequency and tooling make vendor reports comparable and let them roll up into one integrated program view.",
+      "Incorrect — Funneling all contact through the project manager creates a bottleneck and does nothing to make reports consistent.",
+      "Incorrect — Phase-end meetings are far too infrequent for a monthly steering view and leave reporting formats unresolved."
+    ],
+    "deepDive": "Vendor reporting requirements belong in the statement of work or contract — for example earned value data, defect metrics, risk updates or sprint reports — so they can be enforced. A project management information system (PMIS) or shared dashboard can standardize collection and reduce manual consolidation. The communications management plan records these requirements alongside stakeholder information needs. In hybrid programs, agree how agile vendors' metrics (velocity, burnups) translate into the program's milestone and cost view. A common trap is solving an information-design problem with more meetings.",
+    "tags": [
+      "information requirements",
+      "reporting",
+      "vendors",
+      "PMIS",
+      "integration"
+    ]
+  },
+  {
+    "id": "PRO-013",
+    "domain": "Process",
+    "task": "1. Develop an integrated project management plan and plan delivery",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "PMBOK 8 principle — sustainability",
+    "source": "ECO 2026 · Process Task 1 · PMBOK Guide 8th Edition — principles (sustainability)",
+    "question": "While planning a new regional data center for Aster Cloud, project manager Hana Sato adds energy-efficiency targets to the design criteria, a take-back and recycling plan for servers that will be decommissioned in ten years, and an assessment of how the cooling system's water use will affect nearby farms. A board member asks why these items were added to a technology project. Which PMBOK Guide (8th edition) principle is Hana MOST directly applying?",
+    "options": [
+      "Build empowered teams",
+      "Embed quality in processes and deliverables",
+      "Lead accountably",
+      "Integrate sustainability"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Look at whose interests the three additions protect and over what time horizon.",
+    "why": "All three additions address the long-term environmental and social effects of the project and its product: energy use during operation, end-of-life equipment, and water impact on the surrounding community. Considering these impacts across the whole life cycle, beyond delivery, is what the sustainability principle asks project professionals to do.",
+    "how": "When a scenario highlights environmental, social or long-term community impact across the product life cycle, link it to sustainability; when it highlights fitness for use, link it to quality; when it highlights ethics and ownership, link it to accountable leadership.",
+    "optionNotes": [
+      "Incorrect — Empowered teams concern culture, autonomy and ownership within the team; nothing in the scenario changes how the team works.",
+      "Incorrect — Quality is about meeting requirements and fitness for use; these additions target environmental and community impact instead.",
+      "Incorrect — Accountable leadership concerns ethical, transparent ownership of decisions; it is present but not what these additions most directly show.",
+      "Correct — Energy targets, equipment recycling and community water impact are long-term environmental and social considerations, the core of sustainability."
+    ],
+    "deepDive": "The PMBOK Guide 8th edition condenses the earlier twelve principles into six — Adopt a holistic view, Focus on value, Embed quality, Lead accountably, Integrate sustainability, and Build empowered teams — and organizes the work into seven performance domains, including a Governance domain. The 2026 ECO also names sustainability and ESG among compliance themes, so expect scenarios where environmental or social commitments shape requirements. Sustainability covers economic and social effects too, not only environmental ones. The exam will usually test the idea in a scenario rather than ask for the principle's exact name.",
+    "tags": [
+      "PMBOK 8",
+      "principles",
+      "sustainability",
+      "ESG"
+    ]
+  },
+  {
+    "id": "PRO-014",
+    "domain": "Process",
+    "task": "1. Develop an integrated project management plan and plan delivery",
+    "approach": "Any",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Integration role of the PM",
+    "source": "ECO 2026 · Process Task 1 · PMBOK 8 (Adopt a holistic view)",
+    "question": "On the Meridian claims-platform replacement, the risk manager proposes a three-week buffer before go-live, the quality lead wants an extra regression cycle in the same window, and the procurement lead has just negotiated a vendor support contract that ends two weeks before go-live. Each lead presents a plan that is sound on its own and asks the project manager to approve it. What is the project manager's PRIMARY responsibility?",
+    "options": [
+      "Integrate the three plans, resolving their conflicts and dependencies into one coherent plan",
+      "Approve each plan as submitted, because each lead is the recognized expert in their own area",
+      "Escalate the three conflicting plans to the sponsor so that the sponsor can choose among them",
+      "Adopt the plan from the most senior lead and ask the other two leads to adjust to it"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Ask what role no subsidiary-plan owner can play for the project as a whole.",
+    "why": "Each plan is sensible alone, but together they collide: the buffer and extra test cycle push activity into a period when vendor support has already ended. Only the project manager sees the whole system, so integration — reconciling the plans, analyzing trade-offs such as extending the vendor contract or resequencing testing, and producing one coherent plan — is the primary responsibility. Escalation is only needed if the resolution exceeds the project manager's authority.",
+    "how": "When several plans or constraints interact, look for the answer that integrates, coordinates and balances them. The project manager cannot delegate integration to subsidiary-plan owners.",
+    "optionNotes": [
+      "Correct — Reconciling interdependent plans and making trade-offs in line with objectives is the project manager's unique integrating role.",
+      "Incorrect — Plans that are sound individually can conflict when combined; rubber-stamping them leaves the vendor-support gap unresolved.",
+      "Incorrect — Escalating before analyzing options hands the sponsor a problem the project manager has the authority and information to solve.",
+      "Incorrect — Seniority is not a criterion for trade-offs; decisions should be based on objectives, risk and value."
+    ],
+    "deepDive": "The PMBOK 8 principle 'Adopt a holistic view' reflects systems thinking: understanding how parts of the project interact with each other and with the environment. Here, extending the vendor contract by a few weeks may cost far less than going live without vendor support, which is exactly the kind of trade-off integration reveals. In agile settings integration shows up as aligning multiple teams' backlogs and release plans, often through a shared roadmap or scaled planning event. A common exam trap is escalating or deferring to experts when the question is really about the project manager's integrating role.",
+    "tags": [
+      "integration",
+      "systems thinking",
+      "trade-offs",
+      "holistic view"
+    ]
+  },
+  {
+    "id": "PRO-015",
+    "domain": "Process",
+    "task": "2. Develop and manage project scope",
+    "approach": "Predictive",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "WBS work package",
+    "source": "ECO 2026 · Process Task 2 (decompose work)",
+    "question": "Lina Haddad is building the WBS for a municipal library renovation. Under the 'Children's wing' deliverable she has decomposed the work into elements such as 'Shelving installed' and 'Reading nook furnished,' each small enough for one crew lead to estimate its cost and duration, own it and track it. A junior planner suggests adding tasks such as 'unpack shelf units' and 'anchor brackets' beneath them in the WBS. Which statement BEST describes Lina's elements and the planner's suggestion?",
+    "options": [
+      "They are control accounts; the planner's tasks should be added beneath them as work packages",
+      "They are work packages; the planner's tasks are schedule activities, defined outside the WBS",
+      "They are planning packages; the planner's tasks should replace them once details are known",
+      "They are activities; the planner's tasks are too small and should be merged back into them"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Separate the deliverable-oriented breakdown from the action-oriented steps used to build the schedule.",
+    "why": "Elements that can be estimated for cost and duration, assigned to one owner and tracked are work packages — the lowest level of the WBS. The planner's items are actions ('unpack', 'anchor'), which are schedule activities defined later by decomposing work packages; they belong in the activity list and schedule, not in the deliverable-oriented WBS.",
+    "how": "Hierarchy: project → control accounts → (planning packages) → work packages. Activities are verbs derived from work packages during schedule planning and live in the schedule, not the WBS.",
+    "optionNotes": [
+      "Incorrect — Control accounts are management points above work packages that integrate scope, cost and schedule; Lina's elements are already at the lowest level.",
+      "Correct — The elements are estimable, ownable work packages, and the planner's action steps are activities that belong in the schedule.",
+      "Incorrect — Planning packages hold work whose content is not yet detailed; Lina's elements are fully defined and estimable.",
+      "Incorrect — Activities are not WBS elements; the WBS is deliverable-oriented and ends at work packages."
+    ],
+    "deepDive": "Key WBS rules: it is deliverable-oriented (nouns, not verbs); it follows the 100% rule, so each level's children add up to exactly the parent; and a WBS dictionary describes each element's scope, owner, milestones, cost and acceptance criteria. Heuristics such as the 8/80 rule help decide when a work package is small enough. In agile, the product backlog plays a similar role, with epics and features decomposed into stories and the team breaking stories into tasks during sprint planning. A frequent exam trap is placing activities inside the WBS.",
+    "tags": [
+      "WBS",
+      "work package",
+      "decomposition",
+      "activities"
+    ]
+  },
+  {
+    "id": "PRO-016",
+    "domain": "Process",
+    "task": "2. Develop and manage project scope",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Scope baseline",
+    "source": "ECO 2026 · Process Task 2",
+    "question": "The steering committee for the Riverside water-treatment upgrade has just approved the project's scope. Ingrid Solberg, the project manager, needs to tell the team which documents now make up the scope baseline, so that any later change to them goes through the change control board instead of being edited directly by the team. Which set of documents should she list?",
+    "options": [
+      "The scope management plan, the requirements management plan and the WBS",
+      "The project charter, the WBS and the requirements documentation",
+      "The approved project scope statement, the WBS and the WBS dictionary",
+      "The requirements traceability matrix, the WBS and the change log"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "The baseline describes what will be delivered and how it is broken down — not how scope will be managed.",
+    "why": "The scope baseline is the approved version of the project scope statement, the WBS and its associated WBS dictionary. Once approved, it can change only through formal change control, which is exactly why Ingrid needs to name it precisely. Management plans, the charter, the traceability matrix and the change log are important, but they are not part of the scope baseline.",
+    "how": "Know the baselines: scope = scope statement + WBS + WBS dictionary; schedule = approved schedule model; cost = time-phased budget excluding management reserve; together they form the performance measurement baseline.",
+    "optionNotes": [
+      "Incorrect — Management plans describe how scope and requirements will be managed; they are plan components, not part of the scope baseline.",
+      "Incorrect — The charter authorizes the project and requirements documentation feeds scope definition, but neither is part of the baseline.",
+      "Correct — The approved scope statement, WBS and WBS dictionary together form the scope baseline controlled by the CCB.",
+      "Incorrect — The traceability matrix and change log are project documents that are updated routinely, not baseline components."
+    ],
+    "deepDive": "The project scope statement describes the product scope, deliverables, acceptance criteria and exclusions; exclusions are especially useful for managing expectations. The scope, schedule and cost baselines are integrated into the performance measurement baseline used for earned value management. In agile, there is usually no fixed scope baseline — scope lives in the ordered product backlog, while time and cost are fixed per iteration. A common exam trap is including the scope management plan or requirements documentation in the baseline.",
+    "tags": [
+      "scope baseline",
+      "WBS dictionary",
+      "scope statement",
+      "change control"
+    ]
+  },
+  {
+    "id": "PRO-017",
+    "domain": "Process",
+    "task": "2. Develop and manage project scope",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Validate scope vs. control quality",
+    "source": "ECO 2026 · Process Task 2",
+    "question": "The first deliverable of Orchid Telecom's billing-system project — a rating engine — has passed internal testing, and the quality team has documented that it meets every specification. The customer's finance director has not yet seen it. The team is eager to move on to the next module, and the contract links the first payment to accepted deliverables. What should the project manager do NEXT?",
+    "options": [
+      "Submit the rating engine to integrated change control for approval",
+      "Close the phase for the rating engine and archive its test records",
+      "Run a second round of quality control testing before the customer sees it",
+      "Review the deliverable with the customer and obtain formal acceptance"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "The deliverable has been checked for correctness — what has not happened yet?",
+    "why": "Control Quality has produced a verified deliverable: it is correct against specifications. The next step is Validate Scope — reviewing the deliverable with the customer or sponsor to obtain formal acceptance, which here also triggers the first payment. Closing, repeating tests or routing the deliverable through change control would skip or misuse that acceptance step.",
+    "how": "Sequence: Control Quality (verified deliverables) → Validate Scope (accepted deliverables) → Close Project or Phase. Correctness is checked internally; acceptance comes from the customer.",
+    "optionNotes": [
+      "Incorrect — Integrated change control is for proposed changes to baselines; no change is being requested here.",
+      "Incorrect — Closure follows formal acceptance; closing now would skip the customer's sign-off and delay the payment it unlocks.",
+      "Incorrect — Quality control is already complete and documented; repeating it adds cost without moving toward acceptance.",
+      "Correct — A verified deliverable goes to the customer for inspection and formal acceptance, which is the Validate Scope step."
+    ],
+    "deepDive": "Control Quality outputs verified deliverables; Validate Scope outputs accepted deliverables, or change requests when the customer rejects something. Validation is usually done after quality control, but the two can overlap. In agile, the product owner accepts stories against their acceptance criteria and the definition of done, and the sprint review gathers stakeholder feedback on the increment. A common exam trap is confusing verification (is it built right?) with validation and acceptance (is it what the customer agreed to?).",
+    "tags": [
+      "validate scope",
+      "control quality",
+      "acceptance",
+      "verification"
+    ]
+  },
+  {
+    "id": "PRO-018",
+    "domain": "Process",
+    "task": "2. Develop and manage project scope",
+    "approach": "Predictive",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Gold plating",
+    "source": "ECO 2026 · Process Task 2",
+    "question": "Two weeks before the acceptance review of a fixed-price reporting system for Coralia Shipping, developer Mateo Ruiz added an animated executive dashboard that is not in the requirements, believing the client would love it. It took two extra days and introduced a new third-party charting library. He proudly demonstrates it to the project manager. How should the project manager treat this addition?",
+    "options": [
+      "As gold plating: unrequested scope that adds cost and risk and bypasses change control",
+      "As a valid enhancement, since the client benefits and the extra effort was fairly small",
+      "As good initiative and customer focus that the team should recognize and encourage",
+      "As part of scope validation, since the client will review the dashboard at acceptance anyway"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Well-intended extras still need to be judged against the agreed scope and the process for changing it.",
+    "why": "Adding features that were never requested is gold plating, even when well-intentioned. It consumes budget on a fixed-price contract, adds risk (here a new third-party library that has not been assessed) and bypasses change control. The project manager should explain this to Mateo and route the idea through change control; if the client does not want it, it is removed.",
+    "how": "Deliver what was agreed. Good ideas go to change control in predictive projects or to the product owner in agile — never straight into the product.",
+    "optionNotes": [
+      "Correct — Unrequested additions are gold plating; they consume budget, add unassessed risk and bypass the agreed change process.",
+      "Incorrect — A change is valid only once evaluated and approved; neither happened, and the new library adds unassessed risk.",
+      "Incorrect — Praising it encourages more unapproved scope; the intent can be acknowledged while the behavior is corrected.",
+      "Incorrect — Scope validation is formal acceptance of agreed deliverables, not a route for adding unrequested features."
+    ],
+    "deepDive": "Scope creep is uncontrolled expansion of scope, usually driven by stakeholders' requests, while gold plating is the team voluntarily adding extras; both bypass change control. On fixed-price contracts, gold plating erodes the seller's margin and may create warranty obligations for features nobody asked for. In agile, a developer's idea should become a backlog item that the product owner orders by value. A common exam trap is treating customer delight as justification for skipping the agreed process.",
+    "tags": [
+      "gold plating",
+      "scope creep",
+      "change control",
+      "fixed price"
+    ]
+  },
+  {
+    "id": "PRO-019",
+    "domain": "Process",
+    "task": "2. Develop and manage project scope",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Requirements traceability matrix",
+    "source": "ECO 2026 · Process Task 2",
+    "question": "On a regulated payroll-system project for Estrela Pharma, auditors will later ask the team to prove that every requirement came from an approved business objective and was verified by at least one test. During planning, the team finds two requirements carried over from last year's pilot with no known origin, and several test cases that cannot be tied to any requirement. Which tool should the project manager establish?",
+    "options": [
+      "A stakeholder register recording who raised each requirement",
+      "A requirements traceability matrix",
+      "A WBS supported by a detailed WBS dictionary",
+      "An issue log listing each untraceable requirement"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "The auditors want to follow each requirement backward to its origin and forward to its verification.",
+    "why": "A requirements traceability matrix links each requirement back to its origin (a business objective) and forward through design, deliverables and test cases. It exposes orphan requirements and tests like the ones the team found, prevents requirements from being lost and gives auditors the evidence trail they need.",
+    "how": "When the need is to link requirements to objectives and to verification — and to see the impact of changes — use the requirements traceability matrix.",
+    "optionNotes": [
+      "Incorrect — The stakeholder register records who stakeholders are and their interests; it cannot trace requirements to objectives and tests.",
+      "Correct — The traceability matrix links requirements to business objectives and test cases, exposing orphans and giving auditors a trail.",
+      "Incorrect — The WBS decomposes deliverables; it does not show which objective a requirement serves or which test verifies it.",
+      "Incorrect — An issue log would record the problem but not create the systematic links the auditors need."
+    ],
+    "deepDive": "Typical RTM columns include requirement ID, description, source or business objective, WBS deliverable, design element, test case, status and owner. It also supports impact analysis: when a requirement changes, the matrix shows which designs, deliverables and tests are affected. In agile, traceability is often achieved with tooling that links epics, stories, acceptance criteria and automated tests. In regulated industries such as pharmaceuticals and medical devices, traceability is frequently a compliance requirement, not just good practice.",
+    "tags": [
+      "RTM",
+      "requirements",
+      "traceability",
+      "compliance"
+    ]
+  },
+  {
+    "id": "PRO-020",
+    "domain": "Process",
+    "task": "2. Develop and manage project scope",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "INVEST user stories",
+    "source": "ECO 2026 · Process Task 2 (define scope — agile)",
+    "question": "During backlog refinement for Pelican Travel's booking app, the product owner presents a new story: 'As a traveler, I want search to be fast.' In planning poker, one developer estimates 2 points and another 13, and neither can explain what the other is assuming. The tester asks how she would know when the story is done. Which INVEST qualities does this story MOST clearly lack?",
+    "options": [
+      "Independent and Negotiable",
+      "Independent and Valuable",
+      "Valuable and Small",
+      "Estimable and Testable"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Map each symptom the team reported to the quality it reveals.",
+    "why": "'Fast' has no measurable target, so developers are sizing different imagined solutions (the 2-versus-13 spread) and the tester cannot write a pass/fail check. That makes the story neither estimable nor testable. Adding acceptance criteria such as 'results appear within 2 seconds for 95% of searches' would fix both problems.",
+    "how": "INVEST = Independent, Negotiable, Valuable, Estimable, Small, Testable. Map each observed symptom (wild estimates, no way to verify, dependencies, size) to the missing quality.",
+    "optionNotes": [
+      "Incorrect — Nothing suggests the story depends on others or is locked in detail; its problem is vagueness.",
+      "Incorrect — Faster search clearly matters to travelers, and no dependency is described, so these are not the gaps.",
+      "Incorrect — Speed is valuable, and size is unknown rather than known to be too large; the vagueness is the root issue.",
+      "Correct — Without a measurable target the team cannot size the work or define a pass/fail test, so it is neither estimable nor testable."
+    ],
+    "deepDive": "A user story typically follows 'As a <role>, I want <capability>, so that <benefit>,' and the 3 Cs — Card, Conversation, Confirmation — remind teams that acceptance criteria are part of the story. Performance expectations that apply to every story can also go into the definition of done as a non-functional requirement. Wide estimate spreads in planning poker are useful signals: they expose different assumptions that the team should discuss before re-estimating. A common trap is assuming a vague story is 'too big' when the real problem is that it is not yet understood.",
+    "tags": [
+      "INVEST",
+      "user stories",
+      "acceptance criteria",
+      "estimation"
+    ]
+  },
+  {
+    "id": "PRO-021",
+    "domain": "Process",
+    "task": "2. Develop and manage project scope",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Epic decomposition",
+    "source": "ECO 2026 · Process Task 2 (decompose work)",
+    "question": "The epic 'Customer self-service portal' for Norrland Energy is estimated at about 80 story points, and the team's velocity is around 30 points per two-week sprint. The product owner wants customers to be able to do something useful in the portal by the end of the next sprint, and stakeholders will give feedback at each review. How should the team handle the epic?",
+    "options": [
+      "Assign the epic to the most senior developer, who can complete it over several sprints",
+      "Split it into technical-layer stories — database, API and UI — that each fit in a sprint",
+      "Split it during refinement into thin stories that each deliver usable value end to end",
+      "Extend the sprint length for this release until the whole epic fits into one sprint"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Ask which kind of split would give customers something they can actually use — and stakeholders something to react to — next sprint.",
+    "why": "An 80-point epic cannot fit a 30-point sprint, so it must be split during backlog refinement. Vertical slices — thin stories that each work end to end, such as 'view my latest bill' — deliver usable value next sprint and give stakeholders something real to review. Horizontal layers would take several sprints before anything usable exists.",
+    "how": "Split large items vertically (thin end-to-end slices) rather than horizontally (technical layers). Useful patterns: workflow steps, business rules, data variations, user roles, happy path first.",
+    "optionNotes": [
+      "Incorrect — Giving the epic to one person does not reduce its size, delays feedback and undermines the team's shared ownership of the work.",
+      "Incorrect — Layer stories fit a sprint but deliver nothing usable until all layers are done, so customers get no value next sprint.",
+      "Correct — Thin vertical slices fit the sprint, deliver end-to-end value early and give stakeholders something real to review.",
+      "Incorrect — Sprint length should stay consistent; change the size of the work, not the timebox, to fit it in."
+    ],
+    "deepDive": "A common hierarchy is theme or initiative → epic → feature → user story → task, though teams tailor the labels. Story mapping lays stories out along the user's journey so the team can choose a thin 'walking skeleton' release first and add depth later. Vertical slicing also reduces risk because integration problems surface early. A frequent exam trap is the horizontal split, which looks tidy but postpones value and feedback until every layer is complete.",
+    "tags": [
+      "epics",
+      "story splitting",
+      "vertical slice",
+      "backlog refinement"
+    ]
+  },
+  {
+    "id": "PRO-022",
+    "domain": "Process",
+    "task": "2. Develop and manage project scope",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Elicitation — prototypes",
+    "source": "ECO 2026 · Process Task 2 (define scope)",
+    "question": "Clinic schedulers at Montclair Health will use a new appointment-scheduling tool. In interviews they give vague and contradictory answers — 'it should just be easier,' 'fewer clicks' — and struggle to describe how they want the screens to work. The business analyst has three weeks before the requirements must be baselined and wants input that the schedulers can agree on. Which elicitation technique is MOST likely to help?",
+    "options": [
+      "Build quick wireframes of the key screens and gather the schedulers' reactions to them",
+      "Benchmark competitors' scheduling products and adopt the features that appear most often",
+      "Ask the sponsor to define the requirements, since the users cannot agree among themselves",
+      "Send a detailed questionnaire to all schedulers and analyze the responses statistically"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "When people cannot describe what they want in the abstract, what could they react to instead?",
+    "why": "The schedulers cannot articulate their needs in words, so more abstract questions will keep producing vague answers. Giving them something concrete — quick wireframes or clickable mock-ups of key screens — lets them react, compare and agree, which surfaces real needs within the three-week window. Each round of feedback sharpens the requirements.",
+    "how": "Choose elicitation techniques to fit the problem: prototypes when users cannot articulate needs, observation when they cannot describe their process, workshops when conflicting views must be reconciled, questionnaires when many people must answer clear questions.",
+    "optionNotes": [
+      "Correct — Concrete wireframes give schedulers something to react to, turning vague wishes into specific, agreed requirements quickly.",
+      "Incorrect — Benchmarking can inspire ideas, but other products' features do not reveal these schedulers' own workflow needs.",
+      "Incorrect — The sponsor is unlikely to know the schedulers' detailed needs, and bypassing users risks low adoption.",
+      "Incorrect — Questionnaires work when questions are clear; here the needs are still vague, so answers would stay vague."
+    ],
+    "deepDive": "Other elicitation techniques include interviews, focus groups, facilitated workshops (such as joint application design), observation or job shadowing, document analysis and benchmarking. Storyboarding is a form of prototyping that shows a sequence of screens or steps. Prototypes can be throwaway (to learn) or evolutionary (grown into the product), which is common in agile work. A frequent exam trap is choosing a broad survey when the real problem is that users do not yet know how to express their needs.",
+    "tags": [
+      "elicitation",
+      "prototype",
+      "requirements",
+      "wireframes"
+    ]
+  },
+  {
+    "id": "PRO-023",
+    "domain": "Process",
+    "task": "2. Develop and manage project scope",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Scope statement exclusions",
+    "source": "ECO 2026 · Process Task 2 (obtain stakeholder agreement)",
+    "question": "Midway through execution of Granite Mutual's policy-administration upgrade, the claims director insists that migrating ten years of historical policy data was 'obviously' part of the project. The project manager is sure migration was never discussed. The approved scope statement lists deliverables and acceptance criteria but says nothing about data migration either way. Looking back, what would MOST likely have prevented this dispute?",
+    "options": [
+      "A communications plan setting how often scope updates are sent to directors",
+      "Explicit exclusions in the scope statement, agreed with key stakeholders",
+      "A resource calendar showing when data-migration specialists are available",
+      "A risk register entry on possible data-quality problems in the legacy system"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Stating what the project will NOT deliver can matter as much as stating what it will.",
+    "why": "The dispute arose because the scope statement was silent on migration, leaving room for the director's assumption. Listing exclusions — work explicitly out of scope — and having stakeholders review and agree them turns silent assumptions into visible decisions. Had migration been listed as excluded, the director would have challenged it during planning rather than mid-execution.",
+    "how": "For disputes over what is included, think scope statement: deliverables, acceptance criteria and explicit exclusions, agreed with key stakeholders. Now that the dispute exists, check the baseline and route any addition through change control.",
+    "optionNotes": [
+      "Incorrect — More frequent updates help awareness, but they would not settle whether migration was in scope in the first place.",
+      "Correct — Explicit, agreed exclusions make scope boundaries visible and remove the ambiguity the director is now exploiting.",
+      "Incorrect — A resource calendar shows availability of people; it says nothing about whether migration is a deliverable.",
+      "Incorrect — A data-quality risk entry concerns how the work goes, not whether migration is part of the agreed scope."
+    ],
+    "deepDive": "The project scope statement typically contains the product scope description, deliverables, acceptance criteria and exclusions. Now that the dispute exists, the project manager should review the baseline with the director, acknowledge the business need, and submit a change request so migration can be evaluated for cost, schedule and risk. In agile, the equivalent safeguard is a clear product vision, release goals and visible backlog ordering, with out-of-scope items explicitly noted. A common exam trap is picking a communication or risk tool for what is really a scope-definition gap.",
+    "tags": [
+      "scope statement",
+      "exclusions",
+      "expectations",
+      "stakeholders"
+    ]
+  },
+  {
+    "id": "PRO-024",
+    "domain": "Process",
+    "task": "2. Develop and manage project scope",
+    "approach": "Agile",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Agile scope baseline",
+    "source": "ECO 2026 · Process Task 2",
+    "question": "Oskar Lindqvist has moved from construction projects to a Scrum product team at Fjordline Software. In his first week, he asks where he can find 'the approved scope baseline' so that he can control changes to the product's scope. The team works in two-week sprints with a dedicated product owner. Where is the product's scope captured and managed?",
+    "options": [
+      "In a fixed scope baseline approved by the sponsor before the first sprint",
+      "In the sprint burndown chart, which shows all the work remaining in the product",
+      "In the product backlog, refined continually and ordered by the product owner",
+      "In the team charter, which records the team's commitments and deliverables"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "In adaptive work, scope is expected to evolve — so where does that evolving scope live, and who orders it?",
+    "why": "In Scrum, the product backlog is the single, ordered source of everything the product might need. The product owner orders it by value and the team refines it continuously, so scope evolves with learning instead of being fixed in a baseline. Oskar's change control instinct is replaced by backlog management and the product owner's decisions.",
+    "how": "Predictive: scope fixed early, time and cost estimated. Agile: time and cost fixed per iteration, scope flexible — managed through the ordered product backlog.",
+    "optionNotes": [
+      "Incorrect — Agile expects scope to change as the team learns; a fixed up-front baseline contradicts the adaptive approach.",
+      "Incorrect — A sprint burndown tracks remaining work within one sprint, not the product's overall scope.",
+      "Correct — The product backlog, ordered by the product owner and refined continuously, is where agile scope is captured and managed.",
+      "Incorrect — A team charter records values and working agreements, not product scope."
+    ],
+    "deepDive": "The 'iron triangle' is inverted in agile: predictive projects fix scope and estimate time and cost, while agile teams fix time and cost (team and timebox) and let scope flex. In Scrum, the Product Goal describes the future state of the product and the sprint goal gives each sprint a focus. Hybrid projects may keep a high-level scope baseline for contractual or funding purposes while detailed scope evolves in the backlog. A common exam trap is choosing a burndown or burnup chart as the place where scope 'lives'.",
+    "tags": [
+      "product backlog",
+      "agile scope",
+      "product owner",
+      "Scrum"
+    ]
+  },
+  {
+    "id": "PRO-025",
+    "domain": "Process",
+    "task": "2. Develop and manage project scope",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "100% rule",
+    "source": "ECO 2026 · Process Task 2",
+    "question": "While reviewing the WBS for a nationwide sales-training rollout at Vireo Pharma, the team sees that the 'Training program' deliverable breaks down into only two elements: 'Course design' and 'Course delivery.' No element covers producing the participant workbooks and e-learning modules, even though both are listed as deliverables in the approved scope statement. Which WBS principle has been violated?",
+    "options": [
+      "Rolling wave planning",
+      "The 8/80 rule",
+      "The critical path method",
+      "The 100% rule"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Compare what the parent element promises with what its children actually contain.",
+    "why": "Each level of decomposition must represent all of the work of its parent, and the WBS as a whole must contain all of the scope. Here the children of 'Training program' omit the workbooks and e-learning modules, so they add up to less than the parent and less than the approved scope — a violation of the 100% rule.",
+    "how": "If work is missing from a decomposition, or work outside the scope has crept in, think 100% rule.",
+    "optionNotes": [
+      "Incorrect — Rolling wave planning deliberately defers detail on later work; it is a planning technique, not a completeness rule.",
+      "Incorrect — The 8/80 heuristic guides work package size (roughly 8 to 80 hours); it does not test whether work is missing.",
+      "Incorrect — The critical path method analyzes schedule logic and float; it is not a WBS principle.",
+      "Correct — The children do not add up to 100% of the parent, so approved scope is missing from the WBS."
+    ],
+    "deepDive": "The 100% rule works in both directions: nothing in scope may be missing, and nothing outside the scope may be included, which also helps guard against gold plating. WBS templates from organizational process assets reduce the chance of missing common deliverables such as documentation or training materials. The WBS dictionary then describes each element's scope and acceptance criteria. In agile, a story map plays a similar role by laying out the whole user journey so gaps become visible before release planning.",
+    "tags": [
+      "100% rule",
+      "WBS",
+      "decomposition",
+      "completeness"
+    ]
+  }
+]

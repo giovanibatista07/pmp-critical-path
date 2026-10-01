@@ -1,0 +1,990 @@
+[
+  {
+    "id": "PRO-126",
+    "domain": "Process",
+    "task": "1. Develop an integrated project management plan and plan delivery",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Cadence tied to funding tranches",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Development Approach and Life Cycle Performance Domain (2.3): funding availability and delivery cadence",
+    "question": "A nonprofit health network is building a telehealth scheduling service. Donors release funding in three tranches, and each tranche is approved only after the board sees evidence that patients are actually booking visits online. One component, an interface to the hospital's records system, must follow a fixed vendor specification and pass a single certification. The sponsor has drafted a plan with one go-live at month 15. What should the project manager recommend?",
+    "options": [
+      "Keep the single go-live at month 15 and add a management reserve so work can continue if a funding tranche arrives late",
+      "Release a small booking service early and grow it in increments, planning the certified interface as one predictive delivery",
+      "Build all components, including the records interface, in two-week increments and repeat the certification after each release",
+      "Delay the start until the donors commit all three tranches so that the complete scope can be baselined and funded up front"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Which project variable in this scenario favors early, partial delivery — and which component does not lend itself to it?",
+    "why": "Funding released in tranches, each tied to evidence of patient uptake, is a strong project-level signal for incremental delivery: an early minimum viable service produces the usage data the board needs before it releases the next tranche. The records interface, however, has a fixed specification and a one-time certification, so it suits a predictive plan with a single delivery. A hybrid plan lets each component use the cadence that fits it.",
+    "how": "When choosing cadence, examine product variables (requirements certainty, ease of change, regulation) and project variables (funding, schedule pressure, stakeholders) for each deliverable; mixed signals usually point to a hybrid life cycle.",
+    "optionNotes": [
+      "Incorrect — A single delivery at month 15 produces no uptake evidence, so later tranches may never be released; reserve cannot replace funding the board withholds.",
+      "Correct — Early increments create the evidence each tranche requires, while the fixed, certified interface is planned predictively with one delivery.",
+      "Incorrect — Forcing iterative delivery on a fixed-specification component adds repeated certification cost and produces no useful learning.",
+      "Incorrect — Waiting for full commitment ignores how these donors actually release funds and delays any benefit to patients."
+    ],
+    "deepDive": "PMBOK 7 describes delivery cadence as single, multiple, periodic, or continuous, and links the choice to variables of the product, the project, and the organization. Funding uncertainty is a classic reason to deliver something small early: a minimum viable product costs less and produces market evidence that justifies further investment. Safety, regulation, or certification needs push individual components toward predictive planning. Exam trap: treating 'hybrid' as a vague compromise for the whole project rather than a deliberate choice per deliverable.",
+    "tags": [
+      "delivery cadence",
+      "funding",
+      "hybrid",
+      "mvp"
+    ]
+  },
+  {
+    "id": "PRO-127",
+    "domain": "Process",
+    "task": "1. Develop an integrated project management plan and plan delivery",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Release plan for a dated launch",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Planning Performance Domain (2.4): release and iteration plans",
+    "question": "An agile team working in two-week sprints is four sprints into building a travel-booking app. The marketing director must book a national advertising campaign for a launch 10 weeks from now and asks the project manager for a 'guaranteed list' of features that will be live on launch day. Velocity has ranged from 24 to 31 points per sprint, and the product owner expects some backlog items to change after user testing. What should the project manager do?",
+    "options": [
+      "Ask the team to estimate every remaining story in hours and build a detailed task plan covering all five remaining sprints",
+      "Explain that agile teams cannot commit to dates and suggest booking the campaign only after the release is complete",
+      "Promise the full current backlog by launch day and plan overtime for any sprint where velocity falls below average",
+      "Work with the product owner on a release plan that fixes the date, lists must-haves, and forecasts the rest as a range"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Which planning artifact is meant to set expectations about dates and features without pretending the future is certain?",
+    "why": "A release plan sets stakeholder expectations for dates and features at a level of detail that suits the uncertainty. Fixing the launch date and letting scope flex, with the product owner ordering the must-have features first and the 24–31 velocity range used to forecast the rest, gives marketing a dependable commitment and an honest view of what may slip. The plan is refreshed every sprint as velocity and priorities change.",
+    "how": "When a stakeholder needs a date in an adaptive project, fix the date, flex the scope, and communicate a forecast range from empirical velocity through the release plan, keeping task-level detail for the next iteration only.",
+    "optionNotes": [
+      "Incorrect — Detailed task planning for sprints that are weeks away is wasteful when backlog items are expected to change after user testing.",
+      "Incorrect — Adaptive teams do forecast and commit to dates; refusing to plan ignores a legitimate business need and damages trust.",
+      "Incorrect — Promising the full scope ignores the velocity range and expected changes, and planned overtime is not a sustainable way to protect a plan.",
+      "Correct — A date-driven release plan with ordered must-haves and a velocity-based range gives marketing a reliable commitment and honest uncertainty."
+    ],
+    "deepDive": "PMBOK 7 separates release planning, which sets expectations for dates, features, or outcomes across several iterations, from iteration planning, which details only the next timebox. Using the lowest and highest recent velocities gives a simple range forecast: items the low velocity can reach are likely, items reachable only at the high velocity are possible, and the rest are unlikely. This is the agile version of fixing one constraint and flexing another. Exam trap: answers that promise everything and answers that refuse to commit are both wrong.",
+    "tags": [
+      "release planning",
+      "forecasting",
+      "velocity",
+      "fixed date"
+    ]
+  },
+  {
+    "id": "PRO-128",
+    "domain": "Process",
+    "task": "1. Develop an integrated project management plan and plan delivery",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Retailoring when context changes",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Tailoring (Section 3): implementing ongoing improvement of the tailored approach",
+    "question": "At the start of a hybrid claims-processing project for an insurer, the project manager and team tailored the PMO methodology to keep documentation light, because the product handled only anonymized data. In month four, the sponsor adds a feature that stores customers' medical records, which brings the project under a health-privacy regulation with audit requirements. In the next retrospective, the team votes to keep the lightweight documentation because it has helped them move fast. What should the project manager do?",
+    "options": [
+      "Revisit the tailoring with the team, PMO, and compliance lead, adding the required controls only where they apply",
+      "Respect the team's retrospective decision, since the team owns its way of working, and log the privacy concern as a risk",
+      "Replace the tailored approach with the PMO's full predictive methodology so that every possible audit need is covered",
+      "Keep the current practices and ask the compliance lead to review all documentation at the end, before the go-live decision"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Tailoring is not a one-time decision — what should trigger it to be revisited, and who needs to be part of that conversation?",
+    "why": "Tailoring is revisited whenever the project's context changes, and a new regulatory obligation is exactly that kind of change. Compliance is not optional, so the team cannot vote it away, but switching to the full methodology would discard practices that still work. The best response is to re-tailor with the people who hold the relevant knowledge and governance authority, adding documentation and controls where medical data is handled and keeping the lighter practices elsewhere.",
+    "how": "Treat tailoring as continuous: when size, risk, regulation, or team make-up changes, reassess the approach with the team and governance stakeholders, and add or remove process only where the new context demands it.",
+    "optionNotes": [
+      "Correct — The regulatory change triggers re-tailoring; involving compliance and the PMO adds the required controls precisely where needed without discarding what works.",
+      "Incorrect — Team self-management does not extend to ignoring a legal obligation, and logging a known compliance requirement as a risk understates it.",
+      "Incorrect — Switching the whole project to heavy process is an overreaction that loses the benefits of tailoring for parts the regulation does not touch.",
+      "Incorrect — Checking compliance only at the end invites late rework or a failed audit; controls must be built in while the work is done."
+    ],
+    "deepDive": "PMBOK 7 describes tailoring as a sequence: select the initial development approach, tailor it for the organization, tailor it for the project, and then keep improving it as the project runs. Changes in regulation, risk exposure, team size, or criticality are triggers to repeat the analysis. Stewardship and compliance mean the team cannot opt out of legal requirements, but good tailoring applies the extra rigor narrowly. Exam trap: 'the team decides its process' is true for most working agreements, but not for obligations imposed by law or governance.",
+    "tags": [
+      "tailoring",
+      "compliance",
+      "privacy",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "PRO-129",
+    "domain": "Process",
+    "task": "1. Develop an integrated project management plan and plan delivery",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Reconciling conflicting subsidiary plans",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Planning Performance Domain (2.4): aligning schedule, procurement, and resource plans",
+    "question": "A project manager is preparing to baseline the integrated plan for a wind-farm substation. Reviewing the subsidiary plans, the PM notices that the procurement plan shows the main transformer arriving in week 30, while the resource plan books the specialist installation crew for weeks 24–28, and the crew's contractor has other commitments afterward. The schedule shows installation in week 25. What should the project manager do?",
+    "options": [
+      "Baseline the plan as drafted and raise a change request later if the transformer actually arrives after the crew has left",
+      "Ask the procurement lead to change the delivery date in the procurement plan to week 24 so that all three plans agree",
+      "Work with the procurement, scheduling, and resource leads to resolve the conflict before the plans are baselined",
+      "Add a contingency reserve to the cost baseline to cover crew standby fees in case the transformer is delivered late"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "What is the purpose of integrating the subsidiary plans before any baseline is set?",
+    "why": "Integration means the schedule, procurement, and resource plans form one consistent whole before a baseline is approved. Here the plans contradict each other: the equipment arrives after the crew is gone. The PM should bring the plan owners together to analyze options such as expediting delivery, rebooking the crew, or resequencing work, and then baseline a plan that can actually be executed.",
+    "how": "Before baselining, check subsidiary plans against each other for gaps and conflicts, and resolve misalignments collaboratively with the plan owners rather than baselining a known problem or editing one plan to match.",
+    "optionNotes": [
+      "Incorrect — Baselining a plan with a known conflict guarantees a variance and a change request; problems visible now should be resolved during planning.",
+      "Incorrect — Editing a date on paper does not change the supplier's real lead time; the plans would agree but still be unrealistic.",
+      "Correct — Integration resolves conflicts among subsidiary plans before baselining, drawing on each plan owner's knowledge to find a workable option.",
+      "Incorrect — Reserve covers uncertain risks; this is a known conflict that planning can remove, so funding it as contingency treats the symptom."
+    ],
+    "deepDive": "PMBOK 7 stresses that planning artifacts must be aligned: delivery dates, funding, resource availability, and procurements should fit together with no gaps. In predictive work this is the heart of developing the project management plan — subsidiary plans are integrated, conflicts are resolved, and only then is the performance measurement baseline set. Options for a delivery-versus-crew mismatch include expediting (usually at a cost), rebooking resources, resequencing installation, or fast tracking other work. Exam trap: reserves are for uncertainty, not for problems already visible in the plan.",
+    "tags": [
+      "integration",
+      "baseline",
+      "procurement",
+      "resource plan"
+    ]
+  },
+  {
+    "id": "PRO-130",
+    "domain": "Process",
+    "task": "1. Develop an integrated project management plan and plan delivery",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "multi",
+    "topic": "Linking sprints to a master schedule",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Planning Performance Domain (2.4): integrating iteration and release plans with the project schedule",
+    "question": "A hybrid program is building an agricultural drone. The airframe and certification work follow a predictive master schedule with fixed test-range dates. The flight-control software is built by an agile team in two-week sprints. The PMO asks the project manager to show the software work in the integrated master schedule so that leaders can see how it supports the test-range milestones. Which two actions BEST meet this need? (Select two.)",
+    "options": [
+      "Require the agile team to submit a task-level Gantt chart for every sprint and update it daily",
+      "Show each software release as a timeboxed summary activity whose features are forecast from velocity",
+      "Convert story points to hours so the software work can be tracked with task-level earned value",
+      "Align software release dates with the integration and test-range milestones in the master schedule",
+      "Freeze the software backlog until the airframe design review so its scope stays stable in the plan"
+    ],
+    "answer": [
+      1,
+      3
+    ],
+    "hint": "Leaders need visibility where the software meets the predictive work, not of every task the agile team performs.",
+    "why": "The master schedule needs the software work at the level where it interacts with the predictive work. Releases shown as timeboxed summary activities, with feature content forecast from velocity, and release dates synchronized with the integration and test-range milestones give leaders the dependency view they need. Sprint-level planning stays with the team, so the schedule is useful without adding reporting overhead.",
+    "how": "To integrate agile work into a predictive schedule, show releases or iterations as timeboxed summary items tied to key milestones, forecast their content empirically, and synchronize at integration points instead of converting agile work into detailed tasks.",
+    "optionNotes": [
+      "Incorrect — Task-level Gantt charts for sprints add overhead and duplicate the team's own planning without improving the view of integration points.",
+      "Correct — Timeboxed releases as summary activities, with velocity-based feature forecasts, show the software work in the schedule at the right level.",
+      "Incorrect — Story points are relative team measures; converting them to hours for task-level tracking distorts them and invites gaming.",
+      "Correct — Synchronizing release dates with integration and test milestones makes cross-team dependencies visible and manageable in the master schedule.",
+      "Incorrect — Freezing the backlog removes the adaptability the software needs and is not required to show releases in a schedule."
+    ],
+    "deepDive": "PMBOK 7 notes that adaptive schedules are built from release and iteration plans, while predictive schedules use activities and dependencies; hybrid projects must connect the two. A common pattern is rolling agile releases up as timeboxed summary bars and treating integration events (hardware drops, test windows, certification audits) as shared milestones. Some organizations apply agile earned value at the release level, using planned story points per release as the baseline, but never at task level. Exam trap: forcing agile teams into detailed predictive reporting is rarely the best answer.",
+    "tags": [
+      "hybrid",
+      "master schedule",
+      "release planning",
+      "integration",
+      "multi-select"
+    ]
+  },
+  {
+    "id": "PRO-131",
+    "domain": "Process",
+    "task": "2. Develop and manage project scope",
+    "approach": "Agile",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Acceptance criteria met, DoD not met",
+    "source": "ECO 2026 · Process Task 2 · Definition of done vs acceptance criteria",
+    "question": "During a sprint review for a pharmacy ordering app, a developer demonstrates the 'reorder prescription' story. It meets all three acceptance criteria the product owner wrote. However, the team's definition of done also requires an automated accessibility check and updated support notes, and neither has been completed. The product owner is pleased and wants to mark the story done so it can go into Friday's release. What is the BEST response?",
+    "options": [
+      "Mark the story done, because the product owner, who owns the backlog, has accepted it against its acceptance criteria",
+      "Hold the story back until it meets the definition of done, and let the product owner order the remaining work",
+      "Release the story on Friday and create a separate backlog item for the accessibility check and the support notes",
+      "Remove the accessibility check from the definition of done so that similar stories can be released more quickly"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Acceptance criteria and the definition of done answer two different questions — which one applies to every item?",
+    "why": "Acceptance criteria are specific to one story and confirm it does what the product owner wants; the definition of done is a shared quality checklist that every item must meet before it is releasable. A story that meets its acceptance criteria but not the definition of done is not done, so it should not be released. The unfinished work goes back to the backlog, where the product owner can order it for the next sprint.",
+    "how": "An item is done only when it satisfies both its own acceptance criteria and the team-wide definition of done; unfinished items return to the backlog rather than being released with deferred 'done' tasks.",
+    "optionNotes": [
+      "Incorrect — The product owner accepts functionality but cannot waive the shared definition of done that protects the quality of every increment.",
+      "Correct — Only items that meet the definition of done can be released; the product owner then orders the remaining work in the backlog.",
+      "Incorrect — Releasing undone work and tracking the gap as new items creates hidden technical debt and misstates the team's progress.",
+      "Incorrect — Weakening the definition of done to meet a date lowers quality for all future work; changes to it should be deliberate, not reactive."
+    ],
+    "deepDive": "PMBOK 7 describes the definition of done as a checklist of everything a deliverable must meet to be ready for customer use, while acceptance criteria are the conditions a particular deliverable must meet before the customer accepts it. In Scrum, the definition of done is a quality commitment for the increment, and items that do not meet it return to the product backlog. Accessibility checks are also a compliance safeguard in many markets. Exam trap: 'the product owner accepted it' feels decisive, but acceptance and done are separate gates.",
+    "tags": [
+      "definition of done",
+      "acceptance criteria",
+      "scrum",
+      "quality"
+    ]
+  },
+  {
+    "id": "PRO-132",
+    "domain": "Process",
+    "task": "2. Develop and manage project scope",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "WBS and story map together",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Delivery Performance Domain (2.6): scope decomposition with a WBS or with themes, epics, and stories",
+    "question": "A regional airport's terminal upgrade includes new baggage-handling equipment, building works, and a passenger mobile app. The engineering teams have a detailed WBS for the equipment and building works. The app team keeps its scope in a story map and a product backlog that change after each sprint review. The sponsor asks the project manager for 'one WBS covering all the scope' so that nothing is missed. How should the project manager handle this?",
+    "options": [
+      "Ask the app team to decompose every future user story into WBS work packages now so that the WBS is fully complete",
+      "Leave the app out of the WBS, because adaptive scope is managed only in the backlog and does not belong in a WBS",
+      "Replace the engineering WBS with a single program-wide story map so that every team uses the same scope artifact",
+      "Show the app in the WBS at release or feature level, with its evolving detail kept in the story map and backlog"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Each scope artifact is good at a different level of detail and a different degree of certainty.",
+    "why": "A WBS gives the sponsor a complete view of the total scope, and it can include the app as a deliverable decomposed to releases or features. Below that level, the app's scope is expected to evolve, so the story map and backlog are the right tools for the detail, refined at the last responsible moment. This meets the sponsor's need for completeness without forcing premature detail onto adaptive work.",
+    "how": "In hybrid projects, decompose predictive deliverables fully in the WBS and represent adaptive deliverables at a higher level (release, epic, or feature), letting the backlog or story map hold the evolving detail.",
+    "optionNotes": [
+      "Incorrect — Decomposing future stories now is premature planning; the detail will change after sprint reviews and the effort would be wasted.",
+      "Incorrect — Leaving the app out gives an incomplete view of total scope; adaptive deliverables can appear in a WBS at a higher level.",
+      "Incorrect — Story maps suit evolving product features, but the engineering works are well defined and benefit from WBS decomposition.",
+      "Correct — The WBS shows the whole scope at a stable level, while the story map and backlog carry the app's detailed scope as it evolves."
+    ],
+    "deepDive": "PMBOK 7 describes two ways to elaborate scope: decomposing it hierarchically in a WBS, or organizing it as themes, epics, features, and user stories. A story map arranges stories along the user's journey so the team sees the whole product and can plan releases as horizontal slices. The 100% rule still applies at the level shown — the app's WBS element represents all of its work even though the detail lives in the backlog. Exam trap: believing an adaptive deliverable cannot appear in a WBS at all.",
+    "tags": [
+      "wbs",
+      "story map",
+      "hybrid",
+      "scope decomposition"
+    ]
+  },
+  {
+    "id": "PRO-133",
+    "domain": "Process",
+    "task": "2. Develop and manage project scope",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Eliciting tacit workarounds",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Delivery Performance Domain (2.6): requirements elicitation through observation and data analysis",
+    "question": "A logistics company is replacing its warehouse picking system. In two requirements workshops, pickers and supervisors said the current process 'works fine' and asked only for a faster screen. However, the project manager has seen pickers writing codes on their gloves and keeping paper lists, and the returns log shows a high rate of wrong-item shipments. What should the project manager do NEXT to capture the requirements?",
+    "options": [
+      "Observe pickers on the floor during peak shifts and analyze the returns log to uncover needs they have not stated",
+      "Record the faster-screen request as the full scope, since the users have confirmed that the current process works",
+      "Hold a third workshop with the warehouse managers, who can speak for the pickers and describe how the work is done",
+      "Ask a vendor to demonstrate its standard picking product and adopt its feature list as the baseline requirements"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "When people are used to working around a problem, will asking them the same questions again reveal it?",
+    "why": "The gloves, paper lists, and wrong-item returns point to needs that users have stopped noticing because the workarounds have become routine. Eliciting requirements means drawing them out, which includes observing the work and analyzing records such as defect or returns logs, not only asking. Observation under real conditions, combined with data analysis, will surface the tacit requirements the workshops missed.",
+    "how": "When stated needs conflict with evidence, switch elicitation techniques: observe the work in context and analyze data (logs, defects, tickets) to surface tacit or unspoken requirements.",
+    "optionNotes": [
+      "Correct — Observation and data analysis reveal the workarounds and error causes that users no longer mention, producing more complete requirements.",
+      "Incorrect — Accepting only the stated request ignores clear evidence of unmet needs and would likely lead to rework or low adoption.",
+      "Incorrect — Managers are one step removed from the work, and another workshop repeats a technique that has already failed to surface the problems.",
+      "Incorrect — Letting a vendor's feature list define requirements skips understanding the organization's actual needs and may lock in the wrong solution."
+    ],
+    "deepDive": "PMBOK 7 points out that eliciting requirements goes beyond interviews and focus groups: analyzing data, observing processes, and reviewing defect logs can all draw requirements out. Observation (job shadowing) is especially useful when users are experts whose knowledge has become tacit. Once elicited, good requirements should be clear, concise, verifiable, consistent, complete, and traceable, and stakeholders should agree to them. Exam trap: more meetings using the same technique rarely fix an elicitation gap.",
+    "tags": [
+      "requirements",
+      "elicitation",
+      "observation",
+      "tacit knowledge"
+    ]
+  },
+  {
+    "id": "PRO-134",
+    "domain": "Process",
+    "task": "2. Develop and manage project scope",
+    "approach": "Agile",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Done drift in a moving market",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Delivery Performance Domain (2.6): moving targets of completion",
+    "question": "A fintech team has been building a personal-budgeting app for nine months. Each time a competitor launches a new feature, the product owner adds a matching 'must-have' item to the first release, and the launch has already slipped twice. The team's burnup chart shows total scope rising almost as fast as completed work. The sponsor asks the project manager why the product is never ready. What should the project manager do?",
+    "options": [
+      "Freeze the release scope through a formal change control board so that the team can finish the items already planned",
+      "Add two developers to the team so that completed work grows faster than the scope the product owner keeps adding",
+      "Share the burnup trend with the product owner and sponsor and help them decide whether to release the increment",
+      "Keep adding the competitor features, because launching a product weaker than the market leaders would harm the brand"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "The finish line keeps moving — who needs to decide where to draw it, and what evidence would help them?",
+    "why": "The burnup chart shows done drift: the release goal moves almost as fast as the team completes work, so the launch will keep slipping. This is a value decision, not a team-performance problem, so the project manager should make the trend visible and help the product owner and sponsor weigh releasing now, with further features in later releases, against continuing to chase the market. Freezing scope by decree or adding people does not address that underlying choice.",
+    "how": "When the definition of 'done' keeps moving, make the drift visible (burnup, scope growth versus completion rate) and facilitate an explicit release-now-or-continue decision with the people who own value.",
+    "optionNotes": [
+      "Incorrect — A formal freeze is a predictive reflex that may block valuable changes; the real issue is a release goal nobody has decided.",
+      "Incorrect — Adding people late usually slows a team at first, and faster output cannot win while scope keeps rising at a similar rate.",
+      "Correct — Making the drift visible lets the value owners make an informed choice between releasing the increment and accepting further delay.",
+      "Incorrect — Chasing every competitor feature postpones all value indefinitely; later releases can add features once the product is in use."
+    ],
+    "deepDive": "PMBOK 7 calls this a moving target of completion: in fast markets the definition of 'good enough to release' changes, and the longer a project runs, the further 'done' tends to drift. Teams track the rate at which the goal moves against their rate of progress, and at some point leaders must decide whether to release as is or keep updating. Incremental releases reduce the problem because value reaches users while the product keeps evolving. Brooks's law explains why the 'add more people' option backfires.",
+    "tags": [
+      "done drift",
+      "burnup",
+      "release decision",
+      "scope"
+    ]
+  },
+  {
+    "id": "PRO-135",
+    "domain": "Process",
+    "task": "2. Develop and manage project scope",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Undocumented acceptance criterion",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Delivery Performance Domain (2.6): acceptance criteria in the scope statement",
+    "question": "A contractor has completed the cooling system for a hospital's new data center. During the scope validation meeting, the client's facilities manager refuses to accept the deliverable, saying the system must keep noise below 55 decibels in the adjacent ward. The engineering team says it built exactly what was specified and has never heard of a noise limit. What should the project manager do FIRST?",
+    "options": [
+      "Check the scope statement, requirements documentation, and traceability records for the agreed acceptance criteria",
+      "Submit a change request to add sound-dampening equipment so that the client will sign the acceptance form without delay",
+      "Escalate the dispute to the sponsor, because the client is rejecting work the engineering team built to the specification",
+      "Arrange a noise test in the ward so the team can show the client whether the system already meets the 55-decibel limit"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Before deciding whether this is a defect, a change, or a misunderstanding, what must the project manager establish?",
+    "why": "Whether the noise limit is a defect, a missed requirement, or a new request depends on what was agreed. The scope statement lists the major deliverables and their acceptance criteria, and requirements documentation with traceability shows where each requirement came from. Checking these first tells the PM whether to fix the work under the baseline or to handle the noise limit as a change request.",
+    "how": "When a customer rejects a deliverable over an unfamiliar criterion, first verify the agreed acceptance criteria in the baseline documents; treat it as a defect if it was agreed, or as a change if it was not.",
+    "optionNotes": [
+      "Correct — The baseline documents show whether the noise limit was an agreed criterion, which decides whether this is rework or a change.",
+      "Incorrect — Raising a change before confirming what was agreed may pay for work the contractor already owed, or add scope without proper analysis.",
+      "Incorrect — Escalating before the facts are checked is premature; the PM can settle the question using the project's own documents.",
+      "Incorrect — A test may help later, but it does not answer whether the limit was ever part of the agreed acceptance criteria."
+    ],
+    "deepDive": "PMBOK 7 notes that a scope statement identifies the major deliverables and the acceptance criteria for each, while technical specifications may sit in a WBS dictionary or a separate specification. A requirements traceability matrix links each requirement to its source and to the deliverable that satisfies it, which is invaluable in acceptance disputes. If a legitimate need was never captured, it becomes a change request and a lesson learned about elicitation. Exam pattern: 'What should the PM do FIRST?' usually rewards gathering facts from the plan before acting or escalating.",
+    "tags": [
+      "acceptance criteria",
+      "scope statement",
+      "validate scope",
+      "traceability"
+    ]
+  },
+  {
+    "id": "PRO-136",
+    "domain": "Process",
+    "task": "3. Help ensure value-based delivery",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Slicing an MVP from a story map",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Artifacts (4.6): story map used to plan a first release slice",
+    "question": "Refer to the exhibit. A city library is building an app for lending power tools to residents. The product owner wants the first release to test one hypothesis: residents will reserve tools online instead of walking in and asking at the desk. The team can finish about four stories before the pilot starts in six weeks. Which set of stories BEST forms the first release?",
+    "options": [
+      "The four 'Find a tool' stories, so residents can explore the full catalog before reservations are added",
+      "The four 'Reserve a tool' stories, since reserving is the behavior the product owner wants to test",
+      "The four stories in row 1, giving residents a basic path from finding a tool through returning it",
+      "Locker pickup, home delivery, SMS reminders, and damage reports, since convenience drives adoption"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Can residents test the hypothesis if any step of their journey is missing?",
+    "why": "A story map arranges stories along the user's journey (the backbone), with the most important stories at the top of each column. The first release should be a thin horizontal slice that lets a resident complete the whole journey in its simplest form: browse, reserve, collect with a code, and return. Only an end-to-end slice produces real evidence about whether residents will reserve online; building deep in one column leaves the journey broken.",
+    "how": "To slice an MVP from a story map, take the simplest essential story from each step of the backbone so users can complete the full journey, then add depth in later slices based on feedback.",
+    "optionNotes": [
+      "Incorrect — A full catalog without reservation, pickup, or return cannot show whether residents will reserve online; it builds depth before breadth.",
+      "Incorrect — Rich reservation options are useless if residents cannot find, collect, or return tools, so the hypothesis still cannot be tested.",
+      "Correct — Row 1 is a thin end-to-end slice, the smallest usable product that lets residents actually reserve and borrow tools.",
+      "Incorrect — These enhancements assume the core journey already exists; they add cost before the basic behavior has been validated."
+    ],
+    "deepDive": "PMBOK 7 defines a story map as a visual model of all the desired features that gives the team a holistic view of what it is building and why. Across the top runs the backbone of user activities; stories under each activity are ordered by priority, and horizontal lines mark release slices. A minimum viable product is the smallest slice that tests a hypothesis with real users, often called a walking skeleton. Unlike a WBS, which decomposes deliverables, a story map is organized around the user's journey and the value it delivers.",
+    "tags": [
+      "story map",
+      "mvp",
+      "release slicing",
+      "exhibit"
+    ],
+    "exhibit": {
+      "kind": "table",
+      "title": "Story map — tool-lending app (row 1 = highest priority)",
+      "columns": [
+        "Row",
+        "Find a tool",
+        "Reserve a tool",
+        "Collect the tool",
+        "Return the tool"
+      ],
+      "rows": [
+        [
+          "1",
+          "Browse tools by category",
+          "Reserve for a chosen date",
+          "Show a pickup code at the desk",
+          "Staff mark the tool as returned"
+        ],
+        [
+          "2",
+          "Search by keyword",
+          "Join a waitlist",
+          "Locker pickup with a QR code",
+          "Report damage with a photo"
+        ],
+        [
+          "3",
+          "Filter by availability",
+          "Recurring reservations",
+          "Home delivery",
+          "Automatic late-fee billing"
+        ],
+        [
+          "4",
+          "Suggestions from past loans",
+          "Reserve bundles of tools",
+          "SMS pickup reminders",
+          "Rate the tool's condition"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "PRO-137",
+    "domain": "Process",
+    "task": "3. Help ensure value-based delivery",
+    "approach": "Agile",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Maximizing value within release capacity",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Artifacts (4.6): prioritization matrix — value versus effort",
+    "question": "A product owner for a grocery-delivery app has a fixed release capacity of 40 story points. Stakeholders have scored the business value of five candidate features, and the team has estimated them: loyalty points (value 55, 25 points), saved carts (value 30, 10 points), one-tap reorder (value 28, 8 points), gift cards (value 40, 20 points), and wish-list sharing (value 18, 12 points). Features cannot be split. Which combination delivers the MOST business value within capacity?",
+    "options": [
+      "Loyalty points and saved carts — 85 value",
+      "Saved carts, one-tap reorder, and gift cards — 98 value",
+      "Loyalty points, saved carts, and one-tap reorder — 113 value",
+      "Loyalty points, gift cards, and saved carts — 125 value"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Compare what each feature returns per story point, and check the remaining capacity after every choice.",
+    "why": "Value per point: one-tap reorder 28 ÷ 8 = 3.5, saved carts 30 ÷ 10 = 3.0, loyalty points 55 ÷ 25 = 2.2, gift cards 40 ÷ 20 = 2.0, wish-list sharing 18 ÷ 12 = 1.5. Taking the best ratios first: one-tap reorder (8) + saved carts (10) = 18 points; loyalty points would bring the total to 43, which exceeds 40, so gift cards are added instead: 18 + 20 = 38 points. Total value = 28 + 30 + 40 = 98, the highest of any combination that fits within 40 points.",
+    "how": "For value-based ordering under a capacity limit, rank items by value ÷ effort, fill the capacity in that order, skip items that do not fit, and confirm that no other feasible combination beats the total.",
+    "optionNotes": [
+      "Incorrect — Choosing the highest-value feature first spends 25 points on loyalty points and leaves room only for saved carts, reaching just 85.",
+      "Correct — 8 + 10 + 20 = 38 points, within capacity, for 28 + 30 + 40 = 98 value, the best feasible total.",
+      "Incorrect — 25 + 10 + 8 = 43 points, which exceeds the 40-point capacity, so this combination cannot fit in the release.",
+      "Incorrect — 25 + 20 + 10 = 55 points; picking the three highest values ignores the capacity limit entirely."
+    ],
+    "deepDive": "PMBOK 7 describes a prioritization matrix that plots effort against value and divides items into quadrants: quick wins (high value, low effort) come first and low-value, high-effort items last. Dividing value by effort, as weighted shortest job first does with cost of delay and job size, turns that picture into a ranking. When capacity is fixed and items cannot be split, a quick check of nearby combinations confirms that the ratio ranking has not missed a better fit. Value scores are relative estimates, so the product owner still applies judgment about dependencies, risk, and market timing.",
+    "tags": [
+      "prioritization",
+      "value",
+      "backlog",
+      "calculation"
+    ]
+  },
+  {
+    "id": "PRO-138",
+    "domain": "Process",
+    "task": "3. Help ensure value-based delivery",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Benefits delivered vs the business case",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Measurement Performance Domain (2.7): business value — planned versus actual benefits delivery",
+    "question": "A national tax agency is replacing its paper filing process in three phases. Phase 1, an online filing service, went live six months ago, and the business case forecast that it would cut processing costs by 20% within that period. Phase 2 is on budget and on schedule, with a CPI of 1.02 and an SPI of 0.99. The steering committee must now decide whether to fund phase 3. Which information will BEST support this decision?",
+    "options": [
+      "The earned value indices for phase 2, showing whether the team is delivering efficiently against its baseline",
+      "The number of features and requirements delivered to date compared with the total planned for all three phases",
+      "The latest satisfaction survey of taxpayers who used the online filing service during its first six months",
+      "The cost savings phase 1 has actually achieved so far compared with the 20% forecast in the business case"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "The committee is deciding whether the investment is still worth making, not whether the team is working efficiently.",
+    "why": "The funding decision depends on whether the project is producing the value that justified it. Because phase 1 was expected to deliver benefits during the life cycle, comparing its actual cost savings with the business case forecast shows whether the investment case still holds for phase 3. Earned value indices and output counts measure delivery performance, not business value, and satisfaction is secondary to the benefit the case was built on.",
+    "how": "For continue-or-stop investment decisions, measure business value against the business case (planned versus actual benefits, ROI, NPV) rather than delivery efficiency or output volume.",
+    "optionNotes": [
+      "Incorrect — CPI and SPI show that phase 2 is on plan, but a project can be delivered efficiently and still fail to produce its benefits.",
+      "Incorrect — Feature counts are output measures; they say nothing about whether the delivered features are actually cutting processing costs.",
+      "Incorrect — Satisfaction is a useful nonfinancial measure, but the business case rests on cost savings, which should be checked directly.",
+      "Correct — Comparing realized benefits with the forecast shows whether the investment still makes sense before more funding is committed."
+    ],
+    "deepDive": "PMBOK 7 lists several measures of business value: cost-benefit or benefit-cost ratio, planned versus actual benefits delivery, return on investment, and net present value. When benefits are meant to arrive during the project, comparing them with the business case can justify continuing, or cancelling, the remaining work. This is one reason phased and incremental delivery is attractive: it creates early evidence. Exam trap: good CPI and SPI values are often offered as proof of success, but they measure efficiency against a plan, not value.",
+    "tags": [
+      "business value",
+      "benefits realization",
+      "business case",
+      "governance"
+    ]
+  },
+  {
+    "id": "PRO-139",
+    "domain": "Process",
+    "task": "3. Help ensure value-based delivery",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "multi",
+    "topic": "Escaping the feature factory",
+    "source": "ECO 2026 · Process Task 3 · Outcome hypotheses and user feedback in agile delivery",
+    "question": "An agile team at an online-learning company has released new features every two weeks for six months, and its velocity has risen steadily. However, course completion rates and subscription renewals, the outcomes named in the product vision, have not changed. The sponsor praises the team's output in every status meeting. Which two actions should the project manager encourage to keep delivery focused on value? (Select two.)",
+    "options": [
+      "Define a measurable outcome hypothesis for each major feature and check it against usage data after release",
+      "Set a higher velocity target for the next quarter so the remaining roadmap features are delivered sooner",
+      "Invite real learners to sprint reviews and user tests so their feedback shapes what the team builds next",
+      "Add the features that competitors offer to the backlog so the product stays at parity with the market",
+      "Report the number of features released each sprint to the sponsor as the team's main measure of success"
+    ],
+    "answer": [
+      0,
+      2
+    ],
+    "hint": "More output has not moved the outcomes — what would connect each release to evidence about value?",
+    "why": "The team is optimizing output while the outcomes that justify the product stay flat. Stating an outcome hypothesis for each major feature and measuring it after release shows which work actually moves completion and renewal rates, and involving real learners provides early feedback to steer the backlog. Pushing velocity, copying competitors, or reporting feature counts would reinforce the output focus.",
+    "how": "To keep agile delivery value-based, tie backlog items to measurable outcomes, validate them with real users and usage data, and let that evidence reorder the backlog rather than maximizing output.",
+    "optionNotes": [
+      "Correct — Outcome hypotheses turn each release into an experiment, so the team learns which features change completion and renewal rates.",
+      "Incorrect — A higher velocity target increases output pressure and can degrade quality, while the real problem is that output is not producing outcomes.",
+      "Correct — Direct feedback from learners reveals what actually helps them finish courses, letting the product owner reorder the backlog by value.",
+      "Incorrect — Matching competitors without evidence of learner value adds more output and may push aside work that would move the outcomes.",
+      "Incorrect — Feature counts are a vanity measure here; reporting them would reinforce the output focus the team needs to escape."
+    ],
+    "deepDive": "A 'feature factory' ships steadily but cannot show that its work improves anything customers or the business care about. Outcome-based practices include hypothesis-driven development (we believe X will lead to Y, measured by Z), A/B tests, product analytics, and regular validation with users. PMBOK 7's value focus asks teams to measure business value and adjust when benefits are not appearing. Velocity is a planning aid for the team, not a measure of value, and turning it into a target invites inflated estimates.",
+    "tags": [
+      "value",
+      "outcomes",
+      "hypothesis",
+      "feedback",
+      "multi-select"
+    ]
+  },
+  {
+    "id": "PRO-140",
+    "domain": "Process",
+    "task": "3. Help ensure value-based delivery",
+    "approach": "Agile",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Ordering risky work early",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Artifacts (4.6): risk-adjusted backlog balancing value and threat reduction",
+    "question": "A product owner for a hospital bed-management app has ordered the backlog strictly by business value. Near the bottom is an integration with an old patient-admission system that no one on the team has worked with; the architect warns that if the integration proves impossible, much of the app's design would have to change. Most of the high-value features depend on admission data. What should the project manager recommend to the product owner?",
+    "options": [
+      "Keep the value-based order and hold a contingency reserve so the team can absorb a redesign if the integration fails later",
+      "Move a short, timeboxed spike on the admission-system integration near the top of the backlog to learn early",
+      "Ask the architect to complete a full integration design document before the team begins any more feature sprints",
+      "Leave the order as it is, since the product owner alone sets priorities and technical concerns come second to value"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Value is not the only thing that should shape backlog order when a single unknown could invalidate much of the work.",
+    "why": "A risk-adjusted backlog includes work that reduces threats alongside value-producing features. Because most high-value features depend on admission data, discovering late that the integration fails would waste much of the work already done. A short, timeboxed spike near the top buys that knowledge cheaply and protects the value of everything built after it, while the product owner remains in charge of the order.",
+    "how": "Balance value and risk in backlog ordering: pull high-uncertainty, high-impact items forward, often as timeboxed spikes, so the team learns early and cheaply instead of discovering threats after value has been built on them.",
+    "optionNotes": [
+      "Incorrect — Reserve pays for a problem after it occurs; learning early is far cheaper than funding a redesign late in the project.",
+      "Correct — A timeboxed spike tests the risky integration early, reducing uncertainty that threatens most of the high-value features.",
+      "Incorrect — A full up-front design delays delivery and may still miss what only building and testing the integration would reveal.",
+      "Incorrect — The product owner does own the order, but the PM should inform it; ignoring a major technical risk is not value-based."
+    ],
+    "deepDive": "PMBOK 7 describes a risk-adjusted backlog as one that contains product work plus actions that address threats and opportunities. Reducing risk early raises the expected value of later work, an idea often drawn as a risk-adjusted ROI curve. Spikes are short, timeboxed experiments whose output is knowledge rather than a shippable feature. Contrast this with the predictive habit of handling such uncertainty only through reserves or a large up-front design.",
+    "tags": [
+      "risk-adjusted backlog",
+      "spike",
+      "prioritization",
+      "value"
+    ]
+  },
+  {
+    "id": "PRO-141",
+    "domain": "Process",
+    "task": "3. Help ensure value-based delivery",
+    "approach": "Agile",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Basic needs before delighters",
+    "source": "ECO 2026 · Process Task 3 · Kano model in value-based prioritization",
+    "question": "A banking app's user survey shows that customers love a new AI assistant that answers account questions, and the product owner wants to spend the next two sprints expanding it. The same data shows that 18% of customers who left last quarter cited failed log-ins and payments that time out, and app-store reviews mention these problems far more often than any missing feature. What should the project manager advise the product owner?",
+    "options": [
+      "Order the reliability fixes ahead of assistant work, since unmet basic needs drive churn however good the assistant is",
+      "Expand the AI assistant first, because delight features build the strongest loyalty and set the app apart from rivals",
+      "Run an A/B test of the assistant's new capabilities before deciding whether reliability or assistant work comes first",
+      "Split each sprint evenly between reliability fixes and assistant features so that both groups of customers see progress"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Some product qualities cause dissatisfaction when missing but earn little praise when present — how do they rank against features that delight?",
+    "why": "In Kano terms, reliable log-ins and payments are basic (must-be) qualities: customers barely notice them when they work but leave when they fail. The AI assistant is a delighter, which adds satisfaction only once the basics are met. With churn data pointing directly at reliability failures, fixing them protects more business value now than expanding the assistant.",
+    "how": "When prioritizing by value, satisfy basic (must-be) expectations first, then performance attributes, then delighters, and use churn and complaint data to spot unmet basics.",
+    "optionNotes": [
+      "Correct — Failed log-ins and payments are unmet basic needs that directly cause churn, so fixing them protects the most value.",
+      "Incorrect — Delighters cannot offset failing basics; customers who cannot log in or pay will leave regardless of the assistant.",
+      "Incorrect — An experiment could help tune the assistant, but the churn data already shows that reliability is the pressing value problem.",
+      "Incorrect — An even split feels fair but ignores the evidence; value-based ordering should follow impact rather than balance."
+    ],
+    "deepDive": "The Kano model sorts product attributes into basic (must-be), performance (more is better), and excitement (delighters), plus indifferent and reverse attributes. Delighters tend to become basic expectations over time, as AI assistants may in banking. PMBOK 7 lists prioritization schemas such as MoSCoW and multicriteria weighted analysis; Kano complements them by explaining why missing basics hurt more than missing extras. Exam trap: the exciting feature, especially one involving AI, is often the distractor when the evidence points to a basic failure.",
+    "tags": [
+      "kano",
+      "prioritization",
+      "value",
+      "ai",
+      "churn"
+    ]
+  },
+  {
+    "id": "PRO-142",
+    "domain": "Process",
+    "task": "4. Plan and manage resources",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Sourcing scarce AI skills",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Planning Performance Domain (2.4): project team composition — internal versus external skills",
+    "question": "A manufacturer is starting a five-month hybrid project to add machine-learning quality inspection to its production line. The internal data team knows the plant's systems and data well but has only introductory machine-learning skills. The sponsor wants the organization to maintain and retrain the models after the project ends. Hiring experienced machine-learning engineers would take about four months. What is the BEST approach to building the team?",
+    "options": [
+      "Train the internal data team in machine learning first, and start model development once the training is complete",
+      "Contract an external firm to build the entire solution and then hand the finished models over to operations",
+      "Bring in contracted specialists who pair with the internal team and transfer their knowledge as the work proceeds",
+      "Start recruiting permanent engineers now and schedule the model work to begin once the new hires have joined"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Weigh proficiency, time, cost, and what the organization must be able to do after the project ends.",
+    "why": "Team composition planning weighs the skills and proficiency needed against the time and cost of obtaining them inside or outside the organization. Contracted specialists supply the missing proficiency immediately, and pairing them with the internal team, who understand the plant and its data, builds the capability the sponsor needs to maintain the models. The other options either delay the work or leave the organization dependent on outsiders.",
+    "how": "When required skills are missing, compare developing them internally, sourcing them externally, and blended models against schedule, cost, and long-term capability; blended teams with planned knowledge transfer often balance all three.",
+    "optionNotes": [
+      "Incorrect — Training first delays delivery, and newly trained staff building production models alone raises quality risk on a five-month project.",
+      "Incorrect — A full outsource delivers quickly but leaves the internal team unable to maintain the models, defeating the sponsor's goal.",
+      "Correct — Specialists provide proficiency now, and pairing transfers knowledge so the internal team can own the models afterward.",
+      "Incorrect — Four months of recruiting consumes most of the schedule, leaving too little time to build and validate the models."
+    ],
+    "deepDive": "PMBOK 7 describes planning team composition as identifying the required skill sets, their proficiency levels, and relevant experience, then weighing the benefit of outside skills against their cost. Knowledge transfer should be planned rather than assumed: pairing, joint design sessions, and handover criteria written into the contract all help. For AI work, knowledge of the data and the process matters as much as modeling skill, which is why blended teams often outperform fully outsourced ones. The 2026 ECO also treats knowledge transfer as an explicit project responsibility.",
+    "tags": [
+      "team composition",
+      "skills",
+      "knowledge transfer",
+      "ai"
+    ]
+  },
+  {
+    "id": "PRO-143",
+    "domain": "Process",
+    "task": "4. Plan and manage resources",
+    "approach": "Agile",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Component teams versus feature teams",
+    "source": "ECO 2026 · Process Task 4 · Organizing teams around features rather than components",
+    "question": "A retailer's e-commerce replatforming has 24 developers organized into three component teams: web front end, services, and database. Almost every customer-facing feature needs work from all three, so a feature typically takes four sprints to finish as it passes between teams, and each sprint review shows partly built pieces rather than usable functionality. The three team leads now spend about a day a week negotiating dependencies. Headcount and budget are fixed. What should the project manager do?",
+    "options": [
+      "Appoint a full-time integration coordinator who sequences work across the three teams and tracks every dependency",
+      "Extend the sprints from two weeks to eight weeks so that each feature can pass through all three teams in one sprint",
+      "Have the three team leads plan all sprint backlogs together each sprint so that component work on features lines up",
+      "Work with the teams and their managers to regroup people into cross-functional teams that deliver whole features"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Is the problem how the dependencies between teams are managed, or that the team structure creates them?",
+    "why": "The delays, partial increments and day-a-week coordination all come from the team design: each feature must pass through three component teams, so no team can deliver value on its own. Regrouping the same people into cross-functional feature teams, each able to take a feature from front end to database, removes most hand-offs and lets every sprint end with usable functionality without adding headcount; component specialists can stay connected through communities of practice. A coordinator or joint planning manages the dependencies more efficiently, and longer sprints hide them, but none of these removes them.",
+    "how": "When hand-offs between specialist teams dominate delivery time, change the structure rather than managing the dependencies better: form stable, cross-functional teams that deliver end-to-end increments, and keep specialist knowledge shared through communities of practice.",
+    "optionNotes": [
+      "Incorrect — A coordinator makes the dependencies easier to track but leaves every feature passing through three teams, so the hand-offs and delays remain.",
+      "Incorrect — Longer sprints slow feedback and hide the hand-off problem inside a bigger timebox instead of removing it.",
+      "Incorrect — Joint planning may reduce surprises, but features still cross three teams and the leads keep spending their time on coordination.",
+      "Correct — Feature teams own work from end to end, which removes most cross-team hand-offs and produces usable increments every sprint."
+    ],
+    "deepDive": "Component teams are organized around parts of the architecture; feature teams are long-lived, cross-functional teams that deliver customer-facing features end to end. Agile guidance and scaling frameworks such as LeSS generally prefer feature teams because they minimize hand-offs, waiting and integration risk, although a few component or platform teams can still make sense for specialized shared services. Conway's law observes that system designs tend to mirror the communication structure of the organization that builds them. Resource planning in agile therefore includes deciding team composition, not just assigning individuals to tasks.",
+    "tags": [
+      "team structure",
+      "feature teams",
+      "cross-functional",
+      "dependencies",
+      "agile"
+    ]
+  },
+  {
+    "id": "PRO-144",
+    "domain": "Process",
+    "task": "4. Plan and manage resources",
+    "approach": "Predictive",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Schedule impact of resource leveling",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Planning Performance Domain (2.4): resource availability and its effect on the schedule",
+    "question": "Refer to the exhibit. A fabrication shop has three certified welders for this project, and no others can be obtained. The draft schedule starts activities A and B on day 1, which requires four welders while they overlap. Activities cannot be split. If the project manager levels the resources in the way that least affects the finish date, how much later will the project finish than the unleveled schedule?",
+    "options": [
+      "0 days",
+      "1 day",
+      "4 days",
+      "6 days"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Find the float on each path first, then decide which activity should wait for the welders.",
+    "why": "Paths: A → C → D = 6 + 3 + 2 = 11 days (critical); B → D = 4 + 2 = 6 days, so B has 11 − 6 = 5 days of total float. A and B each need 2 welders and only 3 are available, so they cannot overlap. Delaying non-critical B until A finishes means B runs on days 7–10, and D must wait for it, running on days 11–12. B moves 6 days against 5 days of float, so the finish slips from day 11 to day 12 — 1 day. Delaying A behind B instead would give 4 + 6 + 3 + 2 = 15 days, 4 days later.",
+    "how": "For leveling impact, find each path's float, delay the activity with the most float, and the finish date moves by the amount the required delay exceeds that float (if at all).",
+    "optionNotes": [
+      "Incorrect — B has 5 days of float, but it must wait 6 days for A's welders, so the float cannot absorb the whole delay.",
+      "Correct — B shifts 6 days against 5 days of float, pushing D and the project finish from day 11 to day 12.",
+      "Incorrect — 4 days comes from delaying critical activity A behind B (15 days in total) instead of delaying the activity with float.",
+      "Incorrect — 6 days is how far B moves, but its 5 days of float absorb most of that shift before the finish is affected."
+    ],
+    "deepDive": "Resource leveling changes start and finish dates to respect resource limits and often lengthens the critical path; resource smoothing moves activities only within their float, so it never changes the finish date but may not remove every overallocation. PMBOK 7 treats resource availability as a key input to schedule planning, and a resource histogram is the usual way to spot the overallocation in the first place. After leveling, the resource-constrained critical path can differ from the one found by logic alone. Alternatives to leveling include adding resources, approving overtime, or changing the method of work.",
+    "tags": [
+      "resource leveling",
+      "float",
+      "schedule",
+      "calculation",
+      "exhibit"
+    ],
+    "exhibit": {
+      "kind": "table",
+      "title": "Activity list — pump skid fabrication",
+      "columns": [
+        "Activity",
+        "Duration (days)",
+        "Predecessor",
+        "Welders needed"
+      ],
+      "rows": [
+        [
+          "A — Weld skid frame",
+          "6",
+          "—",
+          "2"
+        ],
+        [
+          "B — Weld storage tanks",
+          "4",
+          "—",
+          "2"
+        ],
+        [
+          "C — Pressure test",
+          "3",
+          "A",
+          "0"
+        ],
+        [
+          "D — Paint and coat",
+          "2",
+          "B, C",
+          "0"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "PRO-145",
+    "domain": "Process",
+    "task": "4. Plan and manage resources",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Structuring a distributed team",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Planning Performance Domain (2.4): team composition and location for dispersed teams",
+    "question": "On a software vendor's claims-portal project, all developers work in Toronto and all testers work in Pune, with almost no overlap in working hours. Every story passes from Toronto to Pune for testing, and every defect comes back overnight, so a simple fix often takes three days to close. Before the next phase, the sponsor has approved a modest budget to rebalance the team. What is the BEST resource-planning change for the project manager to propose?",
+    "options": [
+      "Reshape the team so each location has the developer and tester skills to finish work within its own working day",
+      "Replace the Pune testers with contractors in Toronto so that the whole team works in one location and time zone",
+      "Ask both groups to shift their hours permanently so that Toronto and Pune overlap for at least four hours a day",
+      "Introduce a detailed handoff template so each location documents its work fully before passing it across"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Is the delay caused by distance itself, or by where each skill sits relative to the flow of work?",
+    "why": "The delay comes from a structural handoff: every item must cross a time-zone gap at least twice. Planning the team so that each location holds the skills to complete work end to end removes most crossings while keeping the experienced people the project already has. Shifting hours, documenting more, or replacing staff either harms people or leaves the sequential handoff in place.",
+    "how": "When planning dispersed teams, organize them so work can be completed within one location or within overlapping hours, rather than splitting sequential functions across time zones; use collaboration technology for what must still cross.",
+    "optionNotes": [
+      "Correct — Giving each location end-to-end skills removes the overnight handoffs that drive the delay while keeping the experienced people.",
+      "Incorrect — Replacing the testers is costly, loses product knowledge, and likely exceeds a modest budget; the handoff design is the real issue.",
+      "Incorrect — A permanent shift of several hours is unsustainable, harms well-being and retention, and still leaves a sequential handoff.",
+      "Incorrect — Better documentation may reduce questions, but every item would still wait overnight between the two locations."
+    ],
+    "deepDive": "PMBOK 7 notes that dispersed teams spend more time connecting people through technology, while small colocated teams benefit from osmotic communication. Resource planning for virtual teams therefore considers where each skill sits, not just who is available. Follow-the-sun handoffs can work for well-defined operational work, but in development they often multiply waiting time. Fair rotation of meeting times and clear working agreements help with the collaboration that still has to cross time zones.",
+    "tags": [
+      "virtual teams",
+      "team structure",
+      "time zones",
+      "handoffs"
+    ]
+  },
+  {
+    "id": "PRO-146",
+    "domain": "Process",
+    "task": "4. Plan and manage resources",
+    "approach": "Hybrid",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Test environments as physical resources",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Planning Performance Domain (2.4): physical resources include environments and licenses",
+    "question": "A hybrid project is upgrading a bank's core ledger. The software teams plan in sprints, but every release must be tested in a production-like environment that is shared with two other projects and must be booked six weeks in advance. Last month, a release slipped because no environment slot was free when the team was ready. What should the project manager do to prevent this from happening again?",
+    "options": [
+      "Ask the teams to test releases in their own development environments whenever the shared one is unavailable",
+      "Escalate to the CIO each time a slot is unavailable so that this project takes priority over the other two",
+      "Shorten the release testing phase so that each release needs a smaller slot in the shared test environment",
+      "Plan the environment as a physical resource, booking slots against the release plan with its six-week lead time"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Resources are not only people — what else has a lead time that the plan must respect?",
+    "why": "Test environments, like equipment and licenses, are physical resources that must be estimated, scheduled, and secured with their lead times in mind. Booking slots in line with the release plan, six weeks ahead, turns a recurring surprise into a planned dependency. The other options lower quality, escalate what is really a planning gap, or trade away test coverage.",
+    "how": "Treat environments, licenses, and equipment as physical resources: identify them during planning, include their lead times, and schedule them against the release or iteration plan.",
+    "optionNotes": [
+      "Incorrect — Development environments are not production-like, so testing there lowers confidence and raises the risk of defects in the ledger.",
+      "Incorrect — Repeated escalation treats a predictable scheduling need as a crisis and damages relationships with the other two projects.",
+      "Incorrect — Cutting test time to fit the slot trades away quality on a critical financial system and does not fix the booking problem.",
+      "Correct — Scheduling the shared environment with its lead time as part of release planning prevents conflicts before they happen."
+    ],
+    "deepDive": "PMBOK 7 defines physical resources as anything other than people, including materials, equipment, software, testing environments, and licenses. Planning them means considering lead time, logistics, and how they are shared, then integrating them with the schedule. In hybrid settings, adaptive teams may not naturally think about long-lead items, so the project manager connects the release plan to predictive constraints such as environment bookings and hardware deliveries. A resource calendar or booking system makes shared-resource availability visible to everyone.",
+    "tags": [
+      "physical resources",
+      "test environment",
+      "lead time",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "PRO-147",
+    "domain": "Process",
+    "task": "4. Plan and manage resources",
+    "approach": "Predictive",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Bulk discount vs just-in-time delivery",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Project Work Performance Domain (2.5): managing physical resources — storage, waste, and JIT",
+    "question": "On a hospital extension project, a supplier offers a 10% discount if the contractor accepts all 4,000 drywall sheets in a single delivery next week. The drywall will be installed gradually over the next five months, the site has limited covered storage, and any sheets that get damp must be scrapped. What should the project manager do before deciding whether to accept the offer?",
+    "options": [
+      "Accept the offer, because a 10% discount on one of the largest material packages is a guaranteed saving",
+      "Decline the offer, because just-in-time delivery is always the better choice for materials on a busy site",
+      "Compare the discount with the costs of storing, handling, protecting, and possibly scrapping the sheets",
+      "Ask the supplier to store the sheets in its own warehouse free of charge while still giving the full discount"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Besides the unit price, what other costs and risks would taking five months of material at once create on this site?",
+    "why": "Bulk ordering must be weighed against the costs it creates: storage space, extra handling, weather protection, damage and scrap, site safety and congestion, and cash tied up early. Comparing these costs with the 10% discount shows whether the offer really saves money. The result may favor staged just-in-time deliveries or a negotiated middle option.",
+    "how": "For physical resources, evaluate bulk purchases against the total cost of holding them on site — storage, handling, waste, safety, and cash flow — rather than the unit price alone.",
+    "optionNotes": [
+      "Incorrect — The discount ignores storage, handling, and scrap costs, which over five months could exceed the saving.",
+      "Incorrect — Rejecting the offer by rule skips the analysis; in some situations a bulk order is the better total-cost choice.",
+      "Correct — A total-cost comparison shows whether the discount outweighs the costs and risks of holding the sheets on site.",
+      "Incorrect — Asking for free storage plus the full discount is unlikely to succeed and does not replace the needed analysis."
+    ],
+    "deepDive": "PMBOK 7 says physical resource planning weighs bulk ordering against the cost of storage and considers lead time, logistics, sustainability, and tracking from arrival to use. Its stated objectives for managing materials include reducing on-site handling and storage, eliminating waiting for materials, minimizing scrap and waste, and supporting a safe site. Just-in-time delivery comes from lean production and trades lower inventory for dependence on reliable suppliers. Exam trap: a price discount presented as a certain saving.",
+    "tags": [
+      "physical resources",
+      "just-in-time",
+      "lean",
+      "logistics"
+    ]
+  },
+  {
+    "id": "PRO-148",
+    "domain": "Process",
+    "task": "4. Plan and manage resources",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Team member pulled mid-sprint",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Project Work Performance Domain (2.5): keeping the team focused and protecting its capacity",
+    "question": "In a matrix organization, a functional manager tells the project manager that a senior developer will spend the next two weeks fixing production issues in another department's system. The developer is committed to two stories in the current sprint, one of which supports a milestone the steering committee is tracking. The project's resource agreement assigns the developer full time until the release. What should the project manager do FIRST?",
+    "options": [
+      "Accept the request, since functional managers control resources in a matrix, and quietly drop the stories from the sprint",
+      "Meet the functional manager to understand the urgency and negotiate options that respect the resource agreement",
+      "Escalate to the steering committee at once so it can instruct the functional manager to keep the developer on the project",
+      "Ask the developer to handle both assignments by working evenings so that the sprint and the milestone stay on track"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "An agreement is already in place — what conversation should happen before anyone escalates or gives in?",
+    "why": "The PM should first understand the production problem and negotiate with the functional manager, using the agreed resource commitment as the basis, to find options such as part-time support, a later start, or a different person. This protects the team's capacity and the milestone while respecting a legitimate operational need. Escalation is appropriate only if negotiation fails, and the product owner and team should hear about any resulting change to sprint scope.",
+    "how": "When a shared resource is pulled away, negotiate directly with the resource owner first, using the resource agreement and the impact on value; escalate only if the conflict cannot be resolved at that level.",
+    "optionNotes": [
+      "Incorrect — Quietly accepting ignores the resource agreement and hides the impact on the milestone from the product owner and steering committee.",
+      "Correct — Understanding the need and negotiating against the agreement is the right first step and often finds an option that works for both.",
+      "Incorrect — Escalating before talking to the functional manager is premature and can damage a relationship the PM will need again.",
+      "Incorrect — Overloading the developer is unsustainable, risks quality in both systems, and avoids the real resource decision."
+    ],
+    "deepDive": "In matrix organizations, project managers negotiate for resources with functional managers, and a documented resource agreement or resource management plan gives that negotiation a basis. PMBOK 7 stresses keeping the team focused on delivery and protecting its capacity to produce. In agile terms, losing a member mid-sprint changes the team's forecast, so the product owner must be involved in any scope adjustment. Exam pattern: negotiate or collaborate before escalating, and never solve capacity problems with hidden overtime.",
+    "tags": [
+      "matrix",
+      "negotiation",
+      "resource agreement",
+      "sprint"
+    ]
+  },
+  {
+    "id": "PRO-149",
+    "domain": "Process",
+    "task": "5. Plan and manage procurement",
+    "approach": "Any",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Choosing the right bid document",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Project Work Performance Domain (2.5): bid documents — RFI, RFQ, and RFP",
+    "question": "A pipeline operator wants to use drones for automated leak inspection, but the project team is unsure what solutions exist, which vendors are credible, or what a realistic budget would be. Company procurement policy requires a formal bid process before any contract is awarded. Which bid document should the project manager work with the contracting officer to issue FIRST?",
+    "options": [
+      "A request for information to learn about the market and identify vendors worth inviting to a later proposal round",
+      "A request for quotation so that vendors compete on price for a drone inspection service that meets the operator's needs",
+      "A request for proposal with a detailed statement of work describing the drone system and every inspection route",
+      "A purchase order to the most experienced vendor so that inspections can begin while the bid process is completed"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Which bid document fits a buyer who does not yet know enough about the market to ask for solutions or prices?",
+    "why": "When the buyer does not yet know what solutions exist, who can supply them, or what they cost, a request for information gathers that market knowledge before bid documents go out to selected vendors. The findings then shape a sound statement of work and a request for proposal for this complex scope. A request for quotation suits readily available items where price decides, and awarding work early would breach policy.",
+    "how": "Match the bid document to what the buyer knows: an RFI to learn about the market, an RFP when vendors must propose a solution to a complex need, and an RFQ when the item is standard and price is the main factor.",
+    "optionNotes": [
+      "Correct — An RFI gathers market knowledge and a vendor shortlist, which the team needs before it can write a sound RFP.",
+      "Incorrect — An RFQ suits standard, readily available items where price decides; here the solution itself is still unknown.",
+      "Incorrect — An RFP is premature; without market knowledge the team cannot yet write a realistic statement of work.",
+      "Incorrect — Awarding work before the required bid process breaches procurement policy and bypasses the contracting officer's authority."
+    ],
+    "deepDive": "PMBOK 7 describes three common bid documents: a request for information (RFI) to learn from the market before sending bid documents to selected vendors, a request for proposal (RFP) for complex scope where vendors propose a solution, and a request for quotation (RFQ) when price is the main factor and the solution is readily available. A bidder conference then answers questions so that all bidders work from the same information. Project managers usually lack contracting authority and work with contracting professionals on these documents. Source selection typically weighs several weighted criteria, not price alone.",
+    "tags": [
+      "procurement",
+      "bid documents",
+      "rfi",
+      "rfp"
+    ]
+  },
+  {
+    "id": "PRO-150",
+    "domain": "Process",
+    "task": "5. Plan and manage procurement",
+    "approach": "Predictive",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Final price under an FPIF contract",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Artifacts (4.6): agreements and contracts — fixed-price incentive fee terms",
+    "question": "A water authority has a fixed-price incentive fee (FPIF) contract for fabricating a pump skid. The terms are: target cost $400,000, target fee $40,000, buyer/seller share ratio 70/30, and ceiling price $480,000. The seller's audited actual cost is $460,000. Before the final invoice is approved, the contracting officer asks the project manager to confirm the amount due. How much will the buyer pay?",
+    "options": [
+      "$458,000",
+      "$460,000",
+      "$480,000",
+      "$482,000"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Adjust the fee for the overrun using the seller's share, then compare the result with the ceiling.",
+    "why": "Overrun = actual cost − target cost = $460,000 − $400,000 = $60,000. The seller's share is 30%, so the fee falls by 0.30 × $60,000 = $18,000, leaving a fee of $40,000 − $18,000 = $22,000. The calculated price is $460,000 + $22,000 = $482,000, which exceeds the $480,000 ceiling, so the buyer pays the ceiling price of $480,000 and the seller absorbs the remaining $2,000.",
+    "how": "For FPIF: fee adjustment = seller's share × (target cost − actual cost); price = actual cost + adjusted fee; the buyer never pays more than the ceiling price.",
+    "optionNotes": [
+      "Incorrect — $458,000 applies the buyer's 70% share to the seller's fee, a $42,000 cut, which reverses the share ratio.",
+      "Incorrect — $460,000 reimburses the actual cost but leaves out the seller's adjusted fee, which is still $22,000.",
+      "Correct — The calculated price of $482,000 exceeds the ceiling, so the buyer pays the $480,000 ceiling price.",
+      "Incorrect — $482,000 is the calculated price, but an FPIF contract caps what the buyer pays at the ceiling price."
+    ],
+    "deepDive": "In a share ratio such as 70/30, the first number is the buyer's share and the second the seller's; the seller's fee moves by its share of any underrun or overrun. The point of total assumption (PTA) = target cost + (ceiling price − target price) ÷ buyer's share = $400,000 + $40,000 ÷ 0.70 ≈ $457,143; above that cost, the seller bears every additional dollar. PMBOK 7 places FPIF in the fixed-price family, which suits well-defined scope, while cost-reimbursable contracts suit uncertain scope. The choice of contract type should reflect scope stability, the size of the purchase, and each party's risk tolerance.",
+    "tags": [
+      "procurement",
+      "fpif",
+      "contract types",
+      "calculation"
+    ]
+  }
+]

@@ -1,0 +1,1232 @@
+[
+  {
+    "id": "PRO-235",
+    "domain": "Process",
+    "task": "1. Develop an integrated project management plan and plan delivery",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Integrated plan for a hybrid program",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Development Approach and Life Cycle Performance Domain (2.3): delivery cadence in a hybrid program",
+    "question": "Refer to the case. Henrik asks for one integrated plan he can review at each hardware gate. The hardware lead proposes that the software teams stop sprinting and deliver against a fixed specification, in phases that mirror the hardware gates, until the regulatory submission. What should the program manager do?",
+    "options": [
+      "Keep each track's cadence and build an integrated roadmap with joint integration milestones on the HIL rig tied to each hardware gate",
+      "Move the software teams onto the hardware phase plan so that all deliverables are specified, reviewed and approved together at each gate",
+      "Let each track keep its own plan and report to the steering group separately, since the two life cycles are too different to combine",
+      "Freeze the software backlog now and plan the remaining features as one release that starts after hardware verification is complete"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "What does the steering group actually need to see — identical life cycles, or confidence that the pieces come together at the right moments?",
+    "why": "Henrik's stated worry is late discovery that the parts do not fit, so the plan must make integration visible and early. An integrated roadmap lets the hardware track keep its gates and the software teams keep their sprints, while agreed integration milestones on the HIL rig give each gate real evidence that firmware and hardware work together. This is how hybrid programs are normally tailored: synchronize at defined points instead of forcing one cadence on everything. Forcing sprints into phases would also throw away the fast clinician feedback that is working.",
+    "how": "In hybrid programs, let each component use the life cycle that fits its uncertainty, and integrate through a shared roadmap, synchronization milestones and common integration tests rather than a single cadence.",
+    "optionNotes": [
+      "Correct — Each track keeps the cadence that suits it, and integration milestones tied to the gates expose fit problems early, which addresses the sponsor's main concern.",
+      "Incorrect — Imposing phase-based delivery on software discards the fast feedback from sprint reviews that is working, without making integration any earlier.",
+      "Incorrect — Separate plans hide the dependencies between the tracks, which is exactly where the sponsor fears late surprises.",
+      "Incorrect — Deferring software to one late release pushes integration to the end, maximizing the risk of discovering that the parts do not fit."
+    ],
+    "deepDive": "PMBOK 7 describes delivery cadence (single, multiple or periodic deliveries) and notes that one project can combine them. A hybrid program typically runs predictive gates for long-lead, hard-to-change components such as tooling and adaptive iterations for software, then aligns them with a roadmap, integration events and a shared definition of 'integrated and verified'. Scaled frameworks call these synchronization points program increments or integration milestones. Exam trap: hybrid does not mean converting the agile team to waterfall or running two unrelated projects; it means deliberate tailoring plus explicit integration points.",
+    "tags": [
+      "case study",
+      "hybrid",
+      "integrated planning",
+      "delivery cadence",
+      "tailoring"
+    ],
+    "caseId": "CS-01"
+  },
+  {
+    "id": "PEO-189",
+    "domain": "People",
+    "task": "2. Manage conflicts",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Conflict over a shared test rig",
+    "source": "ECO 2026 · Case study CS-01 · People Task 2",
+    "question": "Refer to the case. Three weeks before design freeze, Mei Lin books the HIL rig for every working day of the next month for hardware verification dry runs. The Porto developers say they can no longer run integration tests in their sprints, and a heated exchange breaks out in the program's chat channel, with both sides copying Henrik. What should the program manager do FIRST?",
+    "options": [
+      "Ask Henrik to approve a second HIL rig so that each track has dedicated test capacity and the argument stops",
+      "Give the hardware team priority on the rig, because design freeze is the program's next major milestone",
+      "Bring Mei Lin and the software leads together to compare each track's test needs and agree a shared rig schedule",
+      "Ask both groups to move the discussion out of the channel and settle the rig bookings between themselves by Friday"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Which option can actually help within the next month, and who understands the test needs well enough to shape the solution?",
+    "why": "This is a conflict over a shared resource between two legitimate needs, and it is still at the working level. Bringing the people who own the tests together to lay out what each needs, and when, lets them build a shared schedule — for example, blocks for hardware dry runs plus short, planned integration windows in each sprint. A second rig cannot arrive for 14 weeks, long after design freeze, so it does nothing for the immediate problem. Facilitated collaboration also moves the dispute out of a public channel before it turns personal.",
+    "how": "For conflict over shared resources: get the parties together, surface the needs behind each position and agree a joint plan; escalate only if they cannot agree or the decision exceeds your authority.",
+    "optionNotes": [
+      "Incorrect — With a 14-week lead time, a second rig arrives after design freeze, and going to the sponsor first skips the team's own problem-solving.",
+      "Incorrect — Forcing a priority ignores the integration risk the sponsor is worried about and leaves the software teams unable to test for a month.",
+      "Correct — Collaborative problem-solving on the actual test needs can produce a shared schedule both tracks accept, and it calms the public dispute.",
+      "Incorrect — Leaving the parties to sort it out alone is withdrawal; the heated exchange shows they need facilitation to reach agreement."
+    ],
+    "deepDive": "Thomas-Kilmann modes: collaborating (both needs met; best when the issue matters and time allows), compromising, forcing, accommodating and avoiding. Forcing can be right in an emergency or for safety, but here a joint schedule is achievable. In hybrid programs, scarce integration environments are a classic flashpoint; good practice is to plan them explicitly in the integrated roadmap and to treat buying extra capacity as a business decision that respects its lead time. Move heated disagreements from public channels into a facilitated conversation.",
+    "tags": [
+      "case study",
+      "conflict",
+      "shared resources",
+      "collaborate",
+      "hybrid"
+    ],
+    "caseId": "CS-01"
+  },
+  {
+    "id": "PRO-236",
+    "domain": "Process",
+    "task": "7. Plan and optimize quality of products/deliverables",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Verification passed, validation failed",
+    "source": "ECO 2026 · Case study CS-01 · Process Task 7",
+    "question": "Refer to the case. In month 8, a simulated-use study with nurses from the advisory panel finds that 4 of 15 participants misread the dose-confirmation screen and accept the wrong infusion rate. Every software requirement for that screen passed verification. The hardware design freeze is five weeks away. What should the program manager do NEXT?",
+    "options": [
+      "Log the finding as a training need and ask the pilot hospitals to cover the confirmation screen in nurse onboarding",
+      "Treat it as a validation failure: analyze the root cause, update the interface requirements and risk file, then re-test",
+      "Proceed as planned, because the screen meets its approved requirements and has passed every verification test",
+      "Postpone the hardware design freeze until a larger usability study confirms whether the problem really exists in practice"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Passing verification tells you the product was built as specified — what does this study tell you about the specification itself?",
+    "why": "Verification confirms the product meets its specified requirements; validation confirms it meets user needs in its intended use. Nurses accepting the wrong infusion rate is a use-related hazard in a safety-critical device, so the requirements themselves are inadequate. The right next step is root-cause analysis of the interaction, updating the user-interface requirements and hazard analysis, and re-testing with users. The screen is software, so the Scrum teams can address it in coming sprints without moving the hardware freeze.",
+    "how": "When deliverables pass verification but fail validation, fix the design inputs: find the root cause, update requirements and risk controls, then re-verify and re-validate. Do not rely on training to cover a design flaw that can harm people.",
+    "optionNotes": [
+      "Incorrect — Relying on training to offset a design that invites use errors is a weak risk control and leaves a known hazard in the product.",
+      "Correct — The requirements did not capture user needs, so the design inputs and hazard analysis must be corrected and the screen re-tested with users.",
+      "Incorrect — Meeting the specification is verification only; the study shows the specification does not meet user needs in intended use.",
+      "Incorrect — The flaw is in software, not hardware, and 4 of 15 users making a dosing error is already a clear signal to act on."
+    ],
+    "deepDive": "Remember the pairing: verification asks 'did we build it right?' (against specifications); validation asks 'did we build the right thing?' (against user needs, with real users in real or simulated use). In regulated products, use-error findings feed back into the risk file and usually lead to design changes rather than labeling or training, which rank lower in the hierarchy of risk controls. PMI's quality view is the same: prevention over inspection, and fixing root causes rather than symptoms. Agile teams shorten this loop by testing prototypes with users early, as the advisory panel already does.",
+    "tags": [
+      "case study",
+      "quality",
+      "validation",
+      "verification",
+      "risk file",
+      "hybrid"
+    ],
+    "caseId": "CS-01"
+  },
+  {
+    "id": "BUS-147",
+    "domain": "Business Environment",
+    "task": "3. Manage and control changes",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Product owner authority vs design control",
+    "source": "ECO 2026 · Case study CS-01 · Business Environment Task 3",
+    "question": "Refer to the case. After the dose-calculation firmware has been verified, the advisory panel asks for a louder, escalating occlusion alarm. The change would take one sprint, and Aisha has placed it at the top of the backlog for the next sprint. Tomasz objects that alarm behavior is a verified design output. Aisha replies that ordering the backlog is her decision. What should the program manager do?",
+    "options": [
+      "Support Aisha, because the product owner owns the backlog and the panel represents the users who asked for the change",
+      "Reject the request, because verified design outputs are frozen and new ideas should wait for the next product version",
+      "Ask Henrik to decide between Aisha and Tomasz, since the two leaders disagree about who has authority over the change",
+      "Raise a design change record so the board assesses risk-file and verification impacts before the change is released"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "In a regulated product, the backlog decides the order of work — but what decides whether a change to a verified safety function may be released?",
+    "why": "Aisha owns the order of the backlog, but the quality system states that any change to a verified design output needs an approved design change record. An alarm is a safety function, so the board must assess the effect on the hazard analysis, re-verification and the submission before the change is released. The team can still refine or prototype the alarm while the board assesses it; governance decides when and how it ships. Rejecting the idea ignores real user value, and escalating to the sponsor skips the process that already defines the authority.",
+    "how": "In hybrid or regulated work, the product owner orders the backlog, but changes to baselined or verified items must also pass the formal change control that governs them. Use the defined process before escalating.",
+    "optionNotes": [
+      "Incorrect — Backlog ownership does not override design controls; releasing an unassessed change to a safety function risks patient harm and noncompliance.",
+      "Incorrect — Change control exists to assess changes, not to ban them, and the clinicians' request may well improve patient safety.",
+      "Incorrect — The quality system already defines who approves such changes, so escalating the disagreement to the sponsor is unnecessary.",
+      "Correct — The defined design change process assesses safety and verification impact while still allowing a valuable change to proceed."
+    ],
+    "deepDive": "The Scrum Guide gives the product owner authority over the product backlog, but always within the organization's constraints, and regulated industries add design controls on top. A practical pattern is to include 'design change record approved' in the definition of done for any story that touches a verified output, so compliance is part of the flow rather than a late gate. In a purely predictive project every change would go to a change control board; in hybrid work only changes to baselined or regulated items need that formal route. Exam trap: 'the product owner decides' is often right, but not when a governing compliance process applies.",
+    "tags": [
+      "case study",
+      "change control",
+      "design controls",
+      "product owner",
+      "hybrid",
+      "compliance"
+    ],
+    "caseId": "CS-01"
+  },
+  {
+    "id": "PRO-237",
+    "domain": "Process",
+    "task": "3. Help ensure value-based delivery",
+    "approach": "Agile",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Reading segmented pilot results",
+    "source": "ECO 2026 · Case study CS-02 · Process Task 3",
+    "question": "Refer to the case. At the pilot review, Ravi points to the overall completion rate — 66% with the assistant against 57% without — and asks the teams to switch the assistant on for every applicant next sprint. Lucas asks you to help him interpret the evidence before he decides. Which conclusion is BEST supported by the exhibit?",
+    "options": [
+      "The product goal has been met, because overall completion rose by nine points and complaints stayed under five per 1,000",
+      "Most applicants benefit, but second-language speakers completed less often than without it, so full rollout is not yet justified",
+      "The results cannot be relied on because the pilot was too small, so the teams should rerun it with twice as many applicants first",
+      "Applicants aged 65+ show the clearest need for improvement, so their experience should be the teams' next priority"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "An average can hide a segment where the increment destroys value — compare each row with its own control.",
+    "why": "Overall completion rose from 57% to 66%, but that average is driven by the largest segment (71% against 58%). For second-language speakers, completion fell from 55% to 49% — worse than having no assistant — while wrong answers (7.9%) and complaints (11 per 1,000 against about 4 in the control group) were far higher. The product goal requires higher completion without more complaints, so value is proven for some segments and negative for one. The evidence supports releasing where value is shown and fixing the second-language experience before exposing everyone to it.",
+    "how": "To judge value from an experiment, compare each segment with its control and against the stated outcome goal; an aggregate gain can hide a segment where the increment makes things worse.",
+    "optionNotes": [
+      "Incorrect — The average hides a segment that got worse, and complaints among second-language speakers far exceed the control group's rate.",
+      "Correct — Segment-level comparison shows clear gains for most applicants but a loss for second-language speakers, so the goal is not met for everyone.",
+      "Incorrect — Four thousand randomized users with a control group is a solid sample; the problem is what the data shows, not its size.",
+      "Incorrect — Older applicants improved slightly over their control; the second-language segment is the one doing worse than no assistant."
+    ],
+    "deepDive": "Aggregates can mask harm in a subgroup; in extreme cases (Simpson's paradox) the overall trend even reverses within every subgroup. Value-based delivery means measuring outcomes such as completion and complaints against a control, not outputs such as conversations handled, and doing it per segment when user groups differ. In Scrum the product owner uses this evidence to decide what to release and what to fix next; the delivery lead makes the evidence visible and honest. For AI features, segment analysis is also how fairness problems surface early, before they become compliance issues.",
+    "tags": [
+      "case study",
+      "value",
+      "experiment",
+      "segmentation",
+      "ai",
+      "exhibit"
+    ],
+    "caseId": "CS-02"
+  },
+  {
+    "id": "PEO-190",
+    "domain": "People",
+    "task": "5. Align stakeholder expectations",
+    "approach": "Agile",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Aligning a sponsor's launch claims",
+    "source": "ECO 2026 · Case study CS-02 · People Task 5",
+    "question": "Refer to the case. Ravi shares a draft keynote announcing 'Kestrel's AI approves your loan in minutes' and plans to make the assistant available to every applicant on the day of the conference. Lucas is uneasy but says it is Ravi's call. What should the delivery lead do FIRST?",
+    "options": [
+      "Meet Ravi with Lucas and Nadia to review what the pilot shows and what the assistant does, then agree a fitting message and rollout",
+      "Ask the marketing team to replace the headline with accurate wording before the keynote draft goes back to Ravi for his final approval",
+      "Add a full rollout to the backlog for the conference date, since the sponsor sets the priority and owns the business case",
+      "Report the draft keynote to the chief executive as a compliance risk so that someone senior can stop the announcement"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Both the claim and the plan rest on expectations that differ from the evidence — whose understanding needs to change, and who should be in the room?",
+    "why": "The draft claim misstates the product — the assistant explains offers; it does not approve loans — and the planned rollout ignores a segment where the pilot showed harm. The first step is to align expectations with the sponsor directly: review the evidence together with the product owner and the compliance officer, and agree an honest message and a rollout scope the data supports. This respects Ravi's role, keeps Lucas accountable for the product and brings compliance in early. Going around Ravi, or simply complying, would leave the misalignment in place.",
+    "how": "When a stakeholder's expectations diverge from reality, engage them directly and early with evidence, bring in the roles that own the decision, and agree a shared position before anything is announced.",
+    "optionNotes": [
+      "Correct — A direct, evidence-based conversation with the right roles aligns the sponsor's expectations on both the claim and the rollout.",
+      "Incorrect — Rewording the keynote behind the sponsor's back avoids the real conversation and does nothing about the rollout plan.",
+      "Incorrect — Accepting a rollout the evidence does not support, and a claim that misdescribes the product, fails to align expectations.",
+      "Incorrect — Escalating over the sponsor's head before talking with him is premature and damages trust with a key stakeholder."
+    ],
+    "deepDive": "Aligning expectations is proactive: surface gaps between what stakeholders believe and what the product will deliver before they are made public. Useful tools include a product vision or 'is / is not' statement, pilot evidence and clear release criteria. With AI features, overclaiming is also a regulatory and reputational risk — misleading statements about automated decisions attract scrutiny — so compliance belongs in the conversation. Escalation becomes appropriate only if the sponsor insists on a misleading claim after seeing the facts.",
+    "tags": [
+      "case study",
+      "stakeholder expectations",
+      "sponsor",
+      "ai",
+      "honesty"
+    ],
+    "caseId": "CS-02"
+  },
+  {
+    "id": "BUS-148",
+    "domain": "Business Environment",
+    "task": "2. Plan and manage project compliance",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Reusing customer data to tune an AI model",
+    "source": "ECO 2026 · Case study CS-02 · Business Environment Task 2",
+    "question": "Refer to the case. To fix the weak results for second-language speakers, two developers propose sending 18 months of full, unmasked customer-service chat transcripts to the model vendor so it can fine-tune the model on Kestrel's own conversations. The vendor has offered to start this week at no charge. What should the delivery lead do?",
+    "options": [
+      "Approve the plan, because fixing a known accuracy problem for a disadvantaged group outweighs the privacy concern",
+      "Let the developers go ahead if they remove names first, since the agreement already covers masked conversation text",
+      "Ask the vendor to confirm in writing that it will delete the transcripts once the fine-tuning work is complete",
+      "Pause the plan and have Nadia and the privacy team assess this new use of personal data before any is shared"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Compare what the existing data processing agreement allows with what this proposal would do with customers' data.",
+    "why": "The agreement allows the vendor to process masked text only to generate answers. Sending unmasked transcripts for model training is a new purpose and a new data flow, possibly needing a new legal basis, so it requires a privacy impact assessment and compliance approval before any data leaves the company. The goal is legitimate, and the assessment may find a compliant route — synthetic or properly anonymized data, a revised contract or customer consent. Removing names alone is not anonymization, and a deletion promise does not make an unauthorized transfer lawful.",
+    "how": "Before personal data is used for a new purpose or shared with a third party, assess the privacy impact with the compliance or privacy function and confirm the legal basis; compliance obligations are not traded against delivery benefits.",
+    "optionNotes": [
+      "Incorrect — A worthy goal does not authorize an unlawful data transfer; compliance is a constraint, not a factor to trade off.",
+      "Incorrect — Removing names does not anonymize chat transcripts, and model training is outside the purpose the agreement covers.",
+      "Incorrect — A deletion promise does not make the transfer lawful; the new purpose must be assessed before any data is shared.",
+      "Correct — A new use of personal data needs a privacy assessment and compliance approval first; the team can pursue a compliant route afterward."
+    ],
+    "deepDive": "Privacy by design means checking purpose limitation, data minimization and legal basis whenever data use changes, not only at the start of a project. For generative AI, common safeguards include masking or tokenizing personal data, contractual limits on vendor training use, synthetic data for fine-tuning and retention controls. Agile teams can add a privacy check to the definition of ready for stories that touch personal data, so issues surface before work starts. Exam pattern: when a confirmed compliance obligation applies, comply first, then look for a compliant way to deliver the value.",
+    "tags": [
+      "case study",
+      "privacy",
+      "compliance",
+      "ai",
+      "data protection",
+      "vendor"
+    ],
+    "caseId": "CS-02"
+  },
+  {
+    "id": "BUS-149",
+    "domain": "Business Environment",
+    "task": "8. Evaluate external business environment changes",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Draft AI rule during delivery",
+    "source": "ECO 2026 · Case study CS-02 · Business Environment Task 8",
+    "question": "Refer to the case. The national financial regulator publishes a draft rule for consultation: any AI system that talks with credit applicants must disclose that it is AI, keep conversation records for five years and offer a way to reach a human. The final rule is expected in about nine months. What should the delivery lead do?",
+    "options": [
+      "Wait for the final rule before changing the backlog, because draft requirements often change during consultation",
+      "Stop further releases of the assistant until the final rule is published, to avoid building features that must later be redone",
+      "Review the draft with Nadia and Lucas, add the likely requirements to the backlog, and log the remaining uncertainty as a risk",
+      "Ask the legal department to track the consultation closely and report back to the team once the final requirements are clear"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Nine months is not long for an agile roadmap — how do you act on a change that is likely but not yet final?",
+    "why": "A draft rule is an external change that will very likely affect the product, so the team should evaluate it now rather than wait. Reviewing it with the compliance officer and product owner turns the likely requirements — AI disclosure, record retention, a human handoff — into backlog items Lucas can order, while the uncertain details go into the risk register. Disclosure and handoff are cheap and good practice anyway, and five-year retention may need architecture work that takes time. Waiting or handing everything to legal leaves the team exposed; stopping releases overreacts to a rule that is not yet in force.",
+    "how": "For external changes such as new regulation: assess the impact early with the relevant experts, translate likely obligations into backlog or plan changes, and track what remains uncertain as risk.",
+    "optionNotes": [
+      "Incorrect — Waiting nine months leaves too little time for changes such as five-year record retention, which may need architectural work.",
+      "Incorrect — Halting delivery overreacts to a draft that is not in force and stops value the pilot has shown for most applicants.",
+      "Correct — Early impact analysis turns likely obligations into ordered backlog work and keeps the remaining uncertainty visible as risk.",
+      "Incorrect — Legal input matters, but handing off the issue removes the team and product owner from planning the product's response."
+    ],
+    "deepDive": "Evaluating the external business environment means scanning regulatory, market, technological and social changes (PESTLE) and judging their impact on scope, schedule, risk and value. AI regulation is moving quickly; common themes are transparency, human oversight, record-keeping and risk classification. Agile teams absorb such changes well because new requirements enter the backlog and ship incrementally, but only if the change is noticed early. Exam trap: 'wait until it is final' is rarely best when the change is likely and the lead time to comply is significant.",
+    "tags": [
+      "case study",
+      "regulation",
+      "external environment",
+      "ai",
+      "backlog"
+    ],
+    "caseId": "CS-02"
+  },
+  {
+    "id": "PRO-238",
+    "domain": "Process",
+    "task": "9. Evaluate project status",
+    "approach": "Predictive",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Reading earned value by control account",
+    "source": "ECO 2026 · Case study CS-03 · Process Task 9",
+    "question": "Refer to the case. Preparing for the steering meeting, you compare the exhibit with the contractor's view that the project is 'broadly on track' because the approach roads are ahead of plan. Marta will want a clear statement of where the project stands. Which assessment of the project's status is BEST supported by the data?",
+    "options": [
+      "The project is about 11% behind in value terms, but the approach roads' lead offsets much of it, so the finish date is not yet at risk",
+      "Schedule risk sits in the foundations account, which is on the critical path and has the lowest SPI, so the finish date is at risk",
+      "Cost is the main concern; with an overall SPI near 0.9, the schedule is within a normal tolerance for civil works at this stage",
+      "Drainage and lighting should be the focus, because its SPI of 0.80 shows it is further behind its plan than the bridge deck is"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "SPI treats every dollar of work the same — does the calendar?",
+    "why": "Overall SPI = EV ÷ PV = 12.4 ÷ 14.0 ≈ 0.89, but an aggregate mixes critical and non-critical work. By account: foundations 3.8 ÷ 5.0 = 0.76 (critical), bridge deck 2.6 ÷ 3.0 ≈ 0.87 (critical), approach roads 3.2 ÷ 3.0 ≈ 1.07, drainage and lighting 0.8 ÷ 1.0 = 0.80. Progress on the non-critical approach roads cannot recover delay on the critical path, and the worst performer, the foundations, is critical — so the finish date is at risk and corrective action should start there.",
+    "how": "When EVM and the schedule disagree, check the critical path: SPI is a value measure, and gains on non-critical work cannot offset delays on critical activities. Analyze by control account, not just the total.",
+    "optionNotes": [
+      "Incorrect — Ahead-of-plan work on the non-critical approach roads cannot recover delay on the critical path through the foundations.",
+      "Correct — Foundations has the lowest SPI (0.76) and sits on the critical path, so it drives the forecast finish and needs corrective action first.",
+      "Incorrect — An overall SPI of about 0.89 hides a much worse critical-path figure; the total looking moderate does not mean the schedule is fine.",
+      "Incorrect — Drainage and lighting is non-critical and has float, so its 0.80 SPI matters less than the critical foundations at 0.76."
+    ],
+    "deepDive": "SPI compares earned value with planned value, so it treats a dollar of any work as equal and does not know which work is critical. That is why PMI pairs EVM with critical-path analysis — and why SPI drifts back toward 1.0 at the end of a late project, when all planned value is eventually earned; earned schedule (SPI(t)) corrects that distortion. Contractors naturally lead with good news, so the owner's project manager should verify status independently, by control account, before briefing the sponsor.",
+    "tags": [
+      "case study",
+      "earned value",
+      "critical path",
+      "project status",
+      "calculation",
+      "exhibit"
+    ],
+    "caseId": "CS-03"
+  },
+  {
+    "id": "PRO-239",
+    "domain": "Process",
+    "task": "6. Plan and manage finance",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Variance at completion from case data",
+    "source": "ECO 2026 · Case study CS-03 · Process Task 6",
+    "question": "Refer to the case. The cost engineer expects the soft-clay conditions to continue in the remaining foundation and abutment work, and she believes the project's cost performance to date is a fair guide to the rest of the job. Using the totals in the exhibit, what is the forecast variance at completion (VAC)?",
+    "options": [
+      "−$4.2 million",
+      "−$2.5 million",
+      "−$1.3 million",
+      "+$2.3 million"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Choose the estimate-at-completion formula that matches the engineer's assumption, then compare it with the budget.",
+    "why": "CPI = EV ÷ AC = 12.4 ÷ 13.7 ≈ 0.905. Because current cost performance is expected to continue (a typical variance), EAC = BAC ÷ CPI = 24.0 ÷ 0.905 ≈ $26.5 million. VAC = BAC − EAC = 24.0 − 26.5 ≈ −$2.5 million, so the project is forecast to finish about $2.5 million over budget.",
+    "how": "Pick the EAC formula from the stated assumption: BAC ÷ CPI if current cost performance continues; AC + (BAC − EV) if the variance was a one-off; AC + (BAC − EV) ÷ (CPI × SPI) if cost and schedule performance will both drive the rest. Then VAC = BAC − EAC.",
+    "optionNotes": [
+      "Incorrect — This uses AC + (BAC − EV) ÷ (CPI × SPI) ≈ $28.2 million, which assumes schedule pressure also drives cost — not the stated assumption.",
+      "Correct — EAC = 24.0 ÷ 0.905 ≈ $26.5 million, so VAC = 24.0 − 26.5 ≈ −$2.5 million, an expected overrun.",
+      "Incorrect — This treats the overrun as a one-off (EAC = 13.7 + 11.6 = $25.3 million), but the engineer expects current performance to continue.",
+      "Incorrect — This multiplies BAC by CPI (≈ $21.7 million), inverting the formula and turning an overrun into an apparent saving."
+    ],
+    "deepDive": "Quick sanity check: a CPI below 1.0 always gives an EAC above BAC and a negative VAC, so an answer showing a saving means the ratio is inverted. The to-complete performance index, TCPI = (BAC − EV) ÷ (BAC − AC) = 11.6 ÷ 10.3 ≈ 1.13, shows how efficiently the remaining work would have to be done to finish on the original budget — rarely achievable when CPI is 0.905. In practice the project manager also compares a bottom-up estimate to complete with these formula forecasts before reporting to the sponsor.",
+    "tags": [
+      "case study",
+      "earned value",
+      "estimate at completion",
+      "variance at completion",
+      "calculation",
+      "exhibit"
+    ],
+    "caseId": "CS-03"
+  },
+  {
+    "id": "PRO-240",
+    "domain": "Process",
+    "task": "5. Plan and manage procurement",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Claim based on an informal site instruction",
+    "source": "ECO 2026 · Case study CS-03 · Process Task 5",
+    "question": "Refer to the case. Castellan submits a claim for $1.1 million. It says that in month 6 the agency's site engineer, Pavel Ivanov, verbally told its crew to excavate an extra two metres at pier 2 after they hit soft clay, and that it gave no written notice because 'the agency already knew.' Pavel confirms that he gave the instruction. What should the project manager do FIRST?",
+    "options": [
+      "Reject the claim outright, because Castellan did not give written notice within 14 days and Pavel had no authority to change the work",
+      "Approve the claim, because the agency's own engineer gave the instruction and a dispute would delay the critical foundation work",
+      "With Grace, assess the claim against the contract's notice and authority terms and the site records, then respond under the procedure",
+      "Refer the claim to the dispute adjudicator, since the parties already disagree about notice and a neutral party should decide it"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Before deciding who is right, what does a claim need first — and who in the agency holds contractual authority?",
+    "why": "A claim is handled through the contract's claims procedure, starting with an assessment of its merits against the contract terms and the facts. Here the facts cut both ways: notice was late and Pavel lacked authority, but the agency knew about the conditions and its own engineer directed the work, which may weaken a notice defense. Assessing the claim with the contract administrator, using site diaries and records, lets the agency respond on firm ground and negotiate before any referral. The project manager should also close the authority gap so site staff stop issuing informal instructions.",
+    "how": "For contract claims: verify the facts and contract terms with the person who holds contracting authority, follow the claims procedure (assess, negotiate, then alternative dispute resolution), and fix the process gap that caused the claim.",
+    "optionNotes": [
+      "Incorrect — Rejecting outright ignores that the agency's own engineer directed the work, which a negotiator or adjudicator will weigh.",
+      "Incorrect — Paying before assessing merit and amount wastes public funds and signals that informal instructions will be paid without scrutiny.",
+      "Correct — A fact-based assessment with the contract administrator, under the contract's claims procedure, is the right first step before negotiating.",
+      "Incorrect — The contract routes claims through substantiation and negotiation first; the adjudicator comes in only if those fail."
+    ],
+    "deepDive": "Claims administration is part of controlling procurements. Contracts usually set notice periods, substantiation requirements and an escalation ladder: negotiation first, then alternative dispute resolution (mediation, adjudication, arbitration), with litigation last. A constructive change happens when the buyer's conduct — such as an instruction from site staff without authority — effectively changes the work, and it may be recognized even without formal paperwork. Preventive lesson: brief site staff on who holds contractual authority, and record every site instruction.",
+    "tags": [
+      "case study",
+      "procurement",
+      "claims",
+      "contract administration",
+      "constructive change"
+    ],
+    "caseId": "CS-03"
+  },
+  {
+    "id": "BUS-150",
+    "domain": "Business Environment",
+    "task": "4. Remove impediments and manage issues",
+    "approach": "Predictive",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "External utility blocking the critical path",
+    "source": "ECO 2026 · Case study CS-03 · Business Environment Task 4",
+    "question": "Refer to the case. The water utility now says the main at pier 3 will not be moved until the end of month 12, three months late. The pier 3 foundations are on the critical path, and the utility's site team says it has no more crews available. What should the project manager do?",
+    "options": [
+      "Log it as an issue, escalate via the interagency coordination committee, and have Grace ask Castellan to resequence around pier 3",
+      "Add a new risk to the risk register and set aside contingency reserve, since the delay is caused by a party outside the project",
+      "Instruct Castellan to relocate the water main itself so that the pier 3 foundations can start without waiting for the utility",
+      "Wait for the utility to confirm its new date before changing any plans, since resequencing now may waste effort if it moves again"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Has this already happened? And if the utility's site team cannot solve it, which channel was set up for exactly this situation?",
+    "why": "The delay has already occurred, so it is an issue, not a risk. The utility's site team lacks the resources to fix it, which puts the impediment beyond the project's authority; the interagency agreement already provides the escalation route — the joint coordination committee chaired by the director of capital works. Meanwhile, asking the contractor, through Grace as contract administrator, to resequence work (for example, advancing pier 4 and deck preparation) limits the critical-path impact. Having Castellan move another organization's asset would be an unauthorized change, and waiting only lets the delay grow.",
+    "how": "For an impediment caused by an external party: record it as an issue with an owner, use the agreed escalation path to reach the level that can resolve it, and pursue workarounds that limit the impact meanwhile.",
+    "optionNotes": [
+      "Correct — It treats the delay as a live issue, uses the escalation route both organizations agreed, and limits the impact by resequencing work through the proper contractual channel.",
+      "Incorrect — The delay has already happened, so it is an issue to resolve now rather than an uncertain risk to hold reserve against.",
+      "Incorrect — The main belongs to the utility; directing the contractor to move it is outside the agency's authority and an unapproved change.",
+      "Incorrect — Waiting lets a critical-path delay grow; escalation and resequencing should start now, with plans adjusted as dates firm up."
+    ],
+    "deepDive": "Issue management: log the issue with an owner and due date, analyze its impact, act on what you control and escalate what you do not — through the governance route defined in advance, here an interagency agreement and committee. Workarounds are unplanned responses to issues, unlike contingency plans prepared for identified risks. Utility relocations are a classic external dependency in infrastructure; mature owners identify them as risks early, secure written commitments and track them in the schedule as external milestones.",
+    "tags": [
+      "case study",
+      "issue management",
+      "escalation",
+      "external dependency",
+      "critical path"
+    ],
+    "caseId": "CS-03"
+  },
+  {
+    "id": "BUS-151",
+    "domain": "Business Environment",
+    "task": "7. Support organizational change",
+    "approach": "Any",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Diagnosing low adoption after go-live",
+    "source": "ECO 2026 · Case study CS-04 · Business Environment Task 7",
+    "question": "Refer to the case. The Campinas plant director proposes disabling the spreadsheet order templates next Monday and telling staff that orders keyed outside the ERP will no longer be processed. Leila asks for your recommendation before she agrees. Based on the exhibit, what should you do FIRST?",
+    "options": [
+      "Support the plant director, since training is nearly complete and removing the workaround is the fastest way to force adoption",
+      "Schedule refresher training for all Campinas users, since the low usage shows that the original training did not work",
+      "Delay the wave 3 go-live until Campinas adoption matches Kraków, so that the same problems are not repeated in Monterrey",
+      "Work with Ines and the Campinas super users to find out why staff bypass the system before choosing how to respond"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Training completion is high but use is low — what does that gap tell you about where the barrier is, and what don't you know yet?",
+    "why": "With 88% of users trained but only 62% active and 31% of orders keyed in spreadsheets, knowledge is probably not the main barrier. Staff may be working around missing functionality, slow screens, a local process the design did not cover, or a lack of reinforcement from supervisors. Diagnosing the cause with the change lead and the people closest to the work comes first; the response then targets it — a system fix, coaching or reinforcement. Disabling the workaround without knowing why it exists could stop orders being processed, and repeating training or delaying wave 3 treats a cause nobody has confirmed.",
+    "how": "When adoption lags, diagnose before acting: compare awareness, knowledge, ability and reinforcement signals, talk to the people doing the work, and address the actual barrier rather than mandating use or repeating training by default.",
+    "optionNotes": [
+      "Incorrect — Removing the workaround without knowing why it exists risks halting order processing and hardens resistance to the system.",
+      "Incorrect — High training completion suggests knowledge is not the main barrier, so more of the same training may not help.",
+      "Incorrect — Delaying wave 3 is a large, costly response to a cause that has not yet been diagnosed.",
+      "Correct — Understanding why staff bypass the system reveals the real barrier, so the response can fix the cause rather than the symptom."
+    ],
+    "deepDive": "ADKAR frames individual change as Awareness, Desire, Knowledge, Ability and Reinforcement; the exhibit's pattern — trained but not using — points past Knowledge toward Ability, Desire or Reinforcement. Workarounds are valuable data because they often reveal requirements the design missed. Supporting organizational change includes tracking adoption metrics, keeping feedback loops with super users and managers, and fixing process or system gaps quickly after go-live. Lessons from Campinas should also shape the readiness plan for Monterrey.",
+    "tags": [
+      "case study",
+      "organizational change",
+      "adoption",
+      "adkar",
+      "exhibit",
+      "erp"
+    ],
+    "caseId": "CS-04"
+  },
+  {
+    "id": "PRO-241",
+    "domain": "Process",
+    "task": "4. Plan and manage resources",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Securing super users in a matrix",
+    "source": "ECO 2026 · Case study CS-04 · Process Task 4",
+    "question": "Refer to the case. Monterrey's peak production season runs from August to October. This month the plant manager, Jorge Salinas, has twice pulled the plant's super users back to the production lines, and they have missed half of their scheduled test and training sessions. What should the program manager do?",
+    "options": [
+      "Ask Leila to instruct Jorge to release the super users full-time to the program until the wave 3 go-live is complete",
+      "Meet Jorge to agree protected super-user time around the production peaks, with the program funding temporary backfill",
+      "Have Orbis consultants take over the Monterrey testing and training, since they know the system configuration best",
+      "Keep the current plan and record the missed sessions in the risk register so the steering committee can monitor them"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Who controls these people's time, and what would make it possible for him to say yes?",
+    "why": "The super users report to Jorge, whose priority in peak season is production. Negotiating directly with him — agreeing protected blocks away from production peaks and offering program-funded backfill such as temporary operators or overtime — addresses his real constraint and secures the commitment. The exhibit shows Monterrey only 40% trained with go-live approaching, and Campinas shows where weak readiness can lead, so passive monitoring is not enough. Escalating first damages the relationship, and replacing super users with consultants loses the local ownership that drives adoption.",
+    "how": "In a matrix, secure shared resources by negotiating with the functional manager around their constraints (timing, backfill, shared benefits); escalate to the sponsor only if negotiation fails.",
+    "optionNotes": [
+      "Incorrect — Escalating before negotiating damages the relationship with the plant manager, and full-time release in peak season is unrealistic.",
+      "Correct — Negotiating around production peaks and funding backfill addresses the plant manager's real constraint and secures the super users' time.",
+      "Incorrect — Consultants cannot replace local super users, whose process knowledge and credibility with colleagues drive adoption.",
+      "Incorrect — Only 40% of users are trained; merely monitoring the gap lets readiness slip further toward a Campinas-style result."
+    ],
+    "deepDive": "Resource management in a matrix relies on negotiation and influence: resource calendars, agreed availability and trade-offs such as backfill or rescheduling. Super-user networks are central to ERP adoption because they combine process knowledge with peer credibility, and programs often budget backfill for them explicitly. A readiness criterion, such as minimum training completion before go-live, gives the steering committee an objective basis for its go-live decision. Escalation is a tool for when negotiation fails, not a first move.",
+    "tags": [
+      "case study",
+      "resources",
+      "matrix",
+      "negotiation",
+      "super users",
+      "exhibit"
+    ],
+    "caseId": "CS-04"
+  },
+  {
+    "id": "PEO-191",
+    "domain": "People",
+    "task": "8. Plan and manage communication",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Designing communication across time zones",
+    "source": "ECO 2026 · Case study CS-04 · People Task 8",
+    "question": "Refer to the case. Over the last month, the Manila developers have stopped joining the daily coordination call. Two design decisions made on the call reached them days late, and part of one sprint's work had to be redone. The Kraków team lead suggests making attendance compulsory. What should the program manager do?",
+    "options": [
+      "Make attendance compulsory for the Manila developers and track it in the weekly status report, as the team lead suggests",
+      "Send detailed minutes to the Manila developers after each call so that they can catch up on decisions the next morning",
+      "Agree a new working agreement with all sites: rotating call times, written decision records and asynchronous updates",
+      "Route all design decisions through the program manager, who will relay them to each location during its working hours"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Check what time the call happens in Manila — is this an attendance problem or a problem with how the team communicates?",
+    "why": "The call is at 23:00 in Manila, so the pattern is a predictable result of the meeting design, not a motivation problem. A working agreement the whole team shapes — sharing the inconvenience through rotating times, recording decisions where every site can see them and using asynchronous updates — fixes the root cause and treats every site fairly. Minutes help, but decisions would still be made without Manila's input. Compulsory late-night attendance is unfair and unsustainable, and routing decisions through the program manager creates a bottleneck.",
+    "how": "For distributed teams, design communication around time zones: share the burden of inconvenient times, make decisions visible in writing, and combine synchronous and asynchronous channels through a team-owned working agreement.",
+    "optionNotes": [
+      "Incorrect — A call at 23:00 is an unfair, unsustainable burden; enforcing it treats a design problem as a discipline problem.",
+      "Incorrect — Minutes inform Manila after the fact, but decisions are still made without their input, so the rework risk remains.",
+      "Correct — A team-owned agreement spreads the time-zone burden fairly and makes decisions visible to every site, fixing the root cause.",
+      "Incorrect — Centralizing decisions in the program manager creates a bottleneck and undermines the team's self-organization."
+    ],
+    "deepDive": "Communication planning for virtual teams considers time-zone overlap, language, culture and technology. Useful practices include follow-the-sun handoffs, rotating meeting times, a decision log, recorded demos and working agreements that set response-time expectations. Agile values face-to-face conversation; for distributed teams the practical equivalent is a deliberate mix of synchronous and asynchronous channels. Watch for proximity bias, where the headquarters site dominates decisions simply because it is in the room.",
+    "tags": [
+      "case study",
+      "communication",
+      "distributed team",
+      "time zones",
+      "working agreement"
+    ],
+    "caseId": "CS-04"
+  },
+  {
+    "id": "PEO-192",
+    "domain": "People",
+    "task": "7. Help ensure knowledge transfer",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "multi",
+    "topic": "Knowledge transfer from an integrator",
+    "source": "ECO 2026 · Case study CS-04 · People Task 7",
+    "question": "Refer to the case. The internal support team in Kraków has four analysts, two of whom joined this month. Leila wants assurance that the team will be able to run and change the platform once Orbis leaves eight weeks after the wave 3 go-live. Which actions would BEST secure the knowledge the support team needs? (Select two.)",
+    "options": [
+      "Pair the Kraków analysts with Orbis consultants on wave 3 work, moving to reverse shadowing in which the analysts lead",
+      "Agree measurable handover criteria with Orbis, such as analysts resolving real tickets unaided, and link its exit to them",
+      "Ask Orbis to write complete configuration documentation during the final two weeks of its contract with Tessaro",
+      "Record all wave 3 design workshops so that the support team can watch them after the consultants have left",
+      "Extend the Orbis contract for a further year so that its consultants remain available as the support team"
+    ],
+    "answer": [
+      0,
+      1
+    ],
+    "hint": "Much of the design reasoning is tacit — which approaches actually move that kind of knowledge, and how will you know it has moved?",
+    "why": "The critical knowledge is tacit — the reasoning behind the configuration lives in the consultants' heads — so it transfers best through working side by side on real work, ending with the internal analysts doing the work while consultants observe (reverse shadowing). Measurable handover criteria, tied to the end of the time-and-materials engagement, turn knowledge transfer from an intention into a verified outcome. Late documentation captures only explicit knowledge, recordings are passive, and a year-long extension postpones the transfer instead of achieving it.",
+    "how": "For knowledge transfer from contractors: start early, use shadowing and reverse shadowing on real work for tacit knowledge, and define measurable exit criteria so the handover is verified rather than assumed.",
+    "optionNotes": [
+      "Correct — Working side by side and then reversing roles transfers tacit know-how and shows whether the analysts can actually do the work.",
+      "Correct — Measurable criteria linked to Orbis's exit make the handover a verified outcome rather than an assumption.",
+      "Incorrect — Documentation written in a rush at the end captures explicit facts but little of the reasoning behind the design.",
+      "Incorrect — Recordings are passive; watching old workshops does not build the ability to diagnose and change the configuration.",
+      "Incorrect — A long extension deepens dependence on the vendor and postpones the transfer instead of accomplishing it."
+    ],
+    "deepDive": "Explicit knowledge (documents, configuration workbooks) is easy to codify; tacit knowledge (judgment, why a design choice was made) moves through people — pairing, shadowing, communities of practice and storytelling. A common vendor-handover sequence is shadow (internal staff watch), co-deliver, reverse shadow (internal staff lead), then independent operation with the vendor on call. Build knowledge-transfer deliverables and acceptance criteria into the contract, or a contract change, early; the classic trap is leaving them to the last weeks. Knowledge transfer also underpins operational readiness and benefits realization.",
+    "tags": [
+      "case study",
+      "knowledge transfer",
+      "tacit knowledge",
+      "shadowing",
+      "vendor",
+      "multi-select"
+    ],
+    "caseId": "CS-04"
+  },
+  {
+    "id": "PEO-193",
+    "domain": "People",
+    "task": "4. Engage stakeholders",
+    "approach": "Any",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Engaging excluded community groups",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 2: Applying Project Management in Humanitarian and Social Initiatives (beneficiary-centered benefits)",
+    "question": "Refer to the case. At Saturday's review, Samuel reports that leaders in two villages say women-headed households and people with disabilities are missing from the beneficiary lists, and rumours of favouritism are spreading. Volunteers were shouted at during Thursday's distribution. What should the program manager do FIRST?",
+    "options": [
+      "Meet village representatives, including women's and disability groups, to review the lists jointly and open a feedback channel",
+      "Ask the district officials to confirm publicly that the lists were compiled fairly, so that the rumours stop spreading quickly",
+      "Suspend distributions in both villages until an independent audit of the beneficiary lists has been completed and published",
+      "Send the village leaders a written explanation of the selection criteria that were agreed with the district officials"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "The complaint is about who was left out of a process — who needs to be part of fixing it?",
+    "why": "The lists were compiled in the first chaotic week with district officials only, so the people most affected had no voice and some vulnerable groups were missed. Engaging directly with community representatives — including the groups reported as missing — to verify the lists together, and opening a feedback and complaints channel, addresses both the exclusion and the loss of trust. Official statements or written explanations defend the existing lists instead of checking them, and suspending distributions punishes the families who most need help as the cold season approaches.",
+    "how": "When stakeholders feel excluded, engage them directly and early: involve the affected groups in fixing the problem, create a two-way feedback channel, and avoid one-way messages that defend the status quo.",
+    "optionNotes": [
+      "Correct — Joint verification with the affected groups corrects the exclusion and rebuilds trust, and the feedback channel keeps engagement going.",
+      "Incorrect — Asking officials to vouch for their own lists defends the status quo and may deepen suspicion of favouritism.",
+      "Incorrect — Halting aid to both villages harms families in need with the cold season weeks away, while the lists can be fixed in parallel.",
+      "Incorrect — One-way written communication explains the criteria but does not check whether eligible households were missed."
+    ],
+    "deepDive": "Humanitarian programs are judged by the benefit they bring to affected people rather than by financial return, which puts beneficiary engagement at the center of success. Accountability to affected people means communities take part in decisions that affect them and have safe ways to complain and get a response. The same holds on any project: affected stakeholders who are not engaged tend to resist, and rumours fill the gap left by poor engagement. Practical tools include community committees, feedback hotlines and publicly posted selection criteria.",
+    "tags": [
+      "case study",
+      "stakeholder engagement",
+      "beneficiaries",
+      "feedback",
+      "humanitarian"
+    ],
+    "caseId": "CS-05"
+  },
+  {
+    "id": "BUS-152",
+    "domain": "Business Environment",
+    "task": "4. Remove impediments and manage issues",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Impediment that tempts an unethical shortcut",
+    "source": "ECO 2026 · Case study CS-05 · Business Environment Task 4",
+    "question": "Refer to the case. The logistics officer reports that a customs official has offered to release the kits tomorrow if the NGO pays an 'expediting fee' of $400 in cash, with no receipt. Correcting the consignment number through official channels could take another week. What should the program manager do?",
+    "options": [
+      "Approve the payment as a one-time exception, because the kits are urgently needed and the amount is small next to the need",
+      "Ask Anneke whether the donor would treat the fee as an eligible cost under the grant before deciding whether to pay it",
+      "Leave the decision to the logistics officer, since customs clearance falls within the logistics team's area of responsibility",
+      "Decline, pursue the correction through the disaster agency's customs liaison, and buy interim items in local markets"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Some shortcuts are not available at any price — once that is settled, which legitimate routes around this impediment exist?",
+    "why": "A cash payment to an official with no receipt is a bribe or facilitation payment; it breaches the PMI Code of Ethics and anti-corruption law, and urgency does not change that. The legitimate route is the disaster agency's customs liaison, which exists to clear relief goods and can correct the consignment number faster than the NGO alone. Meanwhile, the market assessment shows local traders can supply shelter items, so interim local purchases keep aid flowing. Asking the donor about eligibility, or delegating the decision, treats an ethical line as a budgeting or operational question.",
+    "how": "When an impediment tempts a shortcut, first rule out anything unethical or illegal, then work every legitimate route — the right escalation channel plus workarounds that reduce the impact.",
+    "optionNotes": [
+      "Incorrect — Paying an official without a receipt is a bribe; a small amount and real urgency do not make it acceptable.",
+      "Incorrect — Whether a donor would reimburse it is irrelevant; the payment is unethical and likely illegal whoever pays for it.",
+      "Incorrect — Delegating the decision avoids the program manager's own responsibility on a clear ethical issue.",
+      "Correct — It refuses the bribe, uses the official channel set up to clear relief goods, and limits the delay by sourcing locally."
+    ],
+    "deepDive": "The PMI Code of Ethics requires honesty and compliance with the law; most anti-corruption laws prohibit payments that speed up routine official actions, and many organizations ban them outright. On the exam, ethical and legal breaches have a decisive answer: refuse, and report where required. Impediment removal then continues through legitimate means — escalation to the body that can resolve it, and workarounds such as alternative sourcing. Humanitarian operations often pre-arrange customs procedures for relief goods to avoid exactly this pressure.",
+    "tags": [
+      "case study",
+      "impediments",
+      "ethics",
+      "customs",
+      "workaround"
+    ],
+    "caseId": "CS-05"
+  },
+  {
+    "id": "BUS-153",
+    "domain": "Business Environment",
+    "task": "3. Manage and control changes",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Urgent change under a grant agreement",
+    "source": "ECO 2026 · Case study CS-05 · Business Environment Task 3",
+    "question": "Refer to the case. Samuel proposes moving 40% of the shelter-kit budget line to cash vouchers so that families can buy materials locally before the cold season. The finance officer points out that up to 9.9% could be moved without donor approval. What should the program manager do?",
+    "options": [
+      "Move 9.9% now, which is within the team's authority, and request the remaining amount later through the standard route",
+      "Submit the change through the emergency modification procedure with the market data, and prepare vouchers in parallel",
+      "Start the voucher distribution at once and explain the reallocation in the next donor report, since families' lives are at risk",
+      "Continue with the shelter kits as approved, because the grant was awarded for that plan and changing it adds new risk"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "The agreement already offers a fast route for this kind of change — does speed justify going around it, or around its spirit?",
+    "why": "A 40% reallocation exceeds the 10% threshold, so it needs donor approval. The grant already provides a 48-hour emergency modification procedure through the field representative, and the market assessment gives the donor the evidence it needs. Preparing voucher distribution in parallel means little time is lost once approval arrives. Splitting off 9.9% keeps to the letter of the agreement while defeating its purpose, spending without approval risks disallowed costs and lost trust, and sticking with a plan the evidence has overtaken ignores the families' needs.",
+    "how": "When a change is urgent, use the change process designed for urgency rather than bypassing control, and prepare implementation in parallel so that approval, not preparation, is the only wait.",
+    "optionNotes": [
+      "Incorrect — Splitting the change to stay under the threshold follows the letter of the agreement but defeats its purpose and damages donor trust.",
+      "Correct — The emergency procedure gives a decision within 48 hours, and parallel preparation means little time is lost once it is approved.",
+      "Incorrect — Spending without the required approval risks the costs being disallowed and breaches the grant agreement.",
+      "Incorrect — The market data shows a faster, more flexible way to meet needs; refusing to adapt ignores evidence and the approaching cold."
+    ],
+    "deepDive": "Good governance in fast-moving environments builds speed into the control system through pre-agreed thresholds, delegated authority and emergency procedures. Humanitarian donors commonly allow rapid modifications because needs change quickly, and cash assistance often becomes more effective once markets recover. The exam separates three failures: bypassing control, gaming thresholds, and rigidly following an outdated plan. The best answer is usually the fastest legitimate route, with parallel preparation to save time.",
+    "tags": [
+      "case study",
+      "change control",
+      "emergency change",
+      "grant",
+      "governance"
+    ],
+    "caseId": "CS-05"
+  },
+  {
+    "id": "PEO-194",
+    "domain": "People",
+    "task": "6. Manage stakeholder expectations",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Reporting a forecast shortfall to a donor",
+    "source": "ECO 2026 · Case study CS-05 · People Task 6",
+    "question": "Refer to the case. Anneke asks for an update ahead of the donor's quarterly report and says her board still expects 8,000 households by week 12. The Saturday reviews show that, with vouchers approved, the team can reliably reach about 600 households a week for the remaining six weeks. What should the program manager do?",
+    "options": [
+      "Confirm the target for now and ask the team to find ways to speed up, since the forecast may improve once the vouchers are running",
+      "Report only the households reached so far and leave any forecast out until the voucher distribution has run for a few weeks",
+      "Share the actual progress and forecast shortfall with Anneke now, explain the causes, and discuss options such as more teams or time",
+      "Lower the target in the report to what the team's demonstrated weekly rate can deliver by the end of the program"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Use the team's demonstrated rate to forecast the end of the program — then ask what a donor needs in order to act on bad news in time.",
+    "why": "At about 600 households a week, the program will reach 3,100 + 6 × 600 = 6,700 households by week 12, roughly 1,300 short; at the same rate, 8,000 would be reached during week 15. Sharing the real progress and the data-based forecast now, with the causes (the customs delay) and options such as extra distribution teams, a no-cost extension or a scope adjustment, lets the donor make an informed decision before the report. Promising the target on hope, hiding the forecast or cutting the target unilaterally would each undermine the relationship.",
+    "how": "Manage expectations with transparency: forecast from demonstrated performance, share bad news early with causes and options, and let the decision-maker choose among them.",
+    "optionNotes": [
+      "Incorrect — Confirming a target the data says is out of reach sets up a bigger surprise and a loss of credibility later.",
+      "Incorrect — Leaving out a known forecast withholds information the donor needs in order to plan and decide.",
+      "Correct — Early, honest reporting with a data-based forecast and options lets the donor decide how to close the gap.",
+      "Incorrect — The target is part of the grant agreement; changing it is a decision to reach with the donor, not a unilateral edit."
+    ],
+    "deepDive": "Throughput-based forecasting is common in agile and flow-based work: units completed per cycle, projected over the remaining cycles and often shown as a range rather than a single number. Stakeholder expectations are managed, not merely reported — the project manager anticipates reactions, frames options and keeps the relationship built on trust. In donor-funded work, target changes usually need a formal modification, so early warning gives the donor time to arrange one. PMI's honesty standard applies: never present a forecast you know to be unrealistic.",
+    "tags": [
+      "case study",
+      "stakeholder expectations",
+      "forecasting",
+      "transparency",
+      "donor"
+    ],
+    "caseId": "CS-05"
+  },
+  {
+    "id": "PRO-242",
+    "domain": "Process",
+    "task": "8. Plan and manage schedule",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Burnup forecast with scope growth",
+    "source": "ECO 2026 · Case study CS-06 · Process Task 8",
+    "question": "Refer to the case. Before sprint 9 planning, Wen asks you when release 1.0 will be finished if current trends continue. Using the average velocity and the average scope growth over the last four sprints (from the end of sprint 4 to the end of sprint 8), about how many more sprints will the team need to complete the release scope?",
+    "options": [
+      "3 sprints",
+      "4 sprints",
+      "9 sprints",
+      "12 sprints"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "On a burnup chart the finish line moves too — how fast is the gap between the two lines actually closing?",
+    "why": "Velocity = (172 − 84) ÷ 4 = 22 points per sprint. Scope growth = (260 − 212) ÷ 4 = 12 points per sprint. Remaining work = 260 − 172 = 88 points, and the gap closes by only 22 − 12 = 10 points per sprint, so 88 ÷ 10 = 8.8, rounded up to 9 sprints. That puts completion around the end of sprint 17 — four sprints after demo day — which is the message Wen needs now.",
+    "how": "To forecast from a burnup, divide the remaining work by the net closing rate (velocity minus scope growth per sprint) and round up to whole sprints; if scope grows as fast as the team delivers, there is no finish date without a scope decision.",
+    "optionNotes": [
+      "Incorrect — Dividing 88 by 34 adds scope growth to velocity; new scope slows the finish instead of speeding it up.",
+      "Incorrect — 88 ÷ 22 = 4 ignores scope growth and assumes the scope line will stay flat, which six sprints of growth contradict.",
+      "Correct — The gap closes by 22 − 12 = 10 points per sprint, so the 88 remaining points need 8.8, rounded up to 9 sprints.",
+      "Incorrect — 260 ÷ 22 ≈ 11.8, or 12 sprints, uses total scope instead of remaining work and ignores the 172 points already completed."
+    ],
+    "deepDive": "A burnup chart shows scope change explicitly, which a burndown hides: the gap between the lines is the remaining work, and the slope of the scope line matters as much as the slope of the completed line. The forecast is where the projected lines meet; if they run parallel or diverge, no date exists until the product owner changes scope. Good practice is to forecast a range — for example, using the best and worst recent velocities — and to refresh it every sprint. The classic exam trap is the naive 'remaining ÷ velocity' forecast, which is only valid when scope is stable.",
+    "tags": [
+      "case study",
+      "release burnup",
+      "forecasting",
+      "scope growth",
+      "calculation",
+      "exhibit"
+    ],
+    "caseId": "CS-06"
+  },
+  {
+    "id": "PEO-195",
+    "domain": "People",
+    "task": "1. Develop a common vision",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Founders with competing product visions",
+    "source": "ECO 2026 · Case study CS-06 · People Task 1",
+    "question": "Refer to the case. After the retrospective, you meet Tomás and Wen separately. Tomás believes winning the restaurant chain is the key to the seed round. Wen believes chain features will dilute a product that independent restaurants already value in the beta. Each assumes the other agrees 'in principle.' Developers keep asking which customer the demo should serve. What should the project manager do FIRST?",
+    "options": [
+      "Bring both founders together to agree the target customer and product goal for release 1.0, then share it with the team",
+      "Ask the developers to vote on which customer segment to prioritize, since they understand the effort each option involves",
+      "Advise Wen to decide on her own, since the product owner is accountable for the backlog, and ask the team to follow her order",
+      "Plan a demo that shows features for both segments so neither founder is disappointed, and revisit direction after the round"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Can a team align around a vision that its own leaders have not yet agreed?",
+    "why": "The team's confusion is a symptom: the two founders hold different visions of the customer and have never tested whether they agree. Until they converge on one target customer and a product goal for the release, backlog ordering, scope decisions and the demo story will keep swinging. A facilitated conversation using evidence — beta feedback, the chain's likely revenue, what investors need to see — lets both founders own the outcome, and the refreshed product goal then gives the team a clear filter for its work.",
+    "how": "When a team lacks a shared vision, trace the misalignment to its source: align the people who set direction first, then make the agreed vision visible and use it to guide prioritization.",
+    "optionNotes": [
+      "Correct — The disagreement sits between the founders, so aligning them on one customer and product goal fixes the source and gives the team clear direction.",
+      "Incorrect — Developers can inform effort and feasibility, but choosing the target customer is a product and business decision for the leaders, not a team vote.",
+      "Incorrect — Wen does own the product goal, but deciding without the CEO leaves the disagreement unresolved, and Tomás would likely keep bypassing the backlog.",
+      "Incorrect — Serving both segments avoids the decision, spreads limited capacity thinly and gives investors an unfocused story about who the product is for."
+    ],
+    "deepDive": "A product vision answers who the product is for, what problem it solves and why it matters; in Scrum the product goal is the team's longer-term objective, and each sprint goal is a step toward it. Tools such as a product vision board, a lean canvas or an elevator-pitch template help leaders surface hidden assumptions. In start-ups, unresolved disagreement between co-founders often shows up as scope churn — the backlog becomes the battleground for a strategy question. The project manager's role is to facilitate alignment, not to pick the winner; once agreed, keep the vision visible and use it to say no.",
+    "tags": [
+      "case study",
+      "product vision",
+      "product goal",
+      "alignment",
+      "scrum"
+    ],
+    "caseId": "CS-06"
+  },
+  {
+    "id": "PRO-243",
+    "domain": "Process",
+    "task": "2. Develop and manage project scope",
+    "approach": "Agile",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Fitting release scope to a fixed date",
+    "source": "ECO 2026 · Case study CS-06 · Process Task 2",
+    "question": "Refer to the case. Tomás and Wen have now agreed that release 1.0 will serve independent restaurants, with chain features to follow later. About 60 of the 88 remaining points support that goal; the rest are chain features. Tomás still messages developers with 'small' requests after sales calls. Demo day remains fixed at the end of sprint 13. What is the BEST way to manage the release scope?",
+    "options": [
+      "Ask Tomás to hold all new requests until after demo day, and close the release backlog to any further changes until then",
+      "Keep the full remaining scope in the release, and agree a temporary overtime plan with the team to close the gap by demo day",
+      "Log each new request as a change request, and have both founders approve it at a weekly change control meeting",
+      "Have Wen reorder the backlog around the agreed goal, move chain features below the release line, and triage every new request"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "In Scrum, who decides what the next most valuable work is — and which part of the triangle usually flexes when the date is fixed?",
+    "why": "In Scrum, scope is managed through an ordered product backlog that the product owner is accountable for. With the goal agreed, the roughly 60 goal-related points fit within about 110 points of capacity to demo day (5 sprints × 22), leaving room for story splitting and beta feedback, while the chain features move below the release line rather than being lost. Routing every new idea, including the CEO's, to Wen stops the uncontrolled growth the exhibit shows without shutting out valuable change, and the burnup updated each sprint shows whether the release line still fits.",
+    "how": "In agile, control scope by ordering the backlog against the goal and moving the release line — not by freezing change, adding overtime or bolting on a heavyweight change board — and make sure every request flows through the product owner.",
+    "optionNotes": [
+      "Incorrect — A freeze protects the date but blocks valuable learning from beta users; the real problem is requests bypassing the product owner, not change itself.",
+      "Incorrect — Overtime for lower-value chain features is unsustainable, risks quality in payment code, and ignores that the goal now needs only about 60 points.",
+      "Incorrect — A formal change board adds heavyweight process and splits product ownership between two people, weakening the product owner's accountability.",
+      "Correct — Value-based ordering against the agreed goal fits the release to capacity, defers chain features visibly, and stops work entering around the product owner."
+    ],
+    "deepDive": "Agile teams usually fix time and cost (a stable team and timeboxes) and let scope flex — the reverse of the predictive triangle. A release line drawn on the ordered backlog shows what is likely to make the date; items below it are sequenced later, not cancelled. Techniques such as MoSCoW, story mapping and value-versus-effort scoring help the product owner decide what belongs above the line. A frequent start-up trap is senior leaders going straight to developers; the Scrum Master coaches the leader on why that hurts flow and channels ideas to the product owner rather than policing individuals.",
+    "tags": [
+      "case study",
+      "product backlog",
+      "release planning",
+      "scope management",
+      "exhibit"
+    ],
+    "caseId": "CS-06"
+  },
+  {
+    "id": "PRO-244",
+    "domain": "Process",
+    "task": "9. Evaluate project status",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Portfolio status beyond green dashboards",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 10: Value-Driven and Business-Related Metrics (failure of traditional metrics)",
+    "question": "Refer to the case. The PMO's draft Q2 report to the executive committee opens with the headline 'Portfolio health improving: 78% of projects green and 94% gate compliance.' Amara will use the report to judge whether the PMO adds value, and Ingrid points out that both headline figures rose sharply. Which assessment of the portfolio's status is BEST supported by the exhibit?",
+    "options": [
+      "Compliance and status measures rose while outcome measures fell, so the report should flag that value delivery is getting worse",
+      "Portfolio health is improving, since more projects are green and more teams now follow the gate process that governs the portfolio",
+      "The falling benefits figure reflects decisions made before the merger, so current status is better judged by the share of green projects",
+      "Performance is improving overall, but fewer monthly releases show product-team resistance that should be addressed through training"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Which rows in the exhibit measure conformance and activity, and which ones come closest to the value the business receives?",
+    "why": "Green status is self-assessed, and gate compliance measures conformance to a process. The rows closest to value all moved the wrong way: median decision time rose from 34 to 47 days, only 6 of 14 product teams still release monthly (down from 11), benefits realized fell from 61% to 48%, and business-unit satisfaction dropped from 3.1 to 2.6. Together they suggest the governance process is slowing delivery without improving outcomes — exactly what the executive committee needs to know to judge the PMO's value and to fix the problem.",
+    "how": "When evaluating status, separate activity and compliance metrics from outcome and value metrics, read leading indicators alongside lagging ones, and report the true picture even when the headline numbers look good.",
+    "optionNotes": [
+      "Correct — Decision time, release frequency, benefits and satisfaction all worsened while conformance rose, a warning that the process is costing value that the report must state plainly.",
+      "Incorrect — This repeats the headline; green status is self-assessed and gate compliance measures conformance, not whether the portfolio delivers more value.",
+      "Incorrect — Benefits do lag, but decision time and release frequency are leading indicators and both are also getting worse; the green share cannot outweigh them.",
+      "Incorrect — Blaming resistance ignores the data: longer decision times and a gate process built for projects explain the slower releases better than a training gap."
+    ],
+    "deepDive": "Kerzner and colleagues note that traditional metrics fail when they are not linked to objectives, customer satisfaction or value; PMBOK 7 lists vanity metrics among measurement pitfalls, and practitioners warn of 'watermelon' reporting — green outside, red inside. A value-focused PMO dashboard pairs a few conformance measures with outcome measures such as benefits realized, time to value, decision latency and customer satisfaction. Goodhart's law is visible here: once gate compliance became a target, teams learned to comply — even splitting work to avoid review — without better results. Reporting unwelcome trends candidly is also part of stewardship and honesty.",
+    "tags": [
+      "case study",
+      "portfolio metrics",
+      "value",
+      "pmo",
+      "exhibit"
+    ],
+    "caseId": "CS-07"
+  },
+  {
+    "id": "BUS-154",
+    "domain": "Business Environment",
+    "task": "1. Define and establish project governance",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Post-merger decision rights",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 9: Evolving Nature of PMOs and Governance (flexible governance and decision rights)",
+    "question": "Refer to the case. Amara asks you to propose how decisions on the combined portfolio should be made from next quarter. She wants the executive committee to keep control of strategy and major investments, but she is worried about the waiting times and about teams splitting work to avoid review. Both former chief operating officers have told her privately that they value their sign-off. Which proposal is MOST appropriate?",
+    "options": [
+      "Keep sign-off by both former chief operating officers for another year to protect trust, and add a second monthly meeting to clear the queue",
+      "Set up one portfolio board and a decision-rights matrix naming one accountable decider per decision type, with thresholds for escalating",
+      "Make the PMO the single approver for all projects and changes, so that one group applies the same criteria across the whole portfolio",
+      "Replace the gate process with quarterly product budgets for all projects, and let each team decide its own scope, timing and spending"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "The delays and the work-splitting are symptoms — what do they reveal about where decisions currently sit, and how many people must say yes?",
+    "why": "Both symptoms — long waits and teams splitting work to stay under $50,000 — show that too many decisions are pulled to the top, and dual sign-off doubles the queue for every cross-business project. A single portfolio board with a decision-rights matrix assigns each decision type to the lowest level that has the information and accountability to make it, names one accountable decider, and sets thresholds that escalate only exceptions. The executive committee keeps strategy and major investments, product teams can decide within their funded budgets, and predictive projects keep proportionate gates.",
+    "how": "Good governance makes decision rights explicit — who decides what, at which level, within which thresholds, with one accountable owner per decision — and escalates by exception rather than by default.",
+    "optionNotes": [
+      "Incorrect — Dual sign-off is itself a cause of the delay; more meetings would treat the queue while keeping two decision makers for every cross-business project.",
+      "Correct — Explicit, tiered decision rights with a single accountable decider keep strategic control at the top while removing both the queue and the incentive to split work.",
+      "Incorrect — A PMO supports and advises governance but does not own business investment decisions; making it the sole approver just creates a new bottleneck.",
+      "Incorrect — Product budgets suit the agile teams, but removing all review from large predictive projects abandons oversight the committee still needs to exercise."
+    ],
+    "deepDive": "A governance framework answers three questions: who decides, on what basis, and how decisions escalate. Common tools are a decision-rights matrix (one 'A' per decision), delegated authority thresholds for cost, schedule and scope, and tolerance-based escalation. Kerzner and colleagues argue for light, lean governance and a PMO that partners with delivery teams rather than inspecting them. After a merger, dual approvals are a tempting way to preserve political balance, but an integrated board with representation from both sides usually serves everyone better. A tell-tale sign that thresholds are too tight is teams gaming them, for example by splitting work.",
+    "tags": [
+      "case study",
+      "governance",
+      "decision rights",
+      "merger",
+      "pmo"
+    ],
+    "caseId": "CS-07"
+  },
+  {
+    "id": "PEO-196",
+    "domain": "People",
+    "task": "2. Manage conflicts",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Rival legacy PMO leads",
+    "source": "ECO 2026 · Case study CS-07 · People Task 2",
+    "question": "Refer to the case. At a workshop to design the new portfolio process, Kwame calls the gate documents 'paperwork theatre,' and Ingrid replies that Castara's teams 'never finished anything on budget.' Since then Ingrid has stopped inviting Kwame's coaches to portfolio reviews, and staff from the two legacy PMOs sit apart and complain to you separately. What should you do FIRST?",
+    "options": [
+      "Decide the standard method yourself and announce it, so the argument over approaches ends before it spreads further across the PMO",
+      "Report the behavior to Amara, since the leads' dispute now threatens the integration that she is personally accountable for",
+      "Reorganize the PMO so that Ingrid and Kwame run separate parts of the portfolio and have less need to work with each other",
+      "Meet each lead privately to hear their concerns, then bring them together to agree shared goals and how they will work together"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "The dispute has moved from methods to people — which approach deals with both, and who is best placed to start it?",
+    "why": "The disagreement began as a legitimate task conflict about methods but has become personal and is spreading to both teams. As their manager, you should act early and directly. Private conversations let each lead be heard without an audience and reveal the interests behind the positions — predictability and control for Ingrid, speed and team autonomy for Kwame. A joint session can then refocus both on shared goals, such as the value the CEO expects, and set ground rules for disagreeing, which also models the behavior you want across the merged PMO.",
+    "how": "For conflict between direct reports: act early, listen to each side privately, then facilitate a joint problem-solving conversation around shared goals and interests; use forcing or escalation only if collaboration fails or time does not allow it.",
+    "optionNotes": [
+      "Incorrect — Forcing a decision may settle the method but leaves the personal rift untouched, and imposing one legacy approach is likely to deepen the divide.",
+      "Incorrect — Both leads report to you, so resolving their conflict is within your authority; escalating to the CEO first is premature and weakens your role.",
+      "Incorrect — Separating them avoids the conflict rather than resolving it and entrenches two legacy camps inside what should be one integrated PMO.",
+      "Correct — Hearing each side privately and then facilitating a joint conversation around shared goals deals with both the task and the personal sides of the conflict."
+    ],
+    "deepDive": "Mergers often produce identity-based conflict: people defend 'how we did it' because it is tied to status and belonging. The Thomas-Kilmann modes remain the exam toolkit — collaborate when relationships matter and time allows; force only in emergencies or when an unpopular decision is unavoidable; withdrawing or separating people only postpones the problem. Emotional intelligence matters: acknowledge what each legacy group is proud of before asking it to change. A useful follow-up is to have the two leads co-own a pilot of the new portfolio process, turning rivals into joint problem owners.",
+    "tags": [
+      "case study",
+      "conflict",
+      "merger",
+      "collaborate",
+      "leadership"
+    ],
+    "caseId": "CS-07"
+  },
+  {
+    "id": "BUS-155",
+    "domain": "Business Environment",
+    "task": "2. Plan and manage project compliance",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Forced-labor allegation in the supply chain",
+    "source": "ECO 2026 · Case study CS-08 · Business Environment Task 2",
+    "question": "Refer to the case. A human-rights research group publishes a report linking one of Solenne's polysilicon suppliers to forced labor. Solenne's account manager calls the report 'unproven' and offers a letter from its chief executive stating that its supply chain is free of forced labor. The next lot 1 shipment leaves port in three weeks, and the sponsor asks you to protect the grid window. What should the project manager do?",
+    "options": [
+      "Accept the chief executive's letter as assurance, file it with the shipment records, and keep the shipment on schedule for the grid window",
+      "Terminate Solenne's contract at once and move all remaining module volume to Arctura, whatever the cost and schedule impact may be",
+      "Notify the lenders within the covenant period, require audited polysilicon traceability before release, and ask Arctura to hold capacity",
+      "Wait until the allegations are independently verified before informing the lenders, so that an unproven report does not put the loan at risk"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "What exactly triggers the reporting duty in the loan agreement, and does a supplier's own statement count as evidence?",
+    "why": "The loan agreement makes a credible allegation of forced labor a reportable event within five business days, so the lenders must hear about it now, not after an investigation. A supplier's self-declaration is not evidence: both the import rule and the E&S standards require documented traceability to the polysilicon source, which Solenne has not provided. Requiring audited traceability before the shipment is released protects Ondara from customs detention and from buying goods made with forced labor, while asking Arctura to hold capacity creates a partial fallback without breaching the contract prematurely.",
+    "how": "For a supply-chain compliance allegation: meet mandatory reporting duties promptly, require objective evidence rather than assurances before accepting goods, and prepare alternatives while using the contract's remedies.",
+    "optionNotes": [
+      "Incorrect — A self-declaration is not traceability evidence; accepting it ignores the import rule, the lenders' standards and a reportable allegation.",
+      "Incorrect — Terminating before the facts are established may breach the contract, and Arctura can cover only 15% of volume against lot 1's remaining 39%.",
+      "Correct — It meets the five-day reporting duty, insists on objective evidence before accepting goods, and prepares a realistic fallback for part of the volume.",
+      "Incorrect — The covenant is triggered by a credible allegation, not a proven one; delaying notice breaches the loan agreement and damages the lenders' trust."
+    ],
+    "deepDive": "ESG compliance now reaches deep into supply chains: forced-labor import bans, due-diligence laws and lenders' performance standards all expect buyers to trace materials to their source and to act on red flags. Good practice is to build these expectations into procurement documents from the start — traceability clauses, audit rights, suspension and remedy provisions — so the project manager can act under the contract instead of negotiating from scratch. On the exam, a confirmed obligation such as a reporting covenant is met promptly, and honesty with financiers is part of stewardship and PMI's Code of Ethics. Termination is a last resort after the contract's remedies have been used.",
+    "tags": [
+      "case study",
+      "esg",
+      "supply chain",
+      "compliance",
+      "exhibit"
+    ],
+    "caseId": "CS-08"
+  },
+  {
+    "id": "BUS-156",
+    "domain": "Business Environment",
+    "task": "5. Plan and manage risk",
+    "approach": "Predictive",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Single-source transformer delay threat",
+    "source": "ECO 2026 · Case study CS-08 · Business Environment Task 5",
+    "question": "Refer to the case. Voss now estimates a 50% chance that the transformer will arrive eight weeks late because of its core-steel backlog. The supply contract caps delay damages at 5% of the price. Travessa's site manager tells you the risk is Voss's problem because 'the contract covers delays.' Ondara's contingency reserve is still largely unspent. What is the BEST response to this risk?",
+    "options": [
+      "Rely on the delay damages in the Voss supply contract, which already transfer the financial consequences of a late delivery to the supplier",
+      "Accept the risk, add contingency reserve equal to the capped delay damages, and review the factory's progress at monthly meetings",
+      "Escalate the risk to Ondara's board, since the grid window is set by an external operator and lies outside the project's control",
+      "Pay for priority production and expediting at Voss, check progress with factory inspections, and agree a fallback with the grid operator"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Compare what the contract would actually pay with what a missed grid window would cost — and ask who carries the rest.",
+    "why": "An eight-week delay overruns the transformer's four weeks of float, misses the grid window and pushes power sales back six months — about 6 × $2.1 million = $12.6 million, against delay damages capped at 5% × $6.0 million = $0.3 million. With a 50% probability, the expected exposure of roughly $6.3 million dwarfs what the contract transfers, and because Ondara bought the transformer, the risk is Ondara's. The response must therefore reduce the probability or impact of the delay itself: paying for priority production, verifying progress at the factory, and agreeing a fallback with the grid operator early is proportionate and within the project's authority.",
+    "how": "Choose a threat response by comparing the exposure with what each response really changes: contractual transfer shifts only the capped amount, so for high-impact threats on the critical path, mitigate the cause and prepare a fallback, and escalate only when the response is beyond the project's authority.",
+    "optionNotes": [
+      "Incorrect — The damages recover only about $0.3 million of a $12.6 million loss, so most of the risk stays with Ondara as the transformer's buyer.",
+      "Incorrect — Passive acceptance does nothing to protect the grid window, and a reserve sized to the capped damages is far below the likely loss.",
+      "Incorrect — Ondara bought the transformer, so the project owns this threat and has effective responses available; the board should be informed, not asked to act.",
+      "Correct — Acting on the cause cuts the probability of late delivery, inspections give early warning, and an agreed fallback limits the impact if mitigation falls short."
+    ],
+    "deepDive": "Threat responses are escalate, avoid, transfer, mitigate and accept. Transfer shifts the financial consequence, often only partly: liquidated damages are usually capped and rarely cover lost revenue, so they do not remove the underlying risk. For long-lead, single-source equipment, typical mitigations are early ordering, expediting, factory witness inspections, payments tied to production milestones and, where feasible, dual sourcing. Expected monetary value (probability × impact) helps justify spending on mitigation. Owner-furnished equipment is a classic EPC trap: the owner, not the contractor, carries the delay risk and may even owe the contractor for knock-on delays.",
+    "tags": [
+      "case study",
+      "risk response",
+      "supply chain",
+      "mitigation",
+      "exhibit"
+    ],
+    "caseId": "CS-08"
+  },
+  {
+    "id": "PEO-197",
+    "domain": "People",
+    "task": "4. Engage stakeholders",
+    "approach": "Any",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Community complaint within permit limits",
+    "source": "ECO 2026 · Case study CS-08 · People Task 4",
+    "question": "Refer to the case. Parents at a village school complain that construction trucks raise dust near the school at drop-off and pick-up times. Travessa's site manager replies that dust monitoring is within permit limits and closes the complaint. A week later, a local radio host invites parents to a protest at the site gate, and two village leaders ask to meet Ondara. What should the project manager do?",
+    "options": [
+      "Meet the parents and school with Travessa, share the monitoring data, and agree practical changes such as truck times and road watering",
+      "Issue a public statement showing that the dust readings are within permit limits, and invite anyone with doubts to read the full report online",
+      "Leave the matter with Travessa, since construction traffic is the contractor's responsibility under its EPC contract and permit",
+      "Offer the school a donation for new equipment, on the understanding that parents will not join the protest at the site gate"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Is meeting the permit the same as meeting the community's concern — and who owns the relationship with the villages?",
+    "why": "Being within permit limits does not make the parents' concern unimportant: the community benefit agreement sets traffic rules and a grievance procedure, and closing the complaint with a technical reply has already escalated it. Meeting the people affected, together with the contractor, shows respect, lets the project share its data openly and produces practical fixes — keeping trucks away from school times and damping the road — that cost little and protect the relationship with all three villages. Ondara owns the community commitments even though Travessa does the work.",
+    "how": "For community stakeholders: engage directly and early, listen to the concern behind the complaint, be transparent with data, agree practical responses and close the loop through the agreed grievance process — the permit is the floor, not the goal.",
+    "optionNotes": [
+      "Correct — Direct, joint engagement with the affected parents addresses their real concern, uses the grievance process properly and yields low-cost practical fixes.",
+      "Incorrect — Broadcasting data answers a question the parents did not ask; one-way communication tends to harden opposition rather than resolve it.",
+      "Incorrect — Travessa does the work, but Ondara signed the community benefit agreement and owns its reputation; handing off the relationship lets the problem grow.",
+      "Incorrect — A donation offered in return for staying away from a protest looks like buying off critics, which is unethical and would erode trust in all three villages."
+    ],
+    "deepDive": "Stakeholder engagement aims to move stakeholders along the engagement assessment matrix (unaware, resistant, neutral, supportive, leading) through two-way communication. Renewable projects depend on a 'social licence to operate' — community acceptance that no permit can guarantee. A good grievance mechanism is accessible, answers within set times, escalates when unresolved and reports back to the complainant; closing a complaint without the complainant's agreement defeats its purpose. When a contractor manages site activities, the owner remains accountable for community commitments and should build them into the contract and its oversight.",
+    "tags": [
+      "case study",
+      "community engagement",
+      "grievance mechanism",
+      "social licence"
+    ],
+    "caseId": "CS-08"
+  },
+  {
+    "id": "PEO-198",
+    "domain": "People",
+    "task": "3. Lead the project team",
+    "approach": "Agile",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Blameless review after an outage",
+    "source": "ECO 2026 · Case study CS-09 · People Task 3",
+    "question": "Refer to the case. During hypercare, a configuration change made by a city developer takes online payments offline for four hours. The team restores service and fixes the defect. At the next morning's meeting, Mei asks who made the change and says that person should lose production access. Several developers go quiet, and one later tells you the team feels 'back to how it was before the recovery.' What should the project manager do?",
+    "options": [
+      "Identify the developer privately, remove their production access for the rest of hypercare, and tell Mei the matter has been dealt with",
+      "Ask the developer who made the change to present what went wrong at the next sprint review, so stakeholders see that the team is accountable",
+      "Run a blameless review with the team and service desk to learn how the change got through, and agree safeguards such as peer review",
+      "Tell Mei the team is under great pressure, and ask her to raise any future concerns with you privately rather than at team meetings"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Did the outage happen only because one person slipped, or because the way changes reach production allowed it?",
+    "why": "The failure reached production because the process let a single unreviewed change through, not only because one person made a mistake. A blameless post-incident review examines how that happened — no peer review, no deployment checks, pressure during hypercare — and lets the team agree safeguards it owns. It also protects the psychological safety the recovery rebuilt: if people are punished for honest mistakes, they stop reporting problems and incidents get hidden rather than fixed. Including the service desk answers Mei's legitimate concern about stability.",
+    "how": "After a mistake, focus on the system rather than the individual: run a blameless review to find contributing causes and have the team own the preventive actions, which keeps both psychological safety and accountability.",
+    "optionNotes": [
+      "Incorrect — Quietly punishing the individual signals that mistakes will be punished, discourages reporting, and leaves the gap in the deployment process unfixed.",
+      "Incorrect — Putting one developer on the spot in front of stakeholders is shaming, not accountability; the team owns its process and should own the fix.",
+      "Correct — A blameless review finds the process gaps behind the outage, keeps people willing to speak up, and gives the service desk real safeguards.",
+      "Incorrect — Shielding the team avoids the issue; Mei's concern about stability is legitimate and needs a real answer, not new meeting etiquette."
+    ],
+    "deepDive": "Psychological safety is the shared belief that the team is safe for interpersonal risk-taking — admitting errors, asking questions, raising concerns — and research links it strongly to team learning. Blameless post-incident reviews, common in DevOps and site reliability practice, ask 'what made this possible?' rather than 'who did it?', often using a timeline and five whys. Accountability comes from the team owning the corrective actions, not from punishment. Recovered teams are fragile: the leader's reaction to the first setback after a turnaround shows everyone whether the new culture is real.",
+    "tags": [
+      "case study",
+      "psychological safety",
+      "blameless review",
+      "servant leadership"
+    ],
+    "caseId": "CS-09"
+  },
+  {
+    "id": "PRO-245",
+    "domain": "Process",
+    "task": "10. Manage project closure",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "multi",
+    "topic": "Closing when the product continues",
+    "source": "ECO 2026 · Case study CS-09 · Process Task 10",
+    "question": "Refer to the case. Rosa repeats that she wants the project formally closed when hypercare ends in three weeks, and Quillon's account manager is already planning to move his consultants to another client. Which two actions should the project manager take before formal closure? (Select two.)",
+    "options": [
+      "Close the project on schedule, and have the service desk refer any portal problems to Quillon while its warranty period runs",
+      "Agree with Mei and Quillon how to finish the runbooks and training, then obtain operational acceptance against the agreed criteria",
+      "Extend Quillon's contract and keep the Scrum team together until every phase 2 item is delivered, so the city gets the full solution",
+      "Hand the phase 2 backlog and the benefits measurement to named owners in the permit office, and record both in the closure report",
+      "Release Quillon's retained payment now that the portal is live, so the contract ends on good terms before its consultants leave"
+    ],
+    "answer": [
+      1,
+      3
+    ],
+    "hint": "Which conditions for closing were agreed in advance, and what will still need an owner after the project team is gone?",
+    "why": "Formal closure needs acceptance from the people who will run the product, and the agreed operational acceptance criteria — trained support staff and tested runbooks — are not yet met; because Quillon leaves when hypercare ends, finishing the knowledge transfer now is urgent. Work and value that outlive the project also need owners: the phase 2 backlog is unfunded, so it goes to the permit office for a future investment decision, and the processing-time benefit will only be measured six months after launch, so a business owner must track it. Recording both in the closure report makes the handover explicit.",
+    "how": "Before closing: obtain acceptance from the customer and the operations owner against the agreed criteria, finish knowledge transfer while the builders are still available, hand remaining backlog, risks and benefits tracking to named owners, then close contracts on their terms and release resources.",
+    "optionNotes": [
+      "Incorrect — Closing before operational acceptance leaves an unsupported service, and Quillon's warranty covers defects, not the city's day-to-day support.",
+      "Correct — Operational acceptance against the agreed criteria is a condition of closure, and knowledge transfer must be finished before Quillon's people leave.",
+      "Incorrect — Phase 2 is unfunded new scope; continuing the project to deliver it would bypass governance and the investment decision it requires.",
+      "Correct — Named owners keep the unfunded backlog and the benefit measurement alive after the project ends, so value realization can continue.",
+      "Incorrect — The contract holds back 10% until the 90-day warranty period ends to secure defect fixes; releasing it early gives that protection away."
+    ],
+    "deepDive": "Closure has administrative, contractual and people elements: acceptance, transition to operations, contract closure, lessons learned, archiving and releasing resources. In hybrid and agile settings the project often ends while the product continues, so the backlog, open risks and the benefits plan move to the product or business owner. Benefits usually appear after closure, which is why the sponsor and business owner stay accountable for realizing them. Contract closure follows the contract's terms — retention and warranty periods may run beyond project closure and should be handed to whoever manages the contract afterwards.",
+    "tags": [
+      "case study",
+      "project closure",
+      "transition",
+      "benefits realization",
+      "multi-select"
+    ],
+    "caseId": "CS-09"
+  },
+  {
+    "id": "PRO-246",
+    "domain": "Process",
+    "task": "10. Manage project closure",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Honest final report on a recovery",
+    "source": "ECO 2026 · Case study CS-09 · Process Task 10",
+    "question": "Refer to the case. You are drafting the final project report, which will go to the city council. Rosa, who approved the original 12-month fixed-price plan, asks you to describe the first 14 months as affected by 'external factors' and to leave out the health check's findings. She says the council should focus on the successful recovery. What should the project manager do?",
+    "options": [
+      "Use Rosa's wording, since the sponsor owns the report and the recovery's success is the message the council most needs to hear",
+      "Discuss the concern with Rosa, then report the health check's findings factually, focusing on causes and lessons rather than on individuals",
+      "Send the health check's findings directly to the city council, so that councillors see the full picture before Rosa's version reaches them",
+      "Leave the first 14 months out of the report and cover only the recovery period, so the report stays accurate without assigning any blame"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "A final report becomes part of the city's record — which ethical value is at stake, and whom should you talk to before anyone else?",
+    "why": "The final report is an official record that the council and future projects will rely on. Describing known internal causes as 'external factors', or leaving them out, would create a false impression, contrary to the honesty standard in PMI's Code of Ethics. The right first step is to raise the concern with Rosa, who may simply fear blame, and agree a factual, systemic framing: an unrealistic original schedule and unclear scope, what the recovery changed, and what the city will do differently. That keeps the record truthful without turning the report into an attack on individuals.",
+    "how": "When asked to distort project records: raise the concern with the person asking first, propose an honest and constructive way to present the facts, and escalate through proper channels only if pressure to misrepresent continues.",
+    "optionNotes": [
+      "Incorrect — Calling known internal causes external misleads the council and loses the lessons, contrary to the honesty required by PMI's Code of Ethics.",
+      "Correct — It respects the sponsor by raising the concern with her first, while keeping the report truthful and focused on systemic causes and lessons.",
+      "Incorrect — Going around the sponsor before discussing it with her is premature and damages trust; escalation is for when honest reporting is refused.",
+      "Incorrect — Omitting the troubled period is still misleading; it hides the most valuable lessons the project produced for future city projects."
+    ],
+    "deepDive": "PMI's Code of Ethics and Professional Conduct names honesty as a core value: understand the truth, be truthful in communications, and do not create false impressions by what you say or what you leave out. Final reports and lessons learned become organizational process assets, and a sanitized version deprives future projects of what troubled projects teach best. A blame-free framing — conditions, decisions and systems rather than names — makes honesty easier to accept. The stewardship principle likewise asks project managers to act with integrity toward the organization and the public it serves.",
+    "tags": [
+      "case study",
+      "final report",
+      "ethics",
+      "honesty",
+      "lessons learned"
+    ],
+    "caseId": "CS-09"
+  }
+]

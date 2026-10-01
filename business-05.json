@@ -1,0 +1,599 @@
+[
+  {
+    "id": "BUS-094",
+    "domain": "Business Environment",
+    "task": "5. Plan and manage risk",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Enhancing an opportunity (EMV)",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Uncertainty Performance Domain (2.8.5): opportunity responses and secondary risks; Methods (4.4.1): expected monetary value",
+    "question": "A hybrid project is building a solar-powered cold-storage hub for a farming cooperative. The contract pays a $200,000 incentive if the hub is handed over four weeks early, and the team rates that chance at 30%. The project manager proposes adding a second commissioning crew for $25,000, which the team estimates would raise the chance to 55%. The extra crew also creates a secondary risk: a 10% chance of $40,000 in rework from handoff errors. What is the net expected value of adding the crew?",
+    "options": [
+      "−$15,000",
+      "$21,000",
+      "$25,000",
+      "$46,000"
+    ],
+    "answer": [1],
+    "hint": "Value the response by what it changes, then count everything the response itself costs or creates.",
+    "why": "An enhance response raises the probability of an opportunity, so its value is the change in EMV, not the new EMV. Change in EMV = (0.55 − 0.30) × $200,000 = $50,000. The crew costs $25,000, and the secondary threat has EMV = 0.10 × −$40,000 = −$4,000. Net expected value = $50,000 − $25,000 − $4,000 = $21,000, so the enhancement is still worth recommending.",
+    "how": "To evaluate a risk response, compare EMV before and after it, then subtract the response cost and the EMV of any secondary risks it creates; a positive result supports the response.",
+    "optionNotes": [
+      "Incorrect — This deducts the full $40,000 rework cost; a risk is valued at probability × impact, so the secondary threat is worth −$4,000.",
+      "Correct — The $50,000 rise in expected incentive, minus the $25,000 crew cost and the $4,000 expected rework, leaves a net expected value of $21,000.",
+      "Incorrect — This subtracts the crew cost but ignores the secondary risk; the 10% chance of $40,000 rework lowers the value by another $4,000.",
+      "Incorrect — This counts the secondary risk but forgets that the second crew itself costs $25,000, which must come off the EMV gain."
+    ],
+    "deepDive": "PMBOK 7 lists five opportunity responses: exploit (make sure it happens), enhance (raise its probability or impact), share (give ownership to a third party better able to capture it), escalate, and accept. Enhancing early is usually more effective than trying to boost an opportunity once it is already under way. Every response should be checked for secondary risks and for the residual risk left afterward, and response planning is repeated until the result fits the organization's risk appetite. A common exam trap is to compare the response cost with the full EMV after the response rather than with the change in EMV the response produces.",
+    "tags": ["risk", "opportunity", "emv", "secondary risk", "calculation"]
+  },
+  {
+    "id": "BUS-095",
+    "domain": "Business Environment",
+    "task": "5. Plan and manage risk",
+    "approach": "Agile",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Residual risk above threshold",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Uncertainty Performance Domain (2.8.5): risk thresholds, residual risk and repeating response planning",
+    "question": "An agile team at a health-insurance startup is preparing to release a claims-status chatbot. The risk approach agreed with the sponsor sets a strict privacy threshold: any risk with more than a 5% likelihood of exposing member data must be brought below that level before release. The team's first response, masking member IDs in chat logs, has cut the estimated likelihood from 20% to 8%. Release is three sprints away, and the team has not yet looked at other controls. What should the project manager do NEXT?",
+    "options": [
+      "Ask the sponsor to raise the privacy threshold to 10% so the release can go ahead with the masking already built",
+      "Accept the remaining risk, because the response has cut the likelihood by more than half and the release is close",
+      "Work with the risk owner and team on further responses, then reassess the residual risk against the 5% threshold",
+      "Escalate the risk to the sponsor now, because the first response has failed to bring it within the agreed threshold"
+    ],
+    "answer": [2],
+    "hint": "Compare what is left after the response with the limit the sponsor set, and ask whether the team has run out of options.",
+    "why": "The residual likelihood (8%) still exceeds the sponsor's 5% threshold, so the risk is not ready for release. Response planning is repeated until residual risk fits the agreed appetite, and the team still has untried controls, such as shorter log retention or redacting data before it is logged. Escalation becomes appropriate only if the team cannot bring the risk within the threshold or the response exceeds its authority, and changing the threshold to fit the solution reverses the logic of risk appetite.",
+    "how": "After a response is applied, compare the residual risk with the agreed threshold; if it is still above, iterate on responses within the team's authority first, and escalate only when options are exhausted or beyond that authority.",
+    "optionNotes": [
+      "Incorrect — Thresholds express the organization's risk appetite; moving the bar to fit the current solution undermines the governance the sponsor agreed.",
+      "Incorrect — A large reduction is not the test; the residual 8% likelihood still breaches the 5% threshold set for member data.",
+      "Correct — Response planning is iterated until residual risk fits the threshold, and the team still has untried controls within its authority.",
+      "Incorrect — Escalating is premature while the team still has feasible responses to try; it hands the sponsor a problem the team can still solve."
+    ],
+    "deepDive": "Risk appetite is the degree of uncertainty an organization will accept in pursuit of a reward; risk thresholds turn it into measurable limits, such as a maximum likelihood or a ±5% cost variance. After responses are implemented, the team measures residual risk and checks for secondary risks, repeating response planning until the residual level is acceptable. In agile teams, extra privacy controls can be added to the backlog as risk-reduction items that the product owner orders ahead of new features. Escalation is a valid response when a risk is outside the project's scope or authority, not a shortcut when the first response falls short.",
+    "tags": ["risk", "residual risk", "risk threshold", "privacy", "agile"]
+  },
+  {
+    "id": "BUS-096",
+    "domain": "Business Environment",
+    "task": "6. Continuous improvement",
+    "approach": "Any",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Kaizen for small recurring delays",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Project Work Performance Domain (2.5.1): process improvement and continuous learning",
+    "question": "Field crews on a water-main renewal program lose 20 to 40 minutes most days looking for fittings, waiting for permit sign-offs and re-walking sites. No single delay is large, but together they are eroding the schedule. The operations director suggests hiring consultants for a four-month redesign of the whole field process before changing anything. Which approach BEST reflects a kaizen mindset for this problem?",
+    "options": [
+      "Wait for the consultants' redesign so improvements are made once, consistently, across all crews in the program",
+      "Set a stretch target of zero lost minutes and add the metric to each crew supervisor's performance review",
+      "Record each delay in the lessons learned register so that the next program can plan better from the start",
+      "Have each crew pick one small fix a week, try it, measure the effect and standardize what works"
+    ],
+    "answer": [3],
+    "hint": "Think about who sees this waste every day and how quickly each improvement could start paying off.",
+    "why": "Kaizen means continuous, incremental improvement led by the people doing the work. Many small, frequent changes that are tested, measured and then standardized target exactly this kind of accumulated waste, and they start paying off within days. A single large redesign delays every benefit for months, and pressuring crews with a target without changing the process invites gaming rather than improvement.",
+    "how": "When waste is made up of many small, recurring losses, favor small, frequent, team-led improvement cycles (plan-do-check-act) over one large redesign or top-down targets.",
+    "optionNotes": [
+      "Incorrect — A four-month redesign postpones every benefit and takes ownership of improvement away from the crews who see the waste daily.",
+      "Incorrect — A target and appraisal pressure do not change the process; they tend to produce hidden delays or gamed numbers instead of real improvement.",
+      "Incorrect — Capturing lessons only for the next program ignores the chance to improve now, while the losses are still hurting this schedule.",
+      "Correct — Small weekly experiments run by the crews, measured and then standardized, are the essence of kaizen and deliver value quickly."
+    ],
+    "deepDive": "Kaizen ('change for the better') comes from lean thinking: everyone improves the process a little, all the time. It is usually run as plan-do-check-act (PDCA) cycles — plan a small change, try it, check the data, and act by standardizing or discarding it. Kaizen events are short, focused workshops, but the underlying habit is daily improvement by the people closest to the work. Agile retrospectives apply the same idea at the end of each iteration, and predictive projects can do it at crew meetings or phase reviews; the exam trap is waiting until closure to learn.",
+    "tags": ["kaizen", "continuous improvement", "lean", "pdca"]
+  },
+  {
+    "id": "BUS-097",
+    "domain": "Business Environment",
+    "task": "6. Continuous improvement",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Applying phase lessons mid-project",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Project Work Performance Domain (2.5.8): learning throughout the project",
+    "question": "A predictive project is rolling out a new laboratory information system to six hospitals in three phases. Phase 1, covering two hospitals, has just gone live two weeks late, mainly because instrument interfaces were tested only in the final week and several failed. Phase 2 planning starts next Monday. The phase-end review produced a clear list of lessons. What should the project manager do with these lessons NOW?",
+    "options": [
+      "Store the lessons in the lessons learned register and include them in the final report at project closure",
+      "Review the lessons with the team and update the phase 2 plan, test approach and schedule to reflect them",
+      "Send the lessons to the PMO so that it can decide whether they should become part of the organization's standards",
+      "Ask the interface vendor to explain the failures in writing before the team agrees on any changes for phase 2"
+    ],
+    "answer": [1],
+    "hint": "Lessons are worth most where they can still change an outcome — where is that here?",
+    "why": "Lessons learned are most valuable when they change what happens next, and phase 2 planning starts in days. Working with the team to move interface testing earlier and adjust the plan and schedule prevents the same delay at the next four hospitals. Sharing with the PMO and recording lessons for closure are useful too, but neither protects phase 2 on its own.",
+    "how": "Capture lessons throughout the project and apply them at once to upcoming phases or iterations; storing them only for closure or for other projects wastes their value to the current one.",
+    "optionNotes": [
+      "Incorrect — Waiting until closure means phases 2 and 3 can repeat the same late-testing problem that already cost two weeks.",
+      "Correct — Applying the lessons now, with the people who will do the work, turns the phase 1 experience into a better phase 2 plan.",
+      "Incorrect — Sharing with the PMO helps future projects, but the most urgent use of these lessons is in this project's next phase.",
+      "Incorrect — A written vendor explanation may help root-cause analysis, but it should not hold up changes the team already knows it needs."
+    ],
+    "deepDive": "PMBOK 7 treats learning as part of project work rather than a closure ritual: teams capture explicit knowledge (documents, test results) and tacit knowledge (experience, judgment) as they go. Phase-end reviews in predictive projects and retrospectives in agile ones are both points to inspect and adapt. Lessons should also flow into organizational process assets — templates, checklists and test standards — so later projects benefit. A common trap is choosing the 'record it for closure' option when an upcoming phase could still benefit.",
+    "tags": ["lessons learned", "phase review", "continuous improvement", "predictive"]
+  },
+  {
+    "id": "BUS-098",
+    "domain": "Business Environment",
+    "task": "6. Continuous improvement",
+    "approach": "Agile",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Value stream map bottleneck",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Methods (4.4.1) and Artifacts (4.6.6): value stream mapping to expose waste",
+    "question": "An agile team supports a bank's mobile app. Customers complain that fixes for the bugs they report take about a week to arrive. The team mapped the value stream for a typical fix, as shown. Refer to the exhibit. The team lead proposes adopting pair programming to speed up the work. Which improvement should the team pursue FIRST?",
+    "exhibit": {
+      "kind": "table",
+      "title": "Value stream map — typical customer-reported bug fix (median hours)",
+      "columns": [
+        "Step",
+        "Queue time before step (h)",
+        "Work time (h)"
+      ],
+      "rows": [
+        [
+          "1. Triage and prioritize",
+          "30",
+          "1"
+        ],
+        [
+          "2. Develop fix",
+          "4",
+          "10"
+        ],
+        [
+          "3. Code review",
+          "20",
+          "2"
+        ],
+        [
+          "4. Security review (central team)",
+          "72",
+          "1.5"
+        ],
+        [
+          "5. Deploy to production",
+          "6",
+          "0.5"
+        ],
+        [
+          "Total",
+          "132",
+          "15"
+        ]
+      ]
+    },
+    "options": [
+      "Work with the central security team to shrink its review queue, for example with agreed criteria or automated checks",
+      "Adopt pair programming to shorten development, since writing the fix is the longest hands-on step in the value stream",
+      "Hold a short daily triage session so that reported bugs are prioritized within hours instead of waiting for over a day",
+      "Ask developers to review each other's code within an hour of a request, so the code review queue drops close to zero"
+    ],
+    "answer": [0],
+    "hint": "Add up where a typical fix spends its time, and look for the single biggest delay rather than the busiest step.",
+    "why": "Summing the map, a fix spends 132 hours waiting in queues and only 15 hours being worked on, so waiting — not working — drives the week-long lead time. The single largest delay is the 72-hour queue for the central security review, about half of the 147-hour lead time. Speeding up development (10 hours of work) would barely move the total, and the triage and code-review queues, while worth fixing later, are smaller.",
+    "how": "On a value stream map, find the largest non-value-added wait (the bottleneck) and improve it first; optimizing hands-on work that is not the constraint rarely shortens lead time.",
+    "optionNotes": [
+      "Correct — The security review queue is the largest single delay, about half the lead time, so reducing it gives the biggest gain in flow.",
+      "Incorrect — Development is the longest work step, but it takes only ten hours; shaving it hardly changes a lead time dominated by waiting.",
+      "Incorrect — Faster triage is a worthwhile later step, but its 30-hour queue is less than half the delay caused by the security review.",
+      "Incorrect — The code review queue is real waste, yet at 20 hours it is not the main constraint on how quickly fixes reach customers."
+    ],
+    "deepDive": "Value stream mapping is a lean method that documents every step from request to delivery with its work time and wait time, so the team can see where value stops flowing. Flow efficiency = work time ÷ lead time; here 15 ÷ 147 ≈ 10%, which is typical of knowledge work where items spend most of their life in queues. Theory of Constraints adds that improving anything other than the bottleneck does not raise throughput. When the constraint sits with another team, the project manager's servant-leadership role is to broker a fix — shared review criteria, automated security scans in the pipeline, or an embedded reviewer — rather than pushing the team to work faster.",
+    "tags": ["value stream mapping", "lean", "flow efficiency", "agile", "exhibit"]
+  },
+  {
+    "id": "BUS-099",
+    "domain": "Business Environment",
+    "task": "6. Continuous improvement",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Retuning a tailored gate process",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Tailoring (3.4.3.4): implementing ongoing improvement of the tailored approach",
+    "question": "At the start of a hybrid program to replace a port's cargo-tracking system, the project manager and governance board tailored the approach: two-week iterations for software, plus a quarterly stage gate that requires a 40-page evidence pack. Two gates in, a retrospective shows the pack takes about a fifth of a sprint's capacity, and board members admit they read only the two-page summary and watch the demo. What should the project manager do?",
+    "options": [
+      "Keep producing the full evidence pack as it is, because the tailored approach was approved by the board at the start",
+      "Stop producing the full pack and send only the summary, since board members have said they do not read the rest",
+      "Ask the team to automate the evidence pack so it takes less effort, without changing what the board receives",
+      "Propose a lighter gate package to the board, based on the summary and demo, and agree what evidence it still needs"
+    ],
+    "answer": [3],
+    "hint": "Is a tailoring decision made at the start of a program fixed for its whole life, and who owns this particular process?",
+    "why": "Tailoring is not a one-time decision; retrospectives and gate reviews are the moments to check whether chosen processes still add value. Here the pack consumes significant capacity while the board relies on the summary and demo, so the project manager should bring the evidence to the board and agree a leaner package that still meets its oversight needs. Changing the gate unilaterally would bypass governance, and keeping it unchanged ignores clear waste.",
+    "how": "Treat tailoring as ongoing: when evidence shows a process no longer adds value, propose an adjustment to the body that owns it rather than persisting with it or dropping it on your own.",
+    "optionNotes": [
+      "Incorrect — An initial tailoring decision is not permanent; continuing a process the board admits it does not use wastes team capacity.",
+      "Incorrect — Dropping a governance deliverable on your own bypasses the board, which may still need some evidence for audit or compliance.",
+      "Incorrect — Automation cuts the effort but still produces content nobody reads; the better fix is to stop producing what adds no value.",
+      "Correct — It uses retrospective evidence to adjust the tailored process with its governance owners, keeping oversight while removing waste."
+    ],
+    "deepDive": "PMBOK 7 describes tailoring in four steps: select the initial development approach, tailor it for the organization, tailor it for the project, and implement ongoing improvement. The last step recognizes that learning during progressive elaboration shows where processes should be added, removed or changed. Involving the team in tailoring builds ownership, while involving governance keeps the changes legitimate. In hybrid programs, gate evidence is a frequent candidate for trimming, because agile artifacts such as demos, burnups and definition-of-done records often give better evidence than long documents.",
+    "tags": ["tailoring", "governance", "retrospective", "continuous improvement", "hybrid"]
+  },
+  {
+    "id": "BUS-100",
+    "domain": "Business Environment",
+    "task": "6. Continuous improvement",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Evaluating an improvement experiment",
+    "source": "ECO 2026 · Business Environment Task 6 · Inspect and adapt improvement experiments",
+    "question": "Three sprints ago, a data-platform team's retrospective led it to trial strict work-in-progress limits, aiming to cut average cycle time. Cycle time has since dropped from nine days to five. However, the product owner points out that escaped defects have doubled over the same period, and two developers say they have been rushing work to 'free up a slot'. The next retrospective is tomorrow. What should the project manager do?",
+    "options": [
+      "Declare the experiment a success, since it met its cycle-time goal, and make the limits a permanent team policy",
+      "Bring both measures to the retrospective and help the team examine the cause and adjust the experiment",
+      "Remove the limits at once and return to the previous way of working until the defect trend is understood",
+      "Add a quality gate owned by the project manager that must approve each item before it leaves the in-progress column"
+    ],
+    "answer": [1],
+    "hint": "Judge a process change by its effect on the whole system, and remember who owns the team's way of working.",
+    "why": "An improvement should be judged against the whole system, not only the measure it targeted. The data suggest the limits may be driving shortcuts that raise defects, but the team, which owns its process, should inspect both measures in the retrospective, find the cause and adapt, for example by counting testing inside the limit or tightening the definition of done. Declaring success, abandoning the change or imposing a gate owned by the project manager all skip that learning.",
+    "how": "Treat process changes as experiments: define the expected result, watch for side effects on other measures, and let the team inspect and adapt the change at its next retrospective.",
+    "optionNotes": [
+      "Incorrect — It ignores the side effect; a shorter cycle time is not an improvement if twice as many defects reach customers.",
+      "Correct — Reviewing both measures lets the team find the real cause and refine the change, keeping the gain in flow without losing quality.",
+      "Incorrect — Reverting at once throws away a real gain in flow before the team knows whether a small adjustment would fix the defects.",
+      "Incorrect — A gate owned by the project manager is command-and-control, adds a new queue and takes quality ownership away from the team."
+    ],
+    "deepDive": "Agile teams improve through small experiments: form a hypothesis, change one thing, measure, and inspect the result at the next retrospective. Systems thinking reminds us that optimizing one measure can harm another; a classic example is pushing flow or velocity at the expense of quality. Balanced measures, such as pairing cycle time with escaped defects, guard against this. WIP limits work best when 'done' includes testing, so that finishing an item means finishing it properly rather than passing it on.",
+    "tags": ["retrospective", "wip limits", "experiment", "systems thinking", "agile"]
+  },
+  {
+    "id": "BUS-101",
+    "domain": "Business Environment",
+    "task": "6. Continuous improvement",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Blameless post-incident review",
+    "source": "ECO 2026 · Business Environment Task 6 · Blameless post-incident review and root cause",
+    "question": "During a Friday release, a manual configuration step was missed and a retailer's online checkout was down for three hours. The agile team restored service, and affected customers were refunded. On Monday, the head of operations asks the project manager to find out which engineer skipped the step so that 'it doesn't happen again'. The same manual step had been raised as a concern in a retrospective two months earlier. What should the project manager do?",
+    "options": [
+      "Identify the engineer involved and arrange extra training so that the same person does not repeat the mistake",
+      "Add a sign-off by the head of operations to every future release until the team shows it can deploy reliably",
+      "Facilitate a blameless review of how the process allowed the miss, and turn the findings into backlog actions",
+      "Record the incident and the earlier retrospective concern in the lessons learned register for future projects"
+    ],
+    "answer": [2],
+    "hint": "Ask whether the failure belongs to a person or to a process that already had a known weak spot.",
+    "why": "The outage is a process failure: a known-risky manual step stayed in the release path even after the team flagged it. A blameless review keeps people candid, finds systemic causes — for example, why the step was never automated or checklisted and why the earlier concern was not acted on — and turns them into owned improvement items. Blaming an individual discourages reporting, and adding an approval layer slows releases without removing the weak step.",
+    "how": "After a failure, look for system causes before individual fault: run a blameless review, fix the process (automate, error-proof, add checklists) and track the actions to completion.",
+    "optionNotes": [
+      "Incorrect — Focusing on one engineer treats a symptom; the manual step remains a trap for anyone, and blame discourages people from reporting problems.",
+      "Incorrect — An extra approval adds delay and control but leaves the error-prone manual step in place, so the root cause remains.",
+      "Correct — It uncovers the systemic cause, draws on the team's knowledge and turns findings into tracked improvements such as automating the step.",
+      "Incorrect — Recording the incident without acting repeats the earlier failure, when a flagged concern was noted but never fixed."
+    ],
+    "deepDive": "Blameless post-incident reviews, common in DevOps, assume people acted reasonably given what they knew, and ask how the system made the error possible. Typical outputs are error-proofing (poka-yoke), automation of manual steps, better checklists and monitoring. Root cause tools such as the five whys or a cause-and-effect diagram help the team move beyond the first explanation. The PMI mindset links this to psychological safety: teams that fear blame hide near misses, removing the early warnings that continuous improvement depends on.",
+    "tags": ["continuous improvement", "root cause", "psychological safety", "devops", "agile"]
+  },
+  {
+    "id": "BUS-102",
+    "domain": "Business Environment",
+    "task": "7. Support organizational change",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Performance dip after a change",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Models (4.2.4.4): Virginia Satir change model",
+    "question": "An insurer's claims department has just moved from a document-based workflow to cross-functional agile teams using a new case-management tool. Three weeks in, throughput has fallen by a third, some staff seem anxious, others are inventing their own workarounds, and a department manager asks the project manager to 'switch back before the quarter is ruined'. The executive team approved the change after a successful pilot. What should the project manager do?",
+    "options": [
+      "Treat the dip as an expected stage of change, and support teams with coaching and room to try better practices",
+      "Agree to switch back to the old workflow until the quarter ends, and then relaunch the change with more preparation",
+      "Set weekly throughput targets for each team so that performance returns to its previous level as quickly as possible",
+      "Ask the executive team to send a message reminding all staff that the new way of working is mandatory and permanent"
+    ],
+    "answer": [0],
+    "hint": "Consider whether falling performance and anxiety right after a major change are a sign of failure or a normal part of the journey.",
+    "why": "The symptoms — lower performance, anxiety and people experimenting with workarounds — match the chaos that follows when a change disrupts the familiar status quo. Reverting would waste the investment and make the next attempt harder, while targets or mandates add pressure just when people most need support. Coaching and room to experiment help teams reach the ideas that lift performance, often above where it started.",
+    "how": "Expect a performance dip after a significant change; respond with support, coaching and safe experimentation rather than reverting, adding pressure or relying on edicts.",
+    "optionNotes": [
+      "Correct — It normalizes the chaos stage and helps people find the practices that first restore and then improve performance.",
+      "Incorrect — Reverting during the dip abandons an approved, piloted change and teaches people that pushback can stop future changes.",
+      "Incorrect — Adding performance pressure during chaos tends to raise anxiety and workarounds instead of helping people learn the new way of working.",
+      "Incorrect — A mandate from the top addresses compliance, not capability; people know the change is happening but need support to master it."
+    ],
+    "deepDive": "The Satir change model describes stages of late status quo, foreign element, chaos, transforming idea, practice and integration, and a new status quo, usually at higher performance than before. Knowing the curve stops leaders from reacting to the expected dip as if it proved the change had failed. Helpful support during chaos includes coaching, peer sharing of what works, clear short-term goals and patience from management. The model pairs well with ADKAR (individual building blocks) and Bridges' transition model (the psychology of letting go) when planning organizational change.",
+    "tags": ["organizational change", "satir", "change curve", "agile transformation"]
+  },
+  {
+    "id": "BUS-103",
+    "domain": "Business Environment",
+    "task": "7. Support organizational change",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Managing endings in a transition",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Models (4.2.4.5): Bridges' transition model",
+    "question": "Two regional engineering offices are merging into a single center of excellence, and a hybrid project is moving both onto a common design platform. Go-live is in six weeks. The office that is closing had a strong identity, its own tools and a respected local manager who is retiring. The project manager's draft communication plan focuses on the new platform's features and career benefits. Several senior engineers from that office have gone quiet in meetings. What should the project manager do FIRST?",
+    "options": [
+      "Add more demonstrations of the platform's benefits so the engineers can see how their daily work will improve after go-live",
+      "Ask the retiring manager's replacement to reassure the engineers privately that all their roles are safe in the new center",
+      "Bring go-live forward by two weeks so the uncertainty ends sooner and people can settle into the new center more quickly",
+      "Acknowledge openly what people are losing, and give them ways to honor the old office's work before moving on"
+    ],
+    "answer": [3],
+    "hint": "Ask where these engineers are psychologically, rather than where the project schedule says they should be.",
+    "why": "The change (the merger and new platform) happens on a date, but the transition — people letting go of their old identity — is psychological and begins with an ending. The quiet senior engineers and a plan focused only on new benefits suggest the project is skipping that first stage. Acknowledging losses and marking the ending respectfully helps people move into the neutral zone and then the new beginning; more benefit messages or an earlier go-live ignore where people actually are.",
+    "how": "Diagnose where people are in the transition: while they are still dealing with loss, address the ending before promoting the new beginning.",
+    "optionNotes": [
+      "Incorrect — Selling benefits speaks to the new beginning, but people who are still grieving the old office are not ready to hear it.",
+      "Incorrect — Private reassurance about jobs may prove untrue, and it does not address the loss of identity that is driving the silence.",
+      "Incorrect — Rushing go-live shortens the time people have to adjust and is likely to deepen resistance and confusion.",
+      "Correct — Transition starts with an ending; recognizing losses openly helps people let go so they can engage with the new center."
+    ],
+    "deepDive": "William Bridges distinguishes change, which is situational and happens on a date, from transition, the inner process people go through to accept it. His three stages are ending, losing and letting go; the neutral zone; and the new beginning. Leaders often jump straight to the new beginning, promoting benefits while people are still dealing with loss. Practical ways to handle endings include naming what is changing and what is not, honoring past achievements, and giving people time and information; in the neutral zone, short-term goals and involvement channel both the anxiety and the creativity people feel.",
+    "tags": ["organizational change", "transition model", "resistance", "merger", "hybrid"]
+  },
+  {
+    "id": "BUS-104",
+    "domain": "Business Environment",
+    "task": "7. Support organizational change",
+    "approach": "Predictive",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Sustaining change after early wins",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Models (4.2.4.3): Kotter's eight-step process for leading change",
+    "question": "A manufacturer is rolling out a new maintenance-planning system to seven plants under a phased, predictive plan. The first plant went live smoothly, and adoption there is high. The sponsor now wants to disband the change team, announce that the transformation is complete, and let the remaining six plants 'pick it up' on their own. What should the project manager recommend?",
+    "options": [
+      "Disband the change team as proposed, since the successful first plant shows the new system is easy to adopt",
+      "Pause the rollout until every plant manager has formally confirmed support for the new maintenance system",
+      "Use the first plant's success to build momentum, and keep the change effort going until the system is embedded",
+      "Replace the change team with a helpdesk, because the remaining questions will mostly concern technical issues"
+    ],
+    "answer": [2],
+    "hint": "One successful site is a milestone on the journey — ask what usually happens when leaders treat it as the destination.",
+    "why": "Declaring victory after one early win is a classic reason change efforts fail. Kotter's later steps call for using the credibility of short-term wins to drive further change and then anchoring the new approach in the culture. The project manager should recommend keeping the change effort in place for the remaining plants, using the first plant's results and people as champions.",
+    "how": "Treat early wins as fuel, not as the finish line: sustain the change effort until the new way of working is embedded across the organization.",
+    "optionNotes": [
+      "Incorrect — One successful site does not mean the change is embedded elsewhere; declaring victory early lets old habits return.",
+      "Incorrect — Pausing for formal sign-offs loses momentum; support is better built by showcasing the first plant's results.",
+      "Correct — Short-term wins should build credibility and momentum while the change is extended and anchored across all seven plants.",
+      "Incorrect — A helpdesk handles technical questions but not the leadership, communication and reinforcement that adoption still needs."
+    ],
+    "deepDive": "Kotter's eight steps are: create urgency, form a guiding coalition, create a vision for change, communicate the vision, remove obstacles, create short-term wins, build on the change, and anchor the changes in corporate culture. The last two steps are the ones most often cut short, because leaders equate a successful launch with a completed change. In practice, building on the change means analyzing what worked, widening the coalition with early adopters and continuing to improve; anchoring means aligning hiring, promotion and routines with the new way of working.",
+    "tags": ["organizational change", "kotter", "short-term wins", "predictive"]
+  },
+  {
+    "id": "BUS-105",
+    "domain": "Business Environment",
+    "task": "7. Support organizational change",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "multi",
+    "topic": "Acting on a readiness assessment",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Models (4.2.4.2): ADKAR applied to change readiness; Stakeholder Performance Domain (2.1): engaging resistant groups",
+    "question": "A logistics company is replacing paper route sheets with a route-planning app through a hybrid project: agile app releases plus a predictive depot rollout. Two months before rollout, the project manager ran a readiness survey. Refer to the exhibit. In follow-up conversations, several drivers said the app's fixed routes would stop them using local shortcuts they rely on. Which TWO actions should the project manager take? (Select two.)",
+    "exhibit": {
+      "kind": "table",
+      "title": "Change readiness survey — route-planning app (% of each group agreeing)",
+      "columns": [
+        "Group",
+        "I understand why the change is needed",
+        "I want to use the new app",
+        "I know how to use the new app"
+      ],
+      "rows": [
+        [
+          "Dispatchers",
+          "85%",
+          "70%",
+          "40%"
+        ],
+        [
+          "Drivers",
+          "80%",
+          "35%",
+          "60%"
+        ],
+        [
+          "Depot managers",
+          "90%",
+          "85%",
+          "75%"
+        ]
+      ]
+    },
+    "options": [
+      "Schedule extra app training for drivers, since they are the group most likely to struggle with the new system",
+      "Involve drivers in reviewing the routing logic with the product owner, so valid local knowledge can shape the app",
+      "Ask depot managers to tell drivers that app use will be monitored and required from rollout day onward",
+      "Plan hands-on practice sessions for dispatchers before rollout, because their knowledge scores are the lowest",
+      "Delay the whole rollout until every group reaches a high score on all three questions in a repeat survey"
+    ],
+    "answer": [1, 3],
+    "hint": "Read the survey by group and by question — each group may be stuck at a different point, and complaints can carry useful information.",
+    "why": "The survey shows two different gaps. Drivers understand the change, but only 35% want the app, and their concern about losing local shortcuts is useful information: involving them in refining the routing logic with the product owner can improve the product and build desire. Dispatchers want the app, but only 40% know how to use it, so targeted hands-on practice closes their knowledge gap. Training drivers, compliance threats or an open-ended delay do not match the gaps the survey reveals.",
+    "how": "Read readiness data by group and by gap (awareness, desire, knowledge, ability) and match each intervention to its gap; treat resistance as information that may improve the solution.",
+    "optionNotes": [
+      "Incorrect — Drivers' knowledge score is not their problem; their low score is on wanting the app, which training will not fix.",
+      "Correct — Engaging drivers turns resistance into input that may improve the routing, and it builds the desire the survey shows is missing.",
+      "Incorrect — Threatening monitoring may force compliance, but it deepens resistance and dismisses a concern that could be legitimate.",
+      "Correct — Dispatchers are motivated but have the lowest knowledge score, so targeted practice before rollout closes the right gap.",
+      "Incorrect — Waiting for every group to score highly is unrealistic; targeted actions can close the actual gaps within the two months available."
+    ],
+    "deepDive": "Change readiness assessments show where each stakeholder group stands, so change activities can be targeted rather than generic. Mapped to ADKAR, the survey questions test awareness, desire and knowledge; ability and reinforcement come later through practice and follow-up. Resistance is often a signal of a real design issue, because frontline workers know exceptions the designers missed. In hybrid delivery, the agile product team can absorb that feedback into the backlog while the predictive rollout plan schedules training and support for each depot.",
+    "tags": ["organizational change", "readiness", "resistance", "adkar", "multi-select", "exhibit"]
+  },
+  {
+    "id": "BUS-106",
+    "domain": "Business Environment",
+    "task": "7. Support organizational change",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Reinforcing a new way of working",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Models (4.2.4.2): ADKAR — reinforcement to sustain change",
+    "question": "Eight months ago, an insurer's IT division moved to agile teams with help from external coaches. Adoption looked strong: teams held reviews with business owners and kept visible backlogs. Since the coaches left, several teams have drifted back to long up-front specifications, and managers still praise and rate people for 'hitting the original plan dates'. The CIO asks the project manager where to focus next. What should the project manager recommend?",
+    "options": [
+      "Align managers' recognition and performance measures with the new way of working, and track adoption over time",
+      "Bring the external coaches back for another eight months so that teams can repeat the same agile training program",
+      "Issue a directive that all teams must follow the agile process and report any deviation to the division's PMO",
+      "Run a new awareness campaign that explains again why the division decided to move to agile ways of working"
+    ],
+    "answer": [0],
+    "hint": "The teams already practiced the new way successfully — so look for what is now pulling them back.",
+    "why": "Teams clearly knew and applied the new practices while the coaches were present, so awareness, desire, knowledge and ability were largely in place. What is missing is reinforcement: the reward system still favors the old behavior, so people drift back. Aligning recognition and measures with the new way of working, and monitoring adoption, sustains the change, whereas retraining or re-explaining the reasons targets gaps that are not the cause.",
+    "how": "When people revert after a change that initially took hold, look for missing reinforcement — rewards, measures and management behaviors that still favor the old way.",
+    "optionNotes": [
+      "Correct — Reinforcement is the missing element; changing what managers reward and measure removes the pull back toward the old behavior.",
+      "Incorrect — Repeating training treats a knowledge gap the teams do not have; they already practiced the new way successfully.",
+      "Incorrect — A compliance directive may produce outward conformance but leaves in place the incentives that are driving people back.",
+      "Incorrect — Staff already understand why the change was made; repeating awareness messages will not counter rewards for the old behavior."
+    ],
+    "deepDive": "ADKAR (awareness, desire, knowledge, ability, reinforcement) diagnoses where an individual's change is stuck; the first missing element is the barrier point. Reinforcement includes recognition, measures, consequences and leaders who model the change, and it is what makes a change stick after the project team steps away. A common trap is answering every adoption problem with more training. In agile transformations, rating managers and staff on plan-date conformance rather than delivered outcomes is a frequent reinforcement gap.",
+    "tags": ["organizational change", "adkar", "reinforcement", "agile transformation"]
+  },
+  {
+    "id": "BUS-107",
+    "domain": "Business Environment",
+    "task": "8. Evaluate external business environment changes",
+    "approach": "Predictive",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Carbon levy and payback",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Methods (4.4.1): business justification (payback period); Stewardship principle: environmental sustainability",
+    "question": "A food manufacturer's predictive project will replace an old gas-fired drying line with a heat-pump line. The approved business case shows a $4.8 million investment and $1.5 million in annual net benefits, a 3.2-year payback against a four-year hurdle. Midway through execution, the government announces a carbon levy of $60 per tonne of CO2e from next year. The old line emits 9,000 tonnes a year; the new line will emit 6,000. What revised payback period should the project manager report to the sponsor?",
+    "options": [
+      "About 2.4 years",
+      "About 2.9 years",
+      "About 3.2 years",
+      "About 4.2 years"
+    ],
+    "answer": [1],
+    "hint": "A project's benefit is the difference between the future with it and the future without it — apply that to both lines.",
+    "why": "The levy applies whether or not the project goes ahead, so the benefit is the levy the new line avoids compared with the old one. Avoided levy = (9,000 − 6,000) × $60 = $180,000 a year, so annual net benefit = $1,500,000 + $180,000 = $1,680,000. Payback = $4,800,000 ÷ $1,680,000 ≈ 2.86, or about 2.9 years, which strengthens the business case.",
+    "how": "When an external change hits a business case, recompute benefits incrementally — with-project versus without-project — and report the revised figures to the sponsor.",
+    "optionNotes": [
+      "Incorrect — This credits the old line's entire $540,000 levy, but the new line still pays $360,000; only the $180,000 difference is a benefit.",
+      "Correct — Avoided levy is (9,000 − 6,000) × $60 = $180,000, so benefits rise to $1.68 million and payback is $4.8M ÷ $1.68M ≈ 2.9 years.",
+      "Incorrect — This ignores the levy; the project now avoids a cost the company would otherwise pay, which improves the business case.",
+      "Incorrect — This treats the new line's levy as an extra cost, forgetting that the old line would pay even more if the project did not proceed."
+    ],
+    "deepDive": "Business cases should be evaluated incrementally: the benefit of a project is the difference between the future with it and the future without it. External changes such as carbon pricing, tariffs or subsidies can therefore strengthen a case as well as weaken it, and the sponsor needs the revised figures either way. Payback period = investment ÷ annual net benefit; it is simple but ignores the time value of money and any benefits after payback, so NPV or IRR are usually reviewed alongside it. Carbon levies are a growing example of ESG factors turning into hard financial numbers that project managers must monitor.",
+    "tags": ["business case", "payback", "sustainability", "regulation", "calculation"]
+  },
+  {
+    "id": "BUS-108",
+    "domain": "Business Environment",
+    "task": "8. Evaluate external business environment changes",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "New AI service versus custom build",
+    "source": "ECO 2026 · Business Environment Task 8 · Emerging AI technology and build-versus-buy reassessment",
+    "question": "Six sprints into building a custom machine-learning model that classifies incoming insurance claims, an agile team learns that its cloud provider has released a general-purpose AI service that classifies documents out of the box. Early reports suggest accuracy similar to the team's model at a fraction of the running cost. The team is proud of its model, and the roadmap assumes four more sprints of tuning. What should the project manager do?",
+    "options": [
+      "Continue the planned tuning, because six sprints of work would be wasted if the team switched to the new service now",
+      "Switch to the new AI service right away, since the reports show it delivers similar accuracy at a much lower cost",
+      "Note the new service as a possible option for the next product version once the current roadmap has been completed",
+      "Raise it with the product owner and propose a short spike to test the service against the team's acceptance criteria"
+    ],
+    "answer": [3],
+    "hint": "Decide on future value rather than past effort, and on evidence from this use case rather than general reports.",
+    "why": "A technology shift may have changed the best way to deliver the value, so it needs prompt, evidence-based evaluation. A short spike tests the service on real claims against what matters — accuracy, data residency, explainability and cost — and gives the product owner facts to reorder the backlog and, if needed, revisit the business case with the sponsor. Continuing because of work already done is the sunk-cost fallacy, while switching on the strength of early reports skips checks the product needs.",
+    "how": "When an external technology change could alter how value is best delivered, gather evidence quickly (a spike or experiment) and let the product owner and sponsor decide; avoid both sunk-cost persistence and unverified pivots.",
+    "optionNotes": [
+      "Incorrect — Past effort is a sunk cost; the decision should rest on the future value and cost of each option, not on work already spent.",
+      "Incorrect — General reports are not evidence for this use case; switching without testing accuracy, compliance and data handling risks a costly mistake.",
+      "Incorrect — Deferring the evaluation means spending four more sprints on tuning that the new service might make unnecessary.",
+      "Correct — A quick, evidence-based test lets the product owner reprioritize on facts and keeps business-case decisions with the right owners."
+    ],
+    "deepDive": "Rapid advances in AI can turn a differentiating capability into a commodity within months, so build, buy or integrate decisions need revisiting during delivery, not only at initiation. A spike is a timeboxed investigation that reduces uncertainty before the team commits backlog capacity. For AI services, acceptance criteria usually cover accuracy on representative data, bias and explainability, data privacy and residency, vendor lock-in and total cost of ownership. The exam trap is the sunk-cost fallacy: the right question is which option delivers the most value from here on.",
+    "tags": ["ai", "technology change", "spike", "sunk cost", "agile"]
+  },
+  {
+    "id": "BUS-109",
+    "domain": "Business Environment",
+    "task": "8. Evaluate external business environment changes",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "multi",
+    "topic": "Customer ESG requirements",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Stewardship principle: environmental sustainability; Quality principle: sustainability as a quality dimension",
+    "question": "A hybrid project is developing a new range of household cleaning products: formulation work is iterative, while the packaging line is being built under a fixed-price contract. The largest retail customer, which takes 40% of sales, announces that from next year suppliers must report each product's carbon footprint and use at least 30% recycled plastic in packaging. The current packaging design uses only new plastic. Which TWO actions should the project manager take FIRST? (Select two.)",
+    "options": [
+      "Assess with the sponsor and product owner how the new requirements affect scope, cost, schedule and the business case",
+      "Wait until the customer formally amends its supply agreement before spending any project time on the new requirements",
+      "Instruct the packaging supplier to switch to recycled plastic immediately under the terms of the existing fixed-price contract",
+      "Refer the announcement to the marketing department, since supplier sustainability reporting is outside the project's scope",
+      "Identify the new risks, such as recycled-material supply and footprint data collection, and plan responses with owners"
+    ],
+    "answer": [0, 4],
+    "hint": "Treat a major customer's announcement as an external change: understand its impact first, and route anything contractual through the proper channel.",
+    "why": "A major customer's new ESG conditions are an external change that could affect scope, cost, schedule and the sales the business case depends on. The first steps are to analyze the impact with the people who own the business case and the backlog, and to identify and plan for the new risks, such as whether enough recycled plastic is available and how footprint data will be gathered. Any contract change then goes through change control rather than being demanded informally.",
+    "how": "When a customer, investor or regulator raises ESG expectations, analyze the impact on requirements and the business case with the decision owners, update the risks, and route contractual changes through change control.",
+    "optionNotes": [
+      "Correct — The customer's conditions may change requirements and the value case, so the decision owners need an impact assessment promptly.",
+      "Incorrect — The announcement already gives notice; waiting for a formal amendment wastes lead time the packaging redesign may need.",
+      "Incorrect — Changing a fixed-price supplier's specification outside the change process invites claims, and the impact has not yet been analyzed.",
+      "Incorrect — Conditions that decide whether the product can be sold to the biggest customer are a project concern, not just a marketing one.",
+      "Correct — Recycled-material supply and footprint data are new uncertainties that need owners and planned responses in the risk register."
+    ],
+    "deepDive": "ESG (environmental, social and governance) expectations increasingly arrive through the supply chain, as large buyers set targets for their suppliers' emissions, materials and labor practices. PMBOK 7's stewardship principle extends the project manager's duty of care to the environment and external stakeholders, and its quality guidance lists sustainability among the dimensions of a good deliverable. In hybrid projects, new requirements flow into the adaptive backlog through the product owner, while changes to fixed-price contracts go through formal change control. Early action can also create opportunities, because recycled packaging may become a selling point with other customers.",
+    "tags": ["sustainability", "esg", "external environment", "hybrid", "multi-select"]
+  },
+  {
+    "id": "BUS-110",
+    "domain": "Business Environment",
+    "task": "8. Evaluate external business environment changes",
+    "approach": "Any",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Scenarios for volatile prices",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Uncertainty Performance Domain (2.8.4): volatility and alternatives analysis",
+    "question": "A project to build a green-hydrogen pilot plant depends heavily on electricity prices, which have swung by more than 50% in a year since a regional conflict disrupted gas supplies. The business case, approved last year, used a single price forecast. The sponsor asks the project manager to 'give the board the most accurate price forecast possible' so the board can decide whether to fund the next phase. What should the project manager do?",
+    "options": [
+      "Present several price scenarios and their effect on the business case, with indicators and decision points to watch",
+      "Commission a specialist consultancy to produce a more precise single forecast of electricity prices for the board",
+      "Use the highest price seen during the year as the planning assumption so that the business case stays conservative",
+      "Recommend postponing the phase decision until electricity prices have been stable for at least two full quarters"
+    ],
+    "answer": [0],
+    "hint": "Ask whether any single number can honestly describe an input that has swung this much, and what the board really needs in order to decide.",
+    "why": "In a volatile environment no forecast can be precise, and presenting one number hides the real uncertainty behind the board's decision. Scenarios, such as low, expected and high prices, show how value changes, whether the investment still pays off across plausible futures, and which signals would trigger a change of course, so the board can decide with its eyes open. A 'better' single forecast or a worst-case assumption gives false precision or needless pessimism, and waiting for stability may take a long time and has its own cost.",
+    "how": "For volatile external factors, replace single-point forecasts with scenarios, ranges and trigger-based decision points, so decision makers see how value holds up across plausible futures.",
+    "optionNotes": [
+      "Correct — Scenarios and trigger points make the uncertainty visible and give the board a way to decide now and adjust as conditions change.",
+      "Incorrect — More expert effort cannot remove volatility; a single number still gives the board false confidence about a highly uncertain input.",
+      "Incorrect — Planning on the extreme high price may reject a viable project; it replaces one misleading number with another.",
+      "Incorrect — Stability may not return for a long time, and delay has its own cost; the board can decide now using scenarios."
+    ],
+    "deepDive": "PMBOK 7 separates volatility (rapid, unpredictable change in conditions such as prices or skills availability) from ambiguity and complexity, and suggests responses such as alternatives analysis and cost or schedule reserves. Scenario planning builds on this: define a few plausible futures, test the business case against each, and agree leading indicators and triggers for predefined actions. Sensitivity analysis, for example a tornado diagram, shows which assumptions drive value most. The exam trap is chasing a 'more accurate' number when the right answer is to make the uncertainty explicit.",
+    "tags": ["volatility", "scenario planning", "business case", "external environment", "energy"]
+  },
+  {
+    "id": "BUS-111",
+    "domain": "Business Environment",
+    "task": "8. Evaluate external business environment changes",
+    "approach": "Predictive",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Energy-efficiency grant as an opportunity",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — The project environment (2.4.2): external factors; Stewardship principle: environmental sustainability",
+    "question": "A predictive project is building a 200-unit social housing block. Halfway through design, the national government announces grants for new housing that meets a higher energy-efficiency rating. Meeting the rating would need better insulation and heat pumps, raising construction cost, but the grant could cover much of the extra cost and would lower tenants' energy bills. The design baseline has already been approved. What should the project manager do?",
+    "options": [
+      "Continue with the approved design, since the baseline has been signed off and applying for the grant is optional",
+      "Instruct the architects to upgrade the design now so that the project does not miss the grant application window",
+      "Analyze the costs, grant terms and benefits, then submit a change request with a recommendation for decision",
+      "Pass the announcement to the housing association's finance team, since grant funding is outside the project's scope"
+    ],
+    "answer": [2],
+    "hint": "External changes can create value as well as threaten it — and an approved baseline still has a route for change.",
+    "why": "The announcement is an external change that creates an opportunity: it could improve value for the owner and tenants, but it also changes cost, scope and possibly schedule. Because the design baseline is approved, the project manager should analyze the grant terms, costs and benefits and bring a recommendation through change control so the right decision makers can choose. Ignoring it gives up potential value, and redesigning without approval bypasses the agreed process.",
+    "how": "Treat external changes that could add value as opportunities: analyze them promptly and bring a recommendation through the agreed change process, rather than ignoring them or acting unilaterally.",
+    "optionNotes": [
+      "Incorrect — An approved baseline can still change through change control; ignoring the grant may give up significant value for owner and tenants.",
+      "Incorrect — Redesigning without an approved change bypasses change control and commits cost before the grant terms are understood.",
+      "Correct — It evaluates the opportunity and lets the change control board or sponsor decide with full information on cost and benefit.",
+      "Incorrect — The grant affects design scope, cost and benefits, so the project manager should lead the analysis rather than hand it off."
+    ],
+    "deepDive": "External environment changes are not only threats; subsidies, tax credits, new standards and market shifts can create opportunities that justify a change. In predictive projects the route is impact analysis and a change request to the change control board or sponsor, while in agile projects the product owner would reorder the backlog. Sustainability-linked incentives are increasingly common, and their conditions (certification, deadlines, reporting) become new requirements and risks. Once the change is approved, opportunity responses such as exploit or enhance can help secure the grant.",
+    "tags": ["external environment", "opportunity", "sustainability", "change control", "predictive"]
+  }
+]

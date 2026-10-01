@@ -1,0 +1,902 @@
+[
+  {
+    "id": "PEO-026",
+    "domain": "People",
+    "task": "3. Lead the project team",
+    "approach": "Agile",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Servant leadership — removing impediments",
+    "source": "ECO 2026 · People Task 3 · Servant leadership: removing impediments",
+    "question": "At the daily stand-up of Brisa Mobility's agile team, three developers report again that they cannot run integration tests because their access requests for the staging environment have been pending with the infrastructure department for four days. They have raised help-desk tickets and chased them twice with no response. The sprint goal depends on testing the new payment flow by Thursday. What should the project manager do?",
+    "options": [
+      "Ask the developers to keep coding and batch all the testing at the end of the sprint once access arrives",
+      "Take ownership of the impediment and work with infrastructure leadership to get the access granted quickly",
+      "Record the access delay in the risk register and assign an owner to monitor it until it is resolved",
+      "Tell the developers to raise another ticket with the infrastructure help desk and escalate it themselves"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "The team has already tried every channel open to it; what is one of a servant leader's core jobs?",
+    "why": "The developers have exhausted what they can do themselves, and the blocked access now threatens the sprint goal. Removing organizational impediments the team cannot clear on its own is a core servant-leadership responsibility, so the project manager should own the problem and work with infrastructure leadership to resolve it. That keeps the team focused on delivery instead of chasing tickets.",
+    "how": "When the team is blocked by something outside its control, the servant leader removes the impediment; distinguish issues happening now (act, issue log) from uncertain future events (risk register).",
+    "optionNotes": [
+      "Incorrect — Deferring testing creates a mini-waterfall inside the sprint, hides quality problems and puts the sprint goal at greater risk.",
+      "Correct — The servant leader clears organizational obstacles the team cannot resolve itself, so the developers can get back to delivering the sprint goal.",
+      "Incorrect — The delay is an issue already happening, not an uncertain risk; logging and monitoring it does nothing to unblock the team.",
+      "Incorrect — The team has already chased the help desk twice; pushing the problem back ignores the PM's role in removing organizational barriers."
+    ],
+    "deepDive": "Servant leadership, described by Robert Greenleaf, focuses on serving the team: removing impediments, shielding it from distractions, facilitating, coaching and fostering growth. The Scrum Guide says the Scrum Master causes the removal of impediments to the Developers' progress. The distinction between risks (uncertain future events, kept in the risk register) and issues (current problems, kept in the issue log) is a common exam discriminator. In predictive projects the same behavior appears as the project manager resolving issues through the issue log and escalating when resolution needs authority beyond the project. The trap is logging or monitoring an impediment when the situation calls for action.",
+    "tags": [
+      "servant leadership",
+      "impediments",
+      "agile",
+      "issue"
+    ]
+  },
+  {
+    "id": "PEO-027",
+    "domain": "People",
+    "task": "3. Lead the project team",
+    "approach": "Agile",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Self-organizing teams",
+    "source": "ECO 2026 · People Task 3 · Empower team members (self-management)",
+    "question": "Ferrano Bank's payments team moved from a traditional, task-assigned environment to Scrum a month ago. At sprint planning, after the product owner explains the top backlog items, the seven developers fall silent and wait for the project manager, their former team lead, to hand out tasks. Two developers say it would be quicker if the PM just assigned the work as before. What should the project manager do?",
+    "options": [
+      "Ask the product owner to assign the tasks, since the product owner knows the backlog priorities best",
+      "Create a RACI chart for all sprint tasks so everyone knows who is responsible for each one of them",
+      "Assign the tasks for this sprint as before, then gradually reduce involvement over the next few sprints",
+      "Coach the team on self-management and let the developers select and plan their own work"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "In Scrum, who decides how the selected work gets done, and by whom?",
+    "why": "In Scrum the developers create the sprint plan and decide who does what; the product owner owns the 'what' and its priority. The team is falling back on old habits, so the project manager should coach the developers through self-management — for example by facilitating while they break items into tasks and volunteer for them — rather than reinforce dependence on a task assigner. Doing it now, while the habit is forming, is far easier than unwinding it later.",
+    "how": "When a team slips back into command-and-control habits, the agile answer is to coach and build capability, not to take over; look for the option that transfers ownership to the team.",
+    "optionNotes": [
+      "Incorrect — The product owner owns backlog priority, not task assignment; this swaps one assigner for another and still bypasses self-management.",
+      "Incorrect — A RACI for sprint tasks adds overhead and still implies central assignment, which works against the team deciding how to do the work.",
+      "Incorrect — Assigning again reinforces the dependence the team must unlearn, and 'gradually' tends to become permanent once sprint pressure builds.",
+      "Correct — Coaching self-management lets the developers own their sprint plan, which builds commitment and the capability Scrum relies on."
+    ],
+    "deepDive": "The Scrum Guide says the Developers create the plan for the Sprint (the Sprint Backlog) and adapt it daily, and that no one tells them how to turn Product Backlog items into increments; the Scrum Master coaches team members in self-management and cross-functionality. Former team leads moving into a project manager or Scrum Master role face a particular trap: the team defers to them out of habit, so they must deliberately step back. Situational leadership still applies — a new team may need more coaching — but coaching is not the same as assigning work. Exam items reward options that build ownership over those that restore short-term efficiency through control.",
+    "tags": [
+      "self-management",
+      "coaching",
+      "sprint planning",
+      "scrum"
+    ]
+  },
+  {
+    "id": "PEO-028",
+    "domain": "People",
+    "task": "3. Lead the project team",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Tuckman ladder",
+    "source": "ECO 2026 · People Task 3 · Team development (Tuckman)",
+    "question": "Three weeks after Aldana Engineering formed a new team to design a water-treatment control system, meetings have become tense. Engineers argue over which modeling approach to use, two members push back on the roles they were given, and several openly question the project manager's decisions about the design review process. Work is progressing, but slowly. Which stage of team development is the team in, and what should the PM do?",
+    "options": [
+      "Adjourning — begin knowledge transfer and plan the release of team members",
+      "Forming — provide a detailed project schedule and assign clear individual tasks",
+      "Norming — step back and let the team self-manage its agreed working norms",
+      "Storming — coach the team, facilitate discussion, and clarify roles and norms"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Friction over approaches, roles and authority is the signature of one particular stage.",
+    "why": "Conflict over approaches, roles and the leader's decisions is the defining pattern of the storming stage. The project manager should use a coaching style: facilitate the disagreements constructively, clarify roles and decision rights, and help the team agree norms so it can move into norming. Stepping back would be premature, and a directive forming-stage response would ignore the conflict.",
+    "how": "Tuckman's ladder runs forming (polite, uncertain), storming (conflict), norming (agreed norms), performing (high performance) and adjourning (closure); match the leadership style — directing, coaching, supporting, then delegating.",
+    "optionNotes": [
+      "Incorrect — Adjourning happens when the work ends and the team disbands; this team is three weeks old with the design still under way.",
+      "Incorrect — Forming is the polite, uncertain start; this team is past it, and more direction alone would not resolve conflict over roles.",
+      "Incorrect — Norming shows agreed norms and cooperation; the team is not there yet, so stepping back now would leave the conflict unmanaged.",
+      "Correct — Conflict about approaches, roles and authority means storming; coaching, facilitation and clear roles help the team move to norming."
+    ],
+    "deepDive": "Tuckman's model is a useful lens, but teams do not always move in a straight line: they can regress when members join or leave or goals change. A team charter written early shortens storming but does not eliminate it, and some storming is healthy because it surfaces different ideas. The leadership-style mapping mirrors situational leadership: directing in forming, coaching in storming, supporting in norming and delegating in performing. Agile teams pass through the same stages, which is one reason long-lived, stable teams tend to outperform teams that are constantly reshuffled. On the exam, identify the stage from the behavior clues first, then pick the matching leadership action.",
+    "tags": [
+      "tuckman",
+      "storming",
+      "team development",
+      "coaching"
+    ]
+  },
+  {
+    "id": "PEO-029",
+    "domain": "People",
+    "task": "3. Lead the project team",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Herzberg hygiene factors",
+    "source": "ECO 2026 · People Task 3 · Motivation theory (Herzberg)",
+    "question": "Team members on Vireo Health's claims-automation project tell the project manager they are frustrated: the open-plan office is so noisy they cannot concentrate, and their five-year-old laptops take minutes to compile code. The PM secures quiet rooms and new laptops. The sponsor now expects the team to become highly motivated and exceed its delivery targets. According to Herzberg's two-factor theory, what will fixing these problems MOST likely do?",
+    "options": [
+      "Strongly motivate the team to exceed its targets for the rest of the project",
+      "Have little real effect, because physical conditions don't influence engagement",
+      "Reduce dissatisfaction, but not by itself create lasting motivation",
+      "Replace the need for recognition, responsibility and growth opportunities"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Herzberg separates the factors that prevent dissatisfaction from the factors that actually motivate.",
+    "why": "Working conditions and tools are hygiene factors: when they are poor, people become dissatisfied, and fixing them removes that dissatisfaction. They do not by themselves create motivation, so the sponsor's expectation is unrealistic. Motivation comes from motivators such as achievement, recognition, responsibility, growth and meaningful work, which the project manager should also build into the project.",
+    "how": "Hygiene factors (conditions, pay, policies, supervision, security) prevent dissatisfaction; motivators (achievement, recognition, responsibility, advancement, growth, the work itself) create motivation — a team needs both.",
+    "optionNotes": [
+      "Incorrect — Hygiene improvements remove a source of frustration but do not generate strong motivation on their own, so the sponsor's expectation is too high.",
+      "Incorrect — Poor conditions clearly cause dissatisfaction, as the complaints show; fixing them matters even though it does not motivate by itself.",
+      "Correct — Better tools and a quieter space remove dissatisfaction, a necessary step, but motivation needs motivators such as recognition and growth.",
+      "Incorrect — Hygiene factors and motivators are separate; fixing conditions does nothing to replace recognition, responsibility or growth as sources of motivation."
+    ],
+    "deepDive": "Other motivation theories worth knowing are Maslow's hierarchy of needs (physiological, safety, belonging, esteem, self-actualization); McGregor's Theory X (people need control) and Theory Y (people are self-motivated); McClelland's needs for achievement, affiliation and power; Vroom's expectancy theory (effort leads to performance, which leads to a valued reward); and Pink's autonomy, mastery and purpose. Herzberg is often tested through scenarios where a sponsor expects a pay rise or better equipment to transform performance. The practical lesson is to fix hygiene problems quickly, because they drain energy, and then invest in motivators such as meaningful goals, recognition and growth.",
+    "tags": [
+      "herzberg",
+      "motivation",
+      "hygiene factors"
+    ]
+  },
+  {
+    "id": "PEO-030",
+    "domain": "People",
+    "task": "3. Lead the project team",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Expectancy and an unreachable target",
+    "source": "ECO 2026 · People Task 3 · Motivation: Vroom's expectancy theory",
+    "question": "The sponsor of Kestrel Water's billing-system replacement has promised the 12-person hybrid team an extra week of paid leave if the system goes live by 1 March. The team values the offer, and the sponsor has always kept her promises. Yet morale is falling, and in one-on-ones team members call the date 'pure fantasy': the remaining backlog and data-migration work need about 30% more capacity than the team has. What should the project manager do to restore the team's motivation?",
+    "options": [
+      "Ask the sponsor to double the reward so that the incentive feels large enough to justify the extra effort",
+      "Have the sponsor confirm the promise in writing so the team is certain the leave will actually be granted",
+      "Hold a motivational session that reminds the team how much the new billing system matters to customers",
+      "Work with the team and sponsor on scope and impediments until the team believes the goal is reachable"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "The team wants the reward and trusts the sponsor, so ask which link in the chain from effort to reward is broken.",
+    "why": "Vroom's expectancy theory says motivation depends on three beliefs: that effort will produce the required performance (expectancy), that performance will bring the reward (instrumentality), and that the reward is worth having (valence). Here valence and instrumentality are strong — the team values the leave and trusts the sponsor — but expectancy is near zero because the date needs 30% more capacity than exists. Only making the goal credible, by adjusting scope, removing impediments or negotiating the date with the team's input, repairs the broken link and restores motivation.",
+    "how": "For motivation questions, diagnose before prescribing: identify which belief or need is missing (can we do it, will we be rewarded, do we care?) and act on that factor, not on one that is already strong.",
+    "optionNotes": [
+      "Incorrect — A bigger reward raises valence, which is already high; people do not strive for any prize they believe is out of reach.",
+      "Incorrect — Written confirmation strengthens instrumentality, but the team already trusts the sponsor; the missing belief is that the date can be met.",
+      "Incorrect — Reconnecting people to purpose is useful in general, but it does not close the capacity gap that makes the team see the date as fantasy.",
+      "Correct — Making the target credible restores expectancy, the missing link; once the team believes effort can succeed, the valued reward can motivate again."
+    ],
+    "deepDive": "Expectancy theory is often written as motivation = expectancy × instrumentality × valence, so if any factor is close to zero the result collapses however large the others are. That is why unrealistic targets demotivate even when rewards are generous. The project manager influences expectancy through realistic planning with the team, capacity-based forecasts, skills development and removing impediments. The theory complements others on the exam: Herzberg explains dissatisfaction from hygiene factors, McClelland explains which needs a person values most, and Pink stresses intrinsic motivators. The exam trap is reaching for a bigger incentive when the stem shows that the team doubts the goal is achievable.",
+    "tags": [
+      "motivation",
+      "expectancy theory",
+      "incentives",
+      "hybrid",
+      "team leadership"
+    ]
+  },
+  {
+    "id": "PEO-031",
+    "domain": "People",
+    "task": "3. Lead the project team",
+    "approach": "Any",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Emotional intelligence",
+    "source": "ECO 2026 · People Task 3 · Emotional intelligence (Goleman)",
+    "question": "Minutes before a tense steering committee meeting at Oriel Energy, project manager Tariq reads an email from the sponsor criticizing the team's testing delays, copied to other executives. He feels his anger rising and starts typing a sharp reply. Then he stops, deletes the draft, takes ten minutes to calm down, and prepares a short, factual summary of the causes and the recovery plan instead. Which emotional intelligence component do Tariq's pause and measured response MOST clearly demonstrate?",
+    "options": [
+      "Self-awareness, because he recognized the anger building before the meeting",
+      "Self-regulation, because he controlled the impulse and chose a measured reply",
+      "Empathy, because he considered how the sponsor felt when writing the email",
+      "Social skills, because he planned how to influence the steering committee"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Noticing an emotion and managing what you do with it are two different components.",
+    "why": "Tariq's defining actions are stopping the sharp reply, calming down and choosing a factual response — controlling a disruptive impulse, which is self-regulation (self-management). Self-awareness is present too, since he noticed his anger, but recognizing the emotion is only the first step, and the question asks about the pause and the measured reply. Empathy and social skills concern other people's emotions and relationships, not managing his own reaction.",
+    "how": "Goleman's model runs self-awareness (recognize your emotions), self-regulation (manage them), motivation, empathy (read others' emotions) and social skills (manage relationships); map the behavior in the stem to the component that defines it.",
+    "optionNotes": [
+      "Incorrect — Recognizing the anger is self-awareness, but the behavior the question highlights is controlling the reaction, which goes a step further.",
+      "Correct — Stopping the impulse, calming down and choosing a factual reply is the defining behavior of self-regulation, also called self-management.",
+      "Incorrect — Nothing in the scenario shows Tariq reading the sponsor's feelings; empathy concerns others' emotions, not managing your own.",
+      "Incorrect — Influencing the committee may follow, but the pause and the rewrite are about managing his own emotion, not managing relationships."
+    ],
+    "deepDive": "Goleman's emotional intelligence model has five components; PMI and many trainers group them into four quadrants: self-awareness, self-management, social awareness and relationship management. The sequence matters — you cannot regulate an emotion you have not noticed, and you cannot manage relationships well without first reading others. EI is tested heavily because situational items usually reward calm, respectful, fact-based behavior over reactive responses. Practical self-regulation techniques include pausing before responding, naming the emotion, and separating facts from interpretation. The trap here is picking self-awareness simply because it happens first.",
+    "tags": [
+      "emotional intelligence",
+      "self-regulation",
+      "goleman"
+    ]
+  },
+  {
+    "id": "PEO-032",
+    "domain": "People",
+    "task": "3. Lead the project team",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Underperforming team member",
+    "source": "ECO 2026 · People Task 3 · Supporting an underperforming team member",
+    "question": "Lucía, a data analyst at Harbor Point Logistics who has met every commitment for two years, has missed three deadlines in the past month, and reviewers are finding errors in her dashboards that she would normally catch. She has become quiet in meetings, and a teammate mentions she seems exhausted. A review with key stakeholders is two weeks away. What should the project manager do FIRST?",
+    "options": [
+      "Meet privately with the team member to understand what is happening and offer support",
+      "Report the performance issue to the team member's functional manager for follow-up",
+      "Raise the missed deadlines at the next retrospective so that the team can address them",
+      "Quietly reassign the team member's remaining work to others to protect the schedule"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "A sudden change in a reliable person's performance usually has a cause worth understanding before acting.",
+    "why": "A sudden drop in a consistently strong performer usually has a specific cause — workload, unclear expectations, a blocker, health or personal issues. A private, supportive conversation is the first step to find it, and it respects her dignity. Only once the cause is understood can the project manager choose the right help, adjust the plan, or involve the functional manager or HR if needed.",
+    "how": "For individual performance problems: talk privately first, understand the root cause, agree on support or a plan, follow up, and escalate only if needed; never raise one person's performance in a group setting.",
+    "optionNotes": [
+      "Correct — A private, supportive conversation uncovers the root cause of an out-of-character drop and preserves trust before any other action.",
+      "Incorrect — Escalating before talking to her is premature, damages trust, and treats a possibly personal issue as a formal performance case.",
+      "Incorrect — Retrospectives address team process, not one person's performance; raising it there would embarrass her and discourage openness.",
+      "Incorrect — Reassigning work without understanding the cause avoids the conversation, may demotivate her and leaves the underlying problem in place."
+    ],
+    "deepDive": "A sudden drop in a consistently strong performer usually has a root cause worth understanding, and it is sometimes outside work, such as health, caregiving or burnout. The project manager should respect privacy, follow HR policy and point to resources such as an employee assistance program where appropriate. Structures such as observation, impact, question and agreement keep the conversation factual and supportive. In agile teams, teammates may notice first, but individual performance remains a private conversation. The exam trap is protecting the schedule or following HR procedure before understanding the person.",
+    "tags": [
+      "performance",
+      "one-on-one",
+      "root cause"
+    ]
+  },
+  {
+    "id": "PEO-033",
+    "domain": "People",
+    "task": "3. Lead the project team",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Timely, specific feedback",
+    "source": "ECO 2026 · People Task 3 · Timely, specific feedback (situation, behavior, impact)",
+    "question": "Sanjay, a capable data engineer on a hospital-analytics project at Myrtle Health, has twice this month presented data-quality results to clinical stakeholders without checking them with the analysts first. Both times, clinicians challenged figures that turned out to be wrong, and one department head now doubts the whole dashboard. Sanjay seems unaware of the effect. The project manager provides input to Sanjay's annual review, which is due in five months. What should the project manager do?",
+    "options": [
+      "Note both incidents for the annual review so that the feedback is recorded formally and fairly in one place",
+      "Ask the analysts to review all of Sanjay's figures from now on without telling him why the process changed",
+      "Mention in the next team meeting that everyone must check figures with the analysts before any presentation",
+      "Meet him privately soon to describe what happened and its effect on clinicians, and agree how to prevent it"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Consider when, where and in how much detail feedback on a specific behavior is most useful to the person receiving it.",
+    "why": "Feedback is most useful when it is timely, specific and private: Sanjay cannot change a behavior he does not know is causing harm, and waiting five months lets the damage to stakeholder trust grow. A private conversation that describes the situation, the behavior and its impact — clinicians challenged wrong figures, and a department head now doubts the dashboard — keeps the discussion factual. Asking for his view and agreeing a simple safeguard turns it into coaching rather than blame, and the annual review can then record improvement instead of a surprise.",
+    "how": "Give corrective feedback early, privately and specifically (situation, behavior, impact), invite the person's perspective and agree next steps; do not save it for a formal review or broadcast it to the group.",
+    "optionNotes": [
+      "Incorrect — Saving feedback for a review months away denies Sanjay the chance to improve now and makes the review an unfair surprise.",
+      "Incorrect — Changing the process behind his back avoids a needed conversation, undermines trust and leaves him unaware of the impact of his own behavior.",
+      "Incorrect — A general reminder to the whole team is indirect; Sanjay may not recognize himself, and others may feel wrongly blamed.",
+      "Correct — Timely, private and specific feedback on the behavior and its impact lets him understand the problem and own the fix while trust can still be restored."
+    ],
+    "deepDive": "The situation-behavior-impact (SBI) model keeps feedback about observable facts rather than judgments of character: describe when and where it happened, what the person did and what effect it had. Following it with a question and an agreement makes it a coaching conversation, similar to the OSCAR model's focus on actions and review. Positive feedback follows the same rules — prompt and specific — so that people know which behaviors to repeat. In agile teams much feedback flows peer to peer and through retrospectives, but individual performance concerns remain a private conversation. In a matrix organization the project manager also gives accurate input to the functional manager, but that complements direct feedback rather than replacing it.",
+    "tags": [
+      "feedback",
+      "coaching",
+      "sbi",
+      "communication"
+    ]
+  },
+  {
+    "id": "PEO-034",
+    "domain": "People",
+    "task": "3. Lead the project team",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Fist of five decision check",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Team Performance Domain (2.2): decision making with simultaneous voting",
+    "question": "An agile team at Pellucid Software is deciding whether to move from long-lived feature branches to trunk-based development. After 40 minutes of discussion, two senior developers strongly favor the change, and the rest of the eight-person team has said little. The team's working agreement says that decisions about its own practices need broad support. The project manager, acting as facilitator, wants to find out quickly whether that support exists. What should the project manager do?",
+    "options": [
+      "Ask everyone to show a fist of five at once, then invite those showing low support to explain their concerns",
+      "Declare the change approved, since nobody has objected after forty minutes of open discussion on the topic",
+      "Ask the two senior developers to make the final call, since they have by far the most experience with branching",
+      "Take the question offline and meet each developer separately over the next week to collect individual views"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Silence is not agreement; think about a way to capture every person's view without the loudest voices shaping it.",
+    "why": "Silence after a discussion dominated by two senior voices does not show broad support, and the working agreement requires it. A fist of five asks everyone to show their level of support at the same moment, which limits the influence of senior or charismatic members and takes seconds. Low scores then become an invitation to hear concerns before deciding, so the team either improves the proposal or confirms genuine support.",
+    "how": "For quick team decisions, use simultaneous-voting techniques (fist of five, Roman voting) to engage every voice at once and reduce groupthink, then explore the concerns of anyone who shows weak support.",
+    "optionNotes": [
+      "Correct — A simultaneous vote reveals true support without senior influence, and hearing the low scorers surfaces concerns while the decision can still be improved.",
+      "Incorrect — Treating silence as consent ignores the working agreement and risks a decision that most of the team does not actually support.",
+      "Incorrect — Handing the decision to the most senior voices undermines self-management and the team's agreement that practice decisions need broad support.",
+      "Incorrect — Private interviews over a week are slow for a simple team decision and lose the shared discussion that helps the team converge."
+    ],
+    "deepDive": "In a fist of five, each person raises zero to five fingers: five means strong support, three means 'I can live with it', and one or two signal concerns that should be heard before the team proceeds. Roman voting (thumbs up, sideways or down) and wideband Delphi estimating use the same diverge-then-converge idea: everyone commits their view at the same moment, which reduces anchoring and groupthink. Facilitators should reserve such votes for decisions the team genuinely owns and escalate those beyond its authority. Teams often record in their working agreement what level of support a decision needs. The exam trap is treating silence or seniority as consensus.",
+    "tags": [
+      "decision making",
+      "fist of five",
+      "facilitation",
+      "agile",
+      "groupthink"
+    ]
+  },
+  {
+    "id": "PEO-035",
+    "domain": "People",
+    "task": "3. Lead the project team",
+    "approach": "Agile",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Payback on team training (calculation)",
+    "source": "ECO 2026 · People Task 3 · Justifying team training (payback period)",
+    "question": "An agile team at Orsolya Robotics spends many hours every sprint on manual regression testing. The project manager proposes sending four developers on a three-day test-automation course (8 hours per day) that costs $1,200 per person. The team expects the new skills to save 10 hours of manual testing per week. Sprints last two weeks, developer time is costed at a loaded rate of $75 per hour, and 14 sprints remain. The sponsor asks how many sprints the savings will take to repay the full cost of the training. What is the payback period?",
+    "options": [
+      "3.2 sprints",
+      "4.4 sprints",
+      "8 sprints",
+      "16 sprints"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "A payback calculation counts everything the organization gives up for the investment, not just the invoice.",
+    "why": "Full cost = course fees + the developers' time away from the backlog: fees are 4 × $1,200 = $4,800, and time is 4 × 3 days × 8 hours = 96 hours × $75 = $7,200, so the total is $12,000. Savings per two-week sprint = 10 hours × 2 weeks × $75 = $1,500. Payback = $12,000 ÷ $1,500 = 8 sprints, well within the 14 sprints remaining, so the training pays for itself on this project alone.",
+    "how": "For a payback question, include every cost of the investment (including people's time), convert the benefit to the same period as the answer, then divide the total cost by the benefit per period.",
+    "optionNotes": [
+      "Incorrect — 3.2 sprints divides only the $4,800 of course fees by the savings, ignoring the $7,200 of developer time spent in training.",
+      "Incorrect — 4.4 sprints counts the training time of only one developer ($1,800) instead of all four, understating the cost by $5,400.",
+      "Correct — A total cost of $12,000 (fees of $4,800 plus 96 hours × $75) divided by $1,500 saved per two-week sprint gives 8 sprints.",
+      "Incorrect — 16 sprints treats the 10 hours saved per week as the saving per two-week sprint, which halves the benefit and doubles the payback."
+    ],
+    "deepDive": "Payback period is the simplest investment test: how long until cumulative benefits equal the initial cost. It ignores the time value of money and any benefits after the payback point, so larger investments are usually also judged with NPV or a benefit-cost ratio. The most common error is leaving out opportunity costs such as the productive hours a team gives up while training; in agile terms, those hours reduce the capacity available for the backlog in the sprint when the course happens. Training is one of the strongest levers a project leader has, because the skills keep paying back in every later sprint and often on future projects too. Present the result with its assumptions, such as hours saved and the loaded rate, so the sponsor can test them.",
+    "tags": [
+      "training",
+      "payback period",
+      "calculation",
+      "agile",
+      "team development"
+    ]
+  },
+  {
+    "id": "PEO-036",
+    "domain": "People",
+    "task": "3. Lead the project team",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Delegation and empowerment",
+    "source": "ECO 2026 · People Task 3 · Empower team members through delegation",
+    "question": "Mirela, an experienced integration engineer at Solvang Telecom, asks the project manager for more responsibility and offers to lead the vendor integration work package, which involves two external suppliers and a fixed go-live window. The PM has seen her handle complex technical work well, although she has never managed suppliers before. The PM remains accountable for the overall project. What is the BEST approach?",
+    "options": [
+      "Delegate the work package and step away entirely, so that Mirela feels fully trusted and empowered",
+      "Delegate the work package but require the PM's approval for every decision, to limit the risk",
+      "Delegate with clear objectives, decision boundaries and agreed check-in points, and offer support",
+      "Decline for now, until Mirela completes formal leadership training through the PMO's program"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Ask what a capable person who is new to supplier work needs from you, and remember what you remain accountable for.",
+    "why": "Mirela is capable and motivated, but supplier management is new to her and the project manager stays accountable for the project. Delegating with clear objectives, decision boundaries (for example, which contract or schedule decisions she can make alone) and agreed check-ins gives her real authority while keeping appropriate oversight, and offering support covers the gap in supplier experience. This develops her and frees the PM without creating unmanaged risk.",
+    "how": "Delegate by matching authority to capability: set objectives, boundaries and check-ins, add support where experience is thin, and remember that delegation transfers the work, not your accountability.",
+    "optionNotes": [
+      "Incorrect — Stepping away entirely leaves no oversight of supplier work she has never done, while the PM remains accountable for the result.",
+      "Incorrect — Approving every decision is micromanagement; it defeats the purpose of delegation and turns the PM into a bottleneck.",
+      "Correct — Clear objectives, boundaries and check-ins, plus support where she lacks experience, is real empowerment with appropriate oversight.",
+      "Incorrect — Waiting for formal training wastes a growth opportunity for a capable person; learning on the job with support is more effective."
+    ],
+    "deepDive": "Management 3.0's delegation poker lists seven levels of authority — tell, sell, consult, agree, advise, inquire and delegate — and encourages leaders to agree the level for each type of decision explicitly. Situational leadership suggests that capable, committed people need less direction but may still need support on unfamiliar tasks. In agile teams, empowerment appears as self-management within the boundaries set by the product goal and the definition of done. Whatever the approach, delegating work does not delegate accountability, which is why check-in points matter. The exam trap is choosing an extreme: total hands-off or total control.",
+    "tags": [
+      "delegation",
+      "empowerment",
+      "situational leadership"
+    ]
+  },
+  {
+    "id": "PEO-037",
+    "domain": "People",
+    "task": "3. Lead the project team",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Team-based recognition",
+    "source": "ECO 2026 · People Task 3 · Team-based recognition and rewards",
+    "question": "Mistral Games' agile team of nine shipped a difficult console release on time after three hard sprints. Testers found and fixed a critical save-game defect days before launch, and the designers reworked the tutorial after user testing. Senior management now wants to give a bonus to the single developer who committed the most lines of code, and asks the project manager for a recommendation. What should the project manager recommend?",
+    "options": [
+      "Recognize the whole team, since the release was a collective achievement across all of its roles",
+      "Let the team vote on which individual contributed most, and give that person the bonus instead",
+      "Give no reward at all, since delivering on time is simply part of the team's normal job",
+      "Support the individual bonus, since it will motivate the other developers to produce more code"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Ask what behavior a 'most lines of code' reward would encourage in a cross-functional team.",
+    "why": "The release succeeded because testers, designers and developers worked together, and the stem shows critical contributions that involved little code. Rewarding one developer for lines of code would signal that output volume matters more than collaboration, testing and quality, and would breed competition inside the team. Team-based recognition reinforces shared ownership of the outcome, which is what agile teams depend on.",
+    "how": "Rewards should reinforce the behaviors you want; in collaborative teams avoid win-lose individual rewards based on output metrics, and prefer team-based recognition tied to outcomes.",
+    "optionNotes": [
+      "Correct — Collective recognition reflects how the release was actually achieved and reinforces the collaboration the team will need for future releases.",
+      "Incorrect — A vote is still a win-lose individual reward; it creates competition and can damage relationships inside the team.",
+      "Incorrect — Recognition is an important motivator; withholding it after a hard release misses a chance to reinforce what went well.",
+      "Incorrect — Rewarding code volume ignores testers and designers and encourages bloated code rather than value, quality and teamwork."
+    ],
+    "deepDive": "Metrics shape behavior, and lines of code is a classic example of a measure that rewards the wrong thing. Agile guidance favors team-level measures such as value delivered, quality and customer outcomes, and warns against using velocity or output counts to compare individuals. Motivation theory supports this: recognition is a Herzberg motivator, and Pink's autonomy, mastery and purpose flourish in teams that share credit. Individual growth can still be recognized through development opportunities and feedback, but not through zero-sum competitions. PMP items generally favor win-win, team-based rewards.",
+    "tags": [
+      "recognition",
+      "rewards",
+      "team",
+      "metrics",
+      "agile"
+    ]
+  },
+  {
+    "id": "PEO-038",
+    "domain": "People",
+    "task": "3. Lead the project team",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Acting on a team health survey",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Team Performance Domain (2.2.3): high-performing teams and shared ownership",
+    "question": "A nine-person agile team at Lumaris Insurance completes a quarterly team health survey. Scores for delivery pace are high, but the lowest scores are for 'I can raise problems without being judged' and 'I have a say in how we work.' Several comments say that decisions about the team's tools are made before the team hears about them. The project manager received the results first and wants the team to improve. What should the project manager do?",
+    "options": [
+      "Share the results openly with the team and facilitate a session where it chooses the improvements to try",
+      "Draft an improvement plan that addresses the two low scores, then present it to the team for its agreement",
+      "Forward the results to team members' functional managers so they can address them in performance reviews",
+      "Wait for next quarter's survey before acting, to confirm that the low scores are a trend and not a one-off"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Look closely at what the two lowest scores are about, then ask who should own the response to them.",
+    "why": "The low scores concern open communication and empowerment: people do not feel safe raising problems or involved in decisions about how they work. Sharing the results transparently and letting the team diagnose them and choose the improvements addresses both at once, because the response itself gives the team a voice and ownership. Issues the team cannot change, such as how tool decisions are made above it, become impediments that the project manager then takes forward. A plan written by the project manager, however good, would repeat the very pattern the team is complaining about.",
+    "how": "When team-health data shows problems with trust, voice or empowerment, be transparent with the data and let the team own the diagnosis and the experiments; take forward only what is beyond the team's control.",
+    "optionNotes": [
+      "Correct — Transparent data plus team-chosen actions builds the open communication and ownership the survey found missing, and it models the change being asked for.",
+      "Incorrect — A plan drafted by the project manager and then presented for agreement repeats the decide-first-then-tell pattern that the comments criticize.",
+      "Incorrect — Routing team-level results into individual reviews breaks trust, makes future surveys less honest and treats a team problem as individual failure.",
+      "Incorrect — Waiting a quarter ignores a clear signal and suggests the survey does not matter, which further erodes trust and future participation."
+    ],
+    "deepDive": "PMBOK 7 lists factors of high-performing teams, including open communication, shared understanding, shared ownership, trust, collaboration, adaptability, resilience, empowerment and recognition; health checks and pulse surveys are one way to observe them. A survey is only as good as the response to it: if people see nothing happen, or see results used against individuals, participation and honesty collapse. Many agile teams review such data in a retrospective and pick one or two small experiments rather than a long action plan. Keeping results anonymous and at team level protects psychological safety. The exam trap is the efficient-looking option in which the project manager solves the team's problem for it.",
+    "tags": [
+      "team health",
+      "psychological safety",
+      "empowerment",
+      "retrospective",
+      "agile"
+    ]
+  },
+  {
+    "id": "PEO-039",
+    "domain": "People",
+    "task": "3. Lead the project team",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Supporting diverse perspectives",
+    "source": "ECO 2026 · People Task 3 · Support diverse perspectives",
+    "question": "In design meetings for Kivu Water's pump-monitoring system, two senior engineers, Hendrik and Olga, dominate the discussion and usually settle decisions within minutes. Four junior engineers who spent months working alongside field technicians rarely speak, even though last month a field problem they knew about was missed in the design. The project manager wants better decisions without alienating anyone. What should the project manager do?",
+    "options": [
+      "Let the senior members continue to lead decisions, since they have more experience with this design",
+      "Use facilitation techniques such as round-robin input or silent brainstorming in design meetings",
+      "Hold separate meetings for junior and senior members, then merge their recommendations afterward",
+      "Ask the two senior members privately to speak less so that others have more room to contribute"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Change the process so every voice is heard, without singling anyone out or splitting the group.",
+    "why": "The junior engineers hold field knowledge the design needs, as the missed problem shows, but the current meeting format lets seniority and personality decide who speaks. Structured facilitation — round-robin input, silent brainstorming, dot voting — gives every member a turn and reduces the pull of hierarchy, so the team hears all its knowledge before deciding. It improves decisions without embarrassing the senior engineers or splitting the team.",
+    "how": "For inclusion problems, prefer changing the process through structured facilitation over confronting, excluding or separating individuals.",
+    "optionNotes": [
+      "Incorrect — Leaving decisions to seniority ignores field experience the design has already missed once and reinforces the imbalance.",
+      "Correct — Structured techniques give every member a turn to contribute, surfacing the juniors' field knowledge without singling anyone out.",
+      "Incorrect — Separate meetings split the team, lose the benefit of discussing ideas together and make merging the outputs a new source of conflict.",
+      "Incorrect — Asking people to talk less can make them defensive and does not ensure quieter members speak; changing the format is more reliable."
+    ],
+    "deepDive": "Diverse teams make better decisions only when diverse input is actually heard. Techniques include brainwriting, the nominal group technique, anonymous polling, rotating facilitators and explicit invitations to hear a perspective that has been missing. Hierarchy effects are strongest when senior people speak first, so some teams deliberately let the most junior members speak first. This supports psychological safety, which PMBOK 7 and the Agile Practice Guide treat as a precondition for high-performing teams. A private word with a dominant member can still help later, but only after the process itself has been fixed.",
+    "tags": [
+      "diversity",
+      "inclusion",
+      "facilitation",
+      "psychological safety"
+    ]
+  },
+  {
+    "id": "PEO-040",
+    "domain": "People",
+    "task": "3. Lead the project team",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Virtual team fairness",
+    "source": "ECO 2026 · People Task 3 · Fairness in distributed teams",
+    "question": "Tessaly Group's hybrid program has members in New York, Warsaw and Singapore. The weekly planning meeting, where priorities for the next two weeks are set, has always been held at 9:00 a.m. New York time, late in the evening in Singapore. Over the past month, the Singapore members have joined with cameras off, rarely spoken and missed two meetings, and their work is drifting from the agreed priorities. What should the project manager do?",
+    "options": [
+      "Rotate meeting times so the inconvenience is shared, and use asynchronous tools for input",
+      "Record every meeting so the Singapore members can watch it later and send comments afterward",
+      "Hold the meeting without the Singapore members and email them a summary of the decisions",
+      "Ask the Singapore members to adjust their working hours permanently to match New York's"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Look for fairness and inclusion in decisions, supported by collaboration that does not need everyone online at once.",
+    "why": "The Singapore members are disengaging because the meeting always falls late in their evening, and planning decisions are being made without their real input. Rotating the time spreads the inconvenience fairly, and asynchronous tools — pre-reads, shared boards, comment windows — let everyone shape priorities even when they cannot attend live. This restores their part in decisions and signals respect for every location.",
+    "how": "For distributed teams, prefer options that include everyone fairly in decisions and use asynchronous collaboration to bridge time zones; avoid options that exclude one group or put the whole burden on it.",
+    "optionNotes": [
+      "Correct — Sharing the inconvenience is fair, and asynchronous input lets every location shape priorities, which restores engagement and alignment.",
+      "Incorrect — Recordings let them catch up, but they would still be excluded from the planning decisions, so the drift in priorities would continue.",
+      "Incorrect — Excluding a location from planning undermines its ownership of priorities and commitment to the plan, making the drift worse.",
+      "Incorrect — Placing the entire burden on one group is unfair and unsustainable, and it will likely deepen disengagement or cause attrition."
+    ],
+    "deepDive": "Distributed-team practices include a team charter with core overlap hours, explicit communication norms (which channel for what, expected response times), collaboration tools, visible digital information radiators and occasional in-person events. Asynchronous-first planning — written proposals commented on before a shorter live session — reduces dependence on any single meeting time. PMBOK 7 notes that virtual teams need deliberate effort to build trust and shared understanding. The 2026 ECO lists distributed and virtual teams as a theme, so expect scenarios in which fairness across locations is the deciding factor.",
+    "tags": [
+      "virtual teams",
+      "time zones",
+      "inclusion",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "PEO-041",
+    "domain": "People",
+    "task": "3. Lead the project team",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Situational leadership",
+    "source": "ECO 2026 · People Task 3 · Situational leadership (Hersey-Blanchard)",
+    "question": "Tomasz, a new graduate, joins Ardent Bio's lab-automation project. He is visibly enthusiastic, volunteers for everything and says he is 'excited to dive in,' but he has never used the scheduling software or worked in a regulated lab. In his first week he started reconfiguring a validated workflow without asking, believing he was helping. Using the Hersey-Blanchard situational leadership model, which style is MOST appropriate for Tomasz right now?",
+    "options": [
+      "Directing — high direction, lower support",
+      "Laissez-faire — let him find his own way",
+      "Delegating — low direction, low support",
+      "Supporting — low direction, high support"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Match the style to his development level: high commitment, but low competence in this work.",
+    "why": "Tomasz is an enthusiastic beginner — high commitment, low competence — and his unsupervised change to a validated workflow shows he needs clear boundaries. The directing style gives specific instructions, close guidance and frequent feedback, which protects the regulated work while he learns. As his competence grows, the style should shift to coaching, then supporting and finally delegating.",
+    "how": "Situational leadership matches style to development level: enthusiastic beginner, directing; disillusioned learner, coaching; capable but cautious performer, supporting; self-reliant achiever, delegating.",
+    "optionNotes": [
+      "Correct — Clear instructions and close guidance give an enthusiastic beginner the structure he needs, especially in regulated work he could harm.",
+      "Incorrect — A hands-off approach has already led him to change a validated workflow; it would leave a beginner unguided in a regulated setting.",
+      "Incorrect — Delegating suits highly competent, committed people; Tomasz is committed but lacks the competence to work unsupervised.",
+      "Incorrect — Supporting suits capable people who lack confidence; Tomasz has plenty of confidence but not yet the knowledge or skills."
+    ],
+    "deepDive": "Hersey and Blanchard's situational leadership (later SLII) crosses directive behavior with supportive behavior to give four styles: directing, coaching, supporting and delegating. The model reminds leaders there is no single best style: the same project manager might direct a new hire, coach a struggling mid-level member and delegate to a senior expert on the same day. It also maps loosely onto Tuckman's stages of team development. In agile contexts, directing a newcomer usually means pairing, clear working agreements and an explicit definition of done rather than command and control. The trap is equating enthusiasm with readiness.",
+    "tags": [
+      "situational leadership",
+      "hersey-blanchard",
+      "coaching"
+    ]
+  },
+  {
+    "id": "PEO-042",
+    "domain": "People",
+    "task": "3. Lead the project team",
+    "approach": "Any",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Demeaning remarks about a colleague",
+    "source": "ECO 2026 · People Task 3 · Respectful workplace (PMI Code of Ethics: respect)",
+    "question": "During a video call on a Farrow Aerospace project, the project manager, Ines, hears Bruno, a senior engineer, mimic the accent of Leila, a newer engineer, while repeating her suggestion; a few people laugh. Afterward, Leila tells Ines privately that this happens often and it hurts, but asks her not to 'make it a thing' because she fears being seen as difficult. The organization has a respectful-workplace policy. What should Ines do?",
+    "options": [
+      "Respect Leila's wishes and take no action for now, but watch Bruno closely and step in if it happens again",
+      "Remind the whole team about respectful behavior at the next meeting without naming anyone who was involved",
+      "Report Bruno to HR as a formal complaint and remove him from the team while the case is being investigated",
+      "Tell Leila that the behavior must be addressed, then raise it privately with Bruno and follow the policy"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Consider whose duty it is to keep the team environment respectful, and whether that duty depends on someone filing a complaint.",
+    "why": "Ines saw the behavior herself, so her responsibility to maintain a respectful team environment — and the organization's policy — does not depend on Leila filing a complaint. Being honest with Leila that she will act, while not casting her as the complainant, respects her concern without leaving a repeated, demeaning behavior unaddressed. Raising it privately with Bruno — what she observed, its impact and the standard expected — gives him a fair chance to correct it, and following the policy ensures that any required reporting or escalation happens properly.",
+    "how": "For disrespect, harassment or discrimination, act promptly: address the behavior directly and privately, follow the organization's policy (including any reporting it requires) and protect the person affected — do not wait for a formal complaint or dilute it into a general reminder.",
+    "optionNotes": [
+      "Incorrect — Waiting lets a repeated, demeaning behavior continue and signals that it is tolerated; the duty to act exists because Ines witnessed it herself.",
+      "Incorrect — A general reminder avoids confronting a specific behavior; Bruno may not connect it to himself, and the team sees that no one is held accountable.",
+      "Incorrect — Jumping to removal without hearing Bruno is disproportionate at this stage and makes Leila the visible complainant she feared becoming.",
+      "Correct — Direct, private action on what she witnessed, within the policy, stops the behavior fairly while being honest with Leila and protecting her."
+    ],
+    "deepDive": "The PMI Code of Ethics and Professional Conduct lists respect as a core value: practitioners listen to others' points of view, conduct themselves professionally and do not act abusively toward others. Mocking someone's accent is a form of exclusion that damages psychological safety for the whole team, not only for the target, because everyone learns what is tolerated. Project managers should know their organization's policies on harassment and discrimination, since many require leaders to report certain incidents even when the affected person would prefer not to. The conversation with the person responsible should be private and factual — what happened, its impact and the expected standard — like other corrective feedback. The exam trap is the gentle, general reminder, which feels safe but leaves the behavior unaddressed.",
+    "tags": [
+      "ethics",
+      "respect",
+      "inclusion",
+      "psychological safety",
+      "team leadership"
+    ]
+  },
+  {
+    "id": "PEO-043",
+    "domain": "People",
+    "task": "3. Lead the project team",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Coaching a Theory X team lead",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Models (4.2.3.4): Theory X and Theory Y",
+    "question": "On a hybrid ERP rollout at Tovalla Foods, Grigor leads the six-person data-migration sub-team. He assigns every task each morning, asks for hourly progress messages and reviews every script before it runs. He tells the project manager, 'If I don't watch them, nothing gets done.' His sub-team's work is accurate but slow, two experienced analysts have asked to move to other workstreams, and the sub-team's last retrospective was almost silent. What should the project manager do?",
+    "options": [
+      "Move the two unhappy analysts to other workstreams and bring in replacements who prefer close direction",
+      "Coach Grigor on his style's impact and help him switch to agreed goals and visible, self-managed tracking",
+      "Tell the sub-team to plan its own work from now on and to report directly to the project manager instead",
+      "Accept Grigor's approach, since his sub-team's output is accurate and each lead may choose a personal style"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Grigor's behavior follows from a belief about why people work; ask what would change that belief and its effects, not just the symptoms.",
+    "why": "Grigor's style reflects Theory X assumptions — that people avoid work unless closely supervised — applied to experienced knowledge workers, and the results are predictable: slow flow, silent retrospectives and good people asking to leave. Coaching him on that impact and helping him move to agreed goals with transparent, self-managed tracking, such as a task board and a short daily check-in, keeps him in his role, develops his leadership and gives the team the autonomy that motivates knowledge work. It fixes the cause rather than working around it.",
+    "how": "When a team lead's micromanagement is hurting the team, coach the lead first: share the observed impact, explore the belief behind it and agree practical alternatives that still give visibility; restructure or escalate only if coaching fails.",
+    "optionNotes": [
+      "Incorrect — Replacing the analysts treats the people as the problem and loses experienced staff, while the approach that drove them away remains unchanged.",
+      "Correct — Coaching addresses the cause, keeps the lead and replaces constant supervision with goals and transparency that suit experienced knowledge workers.",
+      "Incorrect — Bypassing Grigor undermines his role in front of his sub-team and confuses who leads the workstream, without helping him change.",
+      "Incorrect — Accurate but slow output, a silent retrospective and requests to leave show the style is harming the project; it is not just a personal preference."
+    ],
+    "deepDive": "McGregor's Theory X assumes people dislike work and must be directed and controlled; Theory Y assumes people are intrinsically motivated and seek responsibility when conditions are right. The chosen style tends to become self-fulfilling: close control teaches people to wait for instructions, which then seems to confirm the manager's belief. PMBOK 7 associates Theory Y with a more personal, coaching style of management that encourages creativity, which fits knowledge work far better than close supervision. Transparency tools such as visible boards, short check-ins and a clear definition of done give leaders the assurance they want without controlling every task. On the exam, the servant-leader answer usually develops the lead rather than removing or bypassing them.",
+    "tags": [
+      "theory x",
+      "micromanagement",
+      "coaching",
+      "hybrid",
+      "empowerment"
+    ]
+  },
+  {
+    "id": "PEO-044",
+    "domain": "People",
+    "task": "3. Lead the project team",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Sustainable pace",
+    "source": "ECO 2026 · People Task 3 · Sustainable pace (Agile Manifesto principles)",
+    "question": "To hit an ambitious roadmap date set by marketing, Nimbus Health's agile team has worked 60-hour weeks for five consecutive sprints. Velocity has fallen from 42 to 29 points, escaped defects have doubled, and two developers are on sick leave. The product owner says the roadmap milestone is still eight weeks away and asks how to get back on track. What should the project manager do?",
+    "options": [
+      "Raise it with the team and product owner, return to a sustainable pace, and re-plan realistically",
+      "Add more stories to each sprint to recover the lost velocity before the roadmap milestone date arrives",
+      "Replace the most tired team members with contractors until the milestone has been delivered",
+      "Encourage the team to keep pushing until the milestone, then plan a recovery sprint afterward"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Falling velocity and rising defects after sustained overtime are a signal, and one of the agile principles addresses exactly this.",
+    "why": "Five sprints of overtime have produced the classic burnout pattern: velocity down from 42 to 29, defects doubled and people on sick leave. Agile processes promote a sustainable pace the team can maintain indefinitely, so the project manager should raise the data openly with the team and product owner, return to normal hours, and re-plan the roadmap using realistic velocity — which may mean reprioritizing scope or negotiating the date. Continuing to push will only deepen the decline.",
+    "how": "When overtime produces falling velocity and rising defects, treat it as a burnout signal: protect a sustainable pace, make the data transparent and re-plan empirically, adjusting scope or dates through the product owner.",
+    "optionNotes": [
+      "Correct — Restoring a sustainable pace and re-planning from real velocity treats the cause and gives the product owner honest data to reprioritize scope or dates.",
+      "Incorrect — Overloading sprints ignores the team's demonstrated capacity and will deepen the burnout and quality problems already visible.",
+      "Incorrect — Replacing people loses domain knowledge, adds onboarding cost and leaves the unrealistic plan that caused the burnout in place.",
+      "Incorrect — Eight more weeks of overtime would worsen defects and attrition; a later recovery sprint cannot undo the damage done along the way."
+    ],
+    "deepDive": "The Agile Manifesto's principles say agile processes promote sustainable development, with sponsors, developers and users able to maintain a constant pace indefinitely. Velocity is a planning tool for the team, not a productivity target; treating it as a target encourages inflated estimates and cut corners. Brooks's law adds that adding people to a late software project tends to make it later, which is why swapping in contractors rarely rescues a date. In predictive projects the analogous signal is falling productivity and rising rework under sustained crashing, and the fix is the same: re-plan on realistic data and negotiate scope, time or resources through the proper channels.",
+    "tags": [
+      "sustainable pace",
+      "burnout",
+      "velocity",
+      "agile manifesto"
+    ]
+  },
+  {
+    "id": "PEO-045",
+    "domain": "People",
+    "task": "3. Lead the project team",
+    "approach": "Any",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Theory of needs in role assignment",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Models (4.2.3.3): theory of needs",
+    "question": "Farah, an analyst on a customer-data project at Quintara Telecom, has become disengaged since the project manager asked her to coordinate the team's meetings and onboarding. Before that, she regularly stayed late to beat her own benchmarks for data-matching accuracy and often asked for feedback on her results. Last year she turned down a team-lead role, saying she prefers to own hard problems herself. The project manager wants to re-engage her. Which change is MOST likely to work?",
+    "options": [
+      "Keep her on coordination but also make her the onboarding buddy for new joiners so she feels part of the team",
+      "Offer her the supervision of three junior analysts, with authority to assign and review their daily work",
+      "Recognize her past accuracy work publicly at the next all-hands meeting to show that it is truly valued",
+      "Give her a challenging, measurable matching-accuracy goal to own, with regular feedback on her results"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Look at what Farah pursued on her own before the change, and at what she chose to decline.",
+    "why": "Farah's behavior points to a strong need for achievement: she set herself challenging but reachable benchmarks, wanted feedback on results and preferred to own hard problems personally. McClelland's theory of needs says such people are motivated by challenging, attainable goals with clear feedback, so a measurable accuracy goal she owns is the best fit. The coordination role appeals to a need for affiliation, and supervising others appeals to a need for power, which she signaled is weak when she declined the team-lead role.",
+    "how": "For 'which motivator fits' items, read the person's past behavior as evidence of their dominant need (achievement, power or affiliation; intrinsic or extrinsic drivers) and match the assignment to it, rather than assuming everyone wants the same reward.",
+    "optionNotes": [
+      "Incorrect — Onboarding and belonging appeal to a need for affiliation; nothing suggests Farah lacks connection, and the role keeps her away from the problems she enjoys.",
+      "Incorrect — Supervising others appeals to a need for power; Farah declined a team-lead role, which signals that directing people is not what motivates her.",
+      "Incorrect — Public recognition is welcome, but it rewards past work once and does not change the coordination role that caused the disengagement.",
+      "Correct — A challenging, measurable goal with feedback matches her strong need for achievement, shown by her self-set benchmarks and requests for feedback."
+    ],
+    "deepDive": "McClelland's theory of needs holds that everyone has needs for achievement, power and affiliation, in a mix shaped by experience and culture. High achievers prefer moderately difficult goals, personal responsibility and fast feedback; people with a strong power need like to organize and influence others and respond to more responsibility; people with a strong affiliation need value acceptance and belonging and thrive in collaborative roles. Project managers use such models to tailor assignments and recognition to individuals instead of offering everyone the same incentive. PMBOK 7 presents the theory alongside Herzberg's hygiene and motivational factors, intrinsic versus extrinsic motivation, and Theory X, Y and Z. The exam trap is assuming that a promotion or a supervisory role is the universal reward for a strong performer.",
+    "tags": [
+      "motivation",
+      "theory of needs",
+      "mcclelland",
+      "role assignment"
+    ]
+  },
+  {
+    "id": "PEO-046",
+    "domain": "People",
+    "task": "4. Engage stakeholders",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Stakeholder identification timing",
+    "source": "ECO 2026 · People Task 4 · Identify and analyze stakeholders early",
+    "question": "Brenna has just been assigned as project manager after the charter for Coastline Transit's new fare-payment system was approved. The sponsor is eager to start planning and suggests the stakeholder list can be worked out 'once the plan is signed off and we have something to show.' The charter names only the sponsor, the IT director and the finance lead. When should Brenna begin identifying stakeholders?",
+    "options": [
+      "After the project management plan is approved and the team is fully staffed",
+      "Only when stakeholders ask to be involved or raise concerns about the project",
+      "At the first milestone review, when there is progress to show stakeholders",
+      "Now, and continue throughout the project as stakeholders and interests change"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Stakeholders shape planning itself, and late-discovered ones are a major cause of rework.",
+    "why": "Stakeholder identification should start as early as possible — typically right after the charter is approved — because stakeholders shape requirements, constraints and the plan itself. A fare-payment system will affect riders, drivers, unions, regulators, accessibility groups and payment providers, none of whom the charter names. Identification then continues throughout the project, since stakeholders and their interests change.",
+    "how": "Identify stakeholders early and repeatedly: start at initiation, keep the stakeholder register as a living document, and revisit it at phase transitions and whenever the environment changes.",
+    "optionNotes": [
+      "Incorrect — Waiting for plan approval is too late; stakeholders' requirements and constraints must shape the plan, not be discovered after it is signed.",
+      "Incorrect — Passive identification misses affected stakeholders who are unaware of the project until it harms them, such as riders or regulators.",
+      "Incorrect — Waiting for progress to show risks building the wrong thing and turns first contact with stakeholders into a late surprise.",
+      "Correct — Early and continuous identification lets stakeholders shape the plan and catches new stakeholders as the project and its environment change."
+    ],
+    "deepDive": "The stakeholder register typically holds identification information (name, role, contact), assessment information (requirements, expectations, influence, phase of most interest) and classification (internal or external, supporter or resistor). Techniques for finding stakeholders include brainstorming, interviews, checklists from past projects and tracing who benefits from or is affected by the outcome. PMBOK 7's stakeholder performance domain describes an iterative cycle — identify, understand and analyze, prioritize, engage, monitor — rather than a one-time step. In agile, the product owner and team keep discovering users and stakeholders through reviews and feedback. The trap is treating identification as a planning-phase checkbox.",
+    "tags": [
+      "stakeholder identification",
+      "stakeholder register",
+      "initiation"
+    ]
+  },
+  {
+    "id": "PEO-047",
+    "domain": "People",
+    "task": "4. Engage stakeholders",
+    "approach": "Any",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Power/interest grid",
+    "source": "ECO 2026 · People Task 4 · Power/interest grid",
+    "question": "Dagny Holt, regional vice president at Fjordline Retail, controls the budget for a project to install self-checkout kiosks across 40 stores. She approved the funding but skips project reviews, rarely reads status reports, and has told the project manager she only wants to hear about 'anything that affects my numbers.' Using a power/interest grid, how should the project manager engage her?",
+    "options": [
+      "Keep informed",
+      "Keep satisfied",
+      "Monitor with minimum effort",
+      "Manage closely"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Place her on the grid first: how much can she affect the project, and how interested is she in the details?",
+    "why": "Dagny has high power — she controls the budget — but low interest in project details, which places her in the keep-satisfied quadrant. The project manager should give her enough attention to keep her needs met, such as short, targeted updates on anything affecting her budget or targets, without burying her in detail. Because she could significantly affect the project if dissatisfied, her position should be watched in case her interest rises.",
+    "how": "Power/interest grid: high power and high interest, manage closely; high power and low interest, keep satisfied; low power and high interest, keep informed; low power and low interest, monitor.",
+    "optionNotes": [
+      "Incorrect — Keep informed is for low-power, high-interest stakeholders who want detail; Dagny has high power and little interest in detail.",
+      "Correct — High power with low interest calls for keeping her satisfied with concise, relevant updates on what affects her numbers.",
+      "Incorrect — Monitoring with minimum effort suits low-power, low-interest stakeholders; neglecting a budget holder risks losing her support.",
+      "Incorrect — Managing closely suits high-power, high-interest stakeholders; frequent detailed engagement would frustrate someone who has asked for less."
+    ],
+    "deepDive": "Variants of the grid include power/influence, influence/impact and the stakeholder cube, which adds a third dimension such as attitude. Grids support prioritization but are snapshots: a keep-satisfied stakeholder can become manage-closely overnight if something threatens their interests, so reassess regularly. The salience model (power, legitimacy, urgency) and the engagement assessment matrix (current versus desired engagement) complement the grid. In agile, the same thinking informs who attends sprint reviews and who receives a summary. A common trap is mixing up keep informed and keep satisfied; remember that satisfied goes with power.",
+    "tags": [
+      "power/interest grid",
+      "stakeholder analysis",
+      "communication"
+    ]
+  },
+  {
+    "id": "PEO-048",
+    "domain": "People",
+    "task": "4. Engage stakeholders",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Salience model",
+    "source": "ECO 2026 · People Task 4 · Salience model (Mitchell, Agle & Wood)",
+    "question": "Silvermoor Council's flood-defense project affects hundreds of stakeholders, and the project manager finds the current power/interest grid too coarse. A national environment agency has statutory authority over permits; residents whose homes flood every winter have a rightful stake and concerns that need immediate attention; and a property developer has political influence but no rightful claim on the project's design. Which model would BEST help the PM prioritize these stakeholders?",
+    "options": [
+      "Salience model",
+      "Power/interest grid",
+      "Responsibility assignment (RACI) matrix",
+      "Stakeholder engagement assessment matrix"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Count the distinct attributes the PM is describing and match them to the model built on exactly those.",
+    "why": "The salience model classifies stakeholders by power (ability to impose their will), legitimacy (appropriateness of their involvement) and urgency (need for immediate attention). It separates exactly the cases described: the agency has power and legitimacy, the flooded residents legitimacy and urgency, and the developer power without legitimacy. Stakeholders holding all three attributes are 'definitive' and get the most attention.",
+    "how": "Match the model to the attributes the scenario stresses: power and interest point to the grid; power, legitimacy and urgency to salience; current versus desired engagement to the assessment matrix; who does what to a RACI.",
+    "optionNotes": [
+      "Correct — Power, legitimacy and urgency are the salience model's three attributes, which separate the agency, the residents and the developer.",
+      "Incorrect — The PM already finds the grid too coarse; with only power and interest it cannot separate rightful claims from merely urgent or influential ones.",
+      "Incorrect — A RACI assigns responsibility for project tasks and decisions; it does not classify or prioritize external stakeholders.",
+      "Incorrect — The assessment matrix compares current and desired engagement levels; it tracks engagement gaps rather than ranking stakeholders by these attributes."
+    ],
+    "deepDive": "Mitchell, Agle and Wood's salience model yields seven classes: dormant (power only), discretionary (legitimacy only), demanding (urgency only), dominant (power and legitimacy), dangerous (power and urgency), dependent (legitimacy and urgency) and definitive (all three). It is especially useful in large, complex stakeholder communities such as public infrastructure, where legitimacy and urgency vary widely. Salience changes over time — the residents become definitive if they gain political backing — so reassess regularly. The model complements rather than replaces the grid and the engagement matrix. Exam items usually signal it through the three attribute words or descriptions of them.",
+    "tags": [
+      "salience model",
+      "stakeholder analysis",
+      "prioritization"
+    ]
+  },
+  {
+    "id": "PEO-049",
+    "domain": "People",
+    "task": "4. Engage stakeholders",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Stakeholder engagement assessment matrix",
+    "source": "ECO 2026 · People Task 4 · Stakeholder engagement assessment matrix",
+    "question": "Six weeks into Arbor Foods' warehouse-management system rollout, the project manager updates the stakeholder engagement assessment matrix. The head of operations, Gunnar, is marked 'Resistant' for current engagement and 'Supportive' for desired engagement; he has questioned the system in leadership meetings but has not blocked any decision. His teams face the biggest changes to their daily routines, and his support is needed for go-live training in three months. What should the project manager do?",
+    "options": [
+      "Move him to 'monitor only' status so his resistance has less impact on the project going forward",
+      "Treat it as an engagement gap and plan targeted actions to understand and address his concerns",
+      "Take no action until he actually blocks a decision or deliverable, then respond through escalation",
+      "Escalate his resistance to the sponsor so that the sponsor can reduce his influence over the rollout"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "The matrix compares where a stakeholder is with where the project needs them — what do you do with the difference?",
+    "why": "The matrix shows a gap between Gunnar's current engagement (Resistant) and the level the project needs (Supportive), and his teams face the biggest change. That gap calls for targeted engagement actions — understanding his concerns, addressing the impacts on his teams, involving him in design and training decisions — recorded in the stakeholder engagement plan. Acting now, well before go-live, keeps resistance from hardening into opposition.",
+    "how": "Engagement levels run unaware, resistant, neutral, supportive and leading; gaps between current and desired levels drive engagement strategies, which should be reassessed regularly.",
+    "optionNotes": [
+      "Incorrect — A resistant stakeholder whose teams face the biggest change needs more engagement, not less; sidelining him lets resistance grow.",
+      "Correct — The gap between current and desired engagement drives a targeted strategy to understand and address his concerns before go-live.",
+      "Incorrect — Waiting for a blocked decision lets resistance harden into active opposition, when early engagement is far cheaper.",
+      "Incorrect — Trying to reduce someone's influence is political and counterproductive, and it skips understanding why he resists."
+    ],
+    "deepDive": "Resistance often comes from perceived negative impacts: changed jobs, more work, loss of control or doubts about the solution. Useful techniques include one-on-one interviews, involving the stakeholder in design and pilot decisions, showing evidence of benefits and answering 'what's in it for me'. Change models such as ADKAR (awareness, desire, knowledge, ability, reinforcement) help diagnose where a resistant stakeholder is stuck. In agile, inviting such stakeholders to sprint reviews lets them shape the product early. The trap is treating resistance as something to neutralize rather than information to understand.",
+    "tags": [
+      "engagement assessment matrix",
+      "resistance",
+      "stakeholder engagement plan",
+      "organizational change"
+    ]
+  },
+  {
+    "id": "PEO-050",
+    "domain": "People",
+    "task": "4. Engage stakeholders",
+    "approach": "Predictive",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Late-identified stakeholder",
+    "source": "ECO 2026 · People Task 4 · Late-identified compliance stakeholder",
+    "question": "Midway through a predictive project to build a loyalty-points platform for Marlow Hotels, a developer mentions that corporate policy requires the data-privacy office to approve any system that stores customer data. The privacy office is not in the stakeholder register and has not been involved so far; the design is 60% complete and go-live is four months away. What should the project manager do FIRST?",
+    "options": [
+      "Submit a change request to add a full privacy review, with its schedule impact, to the baseline",
+      "Continue as planned and request the privacy office's approval shortly before go-live",
+      "Escalate to the sponsor and request an exemption from privacy review to protect the schedule",
+      "Add the privacy office to the stakeholder register, analyze its requirements, and engage it"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "A missing stakeholder with approval authority is serious; before changing the plan, find out what they actually need.",
+    "why": "A stakeholder with approval authority has been missed, so the project manager should first add the privacy office to the stakeholder register, analyze its requirements, power and likely impact, and engage it right away. Early engagement reveals what the approval actually requires, which is the information needed to assess impacts on scope, schedule and risk. Any resulting changes then go through change control.",
+    "how": "When you discover a missed stakeholder: update the register, analyze their requirements and influence, engage them, assess the impact, then raise change requests if needed — and never try to bypass a compliance obligation.",
+    "optionNotes": [
+      "Incorrect — A change request is premature; until the privacy office's requirements are known, the PM cannot define the change or its impact.",
+      "Incorrect — Waiting until go-live risks rejection and costly rework, since privacy requirements may affect a design that is already well advanced.",
+      "Incorrect — Seeking an exemption from a corporate privacy obligation to protect the schedule is inappropriate and exposes the organization to compliance risk.",
+      "Correct — Identifying, analyzing and engaging the missed stakeholder promptly reveals the approval requirements and their impact before anything else is decided."
+    ],
+    "deepDive": "Regulatory and compliance stakeholders — privacy, security, safety, legal, accessibility — are often missed because they do not use the product. A stakeholder checklist from organizational process assets and lessons learned helps find them early. Privacy requirements often call for privacy-by-design practices and a data protection impact assessment, which are far cheaper at 60% design than after go-live. Business Environment Task 2 (compliance) expects the project manager to plan for such obligations, not negotiate around them. The exam sequence is identify, analyze, engage, assess impact, then use change control.",
+    "tags": [
+      "stakeholder register",
+      "compliance",
+      "privacy",
+      "late stakeholder",
+      "predictive"
+    ]
+  }
+]

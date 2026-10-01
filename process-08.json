@@ -1,0 +1,1014 @@
+[
+  {
+    "id": "PRO-181",
+    "domain": "Process",
+    "task": "1. Develop an integrated project management plan and plan delivery",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Stress-testing a framework choice",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 8: Adaptive Frameworks and Life Cycles (be careful what you wish for)",
+    "question": "Tavira Logistics has hired your firm under a firm-fixed-price contract to build a warehouse routing platform from a 140-page specification. Your team is eager to run pure Scrum with two-week sprints. During planning you learn that the client's only product contact can give the project about two hours a month, the client expects every feature at a single go-live, and half of your developers have never worked in Scrum. What should the project manager do before finalizing the delivery approach?",
+    "options": [
+      "Adopt pure Scrum as the team proposes, because short sprints will expose these risks early enough to correct them",
+      "Adopt the predictive approach the contract implies and drop iterative practices unless the client asks for them",
+      "Ask the client to choose the framework, since it signed the fixed-price contract and carries the risk",
+      "Check each option against what could go wrong, then tailor a hybrid of internal sprints and milestone reviews"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Before committing to the most flexible option, ask what the customer, the contract and the team can actually support.",
+    "why": "Every framework has disadvantages, and more flexibility demands more customer involvement, more skill and more coordination. Here the client's limited availability, the all-at-once go-live, the fixed-price contract and the team's inexperience all argue against pure Scrum, yet the team can still benefit from internal iteration. Stress-testing the options against realistic failure points and tailoring a hybrid — internal sprints and integration builds, with client reviews timed to milestones — fits the real constraints.",
+    "how": "When choosing a framework, test each candidate against realistic failure points (customer availability, contract type, team skills, documentation needs) and tailor the approach to them, rather than picking the most fashionable option or the default.",
+    "optionNotes": [
+      "Incorrect — Short sprints surface risks only if the customer engages; with two hours a month of client time and an inexperienced team, pure Scrum is likely to struggle.",
+      "Incorrect — Tailoring is not all-or-nothing; dropping internal iteration throws away early integration and feedback the team could still gain.",
+      "Incorrect — Selecting the delivery approach is the performing organization's responsibility; the client lacks the context and is unfamiliar with the options.",
+      "Correct — Checking the options against customer availability, contract type and team skills, then tailoring a hybrid, matches the approach to the actual constraints."
+    ],
+    "deepDive": "Pillar 8 of the book argues that organizations are moving from one mandatory methodology to a menu of flexible frameworks, and that the choice must be deliberate. Its 'be careful what you wish for' idea is that flexible approaches look attractive because they surface problems early, but they need timely customer decisions, committed team members and more coordination. Useful what-can-go-wrong questions: Are expectations realistic? Can the work be split into small increments, or is it all-or-nothing? Will the customer support the project on time — or try to run it? Does the contract type fit the framework? On the exam, a tailored answer usually beats both 'force agile' and 'default to predictive' when the scenario mixes signals.",
+    "tags": [
+      "tailoring",
+      "hybrid",
+      "framework selection",
+      "fixed price",
+      "customer involvement"
+    ]
+  },
+  {
+    "id": "PRO-182",
+    "domain": "Process",
+    "task": "1. Develop an integrated project management plan and plan delivery",
+    "approach": "Any",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "PM role in the fuzzy front end",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 8: Adaptive Frameworks and Life Cycles (fuzzy front end)",
+    "question": "At Norvik Appliances, a small innovation council meets monthly to screen early product ideas before any project is chartered. The council has invited Lucía, an experienced project manager, to its next session, where three rough concepts for smart-kitchen devices will be discussed. No business case, scope or budget exists yet for any of them. What is the MOST valuable contribution Lucía can make at this session?",
+    "options": [
+      "Give rough estimates, key skills and timing constraints for each concept so the council can compare them",
+      "Decline the invitation politely until one concept has a signed charter that authorizes her role",
+      "Draft a detailed WBS and baseline schedule for the most promising concept so that execution can start quickly",
+      "Start interviewing target customers to gather detailed requirements for all three concepts before the council votes"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Before a project exists, what information does a selection body lack that a delivery expert can supply?",
+    "why": "The fuzzy front end is where ideas are screened and major commitments are shaped, yet project managers are often brought in only after it ends. An experienced PM adds most value here by giving realistic, rough information — resource skills, likely timing, order-of-magnitude cost and delivery risks — so that selection reflects deliverability as well as appeal. Detailed planning or requirements work would be premature for concepts that are not yet approved.",
+    "how": "In pre-project idea screening, the PM contributes feasibility insight (skills, timing, rough cost, candidate delivery approach) rather than detailed plans; detailed planning follows authorization.",
+    "optionNotes": [
+      "Correct — Rough estimates, skills and timing help the council judge which concepts the organization can realistically deliver before committing to one.",
+      "Incorrect — Advisory input before authorization is appropriate and valuable; waiting for a charter means selection decisions are made without delivery insight.",
+      "Incorrect — A detailed WBS and baseline for an unapproved concept is premature effort that will likely be discarded or heavily reworked.",
+      "Incorrect — Detailed requirements for three unscreened concepts is wasted effort; the council first needs enough information to choose among them."
+    ],
+    "deepDive": "The book describes the fuzzy front end (FFE) as the unstructured, often chaotic stage that runs from the search for opportunities to an approved concept. It may cost little, yet it can take a large share of development time and fixes the course of the project. The authors recommend that PMs take part in FFE activities, and note that the FFE may be the moment to pick a delivery framework. In PMBOK terms this is pre-project work feeding the business case and charter. Exam trap: waiting for a charter before spending project funds is right, but it does not stop the PM from giving expert advice.",
+    "tags": [
+      "fuzzy front end",
+      "project selection",
+      "estimating",
+      "initiation"
+    ]
+  },
+  {
+    "id": "PRO-183",
+    "domain": "Process",
+    "task": "1. Develop an integrated project management plan and plan delivery",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Adjusting plans without losing clarity",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 4: Digitalization (context-driven planning)",
+    "question": "Hollis Mutual's claims-digitization project uses a hybrid plan with quarterly release milestones and two-week sprints. The team re-plans often as it learns, and in the last month the detailed plan has changed four times. Business unit leaders now complain that they never know what is coming, and one has started double-booking staff for training dates that later moved. What should the project manager do?",
+    "options": [
+      "Freeze the detailed plan for the rest of the quarter so business leaders can rely on dates that no longer move",
+      "Ask business leaders to attend every sprint planning session so they can follow each change as it happens",
+      "Keep a stable roadmap of outcomes and milestones, adapt the detail each sprint, and make changes visible",
+      "Stop publishing detailed dates to business units and share only the quarterly release goals from now on"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Can the plan keep adapting while stakeholders still have something steady to plan around?",
+    "why": "Context-driven planning expects plans to be adjusted continually, but without eroding clear, shared expectations. The fix is to separate what should stay stable — outcomes, release milestones and commitments others plan around — from the detail that legitimately changes each sprint, and to communicate changes visibly through a living roadmap and change log. Freezing the plan sacrifices learning, while hiding dates or pulling leaders into every planning session does not restore their confidence.",
+    "how": "When frequent re-planning unsettles stakeholders, stabilize the level they depend on (roadmap, milestones, outcomes), keep adapting the detail, and make changes transparent through a regular roadmap review or information radiator.",
+    "optionNotes": [
+      "Incorrect — Freezing the plan gives up the learning that justifies the hybrid approach and may lock in dates the team already knows are wrong.",
+      "Incorrect — Pulling leaders into every sprint planning session burdens them with detail and still leaves them without a stable view to plan training around.",
+      "Correct — A stable outcome-and-milestone roadmap with visible, adaptive sprint detail keeps both agility and clear expectations for the business units.",
+      "Incorrect — Withholding dates hides information that business units genuinely need for training and staffing, and damages trust in the project."
+    ],
+    "deepDive": "Pillar 4 of the book names context-driven planning as a core element of digital-era delivery, built on two ideas: dynamic adjustment of plans (progressive elaboration as routine) and fit — tailoring the degree of planning to the complexity of the initiative. PMBOK's planning guidance makes the same point: plan at the level of detail the uncertainty allows and use rolling-wave planning for later work. A common hybrid practice is a two-level plan: a roadmap reviewed monthly with stakeholders and sprint plans owned by the team. Exam trap: 'freeze the plan' sounds like control but removes the benefit of an adaptive approach.",
+    "tags": [
+      "context-driven planning",
+      "roadmap",
+      "hybrid",
+      "stakeholder expectations",
+      "progressive elaboration"
+    ]
+  },
+  {
+    "id": "PRO-184",
+    "domain": "Process",
+    "task": "1. Develop an integrated project management plan and plan delivery",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Re-tailoring the approach mid-project",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 8: Adaptive Frameworks and Life Cycles (selecting and changing frameworks)",
+    "question": "Six sprints into a public-transport ticketing project, Amara, the project manager, reviews the evidence with her team. Requirements have barely changed since the start, the ticketing-hardware vendor delivers only against dated milestones, and the regulator will certify the system only as one complete release. Meanwhile, sprint reviews are poorly attended and the team spends hours re-estimating a backlog that rarely moves. What should Amara do NEXT?",
+    "options": [
+      "Keep the current Scrum approach unchanged, because switching frameworks midstream would unsettle the team and vendor",
+      "Propose re-tailoring toward a more plan-driven approach, agree it with the sponsor and update the management plan",
+      "Move the team to a predictive schedule right away and inform stakeholders once the new baseline has been set",
+      "Add more sprint review sessions and invite the regulator so that stakeholder attendance at reviews improves"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Does the evidence still support the framework chosen at the start, and who needs to agree a change of approach?",
+    "why": "The conditions that justify an adaptive framework — volatile requirements, incremental acceptance and engaged customers — are largely absent, while the vendor and regulator impose milestone-based, all-at-once delivery. Changing the approach midstream is a legitimate option as organizations mature, but it must be a governed decision. Proposing a re-tailored approach, agreeing it with the sponsor and updating the plan preserves both fit and governance; switching unilaterally skips agreement, and doing nothing ignores the evidence.",
+    "how": "Tailoring is ongoing: when evidence shows the approach no longer fits, propose adjustments, agree them through governance and update the management plan — neither cling to the original choice nor change it unilaterally.",
+    "optionNotes": [
+      "Incorrect — Sticking with a framework the evidence no longer supports wastes effort on re-estimation and poorly attended reviews.",
+      "Correct — The evidence points to a plan-driven fit, and agreeing the change with the sponsor and updating the plan keeps the decision governed and transparent.",
+      "Incorrect — The direction may be right, but changing the approach before stakeholders and the sponsor agree bypasses governance and surprises them.",
+      "Incorrect — More reviews treat a symptom; the regulator certifies only a complete release, so extra reviews will not make iterative acceptance work."
+    ],
+    "deepDive": "The book expects future project teams to select — and sometimes re-select — frameworks based on project characteristics such as requirement stability, customer involvement and how the customer accepts deliverables. PMBOK 7's tailoring process ends with ongoing improvement, meaning tailoring choices are revisited as the project learns. Keeping useful agile practices, such as daily coordination and retrospectives, inside a more predictive structure is still a hybrid. Exam trap: 'switch immediately' shows initiative but bypasses the sponsor and stakeholders who agreed the original approach.",
+    "tags": [
+      "tailoring",
+      "hybrid",
+      "framework selection",
+      "governance",
+      "continuous improvement"
+    ]
+  },
+  {
+    "id": "PRO-185",
+    "domain": "Process",
+    "task": "1. Develop an integrated project management plan and plan delivery",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Line-of-sight in release planning",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 1: Strategic Delivery Capability (line-of-sight to strategy)",
+    "question": "A nine-person agile team at Brightwater Energy is planning the next release of a customer self-service app. In refinement, developers keep debating whether to prioritize faster bill payment or richer energy-usage insights, and each side argues from personal preference. The team has never seen the company's new strategy, which targets a 20% cut in call-center volume and higher enrollment in demand-response programs. What should the project manager do to BEST support the team's planning?",
+    "options": [
+      "Ask the team to hold a vote on the two options so that the debate ends and refinement can move forward",
+      "Ask the team to estimate both options and pick whichever one fits the most story points into the release",
+      "Escalate the disagreement to the sponsor and request a ruling on which feature set belongs in the release",
+      "Work with the product owner to share the strategic goals and tie release goals and backlog items to them"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "What information would let everyone judge the two options by the same yardstick?",
+    "why": "The team argues from preference because it has no line of sight to the strategy its work is meant to serve. Bringing the strategic objectives — fewer call-center contacts and more demand-response enrollment — into planning, together with the product owner, lets release goals and backlog ordering be framed against shared outcomes. The product owner still owns ordering, but decisions are now grounded in strategy rather than opinion.",
+    "how": "When teams make conflicting trade-offs, check whether they understand the strategic objectives behind the work; connect vision, release goals and backlog items to those objectives before prioritizing.",
+    "optionNotes": [
+      "Incorrect — A vote ends this argument but leaves the team without the strategic context it needs for the next trade-off.",
+      "Incorrect — Maximizing story points optimizes output, not outcomes; the release should be judged by its contribution to strategic goals.",
+      "Incorrect — Escalation is premature; the product owner and team can decide well once they understand the strategy.",
+      "Correct — Sharing the strategy and linking release goals and backlog items to it creates line of sight and a common basis for decisions."
+    ],
+    "deepDive": "Pillar 1 of the book stresses line-of-sight: teams working on strategic initiatives need visibility of business objectives so that their daily decisions and risk trade-offs align with them, and the old 'information is power' habit gets in the way. In agile terms this appears as a product vision, product goal and release goals traceable to strategy; tools such as impact mapping and OKRs make the chain explicit. PMBOK's value focus makes the same point: outputs matter only insofar as they enable outcomes. Exam trap: voting or escalation settles one argument without fixing the missing context.",
+    "tags": [
+      "line of sight",
+      "strategy alignment",
+      "release planning",
+      "product vision",
+      "agile"
+    ]
+  },
+  {
+    "id": "PRO-186",
+    "domain": "Process",
+    "task": "2. Develop and manage project scope",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Defining the problem before scope",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 5: Evolving Project Delivery Skills (problem definition vs symptoms)",
+    "question": "During requirements workshops for an ERP upgrade at Castell Foods, the finance director insists that scope include a new real-time dashboard because month-end close takes too long. The request would add about eight weeks. The business analyst notes that nobody has examined why the close is slow, and two accountants mention that much of their time goes to reconciling manual journal entries from a legacy plant system. What should the project manager do FIRST?",
+    "options": [
+      "Facilitate an analysis of the slow close with the finance team to define the real problem before scoping",
+      "Add the dashboard to the scope baseline, since the finance director is a key stakeholder with budget authority",
+      "Submit the dashboard as a change request so the change control board can weigh its eight-week schedule impact",
+      "Record the dashboard as out of scope and tell the finance director to raise it as a new project"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Is the dashboard the need itself, or one person's proposed cure for a symptom?",
+    "why": "The director has proposed a solution (a dashboard) for a symptom (a slow close). The accountants' comments suggest the real cause may be manual reconciliation of legacy journal entries, which a dashboard would not fix. Defining the problem and its root cause first, with the people who do the work, ensures scope addresses the need rather than adding eight weeks of work that may not shorten the close.",
+    "how": "When a stakeholder requests a specific solution, first separate the symptom from the problem, confirm the root cause, then define scope around the need; only then compare solution options.",
+    "optionNotes": [
+      "Correct — Analyzing why the close is slow separates symptom from cause, so scope targets the real problem rather than an assumed solution.",
+      "Incorrect — Authority does not make a proposed solution correct; adding eight weeks for a dashboard may leave the real bottleneck untouched.",
+      "Incorrect — Scope is still being defined in workshops, so formal change control is premature; the request first needs problem analysis.",
+      "Incorrect — Rejecting the request dismisses a genuine business pain point without understanding it and damages stakeholder engagement."
+    ],
+    "deepDive": "Pillar 5 of the book treats problem solving and decision making as core skills for future PMs, beginning with a clear problem statement; gathering data often reveals that the real problem differs from the one first presented. In requirements work this is the difference between a business need and a proposed solution. Useful tools include 5 Whys, fishbone diagrams, process walk-throughs and simply asking what problem a request solves. Exam trap: rejecting the request outright ignores a real pain point; the best first move is to analyze it.",
+    "tags": [
+      "requirements",
+      "problem definition",
+      "root cause",
+      "scope",
+      "elicitation"
+    ]
+  },
+  {
+    "id": "PRO-187",
+    "domain": "Process",
+    "task": "2. Develop and manage project scope",
+    "approach": "Agile",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Rushing to prototypes in design thinking",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 5: Evolving Project Delivery Skills (design thinking for requirements)",
+    "question": "An agile team at Lumen Health is designing a medication-reminder app for older adults. Eager to move fast, the team produced three polished, high-fidelity prototypes in its first sprint, based on assumptions from a marketing brief. In usability sessions, participants struggled with all three, and several said they already rely on a pill organizer and a family member's daily call. The product owner wants to refine the best-scoring prototype next sprint. What should the project manager recommend?",
+    "options": [
+      "Refine the best-scoring prototype, since iterating on the closest design is the quickest route to a usable app",
+      "Run a larger survey of older adults to rank the features of the three prototypes before choosing one of them",
+      "Observe and interview users in their daily routines, reframe the problem, then prototype again at low cost",
+      "Combine the best-liked features of all three prototypes into one design and test it in the next sprint"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Did the team ever confirm what problem these users actually need solved?",
+    "why": "The team skipped the empathize and define stages and jumped to polished solutions based on assumptions — a common cause of design-thinking failure. The feedback suggests users' real need, support built around routines and family, differs from what the prototypes assumed. Returning to observation and interviews to reframe the problem, then prototyping cheaply again, is the fastest path to the right requirements; refining, ranking or merging the existing prototypes optimizes a possibly wrong solution.",
+    "how": "In design thinking, when tests show users do not connect with any option, go back to empathize and define before generating more solutions; prototype cheaply to learn, not to polish.",
+    "optionNotes": [
+      "Incorrect — Refining the least-bad prototype optimizes a solution to a problem the team has not yet confirmed users actually have.",
+      "Incorrect — A survey ranking features of the same three designs stays inside the flawed assumptions instead of uncovering the underlying need.",
+      "Correct — Returning to empathize and define with real users, then cheap prototyping, addresses the root cause of the failed tests.",
+      "Incorrect — Merging features of three designs that all failed usability testing is unlikely to produce one that meets the real need."
+    ],
+    "deepDive": "The book presents design thinking as a structured way to explore ill-defined problems, starting with people rather than products, and lists failure causes such as poor problem definition, missing information and rushing into prototype development. It also recasts 'fail fast' as learning fast, cheaply and early through several early, low-fidelity prototypes. The classic stages — empathize, define, ideate, prototype, test — loop back when tests reveal a wrong framing. For the exam, prototypes are excellent elicitation tools, but only when they test a well-understood need; start low-fidelity and add polish later.",
+    "tags": [
+      "design thinking",
+      "requirements",
+      "prototyping",
+      "user research",
+      "agile"
+    ]
+  },
+  {
+    "id": "PRO-188",
+    "domain": "Process",
+    "task": "2. Develop and manage project scope",
+    "approach": "Agile",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Stories rejected for unclear criteria",
+    "source": "ECO 2026 · Process Task 2 · Agile practice",
+    "question": "For the third sprint in a row, the product owner of a travel-insurance claims app has rejected two stories at the sprint review. The developers say they built exactly what the story titles described; the product owner says the stories obviously had to handle partial refunds and claims paid in foreign currencies. None of the rejected stories had acceptance criteria when the team pulled them into the sprint. What should the project manager suggest to stop this pattern?",
+    "options": [
+      "Ask the product owner to write a full requirements specification for the whole backlog before the next sprint is planned",
+      "Help the product owner and developers agree clear, testable acceptance criteria for each story during backlog refinement",
+      "Let the developers judge at each sprint review whether their stories are complete, since they know what was built",
+      "Ask the product owner to accept the stories as built and add the missing cases to the backlog as new stories"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Should the shared understanding of what 'acceptable' means be reached before the work is built, or after?",
+    "why": "The rejections share one root cause: the product owner and developers never agreed what 'acceptable' meant before the work started. Acceptance criteria are the story-specific conditions the product owner uses to accept an item, and agreeing them during refinement, ideally with concrete examples such as a partial refund or a claim paid in euros, surfaces hidden expectations while they are still cheap to discuss. This keeps the product owner accountable for acceptance and prevents repeated rework without resorting to heavy up-front documentation.",
+    "how": "When stories are repeatedly rejected at review, fix the shared understanding upstream: refine each story with the product owner until it has clear, testable acceptance criteria before it enters a sprint.",
+    "optionNotes": [
+      "Incorrect — A full up-front specification of the whole backlog is a predictive reflex; much of it would change before it is built, and it may still not be testable.",
+      "Correct — Agreeing testable acceptance criteria in refinement surfaces the product owner's expectations before work starts, preventing repeated rejections and rework.",
+      "Incorrect — Accepting work is the product owner's responsibility; letting developers judge their own stories bypasses the person accountable for value.",
+      "Incorrect — Pressing the product owner to accept incomplete work treats the symptom and leaves the root cause, stories without agreed criteria, in place."
+    ],
+    "deepDive": "Acceptance criteria are the conditions a specific story must satisfy for the product owner to accept it, while the definition of done is the quality standard that applies to every item. Many teams write criteria in a given-when-then format or as concrete examples, and a short conversation that brings business, development and testing perspectives together (often called the 'three amigos') is a common way to draft them during refinement. Some teams add 'has testable acceptance criteria' to a definition of ready, although the Scrum Guide itself asks only that items be refined enough to be selected in sprint planning. Exam trap: curing ambiguity with a big up-front specification is a predictive reflex; agile teams clarify just enough, just in time.",
+    "tags": [
+      "acceptance criteria",
+      "backlog refinement",
+      "user stories",
+      "agile"
+    ]
+  },
+  {
+    "id": "PRO-189",
+    "domain": "Process",
+    "task": "2. Develop and manage project scope",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "multi",
+    "topic": "Splitting a large user story",
+    "source": "ECO 2026 · Process Task 2 · Agile practice",
+    "question": "In backlog refinement, a team at Orbis Travel estimates the story 'As a traveler, I want to change my booking online' at 21 points, which is too large for a two-week sprint. The story covers changing dates, changing passengers and upgrading seats, and each type of change follows different fare rules. Which approaches would BEST split this story into smaller items that each still deliver value? (Select two.)",
+    "options": [
+      "Split by technical layer into separate stories for the user interface, the booking API and the database changes",
+      "Split by type of change, so that changing dates, changing passengers and upgrading seats become separate stories",
+      "Split by team activity, with one story for design, one for development and one for testing the change flow",
+      "Split by business-rule variation, delivering the simplest fare rule first and adding complex fare rules later",
+      "Keep the story whole but extend this sprint to three weeks so that the team can finish it in one iteration"
+    ],
+    "answer": [
+      1,
+      3
+    ],
+    "hint": "A good split slices vertically, so each piece is something a traveler could actually use.",
+    "why": "Good splits are vertical: each slice cuts through all layers and delivers something testable and valuable to a user. Splitting by type of change and by business-rule variation (simple fare rules before complex ones) both produce small, independent slices that the product owner can order by value. Splitting by layer or by activity creates horizontal pieces that deliver nothing usable alone, and stretching the sprint breaks the timebox instead of fixing the story's size.",
+    "how": "Split stories vertically — by workflow step, operation type, data or rule variation, or happy path before edge cases — never by technical layer or phase of work, and keep the timebox fixed.",
+    "optionNotes": [
+      "Incorrect — Layer-based slices are horizontal; none of them lets a traveler change a booking on its own, so value and feedback are delayed.",
+      "Correct — Each change type is a usable, testable capability that can be prioritized and delivered independently.",
+      "Incorrect — Design, build and test are phases of one item, not independent slices of value; this recreates a mini-waterfall inside the sprint.",
+      "Correct — Delivering the simplest fare-rule path first yields a working capability early and defers complexity to later, smaller stories.",
+      "Incorrect — Changing sprint length to fit one story undermines cadence and predictability and does not address the oversized story."
+    ],
+    "deepDive": "Common splitting patterns include workflow steps, operations (create, read, update, delete), business-rule variations, data variations, interface variations, simple versus complex cases, and deferring performance requirements. Each slice should still satisfy INVEST, especially Independent, Valuable and Small. Horizontal slicing delays feedback because nothing can be demonstrated until every layer is finished. Exam trap: changing sprint length to accommodate a story treats the symptom; keep a consistent cadence for predictability.",
+    "tags": [
+      "user stories",
+      "story splitting",
+      "backlog refinement",
+      "multi-select",
+      "agile"
+    ]
+  },
+  {
+    "id": "PRO-190",
+    "domain": "Process",
+    "task": "2. Develop and manage project scope",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Benefits-driven scope trade-offs",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 10: Value-Driven and Business-Related Metrics (benefits and value in scope decisions)",
+    "question": "A hybrid program at Quinta Retail is building a loyalty platform whose benefits realization plan targets a 6% lift in repeat purchases. After a 15% budget cut, the sponsor asks the project manager to trim scope. Remaining work includes personalized offers (linked in the plan to most of the expected lift), a redesigned rewards catalog, gamified badges and a legally required consent-management module. Marketing wants to keep the catalog and badges because they look impressive. What should the project manager recommend?",
+    "options": [
+      "Cut every feature proportionally by about 15% so that each stakeholder group keeps part of what it requested",
+      "Defer the consent-management module to a later phase, since loyalty members will not see any value in it",
+      "Keep the catalog and badges, since marketing owns the customer experience and knows best what will appeal",
+      "Keep consent management and personalized offers, defer the catalog and badges, and show the benefit impact"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Which work does the benefits plan say actually drives the outcome, and which work is non-negotiable?",
+    "why": "Scope trade-offs should be driven by each item's contribution to the benefits the program was funded to deliver, within mandatory constraints. Consent management is a legal obligation and cannot be deferred, and personalized offers carry most of the targeted repeat-purchase lift. Deferring the catalog and badges protects the benefits case, and showing the sponsor the forecast effect on the targets makes the decision transparent. Proportional or preference-based cuts would erode the value the program exists to create.",
+    "how": "When scope must shrink, rank the remaining work by its contribution to planned benefits, keep compliance items, cut the lowest-value work first and make the benefit impact visible to the decision maker.",
+    "optionNotes": [
+      "Incorrect — Proportional cuts feel fair but weaken the highest-value feature as much as the lowest, putting the benefit target at risk.",
+      "Incorrect — Consent management is a legal requirement; deferring it creates a compliance breach regardless of its visibility to members.",
+      "Incorrect — Keeping the features that merely look impressive sacrifices those the benefits plan links to the targeted outcome.",
+      "Correct — Protecting compliance and the main benefit driver, deferring low-value features and showing the benefit impact keeps the trade-off value-based."
+    ],
+    "deepDive": "Pillar 10 of the book argues that time, cost and scope metrics alone are no longer enough; success should include benefits and value at completion, and changes in constraints such as funding should trigger a fresh look at which benefits are still achievable. A benefits realization plan that maps features to benefits makes such trade-offs defensible. In agile terms this is ordering the backlog by value and cost of delay; in predictive terms it is a de-scoping change request with a benefit impact analysis. Exam trap: 'fair' proportional cuts sound balanced but usually damage the highest-value work most.",
+    "tags": [
+      "scope",
+      "benefits realization",
+      "value",
+      "trade-offs",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "PRO-191",
+    "domain": "Process",
+    "task": "3. Help ensure value-based delivery",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Recommending a gate decision",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 8: Adaptive Frameworks and Life Cycles (establishing gates)",
+    "question": "Refer to the exhibit. Dana is the project manager for Veltro Utilities' smart-meter analytics product, which uses agile teams inside a gated product life cycle. A steering group acts as gatekeeper. The residential pilot failed customer acceptance testing, and the regulator's review of residential data use is expected to take 9 to 12 months. Dana is preparing her recommendation for the Gate 3 review. What should she recommend to the gatekeepers?",
+    "exhibit": {
+      "kind": "table",
+      "title": "Gate 3 review checklist — smart-meter analytics product",
+      "columns": [
+        "Gate criterion",
+        "Threshold for Gate 3",
+        "Current status"
+      ],
+      "rows": [
+        [
+          "Forecast cost at completion",
+          "≤ $2.4M",
+          "$2.3M"
+        ],
+        [
+          "Forecast launch",
+          "Q2 next year",
+          "Q2 next year"
+        ],
+        [
+          "Projected annual benefits",
+          "≥ $1.5M",
+          "$1.6M (commercial customers only)"
+        ],
+        [
+          "Residential segment",
+          "Pilot accepted",
+          "Pilot rejected; regulator review 9–12 months"
+        ],
+        [
+          "Critical open risks",
+          "None",
+          "None"
+        ],
+        [
+          "Sponsor and sales support",
+          "Endorsed",
+          "Endorsed for commercial segment"
+        ]
+      ]
+    },
+    "options": [
+      "Proceed on revised objectives that cover the commercial segment, with the residential segment deferred",
+      "Proceed on the original objectives and resolve the residential issues during the development phase",
+      "Delay the gate decision until the regulator finishes so that both segments can be judged together",
+      "Cancel the product, because one of the two target segments can no longer be delivered as planned"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Compare what still meets the gate thresholds with what no longer can, and recall the range of decisions a gate can make.",
+    "why": "The exhibit shows cost, schedule, risk and projected benefits all meet the Gate 3 thresholds for the commercial segment alone, while the residential segment is blocked for 9 to 12 months. Proceeding on revised objectives keeps the viable value flowing and removes work that cannot be delivered now. Proceeding on the original objectives ignores the failed pilot, delaying idles a product that already clears its thresholds, and cancelling throws away benefits that still exceed the target.",
+    "how": "At a gate, compare the evidence with the predefined criteria and recommend one of the standard outcomes — proceed as planned, proceed on revised objectives, hold for specific information, or stop; the gatekeepers, not the PM, decide.",
+    "optionNotes": [
+      "Correct — The commercial segment alone meets every threshold, so continuing with revised objectives protects the value that is still achievable.",
+      "Incorrect — The residential pilot failed and the regulator's review is pending, so the original objectives are no longer realistic.",
+      "Incorrect — Waiting up to a year idles a product whose commercial case already clears every threshold, delaying benefits for no gain.",
+      "Incorrect — Losing one segment does not make the product unviable; projected benefits still exceed the $1.5M threshold."
+    ],
+    "deepDive": "Pillar 8 of the book describes gates as structured decision points supported by checklists that ask where we are today, where we will end up, what the current and future risks are, and what help is needed from management and stakeholders. Gatekeepers — sponsors or designated committees, never the PM acting alone — typically decide to proceed on original objectives, proceed on revised objectives, postpone pending specific information, or cancel, and they need the courage to stop failing work. A decision to proceed on revised objectives usually triggers updates to the business case, charter or roadmap. Exam trap: a partial setback is not automatically grounds for cancellation; judge the remaining value against the criteria.",
+    "tags": [
+      "phase gate",
+      "exhibit",
+      "benefits",
+      "governance",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "PRO-192",
+    "domain": "Process",
+    "task": "3. Help ensure value-based delivery",
+    "approach": "Any",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Weighted project selection scorecard",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 8: Adaptive Frameworks and Life Cycles (project selection criteria)",
+    "question": "Refer to the exhibit. Merrow Industrial's portfolio board can fund one new proposal this quarter. Its published selection criteria screen out any proposal that scores below 6 on strategic fit, whatever its total. The sponsor of Proposal B argues that its outstanding value score justifies an exception this time. As the project manager supporting the board's analysis, which proposal should you recommend, and what is its weighted score?",
+    "exhibit": {
+      "kind": "table",
+      "title": "Project selection scorecard (scores 1–10; higher is better)",
+      "columns": [
+        "Criterion (weight)",
+        "Proposal A",
+        "Proposal B",
+        "Proposal C",
+        "Proposal D"
+      ],
+      "rows": [
+        [
+          "Strategic fit (35%)",
+          "8",
+          "5",
+          "7",
+          "6"
+        ],
+        [
+          "Benefits and value (30%)",
+          "7",
+          "9",
+          "8",
+          "6"
+        ],
+        [
+          "Delivery risk, 10 = lowest (15%)",
+          "6",
+          "8",
+          "7",
+          "9"
+        ],
+        [
+          "Resource availability (20%)",
+          "5",
+          "9",
+          "6",
+          "8"
+        ]
+      ]
+    },
+    "options": [
+      "Proposal A, with a weighted score of 6.80",
+      "Proposal D, with a weighted score of 6.85",
+      "Proposal C, with a weighted score of 7.10",
+      "Proposal B, with a weighted score of 7.45"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Apply the screening rule before you rank the totals.",
+    "why": "Weighted score = sum of (weight × score). A = 0.35×8 + 0.30×7 + 0.15×6 + 0.20×5 = 2.80 + 2.10 + 0.90 + 1.00 = 6.80; B = 1.75 + 2.70 + 1.20 + 1.80 = 7.45; C = 2.45 + 2.40 + 1.05 + 1.20 = 7.10; D = 2.10 + 1.80 + 1.35 + 1.60 = 6.85. Proposal B has the highest total but fails the mandatory strategic-fit screen (5 is below 6), so the highest-scoring eligible proposal is C at 7.10. The PM should recommend C and point out that an exception for B would undermine the board's own criteria.",
+    "how": "For weighted scoring: apply any mandatory (knock-out) criteria first, multiply each score by its weight, sum per option, then rank only the eligible options.",
+    "optionNotes": [
+      "Incorrect — Proposal A is eligible, but its weighted total of 6.80 is the lowest of the three proposals that pass the strategic-fit screen.",
+      "Incorrect — Proposal D passes the screen with a strategic-fit score of exactly 6, but its total of 6.85 is below Proposal C's.",
+      "Correct — C passes the strategic-fit screen and has the highest weighted total (7.10) among the eligible proposals.",
+      "Incorrect — B has the highest raw total, but a strategic-fit score of 5 fails the mandatory screen, so the total does not matter."
+    ],
+    "deepDive": "Pillar 8 of the book observes that when a single project is judged on its own there is always a justification for bending the selection criteria, which is why criteria applied across the portfolio matter. Knock-out (must-have) criteria are applied before weighted scoring so that a high total cannot compensate for a fundamental misfit. Typical criteria include strategic fit, financial value, risk, resource availability and fit with existing capabilities. Exam traps: choosing the highest raw total (B), or averaging unweighted scores; remember too that the PM recommends and the portfolio board decides.",
+    "tags": [
+      "weighted scoring",
+      "project selection",
+      "calculation",
+      "exhibit",
+      "portfolio"
+    ]
+  },
+  {
+    "id": "PRO-193",
+    "domain": "Process",
+    "task": "3. Help ensure value-based delivery",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "From MVP to minimum marketable feature",
+    "source": "ECO 2026 · Process Task 3 · Agile practice",
+    "question": "Kestrel Bank's agile team ran a four-week MVP experiment: a bare-bones savings-goal feature offered to 500 invited customers. It confirmed strong demand, but the feature lacks statement integration, accessibility compliance and support for joint accounts, which most customers hold. Marketing wants to launch the MVP as-is to all two million customers, while the architects want to finish the full feature set planned for the year first. What should the project manager encourage the product owner to do?",
+    "options": [
+      "Launch the MVP to all customers now, since the experiment has already proven strong demand for the feature",
+      "Define the smallest feature set that customers can fully use and the bank can support, and release it next",
+      "Hold the release until the full feature set planned for the year is finished and has been tested as a whole",
+      "Run a second MVP experiment with a different customer group to confirm the first results before deciding"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "An experiment built to learn is not the same thing as a release built to be used at scale.",
+    "why": "The MVP did its job: it validated demand with minimal investment. Releasing to the whole market needs a minimum marketable feature — the smallest increment that delivers real value customers can use and that meets obligations such as accessibility and covers the joint accounts most customers hold. Launching the bare MVP risks non-compliance and a poor experience, waiting for the full annual scope delays value, and another experiment adds cost without answering a new question.",
+    "how": "Use an MVP to learn cheaply whether an idea is worth pursuing; once it is validated, release in minimum marketable increments that customers can use and that meet quality and compliance standards.",
+    "optionNotes": [
+      "Incorrect — The MVP was deliberately incomplete; releasing it at scale without accessibility or joint-account support risks compliance and customer harm.",
+      "Correct — A minimum marketable feature delivers usable, compliant value to the market quickly, building on what the MVP proved.",
+      "Incorrect — Waiting for the entire annual scope delays proven value and forgoes feedback from early real-world use.",
+      "Incorrect — Demand is already validated; another experiment adds cost and delay without testing a new hypothesis."
+    ],
+    "deepDive": "An MVP is a learning tool: the smallest experiment that tests a key hypothesis. A minimum marketable feature (MMF) is the smallest piece of functionality that delivers value to customers when released, and a minimum marketable release bundles MMFs. Confusing the two leads either to shipping experiments at scale or to over-building before release. Compliance needs such as accessibility are part of what makes a feature marketable. Exam trap: 'demand is proven, so ship it' ignores that the MVP was deliberately incomplete.",
+    "tags": [
+      "mvp",
+      "mmf",
+      "incremental delivery",
+      "value",
+      "agile"
+    ]
+  },
+  {
+    "id": "PRO-194",
+    "domain": "Process",
+    "task": "3. Help ensure value-based delivery",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Experimenting before committing capital",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 4: Digitalization (experimenting capacity)",
+    "question": "Rosales Packaging must choose between two layouts for a new bottling line, a decision that will commit about $6 million in equipment. The operations and engineering leaders each favor a different layout and have argued for weeks from experience and spreadsheets. The plant already maintains a validated digital simulation model of its existing lines, and the equipment vendor can supply performance data for both options. What should the project manager do to BEST support a value-based decision?",
+    "options": [
+      "Test both layouts in the digital model under realistic demand scenarios and share the results openly",
+      "Ask the sponsor to pick a layout now, because the debate is delaying the equipment order",
+      "Build a physical pilot of each layout on a spare line so the teams can compare them in real production",
+      "Select the layout with the lower purchase price and record the other as an alternative in the decision log"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Is there a cheaper way to learn which option creates more value than debating or building both?",
+    "why": "Digital simulation is a low-cost experiment that produces evidence on throughput, changeover time and bottlenecks for both layouts before the $6 million commitment. Sharing the results transparently turns an opinion contest into a data-based decision both groups can accept. Escalating without evidence, building physical pilots or choosing on price alone would either be costly or ignore the life-cycle value of the line.",
+    "how": "When a major, hard-to-reverse investment hinges on competing opinions, look for the cheapest valid experiment (simulation, prototype, pilot) that produces evidence, and share it transparently.",
+    "optionNotes": [
+      "Correct — Simulation generates cheap, relevant evidence on both options, and sharing it openly helps both groups accept the outcome.",
+      "Incorrect — Escalation moves the decision upward without improving the information behind it; the sponsor would face the same opinion contest.",
+      "Incorrect — Physical pilots of both layouts would be slow and expensive when a validated digital model can answer the question first.",
+      "Incorrect — Purchase price ignores throughput and operating costs, so it may select the layout that delivers less value over the line's life."
+    ],
+    "deepDive": "Pillar 4 of the book lists experimenting capacity as a key element of digital-era delivery: tools such as digital twins let teams test options early in the investment cycle, and the results are most valuable when paired with transparency and room for creative debate. This mirrors PMBOK's uncertainty guidance to use experiments, prototypes and simulations to reduce ambiguity, and the agile idea of validated learning. Decision quality improves when the experiment is designed to answer the specific question in dispute. Exam trap: escalating to the sponsor looks decisive but does not improve the evidence.",
+    "tags": [
+      "experimentation",
+      "digital twin",
+      "decision making",
+      "value",
+      "simulation"
+    ]
+  },
+  {
+    "id": "PRO-195",
+    "domain": "Process",
+    "task": "4. Plan and manage resources",
+    "approach": "Agile",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Sprint capacity planning",
+    "source": "ECO 2026 · Process Task 4 · Agile practice",
+    "question": "A six-person Scrum team at Pelham Insurance has averaged 42 story points per sprint over the last five sprints. In the coming sprint, one developer will be on leave for the full two weeks and another will spend half her time supporting a production cut-over. The product owner, under pressure from a business deadline, asks the team to commit to 45 points. What is the BEST way to plan the sprint?",
+    "options": [
+      "Commit to 45 points and ask the team to work extra hours so that the business deadline is still protected",
+      "Plan for the usual 42 points, since average velocity already absorbs normal ups and downs in availability",
+      "Let the product owner set the sprint forecast, as the product owner is accountable for business deadlines",
+      "Have developers forecast from their reduced capacity and discuss deadline trade-offs with the product owner"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Who selects the sprint's work, and what should that selection reflect when availability drops?",
+    "why": "Velocity reflects a team's normal availability; with one developer absent and another at half time, only about 4.5 of 6 people are available, roughly three-quarters of normal capacity, so a forecast in the low 30s is realistic. In Scrum, developers select how much work they can take on, and the product owner then makes value trade-offs against the deadline. Committing to 45 points through overtime is unsustainable and makes the forecast unreliable.",
+    "how": "Plan each iteration from the team's actual capacity (leave, support duties, holidays) rather than historical velocity alone; developers own the forecast, and the product owner owns scope trade-offs.",
+    "optionNotes": [
+      "Incorrect — Overtime to hit an inflated forecast breaks sustainable pace, raises defect risk and hides the real capacity shortfall.",
+      "Incorrect — Average velocity reflects normal availability; a known loss of about a quarter of capacity should lower the forecast.",
+      "Incorrect — The product owner orders the backlog, but the developers decide how much work they can realistically take into the sprint.",
+      "Correct — A capacity-based forecast from the developers, followed by trade-off talks with the product owner, keeps planning honest and value-focused."
+    ],
+    "deepDive": "Capacity-based planning adjusts velocity for known changes in availability, for example by scaling it to available person-days or by planning hours per person. Sustainable pace is an Agile Manifesto principle; overtime to hit a forecast hides the real capacity problem and increases defects. When capacity falls short of a deadline, the product owner can re-order the backlog, reduce scope or negotiate the date with stakeholders. Exam trap: the product owner decides what is most valuable, but the developers decide how much they can deliver.",
+    "tags": [
+      "capacity planning",
+      "velocity",
+      "sprint planning",
+      "sustainable pace",
+      "scrum"
+    ]
+  },
+  {
+    "id": "PRO-196",
+    "domain": "Process",
+    "task": "4. Plan and manage resources",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Authority to commit functional resources",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 5: Evolving Project Delivery Skills (decision making)",
+    "question": "A problem-solving session on a hybrid medical-imaging project produced three workable options for fixing an intermittent calibration fault. The preferred option needs two specialists from the metrology lab for three weeks. At the decision meeting, the lab's representative on the team supports that option but says she cannot commit lab staff; only the metrology manager can, and he was not invited. The team is frustrated by the delay. What should the project manager do?",
+    "options": [
+      "Record the team's decision and ask the lab representative to assign the specialists herself",
+      "Escalate to the sponsor and ask for the lab to be directed to release two specialists immediately",
+      "Reconvene soon with the metrology manager present, and map who can commit each unit's resources",
+      "Choose the second-best option, which the team can staff internally, so the fix does not wait longer"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "A decision that commits resources is only real when someone at the table can commit them.",
+    "why": "Decisions that commit functional resources need someone with the authority to commit them. The project manager should quickly bring the metrology manager into the decision and, as a lesson for the rest of the project, identify which team members hold decision authority for their units and involve the relevant managers when resource commitments are expected. Pressing the representative beyond her authority, escalating before asking the manager or settling for a weaker fix all produce worse outcomes.",
+    "how": "In a matrix, separate problem solving (team and experts develop options) from decision making (people with authority to commit resources decide), and map decision rights early in the project.",
+    "optionNotes": [
+      "Incorrect — The representative has already said she lacks authority; pushing her to commit staff invites conflict with her own manager.",
+      "Incorrect — Escalating to the sponsor is premature when the PM has not yet asked the metrology manager directly.",
+      "Correct — Involving the manager who can commit lab staff makes the decision real, and mapping decision rights prevents a repeat.",
+      "Incorrect — Settling for a weaker technical fix to avoid a short delay trades long-term quality for convenience."
+    ],
+    "deepDive": "Pillar 5 of the book separates problem-solving meetings — to understand the problem and develop alternatives — from decision-making meetings, where stakeholders who can commit resources must be present. It advises PMs to learn early in the project which team members can decide for their functional units and which will need their managers at decision points. A RACI chart or decision-rights matrix makes this explicit. Exam trap: escalation to the sponsor is appropriate only after the PM has tried to engage the functional manager directly.",
+    "tags": [
+      "decision making",
+      "matrix organization",
+      "resource negotiation",
+      "functional manager",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "PRO-197",
+    "domain": "Process",
+    "task": "4. Plan and manage resources",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Staffing a problem-solving meeting",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 5: Evolving Project Delivery Skills (problem solving with SMEs)",
+    "question": "On a predictive water-treatment plant upgrade, commissioning tests keep showing unexplained pressure drops in a new filtration skid. The 18-person project team has discussed the issue at three status meetings without progress, and no one on the team has deep hydraulics expertise. The client wants the root cause within two weeks. The project manager plans a dedicated problem-solving meeting. Which approach is MOST likely to produce workable solutions?",
+    "options": [
+      "Invite the full 18-person team so that everyone hears the discussion and can offer ideas from their own area",
+      "Bring in hydraulics SMEs with the staff closest to the fault, and send the problem, data and limits in advance",
+      "Hold the meeting with only the client and the skid supplier so that accountability for the fault is made clear",
+      "Ask the lead engineer to study the problem alone and present one recommended fix at the next status meeting"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Who has the knowledge to solve this problem, and how can they arrive ready to work on it?",
+    "why": "Problem-solving meetings work best with the people who understand the problem and have the expertise to analyze it — here, external hydraulics SMEs plus the engineers closest to the skid. Sending the problem statement, test data and limits (the two-week deadline, budget and available resources) in advance lets attendees prepare and may reveal that the real problem differs from the first description. Inviting everyone wastes time, a blame-focused meeting does not find causes, and a lone engineer lacks the expertise the team is missing.",
+    "how": "For a stubborn technical problem: write a clear problem statement, invite only people with relevant knowledge (adding outside SMEs if needed), share data and limits beforehand, and aim for alternatives with recommendations.",
+    "optionNotes": [
+      "Incorrect — A large meeting of people without hydraulics expertise is slow and has already failed three times in status meetings.",
+      "Correct — The right expertise plus advance preparation on the problem, data and limits gives the meeting the best chance of finding workable options.",
+      "Incorrect — Framing the meeting around accountability encourages defensiveness and leaves out the engineers who know the installed system.",
+      "Incorrect — The team lacks hydraulics expertise, so one engineer working alone is unlikely to find the cause and offers no alternatives."
+    ],
+    "deepDive": "Pillar 5 of the book offers practical guidance for problem-solving meetings: build a framework of what is already known, set limits on time, money, resources and skills, define boundary conditions for solutions (no gold plating, no new risks, regulatory compliance), invite SMEs even from outside the team, and share the agenda and problem statement in advance. The purpose is a clear understanding of the problem and a list of workable alternatives with recommendations, which the decision makers then choose from. This complements root-cause tools such as fishbone diagrams and 5 Whys. Exam trap: a larger meeting is not more useful if most attendees cannot contribute to the specific problem.",
+    "tags": [
+      "problem solving",
+      "subject matter experts",
+      "meetings",
+      "root cause",
+      "resources"
+    ]
+  },
+  {
+    "id": "PRO-198",
+    "domain": "Process",
+    "task": "4. Plan and manage resources",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "multi",
+    "topic": "PM input on internal strengths and weaknesses",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 8: Adaptive Frameworks and Life Cycles (project selection in the fuzzy front end)",
+    "question": "Ravel Aerospace's executives are running a SWOT review of a proposed drone-inspection service before deciding whether to fund it. They have asked Tomás, a senior project manager, to lead the discussion of the organization's internal strengths and weaknesses for delivering this project, while senior managers assess external opportunities and threats. Which items should Tomás bring to his part of the review? (Select three.)",
+    "options": [
+      "The availability of critical resources, such as certified drone pilots, during the planned delivery window",
+      "Forecast market demand for inspection services and the likely pricing strategies of rival providers",
+      "Competency gaps in the workforce, such as limited experience with aviation-authority certification work",
+      "How effective sponsorship and governance have been on comparable strategic projects in the organization",
+      "Upcoming changes to national airspace rules that could open or close parts of the target market"
+    ],
+    "answer": [
+      0,
+      2,
+      3
+    ],
+    "hint": "Separate the organization's internal ability to deliver from conditions in the outside market and regulatory environment.",
+    "why": "Strengths and weaknesses are internal and concern the organization's ability to deliver: availability of critical resources, workforce competencies and gaps, and the effectiveness of sponsorship and governance. An experienced project manager is well placed to judge these. Market demand, competitor pricing and changes to airspace rules are external opportunities and threats, which the senior managers are assessing in this review.",
+    "how": "In SWOT, strengths and weaknesses are internal (people, skills, technology, governance, resources); opportunities and threats are external (market, competitors, regulation, economy).",
+    "optionNotes": [
+      "Correct — Availability of scarce, certified people is an internal resource strength or weakness that directly affects delivery.",
+      "Incorrect — Market demand and competitor pricing are external factors that belong in the opportunities and threats assessment.",
+      "Correct — Missing competencies are an internal weakness the PM can assess from delivery experience and plan to address.",
+      "Correct — The track record of sponsorship and governance is an internal capability that strongly shapes the success of strategic projects.",
+      "Incorrect — Regulatory change is an external condition; it may create opportunities or threats but is not an internal strength or weakness."
+    ],
+    "deepDive": "The book argues that PMs should take part in the fuzzy front end and contribute to project selection, particularly on internal strengths and weaknesses such as workforce competencies, innovation skills, technology capability, sponsorship effectiveness, line-of-sight to senior management, missing competencies, critical-resource availability and excessive risk. Senior managers usually weigh external opportunities and threats, informed by enterprise environmental factors and VUCA analysis. Bringing delivery reality into selection helps prevent approving projects the organization cannot staff. Exam trap: regulations are external even when they affect internal work.",
+    "tags": [
+      "swot",
+      "project selection",
+      "resource availability",
+      "multi-select",
+      "fuzzy front end"
+    ]
+  },
+  {
+    "id": "PRO-199",
+    "domain": "Process",
+    "task": "4. Plan and manage resources",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Managing a distributed team by outcomes",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 4: Digitalization (virtual team engagement and outcomes-focused work)",
+    "question": "Nadia leads an agile data-platform team spread across Lisbon, Nairobi and Manila. A new department head, worried about remote productivity, proposes installing activity-monitoring software that logs keystrokes and screen time, with weekly reports ranking individuals by hours online. Two senior engineers have hinted they would leave if this happens. The team has met its sprint goal in seven of the last eight sprints. How should Nadia respond?",
+    "options": [
+      "Offer outcome evidence, such as sprint goals met and value delivered, and agree team-level measures",
+      "Install the software but share only team-level totals, so that individuals are not ranked against each other",
+      "Require cameras on during working hours so the department head can see the team is engaged",
+      "Accept the proposal, since the department head controls the resources and is entitled to set monitoring rules"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "What evidence of productivity actually matters for this team, and what would surveillance do to engagement?",
+    "why": "The department head's concern is legitimate, but activity monitoring measures presence rather than results and would damage trust and retention on a team that is performing well. Nadia should address the underlying worry with outcome evidence — sprint goals met, working increments and value delivered — and agree transparent team-level measures that answer the question without surveillance. Accepting or softening the monitoring, or imposing camera rules, treats time online as a proxy for value.",
+    "how": "For virtual teams, manage and report by outcomes (goals met, value delivered, flow metrics) at team level, and address stakeholders' worries with transparent evidence rather than surveillance of individuals.",
+    "optionNotes": [
+      "Correct — Outcome evidence answers the department head's real concern and protects the trust and engagement of a team that is delivering.",
+      "Incorrect — Aggregating the data still installs keystroke surveillance, which erodes trust and measures activity rather than results.",
+      "Incorrect — Mandatory cameras are another presence proxy; they add strain across time zones and say little about delivered value.",
+      "Incorrect — Simply accepting ignores the retention risk and the evidence of good performance; the PM should advocate for the team."
+    ],
+    "deepDive": "Pillar 4 of the book pairs virtual team engagement with outcomes-focused work: in a digital, distributed setting, leaders should judge contribution by results, supported by visual and transparent information, rather than by visibility or hours. Agile values sustainable pace and trust in motivated individuals, and team-level measures such as sprint-goal achievement, throughput and cycle time are preferred to individual rankings, which invite gaming. PMBOK's measurement guidance also warns against vanity and demoralizing metrics. Exam trap: a 'compromise' that installs surveillance anyway still undermines psychological safety.",
+    "tags": [
+      "virtual teams",
+      "outcomes",
+      "metrics",
+      "psychological safety",
+      "agile"
+    ]
+  },
+  {
+    "id": "PRO-200",
+    "domain": "Process",
+    "task": "4. Plan and manage resources",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Adding people to speed up a team",
+    "source": "ECO 2026 · Process Task 4 · Capacity planning when new members join an agile team",
+    "question": "A five-developer Scrum team at a language-learning company has averaged 30 story points per sprint for six sprints. To make a trade-show launch four sprints away, the sponsor has arranged for three experienced developers from another division to join next sprint. They are new to the product's code and domain. The sponsor's release plan assumes velocity will rise to about 48 points from the first sprint, in line with the larger headcount. What should the project manager do?",
+    "options": [
+      "Adopt the sponsor's forecast as it stands, since velocity should grow in proportion to the number of developers",
+      "Put the three newcomers in a separate team on isolated stories so that they cannot slow down the existing developers",
+      "Plan onboarding through pairing, expect a short-term velocity dip, and review a revised forecast with the sponsor",
+      "Decline the extra developers, because changing an established team's membership will always lower its performance"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "How quickly do new people turn into delivered points, and who pays for their learning in the meantime?",
+    "why": "New members need time to learn the code, the domain and the team's working agreements, and existing developers spend some of their capacity helping them, so velocity usually dips before it rises. Planning deliberate onboarding such as pairing, and giving the sponsor a revised forecast based on observed velocity, sets realistic expectations early and lets the product owner and sponsor adjust the trade-show scope if needed. Assuming velocity jumps straight from 30 to 48 points ignores ramp-up time, isolating the newcomers slows their learning and adds integration work, and refusing the help outright rules out a gain that could pay off within a few sprints.",
+    "how": "When people join an agile team, expect a temporary drop in velocity, plan deliberate onboarding such as pairing, and update forecasts from actual velocity rather than headcount ratios.",
+    "optionNotes": [
+      "Incorrect — Velocity does not scale in step with headcount; newcomers need ramp-up time and draw on existing members' capacity at first.",
+      "Incorrect — A separate team of newcomers lacks product knowledge, learns more slowly, and adds integration work across two teams.",
+      "Correct — Deliberate onboarding speeds up learning, and an honest revised forecast lets the sponsor and product owner adjust scope early.",
+      "Incorrect — Change does cost some performance, but refusing capacity outright is too absolute; planned onboarding can pay off within a few sprints."
+    ],
+    "deepDive": "Brooks's law observes that adding people to a late software project tends to make it later at first, because of ramp-up time and the growth in communication paths: a team of five has 10 paths and a team of eight has 28. In Tuckman's terms, a changed team re-forms and may pass through storming again. Agile teams therefore forecast from observed velocity after the change instead of scaling by headcount, and use pairing, mob sessions and clear working agreements to shorten onboarding. The exam trap is treating people as interchangeable units of capacity.",
+    "tags": [
+      "capacity planning",
+      "onboarding",
+      "velocity",
+      "scrum",
+      "brooks's law"
+    ]
+  },
+  {
+    "id": "PRO-201",
+    "domain": "Process",
+    "task": "5. Plan and manage procurement",
+    "approach": "Agile",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Money for nothing, change for free",
+    "source": "ECO 2026 · Process Task 5 · Agile practice",
+    "question": "Harrow Council signed a fixed-price agile contract with a vendor for 600 story points of case-management features, delivered in prioritized increments. The contract includes a 'change for free' clause and a 'money for nothing' clause that lets the council end the contract early by paying 20% of the value of the remaining work. After 420 points have been delivered, the council's product owner concludes that the remaining features add little value. What is the MOST appropriate course of action?",
+    "options": [
+      "Continue until all 600 points are delivered, because the fixed-price contract commits both parties to the full scope",
+      "Terminate for convenience and negotiate the vendor's payment afterward on the basis of its actual costs incurred",
+      "Ask the vendor to deliver the remaining points at a discount, as the council no longer values them",
+      "Use the early-termination option, pay 20% of the remaining work's value, and formally close the contract"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "The contract already anticipates this situation; which clause lets both parties benefit when the remaining work loses its value?",
+    "why": "The remaining work has little value, so building it would waste the council's money. The money-for-nothing clause lets the customer stop early by paying an agreed fraction (here 20%) of the value of the 180 undelivered points; the council keeps the other 80% of that budget, and the vendor is paid for work it no longer has to do, freeing its team. Continuing wastes budget, while improvising a termination for convenience or demanding a discount ignores terms both parties already agreed.",
+    "how": "In agile contracts, use the pre-agreed flexibility clauses: change-for-free to swap unstarted items of equal size, and money-for-nothing to stop early for an agreed fee when the remaining value is low; then close the procurement formally.",
+    "optionNotes": [
+      "Incorrect — The contract explicitly allows early exit; insisting on full scope pays for features the product owner has judged low value.",
+      "Incorrect — The parties already agreed an early-exit mechanism; improvising a different termination invites dispute over payment.",
+      "Incorrect — Buying low-value features at a discount still wastes money and ignores the agreed exit option in the contract.",
+      "Correct — Using the agreed money-for-nothing clause stops low-value work, saves most of the remaining budget and treats the vendor fairly."
+    ],
+    "deepDive": "The 'money for nothing, change for free' structure is a fixed-price, fixed-date agile contract with two options: the customer may swap unstarted backlog items for others of equal size at no cost (change for free), and may end the contract early once enough value has been delivered by paying a percentage of the remaining contract value (money for nothing). Both options depend on close customer collaboration and a backlog ordered by value. Other agile-friendly structures include fixed price per increment, capped time and materials, and graduated fixed price. Exam trap: fixed price need not mean fixed scope for the whole contract when these options are built in.",
+    "tags": [
+      "agile contracts",
+      "money for nothing",
+      "change for free",
+      "fixed price",
+      "procurement"
+    ]
+  },
+  {
+    "id": "PRO-202",
+    "domain": "Process",
+    "task": "5. Plan and manage procurement",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Integrating vendor developers into Scrum",
+    "source": "ECO 2026 · Process Task 5 · Agile practice",
+    "question": "Aldren Pharma contracted a vendor to supply four developers who joined its internal Scrum team on a hybrid program. Three sprints in, the vendor's account manager sends the developers daily task lists and has twice rotated people between sprints to cover other clients. Velocity has dropped, and retrospective feedback cites confusion over who directs the work. The time-and-materials contract is silent on these points. What should the project manager do?",
+    "options": [
+      "Agree with the vendor, and write into the contract, that its developers stay stable and work via Scrum",
+      "Ask the Scrum master to coach the vendor developers to ignore the account manager's task lists during sprints",
+      "Replace the vendor at the end of this contract period with one more experienced in agile delivery",
+      "Have the vendor's account manager attend sprint planning so that the daily task lists match the sprint backlog"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "The friction comes from a commercial relationship that never defined how the vendor's people fit into the team.",
+    "why": "The root cause is that the agreement never defined how vendor staff work within Scrum: who directs daily work and how stable team membership must be. The project manager should resolve this with the vendor and formalize it, for example through a contract amendment or updated statement of work: named, stable developers, work taken from the sprint backlog, and the account manager's role limited to commercial matters. Coaching developers to ignore their employer, inviting the account manager to steer planning, or replacing the vendor all avoid fixing the agreement.",
+    "how": "When vendor staff join an agile team, define in the contract and working agreements team stability, self-management within the sprint and the vendor's role in commercial rather than day-to-day direction.",
+    "optionNotes": [
+      "Correct — Fixing the agreement at its source gives the team stable members and a single channel for work, backed by enforceable contract terms.",
+      "Incorrect — Telling contractors to disregard their employer's direction puts them in an impossible position and leaves the contract gap unresolved.",
+      "Incorrect — Replacing the vendor is premature and disruptive; the problem is an undefined working model that can be agreed now.",
+      "Incorrect — Letting the account manager shape planning embeds outside task direction in Scrum and undermines the team's self-management."
+    ],
+    "deepDive": "Agile teams depend on stable membership and self-management, and contracts that let a supplier rotate staff or micromanage tasks undermine both. Good agile supplier agreements specify named key personnel, notice periods for changes, participation in Scrum events, a shared definition of done and how performance is evaluated (working increments rather than hours billed). When contract terms are silent, the procurement relationship — not informal workarounds — is the right place to fix the gap. Exam trap: asking people to ignore their own employer creates conflict instead of resolving it.",
+    "tags": [
+      "vendor management",
+      "scrum",
+      "agile contracts",
+      "team stability",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "PRO-203",
+    "domain": "Process",
+    "task": "5. Plan and manage procurement",
+    "approach": "Any",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Agreements with external idea partners",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 8: Adaptive Frameworks and Life Cycles (partnership fuzzy front ends)",
+    "question": "Solenne Mobility wants to widen its early idea generation for urban e-bike services by inviting a university research lab, two start-ups and a panel of lead users to co-develop concepts before any project is formally approved. The innovation manager plans to share internal market data and prototype designs with these partners at a kickoff workshop next month. What should the project manager ensure is in place FIRST?",
+    "options": [
+      "Detailed fixed-price contracts with each partner covering full development of any concept they help to create",
+      "Agreements covering confidentiality, ownership of intellectual property and use of the idea templates",
+      "A formal request for proposal so that each partner competes on price before being allowed to contribute ideas",
+      "A project charter for each concept the partners are expected to propose at the workshop"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Before sensitive information and new ideas start flowing across company boundaries, what needs protecting?",
+    "why": "Opening the front end to outside partners brings cheaper ideas, earlier customer insight and shared ownership, but it requires controls. Before sharing internal data and designs, the company needs agreements on confidentiality and on who owns and may use the resulting intellectual property, along with the templates partners will use to submit ideas. Development contracts, competitive bids or charters are premature because no concept has been selected yet.",
+    "how": "When external parties contribute to early ideation or co-development, put confidentiality, IP ownership and contribution rules in place before sharing information, and defer delivery contracts until concepts are selected.",
+    "optionNotes": [
+      "Incorrect — Development contracts are premature; no concept exists yet, so the scope and price of any build cannot be defined.",
+      "Correct — Confidentiality and IP terms protect both sides before data is shared, and common templates keep the contributions comparable.",
+      "Incorrect — Competitive bidding suits defined work, not open-ended ideation, and would discourage partners from sharing their best ideas.",
+      "Incorrect — Charters authorize approved projects; concepts from the workshop have not been screened or selected yet."
+    ],
+    "deepDive": "Pillar 8 of the book notes that the fuzzy front end increasingly crosses company boundaries — customers, universities, start-ups and even rivals contribute ideas — which lowers research cost and brings customers in early. It cautions that such partnerships need controls, such as mandatory templates and clear processes. In procurement terms, non-disclosure agreements, IP clauses and memoranda of understanding typically come before any statement of work. Exam trap: an RFP or fixed-price contract suits well-defined work, not open-ended ideation.",
+    "tags": [
+      "partnerships",
+      "intellectual property",
+      "procurement",
+      "fuzzy front end",
+      "innovation"
+    ]
+  },
+  {
+    "id": "PRO-204",
+    "domain": "Process",
+    "task": "5. Plan and manage procurement",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Co-creating the solution with suppliers",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 4: Digitalization (co-creation)",
+    "question": "Maritza is procuring a patient-scheduling system for a regional hospital network on a hybrid program. Procurement has drafted a request for proposal listing 300 detailed functional requirements for a single fixed-price award. Clinicians disagree on several workflows, and early market conversations show that suppliers' products handle scheduling in very different ways. Maritza worries that the rigid specification will either lock in the wrong design or trigger costly change orders. What should she propose?",
+    "options": [
+      "Issue the RFP as drafted and manage later differences through the contract's formal change control process",
+      "Delay the RFP until clinicians agree every workflow, then issue a full fixed-price specification",
+      "Switch to an open time-and-materials contract so the chosen supplier can build whatever clinicians request",
+      "Run paid co-design with shortlisted suppliers and clinicians, then award the build on refined needs"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Who holds the knowledge needed to shape the right solution, and when should they be involved?",
+    "why": "Requirements are contested and suppliers' solutions differ widely, so fixing 300 requirements now risks buying the wrong design or paying for many change orders. A short, paid co-design phase lets clinicians and shortlisted suppliers shape the solution together, after which the build can be awarded on better-defined requirements with a more suitable pricing model. Waiting for full internal agreement delays value and still excludes supplier expertise, while an open-ended T&M contract leaves the buyer carrying too much cost risk.",
+    "how": "When needs are uncertain and suppliers bring solution expertise, structure procurement in stages — discovery or co-design first, then build — so that requirements and price are fixed only when they can be.",
+    "optionNotes": [
+      "Incorrect — Change control is sound in general, but it does not fix a specification already known to be immature; expect costly change orders.",
+      "Incorrect — Internal consensus alone still ignores how suppliers' products work and delays the program while clinicians debate.",
+      "Incorrect — Open-ended T&M with no scope discipline shifts nearly all cost risk to the hospital and invites gold plating.",
+      "Correct — Co-designing with suppliers and clinicians before the build award uses everyone's knowledge and fixes scope and price when they are clearer."
+    ],
+    "deepDive": "Pillar 4 of the book treats co-creation — actively involving customers, users, suppliers and partners in shaping the solution — as essential to delivering a project's promise, supported by clear visuals and streamlined inputs. In procurement this translates into two-stage or phased contracting, competitive dialogue, paid proofs of concept and fixed price per increment. Hybrid programs often pair a flexible discovery contract with a firmer build contract. Exam trap: 'control it through change control' is a sound process in general but does not fix a specification known to be immature.",
+    "tags": [
+      "co-creation",
+      "procurement strategy",
+      "two-stage contracting",
+      "requirements",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "PRO-205",
+    "domain": "Process",
+    "task": "6. Plan and manage finance",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Forecast ROI against a review trigger",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 10: Value-Driven and Business-Related Metrics (benefits and value at completion)",
+    "question": "The approved business case for Tarsis Freight's warehouse-automation project forecast benefits of $4.2 million against a cost of $1.5 million. The benefits realization plan requires a governance review if forecast ROI falls below 120%. At the midpoint, cost at completion is forecast at $1.8 million, and the benefits owner has revised expected benefits to $3.6 million after a major customer contract ended. What is the forecast ROI, and what should the project manager do?",
+    "options": [
+      "50%; stop all project work now, because the project has fallen below its termination threshold",
+      "100%; report the forecast to the governance body and cite the benefits plan's review trigger",
+      "140%; continue as planned, because the forecast ROI still exceeds the 120% review threshold",
+      "200%; continue as planned, because forecast benefits are still double the forecast total cost"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Use the latest forecasts for both benefits and cost, and remember who makes a continue-or-stop decision.",
+    "why": "ROI = (benefits − cost) ÷ cost. Original: (4.2 − 1.5) ÷ 1.5 = 1.80, or 180%. Forecast: (3.6 − 1.8) ÷ 1.8 = 1.8 ÷ 1.8 = 1.00, or 100%, which is below the 120% trigger. The PM should report benefits and value at completion to the governance body, which decides whether to continue, re-scope or cancel; the PM does not stop the project unilaterally.",
+    "how": "ROI = (benefits − cost) ÷ cost: recompute it with the latest forecasts of both benefits and cost at completion, compare it with the agreed thresholds, and escalate through governance when a threshold is breached.",
+    "optionNotes": [
+      "Incorrect — 50% inverts the ratio (1.8 ÷ 3.6), and the PM should not halt the project unilaterally; governance decides.",
+      "Correct — (3.6 − 1.8) ÷ 1.8 = 100%, below the 120% trigger, so the PM brings the forecast to governance as the benefits plan requires.",
+      "Incorrect — 140% uses the revised benefits with the original $1.5M cost, ignoring the higher forecast cost at completion.",
+      "Incorrect — 200% is the benefit-cost ratio (3.6 ÷ 1.8 = 2.0) mislabeled as ROI; ROI subtracts cost before dividing."
+    ],
+    "deepDive": "Pillar 10 of the book urges reporting benefits and value at completion alongside cost and schedule, and building cancellation criteria into the business case or benefits realization plan so that failing projects are not left to linger. Common traps: 140% uses the new benefits with the old cost; 200% is the benefit-cost ratio presented as ROI; 50% inverts the ratio. ROI ignores the time value of money, so governance may also look at NPV or IRR. The PM recommends, and the sponsor or governance body makes the go/no-go decision.",
+    "tags": [
+      "roi",
+      "benefits realization",
+      "calculation",
+      "governance",
+      "business case"
+    ]
+  }
+]

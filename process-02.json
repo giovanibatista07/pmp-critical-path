@@ -1,0 +1,942 @@
+[
+  {
+    "id": "PRO-026",
+    "domain": "Process",
+    "task": "2. Develop and manage project scope",
+    "approach": "Predictive",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Controlling scope",
+    "source": "ECO 2026 · Process Task 2",
+    "question": "A monthly variance analysis on Ardent Insurance's data-warehouse project shows that the team has built about 12% more reporting functionality than the scope baseline defines. No change requests were raised: a business analyst had been passing finance managers' requests straight to the developers. The extra reports work well and the finance managers like them. What should the project manager do?",
+    "options": [
+      "Update the scope baseline to include the new reports, since the business clearly values them",
+      "Find the cause, stop unapproved work, and raise change requests for additions still wanted",
+      "Take no action, because a 12% variance is below the level most sponsors would notice",
+      "Cut testing effort on the reporting features to offset the cost of the extra development"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Being valuable and being approved are two different things — which process decides whether scope grows?",
+    "why": "Control Scope compares actual work with the baseline, analyzes the variance and decides on corrective action. The root cause is a bypassed process (requests going straight to developers), which the project manager should stop; any reports the business still wants must be evaluated and approved through change control before the baseline is updated. Value alone does not legitimize unapproved scope.",
+    "how": "Variance → root cause → corrective or preventive action → change request if the baseline needs to change. Never update a baseline retroactively without approval.",
+    "optionNotes": [
+      "Incorrect — Updating the baseline without an approved change legitimizes scope creep and hides the cost and schedule impact from decision-makers.",
+      "Correct — Fixing the root cause and using change control for wanted additions restores control while still serving the business need.",
+      "Incorrect — Variance thresholds are set in the management plans, not by what sponsors notice, and unapproved work is a problem at any size.",
+      "Incorrect — Cutting testing trades a scope problem for a quality risk and does nothing about the bypassed process."
+    ],
+    "deepDive": "Work performance data (raw observations) becomes work performance information when compared with the plan, and work performance reports package it for decisions. Variance thresholds are defined in the scope, schedule and cost management plans. Preventive action here might include a single intake route for requests and clarifying the business analyst's role. In agile, the same pressure is handled by routing requests to the product owner, who adds them to the backlog and orders them by value. A common exam trap is updating the baseline because the extra work is 'good'.",
+    "tags": [
+      "control scope",
+      "variance",
+      "scope creep",
+      "change control"
+    ]
+  },
+  {
+    "id": "PRO-027",
+    "domain": "Process",
+    "task": "2. Develop and manage project scope",
+    "approach": "Any",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Product vs. project scope",
+    "source": "ECO 2026 · Process Task 2",
+    "question": "At the kickoff for Lotus Bay's new e-commerce website, the marketing lead says 'scope' means the pages, product search and checkout features. The PMO lead says 'scope' also includes the requirements workshops, testing, user training and project management effort. The project manager says both are right but are describing different things. Which statement BEST explains the difference?",
+    "options": [
+      "Product scope is defined in the charter; project scope is defined in the contract or statement of work",
+      "They mean the same thing; PMI uses both terms for the approved scope baseline",
+      "Product scope is the site's features and functions; project scope is the work to deliver them",
+      "Product scope is the work required; project scope is the features and functions delivered"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "One view describes what the finished result is; the other describes what the project does to produce it.",
+    "why": "Product scope is the set of features and functions that characterize the product — here the pages, search and checkout. Project scope is all the work performed to deliver that product, including workshops, testing, training and project management. The marketing lead is describing product scope and the PMO lead project scope.",
+    "how": "Product scope completion is measured against product requirements; project scope completion is measured against the project management plan and scope baseline.",
+    "optionNotes": [
+      "Incorrect — Both kinds of scope can appear in several documents; the distinction is about what they describe, not where they are written.",
+      "Incorrect — They are different concepts, which is exactly why the two leads are talking past each other.",
+      "Correct — Product scope is the result's features and functions; project scope is the work, including management work, needed to deliver it.",
+      "Incorrect — This reverses the definitions: the work is project scope and the features are product scope."
+    ],
+    "deepDive": "A useful check: if an item would still exist after the project ends as part of the result, it is product scope; if it is an activity the project performs, it is project scope. The WBS covers project scope, including project management work, while requirements documentation mainly describes product scope. In agile, the product backlog mostly holds product scope, while team practices and ceremonies make up much of the project work. A common trap is reversing the two definitions under time pressure.",
+    "tags": [
+      "product scope",
+      "project scope",
+      "requirements"
+    ]
+  },
+  {
+    "id": "PRO-028",
+    "domain": "Process",
+    "task": "2. Develop and manage project scope",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Affinity diagram",
+    "source": "ECO 2026 · Process Task 2",
+    "question": "A requirements workshop for Tamarind City's online permit portal produced about 150 sticky notes of needs, complaints and ideas from residents, clerks and inspectors. Many notes say similar things in different words, and nobody can yet see the main themes. Before the next session, the project manager wants the group to organize the notes so that related ideas can be analyzed together. Which technique should the project manager use?",
+    "options": [
+      "Affinity diagram",
+      "Control chart",
+      "Scatter diagram",
+      "Fishbone (Ishikawa) diagram"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "The notes need grouping by what they have in common, not measuring or ranking.",
+    "why": "An affinity diagram sorts a large number of ideas into groups based on their natural relationships. Here it would merge duplicate notes, reveal the main themes — such as payments, status tracking and document upload — and show gaps, giving the next session a structured set of needs to analyze and prioritize.",
+    "how": "Pick the tool by purpose: affinity diagram to group many ideas by similarity; mind map to connect ideas around a central theme; fishbone to explore causes of a problem; control chart for process stability over time; scatter diagram for correlation between two variables.",
+    "optionNotes": [
+      "Correct — Grouping many qualitative ideas into natural themes is exactly what an affinity diagram is for.",
+      "Incorrect — A control chart tracks process measurements over time against control limits; it cannot group qualitative ideas.",
+      "Incorrect — A scatter diagram plots two numeric variables to show correlation, which does not apply to sticky-note ideas.",
+      "Incorrect — A fishbone diagram explores causes of a specific problem; it is a root-cause tool, not an idea-grouping tool."
+    ],
+    "deepDive": "Affinity diagrams are often built silently, with participants moving notes until clusters emerge, then naming each cluster. The resulting themes can feed a mind map, a story map or MoSCoW prioritization. Agile teams use affinity estimation in a similar way, grouping stories of similar size. In AI, unsupervised learning such as clustering performs a comparable job on data — finding natural groupings, for example customer segments, without predefined labels.",
+    "tags": [
+      "affinity diagram",
+      "brainstorming",
+      "requirements",
+      "data representation"
+    ]
+  },
+  {
+    "id": "PRO-029",
+    "domain": "Process",
+    "task": "3. Help ensure value-based delivery",
+    "approach": "Agile",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "WSJF prioritization (calculation)",
+    "source": "ECO 2026 · Process Task 3 (prioritize work)",
+    "question": "Refer to the exhibit. The product owner of Solis Home's smart-thermostat app uses weighted shortest job first (WSJF = cost of delay ÷ job size) to sequence the next four features. Business stakeholders scored cost of delay and the developers estimated job size, both in relative units. Which feature should the team deliver FIRST?",
+    "options": [
+      "Alerts",
+      "Chatbot",
+      "Themes",
+      "Export"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Work out value per unit of size for each feature rather than looking at either column alone.",
+    "why": "WSJF = cost of delay ÷ job size. Alerts = 21 ÷ 7 = 3.0; Chatbot = 30 ÷ 13 ≈ 2.31; Themes = 8 ÷ 5 = 1.6; Export = 12 ÷ 3 = 4.0. Export has the highest ratio, so delivering it first captures the most value per unit of effort soonest, even though Chatbot has the highest cost of delay.",
+    "how": "For WSJF, divide cost of delay by job size and sequence from highest to lowest ratio. Do not pick the item with the largest cost of delay or the smallest size alone.",
+    "optionNotes": [
+      "Incorrect — Alerts scores 21 ÷ 7 = 3.0, the second-highest ratio, so it should follow Export.",
+      "Incorrect — Chatbot has the highest cost of delay, but its large size gives 30 ÷ 13 ≈ 2.31.",
+      "Incorrect — Themes scores 8 ÷ 5 = 1.6, the lowest ratio, so it should be delivered last.",
+      "Correct — Export scores 12 ÷ 3 = 4.0, the highest ratio, delivering the most value per unit of size soonest."
+    ],
+    "deepDive": "In SAFe, cost of delay is itself the sum of user-business value, time criticality and risk reduction or opportunity enablement, all scored relatively. WSJF favors small, valuable items, which improves the economic flow of the backlog. It is one of several value-based prioritization methods, alongside MoSCoW, Kano analysis and value-versus-effort matrices. A common exam trap is choosing the item with the highest cost of delay (Chatbot) and forgetting to divide by size.",
+    "tags": [
+      "WSJF",
+      "cost of delay",
+      "prioritization",
+      "calculation",
+      "exhibit",
+      "SAFe"
+    ],
+    "exhibit": {
+      "kind": "table",
+      "title": "Feature scoring (relative units)",
+      "columns": [
+        "Feature",
+        "Cost of delay",
+        "Job size"
+      ],
+      "rows": [
+        [
+          "Alerts",
+          "21",
+          "7"
+        ],
+        [
+          "Chatbot",
+          "30",
+          "13"
+        ],
+        [
+          "Themes",
+          "8",
+          "5"
+        ],
+        [
+          "Export",
+          "12",
+          "3"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "PRO-030",
+    "domain": "Process",
+    "task": "3. Help ensure value-based delivery",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Minimum viable product",
+    "source": "ECO 2026 · Process Task 3 (assess incremental delivery)",
+    "question": "Saffron Kitchen, a recipe-app company, wants to add a paid meal-planning subscription. Leadership is split: some believe users will pay $6 a month, others think they will not pay at all. Building the full feature set — weekly plans, shopping lists and nutrition tracking — would take about five months. The sponsor wants evidence before committing the full budget. What should the team deliver FIRST?",
+    "options": [
+      "A detailed requirements document for customers to review before development starts",
+      "A pricing study of competing subscription apps to set the monthly fee correctly",
+      "A minimum viable product that tests whether customers will actually pay for it",
+      "The complete feature with all planned options, so customers can judge its full value"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "What is the riskiest assumption here, and what is the cheapest way to test it with real customers?",
+    "why": "The riskiest assumption is that customers will pay for meal planning at all. A minimum viable product — the smallest release that real customers can pay for and use — tests that hypothesis within weeks rather than five months. Its results give the sponsor the evidence needed before committing the full budget.",
+    "how": "When value is uncertain, choose options that validate the key value hypothesis early with real customers (MVP, experiment, prototype) before building everything.",
+    "optionNotes": [
+      "Incorrect — Customers approving a document does not show they will pay; stated intent is weak evidence of buying behavior.",
+      "Incorrect — Competitors' prices help set a fee later, but they cannot show whether these customers will pay at all.",
+      "Correct — A small paid release tests willingness to pay with real behavior, quickly and cheaply, before the full investment.",
+      "Incorrect — Building everything first risks five months of spending on a feature customers may not want."
+    ],
+    "deepDive": "The build–measure–learn loop from Lean Startup is the core idea: build the smallest thing that tests a hypothesis, measure real behavior, and learn whether to pivot or persevere. An MVP is different from a minimum marketable feature or release, which is the smallest increment worth marketing broadly once value is proven. Good MVP experiments define success criteria in advance, such as a target conversion rate. A common exam trap is mistaking documents or opinions for validation of value.",
+    "tags": [
+      "MVP",
+      "lean startup",
+      "value hypothesis",
+      "experiment"
+    ]
+  },
+  {
+    "id": "PRO-031",
+    "domain": "Process",
+    "task": "3. Help ensure value-based delivery",
+    "approach": "Agile",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Value stream mapping",
+    "source": "ECO 2026 · Process Task 3",
+    "question": "Kinsale Software's team mapped the value stream for a typical change. Hands-on work — coding, peer review, testing and deployment — totals 2 days, but the lead time from approved request to production is 20 days. Most of the remaining time is spent waiting for a weekly change-board approval and for shared test environments. What is the process cycle efficiency, and where should the team focus its improvement effort?",
+    "options": [
+      "10%; focus on removing the waits for approvals and test environments",
+      "10%; focus on raising developer utilization so that no one is ever idle",
+      "11%; focus on adding developers to shorten the hands-on work itself",
+      "90%; focus on speeding up the coding and testing work that remains"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Divide the value-adding time by the whole elapsed time, then ask where most of that elapsed time goes.",
+    "why": "Process cycle efficiency = value-added time ÷ total lead time = 2 ÷ 20 = 0.10, or 10%. The other 18 days (90% of the lead time) are waiting for approvals and environments, so removing those queues offers far more improvement than making the 2 days of hands-on work faster.",
+    "how": "In value stream mapping, compute efficiency as value-added time ÷ total lead time, then attack the largest block of non-value-added time first — usually waits and handoffs.",
+    "optionNotes": [
+      "Correct — 2 ÷ 20 = 10%, and the 18 days of waiting for approvals and environments are the biggest source of waste.",
+      "Incorrect — The number is right, but pushing utilization higher tends to lengthen queues and would not remove the approval and environment waits.",
+      "Incorrect — 11% comes from dividing by waiting time (2 ÷ 18) instead of total lead time, and more developers will not shorten the waits.",
+      "Incorrect — 90% is the share of time spent waiting, not the efficiency, and speeding up hands-on work ignores the main waste."
+    ],
+    "deepDive": "Lean's classic wastes are often remembered as TIMWOOD — transportation, inventory, motion, waiting, overproduction, over-processing and defects — plus unused talent. In knowledge work they appear as partially done work, extra features, relearning, handoffs, delays, task switching and defects. Remedies for this scenario could include automated, risk-based change approval and on-demand test environments. A common trap is optimizing resource efficiency (keeping people busy) when the real problem is flow efficiency (how long work waits between steps).",
+    "tags": [
+      "value stream mapping",
+      "lean",
+      "waste",
+      "calculation",
+      "flow"
+    ]
+  },
+  {
+    "id": "PRO-032",
+    "domain": "Process",
+    "task": "3. Help ensure value-based delivery",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Tracking benefits after the project",
+    "source": "ECO 2026 · Process Task 3 (track benefits)",
+    "question": "Northgate Telecom's CRM project will close in March, once the system is accepted and handed over to the customer-service department. The business case promised a five-point increase in customer retention, but most of that benefit is expected 12 to 18 months after closure. The sponsor asks how anyone will know whether the benefit was achieved. What should the project manager ensure before closure?",
+    "options": [
+      "Ask the CRM vendor to measure retention as part of its warranty and support obligations",
+      "End benefit tracking at closure, because the deliverables have been formally accepted",
+      "Keep the project open with a small team until the retention gains have been realized",
+      "Name a business owner in the benefits plan who will measure retention after transition"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Projects end, but the reason they were funded often arrives much later — who will be around to see it?",
+    "why": "The benefits management plan defines each benefit, its measures, timing and owner. Because retention gains arrive long after closure, a named business owner in the customer-service organization — not the project team — should measure and report them to governance. Ensuring that ownership and measurement are agreed before closure keeps the business case accountable.",
+    "how": "Projects deliver outputs; the business realizes benefits. Look for a named benefits owner, agreed measures and a reporting route that outlive the project.",
+    "optionNotes": [
+      "Incorrect — The vendor is responsible for the product it supplies, not for the organization's business outcomes such as retention.",
+      "Incorrect — Benefits are why the project was funded; stopping measurement at acceptance leaves the business case unverified.",
+      "Incorrect — Keeping a project open for 18 months wastes resources and blurs the line between project work and operations.",
+      "Correct — A business owner named in the benefits plan can measure retention after transition and report realization to governance."
+    ],
+    "deepDive": "Benefits realization is often described as identify, execute and sustain: benefits are defined in the business case, enabled by the project's outputs, then realized and sustained by operations. Programs frequently manage benefits across several related projects. Measures should include a baseline taken before go-live so later changes can be attributed with some confidence. In agile product teams, the product owner and product manager keep tracking outcome metrics after each release, since the product does not 'close'. A common exam trap is keeping the project open to chase benefits.",
+    "tags": [
+      "benefits realization",
+      "benefits owner",
+      "transition",
+      "closure"
+    ]
+  },
+  {
+    "id": "PRO-033",
+    "domain": "Process",
+    "task": "3. Help ensure value-based delivery",
+    "approach": "Agile",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Finished work waiting for release",
+    "source": "ECO 2026 · Process Task 3 · Agile practice: smaller, more frequent releases",
+    "question": "A Scrum team at Marlowe Insurance finishes customer-requested features every two weeks, and each one meets the definition of done in a staging environment. Production releases, however, happen only once a quarter, after a three-week manual regression cycle run by a separate test group. Customer surveys show strong demand for a claims-tracking feature that was finished ten weeks ago but has still not been released. What should the project manager do to BEST improve value delivery?",
+    "options": [
+      "Ask the team to take on more stories each sprint so that every quarterly release contains more customer value",
+      "Work with the team, product owner and operations to automate regression testing and release more often",
+      "Release the claims-tracking feature straight away without regression testing, as customers are waiting for it",
+      "Show the finished features to customers at sprint reviews so that they can see progress between releases"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Value is realized only when customers can use the work, so look at where finished work is waiting.",
+    "why": "The team produces value every sprint, but customers receive it only once a quarter, so finished work sits as inventory for weeks and feedback arrives late. The constraint is the manual three-week regression cycle and the release policy, not the team's output. Working with the product owner, the test group and operations to automate regression checks and build a reliable release pipeline lets the organization release smaller batches more often, without dropping the quality controls that justify testing.",
+    "how": "When value is delayed, find where work waits on its way to the customer and reduce batch size — through automation and continuous delivery practices — rather than increasing output or skipping controls.",
+    "optionNotes": [
+      "Incorrect — More output only lengthens the queue of finished but unreleased work; the bottleneck is the release process, not the team's pace.",
+      "Correct — Automating regression and releasing more often shortens the time from done to customer use while keeping quality checks in place.",
+      "Incorrect — Skipping regression on a live insurance system trades delay for the risk of production defects; the control is needed, just faster.",
+      "Incorrect — Demonstrations help gather feedback but deliver no value; customers still cannot use the finished features until the next quarterly release."
+    ],
+    "deepDive": "In lean terms, finished but unreleased work is inventory: it has consumed cost but earns no benefit and generates no real-world feedback, and every week of waiting adds cost of delay. Large release batches also raise risk, because more changes go live together and problems are harder to isolate. Continuous integration, automated testing and deployment pipelines allow increments to be released safely whenever the product owner decides, and feature toggles can separate deploying code from releasing it to users. The first principle behind the Agile Manifesto stresses early and continuous delivery of valuable software. The exam trap is increasing output when the bottleneck lies downstream.",
+    "tags": [
+      "release frequency",
+      "continuous delivery",
+      "batch size",
+      "value",
+      "agile"
+    ]
+  },
+  {
+    "id": "PRO-034",
+    "domain": "Process",
+    "task": "3. Help ensure value-based delivery",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Outcome vs. output measures",
+    "source": "ECO 2026 · Process Task 3 (identify value components)",
+    "question": "Six months after Halcyon Engineering launched an internal expense-reporting tool, the steering committee asks the project manager for evidence that the investment is paying off. The team's dashboards already track many figures, from code quality and test coverage to release frequency and sprint predictability. Which metric BEST shows that the tool is delivering value?",
+    "options": [
+      "Reduction in time to submit and approve claims, along with the adoption rate",
+      "Lines of code written and automated tests added during each sprint of the project",
+      "Number of features released to production in each quarter since the launch",
+      "Number of sprints completed on time against the original release plan"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Value shows up in what users and the business experience, not in how busy the team has been.",
+    "why": "The tool was funded to make expense reporting faster and easier. Reduced cycle time for submitting and approving claims measures that outcome directly, and the adoption rate confirms that people actually use the tool. Code volume, feature counts and sprint predictability describe the team's activity and outputs, not the benefit to the organization.",
+    "how": "When judging value, prefer outcome measures (behavior change, time or money saved, satisfaction, adoption) over output or activity measures (features, code, velocity).",
+    "optionNotes": [
+      "Correct — Time saved and adoption measure the outcome the tool was funded for and confirm that people actually use it.",
+      "Incorrect — Code and test volume measure activity; a tool can have lots of code and still deliver no benefit.",
+      "Incorrect — Feature counts are outputs; features can ship and go unused, so they do not prove value.",
+      "Incorrect — Sprint predictability shows delivery discipline, not whether the organization is better off."
+    ],
+    "deepDive": "A useful chain is inputs → activities → outputs → outcomes → benefits; only the last two show value. Balanced measures often pair an outcome (cycle time) with an adoption or satisfaction measure so that a single number cannot be gamed. A product can ship on time, with every planned feature and few defects, yet still disappoint customers — a reminder that delivery metrics can look perfect while value is missing. A common exam trap is choosing velocity or feature counts as evidence of value.",
+    "tags": [
+      "outcomes",
+      "metrics",
+      "value",
+      "adoption",
+      "benefits"
+    ]
+  },
+  {
+    "id": "PRO-035",
+    "domain": "Process",
+    "task": "3. Help ensure value-based delivery",
+    "approach": "Agile",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Pivot or persevere",
+    "source": "ECO 2026 · Process Task 3",
+    "question": "Three months after launching an MVP of a language-practice app, Aurelia Learning's analytics show that only 4% of new users return after their first week, against a hypothesis of 30%. Sign-ups are steady, and exit surveys say the lessons feel generic. The product owner is unsure what to do next, and the sponsor asks the project manager for a recommendation. What should the project manager do?",
+    "options": [
+      "Keep building the full roadmap as planned, since early usage figures often improve over time",
+      "Recommend shutting the product down now, since the core hypothesis has been disproven",
+      "Facilitate an evidence review with the product owner and stakeholders on pivot or persevere",
+      "Increase marketing spend to bring more first-time users into the app and grow the user base"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "The MVP has done its job by producing evidence — who should interpret it, and what decision is it meant to inform?",
+    "why": "The data clearly contradict the retention hypothesis, but they also contain clues: steady sign-ups suggest interest, and exit surveys point to generic lessons. The project manager should facilitate an evidence-based review with the product owner and stakeholders to decide whether to pivot (for example, to personalized lessons) or persevere with specific changes. That keeps the decision with the right people and grounded in data.",
+    "how": "Build–measure–learn: when results contradict the hypothesis, make an explicit, evidence-based pivot-or-persevere decision with the product owner and key stakeholders rather than ignoring or overreacting to the data.",
+    "optionNotes": [
+      "Incorrect — Continuing as planned ignores the evidence the MVP was built to produce and risks wasting further investment.",
+      "Incorrect — Stopping may eventually be right, but steady sign-ups and specific feedback suggest options worth reviewing first.",
+      "Correct — A structured review of the evidence with the decision-makers leads to an informed choice to pivot or persevere.",
+      "Incorrect — More first-time users will not fix poor retention; it spends money amplifying a leaky funnel."
+    ],
+    "deepDive": "Lean Startup's pivot-or-persevere decision is a regular, planned checkpoint, not a crisis response; pivots can change the customer segment, the problem addressed, the solution or the business model. Pivoting is not always the answer: if customers are buying similar products but not yours, the evidence may point to fixing the product's weaknesses rather than abandoning the value hypothesis. The skill is diagnosing whether the value hypothesis or the execution is wrong. A common exam trap is choosing a dramatic action (shutdown or more marketing) before analyzing the evidence with the product owner.",
+    "tags": [
+      "pivot",
+      "MVP",
+      "lean startup",
+      "evidence",
+      "product owner"
+    ]
+  },
+  {
+    "id": "PRO-036",
+    "domain": "Process",
+    "task": "3. Help ensure value-based delivery",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Opportunity cost of team capacity",
+    "source": "ECO 2026 · Process Task 3 · Opportunity cost of a persistent team's capacity",
+    "question": "Brightmoor Insurance funds its agile teams as persistent teams: the claims team costs about $50,000 per two-week sprint whatever it builds, and it cannot be expanded this year. A regional director asks the project manager to have the team spend its next two sprints on a custom report for her region, saying it 'costs the company nothing extra, because the team is already paid for.' Those sprints would otherwise go to the top of the ordered backlog, including a claims-status feature that the call center expects to cut its costs by about $40,000 a month. How should the project manager respond to the director's claim?",
+    "options": [
+      "Agree that the report is free, since the team's cost is fixed, and ask the product owner to add it next sprint",
+      "Tell the director the report will cost $100,000 of team time and ask her region to fund it before work starts",
+      "Decline the request, since the team's funding was approved only for the items already in the release roadmap",
+      "Explain that its real cost is the value of the work it displaces, and have the product owner weigh the two"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Consider what the team's time is worth when its budget does not change with the work it does.",
+    "why": "The director is right that the cash cost will not change, but wrong that the report is free: the team's capacity is the scarce resource, and every sprint spent on the report is a sprint not spent on the most valuable items in the backlog. That forgone value — here, delaying a feature worth about $40,000 a month in call-center savings — is the report's opportunity cost. Making it visible and letting the product owner compare the report's value with the work it would displace keeps the decision value-based and within the product owner's accountability for ordering the backlog.",
+    "how": "With fixed-cost, persistent teams, the real cost of any request is the value of the work it displaces (its opportunity cost). Make that trade-off visible and let the product owner decide the order, rather than treating team time as free or merely putting a price on it.",
+    "optionNotes": [
+      "Incorrect — The cash cost is fixed, but the capacity is not free: two sprints on the report delay the most valuable backlog items and their benefits.",
+      "Incorrect — Charging for team time moves money between budgets but cannot buy extra capacity here, and it hides the value that would be given up.",
+      "Incorrect — A blanket refusal ignores that the report might be worth more than the work it displaces; the product owner should weigh it on value.",
+      "Correct — Naming the displaced value makes the opportunity cost explicit, so the product owner can order the report against the backlog on value."
+    ],
+    "deepDive": "Opportunity cost is the value of the best alternative given up. With persistent agile teams, whose cost per sprint is largely fixed, it is the main economic cost of any piece of work, even though no extra money is spent. Treating team time as free invites side-door requests that crowd out higher-value backlog items, while internal chargebacks move money between budgets without showing what is forgone. Cost of delay and WSJF turn the same idea into a sequencing rule by comparing the value lost per unit of time with the effort each item needs. In portfolio selection the concept appears as the value of the best project not funded. The exam trap is accepting work because the budget does not change.",
+    "tags": [
+      "opportunity cost",
+      "team capacity",
+      "product owner",
+      "value",
+      "agile"
+    ]
+  },
+  {
+    "id": "PRO-037",
+    "domain": "Process",
+    "task": "3. Help ensure value-based delivery",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Phase gate review",
+    "source": "ECO 2026 · Process Task 3 / Business Environment Task 1",
+    "question": "At the end of the design phase for a new consumer drone, Soltara Devices holds a phase-gate review. Updated market data show that a competitor has launched a cheaper model, and the revised benefit forecast now gives the business case a negative NPV. The board approved the full budget a year ago, and the team is keen to start building. What should the project manager recommend at the gate?",
+    "options": [
+      "Proceed to the build phase, since the board has already approved the plan and the budget",
+      "Present the updated business case and a recommendation to continue, change or stop",
+      "Cut testing and quality activities to lower costs until the NPV is positive again",
+      "Hold back the updated forecast until after the build phase, when the market may recover"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Ask what a phase gate is for, and who should make the decision it exists to support.",
+    "why": "Phase gates exist to decide whether continued investment is still justified. With a negative NPV, the project manager should present the updated business case transparently, with options and a recommendation, so governance can decide to continue, change direction or terminate. Earlier approval does not override new information that undermines the investment.",
+    "how": "Value-based delivery includes stopping or reshaping work that no longer delivers value. At gates, give governance transparent data, options and a recommendation; governance makes the decision.",
+    "optionNotes": [
+      "Incorrect — Past approval was based on forecasts that have changed; continuing without review ignores the gate's purpose.",
+      "Correct — Transparent reassessment with a clear recommendation lets governance decide on facts whether to continue, change or stop.",
+      "Incorrect — Cutting quality to force the numbers undermines product value, adds risk and is not a legitimate fix.",
+      "Incorrect — Withholding material information from governance is dishonest and could waste a whole phase of spending."
+    ],
+    "deepDive": "Terminating a project that no longer makes sense is a success of governance, not a failure of project management. Poor investments often trace back to optimistic benefit projections, which is why benefits are reforecast at every gate rather than taken from the original approval. Options at a gate include continuing, redesigning to a lower-cost product, pausing, or stopping and redeploying the team. In agile programs the equivalent checkpoint is a regular review of the product roadmap and funding against outcome data. A common exam trap is treating the original approval as a mandate to finish regardless of value.",
+    "tags": [
+      "phase gate",
+      "business case",
+      "NPV",
+      "termination",
+      "governance"
+    ]
+  },
+  {
+    "id": "PRO-038",
+    "domain": "Process",
+    "task": "3. Help ensure value-based delivery",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Net value, not cost, in a build-or-subscribe choice",
+    "source": "ECO 2026 · Process Task 3 · Comparing options on net value, not cost alone",
+    "question": "A hybrid program at Castellan Foods must add demand forecasting to its store-ordering platform; once live, it is expected to save about $300,000 a year in waste and stockouts. Option A: the Scrum teams build it in-house for $380,000, which takes all of year 1, and it then costs $70,000 a year to run in years 2 to 5. Option B: a vendor service, integrated for $90,000 in time to run for all five years, at $160,000 a year in fees. The finance lead favors Option A because its five-year total cost is lower. Ignoring discounting, which recommendation BEST supports value-based delivery?",
+    "options": [
+      "Option B, because its five-year net value of $610,000 is higher than Option A's $540,000",
+      "Option A, because its five-year cost of $660,000 is $230,000 lower than Option B's $890,000",
+      "Option A, because its five-year net value of $770,000 is higher than Option B's $610,000",
+      "Either option, because both return more than they cost over the five years of the decision"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Ask whether the two options deliver the same benefits over the five years.",
+    "why": "The options start delivering benefits at different times, so comparing costs alone is misleading; value-based delivery compares benefits minus costs over the same horizon. Option A: benefits 4 × $300,000 = $1,200,000 (years 2–5); costs $380,000 + 4 × $70,000 = $660,000; net value $540,000. Option B: benefits 5 × $300,000 = $1,500,000; costs $90,000 + 5 × $160,000 = $890,000; net value $610,000. Option B costs $230,000 more but earns $300,000 more by going live a year earlier, so it creates $70,000 more value.",
+    "how": "When options deliver benefits at different times or in different amounts, compare net value — total benefits minus total life-cycle costs over the same horizon, discounted if the question asks — rather than total cost alone.",
+    "optionNotes": [
+      "Correct — Over the same five years, Option B nets $1,500,000 − $890,000 = $610,000, against $1,200,000 − $660,000 = $540,000 for Option A.",
+      "Incorrect — Option A does cost less, but a cost-only comparison ignores the $300,000 of savings lost while it spends year 1 being built.",
+      "Incorrect — Credits Option A with five years of savings and running costs, ignoring that nothing can be used during its one-year build.",
+      "Incorrect — Both options are worthwhile on their own, but only one will be chosen, so the recommendation should favor the one that adds more value."
+    ],
+    "deepDive": "Life-cycle cost comparisons are valid only when the options deliver the same benefits; when one option delivers value sooner or delivers more of it, the comparison must include benefits, which is why business cases use net value, NPV or benefit-cost ratios. Time to value is a recurring theme in value-based delivery: a capability that can be used earlier starts returning benefits and feedback earlier. Discounting would widen Option B's lead here, because its benefits start sooner. Build-versus-buy decisions should also weigh non-financial factors such as vendor lock-in, data ownership, internal capability and exit costs. The exam trap is choosing the option with the lowest cost when the options differ in the value they deliver.",
+    "tags": [
+      "net value",
+      "build vs buy",
+      "time to value",
+      "calculation",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "PRO-039",
+    "domain": "Process",
+    "task": "3. Help ensure value-based delivery",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Cost of delay — regulatory deadline",
+    "source": "ECO 2026 · Process Task 3",
+    "question": "The backlog for Veritas Payments' merchant portal includes a new analytics dashboard that customers keep asking for and a data-retention change required by a regulation taking effect in six weeks, with fines of up to 2% of annual revenue for non-compliance. The team can finish only one of the two before the deadline. What should the product owner prioritize?",
+    "options": [
+      "The dashboard first, then ask the regulator for an extension on the retention change",
+      "Both items at once, by splitting the team so each gets half of the available capacity",
+      "The data-retention change, because delaying it costs the most in the next six weeks",
+      "The analytics dashboard, because customers have expressed the strongest interest in it"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Value includes losses avoided, and some items lose their value — or create penalties — after a fixed date.",
+    "why": "Value-based prioritization weighs the cost of delaying each item. The retention change has a fixed-date profile: after six weeks, delay brings heavy fines and legal exposure, while the dashboard's value declines only gradually if it ships a sprint or two later. The compliance item therefore has the highest near-term cost of delay and should come first.",
+    "how": "Prioritize by cost of delay: combine business value, time criticality and risk reduction. Fixed regulatory deadlines with penalties usually dominate nice-to-have features.",
+    "optionNotes": [
+      "Incorrect — Relying on a regulatory extension is a gamble; planning around a deadline you cannot control shifts risk rather than managing it.",
+      "Incorrect — Splitting capacity usually means neither item is finished by the deadline, the worst of both outcomes.",
+      "Correct — The regulatory change has a fixed date with heavy penalties, so delaying it costs far more than delaying the dashboard.",
+      "Incorrect — Customer interest matters, but it ignores the large, time-critical cost of non-compliance."
+    ],
+    "deepDive": "Common cost-of-delay profiles are expedite (cost is immediate and high), fixed date (value drops sharply or penalties start after a date), standard (cost grows steadily) and intangible (little cost now, possibly large later). Regulatory deadlines follow the fixed-date profile. Techniques such as WSJF formalize this by dividing cost of delay by job size. The product owner decides, but the project manager or Scrum Master should make sure compliance obligations and their deadlines are visible in the backlog. A common exam trap is treating customer demand as the only form of value.",
+    "tags": [
+      "cost of delay",
+      "compliance",
+      "prioritization",
+      "product owner"
+    ]
+  },
+  {
+    "id": "PRO-040",
+    "domain": "Process",
+    "task": "3. Help ensure value-based delivery",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Incremental delivery in predictive projects",
+    "source": "ECO 2026 · Process Task 3 (assess incremental delivery)",
+    "question": "Castellan Bank is replacing its branch-management system through a two-year predictive program. The old system causes an estimated $400,000 of losses each month through manual errors, mostly in cash management and appointment booking. The current plan has one big release at the end of year two. How can the project manager help the organization realize value earlier?",
+    "options": [
+      "Add staff so that the entire system can be completed and deployed several months sooner",
+      "Keep a single release at the end to minimize integration, cutover and training risk",
+      "Shorten the testing phases so the full system can go live a few months earlier",
+      "Assess phased releases that put the highest-value modules into use first"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Even a predictive program does not have to deliver everything at once.",
+    "why": "Because losses are concentrated in cash management and appointment booking, releasing those modules first would start cutting the $400,000 monthly loss long before the full system is ready. Phased, incremental delivery improves the return on investment and gives early feedback, while the remaining modules follow in later releases. Assessing this option is the value-focused step.",
+    "how": "Regardless of approach, look for opportunities to deliver value incrementally: release the highest-value, lowest-dependency components first when the organization can use them.",
+    "optionNotes": [
+      "Incorrect — Adding people has diminishing returns and coordination costs, and the value would still arrive in one late release.",
+      "Incorrect — One final release postpones all benefits by two years while the monthly losses continue.",
+      "Incorrect — Cutting testing trades schedule for quality risk in a banking system and still delivers value all at once.",
+      "Correct — Releasing the high-loss modules first starts realizing benefits early and provides feedback for later releases."
+    ],
+    "deepDive": "From a finance perspective, benefits received sooner are worth more because of the time value of money: the same total benefit arriving earlier produces a higher NPV. Phased releases need planning for interim interfaces, data migration and training, so the project manager should weigh those costs. This is a classic hybrid tailoring move — a predictive program adopting incremental delivery. Brooks's law warns that adding people to a late software project can make it later.",
+    "tags": [
+      "incremental delivery",
+      "phased release",
+      "time value of money",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "PRO-041",
+    "domain": "Process",
+    "task": "3. Help ensure value-based delivery",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Retiring the legacy system to realize value",
+    "source": "ECO 2026 · Process Task 3 · Realizing benefits by retiring the legacy system",
+    "question": "Halverson Medical's hybrid program is replacing its patient-scheduling system: the software is built in sprints, and clinics move over in planned waves. The business case counts on $1.2 million a year in savings, mostly from switching off the old system and ending its support contract. Six months after the last wave, 90% of bookings use the new platform, but the old system still runs because three specialty clinics need it for complex multi-provider bookings the new one cannot yet handle. No retirement date exists, the support contract renews in four months, and the program's final release is due in six weeks. What should the project manager do?",
+    "options": [
+      "Report the savings as realized, since 90% of bookings now run on the new platform and users are satisfied",
+      "Work with the benefit owner and the clinics to close their gaps and agree a date to retire the old system",
+      "Ask the sponsor to direct the three specialty clinics to stop using the old system at the end of this month",
+      "Renew the old system's support contract for a year so that the specialty clinics are not disrupted meanwhile"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Look at where most of the promised savings are supposed to come from, and at what is keeping that from happening.",
+    "why": "Most of the benefit in the business case depends on retiring the old system, so while both systems run the organization pays twice and the value it invested for is not realized. The old system survives because of a genuine capability gap, so declaring success or forcing the clinics off it would both be premature. Treating retirement as part of delivery — having the product owner prioritize the complex-booking gaps and any data migration for the final release, and agreeing exit criteria and a retirement date with the benefit owner before the contract renews — turns an open-ended parallel run into a planned transition that releases the savings.",
+    "how": "When benefits depend on retiring something old — a system, process or contract — plan the retirement as part of delivery: find out what keeps users on the old way, close those gaps, and agree exit criteria and a date with the benefit owner.",
+    "optionNotes": [
+      "Incorrect — Most of the savings come from switching off the old system and its contract, so claiming them while it still runs overstates the value delivered.",
+      "Correct — Closing the gaps that keep the clinics on the old system and agreeing a retirement date with the benefit owner lets the planned savings actually occur.",
+      "Incorrect — Forcing clinics off before the new platform handles their complex bookings risks scheduling errors for patients and ignores why they still need it.",
+      "Incorrect — Renewing without a plan to close the gaps extends double running costs for another year and postpones the benefit with no end in sight."
+    ],
+    "deepDive": "Parallel running is a sound way to reduce cutover risk, but it needs exit criteria and an end date; otherwise the organization carries two sets of costs and the benefits in the business case never appear. Many business cases depend on disinvestment — retiring legacy systems, releasing licenses, closing sites or ending contracts — and these steps are easy to leave out of scope because they create nothing new. Value-based delivery treats them as backlog items or plan activities with owners and dates, tracked in the benefits management plan, and contract renewal dates are natural decision points to show on the roadmap. The exam trap is declaring success when the new product works, before the outcome the investment was approved for has been realized.",
+    "tags": [
+      "benefits realization",
+      "decommissioning",
+      "transition",
+      "hybrid",
+      "value"
+    ]
+  },
+  {
+    "id": "PRO-042",
+    "domain": "Process",
+    "task": "3. Help ensure value-based delivery",
+    "approach": "Agile",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Ordering the backlog by value",
+    "source": "ECO 2026 · Process Task 3",
+    "question": "At Tallis Software, a sales director asks two developers to move a large customer's feature to the top of the Product Backlog before the next sprint. The Scrum Master is unsure whether to allow it, and the sponsor who funds the product also has strong views about priorities. In Scrum, who should decide the order of the Product Backlog?",
+    "options": [
+      "The Developers, since they know the effort each item requires",
+      "The sponsor, since the sponsor funds the product's development",
+      "The Product Owner, after weighing the stakeholders' input",
+      "The Scrum Master, who manages impediments and the team's process"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Scrum gives one accountability the job of maximizing the product's value — who holds it?",
+    "why": "In Scrum, the Product Owner is accountable for maximizing the value of the product and for managing the Product Backlog, including its ordering. Stakeholders such as the sales director and sponsor influence priorities by working with the Product Owner, not by going to the developers directly. The organization must respect the Product Owner's decisions for the role to work.",
+    "how": "Scrum accountabilities: Product Owner — value and backlog ordering; Scrum Master — team effectiveness, coaching and impediments; Developers — planning and building each increment.",
+    "optionNotes": [
+      "Incorrect — Developers supply estimates and technical insight that inform ordering, but the Product Owner makes the ordering decision.",
+      "Incorrect — The sponsor funds the product and can influence the Product Owner, but does not own the backlog in Scrum.",
+      "Correct — The Product Owner orders the backlog to maximize value, taking stakeholders' needs into account.",
+      "Incorrect — The Scrum Master coaches and protects the process, including redirecting the sales director, but does not set priorities."
+    ],
+    "deepDive": "The Product Owner may delegate backlog work, such as writing items, but remains accountable for it; Scrum also expects the Product Owner to be one person, not a committee. The Scrum Master's role here is to coach the sales director on how to raise requests through the Product Owner. In predictive projects, the comparable decision about scope priorities would go through the sponsor and change control. A common exam trap is choosing the sponsor or the most senior stakeholder as the backlog owner.",
+    "tags": [
+      "product owner",
+      "backlog",
+      "Scrum",
+      "value"
+    ]
+  },
+  {
+    "id": "PRO-043",
+    "domain": "Process",
+    "task": "4. Plan and manage resources",
+    "approach": "Predictive",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Resource leveling vs. smoothing",
+    "source": "ECO 2026 · Process Task 4 (optimize resource needs)",
+    "question": "On a control-system upgrade for Brennan Utilities, the only certified commissioning engineer, Siddharth, is scheduled for 16 hours of work on several days in May. The project manager delays the start of two of his activities, one of them on the critical path, so that he never works more than 8 hours a day. As a result, the project end date moves out by one week. Which technique did the project manager use?",
+    "options": [
+      "Resource leveling",
+      "Resource smoothing",
+      "Fast tracking",
+      "Crashing"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Notice whether the adjustment stayed within float or was allowed to move the end date.",
+    "why": "The project manager adjusted activity dates to respect the engineer's availability, including a critical-path activity, and the end date moved. That is resource leveling, which resolves over-allocation even when it changes the critical path and finish date. Smoothing would only move activities within their float, leaving the end date unchanged.",
+    "how": "End date moved to resolve an over-allocation → leveling. Adjustments kept within float with no change to the end date → smoothing. Compression techniques (crashing, fast tracking) shorten the schedule instead.",
+    "optionNotes": [
+      "Correct — Leveling adjusts dates to respect resource limits and can move the critical path and end date, as happened here.",
+      "Incorrect — Smoothing works only within available float, so it would not delay a critical-path activity or move the end date.",
+      "Incorrect — Fast tracking overlaps activities to shorten the schedule; here the schedule got longer.",
+      "Incorrect — Crashing adds resources or cost to shorten durations; nothing was added and the schedule lengthened."
+    ],
+    "deepDive": "Resource histograms reveal over-allocations like Siddharth's 16-hour days. Leveling is common when a scarce, shared or single-skilled resource must not be overloaded; smoothing is used when the end date is fixed and float is available. After leveling, the critical path should be recalculated because it may have changed. Alternatives include finding a second qualified engineer or negotiating overtime, which trade cost or risk for time. In agile teams, the equivalent concern is managed through capacity-based sprint planning and WIP limits rather than individual leveling.",
+    "tags": [
+      "resource leveling",
+      "resource smoothing",
+      "critical path",
+      "over-allocation"
+    ]
+  },
+  {
+    "id": "PRO-044",
+    "domain": "Process",
+    "task": "4. Plan and manage resources",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "RACI rules",
+    "source": "ECO 2026 · Process Task 4 (define resource requirements)",
+    "question": "While reviewing the RACI chart for Solace Bank's data-center migration, the project manager notices that the row for the 'Data migration plan' deliverable shows three people marked 'A' — the infrastructure lead, the database lead and the security lead — and two people marked 'R.' When the draft plan was late last week, each 'A' assumed one of the others was following up. What should the project manager change?",
+    "options": [
+      "Remove the Consulted roles, since consulting too many people slows decisions down",
+      "Assign one Accountable person for the deliverable; others can be R, C or I",
+      "Leave it; shared accountability for a key deliverable tends to improve its quality",
+      "Make the project manager the Accountable person for every deliverable in the chart"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Last week's delay shows what happens when ownership is spread across several people.",
+    "why": "Each deliverable should have exactly one Accountable person — the one who owns the outcome and signs off. With three 'A's, each lead assumed another was following up, so no one did. Naming a single Accountable owner, with the others as Responsible, Consulted or Informed, removes the ambiguity; multiple Responsible people are fine.",
+    "how": "RACI = Responsible (does the work), Accountable (owns the outcome; only one per item), Consulted (two-way input), Informed (one-way updates). Check each row for exactly one 'A' and at least one 'R'.",
+    "optionNotes": [
+      "Incorrect — Consulted roles are often essential, especially for security; the problem is the three 'A's, not the consultation.",
+      "Correct — One Accountable owner per deliverable removes the diffusion of responsibility that caused last week's delay.",
+      "Incorrect — Shared accountability leads to gaps and finger-pointing, which is exactly what happened when the plan was late.",
+      "Incorrect — The 'A' should be whoever owns that outcome; making the project manager accountable for everything overloads one person and weakens ownership."
+    ],
+    "deepDive": "A RACI chart is one form of responsibility assignment matrix (RAM), linking work packages or activities to people. Variants add roles such as Support (RASCI) or Verify. Arrangements in which two managers jointly own one outcome recreate the two-'A' problem: when results slip, each can assume the other was in charge. In agile teams, accountability is often collective for the sprint goal, but clear ownership still matters for items such as backlog ordering (the product owner). A common trap is confusing multiple 'R's, which are acceptable, with multiple 'A's, which are not.",
+    "tags": [
+      "RACI",
+      "RAM",
+      "accountability",
+      "roles"
+    ]
+  },
+  {
+    "id": "PRO-045",
+    "domain": "Process",
+    "task": "4. Plan and manage resources",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Resource histogram",
+    "source": "ECO 2026 · Process Task 4 (manage availability)",
+    "question": "Halden Construction's project manager suspects that the site's two crane operators are booked beyond their availability during the steel-erection phase, but the long activity list makes this hard to see. Before the weekly coordination meeting, she wants a quick visual of each operator's scheduled hours per week, compared with a line showing their maximum available hours. Which tool should she use?",
+    "options": [
+      "A milestone chart of the steel-erection phase",
+      "An organizational breakdown structure",
+      "A resource breakdown structure",
+      "A resource histogram for each operator"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "She needs to see hours per period for one resource at a time, against a limit.",
+    "why": "A resource histogram is a bar chart of the hours a resource is scheduled in each period, usually with a line marking maximum availability. Bars that rise above the line show over-allocation at a glance, which is exactly what the project manager needs before deciding whether to level, smooth or add another operator.",
+    "how": "RBS = hierarchy of resource types; OBS = organizational units and the work assigned to them; histogram = a resource's usage over time against its availability.",
+    "optionNotes": [
+      "Incorrect — A milestone chart shows key dates and events, not how many hours each resource is booked per period.",
+      "Incorrect — An OBS maps work to organizational units; it does not show individual workloads over time.",
+      "Incorrect — An RBS categorizes resources by type, such as labor, equipment and materials, but shows no time-based usage.",
+      "Correct — A histogram shows each operator's hours per week against availability, making over-allocation visible immediately."
+    ],
+    "deepDive": "Resource histograms feed resource optimization: leveling (dates may move, including the end date) or smoothing (moves only within float). Resource calendars supply the availability line, and the schedule supplies the demand. In agile, over-allocation is managed at team level through capacity-based planning and WIP limits rather than individual histograms. A common trap is choosing the RBS because it contains the word 'resource,' even though it shows no time dimension.",
+    "tags": [
+      "resource histogram",
+      "overallocation",
+      "RBS",
+      "scheduling"
+    ]
+  },
+  {
+    "id": "PRO-046",
+    "domain": "Process",
+    "task": "4. Plan and manage resources",
+    "approach": "Predictive",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Acquiring team members in a matrix",
+    "source": "ECO 2026 · Process Task 4",
+    "question": "In Castile Systems' strong matrix organization, the project manager needs a senior security architect for eight weeks of design reviews. The architect reports to the head of cybersecurity, who has competing priorities and has not yet been approached. The project charter lists security accreditation as a key deliverable, and the project manager has budget authority. What is the MOST appropriate way to secure the architect?",
+    "options": [
+      "Assign the architect directly, since the PM has strong authority in a strong matrix",
+      "Ask the architect to help informally in spare time, to avoid a conflict with the manager",
+      "Negotiate with the head of cybersecurity for the architect's time and document it",
+      "Hire an external contractor so that the cybersecurity team's priorities are unaffected"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Even when the project manager's authority is high, consider who actually controls this person's time.",
+    "why": "In any matrix, people remain in their functional reporting line, so their managers control their availability. The project manager should negotiate with the head of cybersecurity, using the charter's accreditation deliverable to show the need, and document the agreement, for example in the resource calendar. This secures the architect without undermining the functional manager or the architect.",
+    "how": "Resource acquisition options include pre-assignment, negotiation, multi-criteria selection, virtual teams and external procurement. In matrix structures, negotiation with the functional manager is the normal route, and the agreement should be documented.",
+    "optionNotes": [
+      "Incorrect — A strong matrix gives the project manager more authority, but the functional manager still controls the architect's time and must be engaged.",
+      "Incorrect — Informal spare-time help is unreliable, unfair to the architect and bypasses the manager who sets priorities.",
+      "Correct — Negotiating with the resource owner and documenting the agreement is the standard, collaborative way to secure matrix resources.",
+      "Incorrect — Hiring externally before approaching the internal owner skips collaboration and may not meet accreditation needs."
+    ],
+    "deepDive": "Project manager authority rises across structures: functional (little or none), weak matrix (low), balanced matrix (low to moderate), strong matrix (moderate to high) and projectized (high to almost total). Even so, in matrix organizations people have two bosses, so negotiation and clear agreements reduce conflict. Resource calendars record the agreed availability and feed the schedule. In agile organizations the equivalent move is to secure stable, dedicated team members through the line manager rather than borrowing specialists part-time. A common exam trap is choosing 'assign directly' in a strong matrix.",
+    "tags": [
+      "matrix",
+      "negotiation",
+      "acquire resources",
+      "functional manager"
+    ]
+  },
+  {
+    "id": "PRO-047",
+    "domain": "Process",
+    "task": "4. Plan and manage resources",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Lead time to onboard contractors",
+    "source": "ECO 2026 · Process Task 4 · Resource acquisition lead times",
+    "question": "Aldren Water is upgrading the control systems at its treatment plants through a hybrid project. The resource plan assumes six contract engineers will start on site in five weeks, when their contracts are signed. During a planning review, the utility's security officer points out that anyone accessing control systems must pass background checks and a site-safety induction, which together usually take eight weeks. The contractors have been selected but not yet vetted. What should the project manager do?",
+    "options": [
+      "Ask the security officer to let the contractors start with supervised access while their checks are in progress",
+      "Start the checks for the named contractors now and update the resource plan and schedule for the lead time",
+      "Assign internal engineers to the first three weeks of control-system work until the contractors are cleared",
+      "Escalate to the sponsor so that the security requirements can be waived for this time-critical project"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Security rules for critical infrastructure are a constraint, so focus on what can be changed within them.",
+    "why": "Background checks and induction are mandatory controls for access to critical infrastructure, so the eight-week lead time is a constraint the plan must reflect. Starting the checks immediately recovers as much time as possible, and updating the resource management plan and schedule shows the realistic start date and its knock-on effects, which can then be managed — for example by resequencing work or, if an approved baseline is affected, through change control. The other options either bypass a compliance control or reassign work without analysis.",
+    "how": "Include acquisition lead times — hiring, vetting, onboarding, access and training — in resource planning, start them early, and adjust the plan rather than bypassing controls.",
+    "optionNotes": [
+      "Incorrect — Letting unvetted people near control systems breaches a security control; supervision does not replace the required background checks.",
+      "Correct — Starting vetting now shortens the delay, and updating the plan makes the real start date and its effects visible for decisions.",
+      "Incorrect — Reassigning internal engineers without checking their skills and availability may just move the problem; the lead time still has to be planned.",
+      "Incorrect — Seeking a waiver of security rules for critical infrastructure is inappropriate; the requirement is a constraint to plan around, not an impediment."
+    ],
+    "deepDive": "Resource planning covers not only how many people with which skills, but also when they can actually be productive. Lead times for recruitment, procurement, security clearance, site induction, equipment and system access often exceed what planners allow, especially in regulated or critical-infrastructure settings. The resource management plan should record these steps and their durations, and the schedule should show them as activities with owners. In agile teams the same issue appears as new members waiting days for tool and environment access, which cuts into sprint capacity. The exam trap is treating a compliance requirement as an obstacle to escalate rather than a constraint to plan for.",
+    "tags": [
+      "resource acquisition",
+      "lead time",
+      "contractors",
+      "security",
+      "resource management plan"
+    ]
+  },
+  {
+    "id": "PRO-048",
+    "domain": "Process",
+    "task": "4. Plan and manage resources",
+    "approach": "Predictive",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Resource calendars",
+    "source": "ECO 2026 · Process Task 4 (manage availability)",
+    "question": "Mireille Dubois is building the schedule for a museum-exhibit installation at Galerie Nord. Two specialist conservators work only Tuesday to Friday, the scissor lift is booked by another project in the second week of March, and one technician has three weeks of leave in April. Where should this availability information be recorded so that the schedule reflects it?",
+    "options": [
+      "In the resource calendars",
+      "In the team charter",
+      "In the project calendar only",
+      "In the resource breakdown structure"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "The constraints differ from one person or piece of equipment to another.",
+    "why": "Resource calendars record when each specific person or piece of equipment is available — working days, shifts, bookings, holidays and leave. Feeding them into the schedule ensures activities are planned only when the conservators, lift and technician can actually work, avoiding an unrealistic plan.",
+    "how": "Project calendar = working days and times for the project as a whole; resource calendar = availability of a specific person or piece of equipment.",
+    "optionNotes": [
+      "Correct — Resource calendars capture each person's and each item of equipment's availability so the schedule can respect it.",
+      "Incorrect — The team charter records values, working agreements and ground rules, not individual availability dates.",
+      "Incorrect — The project calendar sets working days for the whole project; it cannot show that one technician is on leave.",
+      "Incorrect — The RBS categorizes resources by type but has no time dimension for availability."
+    ],
+    "deepDive": "Resource calendars are produced when resources are acquired and are used when estimating durations, developing the schedule and optimizing resources. Shared equipment such as the lift is a classic source of hidden conflicts between projects, so its bookings belong in its calendar too. In agile teams, planned absences are handled through capacity planning at the start of each sprint. A common trap is assuming the project calendar covers individual availability.",
+    "tags": [
+      "resource calendar",
+      "availability",
+      "scheduling"
+    ]
+  },
+  {
+    "id": "PRO-049",
+    "domain": "Process",
+    "task": "4. Plan and manage resources",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Stable, dedicated teams",
+    "source": "ECO 2026 · Process Task 4",
+    "question": "To 'maximize utilization,' the operations director at Quillon Retail proposes assigning each of twelve developers to four different agile teams at 25% each, so that no one is ever idle. The agile coach asks the project manager to explain the likely effect to the director before the change is announced. What is the MOST likely effect of this change?",
+    "options": [
+      "Higher throughput, because every developer is fully utilized across the four teams",
+      "Better knowledge sharing across the teams, with little effect on delivery",
+      "No real effect, as long as each developer's total working hours stay the same",
+      "Lower productivity and predictability, due to context switching and divided focus"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Think about what happens to focus, team cohesion and capacity forecasts when people are split four ways.",
+    "why": "Splitting each developer across four teams creates heavy context-switching losses, divided loyalties and capacity that no team can rely on. Throughput and predictability fall even though everyone looks busy. Agile favors stable, dedicated, cross-functional teams because they optimize the flow of value, not the utilization of individuals.",
+    "how": "Resource efficiency (keeping people busy) and flow efficiency (delivering value quickly) often conflict; agile optimizes for flow with stable, dedicated teams.",
+    "optionNotes": [
+      "Incorrect — Full utilization tends to lengthen queues and waiting, so throughput usually falls rather than rises.",
+      "Incorrect — Some knowledge may spread, but switching costs and unreliable capacity far outweigh that benefit.",
+      "Incorrect — Hours are not output; time lost to switching and re-learning makes the same hours much less productive.",
+      "Correct — Multitasking across four teams erodes focus, cohesion and reliable capacity, reducing productivity and predictability."
+    ],
+    "deepDive": "A widely quoted rule of thumb from Gerald Weinberg estimates that each extra concurrent project costs about 20% of a person's time to switching; with four projects, only about 40% of time goes to productive work. Queueing theory adds that as utilization approaches 100%, wait times grow sharply. Stable teams also build trust and a reliable velocity, which makes forecasting possible. A common exam trap is equating busy people with high output.",
+    "tags": [
+      "dedicated teams",
+      "multitasking",
+      "utilization",
+      "flow"
+    ]
+  },
+  {
+    "id": "PRO-050",
+    "domain": "Process",
+    "task": "4. Plan and manage resources",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "A Scrum team that has grown too large",
+    "source": "ECO 2026 · Process Task 4 · Agile practice: right-sizing teams",
+    "question": "Over six months, the Scrum team building Talvio Bank's small-business lending app has grown from seven to 15 people as new skills were added. Daily scrums now take 40 minutes, sprint planning takes most of a day, and several developers say they rarely speak in team events and are unsure what others are working on. Velocity has not risen despite the extra people. The product owner wants to keep one product and one backlog. What should the project manager do?",
+    "options": [
+      "Limit the daily scrum to the most senior developers and have them pass updates on to the rest of the team",
+      "Replace the daily scrum with a written status update so that it no longer takes 40 minutes of team time",
+      "Help the team split into two cross-functional teams that share the one product backlog and owner",
+      "Add a second Scrum Master so that the large team's events can be facilitated more tightly and kept short"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Think about how the number of people affects the communication paths inside a single team.",
+    "why": "With 15 people, the communication paths within the team have grown from 21 to 105, so events lengthen, many members disengage, and coordination absorbs the added capacity. The Scrum Guide suggests 10 or fewer people per Scrum Team and says larger teams should reorganize into multiple cohesive teams focused on the same product, sharing one product backlog and product owner. Letting the team decide how to split, while keeping each new team cross-functional, preserves the product owner's single backlog and restores effective collaboration.",
+    "how": "When an agile team grows beyond about ten people, help it self-organize into smaller cross-functional teams on the same backlog, rather than patching its events or adding hierarchy.",
+    "optionNotes": [
+      "Incorrect — Restricting the daily scrum to senior developers creates a hierarchy and a relay, so most of the team loses direct coordination.",
+      "Incorrect — Written updates remove the conversation that makes the daily scrum useful and do nothing about the team size causing the problem.",
+      "Correct — Smaller cross-functional teams sharing one backlog and product owner cut communication overhead while keeping a single product focus.",
+      "Incorrect — A second Scrum Master may tighten facilitation, but it does not reduce the number of communication paths in a 15-person team."
+    ],
+    "deepDive": "Team size is a resource-planning decision: small teams communicate more effectively, while very small teams may lack the skills they need. The Scrum Guide describes a Scrum Team as typically 10 or fewer people and notes that larger groups should reorganize into multiple teams sharing the same product goal, product backlog and product owner. Splitting by feature area or customer journey, rather than by technical component, keeps each team able to deliver usable increments. Once several teams exist, a cross-team coordination forum and a shared definition of done become important. The exam trap is fixing the symptoms, such as long meetings, without addressing team size.",
+    "tags": [
+      "team size",
+      "scrum",
+      "resource planning",
+      "agile"
+    ]
+  }
+]

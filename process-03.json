@@ -1,0 +1,939 @@
+[
+  {
+    "id": "PRO-051",
+    "domain": "Process",
+    "task": "4. Plan and manage resources",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Closing skill gaps",
+    "source": "ECO 2026 · Process Task 4 / People Task 3",
+    "question": "Halvorsen Logistics is moving its order-management system to a cloud platform the company has never used. A team performance assessment after the first month shows that only one of the seven developers has hands-on experience with the platform's security and deployment services, and early work items are taking twice as long as estimated. The go-live date has about three weeks of float, and the sponsor has said the budget can absorb modest training costs. What should the project manager do?",
+    "options": [
+      "Keep the current plan and let the developers learn the platform on the job as problems come up in each sprint",
+      "Remove the cloud-dependent features from the release scope so that the skills gap no longer affects delivery",
+      "Replace most of the developers with experienced cloud contractors supplied by the platform vendor",
+      "Arrange targeted training and pairing with the experienced developer, and update the plans to match"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Consider what the three weeks of float and the sponsor's comment about the budget make possible.",
+    "why": "The assessment has pinpointed a specific competency gap, and the three weeks of float plus the sponsor's training allowance make developing the existing team feasible. Targeted training combined with pairing alongside the one experienced developer closes the gap quickly while keeping the team's business knowledge. Because learning takes time and early velocity is lower, the resource management plan and schedule should be updated so forecasts stay realistic.",
+    "how": "For a skills gap, first ask whether time and budget allow development (training, coaching, pairing); if not, consider augmentation such as contractors. Whichever you choose, update the resource plan and schedule so the plan reflects reality.",
+    "optionNotes": [
+      "Incorrect — Unstructured on-the-job learning leaves the gap unmanaged on critical technology, keeps estimates wrong and raises security and schedule risk.",
+      "Incorrect — Cutting scope to avoid training sacrifices required value, needs change control, and is unnecessary when the gap can be closed.",
+      "Incorrect — Wholesale replacement is costly and disruptive and loses business knowledge; augmentation is a fallback when there is no time to develop people.",
+      "Correct — It develops the existing team using the available float and budget, retains domain knowledge, and keeps the plans realistic."
+    ],
+    "deepDive": "The resource management plan describes how the team will be acquired, developed and released, including training strategy and recognition. Team performance assessments are a key input for spotting competency gaps early; responses range from training, coaching, pairing and mentoring to bringing in specialists. In agile teams, pairing and mob programming spread knowledge and reduce single-person dependencies at the same time. A common exam trap is choosing replacement or scope reduction when the scenario signals that time and budget exist to develop the team you have.",
+    "tags": [
+      "training",
+      "develop team",
+      "skill gap",
+      "pairing",
+      "resource management plan"
+    ]
+  },
+  {
+    "id": "PRO-052",
+    "domain": "Process",
+    "task": "4. Plan and manage resources",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Physical resources — just-in-time",
+    "source": "ECO 2026 · Process Task 4",
+    "question": "On a six-storey office building, the steel supplier has been delivering beams in large batches weeks before the erection crew needs them. The laydown area now blocks the fire lane, the safety officer has filed two near-miss reports, and the owner's cost engineer notes that the project is paying for steel it will not install for a month. The supply contract allows delivery dates to be adjusted with notice. What should the project manager do?",
+    "options": [
+      "Stop all steel orders until the laydown area is clear, then place the remaining orders in one large batch",
+      "Order all of the remaining steel now to lock in current prices and avoid any risk of later supply delays",
+      "Rent a storage yard nearby and move every early delivery there until the erection crew is ready for it",
+      "Agree a just-in-time delivery schedule with the supplier that follows the erection sequence"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Ask what is actually causing the clutter, the hazard and the idle cash, and fix that cause.",
+    "why": "The root cause is a mismatch between delivery timing and the construction sequence. Coordinating just-in-time deliveries tied to the erection schedule and the laydown capacity removes the congestion and the fire-lane hazard, reduces the money tied up in idle materials, and keeps the crew supplied. The contract already allows delivery dates to move, so this is achievable through normal supplier coordination.",
+    "how": "For physical resources, plan the right quantity in the right place at the right time: align deliveries with the schedule and site constraints, and manage supply risk with lead-time buffers or supplier agreements rather than stockpiles.",
+    "optionNotes": [
+      "Incorrect — Halting orders risks starving the critical path, and a later bulk order recreates the same congestion and safety problem.",
+      "Incorrect — Pulling all material forward worsens the congestion, the fire-lane hazard and the money tied up in steel that will not be installed for weeks.",
+      "Incorrect — Off-site storage adds cost and double handling but leaves the delivery-timing problem that caused the clutter untouched.",
+      "Correct — It fixes the root cause by synchronizing deliveries with the erection sequence and site capacity, removing the hazard and idle inventory."
+    ],
+    "deepDive": "Physical resource management aims to have materials, equipment and supplies available when needed without excess inventory. Lean and just-in-time approaches cut waste such as storage, double handling and damage, but they depend on reliable suppliers, so the PM should keep lead-time buffers for critical items and monitor supplier performance. Receiving and paying for material early also draws on project funds sooner than the spending plan assumed, which can strain funding limits. Safety hazards are never an acceptable trade-off; the exam expects prompt action that removes the hazard at its source.",
+    "tags": [
+      "JIT",
+      "physical resources",
+      "inventory",
+      "site logistics",
+      "lean"
+    ]
+  },
+  {
+    "id": "PRO-053",
+    "domain": "Process",
+    "task": "5. Plan and manage procurement",
+    "approach": "Predictive",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Firm fixed price contracts",
+    "source": "ECO 2026 · Process Task 5 (select contract types)",
+    "question": "A regional hospital group is buying 500 identical network switches, with installation, for three sites. The specification is detailed and stable, several suppliers sell the same model, and the finance director wants the purchase cost locked in before the new budget year starts. The procurement manager asks the project manager which contract type to propose. Which contract type places the LEAST cost risk on the buyer?",
+    "options": [
+      "Cost plus award fee",
+      "Firm fixed price",
+      "Time and materials",
+      "Cost plus fixed fee"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Think about who absorbs an overrun when the scope is well defined and sellers can price it confidently.",
+    "why": "With a detailed, stable specification and competitive supply, sellers can price the work confidently, so a firm fixed price (FFP) contract is appropriate. Under FFP the seller commits to deliver the defined scope for the agreed price and absorbs any cost overrun, which gives the finance director the certainty required. Cost-reimbursable and T&M contracts leave the buyer paying for whatever the work ends up costing.",
+    "how": "Match contract type to scope certainty: well-defined scope → fixed price (lowest buyer risk); uncertain scope → cost-reimbursable; short, open-ended staffing needs → T&M with a not-to-exceed cap.",
+    "optionNotes": [
+      "Incorrect — Under cost plus award fee the buyer reimburses all allowable costs plus a subjectively awarded fee, so the buyer carries the overrun risk.",
+      "Correct — The seller commits to the defined scope for a fixed price and absorbs overruns, which suits a stable, detailed specification.",
+      "Incorrect — T&M pays for hours and materials as they accrue, so the buyer's cost grows with effort; it suits undefined work, not a clear purchase.",
+      "Incorrect — Cost plus fixed fee reimburses every allowable cost and fixes only the fee, so the buyer still bears the cost risk."
+    ],
+    "deepDive": "Buyer cost risk runs roughly from lowest to highest: FFP, fixed price incentive fee, fixed price with economic price adjustment, then cost plus incentive fee, cost plus award fee, cost plus fixed fee and, highest, cost plus percentage of cost; T&M sits in between as a hybrid. FP-EPA suits multi-year deals where inflation or commodity prices may move. A fixed price is only as firm as the scope: vague specifications invite change orders and claims, so the procurement statement of work must be precise. As buyer risk falls, seller risk rises, which is why sellers add a risk premium to fixed prices for uncertain work.",
+    "tags": [
+      "FFP",
+      "contract types",
+      "procurement",
+      "buyer risk"
+    ]
+  },
+  {
+    "id": "PRO-054",
+    "domain": "Process",
+    "task": "5. Plan and manage procurement",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Cost-reimbursable contracts",
+    "source": "ECO 2026 · Process Task 5",
+    "question": "A national energy agency wants a university spin-off to research a new solid-state battery chemistry over 18 months. Nobody can yet say how many test cycles or material formulations the work will need, and the agency wants the researchers to have a reason to keep costs down. Two potential sellers have said they would bid a fixed price only with a very large risk premium. Which contract type is MOST appropriate?",
+    "options": [
+      "Fixed price with economic price adjustment tied to an inflation index for materials",
+      "A purchase order issued against the seller's published price list for research services",
+      "Cost plus incentive fee, with savings against a target cost shared with the seller",
+      "Firm fixed price based on a detailed statement of work drafted by the agency's engineers"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Consider what a seller can reasonably commit to when nobody knows how much work is needed, and how the buyer can still encourage cost control.",
+    "why": "The scope and effort are genuinely uncertain, so a fixed price would either be refused or carry a large premium, as the sellers have said. A cost-reimbursable contract lets the buyer pay allowable costs as the research unfolds, and the incentive fee — adjusted by comparing actual cost with a target cost using a share ratio — gives the seller the reason to control costs that the agency wants.",
+    "how": "When scope cannot be defined, use a cost-reimbursable contract; add an incentive fee (CPIF) when the buyer wants the seller motivated on cost, or an award fee (CPAF) when performance is judged against subjective criteria.",
+    "optionNotes": [
+      "Incorrect — Economic price adjustment protects both parties against inflation on a defined scope; it does nothing about not knowing how much work is needed.",
+      "Incorrect — Purchase orders suit simple, standard items with known prices, not open-ended research whose effort cannot be estimated.",
+      "Correct — Reimbursing costs suits uncertain research, and the incentive fee rewards underruns and penalizes overruns against the target cost.",
+      "Incorrect — A detailed SOW cannot be written for unknown work, and the sellers have already warned they would add a large risk premium."
+    ],
+    "deepDive": "Cost-reimbursable variants differ in how the fee is set: cost plus fixed fee (a fee fixed as a percentage of the initial estimated cost), cost plus incentive fee (a fee adjusted by a buyer/seller share ratio against a target cost), and cost plus award fee (a fee awarded against criteria the buyer evaluates). Because the buyer carries the cost risk, it needs strong cost monitoring, audit rights and a clear definition of allowable costs. A frequent exam trap is choosing FFP whenever 'cost control' appears; FFP controls cost only when scope is well defined. For very uncertain work, buyers often use a cost-reimbursable research phase followed by a fixed-price production phase.",
+    "tags": [
+      "cost-reimbursable",
+      "CPIF",
+      "research",
+      "contract types"
+    ]
+  },
+  {
+    "id": "PRO-055",
+    "domain": "Process",
+    "task": "5. Plan and manage procurement",
+    "approach": "Any",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Time and materials contracts",
+    "source": "ECO 2026 · Process Task 5",
+    "question": "A project to launch an employee benefits portal has a regression-testing backlog ahead of its release. The test lead estimates the team needs two additional testers for roughly six weeks, but the exact effort depends on how many defects the current sprint turns up. The buyer wants the testers to start next week and to be able to end the engagement as soon as the backlog is cleared. Which contract type is MOST suitable?",
+    "options": [
+      "Firm fixed price",
+      "Fixed price incentive fee",
+      "Time and materials",
+      "Cost plus award fee"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "This is short-term staff augmentation where the amount of work cannot be pinned down in advance.",
+    "why": "The need is short-term staff augmentation with effort that cannot be defined precisely, and the buyer wants a quick start and the freedom to stop. Time and materials pays agreed rates for the hours actually worked, so it fits open-ended, short engagements; a not-to-exceed ceiling can be added to limit the buyer's exposure.",
+    "how": "T&M is a hybrid: open-ended like a cost-reimbursable contract, with fixed unit rates like a fixed-price one. Choose it for staff augmentation or small, undefined efforts, and cap it with a not-to-exceed value.",
+    "optionNotes": [
+      "Incorrect — A fixed price needs a defined scope; here the effort depends on defects not yet found, so sellers would pad the price heavily.",
+      "Incorrect — FPIF requires a defined scope, target cost, share ratio and ceiling, which is heavy machinery for six weeks of variable testing help.",
+      "Correct — Paying agreed rates for hours worked fits short, uncertain staff augmentation and lets the buyer stop once the backlog is cleared.",
+      "Incorrect — An award-fee contract adds subjective fee evaluations and cost audits, which is disproportionate overhead for two temporary testers."
+    ],
+    "deepDive": "T&M contracts are common for staff augmentation, expert advice and small support engagements. Their weakness is that the seller has little incentive to finish quickly, so buyers add not-to-exceed limits, approve timesheets and review progress frequently. In agile contracting, capped T&M and fixed price per iteration are popular because they keep scope flexible while bounding spend. Exam trap: T&M is not chosen because it is cheapest, but because the amount of work is unknown and the engagement is short.",
+    "tags": [
+      "T&M",
+      "staff augmentation",
+      "contract types",
+      "not-to-exceed"
+    ]
+  },
+  {
+    "id": "PRO-056",
+    "domain": "Process",
+    "task": "5. Plan and manage procurement",
+    "approach": "Predictive",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Point of total assumption (calculation)",
+    "source": "ECO 2026 · Process Task 5",
+    "question": "Norvik Rail has awarded a fixed price incentive fee (FPIF) contract for signaling cabinets. The terms are: target cost $100,000, target profit $10,000, target price $110,000, ceiling price $120,000, and a buyer/seller share ratio of 80/20. Midway through, the seller reports that its costs are trending well above target, and the buyer's project manager wants to know the cost level beyond which every extra dollar of overrun falls entirely on the seller. What is the point of total assumption (PTA)?",
+    "options": [
+      "$110,000",
+      "$112,500",
+      "$120,000",
+      "$125,000"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Work out how much overrun the buyer's share can absorb before the price reaches the ceiling.",
+    "why": "PTA = (Ceiling price − Target price) ÷ Buyer's share + Target cost = ($120,000 − $110,000) ÷ 0.80 + $100,000 = $12,500 + $100,000 = $112,500. Check: at $112,500 the overrun is $12,500; the seller absorbs 20% ($2,500), so profit falls to $7,500 and the price reaches $120,000, the ceiling. Above that cost the buyer pays nothing more, so every further dollar comes out of the seller's profit.",
+    "how": "For PTA, divide the gap between ceiling price and target price by the buyer's share (the first number in the ratio), then add the target cost. PTA always lies above the target cost.",
+    "optionNotes": [
+      "Incorrect — $110,000 is the target price, the agreed price at target cost, not the cost level at which the ceiling starts to bind.",
+      "Correct — $10,000 ÷ 0.80 + $100,000 = $112,500; beyond this cost the seller absorbs all additional overrun.",
+      "Incorrect — $120,000 is the ceiling price, the most the buyer will pay, which is different from the cost at which that ceiling is reached.",
+      "Incorrect — Uses the ceiling price minus the target cost ($20,000 ÷ 0.80 + $100,000), which mixes a price with a cost."
+    ],
+    "deepDive": "FPIF contracts share overruns and underruns up to the ceiling price, protecting the buyer while still rewarding efficient sellers. Between target cost and PTA, the buyer pays its share of overruns; beyond PTA the contract behaves like a firm fixed price and the seller loses a dollar of profit for every extra dollar of cost. Sellers operating above PTA may be tempted to cut corners or pursue claims, so the buyer should step up quality inspections and scrutinize change requests. The formula uses the buyer's share because it is the buyer's payments that hit the ceiling.",
+    "tags": [
+      "PTA",
+      "FPIF",
+      "calculation",
+      "contract types"
+    ]
+  },
+  {
+    "id": "PRO-057",
+    "domain": "Process",
+    "task": "5. Plan and manage procurement",
+    "approach": "Predictive",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "CPIF calculation",
+    "source": "ECO 2026 · Process Task 5",
+    "question": "Tessel Labs hired a contractor under a cost plus incentive fee (CPIF) contract to build a sample-tracking system. The terms are: target cost $200,000, target fee $20,000, and a buyer/seller share ratio of 70/30. The contractor finishes with audited allowable costs of $180,000, and Tessel's finance team asks the project manager to confirm the final payment before the contract is closed. What is the total amount the buyer pays?",
+    "options": [
+      "$200,000",
+      "$206,000",
+      "$214,000",
+      "$220,000"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Find the variance from target cost, decide whose share of it adjusts the fee, then remember what a cost-reimbursable buyer always pays.",
+    "why": "Underrun = target cost − actual cost = $200,000 − $180,000 = $20,000. The seller's 30% share of the underrun is $6,000, which is added to the target fee: $20,000 + $6,000 = $26,000. Under a cost-reimbursable contract the buyer pays actual allowable cost plus fee: $180,000 + $26,000 = $206,000.",
+    "how": "In incentive contracts, compute the variance from target cost, apply the SELLER's share to adjust the fee (add for an underrun, subtract for an overrun), then add the fee to actual cost (CPIF) or test the result against the ceiling price (FPIF).",
+    "optionNotes": [
+      "Incorrect — $200,000 is the target cost; the buyer pays actual allowable cost plus the adjusted fee, not the target.",
+      "Correct — Fee = $20,000 + 30% × $20,000 = $26,000; payment = $180,000 + $26,000 = $206,000.",
+      "Incorrect — Applies the buyer's 70% share to the underrun ($14,000) instead of the seller's 30%, which overstates the fee.",
+      "Incorrect — $220,000 is the target price (target cost plus target fee), which ignores the underrun entirely."
+    ],
+    "deepDive": "The share ratio aligns interests: the seller earns more fee when it underruns and less when it overruns, while the buyer keeps most of any saving — here the buyer pays $14,000 less than the $220,000 target price. CPIF contracts often set minimum and maximum fees to limit swings. Under an FPIF contract the same arithmetic applies, but the total price is capped at the ceiling. Before final payment, the buyer should confirm that costs are allowable (through audit), deliverables are accepted and any claims are settled.",
+    "tags": [
+      "CPIF",
+      "incentive fee",
+      "calculation",
+      "contract closure"
+    ]
+  },
+  {
+    "id": "PRO-058",
+    "domain": "Process",
+    "task": "5. Plan and manage procurement",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Make-or-buy analysis",
+    "source": "ECO 2026 · Process Task 5 (plan procurement)",
+    "question": "A records-management project at a regional insurer needs a document-scanning module. The internal team estimates it could build the module for $90,000 over four months; a proven commercial product costs $30,000 a year and is available now. The development lead is keen to build, and the finance analyst's draft recommendation compares only the $90,000 build estimate with one year of license fees. Before the make-or-buy decision goes to the sponsor, what should the analysis also include?",
+    "options": [
+      "Life-cycle cost, time to market, internal capability and capacity, strategic fit, and risk",
+      "Mainly the developers' preference, since the team will have to support the module for years",
+      "Mainly the vendor's brand reputation and its market share in document-scanning software",
+      "Mainly the first-year cost, since that is the amount the current budget has to cover"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Ask whether one year of fees against a one-off estimate really compares like with like, and what else the sponsor needs beyond price.",
+    "why": "Make-or-buy analysis compares total cost over the expected life — build cost plus ongoing maintenance and support versus years of license fees — not one year against a one-off estimate. It also weighs whether the organization has the capability and capacity to build and maintain the module, how soon the value is needed, whether the capability is strategic or a commodity, and the risks of each path, such as vendor lock-in or build overruns. Only that fuller picture supports a sound recommendation.",
+    "how": "For make-or-buy, compare life-cycle (total) cost over a common time horizon, then add the non-financial factors: capability, capacity, schedule, strategic importance, intellectual property and risk.",
+    "optionNotes": [
+      "Correct — It covers a like-for-like life-cycle cost comparison plus the non-financial factors the sponsor needs for a sound decision.",
+      "Incorrect — Team preference is not a decision criterion; support capacity matters, but it belongs inside the cost and capability analysis.",
+      "Incorrect — Vendor reputation is one input to risk and source selection, but it cannot replace a cost, capability and schedule comparison.",
+      "Incorrect — Looking only at year one ignores recurring license fees and build maintenance, so it distorts the comparison in either direction."
+    ],
+    "deepDive": "A quick break-even shows that three years of licenses ($90,000) roughly equal the build estimate, but building also brings maintenance, hosting and upgrade costs, while buying brings price increases and lock-in risk. Time to market matters as well: four months of building delays the benefits the module enables. The make-or-buy decision feeds the procurement strategy and the choice of contract type; buying commodity capability often frees the team for work that differentiates the organization. For multi-year comparisons, discounting the cash flows to present value makes the options directly comparable.",
+    "tags": [
+      "make-or-buy",
+      "TCO",
+      "procurement planning",
+      "life-cycle cost"
+    ]
+  },
+  {
+    "id": "PRO-059",
+    "domain": "Process",
+    "task": "5. Plan and manage procurement",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Bidder conferences",
+    "source": "ECO 2026 · Process Task 5 (execute procurement strategy)",
+    "question": "During a bidder conference for a data-center cooling upgrade, all questions are answered openly in the session. Afterward, one prospective seller's account manager catches the project manager in the car park and asks whether the buyer would accept a different refrigerant from the one named in the specification. The answer could change how sellers price their proposals. What should the project manager do?",
+    "options": [
+      "Decline to discuss it, since questions were accepted only during the formal session",
+      "Answer the question privately to build a good working relationship with that seller",
+      "Log the question and issue the answer to all prospective sellers in a formal addendum",
+      "Answer only if the seller is the preferred vendor with a strong past-performance record"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Consider what every bidder needs in order to compete on equal terms.",
+    "why": "Bidder conferences exist so that every prospective seller has the same understanding of the procurement. A question that could change pricing reveals a possible ambiguity, so it must be documented and the answer shared with all bidders, typically through a formal addendum or clarification notice. Answering privately would give one seller an advantage and breach fairness.",
+    "how": "In procurement, give all bidders equal information: document every question, answer it for everyone through the formal channel, and never favor a seller.",
+    "optionNotes": [
+      "Incorrect — Refusing leaves a possible ambiguity in the specification unresolved, which can produce non-comparable bids or later claims.",
+      "Incorrect — A private answer gives one bidder information the others lack, which is unfair and can taint the whole selection.",
+      "Correct — Documenting the question and sharing the answer with every bidder keeps the process fair, transparent and defensible.",
+      "Incorrect — Favoring a preferred vendor during bidding violates the fairness standard in PMI's Code of Ethics and procurement rules."
+    ],
+    "deepDive": "PMI's Code of Ethics lists fairness as a core value: provide equal access to information and avoid favoritism and conflicts of interest. Bidder conferences (also called contractor or pre-bid conferences) should record all questions and answers, and any change to requirements should be issued to every bidder with enough time to respond. Watch for collusion between sellers and for sellers seeking informal access to evaluators. In public procurement, private contact during the bidding period can invalidate the award.",
+    "tags": [
+      "bidder conference",
+      "fairness",
+      "ethics",
+      "procurement"
+    ]
+  },
+  {
+    "id": "PRO-060",
+    "domain": "Process",
+    "task": "5. Plan and manage procurement",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Weighted source selection",
+    "source": "ECO 2026 · Process Task 5",
+    "question": "A city transit agency is selecting a vendor for a fare-payment app. The evaluation plan, approved before proposals were opened, weights the criteria as technical approach 50%, price 30% and experience 20%. The panel's consensus scores (out of 10) are: Seller X — technical 8, price 6, experience 9; Seller Y — technical 7, price 9, experience 8. A board member favors Seller X because it has the best technical score. Which seller ranks higher, and with what weighted score?",
+    "options": [
+      "Seller X with 7.6",
+      "Seller Y with 7.6",
+      "Seller Y with 7.8",
+      "Seller X with 7.8"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Apply the agreed weights to every criterion for both sellers before comparing.",
+    "why": "Seller X: 8 × 0.5 + 6 × 0.3 + 9 × 0.2 = 4.0 + 1.8 + 1.8 = 7.6. Seller Y: 7 × 0.5 + 9 × 0.3 + 8 × 0.2 = 3.5 + 2.7 + 1.6 = 7.8. Seller Y ranks higher despite X's better technical score, because Y's strength on price outweighs a one-point technical gap under the agreed weights.",
+    "how": "Weighted score = Σ(weight × score) for each seller. Compute every seller with the pre-agreed weights before choosing; no single criterion decides the result on its own.",
+    "optionNotes": [
+      "Incorrect — 7.6 is Seller X's correct weighted score, but it is lower than Seller Y's, so X does not rank higher.",
+      "Incorrect — Seller Y does rank higher, but its weighted score is 3.5 + 2.7 + 1.6 = 7.8, not 7.6.",
+      "Correct — Seller Y's 3.5 + 2.7 + 1.6 = 7.8 beats Seller X's 7.6 under the agreed weights.",
+      "Incorrect — Seller X's weighted score is 4.0 + 1.8 + 1.8 = 7.6; the 7.8 belongs to Seller Y."
+    ],
+    "deepDive": "Source selection criteria can include technical approach, price or life-cycle cost, experience, financial capacity, management approach and past performance. Weights and scoring guides should be approved before proposals are opened so the evaluation is objective and defensible; changing weights afterward to favor a seller is an ethics and audit problem. Many buyers first apply a screening system of pass/fail must-haves, such as a security certification, and then weight the remaining proposals. Exam trap: stopping at the most heavily weighted criterion instead of computing the full weighted total.",
+    "tags": [
+      "source selection",
+      "weighted scoring",
+      "calculation",
+      "procurement"
+    ]
+  },
+  {
+    "id": "PRO-061",
+    "domain": "Process",
+    "task": "5. Plan and manage procurement",
+    "approach": "Predictive",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Procurement statement of work",
+    "source": "ECO 2026 · Process Task 5",
+    "question": "A hospital's project to replace its nurse-call system will buy the hardware and installation from an external supplier. The request for proposal goes out next week, but the only attachment describing the work is a two-line summary: 'supply and install a modern nurse-call system in Wing B.' Two suppliers have already asked how many rooms are involved, which systems it must integrate with, and what acceptance tests apply. What should the project manager make sure is added before the RFP is issued?",
+    "options": [
+      "A procurement statement of work detailed enough for sellers to judge and price the work",
+      "A signed authorization releasing the funds for the contract and naming the approver",
+      "A lessons-learned summary of how earlier suppliers performed on similar hospital projects",
+      "A list of every project stakeholder who will interact with the selected supplier"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Think about what a seller needs to know before it can decide to bid and put a price on the work.",
+    "why": "Sellers cannot bid meaningfully on a two-line summary: they need quantities, integration points, performance requirements, schedule and acceptance criteria. The procurement statement of work describes the portion of scope being bought in enough detail for prospective sellers to decide whether they can provide it and to price it, which also reduces claims and change orders later. It is derived from the scope baseline and becomes part of the bid documents.",
+    "how": "Bid documents (RFI, RFQ, RFP) must include a clear procurement SOW, or terms of reference for services, drawn from the scope baseline; vague SOWs produce non-comparable bids and later claims.",
+    "optionNotes": [
+      "Correct — A clear procurement SOW tells sellers the quantities, integrations and acceptance tests, so bids are comparable and realistically priced.",
+      "Incorrect — Funding authority matters internally, but it does not tell sellers what to deliver and does not fix the vague requirement.",
+      "Incorrect — Past supplier performance helps later source selection, but it tells bidders nothing about the work they are being asked to price.",
+      "Incorrect — A stakeholder list may help communications planning, but it does not describe the scope that sellers must deliver and price."
+    ],
+    "deepDive": "An RFI gathers information about sellers' capabilities, an RFQ seeks prices for well-defined items, and an RFP asks for proposed solutions to more complex needs. For services, a terms of reference (TOR) plays the role of the SOW. The SOW can be refined during procurement until the contract is signed, and it should align with the source selection and acceptance criteria. Exam trap: confusing the procurement SOW with the project charter, which authorizes the project, or with the contract itself.",
+    "tags": [
+      "SOW",
+      "RFP",
+      "procurement documents",
+      "bid documents"
+    ]
+  },
+  {
+    "id": "PRO-062",
+    "domain": "Process",
+    "task": "5. Plan and manage procurement",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Claims administration",
+    "source": "ECO 2026 · Process Task 5",
+    "question": "A contractor building a fire station submits a claim for $140,000, arguing that the city's late approval of design drawings left its crews idle for three weeks. The city's project manager believes most of the delay came from the contractor's own incomplete submittals. The contract contains a clause describing how disputes between the parties are to be handled. What is the PREFERRED way to resolve the claim?",
+    "options": [
+      "File a lawsuit immediately so that the city's legal position is protected from the start",
+      "Terminate the contract for cause, since the contractor has now raised a formal claim",
+      "Withhold all progress payments until the contractor agrees to withdraw its claim",
+      "Follow the contract's dispute clause, negotiating first and using mediation if needed"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Think about the order in which dispute-resolution methods are normally tried, and what the contract already says.",
+    "why": "Claims are contested changes, and the contract defines how they are resolved. Negotiation is the preferred first step because it is fastest and preserves the working relationship; if it fails, alternative dispute resolution such as mediation or arbitration comes next. Litigation is the last resort, and actions such as terminating or withholding payment would likely breach the contract and escalate the dispute.",
+    "how": "Dispute path: follow the contract terms → negotiate → alternative dispute resolution (mediation, then arbitration) → litigation only as the last resort. Record the claim and its evidence in the claims log throughout.",
+    "optionNotes": [
+      "Incorrect — Litigation is slow, costly and damaging to the relationship, and it skips the negotiation and ADR steps the contract provides.",
+      "Incorrect — Raising a claim is a contractual right, not a default; terminating for cause on that basis would itself be a breach.",
+      "Incorrect — Withholding payments to force a withdrawal likely breaches the payment terms and turns a manageable claim into a larger dispute.",
+      "Correct — Following the agreed dispute process with negotiation first, then mediation, is the preferred and least destructive route to settlement."
+    ],
+    "deepDive": "Claims, disputes and appeals are contested changes administered under the contract's terms. Good claims administration documents facts early — correspondence, approval dates and site diaries — so both parties can see who caused which delay. ADR ranges from mediation, where a neutral helps the parties agree, to arbitration, where a neutral decides, often bindingly. Exam trap: answers that sound tough, such as suing, terminating or withholding payment, are rarely right while contractual remedies remain untried.",
+    "tags": [
+      "claims",
+      "ADR",
+      "negotiation",
+      "contract disputes"
+    ]
+  },
+  {
+    "id": "PRO-063",
+    "domain": "Process",
+    "task": "5. Plan and manage procurement",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Evaluating vendor performance",
+    "source": "ECO 2026 · Process Task 5 (evaluate vendor performance)",
+    "question": "A vendor is delivering the payments module for a bank's core-system upgrade. Its monthly status reports have shown green for four months, but the internal integration team has logged 37 defects in the vendor's code, and two interim deliveries arrived a week late. The contract defines acceptance criteria, delivery milestones and a clause for formal performance reviews. What should the project manager do?",
+    "options": [
+      "Terminate the contract now and award the work to the next-ranked bidder from the tender",
+      "Ask the internal teams to fix the vendor's defects so that the integration schedule is protected",
+      "Accept the vendor's status reports, since the contract makes the vendor responsible for reporting",
+      "Hold a performance review against the contract terms and agree corrective actions with the vendor"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "When a seller's self-reported status conflicts with evidence, consider what the contract already gives you to resolve it.",
+    "why": "The vendor's self-reported status conflicts with objective evidence — defect logs and late deliveries. Controlling procurements means verifying seller performance against the contract through performance reviews, inspections or audits, then agreeing corrective actions and, if needed, applying contractual remedies. A structured review uses the contract's own clause and keeps the relationship professional.",
+    "how": "When a seller's reports conflict with the evidence: gather objective data, review performance against the contract terms, agree corrective actions, and escalate to contractual remedies only if performance does not recover.",
+    "optionNotes": [
+      "Incorrect — Termination is premature before the contract's review and remedy steps have been used, and it adds major delay and legal risk.",
+      "Incorrect — Quietly absorbing the vendor's defects hides the performance problem, adds unplanned internal cost and removes the vendor's accountability.",
+      "Incorrect — Ignoring contrary evidence lets the problem grow; the buyer must verify performance, not simply receive reports.",
+      "Correct — It uses the contract's review clause and objective evidence to confront the gap and agree specific corrective actions."
+    ],
+    "deepDive": "Contracts can include objective performance measures such as defect thresholds, milestone acceptance and earned value reporting, which make reviews factual rather than a matter of opinion. Findings should be documented and fed into the seller performance evaluation used in future source selection. Watch for 'watermelon' reporting — green outside, red inside — which is common when status is self-reported. In agile or hybrid work, joint sprint reviews and integrated demos expose vendor quality issues much earlier than monthly reports.",
+    "tags": [
+      "vendor performance",
+      "audit",
+      "control procurements",
+      "performance review"
+    ]
+  },
+  {
+    "id": "PRO-064",
+    "domain": "Process",
+    "task": "5. Plan and manage procurement",
+    "approach": "Agile",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Agile contracting",
+    "source": "ECO 2026 · Process Task 5 (select contract types)",
+    "question": "A retailer is hiring a development firm to build a customer loyalty app using Scrum. The product owner expects priorities to change often as early releases show what customers actually use, but the CFO insists that total spend be controlled and that the retailer can stop if the app is not delivering value. The procurement lead proposes a single firm fixed price contract with fully specified requirements. Which contracting approach BEST fits?",
+    "options": [
+      "Fixed price per sprint or capped time and materials, with the backlog reprioritized as work proceeds",
+      "Cost plus percentage of cost, so the vendor is paid fairly for whatever changes the retailer requests",
+      "A single firm fixed price with fully specified requirements, since it gives the CFO the firmest control",
+      "A contract that freezes scope at signature and handles later changes through a follow-on contract"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "The buyer needs flexibility on one dimension and a firm limit on another; find the structure that gives both.",
+    "why": "The situation needs variable scope, bounded cost and an exit option. Fixing the price of each sprint, or capping T&M spend, bounds the retailer's cost while letting the product owner reprioritize the backlog every sprint, and the retailer can stop after any sprint if value is not appearing. A fully specified FFP contract would fight the expected changes and generate change orders and claims.",
+    "how": "Agile contracts fix time and cost per increment and keep scope flexible: fixed price per iteration, capped or graduated T&M, 'money for nothing, change for free' clauses, and incremental delivery contracts.",
+    "optionNotes": [
+      "Correct — Cost is bounded per sprint or by a cap, while scope stays flexible through backlog reprioritization and the option to stop early.",
+      "Incorrect — Cost plus percentage of cost places the most risk on the buyer and rewards the vendor for spending more, the opposite of cost control.",
+      "Incorrect — Full up-front specification conflicts with frequent reprioritization and would drive a stream of change requests and claims.",
+      "Incorrect — Freezing scope contradicts the need to adapt to customer feedback and delays value until a second contract is negotiated."
+    ],
+    "deepDive": "The Agile Practice Guide describes contracting techniques that share risk and preserve flexibility: fixed-price increments, not-to-exceed T&M, graduated fixed price (rates vary with early or late delivery) and 'money for nothing, change for free', where the customer may swap unstarted work of equal size at no cost and end early for a fee. A layered structure — a master services agreement with lightweight statements of work per release — keeps the legal terms stable while scope evolves. The exam trap is assuming that FFP equals cost control; with changing scope it mostly creates change-order friction.",
+    "tags": [
+      "agile contracts",
+      "capped T&M",
+      "procurement",
+      "fixed price per iteration"
+    ]
+  },
+  {
+    "id": "PRO-065",
+    "domain": "Process",
+    "task": "5. Plan and manage procurement",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Changes to contracts",
+    "source": "ECO 2026 · Process Task 5 / Business Environment Task 3",
+    "question": "Midway through a fixed-price contract for a hotel booking platform, the vendor's project manager emails the buyer's project manager proposing to replace the database named in the contract with a different product. He says it is 'basically the same' and will save the vendor licensing costs. The buyer's organization has a contracts administrator who holds signing authority for contract changes. What should the buyer's project manager do?",
+    "options": [
+      "Let the vendor decide, since the vendor is the database expert and accountable for quality",
+      "Route the proposal through contract change control with the contracts administrator",
+      "Reject the proposal without review, since the contract already specifies the database",
+      "Approve the switch by email, since the vendor says the two databases are equivalent"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Ask who has the authority to change a legal agreement, and what should happen before anyone decides.",
+    "why": "Changing a contracted deliverable changes a legal agreement, so it must go through the contract change control process and be approved by someone with contractual authority — here the contracts administrator. Impacts on performance, security, licensing, support and price should be evaluated, and because the vendor saves money, the buyer may be entitled to share the saving. Only then should the change be approved or rejected in writing.",
+    "how": "Changes to contract terms or deliverables go through contract change control and the person with legal authority; the PM's role is to evaluate impacts and recommend, not to approve informally.",
+    "optionNotes": [
+      "Incorrect — The buyer, not the vendor, must approve changes to contracted deliverables; letting the vendor decide gives away the buyer's rights.",
+      "Correct — Formal impact evaluation and approval by the authorized contracts administrator protects both parties and keeps the contract accurate.",
+      "Incorrect — The change might be beneficial or justify a lower price; rejecting it without analysis ignores a legitimate change request.",
+      "Incorrect — The PM may lack contractual authority, and 'basically the same' is an unverified claim that needs technical evaluation."
+    ],
+    "deepDive": "A contract change control system defines how the contract can be modified: forms, tracking, dispute resolution procedures and approval levels. In many organizations only the procurement or contracts administrator can bind the organization, even though the PM manages the day-to-day relationship. Informal approvals by email can create 'constructive changes' that later support seller claims. When a seller proposes a substitution that saves it money, the buyer should consider a price adjustment or value-engineering terms.",
+    "tags": [
+      "contract change control",
+      "procurement administrator",
+      "authority",
+      "constructive change"
+    ]
+  },
+  {
+    "id": "PRO-066",
+    "domain": "Process",
+    "task": "5. Plan and manage procurement",
+    "approach": "Predictive",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Closing procurements",
+    "source": "ECO 2026 · Process Task 5 / Process Task 10",
+    "question": "A telecom project has two vendor contracts. The tower-installation contractor finished its work three months before the rest of the project will end, and its account manager asks for the contract to be formally closed so that the retention money can be released. The project manager checks the file: the installation passed its final inspection, and a small claim about extra cabling was settled last week. What must be confirmed before this contract is closed?",
+    "options": [
+      "That deliverables are accepted, claims settled, final payment made and records archived",
+      "That the vendor has agreed to be considered for future contracts with the organization",
+      "That the whole project is complete and the other contract is ready to close at the same time",
+      "That the vendor has been prepaid for any warranty work that may be needed after closure"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Ask what must be finished between buyer and seller for nothing to remain outstanding under this agreement.",
+    "why": "Procurement closure requires that all deliverables are formally accepted, open claims and disputes are resolved, final payment — including any retention — is made, and procurement records, including the seller performance evaluation, are archived. Individual contracts can and often should be closed as soon as their work is complete, without waiting for the whole project to end.",
+    "how": "Close each contract when its work is complete: confirm acceptance, settle claims, make final payment, and update and archive records. The project's own closure is a separate step.",
+    "optionNotes": [
+      "Correct — Acceptance, settled claims, final payment and archived records are the conditions for formally closing a contract.",
+      "Incorrect — Future business interest is not a closure condition; the seller's performance is documented instead to inform later source selection.",
+      "Incorrect — Individual contracts can close before the project ends; waiting would hold the contractor's retention for no good reason.",
+      "Incorrect — Warranty obligations survive contract closure under the contract terms; prepaying possible warranty work is not part of closing."
+    ],
+    "deepDive": "Contract closure usually follows the seller completing its obligations, and the buyer sends formal written notice that the contract is complete. If a contract is terminated early, for convenience or for cause, closure still requires settling payment for work performed and documenting the reasons. Unresolved claims may go to alternative dispute resolution before closure. Procurement audits and seller evaluations captured at closure become organizational process assets for future projects.",
+    "tags": [
+      "procurement closure",
+      "final acceptance",
+      "records",
+      "retention"
+    ]
+  },
+  {
+    "id": "PRO-067",
+    "domain": "Process",
+    "task": "6. Plan and manage finance",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Cost baseline vs. project budget",
+    "source": "ECO 2026 · Process Task 6 (quantify contingencies)",
+    "question": "Planning for a clinic fit-out is complete. The bottom-up estimates for all work packages total $800,000. Quantitative analysis of the risk register supports a contingency reserve of $80,000, and the sponsor has set aside a management reserve of $50,000 for unforeseen work. The finance office asks the project manager for two figures: the cost baseline to be used for earned value reporting, and the total project budget. What are they?",
+    "options": [
+      "Baseline $800,000; budget $930,000",
+      "Baseline $850,000; budget $880,000",
+      "Baseline $880,000; budget $930,000",
+      "Baseline $930,000; budget $930,000"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Decide which reserve covers identified risks and which covers the unforeseen, then place each one at the right level.",
+    "why": "Cost baseline = work package estimates + contingency reserve = $800,000 + $80,000 = $880,000; this is the approved, time-phased budget against which performance is measured. Project budget = cost baseline + management reserve = $880,000 + $50,000 = $930,000. The management reserve sits outside the baseline because it covers unknown-unknowns and is controlled by management.",
+    "how": "Contingency reserve (identified risks, known-unknowns) is inside the cost baseline; management reserve (unknown-unknowns) is outside the baseline but inside the project budget. Earned value is always measured against the baseline.",
+    "optionNotes": [
+      "Incorrect — A baseline of $800,000 leaves out the contingency reserve for identified risks, which belongs inside the cost baseline.",
+      "Incorrect — Puts the management reserve into the baseline instead of the contingency ($850,000) and leaves the management reserve out of the budget.",
+      "Correct — $800,000 + $80,000 = $880,000 baseline; adding the $50,000 management reserve gives a $930,000 project budget.",
+      "Incorrect — Management reserve lies outside the cost baseline; including it would inflate the performance measurement baseline used for EVM."
+    ],
+    "deepDive": "Cost aggregation rolls activity estimates up into work packages, control accounts and then the whole project; contingency can be held at any of those levels but always sits inside the baseline. The PM can apply contingency when an identified risk occurs, whereas using management reserve requires an approved change that moves money into the baseline. The performance measurement baseline — scope, schedule and cost together — is what EV, PV and AC are compared against, so inflating it would hide overruns. In agile work, reserves often take the form of buffer sprints or a capacity margin rather than a separate dollar line.",
+    "tags": [
+      "cost baseline",
+      "contingency reserve",
+      "management reserve",
+      "calculation"
+    ]
+  },
+  {
+    "id": "PRO-068",
+    "domain": "Process",
+    "task": "6. Plan and manage finance",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Interpreting CPI and SPI",
+    "source": "ECO 2026 · Process Task 6 (track spend)",
+    "question": "At the end of month 4 of a warehouse-automation project, the earned value report shows PV = $100,000, EV = $90,000 and AC = $110,000. The sponsor, who is new to earned value management, asks the project manager for a one-line summary of cost and schedule performance before the steering committee meets this afternoon. Which summary is accurate?",
+    "options": [
+      "Over budget and behind schedule",
+      "Under budget and ahead of schedule",
+      "Under budget but behind schedule",
+      "Over budget but ahead of schedule"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Compute both performance indices with earned value in the numerator, then read each one against 1.0.",
+    "why": "CPI = EV ÷ AC = $90,000 ÷ $110,000 ≈ 0.82, below 1, so the project is over budget (CV = EV − AC = −$20,000). SPI = EV ÷ PV = $90,000 ÷ $100,000 = 0.90, below 1, so it is behind schedule (SV = EV − PV = −$10,000). Both indicators are unfavorable.",
+    "how": "EV comes first in every variance and index formula: CV = EV − AC, SV = EV − PV, CPI = EV ÷ AC, SPI = EV ÷ PV. Negative variances and indices below 1 are unfavorable.",
+    "optionNotes": [
+      "Correct — CPI ≈ 0.82 and SPI = 0.90 are both below 1, so the project is over budget and behind schedule.",
+      "Incorrect — Both indices are below 1; being under budget and ahead would require EV to exceed both AC and PV.",
+      "Incorrect — CPI ≈ 0.82 is below 1 (CV = −$20,000), so the project is over budget, not under it.",
+      "Incorrect — SPI = 0.90 is below 1 (SV = −$10,000), so the project is behind schedule, not ahead of it."
+    ],
+    "deepDive": "Read CPI as value earned per dollar spent — here about $0.82 of planned work for every dollar — and SPI as the share of planned work completed, here 90% of what should be done by now. SPI drifts to 1.0 at the end of every project because EV eventually equals PV, so late in a project schedule analysis should rely on the critical path or earned schedule instead. Exam trap: dividing the wrong way (AC ÷ EV) produces a number above 1 that looks favorable. For the sponsor, a plain-language summary plus a forecast (EAC) is more useful than raw indices.",
+    "tags": [
+      "EVM",
+      "CPI",
+      "SPI",
+      "calculation"
+    ]
+  },
+  {
+    "id": "PRO-069",
+    "domain": "Process",
+    "task": "6. Plan and manage finance",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Estimate at completion",
+    "source": "ECO 2026 · Process Task 6",
+    "question": "A pipeline-inspection project has a budget at completion (BAC) of $500,000. Partway through, the cumulative CPI is 0.80, and the cost engineer confirms that the cause — lower crew productivity in rocky terrain — will persist along the rest of the route. The sponsor asks the project manager for a revised forecast of the total cost. What is the estimate at completion (EAC)?",
+    "options": [
+      "$400,000",
+      "$500,000",
+      "$600,000",
+      "$625,000"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "The engineer's explanation tells you whether current cost efficiency should be projected onto the remaining work.",
+    "why": "Because the cause of the overrun will continue, the variance is typical and the remaining work is expected at the same efficiency: EAC = BAC ÷ CPI = $500,000 ÷ 0.80 = $625,000. The projected variance at completion is VAC = BAC − EAC = $500,000 − $625,000 = −$125,000.",
+    "how": "Pick the EAC formula from the scenario's explanation: typical (continuing) variance → BAC ÷ CPI; atypical (one-off) → AC + (BAC − EV); schedule pressure also drives cost → AC + (BAC − EV) ÷ (CPI × SPI); original estimate invalid → AC + bottom-up ETC.",
+    "optionNotes": [
+      "Incorrect — Multiplies BAC by CPI ($500,000 × 0.80), which shrinks the forecast even though the project is overrunning.",
+      "Incorrect — Keeping the original BAC ignores a cost overrun that the engineer says will continue for the rest of the route.",
+      "Incorrect — Adds 20% of BAC ($100,000) instead of dividing by the CPI, which understates the effect of 80% cost efficiency.",
+      "Correct — Typical variance: EAC = $500,000 ÷ 0.80 = $625,000."
+    ],
+    "deepDive": "ETC = EAC − AC gives the money still needed. A forecast 25% above budget normally triggers a variance report and an assessment of options: corrective actions, scope trade-offs through change control, or a request for additional funding. The stem's explanation of the cause — continuing or one-off — is the clue that selects the formula, so read it before calculating. Some organizations also compare the BAC-based TCPI with the current CPI to show how unrealistic the original budget has become.",
+    "tags": [
+      "EAC",
+      "EVM",
+      "forecasting",
+      "calculation"
+    ]
+  },
+  {
+    "id": "PRO-070",
+    "domain": "Process",
+    "task": "6. Plan and manage finance",
+    "approach": "Predictive",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "To-complete performance index",
+    "source": "ECO 2026 · Process Task 6",
+    "question": "A software implementation has a BAC of $500,000. The latest status report shows EV = $200,000 and AC = $250,000. The sponsor says the budget cannot be increased and asks what cost efficiency the team would need to achieve on all remaining work in order to finish within the original $500,000. What is the to-complete performance index (TCPI)?",
+    "options": [
+      "0.80",
+      "1.00",
+      "1.20",
+      "1.50"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Compare the value of the work still to be done with the money still available to do it.",
+    "why": "TCPI (BAC-based) = (BAC − EV) ÷ (BAC − AC) = ($500,000 − $200,000) ÷ ($500,000 − $250,000) = $300,000 ÷ $250,000 = 1.20. The team must earn $1.20 of value for every remaining dollar, compared with its current CPI of $200,000 ÷ $250,000 = 0.80 — a 50% improvement.",
+    "how": "TCPI = work remaining ÷ funds remaining. Use BAC − AC as the denominator for the original budget, or EAC − AC for an approved revised forecast. A TCPI above 1 means the team must perform better than planned from now on.",
+    "optionNotes": [
+      "Incorrect — 0.80 is the current CPI (EV ÷ AC), not the efficiency required on the remaining work.",
+      "Incorrect — 1.00 would mean simply performing to plan from now on, which cannot recover the $50,000 already overspent.",
+      "Correct — $300,000 of remaining work ÷ $250,000 of remaining funds = 1.20.",
+      "Incorrect — Divides the remaining work by EV ($300,000 ÷ $200,000) instead of by the remaining funds."
+    ],
+    "deepDive": "A TCPI far above the current CPI — here 1.20 versus 0.80 — signals that finishing on the original budget is unrealistic, because sustained improvements of that size are rare. The PM should present a realistic EAC and options to the sponsor rather than promise the impossible. If a revised EAC is approved, recompute TCPI against it: (BAC − EV) ÷ (EAC − AC). In agile projects the equivalent check compares the remaining backlog with the funded sprints left at current velocity.",
+    "tags": [
+      "TCPI",
+      "EVM",
+      "calculation",
+      "forecasting"
+    ]
+  },
+  {
+    "id": "PRO-071",
+    "domain": "Process",
+    "task": "6. Plan and manage finance",
+    "approach": "Any",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "NPV for project selection",
+    "source": "ECO 2026 · Process Task 6 · Project selection with NPV",
+    "question": "Refer to the exhibit. A logistics company's portfolio board can fund only one of two warehouse projects, each needing $500,000 now. The sponsor of Project B points out that B returns more cash in total over three years. The board discounts all proposals at 10% and asks the project manager, who prepared the financial comparison, for a recommendation. Which recommendation should the project manager give?",
+    "options": [
+      "Project B, because its total net cash inflow of $170,000 is larger than A's $150,000",
+      "Project A, because its NPV of about $54,000 is roughly double Project B's NPV",
+      "Project B, because its largest inflow ($420,000) comes in the final year of the project",
+      "Either project, because both have a positive NPV at the board's 10% discount rate"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Money received sooner is worth more; apply the discount factors before comparing the two projects.",
+    "why": "NPV discounts each year's cash flow to today's money and subtracts the investment. Project A: 300 × 0.909 + 250 × 0.826 + 100 × 0.751 = 272.7 + 206.5 + 75.1 = $554,300, so NPV ≈ $554,300 − $500,000 ≈ $54,000. Project B: 50 × 0.909 + 200 × 0.826 + 420 × 0.751 = 45.5 + 165.2 + 315.4 = $526,100, so NPV ≈ $26,000. B's larger undiscounted total ($670,000 versus $650,000) arrives mostly in year 3, so it is worth less today, and A creates more value.",
+    "how": "For project selection, discount every cash flow (PV = CF ÷ (1 + r)^n, or CF × discount factor), sum them, subtract the investment, and choose the higher NPV when only one project can be funded. Undiscounted totals ignore the time value of money.",
+    "optionNotes": [
+      "Incorrect — Undiscounted totals ignore the time value of money; B's extra cash arrives late and is worth less in today's money.",
+      "Correct — Discounted at 10%, A's NPV (about $54,000) is roughly double B's (about $26,000), so A adds more value.",
+      "Incorrect — A large inflow far in the future is discounted the most, so the timing works against B rather than for it.",
+      "Incorrect — Both are acceptable on their own, but the board can fund only one, so it should choose the higher NPV."
+    ],
+    "deepDive": "NPV above zero means a project earns more than the discount rate, the organization's required return; NPV below zero means it destroys value. When projects are mutually exclusive or capital is limited, choose the higher NPV; project length is already reflected in the discounting, so no separate adjustment is needed. Related measures include IRR (the rate at which NPV equals zero), payback period and benefit-cost ratio, but NPV is the most reliable single measure of value created. Agile and hybrid delivery often raise NPV by releasing value earlier, which is why incremental delivery features in many business cases.",
+    "tags": [
+      "NPV",
+      "time value of money",
+      "project selection",
+      "calculation",
+      "exhibit"
+    ],
+    "exhibit": {
+      "kind": "table",
+      "title": "Forecast net cash flows",
+      "columns": [
+        "Cash flow ($000)",
+        "Year 0",
+        "Year 1",
+        "Year 2",
+        "Year 3"
+      ],
+      "rows": [
+        [
+          "Project A",
+          "−500",
+          "300",
+          "250",
+          "100"
+        ],
+        [
+          "Project B",
+          "−500",
+          "50",
+          "200",
+          "420"
+        ],
+        [
+          "Discount factor at 10%",
+          "1.000",
+          "0.909",
+          "0.826",
+          "0.751"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "PRO-072",
+    "domain": "Process",
+    "task": "6. Plan and manage finance",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Payback with uneven benefits",
+    "source": "ECO 2026 · Process Task 6 · Payback period for incremental delivery",
+    "question": "A hybrid team is rolling out a self-service claims portal for an insurer in staged releases. The $480,000 investment is spent up front. The business case forecasts net benefits of $90,000 in year 1, when only the pilot release is live, $180,000 in year 2, and $240,000 in year 3 and each later year. The insurer's policy requires technology investments to pay back within three years. What is the payback period, and does the portal meet the policy?",
+    "options": [
+      "2.0 years; it meets the policy with a full year to spare",
+      "About 2.9 years; it meets the three-year policy",
+      "About 3.9 years; it misses the three-year policy",
+      "About 5.3 years; it misses the three-year policy"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "When benefits differ from year to year, track the running total until it covers the investment.",
+    "why": "Cumulative net benefits are $90,000 after year 1, $270,000 after year 2 and $510,000 after year 3, so payback falls in year 3. After year 2, $480,000 − $270,000 = $210,000 is still to recover, which takes $210,000 ÷ $240,000 = 0.875 of year 3. Payback = 2 + 0.875 ≈ 2.9 years, inside the three-year policy.",
+    "how": "With uneven cash flows, accumulate benefits year by year until they cover the investment, then interpolate within the payback year. Divide the investment by the annual benefit only when benefits are level.",
+    "optionNotes": [
+      "Incorrect — Divides $480,000 by the year-3 benefit of $240,000, as if benefits were level from the start; the pilot years earn far less.",
+      "Correct — $270,000 is recovered by the end of year 2, and the remaining $210,000 takes 0.875 of year 3, about 2.9 years in total.",
+      "Incorrect — Counts the investment year as year 1, which adds a full extra year to the correct 2.875-year result.",
+      "Incorrect — Divides $480,000 by the year-1 pilot benefit of $90,000, ignoring the much larger benefits of the later releases."
+    ],
+    "deepDive": "Payback is easy to explain and useful as a liquidity or risk screen, but it ignores the time value of money and every benefit after the payback point, so it should not be the only selection measure. Discounted payback, which uses present values, is always longer than simple payback. Incremental delivery shortens payback because early releases start earning while later work continues — one reason hybrid and agile approaches are attractive in business cases. Exam trap: using the average annual benefit or a single year's benefit when cash flows are uneven.",
+    "tags": [
+      "payback period",
+      "business case",
+      "incremental delivery",
+      "calculation"
+    ]
+  },
+  {
+    "id": "PRO-073",
+    "domain": "Process",
+    "task": "6. Plan and manage finance",
+    "approach": "Any",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "NPV versus IRR in selection",
+    "source": "ECO 2026 · Process Task 6 · NPV versus IRR for mutually exclusive projects",
+    "question": "A hospital group has one vacant wing and two mutually exclusive proposals for it. A day-surgery unit costs $2.0 million now and returns $520,000 a year for eight years (IRR about 20%; NPV about $990,000 at the group's 8% discount rate). An imaging center costs $400,000 and returns $170,000 a year for four years (IRR about 25%; NPV about $160,000). A board member argues for imaging because of its higher return. The board's stated aim is to add the most value. Which proposal should the project manager's analysis support?",
+    "options": [
+      "The day-surgery unit, because it adds far more value in today's money",
+      "The imaging center, because its internal rate of return is the higher one",
+      "The imaging center, because it needs less capital and pays back sooner",
+      "Either proposal, because both IRRs exceed the group's 8% discount rate"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Consider what a percentage return can and cannot tell you when two investments differ greatly in size and life.",
+    "why": "When projects are mutually exclusive, choose the one with the higher NPV, because NPV measures the value created in today's money at the organization's required rate of return. The imaging center earns a higher percentage, but on a much smaller investment and for only four years; the day-surgery unit creates about $990,000 of value against about $160,000. IRR ignores the scale and duration of an investment, so it can rank mutually exclusive projects wrongly.",
+    "how": "For independent projects, accept any with a positive NPV (equivalently, IRR above the discount rate). For mutually exclusive projects or limited capital, rank by NPV; IRR and payback can mislead when projects differ in size or life.",
+    "optionNotes": [
+      "Correct — Its NPV of about $990,000 is roughly six times the imaging center's, which directly serves the board's aim of adding the most value.",
+      "Incorrect — A higher IRR on a much smaller, shorter investment creates less total value; IRR ignores scale and duration.",
+      "Incorrect — Lower capital and faster payback reduce exposure, but payback ignores value created after recovery, and the board's aim is value.",
+      "Incorrect — Both are acceptable on their own, but the wing can hold only one, so the board must pick the one that adds more value."
+    ],
+    "deepDive": "IRR is the discount rate at which a project's NPV equals zero; a project is acceptable when its IRR exceeds the required rate. Because IRR is a percentage, it cannot show how much value a project creates, and it implicitly assumes cash flows are reinvested at the IRR itself, which flatters small, fast projects. NPV assumes reinvestment at the discount rate and states value in money, which is why it is the preferred tie-breaker. On the exam, 'higher IRR is better' holds when comparing similar projects; when a scenario stresses size, duration or mutual exclusivity, rely on NPV.",
+    "tags": [
+      "NPV",
+      "IRR",
+      "project selection",
+      "business case"
+    ]
+  },
+  {
+    "id": "PRO-074",
+    "domain": "Process",
+    "task": "6. Plan and manage finance",
+    "approach": "Any",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Benefit-cost ratio with life-cycle costs",
+    "source": "ECO 2026 · Process Task 6 · Benefit-cost ratio in the business case",
+    "question": "A city's project manager is preparing the business case for a flood-warning sensor network. Finance has supplied: a capital cost of $2.4 million, spent now; operating and maintenance costs of $2.0 million over ten years, with a present value of $1.6 million; and avoided flood damage of $5.4 million over ten years, with a present value of $3.6 million. The council funds projects only when the benefit-cost ratio (BCR) is above 1.0. What is the BCR, and what should the project manager report?",
+    "options": [
+      "0.90; it falls short of the council's rule as currently scoped",
+      "1.11; benefits exceed costs by 11%, so the project qualifies",
+      "1.23; ten-year benefits exceed ten-year costs, so it qualifies",
+      "1.50; the benefits exceed the capital cost by half, so it qualifies"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Think about which costs the city will bear over the network's life, and whether all the figures are in comparable money.",
+    "why": "BCR = PV of benefits ÷ PV of costs. PV of costs = $2.4 million of capital (already in today's money) + $1.6 million PV of operating and maintenance = $4.0 million. BCR = $3.6 million ÷ $4.0 million = 0.90, below the council's threshold of 1.0, so the project manager should report that the case does not qualify as currently scoped and present options, such as a lower-cost design, to the sponsor.",
+    "how": "Compute BCR with present values of ALL benefits and ALL life-cycle costs: BCR = PV benefits ÷ PV costs. Above 1 means benefits exceed costs; mixing nominal and discounted figures, or leaving out operating costs, overstates the ratio.",
+    "optionNotes": [
+      "Correct — $3.6 million ÷ ($2.4 million + $1.6 million) = 0.90; present-value costs exceed benefits, so the project does not meet the rule as scoped.",
+      "Incorrect — Inverts the ratio ($4.0 million ÷ $3.6 million); BCR puts benefits on top, so 1.11 is cost per dollar of benefit.",
+      "Incorrect — Uses undiscounted totals ($5.4 million ÷ $4.4 million); benefits spread over ten years must be compared in present-value terms.",
+      "Incorrect — Leaves out operating and maintenance costs ($3.6 million ÷ $2.4 million); a BCR must include all life-cycle costs."
+    ],
+    "deepDive": "BCR and NPV tell the same story when both use present values: a BCR above 1 corresponds to a positive NPV, and here NPV is $3.6 million − $4.0 million = −$0.4 million. BCR is popular in public-sector business cases because it shows value per dollar, which helps rank projects under a fixed budget. Benefits that are hard to monetize, such as lives protected, may still justify a project, but they should be presented transparently alongside the ratio rather than used to hide it. Stewardship means reporting the result honestly and offering options, not adjusting assumptions until the ratio passes.",
+    "tags": [
+      "benefit-cost ratio",
+      "business case",
+      "present value",
+      "calculation"
+    ]
+  },
+  {
+    "id": "PRO-075",
+    "domain": "Process",
+    "task": "6. Plan and manage finance",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Sunk cost in a stop decision",
+    "source": "ECO 2026 · Process Task 6 · Sunk costs in continue-or-stop decisions",
+    "question": "A regional bank's hybrid program to build a loan-origination platform has spent $3.2 million of its $4.0 million budget. After a competitor's launch, the platform is now expected to deliver benefits with a present value of only about $0.6 million, and the revised estimate to finish is $1.4 million. At the steering committee, the sponsor says, 'We have already invested $3.2 million, so we can't walk away now.' What should the project manager recommend?",
+    "options": [
+      "Finish the platform, because stopping now would waste the $3.2 million already spent",
+      "Show the forward-looking figures and recommend stopping or re-scoping the platform",
+      "Keep going but cut testing so the cost to finish falls below the remaining benefits",
+      "Spend the remaining $0.8 million of approved budget first, then reassess the program"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Ask which of these figures the committee's decision can still change.",
+    "why": "Sunk costs — money already spent that cannot be recovered — should not influence whether to continue. The decision rests on the future: another $1.4 million to finish against benefits worth about $0.6 million today, so completing the platform as planned would lose roughly $0.8 million more. The project manager should present this forward-looking analysis transparently and recommend stopping or re-scoping, leaving the decision to the steering committee.",
+    "how": "In continue-or-stop decisions, ignore sunk costs and compare only future costs with future benefits in present-value terms; make a clear recommendation to the governance body, which owns the decision.",
+    "optionNotes": [
+      "Incorrect — This is the sunk-cost fallacy: the $3.2 million is gone whatever happens, so it cannot justify spending $1.4 million to earn $0.6 million.",
+      "Correct — Future costs exceed future benefits, so presenting that analysis and recommending a stop or re-scope protects the bank's remaining money.",
+      "Incorrect — Cutting testing swaps a financial problem for a quality and compliance problem and does not repair the collapsed business case.",
+      "Incorrect — Approved but unspent budget is not sunk; spending it before reassessing simply throws good money after bad."
+    ],
+    "deepDive": "Sunk costs are spent and unrecoverable, so sound decisions consider only incremental future costs and benefits. The sunk-cost fallacy is a well-known bias in which people escalate commitment to protect a past investment or their reputation. Re-scoping may still salvage value — for example, by releasing finished components that remain useful — which a hybrid, incremental approach makes easier. Governance bodies and phase gates exist so that business cases are revisited when the environment changes, and the PM is expected to report bad news early and honestly.",
+    "tags": [
+      "sunk cost",
+      "business case",
+      "governance",
+      "decision making"
+    ]
+  }
+]

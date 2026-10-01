@@ -1,0 +1,1384 @@
+[
+  {
+    "id": "PRO-151",
+    "domain": "Process",
+    "task": "5. Plan and manage procurement",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Buyer oversight on a cost-plus contract",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Artifacts (4.6.8): agreements and contracts — who carries cost risk under cost-reimbursable terms",
+    "question": "A county transit agency hired an engineering firm under a cost-plus-fixed-fee contract to design a first-of-its-kind battery-charging depot, because the technical scope could not be defined well enough to price. Four months in, the firm's monthly invoices are running 35% above its original cost estimate, and the latest invoice includes hours charged for staff who worked on another client's proposal. The agency's contracting officer asks the project manager for a recommendation. What should the project manager recommend?",
+    "options": [
+      "Audit the invoices against the contract's allowable-cost terms and tighten cost reporting, since the agency bears the overrun risk",
+      "Convert the agreement to a firm fixed price now, so that the engineering firm absorbs any further growth in its design costs from here on",
+      "Pay the invoices as submitted, because a cost-plus contract entitles the seller to recover all of the costs it incurs",
+      "Withhold the fixed fee until the design is finished, to give the firm a strong financial reason to control its costs"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Under this contract type, whose money is at risk when costs grow, and what does that party therefore have to do?",
+    "why": "In a cost-reimbursable contract the buyer pays the seller's actual allowable costs plus a fee, so the buyer carries most of the cost risk. That makes buyer-side oversight essential: checking invoices against the contract's allowable-cost terms, questioning charges that do not belong to this work (such as time spent on another client's proposal), and requiring regular cost reporting and forecasts. Changing the contract type mid-stream or withholding the fee are not the agency's to impose unilaterally.",
+    "how": "Match your contract oversight to who carries the risk: under cost-reimbursable contracts the buyer must verify allowable costs and watch spending closely; under fixed-price contracts the buyer's focus shifts to scope clarity and acceptance.",
+    "optionNotes": [
+      "Correct — The buyer bears the cost risk under cost-plus terms, so auditing allowability and tightening cost reporting is the right protective step.",
+      "Incorrect — Scope is still undefined, so a fixed price would need renegotiation, carry a large risk premium, and cannot be imposed by the buyer alone.",
+      "Incorrect — Only allowable, properly documented costs for this contract are reimbursable; time spent on another client's proposal is not.",
+      "Incorrect — The fixed fee is owed under the agreed terms; withholding it unilaterally risks a breach and a claim, and does not address the invalid charges."
+    ],
+    "deepDive": "Contract types spread risk differently: firm fixed price places most cost risk on the seller, fixed-price incentive and economic-price-adjustment variants share some, and cost-reimbursable types (cost plus fixed fee, incentive fee, award fee) place most of it on the buyer. The book notes that cost-reimbursable contracts fit work whose scope is not well defined or changes often, which is why the agency chose one here. The trade-off is that the buyer needs the capacity to audit costs, set ceilings or not-to-exceed limits, and track forecasts. A common exam trap is assuming 'cost plus' means the buyer pays anything invoiced; only allowable, reasonable and allocable costs qualify.",
+    "tags": [
+      "procurement",
+      "cost-reimbursable",
+      "contract types",
+      "risk allocation"
+    ]
+  },
+  {
+    "id": "PRO-152",
+    "domain": "Process",
+    "task": "5. Plan and manage procurement",
+    "approach": "Agile",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Scope swaps under an agile contract",
+    "source": "ECO 2026 · Process Task 5 · Agile contracting (swap clause versus contract amendment)",
+    "question": "A software vendor is building a mobile banking app for a credit union under a fixed-budget agile contract. The contract lets the client exchange not-yet-started backlog items for new items of equal estimated size at no charge; anything beyond that requires a written contract amendment. Midway through, the credit union's product owner asks the vendor team to add a 40-point budgeting feature while keeping every existing item. The vendor's account manager tells the project manager to 'just absorb it' to keep the client happy. What should the project manager do?",
+    "options": [
+      "Absorb the feature quietly by asking the team to raise its velocity, so that the relationship with the client stays positive",
+      "Decline the feature, because the budget and the scope were both fixed at signing, and suggest raising it again next year",
+      "Explain the swap option to the product owner and, if nothing can be removed, route the added scope through an amendment",
+      "Add the feature to the backlog now and bill the extra sprints later at time-and-materials rates once its value is clear"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Before deciding who pays, check what mechanism the agreement itself already provides for this kind of change.",
+    "why": "The contract gives two routes: swap equal-sized, unstarted items at no cost, or amend the contract for added scope. Laying out both routes lets the product owner decide what matters most, keeps the relationship transparent, and follows the terms both parties signed. Absorbing 40 unfunded points hides a real cost, pressures the team and sets a precedent; refusing ignores the flexibility the contract deliberately built in; billing later without an amendment is a unilateral change that damages trust.",
+    "how": "When an agile contract defines how scope may change, use that mechanism openly: offer the no-cost option first (trade equal-value work), and use formal contract change control for genuine additions.",
+    "optionNotes": [
+      "Incorrect — Absorbing unfunded scope hides the real cost, pressures the team into unsustainable pace, and invites further unmanaged scope creep.",
+      "Incorrect — The contract deliberately allows equal-size swaps, so a flat refusal ignores flexibility the client is entitled to and harms collaboration.",
+      "Correct — It follows the agreed change mechanism, gives the product owner a value-based choice, and handles genuine additions through a formal amendment.",
+      "Incorrect — Billing later at different rates without a signed amendment is a unilateral contract change and is likely to end in a dispute."
+    ],
+    "deepDive": "Agile contracts often fix budget and timeline while letting scope flex, sometimes with a 'change for free' clause that allows swapping items of equal size, and an early-termination option. The book's view of procurement stresses that contracts should support collaboration, but they remain binding: changes beyond the agreed flexibility need formal amendment. On the exam, watch for options that quietly absorb scope (gold plating for the client) or that bill without authority; both skip change control. The PMI-aligned answer is transparent, uses the agreement, and keeps the product owner in charge of priorities.",
+    "tags": [
+      "procurement",
+      "agile contracts",
+      "contract change",
+      "scope"
+    ]
+  },
+  {
+    "id": "PRO-153",
+    "domain": "Process",
+    "task": "6. Plan and manage finance",
+    "approach": "Predictive",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Drawing on reserves and the baseline",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Planning Performance Domain (2.4.2.4): budget — contingency reserve versus management reserve",
+    "question": "A hospital wing renovation has work package estimates totaling $1,500,000. The approved cost baseline also includes a $120,000 contingency reserve for risks in the risk register, and the sponsor holds an $80,000 management reserve. During construction, a registered risk (asbestos behind old walls) occurs and costs $45,000 to resolve. Later, an unforeseen fire-code change that no one had identified adds $30,000 of work, and the sponsor approves funding it from management reserve through change control. After both events are handled correctly, what is the cost baseline?",
+    "options": [
+      "$1,620,000",
+      "$1,650,000",
+      "$1,695,000",
+      "$1,700,000"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Ask which reserve sits inside the baseline and which sits outside it, and which kind of risk each one is meant to fund.",
+    "why": "The original cost baseline is $1,500,000 + $120,000 contingency = $1,620,000 (budget = $1,620,000 + $80,000 = $1,700,000). The asbestos risk was identified, so its $45,000 comes out of contingency that is already inside the baseline, leaving $75,000 of contingency and the baseline unchanged. The fire-code change was unidentified, so the approved $30,000 moves from management reserve into the baseline: $1,620,000 + $30,000 = $1,650,000 (management reserve drops to $50,000, and the total budget stays $1,700,000).",
+    "how": "Contingency reserve (known-unknowns) is inside the cost baseline, so using it does not change the baseline; management reserve (unknown-unknowns) is outside the baseline, so using it requires approval and increases the baseline.",
+    "optionNotes": [
+      "Incorrect — This is the original baseline; it ignores that approved management reserve funding for the fire-code work is added to the baseline.",
+      "Correct — The asbestos cost is absorbed by contingency inside the baseline, and only the $30,000 released from management reserve raises it.",
+      "Incorrect — This adds the $45,000 contingency draw as well, but contingency is already part of the baseline, so it is counted twice.",
+      "Incorrect — This is the total project budget (baseline plus the full management reserve), not the cost baseline after the approved change."
+    ],
+    "deepDive": "Layering: activity and work package estimates roll up with contingency reserves into the cost baseline; adding management reserve gives the project budget. The book frames contingency as money set aside for identified risks the team chooses to accept, and management reserve as money for unforeseen work within scope, usually controlled by the sponsor or governance body. Earned value is measured against the cost baseline, so moving management reserve into it must be a formal, approved change. A classic exam trap is to treat any reserve draw as a baseline change or to confuse the baseline with the total budget.",
+    "tags": [
+      "calculation",
+      "reserves",
+      "cost baseline",
+      "management reserve"
+    ]
+  },
+  {
+    "id": "PRO-154",
+    "domain": "Process",
+    "task": "6. Plan and manage finance",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Agile scope versus a funding cut",
+    "source": "ECO 2026 · Process Task 6 · Agile practice (fixed cost per sprint, flexible scope)",
+    "question": "An eight-person agile team is building an online permit application portal for a city. Its cost is essentially fixed at $48,000 per two-week sprint, and the annual plan funded 20 more sprints. The finance office has just announced a mid-year cut that leaves funding for only 15 of those sprints. The sponsor still wants a usable portal launched this year. What should the project manager do FIRST?",
+    "options": [
+      "Work with the product owner to reprioritize the backlog so the most valuable features fit within the 15 funded sprints",
+      "Ask the team to raise its velocity by about a third, so that all of the planned scope still fits within the 15 funded sprints",
+      "Keep the current release plan and submit an exception request to restore the funding for the five lost sprints",
+      "Drop automated testing from the definition of done, so that more features can be finished in each funded sprint"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "With a stable team, cost per sprint barely moves — so which of the constraints can actually flex?",
+    "why": "A stable agile team's cost per sprint is effectively fixed, so a funding cut becomes a cut in the number of sprints; what can flex is scope. The first step is to re-plan with the product owner, ordering the backlog so the highest-value, usable features fit the 15 funded sprints, and then share the revised forecast with the sponsor. Demanding more velocity or weakening quality only hides the gap, and asking for an exception before understanding the impact skips the analysis the sponsor needs.",
+    "how": "When funding is reduced on an agile effort, hold the team and quality steady, flex scope through backlog prioritization with the product owner, and give stakeholders an updated value-based forecast.",
+    "optionNotes": [
+      "Correct — Scope is the variable in a fixed-cost team; reprioritizing with the product owner keeps the most valuable, usable features within the new funding limit.",
+      "Incorrect — Velocity is an outcome of capacity, not a lever; demanding a one-third jump invites inflated estimates, burnout, and hidden quality problems.",
+      "Incorrect — Requesting more money may be reasonable later, but doing it first skips the impact analysis and ignores the new funding constraint.",
+      "Incorrect — Weakening the definition of done trades a short-term gain for defects and technical debt, undermining quality built into the product."
+    ],
+    "deepDive": "Funding limit reconciliation means aligning planned spending with the money actually available, which in predictive work often means rescheduling activities through change control. In agile work with a stable team, the 'iron triangle' is inverted: cost and time are fixed per sprint, and scope is adjusted to fit. The product owner owns value ordering, so reprioritization goes through them, and release forecasts are updated for stakeholders. Exam traps include demanding higher velocity, cutting quality practices, or escalating before analyzing the impact.",
+    "tags": [
+      "finance",
+      "funding limit",
+      "agile budgeting",
+      "backlog prioritization"
+    ]
+  },
+  {
+    "id": "PRO-155",
+    "domain": "Process",
+    "task": "7. Plan and optimize quality of products/deliverables",
+    "approach": "Predictive",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Control chart after a fix",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Delivery Performance Domain (2.6.3): quality — process stability and assignable causes",
+    "question": "Refer to the exhibit. A project is commissioning a new sauce-bottling line, and the acceptance criteria require the fill process to be stable before handover. The quality engineer traced the point above the upper control limit at sample 5 to a scale that was out of calibration, and the scale was recalibrated the same day. The line supervisor now says the process is stable because no other point is outside the limits. What should the project manager conclude?",
+    "options": [
+      "The process is stable, because the only point outside the limits has a known cause that has already been corrected",
+      "The control limits are too tight for a new line, so they should be widened before the handover review takes place",
+      "Operators should adjust the filler after each low reading, so that the sample mean moves back toward 500 grams",
+      "The run of low samples since sample 9 signals a likely assignable cause that needs investigating before handover"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Being inside the limits is not the only test of a stable process — look for patterns as well as single points.",
+    "why": "Samples 9 through 15 all fall below the mean: seven consecutive points on one side of the center line are very unlikely to arise from random variation alone (the 'rule of seven'), so they signal an assignable cause even though every point is within the limits. The sample 5 point was correctly investigated and fixed, but that does not make the later run go away. Something changed around sample 9 (a new ingredient batch, a worn nozzle, a shift change) and must be found before the line can be declared stable for handover.",
+    "how": "On a control chart, act on any point beyond a control limit and on non-random patterns inside the limits (such as seven consecutive points on one side of the mean); investigate the cause rather than adjusting the process point by point.",
+    "optionNotes": [
+      "Incorrect — Fixing the calibration explains sample 5 only; the seven-point run below the mean is a separate, unexplained signal of instability.",
+      "Incorrect — Control limits come from the process's own variation; widening them to hide a signal defeats the purpose of the chart.",
+      "Incorrect — Adjusting after every reading is tampering; it adds variation and does not find the cause of the downward shift.",
+      "Correct — Seven consecutive points below the mean indicate a non-random shift that must be investigated and resolved before handover."
+    ],
+    "deepDive": "Control charts separate common-cause variation (inherent, random noise) from special or assignable causes (something specific changed). Typical signals are a point beyond a control limit, and a run of about seven consecutive points on one side of the mean, or trending in one direction. Control limits describe what the process does; specification limits describe what the customer requires, so a process can be in control yet incapable, or capable yet unstable. The book's quality guidance favors finding and removing causes early rather than relying on end-of-line inspection, which is why the run must be resolved before acceptance.",
+    "tags": [
+      "quality",
+      "control chart",
+      "rule of seven",
+      "exhibit"
+    ],
+    "exhibit": {
+      "kind": "line",
+      "title": "Control chart — fill weight per sample (g)",
+      "xLabel": "Sample",
+      "yLabel": "Mean fill weight (g)",
+      "x": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "series": [
+        {
+          "name": "Sample mean",
+          "values": [
+            501.2,
+            498.4,
+            502.2,
+            499.6,
+            507.6,
+            500.6,
+            499.0,
+            501.8,
+            498.2,
+            497.4,
+            498.8,
+            497.8,
+            499.2,
+            497.0,
+            498.0
+          ]
+        }
+      ],
+      "refLines": [
+        {
+          "label": "UCL",
+          "value": 506
+        },
+        {
+          "label": "Mean",
+          "value": 500
+        },
+        {
+          "label": "LCL",
+          "value": 494
+        }
+      ]
+    }
+  },
+  {
+    "id": "PRO-156",
+    "domain": "Process",
+    "task": "7. Plan and optimize quality of products/deliverables",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Shifting spend to prevention",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Delivery Performance Domain (2.6.3.1): cost of quality — conformance versus nonconformance costs",
+    "question": "Last year, a firm that builds custom industrial control panels spent $40,000 on prevention (training and design reviews), $90,000 on appraisal (inspection and testing), $150,000 on internal failures (rework and scrap), and $220,000 on external failures (field repairs and warranty claims). For its next project the quality lead proposes adding $60,000 of prevention through design-for-assembly reviews and wiring fixtures. Pilot data suggests internal failure costs will fall by 40% and external failure costs by 50%, with appraisal unchanged. What is the projected total cost of quality?",
+    "options": [
+      "$390,000",
+      "$412,000",
+      "$500,000",
+      "$560,000"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Recalculate each of the four categories separately, then add them back together.",
+    "why": "Prevention becomes $40,000 + $60,000 = $100,000; appraisal stays at $90,000; internal failure falls 40% to $150,000 × 0.6 = $90,000; external failure falls 50% to $220,000 × 0.5 = $110,000. Total cost of quality = $100,000 + $90,000 + $90,000 + $110,000 = $390,000, down from $500,000. Spending $60,000 more on prevention saves $170,000 in failure costs, a net reduction of $110,000.",
+    "how": "For cost-of-quality questions, update each category (prevention, appraisal, internal failure, external failure) on its own, then total them; investing in conformance usually pays off when it removes larger failure costs.",
+    "optionNotes": [
+      "Correct — $100,000 prevention + $90,000 appraisal + $90,000 internal failure + $110,000 external failure = $390,000.",
+      "Incorrect — This applies the 40% reduction to external failures as well ($132,000), instead of the 50% reduction given for them.",
+      "Incorrect — This adds the prevention investment and the internal-failure saving but leaves external failures unchanged at $220,000.",
+      "Incorrect — This adds the $60,000 investment to last year's $500,000 total and ignores the projected drop in failure costs."
+    ],
+    "deepDive": "The book groups prevention and appraisal as costs of conformance and internal and external failures as costs of nonconformance. External failures are usually the most expensive, because they add warranty costs, lost goodwill and sometimes legal exposure, so shifting money toward prevention tends to lower the total. The cost of change also rises the later a defect is found, which reinforces the case for preventing defects during design. On the exam, classify each cost carefully: training and design reviews are prevention, inspection and testing are appraisal, rework and scrap are internal failure, and warranty and recalls are external failure.",
+    "tags": [
+      "calculation",
+      "cost of quality",
+      "prevention",
+      "quality"
+    ]
+  },
+  {
+    "id": "PRO-157",
+    "domain": "Process",
+    "task": "7. Plan and optimize quality of products/deliverables",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Deferring testing to a hardening sprint",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Delivery Performance Domain (2.6.3.2): cost of change — building quality into every increment",
+    "question": "An agile team building a logistics tracking app is three sprints away from a planned release. To show more features at reviews, the developers propose removing automated regression testing from the definition of done for now and running all of that testing in a single 'hardening sprint' just before release. The product owner likes the idea because more stories would show as done. As the team's project manager, what is the BEST response?",
+    "options": [
+      "Support the plan, since a hardening sprint is a common agile practice for catching defects just before a release",
+      "Accept the change, but ask a separate QA team to test each story in parallel so that defects surface a little sooner",
+      "Let the team decide on its own, because a self-organizing team owns its definition of done without outside input",
+      "Keep regression testing in the definition of done and help the product owner reduce the scope planned per sprint"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Think about when defects become most expensive to find, and what 'done' is supposed to tell stakeholders.",
+    "why": "Moving testing out of the definition of done makes stories look finished when they are not, so reviews show false progress and defects pile up unseen until the hardening sprint, when they are costliest to fix and can threaten the release. Keeping regression testing in the definition of done preserves a genuinely releasable increment, and the honest lever is scope: the product owner can plan fewer stories per sprint so the team finishes them properly.",
+    "how": "In agile delivery, protect the definition of done and adjust scope instead; deferring testing to the end recreates waterfall risk and hides the true state of the product.",
+    "optionNotes": [
+      "Incorrect — A hardening sprint is usually a symptom of incomplete work, not a recommended practice; it delays feedback and hides defects.",
+      "Incorrect — A separate QA team still leaves stories reported as done before they are verified, and it creates hand-offs and delayed feedback.",
+      "Incorrect — The team does own its definition of done, but a servant leader should coach on the quality and transparency risks rather than stay silent.",
+      "Correct — It keeps each increment genuinely releasable and makes scope, not quality, the variable used to fit the sprint."
+    ],
+    "deepDive": "The book's principle of building quality into processes and deliverables means catching defects close to where they are created, because the cost of change grows over time. In agile teams this shows up as a strong definition of done, automated tests and continuous integration, rather than end-phase testing. A 'hardening' or 'stabilization' sprint that collects deferred testing is a warning sign of undone work and technical debt. Exam items often tempt you with options that look productive (more stories done) but compromise transparency or quality.",
+    "tags": [
+      "quality",
+      "definition of done",
+      "technical debt",
+      "agile"
+    ]
+  },
+  {
+    "id": "PRO-158",
+    "domain": "Process",
+    "task": "7. Plan and optimize quality of products/deliverables",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Acceptance criteria for an AI model",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Delivery Performance Domain (2.6.2.1): requirements — measurable acceptance criteria for quality",
+    "question": "An insurer's hybrid project is buying a machine-learning model from a vendor to triage incoming claims for fraud. The vendor reports 94% accuracy on its own test data. The claims director wants to sign the acceptance certificate so the model can go live next month, and the project's quality plan says only that the model must be 'accurate and fair.' About 6% of the insurer's claims are fraudulent, and the model will score claims from all regions. What should the project manager do before acceptance?",
+    "options": [
+      "Accept the model, because 94% accuracy is above typical industry benchmarks and the vendor has warranted its results",
+      "Agree measurable criteria by claim type and region, then test the model on the insurer's own held-out claims data",
+      "Ask the vendor to retrain the model on more data until it reaches 99% accuracy on the vendor's own test set",
+      "Run the model live in shadow mode, and let the claims director judge later whether its outputs look fair enough"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "With only 6% of claims fraudulent, how accurate would a model be if it never flagged any claim at all?",
+    "why": "With 6% fraud, a model that labels every claim as legitimate would already score 94% accuracy, so the vendor's figure says nothing about whether fraud is being caught. 'Accurate and fair' is not verifiable either. Before acceptance, the project should agree measurable criteria (for example, the share of fraudulent claims detected and false-alarm rates, overall and by region and claim type) and test against the insurer's own held-out, representative data. Only then is an acceptance decision objective.",
+    "how": "For any deliverable, and especially AI models, acceptance needs measurable, agreed criteria tested on representative independent data; a headline metric chosen by the supplier is not evidence of fitness for use.",
+    "optionNotes": [
+      "Incorrect — Headline accuracy is misleading when fraud is rare, and a vendor warranty does not replace independent verification against agreed criteria.",
+      "Correct — Measurable criteria by segment, tested on the insurer's own held-out data, make acceptance objective and expose weak or unfair performance.",
+      "Incorrect — Chasing a higher score on the vendor's own data repeats the flaw; accuracy still hides missed fraud and uneven results by region.",
+      "Incorrect — Shadow running can be useful, but without agreed criteria the later judgment is subjective and fairness risks go unmeasured."
+    ],
+    "deepDive": "Quality means meeting requirements and fitness for use, which requires requirements that are clear, measurable and testable. For classification models, accuracy is a weak measure when classes are imbalanced; precision, recall (detection rate), false-positive rates and performance across subgroups are more informative. Testing on the buyer's own held-out data guards against overfitting to the supplier's test set, and segment-level results reveal fairness issues. After go-live, monitoring for data drift keeps the model within the agreed quality thresholds.",
+    "tags": [
+      "quality",
+      "acceptance criteria",
+      "ai",
+      "vendor deliverables"
+    ]
+  },
+  {
+    "id": "PRO-159",
+    "domain": "Process",
+    "task": "7. Plan and optimize quality of products/deliverables",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "multi",
+    "topic": "Building quality into the process",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Delivery Performance Domain (2.6.3): quality — prevention over inspection",
+    "question": "A hybrid project is producing 2,000 smart-meter enclosures on a new assembly line while a software team builds the meter firmware in two-week sprints. Early units show two recurring defects: gaskets fitted upside down on the line, and firmware regressions that are found only during the monthly system test. The sponsor asks for changes that build quality in rather than catching defects afterwards. Which two actions BEST do this? (Select two.)",
+    "options": [
+      "Add a fixture to the assembly station that physically prevents a gasket from being fitted upside down",
+      "Double the final inspection sample size for finished enclosures leaving the assembly line each day",
+      "Run automated regression tests on every firmware commit as part of the team's build pipeline",
+      "Add a second full system-test cycle for the firmware each month before every planned release",
+      "Pay inspectors a bonus for each defective enclosure they catch before it is shipped to the customer"
+    ],
+    "answer": [
+      0,
+      2
+    ],
+    "hint": "Which options stop a defect from being created or from surviving past the moment it appears?",
+    "why": "A mistake-proofing fixture makes the gasket error physically impossible, and automated regression tests on every commit catch a firmware defect minutes after it is introduced. Both remove defects at their source instead of relying on later inspection. Larger inspection samples, extra system-test cycles and inspector bonuses all find defects after they have been created, which costs more and still lets some escape.",
+    "how": "To build quality in, prevent the error (mistake-proofing, standard work) or detect it immediately where it happens (automated tests in the pipeline); extra end-of-line inspection is appraisal, not prevention.",
+    "optionNotes": [
+      "Correct — Mistake-proofing (poka-yoke) prevents the defect from being made at all, which is the cheapest point to address quality.",
+      "Incorrect — A larger inspection sample is more appraisal; it may catch more bad units but does nothing to stop them being produced.",
+      "Correct — Testing every commit gives immediate feedback, so regressions are fixed when they are introduced rather than weeks later.",
+      "Incorrect — Another monthly test cycle still finds regressions long after they were created, keeping feedback slow and rework expensive.",
+      "Incorrect — Rewarding defect detection targets inspection, can distort behavior, and does not reduce the number of defects created."
+    ],
+    "deepDive": "The book's quality ideas emphasize building quality into processes and deliverables so that defects are prevented or found close to their source. In manufacturing this means mistake-proofing, standard work and in-process checks; in software it means test automation, continuous integration and a robust definition of done. Both reduce the costs of nonconformance, especially external failure. On the exam, distinguish prevention and immediate detection from appraisal activities such as final inspection and extra test phases.",
+    "tags": [
+      "quality",
+      "built-in quality",
+      "mistake-proofing",
+      "multi-select"
+    ]
+  },
+  {
+    "id": "PRO-160",
+    "domain": "Process",
+    "task": "7. Plan and optimize quality of products/deliverables",
+    "approach": "Agile",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Done versus accepted",
+    "source": "ECO 2026 · Process Task 7 · Agile practice (definition of done versus acceptance criteria)",
+    "question": "During preparation for the sprint review, a developer says a customer-profile story meets all of its acceptance criteria and the product owner has already tried it. However, the team's definition of done also requires a passed security scan and updated API documentation, and neither has been completed. The sprint ends tomorrow, and there is not enough time left to finish them. How should the team treat the story?",
+    "options": [
+      "Treat it as not done: exclude it from this sprint's velocity and return the remaining work to the product backlog",
+      "Count half of its story points toward this sprint's velocity and finish the scan and documentation early in the next sprint",
+      "Mark it as done, and add a technical-debt item for the scan and documentation to the product backlog",
+      "Count it as done, because the product owner has seen it working and all of its acceptance criteria are met"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Acceptance criteria and the definition of done answer different questions — does this story need both?",
+    "why": "Acceptance criteria describe what a specific story must do; the definition of done is the team-wide quality standard every item must meet. A story is done only when both are satisfied, so without the security scan and documentation it is not done. It is not shown as complete, earns no velocity, and returns to the product backlog for the product owner to reorder.",
+    "how": "An item that does not meet the definition of done is not done, whatever its acceptance criteria say: no partial credit, no velocity, and the remaining work goes back to the product backlog.",
+    "optionNotes": [
+      "Correct — Undone work is not presented as complete or counted in velocity; it returns to the product backlog to be reprioritized.",
+      "Incorrect — Agile teams do not take partial credit; counting half the points inflates velocity and distorts future forecasts.",
+      "Incorrect — Declaring it done while skipping required quality steps hides real work as technical debt and undermines transparency.",
+      "Incorrect — Meeting acceptance criteria is necessary but not sufficient; the definition of done still applies to every item."
+    ],
+    "deepDive": "The definition of done is a shared quality commitment that makes an increment potentially releasable, while acceptance criteria are story-specific conditions set with the product owner. Security scans and documentation are typical definition-of-done items because they apply to all work. Counting partially finished work damages the reliability of velocity and release forecasts. Exam items often pair a satisfied product owner with an unmet definition of done to test whether you protect quality and transparency.",
+    "tags": [
+      "quality",
+      "definition of done",
+      "acceptance criteria",
+      "velocity"
+    ]
+  },
+  {
+    "id": "PRO-161",
+    "domain": "Process",
+    "task": "8. Plan and manage schedule",
+    "approach": "Predictive",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Free float versus total float",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Planning Performance Domain (2.4.2.3): schedules — network logic, total float and free float",
+    "question": "Refer to the exhibit. On a clinic fit-out project, the electrical subcontractor responsible for activity D asks to start D later than its early start date so that it can finish another job first. The crew for activity F is booked to start on F's early start date and cannot be moved without a penalty. How many days can activity D be delayed without delaying the early start of any successor activity?",
+    "options": [
+      "0 days",
+      "2 days",
+      "3 days",
+      "5 days"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "The question protects the successor's start date, not just the project finish date — which kind of float does that describe?",
+    "why": "Forward pass: A 0–3; B 3–17; C 3–7; D 7–9; E 7–12; F starts at the later of D and E, so F 12–15; G starts at the later of B and F, so G 17–21; H 21–24. The critical path is A-B-G-H (24 days). Free float of D = early start of F − early finish of D = 12 − 9 = 3 days. Total float of D is 5 days (late start 12 − early start 7), but using more than 3 days would push F's start and trigger the crew penalty.",
+    "how": "Free float = earliest early start of the successors − early finish of the activity; total float = late start − early start. Use free float when a successor's start must not move, and total float when only the project finish date matters.",
+    "optionNotes": [
+      "Incorrect — D is not on the critical path; it finishes on day 9 while F cannot start until E finishes on day 12.",
+      "Incorrect — Two days is the total float of the C-E-F path, not the slack between D's finish and F's early start.",
+      "Correct — F's early start (day 12) minus D's early finish (day 9) gives 3 days of free float.",
+      "Incorrect — Five days is D's total float; delays beyond 3 days would push F's start and trigger the crew penalty."
+    ],
+    "deepDive": "Total float is how long an activity can slip without delaying the project finish (or a constrained milestone); free float is how long it can slip without delaying any successor's early start. Free float is always less than or equal to total float, and an activity can have total float but no free float when it shares float with the rest of its path. Using float that belongs to a chain can make later activities critical, which is why schedulers watch near-critical paths. In practice, commitments like booked crews or delivery windows turn free float into the limit that matters.",
+    "tags": [
+      "calculation",
+      "free float",
+      "critical path",
+      "exhibit"
+    ],
+    "exhibit": {
+      "kind": "table",
+      "title": "Activity list — clinic fit-out",
+      "columns": [
+        "Activity",
+        "Description",
+        "Duration (days)",
+        "Predecessor(s)"
+      ],
+      "rows": [
+        [
+          "A",
+          "Site survey",
+          "3",
+          "—"
+        ],
+        [
+          "B",
+          "Long-lead HVAC units",
+          "14",
+          "A"
+        ],
+        [
+          "C",
+          "Demolition",
+          "4",
+          "A"
+        ],
+        [
+          "D",
+          "Electrical rough-in",
+          "2",
+          "C"
+        ],
+        [
+          "E",
+          "Plumbing rough-in",
+          "5",
+          "C"
+        ],
+        [
+          "F",
+          "Wall closing",
+          "3",
+          "D, E"
+        ],
+        [
+          "G",
+          "HVAC installation",
+          "4",
+          "B, F"
+        ],
+        [
+          "H",
+          "Inspection and handover",
+          "3",
+          "G"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "PRO-162",
+    "domain": "Process",
+    "task": "8. Plan and manage schedule",
+    "approach": "Predictive",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Path range from three-point estimates",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Planning Performance Domain (2.4.2.2): estimating — probabilistic ranges and confidence",
+    "question": "A laboratory relocation has three sequential critical-path activities with these three-point estimates in days (optimistic, most likely, pessimistic): decommissioning 8, 12, 22; moving and installation 15, 20, 31; requalification testing 4, 6, 14. The steering committee wants a duration range for this path that it can rely on with about 95% confidence. Using beta (PERT) estimates, what range should the project manager report?",
+    "options": [
+      "30 to 46 days",
+      "33 to 49 days",
+      "34 to 48 days",
+      "37 to 45 days"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Standard deviations do not add along a path, but something else about them does.",
+    "why": "PERT means: (8 + 4×12 + 22)/6 = 13; (15 + 4×20 + 31)/6 = 21; (4 + 4×6 + 14)/6 = 7; path mean = 41 days. Standard deviations (P − O)/6: 2.33, 2.67 and 1.67; variances 5.44 + 7.11 + 2.78 = 15.33; path standard deviation = √15.33 ≈ 3.9 days. About 95% confidence is ±2σ: 41 ± 7.8 ≈ 33 to 49 days.",
+    "how": "For a path estimate, add the PERT means, add the variances (σ²), then take the square root to get the path σ; ±1σ ≈ 68%, ±2σ ≈ 95%, ±3σ ≈ 99.7%.",
+    "optionNotes": [
+      "Incorrect — This centers the range on the most-likely total (38 days) instead of the PERT mean of 41 days.",
+      "Correct — The mean is 41 days and the path σ is √15.33 ≈ 3.9, so ±2σ gives roughly 33 to 49 days.",
+      "Incorrect — This adds the three standard deviations (6.7 days) and applies them once; σ values must be combined through their variances.",
+      "Incorrect — This is only ±1σ around 41 days, which gives about 68% confidence rather than the 95% the committee asked for."
+    ],
+    "deepDive": "Three-point estimating turns uncertainty into a range: the beta (PERT) mean weights the most-likely value four times, while the triangular mean is a simple average. The book contrasts deterministic single-point estimates with probabilistic ones that express confidence levels, which is what a steering committee needs for commitments. Because independent uncertainties partly offset each other, the path standard deviation is smaller than the sum of the individual deviations. For whole-network risk with merging paths, Monte Carlo simulation gives a better picture than a single-path calculation.",
+    "tags": [
+      "calculation",
+      "three-point estimating",
+      "pert",
+      "standard deviation"
+    ]
+  },
+  {
+    "id": "PRO-163",
+    "domain": "Process",
+    "task": "8. Plan and manage schedule",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Release forecast with growing scope",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Measurement Performance Domain (2.7.2.7): forecasts — throughput and scope trends",
+    "question": "A product team building a field-inspection app has 210 story points remaining in its release backlog. Over the last five sprints its velocity averaged 32 points (ranging from 28 to 36), while the product owner added an average of 11 points of new stories each sprint in response to user feedback, and she expects that pattern to continue. The sponsor asks how many more sprints the release will take if both average trends hold. What should the project manager forecast?",
+    "options": [
+      "About 5 sprints",
+      "About 7 sprints",
+      "About 10 sprints",
+      "About 13 sprints"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "If new work keeps arriving while the team burns work down, what is the real rate at which the remaining backlog shrinks?",
+    "why": "The backlog shrinks by velocity minus scope growth: 32 − 11 = 21 points per sprint. Sprints needed = 210 ÷ 21 = 10. Ignoring growth (210 ÷ 32 ≈ 6.6) would promise about 7 sprints and create a false expectation; the project manager should also show the product owner and sponsor that trimming new additions is the lever that pulls the date in.",
+    "how": "When scope keeps growing, forecast with the net burn rate (velocity − average scope added per sprint) and make the scope trend visible, for example on a burnup chart.",
+    "optionNotes": [
+      "Incorrect — This adds scope growth to velocity (210 ÷ 43 ≈ 4.9); new work slows net progress, it does not speed it up.",
+      "Incorrect — This divides by velocity alone (210 ÷ 32 ≈ 6.6) and ignores the 11 points of new scope arriving every sprint.",
+      "Correct — Net burn is 32 − 11 = 21 points per sprint, so 210 ÷ 21 = 10 sprints if both trends hold.",
+      "Incorrect — This uses the lowest velocity (210 ÷ 17 ≈ 12.4), a pessimistic bound rather than the average-trend forecast requested."
+    ],
+    "deepDive": "Burnup charts show two lines, total scope and completed work, so both velocity and scope change are visible; burndown charts can hide scope growth. Forecasts based on throughput become more reliable as data accumulates, and good practice presents a range (for example, using the best and worst sprints) alongside the average-based estimate. The book treats forecasts as a key measurement output that lets stakeholders make decisions, here whether to cap new scope or accept a later release. On the exam, watch for options that silently ignore scope growth or rely on the single best sprint.",
+    "tags": [
+      "calculation",
+      "velocity",
+      "release forecast",
+      "scope growth"
+    ]
+  },
+  {
+    "id": "PRO-164",
+    "domain": "Process",
+    "task": "8. Plan and manage schedule",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Forecasting one item with cycle time",
+    "source": "ECO 2026 · Process Task 8 · Flow-based (Kanban) forecasting with cycle-time percentiles",
+    "question": "A support-tools team uses Kanban with no sprints or estimates. A regional director asks when a newly requested report-export feature will be finished; the item was pulled into 'In progress' this morning. Over the last three months, the team's cycle-time data shows that 50% of similar items finished within 4 days and 85% within 9 days, with a few outliers near 20 days. What is the MOST appropriate answer to give the director?",
+    "options": [
+      "It will be done in 4 days, the median cycle time, because half of all similar items have finished that quickly",
+      "It will be done within 20 days, because quoting the slowest outlier guarantees that the date will not be missed",
+      "No date can be given until the work is broken into tasks and every task has been estimated in hours",
+      "There is about an 85% chance it will be done within 9 days, based on the team's recent cycle-time history"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "What does the team's own history say about how likely different finish dates are?",
+    "why": "Flow teams forecast single items from their cycle-time distribution. Quoting the 85th percentile gives the director a date with a stated, fairly high likelihood, and it is based on real performance rather than guesses. The median would be missed about half the time, the worst outlier pads the date so much that it misleads, and demanding hour estimates adds effort without improving on the team's actual data.",
+    "how": "In Kanban, answer 'when will it be done?' with a probabilistic forecast from historical cycle time (for example, the 85th percentile), and keep refreshing it as data accumulates.",
+    "optionNotes": [
+      "Incorrect — The median is a coin flip: about half of similar items took longer, so this date would often be missed.",
+      "Incorrect — Quoting the extreme outlier overstates the likely time and makes the team's delivery look far slower than it really is.",
+      "Incorrect — Detailed hour estimates are unnecessary when stable historical flow data already gives a reliable probabilistic forecast.",
+      "Correct — A percentile-based forecast gives a realistic date with an explicit confidence level drawn from the team's actual history."
+    ],
+    "deepDive": "Cycle time is the time from when work starts on an item until it is finished; lead time runs from request to delivery. Many flow teams publish a service level expectation such as '85% of items finish within 9 days' and use scatter plots or cycle-time charts to track it. Keeping work in progress low makes cycle times shorter and more predictable, per Little's Law. On the exam, prefer answers that give ranges or probabilities based on empirical data over single-point promises.",
+    "tags": [
+      "cycle time",
+      "kanban",
+      "forecasting",
+      "flow metrics"
+    ]
+  },
+  {
+    "id": "PRO-165",
+    "domain": "Process",
+    "task": "8. Plan and manage schedule",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Padded estimates and hidden reserve",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Uncertainty Performance Domain (2.8.5.3): visible schedule reserve instead of padded estimates",
+    "question": "A hybrid project is fitting out a new data center for an insurer: the building work follows a detailed schedule, while agile teams migrate applications in sprints. Reviewing the fit-out schedule, the project manager learns that each work-package owner quietly added 20–30% 'safety' to every activity estimate. Even so, almost no activity finishes early: most start late and end on or after their padded dates, and the fit-out is now three weeks behind at its midpoint. What should the project manager do?",
+    "options": [
+      "Agree realistic estimates with owners and move the removed safety into a visible schedule reserve the project tracks",
+      "Ask the owners to add a larger safety margin to the remaining estimates, since the current padding has proven too small",
+      "Crash the remaining critical activities with overtime and extra crews so that the three lost weeks are recovered quickly",
+      "Keep the current estimates but move from monthly to weekly progress reports so that late starts become visible sooner"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "If generous estimates still produce late finishes, where is the safety actually going?",
+    "why": "Hidden padding tends to be consumed rather than saved: people start later because the estimate feels roomy (student syndrome) and work expands to fill the time available (Parkinson's law), so delays pass down the chain while early finishes almost never do. Replacing padded durations with realistic estimates and holding the removed safety as an explicit, shared schedule reserve lets the project manager see how fast reserve is being used and act on it, usually with a smaller total than the sum of the individual pads. More padding repeats the cause, crashing buys back time at extra cost without fixing it, and more frequent reporting only watches the same behavior more closely.",
+    "how": "Keep activity estimates realistic and hold schedule contingency as a visible reserve owned and tracked at project level, such as a project buffer; padding hidden inside each estimate is usually consumed and gives no early warning.",
+    "optionNotes": [
+      "Correct — Realistic estimates plus a visible, shared reserve remove the incentive to use up padding and show clearly how fast contingency is consumed.",
+      "Incorrect — More padding feeds the same late-start behavior, lengthens the plan further, and makes the schedule even less honest.",
+      "Incorrect — Crashing may recover time at added cost, but the hidden padding and late starts would keep eroding the rest of the schedule.",
+      "Incorrect — More frequent reporting improves visibility a little but leaves the padded estimates and late-start habits, the real cause, untouched."
+    ],
+    "deepDive": "PMBOK 7 treats reserve as an explicit amount of time or budget set aside for uncertainty, sized by reserve analysis and monitored against the remaining risk. Critical chain scheduling applies the same idea: it removes safety from individual activities, aggregates part of it into a project buffer at the end of the chain (with feeding buffers where paths merge), and manages the project by buffer consumption. Because variation pools, a shared buffer can be smaller than the sum of individual pads. Exam traps include 'add more contingency to each activity' and treating crashing as the answer to every delay.",
+    "tags": [
+      "schedule",
+      "estimating",
+      "schedule reserve",
+      "critical chain",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "PRO-166",
+    "domain": "Process",
+    "task": "9. Evaluate project status",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Control-account variance thresholds",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Measurement Performance Domain (2.7.2.3 and 2.7.5): earned value and variance thresholds",
+    "question": "Refer to the exhibit. On a water-treatment plant upgrade, the cost management plan requires a variance analysis and an exception plan for any control account whose CPI or SPI falls below 0.90. The monthly report prepared by a planner shows the project as 'green' because the overall CPI and SPI are both above 0.90. Which control accounts require an exception plan this month?",
+    "options": [
+      "None, because the project's overall CPI and SPI are both still above the 0.90 threshold",
+      "Electrical only, because its schedule variance is the largest of the four in dollar terms",
+      "Controls only, because its cost overrun is the largest of the four accounts in dollar terms",
+      "Electrical and Controls, because each has one index below the 0.90 threshold this month"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "The threshold applies at the level the plan specifies; check both indices for every account.",
+    "why": "Electrical: SPI = 255 ÷ 300 = 0.85 and CPI = 255 ÷ 270 = 0.94. Controls: CPI = 190 ÷ 225 = 0.84 and SPI = 190 ÷ 200 = 0.95. Civil works (CPI 1.02, SPI 1.05) and Commissioning (0.95, 0.95) are within threshold. The totals (CPI = 960 ÷ 1,005 = 0.96, SPI = 960 ÷ 1,000 = 0.96) look healthy only because Civil works' good performance offsets the problems, so both Electrical and Controls need exception plans.",
+    "how": "Evaluate earned value at the level where the thresholds are set (usually the control account); aggregate indices can hide serious local variances.",
+    "optionNotes": [
+      "Incorrect — The plan sets thresholds per control account; good project-level totals mask two accounts that breach the limit.",
+      "Incorrect — Electrical does breach on SPI (0.85), but Controls also breaches on CPI (0.84), so it cannot be the only one.",
+      "Incorrect — Controls breaches on CPI (0.84), but Electrical's SPI of 0.85 is also below the threshold and needs a plan.",
+      "Correct — Electrical's SPI (0.85) and Controls' CPI (0.84) are each below 0.90, so both require an exception plan."
+    ],
+    "deepDive": "CPI = EV ÷ AC and SPI = EV ÷ PV; values below 1.0 mean over budget or behind schedule. The book notes that thresholds reflect stakeholder risk tolerance and that an exception plan can be as simple as a meeting to agree actions, followed by checks that the plan is working. It also encourages acting before a breach when a trend forecasts one. Rolling everything up into a single project-level status is a common way that 'green' reports hide trouble, so good dashboards let viewers drill into control accounts.",
+    "tags": [
+      "calculation",
+      "earned value",
+      "thresholds",
+      "exhibit"
+    ],
+    "exhibit": {
+      "kind": "table",
+      "title": "Earned value by control account — month 7 ($ thousands)",
+      "columns": [
+        "Control account",
+        "PV",
+        "EV",
+        "AC"
+      ],
+      "rows": [
+        [
+          "Civil works",
+          "400",
+          "420",
+          "410"
+        ],
+        [
+          "Electrical",
+          "300",
+          "255",
+          "270"
+        ],
+        [
+          "Controls",
+          "200",
+          "190",
+          "225"
+        ],
+        [
+          "Commissioning",
+          "100",
+          "95",
+          "100"
+        ],
+        [
+          "Project total",
+          "1,000",
+          "960",
+          "1,005"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "PRO-167",
+    "domain": "Process",
+    "task": "9. Evaluate project status",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Late-sprint burndown cliff",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Measurement Performance Domain (2.7.3): presenting information — burndown charts",
+    "question": "Refer to the exhibit. A team building an e-commerce checkout has produced burndown charts with this same shape for its last three sprints. Each time, most stories were accepted in the final two days and one or two were carried over. The developers say the chart is 'just cosmetic' because they nearly finish the sprint anyway. What should the project manager suggest in the retrospective?",
+    "options": [
+      "Re-estimate the work in task hours instead of story points, so that the remaining-work line drops each day",
+      "Slice stories smaller and limit work in progress, so that stories are finished and accepted throughout the sprint",
+      "Plan far fewer stories into each sprint, since the chart shows the team is committing to much more than it can finish",
+      "Keep the current approach, since nearly all stories get finished and the burndown is only a reporting artifact"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "What has to be true about the work for points to burn down only in the last two days?",
+    "why": "Story points burn down only when stories are done, so a flat line followed by a cliff means many stories are in progress at once and finish (or get tested and accepted) only at the end. That delays feedback, hides risk until it is too late to react, and causes the repeated carryover. Smaller stories and a work-in-progress limit let the team finish items continuously, which makes the chart meaningful and the sprint more predictable.",
+    "how": "A burndown that stays flat and then drops sharply signals large stories or too much work in progress; fix the flow (smaller slices, WIP limits, test as you go) rather than the chart.",
+    "optionNotes": [
+      "Incorrect — Burning down task hours changes the picture, not the problem; stories would still finish late and carry over.",
+      "Correct — Smaller stories and WIP limits create a steady flow of finished work and earlier feedback within each sprint.",
+      "Incorrect — The team nearly finishes each sprint, so capacity is not the main issue; late completion comes from how the work flows.",
+      "Incorrect — Repeated carryover and late feedback are real risks; the chart is showing a genuine delivery problem, not a cosmetic one."
+    ],
+    "deepDive": "Burndown charts are information radiators that show remaining work against an ideal line; their value lies in the conversations they prompt. Common patterns include a flat line (blocked work), a rising line (scope added), and a late cliff ('hockey stick') from large or batched work. The remedies come from flow thinking: slice vertically, swarm on the top item, limit WIP, and integrate and test continuously. The book stresses that measures exist to support learning and improvement, not to be dismissed or gamed.",
+    "tags": [
+      "burndown",
+      "work in progress",
+      "story slicing",
+      "exhibit"
+    ],
+    "exhibit": {
+      "kind": "line",
+      "title": "Sprint 14 burndown",
+      "xLabel": "Sprint day",
+      "yLabel": "Story points remaining",
+      "x": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "series": [
+        {
+          "name": "Ideal",
+          "values": [
+            60,
+            54,
+            48,
+            42,
+            36,
+            30,
+            24,
+            18,
+            12,
+            6,
+            0
+          ]
+        },
+        {
+          "name": "Remaining",
+          "values": [
+            60,
+            60,
+            59,
+            59,
+            58,
+            56,
+            55,
+            53,
+            38,
+            17,
+            5
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "PRO-168",
+    "domain": "Process",
+    "task": "9. Evaluate project status",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Acting on a review bottleneck",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Measurement Performance Domain (2.7.2.2): delivery — flow, work in progress and bottlenecks",
+    "question": "Refer to the exhibit. A seven-developer payments platform team requires every change to pass a security code review, and only one senior engineer is currently qualified to perform it. Stakeholders complain that finished features take longer and longer to reach production, yet the developers report being fully busy and are starting new items every week. What should the project manager do?",
+    "options": [
+      "Encourage the developers to start more new items each week, so that plenty of work is ready once reviews speed up",
+      "Ask the sponsor to approve skipping the security review for low-risk changes until the review queue has been cleared",
+      "Facilitate a WIP limit on review and have developers pair with the senior engineer to clear and share the reviews",
+      "Request two more developers for the team, so that it can increase its output and deliver more features each week"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Adding work upstream of a constraint rarely helps — where does the diagram show work piling up?",
+    "why": "The 'In review' band widens every week while the 'Done' band flattens, so review is the bottleneck: work arrives faster than it leaves, and lead time keeps growing. Starting more items or adding developers only feeds the queue. A WIP limit on review stops new starts once the queue is full, and developers pairing with the senior engineer both clears the backlog and grows review capacity, without dropping a required security control.",
+    "how": "When a CFD band widens, that stage is the constraint: stop starting and start finishing, set WIP limits, swarm on the bottleneck, and build capacity there rather than upstream.",
+    "optionNotes": [
+      "Incorrect — Starting more work increases WIP in front of the bottleneck, which lengthens lead times further (Little's Law).",
+      "Incorrect — Dropping a required security control to speed flow trades a delivery problem for a compliance and security risk.",
+      "Correct — A WIP limit exposes and contains the queue, and pairing clears reviews while cross-training more reviewers.",
+      "Incorrect — More developers raise the arrival rate at review; throughput is capped by the single reviewer, so the queue grows faster."
+    ],
+    "deepDive": "A cumulative flow diagram shows how many items sit in each state over time. Parallel bands mean stable flow; a widening band marks a bottleneck; a flattening 'Done' band means throughput is falling; the horizontal distance between bands approximates lead time. The book lists flow measures such as WIP, cycle time and throughput as key delivery metrics. The theory of constraints adds that improving anything other than the bottleneck does not raise system throughput.",
+    "tags": [
+      "cumulative flow diagram",
+      "bottleneck",
+      "wip limits",
+      "exhibit"
+    ],
+    "exhibit": {
+      "kind": "stacked-area",
+      "title": "Cumulative flow diagram — payments platform team",
+      "xLabel": "Week",
+      "yLabel": "Work items",
+      "x": [
+        "W1",
+        "W2",
+        "W3",
+        "W4",
+        "W5",
+        "W6",
+        "W7",
+        "W8",
+        "W9",
+        "W10"
+      ],
+      "series": [
+        {
+          "name": "Done",
+          "values": [
+            4,
+            8,
+            12,
+            15,
+            17,
+            19,
+            20,
+            22,
+            23,
+            25
+          ]
+        },
+        {
+          "name": "In review",
+          "values": [
+            2,
+            3,
+            4,
+            6,
+            9,
+            12,
+            15,
+            17,
+            20,
+            22
+          ]
+        },
+        {
+          "name": "In progress",
+          "values": [
+            5,
+            5,
+            6,
+            6,
+            6,
+            5,
+            6,
+            6,
+            5,
+            6
+          ]
+        },
+        {
+          "name": "To do",
+          "values": [
+            40,
+            36,
+            32,
+            29,
+            26,
+            23,
+            20,
+            18,
+            16,
+            13
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "PRO-169",
+    "domain": "Process",
+    "task": "9. Evaluate project status",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Why status stays green until red",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Measurement Performance Domain (2.7.4 and 2.7.5): measurement pitfalls and threshold-based exception plans",
+    "question": "In a hybrid ERP program, any workstream that reports amber must present a recovery plan at the monthly executive review, which leads describe as 'a public grilling.' For the third time this year, a workstream reported green for months and then jumped straight to red two weeks before a milestone. The sponsor asks the project manager to stop these surprises. What should the project manager do?",
+    "options": [
+      "Require each workstream lead to sign a formal statement confirming that the weekly status they report is accurate",
+      "Add an independent monthly audit of every workstream, so that inaccurate green reports are exposed and penalized",
+      "Replace the red-amber-green ratings with detailed written narratives, so that executives can read the full context each month",
+      "Base status on agreed objective thresholds and forecasts, and work with the sponsor to treat amber as a call for help"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Ask why capable leads would keep reporting green when they can see problems coming.",
+    "why": "The pattern points to a system problem: amber brings public criticism, so leads avoid it until a problem can no longer be hidden. Anchoring status in objective, agreed thresholds and forward-looking forecasts removes much of the subjectivity, and changing how the executive review responds to amber (support rather than blame) makes early warning safe. Signed statements and punitive audits deepen the fear, and narratives without objective criteria still allow optimism to hide trends.",
+    "how": "When status reports stay green until they suddenly turn red, fix both the measure (objective thresholds, forecasts) and the incentive (make bad news safe to report early).",
+    "optionNotes": [
+      "Incorrect — A signed declaration adds pressure without changing the incentive to hide problems, so status stays green until it can't.",
+      "Incorrect — Punitive audits increase fear and defensiveness; they may catch late problems but will not encourage early warnings.",
+      "Incorrect — Narratives add context, but without objective criteria and a safer response to bad news, optimistic reporting continues.",
+      "Correct — Objective thresholds and forecasts reduce subjectivity, and treating amber as a request for support makes early warnings safe."
+    ],
+    "deepDive": "'Watermelon' reporting (green outside, red inside) usually grows from incentives: when bad news is punished, people delay reporting it. The book's measurement pitfalls include misuse of metrics and confirmation bias, and it recommends thresholds with agreed exception plans, ideally acting when a breach is forecast rather than after it happens. Leading indicators and trend-based forecasts give earlier signals than milestone status. Leaders build psychological safety by responding to amber with help, which turns reporting into an early-warning system.",
+    "tags": [
+      "status reporting",
+      "watermelon",
+      "thresholds",
+      "psychological safety"
+    ]
+  },
+  {
+    "id": "PRO-170",
+    "domain": "Process",
+    "task": "9. Evaluate project status",
+    "approach": "Agile",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Replacing vanity metrics on a dashboard",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Measurement Performance Domain (2.7.4): measurement pitfalls — vanity metrics",
+    "question": "A product team is rebuilding a university's course-registration website. Its dashboard, displayed as an information radiator in the team room and emailed weekly to the sponsor, shows total page views, story points completed, and lines of code written, all rising steadily. The sponsor says, 'The numbers look great, but I still can't tell whether students are finding it easier to register.' What should the project manager do?",
+    "options": [
+      "Work with the product owner to add outcome measures, such as registration completion rate and time to register",
+      "Add more detail to the current charts, such as page views by browser type and story points by individual developer",
+      "Explain to the sponsor that rising output metrics are reliable evidence that the desired outcomes will follow later",
+      "Stop sending the dashboard to the sponsor, and provide a weekly narrative status report written by the team instead"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Which kind of measure would actually answer the sponsor's question?",
+    "why": "Page views, story points and lines of code show activity but do not help anyone decide whether students are better served; they are vanity metrics. The sponsor's question concerns an outcome, so the dashboard should track measures such as registration completion rate, time to register, and help-desk calls about registration, agreed with the product owner who owns value. Output metrics can remain for the team's own use, but they should not stand in for outcomes.",
+    "how": "Choose metrics that inform decisions about value and outcomes; drop or demote vanity metrics that only show activity or volume.",
+    "optionNotes": [
+      "Correct — Outcome measures tied to the sponsor's goal show whether the product is delivering value to students.",
+      "Incorrect — Slicing vanity metrics more finely adds noise, and per-developer points invite gaming without answering the question.",
+      "Incorrect — Output does not guarantee outcomes; a team can deliver many features that do not make registration easier.",
+      "Incorrect — Withdrawing the dashboard reduces transparency; the problem is what it measures, not the fact that it is shared."
+    ],
+    "deepDive": "A vanity metric shows data that looks impressive but does not help make decisions — the book contrasts page views with measures such as new users. Useful measures are tied to objectives, specific and actionable, and they include business value and stakeholder outcomes, not just delivery output. Dashboards and information radiators should highlight the few measures that matter, with detail available on demand. On the exam, prefer answers that shift reporting from outputs to outcomes.",
+    "tags": [
+      "vanity metrics",
+      "dashboards",
+      "outcomes",
+      "information radiators"
+    ]
+  },
+  {
+    "id": "PRO-171",
+    "domain": "Process",
+    "task": "9. Evaluate project status",
+    "approach": "Any",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Metrics that change behavior",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Measurement Performance Domain (2.7.4): measurement pitfalls — the Hawthorne effect",
+    "question": "During a system-replacement project, a service desk manager began publishing a weekly leaderboard of tickets closed per analyst to show that the new tool was improving performance. Within a month, tickets closed rose 30%, but reopened tickets doubled and customer satisfaction scores fell. Analysts admit they now close tickets quickly and split complex issues into several smaller tickets. The manager asks the project manager how to fix the measurement. What is the BEST recommendation?",
+    "options": [
+      "Keep the leaderboard, but add a penalty for any analyst whose reopened tickets exceed an agreed weekly limit",
+      "Stop publishing any service desk metrics, so that analysts can focus on their work without pressure to perform",
+      "Measure outcomes at team level, such as first-contact resolution and satisfaction, and review them with the analysts",
+      "Keep the leaderboard for another quarter, since the drop in quality is probably a short-lived adjustment period"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "The act of measuring changed what people did — so what should be measured, and at what level, to encourage the behavior you actually want?",
+    "why": "Publishing individual closure counts changed behavior toward the number itself: analysts optimized for volume, splitting tickets and closing them prematurely, at the expense of customers. Replacing it with team-level outcome measures (first-contact resolution, reopen rate, satisfaction) aligns the metric with the real goal, and reviewing results with the analysts builds ownership rather than pressure. Penalties add another number to game, dropping all metrics removes useful feedback, and waiting ignores clear evidence of harm.",
+    "how": "Because measuring something changes behavior, choose balanced outcome measures that reward the result you want, prefer team-level metrics, and watch for gaming.",
+    "optionNotes": [
+      "Incorrect — Adding a penalty keeps the harmful incentive and invites new gaming, such as avoiding reopening tickets that are not truly resolved.",
+      "Incorrect — Removing all metrics throws away useful feedback; the problem is the choice of measure, not measurement itself.",
+      "Correct — Team-level outcome measures align behavior with customer results, and reviewing them with the analysts builds ownership.",
+      "Incorrect — The data already shows real harm to customers; waiting another quarter lets the damage and the gaming habits grow."
+    ],
+    "deepDive": "The Hawthorne effect is the observation that the act of measuring influences behavior; the book warns that measuring only output can push teams toward volume rather than customer value. Related pitfalls include misusing metrics (optimizing short-term numbers at the expense of long-term outcomes) and demoralization from unachievable targets. Balanced measures, pairing quantity with quality and outcome metrics, reduce gaming. Individual leaderboards also damage collaboration, which is why agile and lean practices favor team-level measures.",
+    "tags": [
+      "hawthorne effect",
+      "metrics",
+      "measurement pitfalls",
+      "outcomes"
+    ]
+  },
+  {
+    "id": "PRO-172",
+    "domain": "Process",
+    "task": "9. Evaluate project status",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "multi",
+    "topic": "Choosing leading indicators",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Measurement Performance Domain (2.7.1.1): key performance indicators — leading and lagging",
+    "question": "A hybrid project is rolling out a new electronic health record module across 12 clinics over six months, with software configured in sprints and clinic go-lives on a fixed schedule. The sponsor's dashboard currently shows only cost variance and milestones achieved, both reported at month end. She wants measures that will warn her early if clinic adoption, the main expected benefit, is at risk. Which two measures would BEST serve as leading indicators? (Select two.)",
+    "options": [
+      "Percentage of clinic staff who have completed hands-on training before their clinic's go-live date",
+      "Total project cost variance at the end of each month compared with the approved cost baseline",
+      "Number of milestones completed to date compared with the approved schedule baseline",
+      "Trend in unresolved workflow issues raised by clinics that are preparing to go live",
+      "Final adoption rate across all clinics, measured six months after the last go-live"
+    ],
+    "answer": [
+      0,
+      3
+    ],
+    "hint": "Look for measures that change before adoption does, and that are connected to what drives it.",
+    "why": "Training completion before go-live and the trend in unresolved workflow issues both move ahead of adoption and are causally linked to it: untrained staff and unresolved workflow problems are the usual reasons clinicians avoid a new system. They give the sponsor time to act. Cost variance and milestones are lagging measures of project performance that say little about adoption, and the final adoption rate is the lagging outcome itself, available only after it is too late to intervene.",
+    "how": "Leading indicators predict future results and allow timely action; lagging indicators confirm what has already happened. Pair a lagging outcome with a few leading drivers you can still influence.",
+    "optionNotes": [
+      "Correct — Readiness through training is a predictor of adoption and can be acted on clinic by clinic before each go-live.",
+      "Incorrect — Cost variance is a lagging measure of spending performance and does not signal whether clinics will adopt the system.",
+      "Incorrect — Milestones achieved show past schedule performance; a milestone can be met even while adoption risk is growing.",
+      "Correct — A rising count of unresolved workflow issues warns that clinicians may resist or work around the system after go-live.",
+      "Incorrect — This is the lagging outcome itself; it arrives months after the project has ended, too late to change anything."
+    ],
+    "deepDive": "The book describes leading indicators as predicting changes or trends, and lagging indicators as measuring deliverables or events after the fact. Lagging measures are easier to collect, which is why dashboards often default to them, but they leave no time to respond. Good benefit tracking pairs the lagging outcome (adoption rate) with leading drivers such as readiness, training, and issue trends. For change-heavy rollouts, change-readiness assessments and early usage in pilot clinics are further useful leading signals.",
+    "tags": [
+      "leading indicators",
+      "lagging indicators",
+      "dashboards",
+      "multi-select"
+    ]
+  },
+  {
+    "id": "PRO-173",
+    "domain": "Process",
+    "task": "9. Evaluate project status",
+    "approach": "Predictive",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "EAC with cost and schedule pressure",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Measurement Performance Domain (2.7.2.7): forecasts — estimate at completion variants",
+    "question": "A fixed-date data-center migration has a budget at completion of $2,400,000. At the latest status date, planned value is $1,200,000, earned value is $1,000,000, and actual cost is $1,250,000. The contract completion date cannot move, so the remaining work will need paid overtime and extra contractors to recover the schedule, and the team agrees that both cost and schedule performance will influence the remaining costs. What is the most appropriate estimate at completion?",
+    "options": [
+      "$2,650,000",
+      "$2,880,000",
+      "$3,000,000",
+      "$3,350,000"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Pick the EAC formula that matches the stated assumption about what will drive the remaining work's cost.",
+    "why": "CPI = EV ÷ AC = 1,000,000 ÷ 1,250,000 = 0.80; SPI = EV ÷ PV = 1,000,000 ÷ 1,200,000 ≈ 0.833; CPI × SPI ≈ 0.667. Because both indices are expected to affect the remaining work, EAC = AC + (BAC − EV) ÷ (CPI × SPI) = 1,250,000 + 1,400,000 ÷ 0.667 = 1,250,000 + 2,100,000 = $3,350,000. That implies a variance at completion of about −$950,000, which should go to the sponsor with recovery options.",
+    "how": "Choose the EAC by assumption: atypical variance → AC + (BAC − EV); current cost performance continues → BAC ÷ CPI; both cost and schedule pressure continue → AC + (BAC − EV) ÷ (CPI × SPI).",
+    "optionNotes": [
+      "Incorrect — AC + (BAC − EV) assumes the overrun was a one-off and the rest runs to budget, which contradicts the overtime assumption.",
+      "Incorrect — BAC ÷ SPI is not a recognized EAC formula; it wrongly uses schedule performance on its own to scale costs.",
+      "Incorrect — BAC ÷ CPI assumes only current cost performance continues and ignores the extra cost of recovering the schedule.",
+      "Correct — AC + (BAC − EV) ÷ (CPI × SPI) = $1,250,000 + $2,100,000 = $3,350,000."
+    ],
+    "deepDive": "Forecasting is one of the book's key measurement outputs: EAC, ETC, VAC and TCPI turn past performance into a view of the future that stakeholders can act on. The composite CPI × SPI formula is used when a firm deadline forces the team to buy back schedule, so poor schedule performance also inflates future costs. ETC here is $2,100,000, and the TCPI needed to finish within BAC would be (2,400,000 − 1,000,000) ÷ (2,400,000 − 1,250,000) ≈ 1.22, an unrealistic jump from 0.80. On the exam, read the stem's assumption carefully; it decides which formula applies.",
+    "tags": [
+      "calculation",
+      "earned value",
+      "estimate at completion",
+      "forecasting"
+    ]
+  },
+  {
+    "id": "PRO-174",
+    "domain": "Process",
+    "task": "10. Manage project closure",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Closing before operations is ready",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Development Approach and Life Cycle Performance Domain (2.3): deploy and close — transition for sustainment",
+    "question": "A hybrid project replaced a distribution company's warehouse management system four weeks ago. The transition plan, signed by the operations director, says the project closes when the in-house support team resolves priority-2 incidents without project help for two consecutive weeks. Support is still escalating about 60% of those incidents to the project's developers, who are due to join another project on Friday, the day the sponsor wants the project closed. What should the project manager do FIRST?",
+    "options": [
+      "Close the project on Friday as planned and give the support team the developers' contact details for follow-up questions",
+      "Review the gap against the transition criteria with the operations director and sponsor, and agree how to close it",
+      "Keep the developers on the project until escalations stop, and inform the other project that their start is delayed",
+      "Declare the transition complete, because the operations director signed the go-live acceptance four weeks ago"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "The exit condition for this project was agreed in writing — who agreed it, and has it been met?",
+    "why": "The signed transition plan makes independent support of priority-2 incidents an exit criterion, and it has not been met. Before anything else, the project manager should make the gap visible to the operations director and sponsor and agree a response, such as targeted knowledge transfer, a short extension approved through change control, or a documented, accepted handover of the remaining risk. Closing anyway or declaring success breaks the agreement, and unilaterally holding the developers ignores the sponsor and the other project.",
+    "how": "Closure depends on the agreed transition or acceptance criteria; when they are not met, surface the gap to the accountable stakeholders and agree a plan rather than closing by the calendar or acting alone.",
+    "optionNotes": [
+      "Incorrect — Closing with unmet transition criteria leaves operations dependent on people who are gone, and breaks the signed plan.",
+      "Correct — The agreed criteria are unmet, so the accountable stakeholders need to see the gap and agree how it will be closed.",
+      "Incorrect — Holding the developers indefinitely is a unilateral decision that affects another project and the sponsor's plans.",
+      "Incorrect — Go-live acceptance is not the same as transition acceptance; the signed plan sets a separate operational readiness test."
+    ],
+    "deepDive": "The book's life cycle view ends deployment only when the transition activities needed for sustainment, benefits realization and organizational change are complete. Transition or hypercare exit criteria (incident volumes, independent support, runbooks, training) define when operations can own the product. When they are not met, options include extending hypercare, focused coaching, or a formal risk acceptance by the receiving owner, each decided by the accountable stakeholders. Exam traps include closing on the planned date regardless, or confusing go-live acceptance with operational handover.",
+    "tags": [
+      "closure",
+      "transition to operations",
+      "hypercare",
+      "acceptance criteria"
+    ]
+  },
+  {
+    "id": "PRO-175",
+    "domain": "Process",
+    "task": "10. Manage project closure",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Unspent funds at project closure",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Stewardship principle: financial integrity and returning unused funds at closure",
+    "question": "A project to upgrade the network in a city's 12 public libraries has been accepted and is two weeks from closure. It will finish about $38,000 under budget, including $25,000 of contingency reserve that was never needed. The technical lead suggests spending the remainder on spare laptops and new meeting-room screens before the books close, warning that 'unspent money gets clawed back and next year's budget will be cut.' The sponsor has not yet been told about the underspend. What should the project manager do?",
+    "options": [
+      "Report the underspend to the sponsor, release the unused funds at closure, and route extras through normal funding",
+      "Buy the laptops and screens before closure, because they serve the same library users the project was set up to help",
+      "Keep the unused funds in the project account after closure so that they can cover any network problems found later",
+      "Move the unused funds to another project the team runs that is currently forecast to finish slightly over its budget"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Whose money is the underspend, and who decides how it should be used?",
+    "why": "The funds were authorized for the approved scope, which is now delivered, and the unused contingency existed only for risks that did not occur. Stewardship and honesty require the project manager to report the underspend to the sponsor and return what is left through financial closure; if the laptops and screens are worthwhile, they should compete for funding through the normal process. Spending the money on extras is unapproved scope and gold plating, keeping a pot open after closure defeats financial control, and moving funds to another project is a decision the project manager has no authority to make.",
+    "how": "At closure, report under- and overspends transparently, release unused funds and reserves to the organization, and send any new ideas through the normal funding or change process instead of spending leftover budget.",
+    "optionNotes": [
+      "Correct — Transparent reporting and returning unused funds honor the approval that was given, and good ideas can still be funded through the normal route.",
+      "Incorrect — Spending leftover budget on items outside the approved scope is gold plating and uses funds without the sponsor's authorization.",
+      "Incorrect — Keeping money in a closed project's account undermines financial control; post-closure support belongs to operations and its own budget.",
+      "Incorrect — Reallocating funds between projects is a governance decision, and doing it quietly hides both projects' true financial performance."
+    ],
+    "deepDive": "PMBOK 7 describes stewardship as acting with integrity, care and trustworthiness in using what the organization entrusts to a project, including its money. Contingency reserve covers identified risks and management reserve covers unknowns; neither becomes free budget when the risks do not occur. Financial closure reconciles actual costs, closes accounts and purchase orders, and returns what is unspent, while the final report explains variances in either direction. 'Use it or lose it' spending is a common organizational habit, but on the exam the honest, transparent path wins, and a recurring underspend is a useful estimating lesson.",
+    "tags": [
+      "closure",
+      "financial closure",
+      "stewardship",
+      "reserves",
+      "gold plating"
+    ]
+  },
+  {
+    "id": "PRO-176",
+    "domain": "Process",
+    "task": "10. Manage project closure",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Final payment with open punch-list items",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Project Work Performance Domain (2.5.6): working with procurements — closing the contract",
+    "question": "A contractor has finished building a new operations center for a regional utility. The certificate of occupancy has been issued, but 11 minor punch-list items remain open, such as damaged ceiling tiles and a door closer that does not latch. The contractor has submitted its final invoice, including the 5% retainage that the contract allows the utility to hold until all punch-list items are complete. The utility's finance team wants to pay everything so the contract can be closed this month. What should the project manager recommend?",
+    "options": [
+      "Pay the full invoice, including retainage, because the certificate of occupancy shows that the building is complete",
+      "Pay the full invoice now, and deduct the cost of the open punch-list items from a future contract with the contractor",
+      "Pay the invoice less the retainage, agree a date to finish the punch list, and close the contract once it is verified",
+      "Refuse the whole invoice until every punch-list item is fixed, to keep maximum pressure on the contractor to finish"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "What does the contract itself say about when the held-back money is released?",
+    "why": "Retainage exists exactly for this situation: the contract lets the utility withhold 5% until the punch list is complete. Paying the undisputed balance honors the contract, while holding the retainage keeps an incentive to finish. Agreeing a completion date and verifying the work before final payment and formal contract closure keeps the process fair and documented. Paying in full removes the leverage, and refusing the whole invoice would breach the payment terms.",
+    "how": "Close contracts according to their terms: verify that all deliverables are complete and accepted, release holdbacks only when their conditions are met, settle open items or claims, then issue formal written closure.",
+    "optionNotes": [
+      "Incorrect — Occupancy shows the building can be used, not that every contract obligation is complete; retainage conditions are still unmet.",
+      "Incorrect — Offsetting against a future, separate contract is informal, may not be enforceable, and leaves this contract's obligations unresolved.",
+      "Correct — It follows the contract: pay what is due, hold retainage until the punch list is verified, then close formally.",
+      "Incorrect — Withholding the undisputed amount breaches the payment terms and invites a claim, harming the relationship unnecessarily."
+    ],
+    "deepDive": "Procurement closure typically includes confirming that all work and deliverables are accepted, resolving open claims or disputes, making final payments (including releasing retainage), updating supplier performance records and archiving the contract file. Retainage is a common construction mechanism that protects the buyer until final completion. The book notes that contracts define obligations for both parties, so the buyer must also meet its payment obligations. Exam items often test whether you follow the contract terms rather than informal shortcuts.",
+    "tags": [
+      "closure",
+      "contract closure",
+      "retainage",
+      "procurement"
+    ]
+  },
+  {
+    "id": "PRO-177",
+    "domain": "Process",
+    "task": "10. Manage project closure",
+    "approach": "Hybrid",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Tacit knowledge before release",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Project Work Performance Domain (2.5.8.2): explicit and tacit knowledge",
+    "question": "A hybrid project to modernize a bank's payment interfaces is in its final month. The contract of the lead integration engineer, a contractor, ends in two weeks. She is the only person who understands several undocumented workarounds in the deployment process, and the operations engineers who will support the system have so far only read her short written notes. What is the BEST way for the project manager to prepare for her release?",
+    "options": [
+      "Ask her to write a complete deployment manual in her final two weeks and store it in the knowledge repository",
+      "Arrange paired deployments and walkthroughs with the operations engineers, and record the key points that come up",
+      "Extend her contract by six months, so that she remains available to support the operations engineers after closure",
+      "Record a video of her explaining the deployment process and share it with the operations team before she leaves"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Some knowledge lives in experience rather than in documents — how is that kind usually passed on?",
+    "why": "Workarounds learned through experience are tacit knowledge, which is hard to write down and is best shared by connecting people, for example through pairing, shadowing and hands-on walkthroughs. Having the operations engineers perform real deployments alongside her in the last two weeks transfers that know-how, and recording the key points they uncover turns part of it into explicit knowledge for the future. A manual or video alone captures only what she thinks to explain, and a six-month extension is costly and only postpones the transfer.",
+    "how": "Codify explicit knowledge in documents and repositories, but transfer tacit knowledge through interaction: pairing, shadowing, mentoring, and hands-on practice before people are released.",
+    "optionNotes": [
+      "Incorrect — A manual captures only explicit knowledge, and two weeks of writing leaves no time for the engineers to practice.",
+      "Correct — Pairing and walkthroughs transfer tacit know-how through practice, and recording what emerges adds useful explicit knowledge.",
+      "Incorrect — A long extension adds cost and delays closure while leaving the dependency on one person in place.",
+      "Incorrect — A video is one-way; it misses the judgment calls that surface only when engineers perform the deployment themselves."
+    ],
+    "deepDive": "The book distinguishes explicit knowledge, which can be codified in words, pictures or numbers, from tacit knowledge, such as experience, insight and practical skill, which is shared by connecting people through conversation, mentoring and working together. Releasing resources at closure is a key moment for knowledge loss, especially with contractors. Good release planning combines documentation with structured hand-offs, so the receiving team can operate independently. On the exam, prefer answers that transfer knowledge through interaction when the knowledge is experiential.",
+    "tags": [
+      "closure",
+      "releasing resources",
+      "tacit knowledge",
+      "knowledge transfer"
+    ]
+  },
+  {
+    "id": "PRO-178",
+    "domain": "Process",
+    "task": "10. Manage project closure",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Turning lessons into changed practice",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Project Work Performance Domain (2.5.8): learning throughout the project — knowledge management",
+    "question": "At the close of a laboratory construction project, the team's lessons-learned review found that long-lead equipment was ordered late, just as on the organization's previous two lab projects, because the procurement checklist does not flag items with lead times over 20 weeks. The PMO's repository already contains similar lessons from those earlier projects. What should the project manager do to make this lesson most useful to future projects?",
+    "options": [
+      "Add this lesson to the repository with a high-priority tag, so that future project managers are more likely to find it",
+      "Present the lesson at the project's closing celebration, so that the whole team remembers it on its next assignment",
+      "Email the lesson to every project manager, and ask them all to review the repository before they start planning",
+      "Work with the PMO and procurement to update the checklist so that long-lead items are flagged during planning"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "The same lesson has already been recorded twice — what would stop it from being recorded a fourth time?",
+    "why": "The lesson has been captured on three projects but never acted on, so it has been identified, not learned. The most useful step is to change the organizational process asset that causes the problem, updating the procurement checklist with the PMO and procurement so long-lead items are flagged automatically. Future teams then benefit without having to find and read a lesson. Tagging, presenting or emailing the lesson repeats the approach that has already failed twice.",
+    "how": "A lesson is learned only when it changes how work is done: turn recurring lessons into updated templates, checklists, standards or estimating data owned by the right function.",
+    "optionNotes": [
+      "Incorrect — The repository already holds this lesson from two projects; better tagging still relies on someone finding and applying it.",
+      "Incorrect — Sharing it with this team helps a few people remember, but it does not change the process that caused the problem.",
+      "Incorrect — Mass email adds noise and depends on individual follow-through, which has not worked on the previous projects.",
+      "Correct — Updating the checklist builds the lesson into the organization's process, so every future project benefits automatically."
+    ],
+    "deepDive": "The book treats learning as continuous: teams capture explicit knowledge in lessons learned and repositories, and tacit knowledge through conversation and mentoring. But repositories are only valuable when knowledge is applied; recurring issues are a sign that lessons are being recorded, not learned. Updating organizational process assets such as checklists, templates and estimating guides embeds the change. PMOs often own this step, linking project lessons to improvements in methods and tools.",
+    "tags": [
+      "closure",
+      "lessons learned",
+      "organizational process assets",
+      "continuous improvement"
+    ]
+  },
+  {
+    "id": "PRO-179",
+    "domain": "Process",
+    "task": "10. Manage project closure",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Stopping after failed experiments",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Delivery Performance Domain (2.6.4): suboptimal outcomes and deliberate investment in uncertainty",
+    "question": "An innovation team inside an insurance company has spent four sprints testing whether small-business owners will buy cyber insurance through a chatbot. Every experiment agreed with the sponsor at the outset has missed its success threshold, including a pilot in which only 3 of 400 invited owners completed a purchase. The sponsor and product owner have decided to stop the initiative. Several developers argue that 'two more sprints' would prove the idea. What should the project manager do?",
+    "options": [
+      "Support the developers' request for two more sprints, since stopping now would waste the investment already made",
+      "Close the initiative quietly and reassign the team, since the result reflects poorly on the sponsor's original decision",
+      "Treat the result as validated learning: record what was tested and learned, close the work properly, and release the team",
+      "Have the team pivot to a new product idea using the remaining budget, without first involving the sponsor or product owner"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "The success criteria were agreed before the experiments began — what does that make of the outcome?",
+    "why": "The experiments did their job: they tested a risky assumption cheaply and produced a clear answer against thresholds agreed in advance. The accountable decision makers have chosen to stop, so the project manager should support that decision, capture and share what was learned (about customers, channels and the technology), close the work properly, and release the team. Continuing because of money already spent is the sunk-cost fallacy, hiding the result wastes the learning, and pivoting without the sponsor and product owner bypasses governance.",
+    "how": "When agreed evidence shows an idea will not deliver value, stop early, capture the learning openly, and close properly; money already spent is not a reason to continue.",
+    "optionNotes": [
+      "Incorrect — Past spending is a sunk cost; the agreed evidence says further sprints are unlikely to create value.",
+      "Incorrect — Closing quietly throws away valuable learning and implies that a well-run experiment with a negative result is a failure.",
+      "Correct — It respects the decision makers, preserves the learning for the organization, and closes the effort cleanly.",
+      "Incorrect — Redirecting funds to a new idea without the sponsor and product owner bypasses governance and value decisions."
+    ],
+    "deepDive": "The book acknowledges that every project can produce suboptimal outcomes and that experimental work is a deliberate investment in an uncertain result. Setting explicit success thresholds before experiments, sometimes called kill criteria, makes stopping a rational decision rather than a political one. Early termination is a legitimate closure path: document the state of the work, archive the learning, close contracts, and release resources. Agile and lean startup practice treats a disproved hypothesis as validated learning that saves the organization from larger losses.",
+    "tags": [
+      "closure",
+      "early termination",
+      "validated learning",
+      "suboptimal outcomes"
+    ]
+  },
+  {
+    "id": "PRO-180",
+    "domain": "Process",
+    "task": "10. Manage project closure",
+    "approach": "Hybrid",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Open backlog items at project closure",
+    "source": "ECO 2026 · Process Task 10 · Formal transfer of open items to the receiving owner at closure",
+    "question": "A hybrid project delivering a citizen-services portal for a province has met every acceptance criterion in its charter, and the product owner has accepted the final release. Three low-priority enhancement stories remain in the product backlog. The sponsor wants to close the project this month. The operations manager who will own the portal is willing to consider the stories for a future release but has not yet received any information about them. What should the project manager do before closing?",
+    "options": [
+      "Keep the project open until the three stories are delivered, because closing with open backlog items leaves scope incomplete",
+      "Formally hand the stories and their context to the operations manager, and record the transfer in the closure report",
+      "Delete the three stories from the backlog, since they were never part of the charter's agreed acceptance criteria",
+      "Ask the team to complete the three stories in one final unplanned sprint before closing, to leave a clean backlog"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "The project's agreed scope is done; what should happen to the work that is left so that nothing gets lost?",
+    "why": "The charter's acceptance criteria are met and the product owner has accepted the release, so the project can close. Remaining low-priority ideas are not unfinished project scope; they belong to the product, whose future owner is the operations manager. Handing them over with their context and recording the transfer ensures they are neither lost nor used as a reason to keep the project open, and it gives the operations manager what is needed to decide their future.",
+    "how": "At closure, remaining backlog items that sit outside the accepted scope should be formally transferred to the product or operations owner, with the transfer documented, rather than deleted or used to extend the project.",
+    "optionNotes": [
+      "Incorrect — The accepted scope is complete; keeping the project open for optional enhancements wastes resources and delays closure.",
+      "Correct — A documented handover lets the product's new owner decide on the stories and keeps the closure record complete.",
+      "Incorrect — Deleting the stories discards ideas the operations manager wants to consider and loses useful product knowledge.",
+      "Incorrect — An unplanned extra sprint adds unapproved work and cost; the product owner and sponsor have already accepted the outcome."
+    ],
+    "deepDive": "In agile and hybrid work the product backlog belongs to the product, not the project, so it usually outlives the project and moves to the product or operations owner. Project closure confirms that agreed acceptance criteria are met, transfers ownership of deliverables and open items, and records the outcome in the final report. Leaving items undocumented creates confusion about what was promised, while extending the project for low-value work is a form of gold plating. The exam favors formal, documented handovers over informal or unilateral choices.",
+    "tags": [
+      "closure",
+      "product backlog",
+      "handover",
+      "hybrid"
+    ]
+  }
+]

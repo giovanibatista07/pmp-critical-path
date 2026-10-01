@@ -1,0 +1,969 @@
+[
+  {
+    "id": "PRO-076",
+    "domain": "Process",
+    "task": "6. Plan and manage finance",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Opportunity cost of a selection",
+    "source": "ECO 2026 · Process Task 6 · Opportunity cost in project selection",
+    "question": "A product company's portfolio board has one cross-functional agile team available next quarter and three candidate initiatives, each needing the whole team for the quarter: a mobile checkout redesign with an NPV of $450,000, a partner API with an NPV of $380,000, and a reporting upgrade with an NPV of $300,000. The board selects the checkout redesign. For the decision record, a board member asks the project manager to state the opportunity cost of that choice. What is it?",
+    "options": [
+      "$70,000, the checkout redesign's NPV advantage over the API",
+      "$300,000, the NPV of the lowest-ranked initiative",
+      "$380,000, the NPV of the best alternative given up",
+      "$680,000, the combined NPV of both initiatives given up"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Ask what the same team could otherwise have delivered in that one quarter.",
+    "why": "Opportunity cost is the value of the best alternative forgone when a choice is made. With one team for one quarter, choosing the checkout redesign gives up the chance to deliver the next-best initiative, the partner API, whose NPV is $380,000. The reporting upgrade could not have been delivered as well, so its value is not added, and the $70,000 difference is the net advantage of the choice rather than its cost.",
+    "how": "Opportunity cost is the value of the best option NOT chosen — not the sum of all rejected options and not the difference between options. Use it to make trade-offs explicit when capacity or capital is constrained.",
+    "optionNotes": [
+      "Incorrect — $70,000 is the net advantage of choosing the checkout redesign over the API, not the value the board gave up.",
+      "Incorrect — The reporting upgrade is the lowest-value alternative; opportunity cost uses the best option forgone, not the worst.",
+      "Correct — The partner API is the best alternative the team could have delivered instead, so its $380,000 NPV is the opportunity cost.",
+      "Incorrect — Only one alternative could have been delivered by the single team, so the rejected options' values are not added together."
+    ],
+    "deepDive": "Opportunity cost matters whenever capacity, not just money, is the constraint — a single agile team, a key specialist or a shared test environment. Making it explicit shows governance bodies that saying yes to one initiative means saying no to another, which supports cost-of-delay and WSJF-style prioritization. It differs from sunk cost, which is past spending that should be ignored in decisions. Exam trap: subtracting the two NPVs, or adding all the rejected options together.",
+    "tags": [
+      "opportunity cost",
+      "project selection",
+      "portfolio",
+      "calculation"
+    ]
+  },
+  {
+    "id": "PRO-077",
+    "domain": "Process",
+    "task": "6. Plan and manage finance",
+    "approach": "Predictive",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Funding requirements vs. cost baseline",
+    "source": "ECO 2026 · Process Task 6 · Funding requirements versus the cost baseline",
+    "question": "Refer to the exhibit. A hydro-plant refurbishment's cost baseline is time-phased by when the work is performed. The finance office funds the project quarterly, in advance, and has received the project manager's Q1 funding request for $400,000. A finance analyst says the request should equal the Q1 planned cost of $300,000 and asks the project manager to reduce it. How should the project manager respond?",
+    "options": [
+      "Reduce the request to $300,000 and ask the turbine supplier to waive its down payment",
+      "Keep $400,000 by drawing the extra $100,000 from the management reserve for Q1",
+      "Re-baseline the Q1 planned cost to $400,000 so the baseline and request agree",
+      "Keep $400,000 and explain that the down payment due in Q1 lowers the Q3 request"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Separate when the work is performed from when cash has to leave the organization.",
+    "why": "The cost baseline records cost when the work is performed, so the turbine's $400,000 is planned in Q3. Funding requirements, however, are derived from the baseline plus anticipated liabilities — here the contractual 25% down payment due on order in Q1. Q1 funding = $300,000 planned cost + $100,000 down payment = $400,000, and the Q3 request falls by the same amount, from $650,000 to $550,000. The project manager should keep the request and explain the timing difference using the payment terms.",
+    "how": "Cost baseline = when cost is incurred (used for earned value); funding requirements = when cash is needed, including advance payments and other liabilities, often released in steps. Reconcile the two rather than forcing them to match.",
+    "optionNotes": [
+      "Incorrect — The down payment is a contract term; asking the supplier to waive it to fit a misunderstanding may breach the contract or delay the order.",
+      "Incorrect — Management reserve covers unforeseen work and needs change approval; a planned contractual payment is not an unknown-unknown.",
+      "Incorrect — Moving planned cost into Q1 distorts the performance baseline, because the turbine work happens in Q3 and would show false variances.",
+      "Correct — Funding must cover the Q1 down payment; the $100,000 is simply paid earlier, so Q3 drops to $550,000 and the total is unchanged."
+    ],
+    "deepDive": "Project funding requirements are derived from the cost baseline: total funds equal the baseline plus management reserve, and periodic funds are often released in increments that appear as steps above the cumulative S-curve. Advance payments, retention and supplier payment terms make cash timing differ from cost timing, so the funding plan must reflect contract terms. Funding limit reconciliation then checks that each period's needs fit what the organization can release. Exam trap: assuming the funding request must equal the period's planned cost, or 'fixing' a cash-timing difference by changing the performance baseline.",
+    "tags": [
+      "funding requirements",
+      "cost baseline",
+      "cash flow",
+      "calculation",
+      "exhibit"
+    ],
+    "exhibit": {
+      "kind": "table",
+      "title": "Time-phased cost baseline and supplier payment terms",
+      "columns": [
+        "Quarter",
+        "Planned cost (cost baseline)",
+        "Turbine supplier payment terms"
+      ],
+      "rows": [
+        [
+          "Q1",
+          "$300,000",
+          "Turbine ordered: 25% down payment ($100,000) due on order"
+        ],
+        [
+          "Q2",
+          "$450,000",
+          "—"
+        ],
+        [
+          "Q3",
+          "$650,000",
+          "Turbine delivered and installed ($400,000 cost planned here); 75% balance due"
+        ],
+        [
+          "Q4",
+          "$100,000",
+          "—"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "PRO-078",
+    "domain": "Process",
+    "task": "6. Plan and manage finance",
+    "approach": "Predictive",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Discounted life-cycle cost of options",
+    "source": "ECO 2026 · Process Task 6 · Present-value life-cycle costing",
+    "question": "A hospital's facilities project must choose rooftop air-handling units for a new wing that will run them for ten years. Standard units cost $250,000 installed and about $50,000 a year to run and maintain; high-efficiency units cost $350,000 installed and about $38,000 a year. The site manager urges the cheaper units, while the energy manager points to $120,000 of running-cost savings over ten years. The sponsor's rule is to choose the option with the lower present value of ten-year life-cycle cost, and finance supplies a factor of 6.71 to convert a level yearly cost over ten years into present value at 8%. What should the project manager report?",
+    "options": [
+      "Standard units are cheaper by about $19,500 in present-value life-cycle cost",
+      "High-efficiency units are cheaper by about $20,000 over the ten-year life cycle",
+      "High-efficiency units are cheaper by about $80,500 in present-value running cost",
+      "Standard units are cheaper by about $100,000 in up-front installed cost"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Apply the sponsor's rule exactly as written, paying attention to when each dollar is spent.",
+    "why": "Present-value life-cycle cost = installed cost (paid now, so not discounted) + yearly running cost × the present-value factor. Standard: $250,000 + $50,000 × 6.71 = $250,000 + $335,500 = $585,500. High-efficiency: $350,000 + $38,000 × 6.71 = $350,000 + $254,980 = $604,980. Under the sponsor's rule the standard units are about $19,480 (≈ $19,500) cheaper. Undiscounted, the high-efficiency units look $20,000 cheaper ($730,000 versus $750,000), but discounting shrinks the $120,000 of future savings to about $80,500 in today's money ($12,000 × 6.71), which does not recover the $100,000 paid up front.",
+    "how": "When options trade up-front cost against running cost over several years, put every cost in present value before comparing: leave today's costs as they are, discount future costs (for a level yearly cost, multiply by the annuity factor), and apply the decision rule set by the sponsor or business case.",
+    "optionNotes": [
+      "Correct — $250,000 + $335,500 = $585,500 against $350,000 + $254,980 = $604,980, so the standard units cost about $19,500 less in present value.",
+      "Incorrect — $730,000 versus $750,000 adds ten years of running costs at face value, ignoring the discounting that the sponsor's rule requires.",
+      "Incorrect — Compares only the discounted running costs ($335,500 versus $254,980) and leaves out the $100,000 higher installed cost of the efficient units.",
+      "Incorrect — Installed cost alone is the site manager's view; the sponsor's rule compares whole life-cycle cost, so this result does not apply the rule."
+    ],
+    "deepDive": "Life-cycle costing, often called total cost of ownership, considers the cost of acquiring, operating, maintaining and disposing of a deliverable, reflecting the stewardship principle that project decisions should serve the organization's long-term interests rather than only the project budget. Over long horizons the time value of money matters: a dollar saved in year ten is worth less than a dollar spent today, and the present value of a level yearly amount uses the annuity factor (1 − (1 + r)^−n) ÷ r, about 6.71 for ten years at 8%. Discounting shrinks savings that arrive later, so an option that costs more now and saves later looks less attractive in present value than in a simple total, and the ranking can flip. The financial result is not the whole story: the sponsor may still weigh non-financial benefits such as lower emissions, which the project manager should report alongside the numbers. Exam traps: comparing only purchase prices, only running costs, or undiscounted totals when the rule calls for present value.",
+    "tags": [
+      "life-cycle cost",
+      "present value",
+      "discounting",
+      "stewardship",
+      "calculation"
+    ]
+  },
+  {
+    "id": "PRO-079",
+    "domain": "Process",
+    "task": "6. Plan and manage finance",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Release budget from burn rate",
+    "source": "ECO 2026 · Process Task 6 · Agile burn-rate budgeting",
+    "question": "A Scrum team building a patient-scheduling app has a stable burn rate of $45,000 per two-week sprint, covering salaries, tools and environments. The remaining release backlog is estimated at 270 story points, and velocity has averaged 30 points per sprint (range 25–35) over the last six sprints. Based on the burnup history of earlier releases, the product owner expects about 30 more points of emergent work before release. The sponsor asks for the most likely cost to complete the release. What should the project manager report?",
+    "options": [
+      "$405,000",
+      "$450,000",
+      "$495,000",
+      "$540,000"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Work out how many sprints the expected scope needs at the team's usual pace, then cost those sprints.",
+    "why": "Expected remaining scope = 270 + 30 = 300 points. Sprints needed = 300 ÷ 30 = 10. Cost = 10 × $45,000 = $450,000. Because a stable agile team's cost per sprint is essentially fixed, the budget is driven by how many sprints the expected scope requires.",
+    "how": "Agile budget = burn rate (cost per iteration) × number of iterations, where iterations = expected remaining scope ÷ average velocity. Report a most-likely figure plus a range based on the velocity spread.",
+    "optionNotes": [
+      "Incorrect — 270 ÷ 30 = 9 sprints ignores the emergent work that the burnup history says will be added before release.",
+      "Correct — (270 + 30) ÷ 30 = 10 sprints, and 10 × $45,000 = $450,000 is the most likely cost to complete.",
+      "Incorrect — Adds a further 10% on top of the growth allowance, counting the same uncertainty twice in a most-likely figure.",
+      "Incorrect — Uses the lowest velocity (300 ÷ 25 = 12 sprints); that is the pessimistic end of the range, not the most likely cost."
+    ],
+    "deepDive": "The velocity range gives 300 ÷ 35 ≈ 8.6, about 9 sprints ($405,000), up to 12 sprints ($540,000), which the PM should show alongside the most likely figure. Agile budgeting usually fixes cost and time per sprint and lets scope flex, so the sponsor could instead cap funding and have the product owner deliver the most valuable work first. Cost per point ($45,000 ÷ 30 = $1,500) is a handy cross-check, but story points are team-specific and should never be used to compare teams. Re-forecast every sprint as velocity and backlog size change.",
+    "tags": [
+      "burn rate",
+      "agile budgeting",
+      "velocity",
+      "calculation"
+    ]
+  },
+  {
+    "id": "PRO-080",
+    "domain": "Process",
+    "task": "6. Plan and manage finance",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Funding limit reconciliation",
+    "source": "ECO 2026 · Process Task 6 (analyze financial needs)",
+    "question": "A metro-station upgrade's time-phased cost baseline calls for $1.4 million of spending in Q2, but the city treasury has just confirmed it can release no more than $1.0 million in any quarter; Q3 and Q4 have headroom. Several Q2 activities have float, and the main supply contract allows delivery dates to move with 30 days' notice. What should the project manager do?",
+    "options": [
+      "Reschedule work with float to smooth spending within the limit, using change control",
+      "Ask the vendors to hold their Q2 invoices until Q3 without telling the finance office",
+      "Remove $400,000 of scope permanently so that Q2 spending fits within the funding limit",
+      "Spend the $1.4 million as scheduled and request approval for the excess afterward"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Consider whether the problem is how much the project will spend in total or when it spends it.",
+    "why": "Funding limit reconciliation compares planned expenditure with the funding available and reschedules work so spending stays within the limits. Here, activities with float and flexible delivery dates can move into Q3 or Q4 without losing scope, and possibly without delaying the end date. Because this changes the time-phased baseline, it goes through change control and the updated plan is shared with finance.",
+    "how": "When the spending profile exceeds the funding profile, first adjust timing (use float, re-sequence, re-phase deliveries); consider scope or funding changes only if timing alone cannot solve it, and update baselines through change control.",
+    "optionNotes": [
+      "Correct — Moving work with float into quarters with funding headroom keeps scope intact and respects the limit, with the baseline change properly approved.",
+      "Incorrect — Hiding liabilities from finance is dishonest and misstates the project's financial position; the obligation still exists.",
+      "Incorrect — Cutting scope is premature when rescheduling can solve the problem, and it would also need change control and lose value.",
+      "Incorrect — Knowingly exceeding the funding limit violates governance and could leave suppliers unpaid."
+    ],
+    "deepDive": "The cost baseline is usually shown as an S-curve of cumulative planned cost, while funding arrives in steps; total funding requirements equal the cost baseline plus management reserve. Where spending would exceed funding in a period, the PM may add imposed dates to some work packages or re-phase procurements. Rescheduling non-critical work within its float leaves the end date unchanged, whereas moving critical work extends it. In agile programs, funding limits typically translate into how many teams or sprints can be funded per period.",
+    "tags": [
+      "funding limit reconciliation",
+      "cost baseline",
+      "S-curve",
+      "change control"
+    ]
+  },
+  {
+    "id": "PRO-081",
+    "domain": "Process",
+    "task": "6. Plan and manage finance",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Earned value from percent complete",
+    "source": "ECO 2026 · Process Task 6",
+    "question": "A fiber-rollout project tracks earned value by work package. The cabinet-installation work package has a budget at completion of $40,000. The site supervisor reports that it is 60% complete, confirmed by counting the cabinets installed, and the accounts show $30,000 spent on it so far. What are the earned value (EV) and cost variance (CV) for this work package?",
+    "options": [
+      "EV = $24,000; CV = +$6,000",
+      "EV = $24,000; CV = −$6,000",
+      "EV = $30,000; CV = $0",
+      "EV = $40,000; CV = +$10,000"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Earned value measures the work done in budget terms, not the money spent; then compare it with what was actually spent.",
+    "why": "EV = % complete × BAC = 0.60 × $40,000 = $24,000. CV = EV − AC = $24,000 − $30,000 = −$6,000, so the work package is over budget: $30,000 has been spent to earn $24,000 of planned value (CPI = $24,000 ÷ $30,000 = 0.80).",
+    "how": "EV is the budgeted value of the work actually performed (% complete × budget), never the amount spent. CV = EV − AC, and a negative value means over budget.",
+    "optionNotes": [
+      "Incorrect — EV is right, but CV = EV − AC, not AC − EV; spending more than you earned gives a negative variance.",
+      "Correct — EV = 0.60 × $40,000 = $24,000, and CV = $24,000 − $30,000 = −$6,000 (over budget).",
+      "Incorrect — Treats actual cost as earned value; EV measures work performed at budgeted cost, not money spent.",
+      "Incorrect — Uses the whole budget as EV although only 60% of the work is done; EV cannot exceed the budget of work performed."
+    ],
+    "deepDive": "Common EV measurement methods are fixed formulas (0/100, 50/50, 20/80) for short work packages, weighted milestones for longer ones, and physical percent complete when progress can be counted, as here. Subjective percent-complete estimates tend to be optimistic — the '90% done' syndrome — so objective counts are preferred. A package CPI of 0.80 means each dollar spent is producing only 80 cents of planned work. Exam trap: using AC as EV, which always hides the cost variance.",
+    "tags": [
+      "EVM",
+      "earned value",
+      "cost variance",
+      "calculation"
+    ]
+  },
+  {
+    "id": "PRO-082",
+    "domain": "Process",
+    "task": "6. Plan and manage finance",
+    "approach": "Predictive",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "EAC for atypical variances",
+    "source": "ECO 2026 · Process Task 6",
+    "question": "A laboratory fit-out has a BAC of $200,000. At the latest status date, EV = $80,000 and AC = $100,000. The investigation shows the overrun came from a one-time failure of a rented crane that had to be replaced at short notice; the rental firm has since been changed, and the remaining work is expected to go exactly as budgeted. What is the estimate at completion (EAC)?",
+    "options": [
+      "$160,000",
+      "$200,000",
+      "$220,000",
+      "$250,000"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Decide whether the past cost efficiency should be projected onto the remaining work, given what caused the overrun.",
+    "why": "The variance is atypical — a one-off event that will not recur — so the remaining work is forecast at the budgeted rate: EAC = AC + (BAC − EV) = $100,000 + ($200,000 − $80,000) = $100,000 + $120,000 = $220,000. Using BAC ÷ CPI (CPI = $80,000 ÷ $100,000 = 0.80) would give $250,000 and wrongly assume the crane problem continues.",
+    "how": "Typical (continuing) variance → EAC = BAC ÷ CPI. Atypical (one-off) variance → EAC = AC + (BAC − EV). Read the cause of the variance before choosing the formula.",
+    "optionNotes": [
+      "Incorrect — Multiplies BAC by CPI ($200,000 × 0.80), which lowers the forecast even though money has already been overspent.",
+      "Incorrect — Keeping BAC ignores the $20,000 overrun already incurred, which cannot be recovered if the rest of the work only goes to plan.",
+      "Correct — Atypical variance: $100,000 already spent + $120,000 of remaining work at budget = $220,000.",
+      "Incorrect — BAC ÷ CPI assumes the 0.80 efficiency continues, which the scenario rules out for a one-time event."
+    ],
+    "deepDive": "ETC = EAC − AC = $120,000 and VAC = BAC − EAC = −$20,000. The choice of formula is a judgment about the future, so document the assumption and revisit it if new overruns appear. A mixed formula, AC + (BAC − EV) ÷ (CPI × SPI), applies when a firm deadline will also drive cost. Exam trap: defaulting to BAC ÷ CPI for every EAC question without reading why the variance occurred.",
+    "tags": [
+      "EAC",
+      "atypical variance",
+      "EVM",
+      "calculation"
+    ]
+  },
+  {
+    "id": "PRO-083",
+    "domain": "Process",
+    "task": "6. Plan and manage finance",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Parametric cost estimate",
+    "source": "ECO 2026 · Process Task 6 · Parametric cost estimating",
+    "question": "A city must give its steering committee a budget estimate next week for installing public electric-vehicle chargers, before any detailed design exists. The utility partner's data from 38 similar installations shows a reliable cost relationship: each site costs about $42,000 for grid connection and civil works, plus about $6,500 for each charger installed. The project covers 12 sites with 4 chargers per site. Using this parametric model, what is the estimated cost?",
+    "options": [
+      "$354,000",
+      "$582,000",
+      "$816,000",
+      "$2,328,000"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Apply each unit rate to the quantity that actually drives it.",
+    "why": "Parametric estimating multiplies quantities by unit rates derived from reliable historical data. Site cost: 12 sites × $42,000 = $504,000. Charger cost: 12 × 4 = 48 chargers × $6,500 = $312,000. Total = $504,000 + $312,000 = $816,000.",
+    "how": "In parametric estimating, identify each cost driver and its unit rate, multiply by the matching quantity, and add the results. The estimate is only as good as the historical data and the validity of the relationship for the new work.",
+    "optionNotes": [
+      "Incorrect — Counts the $42,000 site cost only once instead of once for each of the 12 sites.",
+      "Incorrect — Treats each site as having one charger (12 × $48,500) instead of four chargers per site.",
+      "Correct — 12 × $42,000 + 48 × $6,500 = $504,000 + $312,000 = $816,000.",
+      "Incorrect — Applies the site cost to every charger (48 × $48,500), counting the grid and civil works four times per site."
+    ],
+    "deepDive": "Parametric estimates can be highly accurate when the underlying data is sound and the relationship scales, which is why they suit repetitive work such as chargers, kilometers of cable or square meters of fit-out. Analogous estimating scales one comparable past project and is quicker but rougher; bottom-up estimating sums detailed work-package estimates and is the most accurate but needs a WBS. Early estimates are usually expressed as ranges — a rough order of magnitude is often quoted as −25% to +75% — and are refined as the design matures. In agile teams, relative sizing in story points combined with velocity plays a similar role for effort.",
+    "tags": [
+      "parametric estimating",
+      "cost estimating",
+      "calculation",
+      "estimate accuracy"
+    ]
+  },
+  {
+    "id": "PRO-084",
+    "domain": "Process",
+    "task": "6. Plan and manage finance",
+    "approach": "Predictive",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Contingency for cost-reimbursable work",
+    "source": "ECO 2026 · Process Task 6 · Contingency reserve for cost-reimbursable work",
+    "question": "Refer to the exhibit. A water utility has hired a contractor under a cost plus fixed fee contract to remediate contaminated ground beneath an old treatment works; the true extent of the contamination is unknown. The contractor's cost estimate is $2.0 million, plus a fixed fee of $180,000. The utility's project manager has analyzed the risks to the contracted work, as shown in the exhibit. What contingency reserve should the utility include in its cost baseline for this contract?",
+    "options": [
+      "$0",
+      "$150,000",
+      "$170,000",
+      "$500,000"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "First decide who pays for overruns under this type of contract, then weigh each risk by its likelihood.",
+    "why": "Under a cost-reimbursable contract the buyer reimburses all allowable costs, so the utility, not the contractor, carries the cost risk and needs its own contingency. EMV = (0.40 × $300,000) + (0.25 × $200,000) − (0.20 × $100,000) = $120,000 + $50,000 − $20,000 = $150,000. The fixed fee does not change with cost, so it adds nothing to the reserve.",
+    "how": "Size contingency from the expected monetary values of identified risks: threats add and opportunities subtract. Contract type decides who needs it — fixed price shifts overrun risk to the seller, while cost-reimbursable leaves it with the buyer.",
+    "optionNotes": [
+      "Incorrect — Under cost plus fixed fee the buyer reimburses overruns; only the fee is fixed, so the utility bears the cost risk.",
+      "Correct — $120,000 + $50,000 − $20,000 = $150,000 of expected monetary value from the identified risks.",
+      "Incorrect — Includes both threats ($170,000) but ignores the opportunity, which reduces the expected cost by $20,000.",
+      "Incorrect — Adds the full impacts of the two threats without weighting them by probability, as if both were certain to occur."
+    ],
+    "deepDive": "Reserve analysis sets contingency for known-unknowns inside the cost baseline, while management reserve covers unknown-unknowns outside it. Contract type moves cost risk between the parties: in fixed-price work the seller prices risk into its bid, whereas in cost-reimbursable work the buyer should hold reserve and monitor costs closely through audits and earned value reporting. EMV is an average, so for a single contract the reserve may be refined with quantitative analysis such as Monte Carlo simulation to reach a chosen confidence level. Exam trap: forgetting to subtract opportunities, or assuming that a fixed fee means a fixed price.",
+    "tags": [
+      "contingency reserve",
+      "EMV",
+      "cost-reimbursable",
+      "calculation",
+      "exhibit"
+    ],
+    "exhibit": {
+      "kind": "table",
+      "title": "Risk register extract — remediation contract",
+      "columns": [
+        "ID",
+        "Risk",
+        "Probability",
+        "Cost impact"
+      ],
+      "rows": [
+        [
+          "T1",
+          "Contamination extends deeper than surveyed",
+          "40%",
+          "+$300,000"
+        ],
+        [
+          "T2",
+          "Hazardous-waste disposal prices rise",
+          "25%",
+          "+$200,000"
+        ],
+        [
+          "O1",
+          "Treated soil can be reused on site",
+          "20%",
+          "−$100,000"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "PRO-085",
+    "domain": "Process",
+    "task": "7. Plan and optimize quality of products/deliverables",
+    "approach": "Any",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Cost of quality categories",
+    "source": "ECO 2026 · Process Task 7 (manage cost of quality)",
+    "question": "Kerridge Payments' security review found that most vulnerabilities in its last release came from the same few coding mistakes. For the next release, the project manager funds a two-day secure-coding workshop for all developers before any new code is written, and adds the secure-coding standard to the team's definition of done. The finance partner asks how the workshop cost should be categorized in the project's cost-of-quality report. How should it be categorized?",
+    "options": [
+      "Prevention cost",
+      "Internal failure cost",
+      "Appraisal cost",
+      "External failure cost"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Notice when the money is spent relative to when defects could be created.",
+    "why": "Prevention costs are incurred before the work is done to stop defects from being created — training, standards, process design and planning. The workshop happens before coding and targets the causes of past vulnerabilities, so it is a prevention cost; together with appraisal costs it forms the cost of conformance.",
+    "how": "Cost of conformance = prevention (training, standards, planning) + appraisal (testing, inspections, audits). Cost of nonconformance = internal failure (rework, scrap found before delivery) + external failure (warranty, incidents, lost customers).",
+    "optionNotes": [
+      "Correct — Training before any code is written reduces the chance of defects being introduced, which is the definition of prevention.",
+      "Incorrect — Internal failure costs come from defects found before delivery, such as rework and retesting; no defect exists yet.",
+      "Incorrect — Appraisal costs pay for finding defects through testing or inspection, not for stopping them from being created.",
+      "Incorrect — External failure costs follow defects that reach customers, such as incidents and breach costs, which the workshop aims to avoid."
+    ],
+    "deepDive": "Investing in prevention usually lowers the total cost of quality, because the later a defect is found the more it costs to fix — often summarized as the 1-10-100 rule. In agile teams, prevention shows up as coding standards in the definition of done, pairing and test-first development. Security defects that reach production can also trigger compliance penalties and reputational harm, which are external failure costs. Exam trap: testing and inspections feel protective, but they are appraisal costs because they check work already produced.",
+    "tags": [
+      "cost of quality",
+      "prevention",
+      "conformance",
+      "secure coding"
+    ]
+  },
+  {
+    "id": "PRO-086",
+    "domain": "Process",
+    "task": "7. Plan and optimize quality of products/deliverables",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Control charts — rule of seven",
+    "source": "ECO 2026 · Process Task 7",
+    "question": "During commissioning of a new bottling line, the quality engineer plots the mean fill volume of each hourly sample on a control chart. Every point is inside the control limits, but the last eight consecutive points sit above the centerline. The production supervisor says, 'We're within limits, so the process is fine,' and wants to sign off the commissioning test. What should the project manager conclude?",
+    "options": [
+      "The control limits should be recalculated so that they include the latest points",
+      "The process is in control, because every point falls within the control limits",
+      "The specification limits should be widened so that they match the process",
+      "The process may be out of control; the run suggests a cause to investigate"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Control charts signal problems through patterns as well as through individual points.",
+    "why": "Under the rule of seven, seven or more consecutive points on one side of the mean form a non-random pattern that signals a likely assignable (special) cause, even when every point is within the control limits. Eight in a row above the centerline means the fill process has probably shifted, so it should be investigated before commissioning is signed off.",
+    "how": "Treat a process as out of control when a point falls outside a control limit, when seven or more consecutive points fall on one side of the mean, or when other non-random trends appear; investigate the special cause rather than adjusting the limits.",
+    "optionNotes": [
+      "Incorrect — Recalculating the limits around a shifted process hides the signal instead of finding its cause.",
+      "Incorrect — Staying within limits is not enough; a run of eight points on one side of the mean is itself a non-random signal.",
+      "Incorrect — Specification limits come from customer requirements and cannot be widened to fit the process's behavior.",
+      "Correct — A run of eight above the mean indicates a likely assignable cause, so the process needs investigating before sign-off."
+    ],
+    "deepDive": "Control limits, typically ±3 sigma from the mean, are calculated from process data and show its natural variation; specification limits come from the customer or regulator. Common-cause variation is inherent and random, whereas special-cause variation comes from a specific event such as a worn nozzle or a new batch of bottles. Other run rules include trends of several consecutive rising or falling points. Signing off commissioning with an unexplained shift passes a latent quality problem to operations — a classic trap disguised as 'within limits'.",
+    "tags": [
+      "control chart",
+      "rule of seven",
+      "special cause",
+      "commissioning"
+    ]
+  },
+  {
+    "id": "PRO-087",
+    "domain": "Process",
+    "task": "7. Plan and optimize quality of products/deliverables",
+    "approach": "Any",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Pareto chart",
+    "source": "ECO 2026 · Process Task 7",
+    "question": "After a quarter of pilot operations, the team building a warehouse-management system has logged 400 defects across 12 categories. It has capacity for only two improvement initiatives next quarter and wants to target the few categories that account for most of the defects. Which tool should the team use to decide where to focus its effort?",
+    "options": [
+      "Run chart",
+      "Scatter diagram",
+      "Flowchart",
+      "Pareto chart"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "The team needs to rank categories, not trace causes or track a trend.",
+    "why": "A Pareto chart ranks defect categories from most to least frequent, usually with a cumulative-percentage line, so the team can see the 'vital few' categories responsible for most defects. With capacity for only two initiatives, it shows where effort will remove the most defects.",
+    "how": "Match the tool to the question: prioritize categories → Pareto chart; explore causes → fishbone or 5 Whys; test a relationship between two variables → scatter diagram; see a trend over time → run or control chart; understand a process → flowchart.",
+    "optionNotes": [
+      "Incorrect — A run chart shows how a measure changes over time; it does not rank the 12 categories by how often they occur.",
+      "Incorrect — A scatter diagram tests whether two variables are related; it does not show which categories cause most defects.",
+      "Incorrect — A flowchart maps process steps and can show where defects arise, but it does not rank categories by frequency.",
+      "Correct — Ranking categories by frequency with a cumulative line reveals the vital few that deserve the two initiatives."
+    ],
+    "deepDive": "The Pareto principle, popularized in quality management by Joseph Juran, suggests that roughly 80% of problems come from about 20% of causes. A Pareto chart is a histogram ordered by frequency; weighting categories by cost or severity instead of count can change the ranking, which matters when a rare defect is very expensive. Once the vital few are known, a cause-and-effect diagram helps find why they occur. Agile teams apply the same idea in retrospectives when choosing the one or two improvements to tackle next.",
+    "tags": [
+      "Pareto",
+      "80/20",
+      "quality tools",
+      "prioritization"
+    ]
+  },
+  {
+    "id": "PRO-088",
+    "domain": "Process",
+    "task": "7. Plan and optimize quality of products/deliverables",
+    "approach": "Any",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Root cause analysis",
+    "source": "ECO 2026 · Process Task 7",
+    "question": "Customers of a utility's new billing system report frequent invoice errors. The team has confirmed that the problem is real but has no agreed theory about why it happens; suspected causes include staff training, the tariff-update process, interface timing and data quality. Before collecting more data, the project manager wants the team to brainstorm and organize the possible causes by category. Which tool is MOST appropriate?",
+    "options": [
+      "Control chart of the daily error rate",
+      "Histogram of invoice error amounts",
+      "Scatter diagram of errors versus volume",
+      "Cause-and-effect (fishbone) diagram"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "The team is not yet analyzing data; it needs a structure for generating and grouping possible explanations.",
+    "why": "A cause-and-effect (Ishikawa or fishbone) diagram places the problem at the head and groups possible causes along branches such as people, process, systems and data. It is designed for structured brainstorming when the cause is unknown, and it guides which data to collect next. The other tools analyze data that the team has not yet decided to gather.",
+    "how": "Use a fishbone to explore and organize potential causes, drill down with the 5 Whys, and verify the likely causes with data (for example scatter diagrams or check sheets) before fixing them.",
+    "optionNotes": [
+      "Incorrect — A control chart shows whether the error rate is stable over time, but it does not organize possible causes.",
+      "Incorrect — A histogram shows how error amounts are distributed; it describes the symptom rather than exploring its causes.",
+      "Incorrect — A scatter diagram tests one suspected relationship; the team first needs to identify and organize all candidate causes.",
+      "Correct — It structures brainstorming of possible causes by category, which is exactly what the team needs before collecting data."
+    ],
+    "deepDive": "Common fishbone categories are the 6Ms in manufacturing — people, machine, method, material, measurement and environment — or policies, procedures, people and systems in services. A fishbone produces hypotheses, not proof, so the team should test the most likely causes with data before acting. Pairing it with the 5 Whys helps trace a branch down to a root cause. Exam trap: picking a data-analysis tool when the stem says the team has not yet identified candidate causes.",
+    "tags": [
+      "fishbone",
+      "Ishikawa",
+      "root cause",
+      "5 Whys"
+    ]
+  },
+  {
+    "id": "PRO-089",
+    "domain": "Process",
+    "task": "7. Plan and optimize quality of products/deliverables",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Quality vs. grade",
+    "source": "ECO 2026 · Process Task 7",
+    "question": "A consumer-electronics firm's project delivers a budget smartphone for first-time buyers. It has a basic camera, limited storage and no wireless charging, but field testing shows almost no defects and it meets every requirement in its product specification. At the launch review, a board member complains that the phone is 'poor quality' compared with the company's flagship model. How should the project manager characterize the product?",
+    "options": [
+      "High grade and high quality, which is the only acceptable result for a launch",
+      "Low grade and high quality, which is acceptable for its intended market",
+      "Low grade and low quality, which is a problem that needs corrective action",
+      "High grade and low quality, which is acceptable if customers are satisfied"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Separate how many features a product has from how well it meets its requirements.",
+    "why": "Grade is a category for products with the same use but different technical characteristics, such as features; quality is the degree to which a product fulfills its requirements. The phone has few features (low grade) but meets every requirement with almost no defects (high quality). Low grade can be a deliberate design choice for a market; low quality is always a problem.",
+    "how": "In grade-versus-quality scenarios, map features to grade and conformance to requirements to quality. Low grade is acceptable when intended; low quality never is.",
+    "optionNotes": [
+      "Incorrect — The phone has few features, so it is not high grade, and high grade is not required for a budget product.",
+      "Correct — Few features make it low grade; meeting every requirement with almost no defects makes it high quality.",
+      "Incorrect — Almost no defects and full conformance to requirements mean the phone is high quality, not low quality.",
+      "Incorrect — The phone is low grade, and low quality would never be acceptable, whatever the grade or customer mood."
+    ],
+    "deepDive": "The distinction lets the PM answer the board member with facts: the product meets its specification for its target segment. A related pair is precision (consistency of repeated measurements) versus accuracy (closeness to the true value). Quality is also about fitness for use — a feature-rich phone that crashes fails its users even though it is high grade. Exam trap: treating 'fewer features' as 'lower quality'.",
+    "tags": [
+      "quality",
+      "grade",
+      "fitness for use",
+      "requirements"
+    ]
+  },
+  {
+    "id": "PRO-090",
+    "domain": "Process",
+    "task": "7. Plan and optimize quality of products/deliverables",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Statistical sampling for acceptance",
+    "source": "ECO 2026 · Process Task 7 · Statistical sampling for acceptance",
+    "question": "A transit agency's project is receiving 20,000 contactless fare cards from a supplier in four monthly lots. Verifying a card's durability requires a bend-and-heat test that destroys the card, and the quality management plan sets an acceptance limit of no more than 0.5% defective cards per lot. The supplier provides a certificate of conformance with each lot. How should the project manager plan to verify each lot?",
+    "options": [
+      "Test a statistically valid random sample from each lot against the acceptance criteria",
+      "Inspect every card visually, and bend-test only the cards that appear to be faulty",
+      "Rely on the supplier's certificate of conformance and test only if riders complain",
+      "Bend-test the first few cards from the top of each box, since they are easiest to reach"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Consider what happens to a card that goes through the durability test, and how you can still make a sound decision about a whole lot.",
+    "why": "Because the durability test destroys the card, testing every card is impossible, so the agency must use statistical sampling: select a random sample of the size set by the sampling plan and accept or reject each lot based on the sample results. Random selection avoids bias, and the plan links sample size and acceptance number to the 0.5% limit in the quality management plan.",
+    "how": "Use statistical sampling when testing is destructive, costly or slow, or when lots are large: define the sampling plan (sample size and acceptance criteria) during quality planning, select items randomly, and decide on the lot rather than on individual items.",
+    "optionNotes": [
+      "Correct — A random sample sized by the sampling plan gives a defensible accept-or-reject decision for each lot without destroying it.",
+      "Incorrect — Visual checks cannot reveal durability defects, so faulty cards that look fine would pass untested.",
+      "Incorrect — Certificates are useful evidence, but relying on them alone leaves detection to riders, turning defects into external failures.",
+      "Incorrect — Picking the most convenient cards is not random and can miss defects concentrated elsewhere in the lot."
+    ],
+    "deepDive": "Statistical sampling is a quality-control technique: attribute sampling classifies each item as pass or fail, while variables sampling measures a characteristic on a continuous scale. Sampling plans should be set during quality planning, because sample size drives cost and the risk of accepting a bad lot or rejecting a good one. If a supplier's results prove consistently reliable, sampling can be reduced over time, a common arrangement in supply agreements. Exam trap: choosing 100% inspection when testing is destructive or when a sound sampling plan gives the needed confidence at far lower cost.",
+    "tags": [
+      "statistical sampling",
+      "control quality",
+      "acceptance sampling",
+      "inspection"
+    ]
+  },
+  {
+    "id": "PRO-091",
+    "domain": "Process",
+    "task": "7. Plan and optimize quality of products/deliverables",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Quality audits",
+    "source": "ECO 2026 · Process Task 7 (ensure compliance)",
+    "question": "Halfway through a pharmaceutical warehouse project, the project manager asks the PMO to send an independent team to check whether the project is actually following the organization's quality policies and procedures, to identify good practices worth sharing with other projects, and to highlight gaps or shortcomings. No specific deliverable is in question. Which activity should the project manager arrange?",
+    "options": [
+      "A scope validation session with the customer",
+      "A quality audit of the project's processes",
+      "An inspection of the completed deliverables",
+      "A benchmarking study against other companies"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "The focus is on how the work is being done, not on any particular output.",
+    "why": "A quality audit is a structured, independent review of whether project activities comply with organizational and project policies, processes and procedures. It identifies good practices to share as well as gaps and shortcomings, and it can confirm that approved changes and corrective actions were implemented. The stem focuses on processes rather than deliverables, which rules out inspection and scope validation.",
+    "how": "Audit: are we following our processes (managing quality)? Inspection: does this deliverable meet its requirements (controlling quality)? Scope validation: does the customer formally accept the verified deliverables?",
+    "optionNotes": [
+      "Incorrect — Scope validation is the customer's formal acceptance of completed deliverables, not a review of process compliance.",
+      "Correct — An independent audit checks compliance with quality policies and procedures and surfaces good practices and gaps.",
+      "Incorrect — Inspection examines work products against requirements, and the stem says no deliverable is in question.",
+      "Incorrect — Benchmarking compares practices with other organizations for ideas; it does not check compliance with your own policies."
+    ],
+    "deepDive": "Quality audits belong to managing quality, which focuses on processes and prevention, whereas controlling quality checks outputs. Audits can be scheduled or unannounced and run by internal teams or external parties; in regulated industries such as pharmaceuticals, audit evidence also supports regulatory inspections. Sharing the good practices an audit finds is a form of organizational learning. In agile environments, similar assurance comes from reviewing working agreements and the definition of done, plus independent reviews where regulation requires them.",
+    "tags": [
+      "quality audit",
+      "manage quality",
+      "compliance",
+      "process"
+    ]
+  },
+  {
+    "id": "PRO-092",
+    "domain": "Process",
+    "task": "7. Plan and optimize quality of products/deliverables",
+    "approach": "Any",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "PDCA",
+    "source": "ECO 2026 · Process Task 7 / Business Environment Task 6",
+    "question": "A team's code reviews keep missing defects. The team designs a new review checklist and agrees a success measure — defects escaping to system testing — then tries the checklist on one module for two sprints. It compares the escape rate with the previous baseline and, because escapes fell by 40%, adopts the checklist as the standard for every module. Which improvement cycle has the team followed?",
+    "options": [
+      "Define–Measure–Analyze–Improve–Control (DMAIC)",
+      "Initiate–Plan–Execute–Close",
+      "Plan–Do–Check–Act (PDCA)",
+      "Forming–Storming–Norming–Performing"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Trace the sequence: design a change, try it small, compare the results, then standardize.",
+    "why": "The team planned a change and a measure (Plan), tried it on a small scale (Do), compared the results with the baseline (Check), and standardized it across all modules (Act). That is the Plan–Do–Check–Act cycle developed by Shewhart and popularized by Deming, the basis of continuous improvement.",
+    "how": "PDCA: plan a change, pilot it on a small scale, check the results against a baseline, then act — standardize if it worked, adjust if it did not — and repeat. DMAIC is a more data-intensive Six Sigma variant for improving an existing process.",
+    "optionNotes": [
+      "Incorrect — DMAIC is a Six Sigma method built around statistical root-cause analysis; the scenario is a simple pilot-then-standardize cycle.",
+      "Incorrect — Initiate, plan, execute and close describe project life-cycle stages, not a continuous-improvement cycle.",
+      "Correct — The team planned the checklist, piloted it (Do), compared with the baseline (Check), then standardized it (Act).",
+      "Incorrect — Forming through performing is Tuckman's model of team development, not a quality-improvement cycle."
+    ],
+    "deepDive": "PDCA underpins kaizen, the practice of continuous small improvements, and agile retrospectives apply the same inspect-and-adapt logic every iteration. Piloting on a small scale limits the cost of an idea that turns out not to work. Measuring against a baseline is essential; without one, the team cannot tell whether the change helped. Exam trap: confusing improvement cycles with life-cycle phases or team-development models.",
+    "tags": [
+      "PDCA",
+      "continuous improvement",
+      "Deming",
+      "kaizen"
+    ]
+  },
+  {
+    "id": "PRO-093",
+    "domain": "Process",
+    "task": "7. Plan and optimize quality of products/deliverables",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Shift-left quality in agile",
+    "source": "ECO 2026 · Process Task 7",
+    "question": "A Scrum team building a mobile banking app reserves a two-week 'stabilization' period before each quarterly release, and most of its defects are found there; the last two releases slipped by a week. Stories are marked done as soon as they are coded, and testing is mostly manual at the end of the quarter. What should the team do to improve quality?",
+    "options": [
+      "Stop releasing until every known defect is fixed, then return to the quarterly cadence",
+      "Build testing into each sprint with automation, CI and a stronger definition of done",
+      "Add a second stabilization period so the testers have more time before each release",
+      "Assign a separate maintenance team to fix the defects after each release goes live"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Ask when defects are being introduced, when they are being found, and how to close that gap.",
+    "why": "The late stabilization period shows that quality is not being built into each increment: stories count as done before they are tested. Automated tests, continuous integration and a definition of done that includes testing catch defects within the sprint that created them, when they are cheapest to fix, and remove the need for a stabilization phase.",
+    "how": "Agile quality means small batches, frequent integration, automated tests and a definition of done that makes every increment potentially releasable; a recurring stabilization phase is a symptom of weak built-in quality.",
+    "optionNotes": [
+      "Incorrect — Freezing releases delays value and fixes today's defects without changing the practices that keep creating them.",
+      "Correct — Testing within each sprint finds defects early and cheaply and makes every increment genuinely done.",
+      "Incorrect — More stabilization time treats the symptom and delays value further while late defect discovery continues.",
+      "Incorrect — Fixing defects after release pushes failure costs onto customers and turns them into external failures."
+    ],
+    "deepDive": "Extreme Programming practices such as test-driven development, pair programming, continuous integration and refactoring embed quality in the work itself; DevOps extends this with continuous delivery and production monitoring. A definition of done that includes automated tests and integration means each increment is potentially releasable. Moving testing earlier — 'shifting left' — applies the cost-of-quality idea that prevention and early detection are cheaper than late failure. Exam trap: adding more testing time at the end instead of changing when testing happens.",
+    "tags": [
+      "shift left",
+      "test automation",
+      "CI",
+      "Definition of Done"
+    ]
+  },
+  {
+    "id": "PRO-094",
+    "domain": "Process",
+    "task": "7. Plan and optimize quality of products/deliverables",
+    "approach": "Predictive",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Control limits vs. specification limits",
+    "source": "ECO 2026 · Process Task 7",
+    "question": "On a project to supply precision shafts to a pump manufacturer, the control chart for shaft diameter has shown a stable process for six weeks: all points are within the control limits, with no runs or trends. However, final inspection shows that 8% of shafts fall outside the customer's specification limits. The production lead suggests asking the customer to widen the tolerance. What does the data indicate?",
+    "options": [
+      "The process is in control but not capable, so the process itself must be improved",
+      "The specification limits should be reset to match the process control limits",
+      "Nothing needs to change, because the process is stable and therefore fully predictable",
+      "The process is out of control, so special causes must be found and removed"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Stability tells you the process is predictable; ask whether it predictably meets what the customer needs.",
+    "why": "Control limits describe the process's natural (common-cause) variation; specification limits describe what the customer requires. A stable process whose natural spread exceeds the specification is in control but not capable, so it will predictably keep producing about 8% nonconforming shafts. The fix is to reduce common-cause variation or change the process, for example its tooling or machine, not to hunt for special causes or ask the customer to relax requirements.",
+    "how": "In control does not mean meeting requirements. Special-cause signals → investigate specific events; stable but out of specification → improve process capability.",
+    "optionNotes": [
+      "Correct — Stable variation that is too wide for the specification requires reducing common-cause variation by improving the process.",
+      "Incorrect — Specifications come from the customer's needs, not from process data; resetting them to fit the process defeats their purpose.",
+      "Incorrect — Predictably producing 8% scrap is a serious quality and cost problem, not a reason for inaction.",
+      "Incorrect — No points are outside the limits and there are no runs or trends, so there is no special-cause signal to chase."
+    ],
+    "deepDive": "Process capability indices such as Cp and Cpk compare the process spread with the specification width; values below about 1.0 mean some output will fall outside specification even when the process is stable. Asking the customer to relax a tolerance is legitimate only through change control and if the customer agrees it still meets their needs. Reducing common-cause variation usually needs management action — better equipment, materials or methods — because workers cannot fix a system they do not control. Exam trap: treating 'in control' as 'good enough'.",
+    "tags": [
+      "control limits",
+      "specification limits",
+      "process capability",
+      "common cause"
+    ]
+  },
+  {
+    "id": "PRO-095",
+    "domain": "Process",
+    "task": "7. Plan and optimize quality of products/deliverables",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Quality management plan and standards",
+    "source": "ECO 2026 · Process Task 7 (gather quality requirements, ensure compliance)",
+    "question": "A company is starting a project to develop infusion-pump software that must comply with an international medical-device software standard before it can be sold. To speed up planning, the development lead proposes to 'check compliance at the end', and the regulatory specialist is not scheduled to join until the testing phase. When and how should the project manager address the standard's requirements?",
+    "options": [
+      "At the end, during final inspection before the product is submitted to the regulator",
+      "Only if the regulator asks for evidence of compliance during its product review",
+      "After the first customer complaint shows which parts of the standard really apply",
+      "Plan them in now with the regulatory specialist and verify compliance through audits"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Think about how late discovery of a compliance gap would affect cost, schedule and patient safety.",
+    "why": "Applicable standards and regulations are inputs to quality planning: their requirements must be identified early, with the right expertise, and built into the quality management plan, quality metrics, design and processes. Audits and control activities then verify compliance throughout. Checking only at the end risks expensive redesign, a failed submission and, most importantly, harm to patients.",
+    "how": "For regulated deliverables, bring compliance experts in during planning, build the requirements into the quality plan and definition of done, and verify continuously; quality is planned in, not inspected in.",
+    "optionNotes": [
+      "Incorrect — Discovering non-compliance at final inspection forces costly redesign and delays the regulatory submission.",
+      "Incorrect — Waiting for the regulator to ask is reactive and risks a rejected submission or a product recall.",
+      "Incorrect — Using patient complaints to find compliance gaps is reactive and could cause harm; it is an external failure.",
+      "Correct — Engaging the specialist now, building the standard into the quality plan and verifying through audits embeds compliance from the start."
+    ],
+    "deepDive": "Quality metrics state an attribute and how it will be measured, such as defect density or failure rate, while quality checklists help verify that required steps were followed. Medical-device software standards typically require traceability from requirements through design, tests and risk controls, which is far cheaper to build as you go than to reconstruct later. Hybrid and agile teams can meet such standards by including compliance evidence in the definition of done and planning audits for each release. Exam trap: treating compliance as an end-of-project activity.",
+    "tags": [
+      "quality management plan",
+      "standards",
+      "compliance",
+      "regulatory"
+    ]
+  },
+  {
+    "id": "PRO-096",
+    "domain": "Process",
+    "task": "7. Plan and optimize quality of products/deliverables",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "multi",
+    "topic": "Cost of nonconformance",
+    "source": "ECO 2026 · Process Task 7",
+    "question": "The project manager of a hospital-scheduling software project is preparing a cost-of-quality report so the steering committee can see where quality spending goes. The finance analyst has listed five cost items from the last quarter and asks which of them belong in the nonconformance section of the report. Which TWO should be reported as costs of nonconformance? (Select two.)",
+    "options": [
+      "Warranty claims from hospitals after the release",
+      "Calibration of the test equipment",
+      "Secure-coding training for the developers",
+      "Peer code reviews before code is merged",
+      "Rework of defective modules found in system testing"
+    ],
+    "answer": [
+      0,
+      4
+    ],
+    "hint": "Separate money spent to avoid or detect failures from money spent because failures happened.",
+    "why": "Costs of nonconformance are the money spent because of failures. Rework of modules found defective during system testing is an internal failure cost (found before delivery), and warranty claims after release are external failure costs (found by customers). Training is prevention, while calibration and code reviews are appraisal — both costs of conformance.",
+    "how": "Conformance = money spent to avoid failures (prevention + appraisal). Nonconformance = money spent because of failures (internal failure + external failure).",
+    "optionNotes": [
+      "Correct — Warranty claims arise because defects reached customers, making them external failure costs of nonconformance.",
+      "Incorrect — Calibrating test equipment keeps inspection accurate; it is an appraisal cost and part of the cost of conformance.",
+      "Incorrect — Training developers reduces the chance of defects being created, which makes it a prevention cost.",
+      "Incorrect — Code reviews inspect work to find defects before merging, which is appraisal, a cost of conformance.",
+      "Correct — Rework on defects found in system testing is an internal failure cost, incurred because the work did not conform."
+    ],
+    "deepDive": "Philip Crosby argued that 'quality is free' because the cost of conformance is usually lower than the cost of nonconformance. External failures are the most expensive category, adding reputational damage, support costs and, in healthcare, potential patient-safety and liability issues. Reporting cost of quality by category helps a steering committee see that shifting spend toward prevention reduces total cost. Exam trap: labeling every activity that happens after coding as a failure cost; reviews and tests are appraisal unless they are rework.",
+    "tags": [
+      "cost of quality",
+      "nonconformance",
+      "multi-select",
+      "internal failure"
+    ]
+  },
+  {
+    "id": "PRO-097",
+    "domain": "Process",
+    "task": "8. Plan and manage schedule",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Critical path (calculation)",
+    "source": "ECO 2026 · Process Task 8",
+    "question": "A team is planning the network-upgrade phase for a regional office. Activity A (site survey, 3 days) starts the phase. B (cabling, 4 days) and C (equipment configuration, 6 days) both follow A and can run in parallel. D (cutover testing, 2 days) can start only when both B and C are finished, and it ends the phase. What is the critical path, and what is its duration?",
+    "options": [
+      "A–C, 9 days",
+      "A–B–D, 9 days",
+      "A–C–D, 11 days",
+      "A–B–C–D, 15 days"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "List every path from the first activity to the last and compare their total durations.",
+    "why": "Paths through the network: A–B–D = 3 + 4 + 2 = 9 days; A–C–D = 3 + 6 + 2 = 11 days. The longest path, A–C–D at 11 days, is the critical path and sets the shortest possible duration for the phase, while B has 11 − 9 = 2 days of float.",
+    "how": "List every path from start to finish, add the durations, and pick the longest; activities on it normally have zero total float, and any delay to them delays the finish.",
+    "optionNotes": [
+      "Incorrect — Omits D, which must follow both B and C; every path must run from the start to the finish of the phase.",
+      "Incorrect — This is the shorter path; B has 2 days of float, so it does not determine the phase duration.",
+      "Correct — 3 + 6 + 2 = 11 days is the longest path, so it is critical and sets the phase duration.",
+      "Incorrect — B and C run in parallel after A, so they do not sit in sequence on a single path."
+    ],
+    "deepDive": "If C slips by one day, the phase slips by one day; if B slips by two days, the end date does not move, but a third day would make its path critical. Near-critical paths with little float deserve monitoring because small slips can turn them critical. The critical path can change as work progresses, so it should be recalculated after each schedule update. In agile release planning, the equivalent concern is dependencies between teams, which are made visible on program or dependency boards.",
+    "tags": [
+      "critical path",
+      "network diagram",
+      "calculation",
+      "float"
+    ]
+  },
+  {
+    "id": "PRO-098",
+    "domain": "Process",
+    "task": "8. Plan and manage schedule",
+    "approach": "Predictive",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Total float",
+    "source": "ECO 2026 · Process Task 8",
+    "question": "In the schedule for a school renovation, the activity 'Install classroom lighting' has an early start of day 5 and a late start of day 9, with an early finish of day 11 and a late finish of day 15. The electrical subcontractor asks how many days the activity could slip without delaying the project's completion date. What is its total float?",
+    "options": [
+      "4 days",
+      "5 days",
+      "9 days",
+      "14 days"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Compare the latest date the activity can start with the earliest date it can start.",
+    "why": "Total float = LS − ES = 9 − 5 = 4 days, confirmed by LF − EF = 15 − 11 = 4 days. The activity can be delayed by up to 4 days without delaying the project's completion date, provided no other activity on the same path uses that float first.",
+    "how": "Total float = LS − ES = LF − EF (delay possible without moving the project end date). Free float = ES of the earliest successor − EF of the activity (delay possible without delaying any successor).",
+    "optionNotes": [
+      "Correct — LS − ES = 9 − 5 = 4 days, and LF − EF = 15 − 11 confirms the same 4 days of total float.",
+      "Incorrect — 5 is the early start day, not the amount of time by which the activity can slip.",
+      "Incorrect — 9 is the late start day; float is the gap between the late and early dates, not either date alone.",
+      "Incorrect — Adds the early and late starts (5 + 9) instead of subtracting one from the other."
+    ],
+    "deepDive": "Float shared along a path is used up by whichever activity takes it first, so the subcontractor's slip could remove flexibility from later activities. Negative float means the schedule cannot meet an imposed date without compression. Activities on the critical path normally have zero total float. Exam trap: confusing total float with free float, which measures slack only up to the next activity.",
+    "tags": [
+      "float",
+      "slack",
+      "calculation",
+      "schedule"
+    ]
+  },
+  {
+    "id": "PRO-099",
+    "domain": "Process",
+    "task": "8. Plan and manage schedule",
+    "approach": "Predictive",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Crashing",
+    "source": "ECO 2026 · Process Task 8 (analyze variations)",
+    "question": "A data-center migration must finish 2 days earlier to meet a contractual cutover window. The critical path runs through activities P, Q and R, and no other path is within 3 days of it. Crashing options are: P — $3,000 per day (up to 2 days); Q — $1,500 per day (up to 1 day); R — $2,000 per day (up to 2 days). A non-critical activity, S, can be shortened for $500 per day. What is the cheapest way to gain the 2 days?",
+    "options": [
+      "Crash activity S by two days for $1,000",
+      "Crash Q and R one day each for $3,500",
+      "Crash R alone by two days for $4,000",
+      "Crash P alone by two days for $6,000"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Only some activities can move the finish date; among those, start with the cheapest day available.",
+    "why": "Only shortening critical-path activities shortens the project, so crashing the non-critical S buys nothing. On the critical path, the cheapest day is Q at $1,500 (maximum 1 day), then R at $2,000. Total = $1,500 + $2,000 = $3,500, which beats crashing R twice ($4,000) or P twice ($6,000). Because no other path is within 3 days, the critical path stays critical after 2 days of compression.",
+    "how": "Crash critical-path activities in order of lowest cost per day, respecting each activity's maximum, and recheck the critical path after each step, because another path may become critical.",
+    "optionNotes": [
+      "Incorrect — S is not on the critical path, so shortening it adds cost without moving the finish date.",
+      "Correct — The two cheapest critical-path days, Q at $1,500 and R at $2,000, gain 2 days for $3,500.",
+      "Incorrect — Crashing R twice works but costs $4,000, which is $500 more than using Q's cheaper day first.",
+      "Incorrect — P is the most expensive crashing option on the critical path, at $6,000 for the two days."
+    ],
+    "deepDive": "Crashing adds resources, overtime or premium delivery and therefore cost, and it can add risk if new people join late; fast tracking overlaps activities instead and mainly adds rework risk. Both techniques only help when applied to the critical path. If another path were within 2 days, compressing this one could make both critical, and further days would require crashing both paths at once. Before crashing, check that the time saved is worth its cost — here, meeting a contractual cutover window likely avoids penalties.",
+    "tags": [
+      "crashing",
+      "schedule compression",
+      "calculation",
+      "critical path"
+    ]
+  },
+  {
+    "id": "PRO-100",
+    "domain": "Process",
+    "task": "8. Plan and manage schedule",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Fast tracking",
+    "source": "ECO 2026 · Process Task 8",
+    "question": "A bridge-monitoring software project is three weeks behind schedule. The sponsor has said no extra budget is available, so the project manager lets developers start coding the data-ingestion module while its detailed design is still awaiting final approval, instead of waiting for sign-off as planned. Which schedule technique is being used, and what is its main risk?",
+    "options": [
+      "Lag; idle time between the two activities",
+      "Crashing; a higher overall project cost",
+      "Resource leveling; a longer project duration",
+      "Fast tracking; increased risk of rework"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Look at what happened to the relationship between the design and coding activities.",
+    "why": "Fast tracking performs in parallel, or with overlap, activities that were planned in sequence. It usually adds little direct cost, which fits the no-extra-budget constraint, but it increases risk: if the approved design differs from the draft, code written early may need rework.",
+    "how": "Fast tracking overlaps sequential work and raises rework risk; crashing adds resources and raises cost. Both shorten only the critical path, while resource leveling can lengthen the schedule.",
+    "optionNotes": [
+      "Incorrect — Lag is a deliberate wait between activities; the project manager removed waiting rather than adding it.",
+      "Incorrect — Crashing adds resources or overtime at extra cost, which the sponsor ruled out; no resources were added here.",
+      "Incorrect — Resource leveling adjusts work to resource limits and often lengthens the schedule; it is not a compression technique.",
+      "Correct — Overlapping coding with an unapproved design is fast tracking, and design changes could force rework of early code."
+    ],
+    "deepDive": "Fast tracking works only where dependencies are discretionary or partial overlap is feasible, often by converting finish-to-start relationships into start-to-start relationships with a lag, or by using leads. The PM should log the rework risk, agree with the team which parts of the design are stable enough to build on, and watch the approval closely. In agile work, the equivalent is building on emerging designs in small increments, where fast feedback keeps rework small. Exam trap: calling any schedule-recovery move 'crashing'.",
+    "tags": [
+      "fast tracking",
+      "schedule compression",
+      "rework",
+      "risk"
+    ]
+  }
+]

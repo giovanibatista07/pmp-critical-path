@@ -1,0 +1,796 @@
+[
+  {
+    "id": "BUS-076",
+    "domain": "Business Environment",
+    "task": "1. Define and establish project governance",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Governing generative-AI tool use",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Stewardship principle: compliance and seeking counsel when guidance is missing",
+    "question": "A nine-person agile team at a logistics firm is building a route-optimization app. Several developers have started using a free generative-AI coding assistant, and one pasted a proprietary pricing algorithm into it to get refactoring suggestions. The organization has no policy on generative-AI tools yet, and the security lead is uneasy. At the retrospective, the team asks the project manager whether they can keep using the assistant, because it has noticeably sped up their work. What should the project manager do?",
+    "options": [
+      "Tell the team to stop using every AI tool on the project until the organization publishes a formal usage policy",
+      "Take the gap to the sponsor, security, and legal, and agree interim guardrails for the team's working agreement",
+      "Leave the decision to the team at its next retrospective, since self-organizing teams choose their own working tools",
+      "Buy enterprise licenses for the assistant so any shared code stays protected, and let the team carry on as before"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "When a team's choice creates exposure for the whole organization, who should set the boundaries?",
+    "why": "The productivity gain is real, but pasting proprietary code into an unvetted external tool creates intellectual-property and security exposure that goes beyond the team's decision rights. When no organizational guidance exists, a good steward seeks counsel from those with authority — here the sponsor, security, and legal — rather than improvising. Interim guardrails (approved tools, what data may be shared, human review of generated code) let the team keep the benefit safely while formal policy is written, and recording them in the working agreement makes them visible and owned by the team.",
+    "how": "When a new tool or practice creates risk beyond the team's authority and no policy exists, engage the governance owners to set interim guardrails rather than banning it outright or leaving it to individual choice.",
+    "optionNotes": [
+      "Incorrect — A blanket ban is an overreaction that discards a real productivity gain and invites hidden use; guardrails can control the risk without stopping the work.",
+      "Correct — It routes a decision that exceeds the team's authority to the right owners while keeping the benefit through agreed, visible interim rules.",
+      "Incorrect — Teams do choose their tools, but leaking proprietary code and creating security exposure are organizational risks outside the team's decision rights.",
+      "Incorrect — Buying licenses is a unilateral spending and risk decision; it skips security and legal review of what data may be shared and how outputs are checked."
+    ],
+    "deepDive": "Governance defines who may decide what, and new technology often arrives before the policy that governs it. PMBOK 7's view of stewardship includes complying with properly authorized rules and, when guidance is unclear or missing, seeking appropriate counsel and direction. Typical interim guardrails for generative-AI use include an approved-tool list, data-classification rules (no confidential or personal data in public tools), human review and testing of AI-generated code, and license and IP checks on outputs. Exam trap: 'self-organizing' does not mean a team can accept organizational legal or security risk on its own.",
+    "tags": [
+      "ai",
+      "governance",
+      "generative ai",
+      "stewardship",
+      "working agreement"
+    ]
+  },
+  {
+    "id": "BUS-077",
+    "domain": "Business Environment",
+    "task": "1. Define and establish project governance",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Joint governance for a partnership",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Organizational governance systems (2.2): aligning project governance with every organization involved",
+    "question": "A city water utility and a private engineering firm are jointly delivering a smart-metering project under a partnership agreement. Each organization has its own approval thresholds, risk policy, and reporting templates. In the first month, the utility's finance team rejected a supplier invoice that the firm's project lead had already approved, and both sides have started escalating disagreements to their own executives. The partnership agreement is silent on project-level decision making. What should the project manager do?",
+    "options": [
+      "Adopt the utility's governance for all project decisions, since the utility funds most of the work and carries public accountability",
+      "Keep each organization's own processes and have the two project leads reconcile any disagreements case by case as they arise",
+      "Work with both sponsors to agree decision rights, approval thresholds, and one escalation path, and record them in the charter",
+      "Ask the partnership's legal counsel to renegotiate the partnership agreement so that it covers every project-level decision"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "What is missing that would let both organizations make and escalate decisions in the same way?",
+    "why": "The conflicts are symptoms of a governance gap: nobody has defined who approves what, at which thresholds, and where disputes go when the two organizations disagree. Project governance must align with the governance of every organization that has authority over the work, so the PM should facilitate an agreement between both sponsors on decision rights, thresholds, and a joint escalation path. Documenting it in the charter or a governance annex gives the team one rulebook and stops parallel escalations.",
+    "how": "When several organizations share a project, establish one agreed governance framework — decision rights, thresholds, escalation path, and which policies apply where — before disputes multiply.",
+    "optionNotes": [
+      "Incorrect — Imposing one partner's rules ignores the other's legitimate authority and obligations and is likely to create resentment and further escalation.",
+      "Incorrect — Case-by-case reconciliation keeps the ambiguity that caused the rejected invoice and the competing executive escalations.",
+      "Correct — A jointly agreed framework defines who decides, at what thresholds, and how disputes escalate, aligned with both organizations' governance.",
+      "Incorrect — Renegotiating the whole legal agreement is slow and unnecessary; project-level governance can be agreed by the sponsors within the existing agreement."
+    ],
+    "deepDive": "Joint ventures, consortia, and public–private partnerships are governance-heavy because each party brings its own policies, approval limits, and accountability. A common remedy is a joint steering committee with a governance annex covering decision rights (often a delegation-of-authority table), financial approval limits, the escalation ladder, and which organization's policy governs each area, such as the funder's procurement rules and the site owner's safety rules. PMBOK 7 notes that project governance defines the authority to approve changes and make business decisions, and that it must align with the organizational governance above it. Exam trap: picking a 'winning' organization feels decisive but rarely produces durable alignment.",
+    "tags": [
+      "governance",
+      "decision rights",
+      "escalation",
+      "partnership"
+    ]
+  },
+  {
+    "id": "BUS-078",
+    "domain": "Business Environment",
+    "task": "1. Define and establish project governance",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Measurable sustainability success criteria",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Measurement Performance Domain (2.7.1): establishing effective measures for environmental outcomes",
+    "question": "Six months into a warehouse-automation project, the company's board adopts a net-zero commitment. The sponsor tells the project manager that at the next stage gate the project will also be judged on its 'contribution to net zero.' The approved charter contains cost, schedule, and throughput targets but nothing about emissions, and no one has defined how a contribution would be measured. The gate is ten weeks away. What should the project manager do FIRST?",
+    "options": [
+      "Agree a baseline, target, and measurement method with the sponsor and sustainability team, then update the charter formally",
+      "Add rooftop solar panels to the project scope so that the project can show a visible contribution to net zero at the stage gate",
+      "Present the project's energy consumption at the gate using whatever data exist, and refine the measure in a later phase",
+      "Ask the sponsor to leave emissions out of the gate criteria, since they were never part of the approved project charter"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Before anyone can judge a contribution, what has to exist and be approved?",
+    "why": "A success criterion that cannot be measured cannot be governed: the gate reviewers, the sponsor, and the team would each judge 'contribution to net zero' differently. The PM should first make the new expectation measurable — a baseline, a target, and an agreed method and data source — with the people who own the corporate commitment. Because it changes the project's success criteria, the update should go through the agreed governance or change process so the gate evaluates the project against an approved, shared definition.",
+    "how": "When governance adds a new success criterion mid-project, make it measurable (baseline, target, method, owner) and approve it formally before it is used to judge the project.",
+    "optionNotes": [
+      "Correct — It turns a vague expectation into an agreed, measurable criterion and approves it through governance before the gate relies on it.",
+      "Incorrect — Adding scope to look good is gold plating; without a baseline and target, no one can tell whether solar panels are the best contribution.",
+      "Incorrect — Reporting whatever data exist lets the gate judge the project against an undefined standard and invites disputes about the result.",
+      "Incorrect — Governance can legitimately add criteria as strategy changes; resisting it rather than clarifying it damages trust with the sponsor."
+    ],
+    "deepDive": "Effective measures are often described as SMART: specific, meaningful, achievable, relevant, and timely. For sustainability, teams usually agree on a baseline (for example, current tonnes of CO2e per 1,000 orders shipped), a target, which emissions are counted, the data source and calculation method, and who verifies the numbers. PMBOK 7's stewardship theme expects project leaders to consider financial, social, and environmental performance together, and its governance view expects success criteria to stay linked to changing strategy. In predictive projects the charter or business-case update follows change control; in agile work the same idea appears as updated product goals or OKRs.",
+    "tags": [
+      "governance",
+      "sustainability",
+      "success criteria",
+      "stage gate",
+      "esg"
+    ]
+  },
+  {
+    "id": "BUS-079",
+    "domain": "Business Environment",
+    "task": "1. Define and establish project governance",
+    "approach": "Agile",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Decision latency from a disengaged sponsor",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Appendix X2 (the sponsor role): decisions outside the team's authority",
+    "question": "An agile team building a patient-scheduling platform has three decisions waiting that exceed the product owner's authority: funding a paid messaging service, whether to delay launch for an accessibility audit, and whether to drop an integration the hospital's IT group opposes. The sponsor has missed the last three sprint reviews and has not answered emails for two weeks. Developers are building workarounds to avoid being blocked, and the backlog is filling with contingent stories. What should the project manager do FIRST?",
+    "options": [
+      "Ask the PMO director to assign a different, more available executive as the sponsor for the platform",
+      "Let the product owner make the three decisions to keep the team moving, and brief the sponsor afterward",
+      "Pause the work affected by the pending decisions and report the resulting delay in the next project status update",
+      "Meet the sponsor one-on-one, show what the delays cost, and agree how such decisions will be made from now on"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Who owns these decisions, and what would make it easy for that person to engage again?",
+    "why": "The decisions sit above the product owner, so the sponsor, or someone the sponsor delegates to, must make them. Before going around the sponsor, the PM should engage directly: make the cost of decision latency visible — workarounds, contingent stories, launch risk — and agree a workable mechanism, such as a standing 20-minute decision slot or a named delegate with defined limits. This repairs the governance gap rather than just today's three decisions, and further escalation is appropriate only if it fails.",
+    "how": "When decisions above your authority stall, first engage the decision owner directly with the cost of delay and a proposed decision mechanism; escalate or ask for reassignment only if that fails.",
+    "optionNotes": [
+      "Incorrect — Going over the sponsor's head before speaking to them is premature escalation and can damage a relationship the project still needs.",
+      "Incorrect — These decisions exceed the product owner's authority; making them anyway breaks governance and may commit funds or scope nobody approved.",
+      "Incorrect — Passively waiting and reporting the delay accepts the problem; the PM should actively restore the decision path.",
+      "Correct — It engages the rightful decision owner, makes the cost of delay visible, and fixes how future decisions get made, not just today's three."
+    ],
+    "deepDive": "PMBOK 7's sponsor appendix lists making or routing decisions outside the team's authority, securing resources, and removing obstacles as core sponsor functions, and it notes that a disengaged sponsor leads to longer decision times and conflicting priorities. Practical fixes include a decision log with 'needed by' dates, a short fixed decision cadence, pre-agreed delegation (for example, the product owner may approve spending up to a limit), and presenting decisions as options with a recommendation. In agile settings decision latency is a major source of waste and can be tracked like any other impediment. Exam trap: escalating to the sponsor's boss is rarely the FIRST step.",
+    "tags": [
+      "sponsor",
+      "decision latency",
+      "governance",
+      "escalation",
+      "agile"
+    ]
+  },
+  {
+    "id": "BUS-080",
+    "domain": "Business Environment",
+    "task": "2. Plan and manage project compliance",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "License risk in AI-generated code",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Stewardship principle: compliance with intellectual-property and license obligations",
+    "question": "An agile team is building on-premises inventory software that a manufacturer will sell and install at customer sites. Developers use the company's approved AI coding assistant. Two weeks before release, the pipeline's license scan flags four AI-suggested code blocks that closely match code from an open-source project under a copyleft license, which could oblige the company to publish its own source code if shipped. Company policy requires the open-source review board to clear third-party code before release. What is the BEST way to handle this?",
+    "options": [
+      "Have the developers rename variables and restructure the flagged blocks until the license scanner stops reporting a match",
+      "Release on schedule, because code produced by an approved AI assistant belongs to the company licensing the tool",
+      "Withdraw the AI assistant from the team and rewrite every piece of code it has suggested since the project began",
+      "Refer the flagged blocks to the review board before release, and add AI-code license checks to the definition of done"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Who decides whether third-party code may ship, and how can the team stop the same problem from recurring each sprint?",
+    "why": "The scan has found a possible license obligation that could force disclosure of the product's source code, and policy gives the open-source review board, not the team, the authority to decide whether that code can ship. Referring the four blocks to the board before release follows the organization's compliance process, and the board may approve them, require a rewrite or seek another license. Adding license checks on AI-suggested code to the definition of done builds the control into every sprint instead of relying on a last-minute scan. Disguising the code is dishonest and leaves the legal exposure in place, the tool's approval does not settle ownership, and rewriting everything is a costly overreaction to four blocks.",
+    "how": "Treat AI-generated content like any other third-party input: follow the organization's intellectual-property and licensing controls, let the designated authority decide on flagged items, and build the checks into the definition of done.",
+    "optionNotes": [
+      "Incorrect — Disguising matched code to defeat the scanner is dishonest and leaves the license obligation and legal exposure exactly where they were.",
+      "Incorrect — Approving a tool for use does not transfer rights in code it reproduces; the license terms still apply to matched third-party code.",
+      "Incorrect — Discarding months of work is a costly overreaction; only four blocks are flagged, and the company has approved the tool itself.",
+      "Correct — The designated board decides on the flagged code before release, and a definition-of-done check builds license compliance into every sprint."
+    ],
+    "deepDive": "AI coding assistants can occasionally reproduce code from their training data, including code under licenses whose terms travel with it. Copyleft licenses may require that software distributed with the covered code be released under the same terms, which can be unacceptable for a commercial product, while permissive licenses usually require attribution. Many organizations therefore run software-composition and similarity scans, keep an open-source approval process, and set rules for AI-generated content in their AI-use policy. PMBOK 7's stewardship principle includes complying with internal and external requirements; in agile teams, such controls belong in the definition of done so compliance is built in rather than inspected at the end.",
+    "tags": [
+      "ai",
+      "compliance",
+      "intellectual property",
+      "open-source licensing",
+      "definition of done"
+    ]
+  },
+  {
+    "id": "BUS-081",
+    "domain": "Business Environment",
+    "task": "2. Plan and manage project compliance",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "multi",
+    "topic": "High-risk AI regulatory obligations",
+    "source": "ECO 2026 · Business Environment Task 2 · AI regulation turned into release requirements",
+    "question": "A bank's hybrid program is building a machine-learning model that recommends credit limits. A newly adopted regional AI regulation classifies credit-scoring systems as high-risk and requires documented bias testing across protected groups, meaningful human oversight of decisions, and decision logs kept for audit before the system is used with customers. The product owner proposes releasing the model to 5% of customers next month and adding these controls 'once we see traction.' Which actions should the project manager take? (Select two.)",
+    "options": [
+      "Engage compliance and legal to interpret the obligations and turn them into backlog items and release acceptance criteria",
+      "Support the product owner's plan, because ordering the backlog is the product owner's call and the pilot is small",
+      "Explain to the product owner and sponsor that a customer-facing pilot is covered, so the controls must come before release",
+      "Remove protected-group attributes from the training data so that bias testing is no longer needed for the release",
+      "Run a single bias test after the pilot ends and file the results so that they are available for any future audit"
+    ],
+    "answer": [
+      0,
+      2
+    ],
+    "hint": "Does a small audience change whether a legal obligation applies, and who can translate the law into work the team can build?",
+    "why": "The regulation applies before the system is used with customers, and a 5% pilot still makes real credit decisions about real people, so the controls are a precondition for release, not a later enhancement. The PM should make that clear to the product owner and sponsor, and bring in compliance and legal to interpret exactly what evidence is needed. Turning the obligations into backlog items and release acceptance criteria lets the team deliver them incrementally while the product owner still orders everything else.",
+    "how": "Mandatory compliance is a constraint on the backlog, not an item the product owner may defer: get experts to interpret it, then express it as backlog work and acceptance criteria that gate release.",
+    "optionNotes": [
+      "Correct — Specialists interpret the rule, and expressing it as backlog items and acceptance criteria makes compliance visible, plannable, and testable.",
+      "Incorrect — Product owners order work by value, but they cannot defer legal obligations; the pilot's small size does not remove the requirement.",
+      "Correct — Stakeholders need to understand that the pilot itself triggers the obligations, so release must wait for the controls.",
+      "Incorrect — Dropping protected attributes does not remove bias, because other data can act as proxies, and it does not remove the legal testing duty.",
+      "Incorrect — Testing after customers are affected breaches the rule's timing and leaves possible harm undetected during the pilot."
+    ],
+    "deepDive": "Risk-based AI regulations typically attach duties to 'high-risk' uses such as credit, hiring, and medical decisions: risk management, data governance, bias testing, human oversight, transparency, logging, and post-market monitoring. In agile and hybrid delivery these duties are built into the product backlog, the definition of done, and release criteria so that evidence is produced as the product evolves rather than in a last-minute audit. 'Fairness through unawareness' — deleting protected attributes — is a known fallacy because correlated variables such as postcode can recreate the bias. Exam trap: 'the product owner owns the backlog' does not extend to deciding whether to obey the law.",
+    "tags": [
+      "ai",
+      "compliance",
+      "model bias",
+      "multi-select",
+      "regulation"
+    ]
+  },
+  {
+    "id": "BUS-082",
+    "domain": "Business Environment",
+    "task": "2. Plan and manage project compliance",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Value engineering vs. a carbon permit",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Stewardship principle: compliance and environmental sustainability",
+    "question": "A new municipal library's building permit includes a condition capping embodied carbon at 350 kg CO2e per square meter, verified at completion. During construction, the contractor proposes a value-engineering change: replace the specified low-carbon concrete with a standard mix, saving $1.1 million. The design team estimates this would raise embodied carbon to about 395 kg per square meter. The sponsor is enthusiastic about the savings. What should the project manager do?",
+    "options": [
+      "Approve the change as a cost saving within the budget, and look for carbon reductions in the interior fit-out work later",
+      "Take the change through change control with an impact analysis showing the permit breach, and seek compliant options",
+      "Ask the permit authority for a waiver of the carbon cap before assessing the proposed change any further",
+      "Use the standard concrete only in hidden structural elements, where the difference is unlikely to be checked"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "What would the saving cost the project if the completion check fails?",
+    "why": "The carbon cap is a legal permit condition, so this is not just a cost trade-off: accepting the change would knowingly put the project out of compliance and risk occupancy delays, fines, or remedial work. The PM should route the proposal through change control with a full impact analysis, including the compliance consequences, so decision makers see the true cost. Asking the contractor and designers for alternatives that capture some savings within the cap keeps the value-engineering intent without breaching the obligation.",
+    "how": "Evaluate every change against compliance obligations as well as cost and schedule; a saving that breaches a legal condition is not a real saving and must be presented with its consequences.",
+    "optionNotes": [
+      "Incorrect — The PM would be approving a known breach of a permit condition, and later fit-out savings may not close a 45 kg per square meter gap.",
+      "Correct — Change control with the full compliance impact lets decision makers see the permit risk and look for savings that stay within the cap.",
+      "Incorrect — Seeking a waiver before analyzing the change and its alternatives is premature and may damage the project's credibility with the regulator.",
+      "Incorrect — Concealing a noncompliant substitution is unethical and still breaches the cap, which applies to the whole building."
+    ],
+    "deepDive": "Sustainability requirements increasingly arrive as regulatory conditions — embodied-carbon limits, energy codes, waste-diversion targets — rather than aspirations, and they must be managed like any other compliance requirement: identified, traced to design decisions, verified, and protected by change control. Value engineering seeks the same function at lower cost; it is legitimate only when it does not compromise required performance, including environmental performance. PMBOK 7's stewardship theme asks project leaders to balance financial results with environmental and social impacts and to comply with properly authorized rules. Exam trap: a sponsor's enthusiasm does not turn a compliance breach into an acceptable trade-off.",
+    "tags": [
+      "compliance",
+      "sustainability",
+      "esg",
+      "change control",
+      "value engineering"
+    ]
+  },
+  {
+    "id": "BUS-083",
+    "domain": "Business Environment",
+    "task": "2. Plan and manage project compliance",
+    "approach": "Agile",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Known vulnerability before launch",
+    "source": "ECO 2026 · Business Environment Task 2 · Product security regulation and release decisions",
+    "question": "An agile team is developing firmware for a connected home-security camera. A new product-security law in the launch market prohibits selling devices with known exploitable vulnerabilities and requires a working vulnerability-disclosure process. Two sprints before launch, penetration testing finds a critical authentication flaw. The product owner wants to launch on schedule and patch the flaw over the air in the first month, because a retail partner's promotion is already booked. What should the project manager do?",
+    "options": [
+      "Support the product owner's plan, since the launch date and backlog order are the product owner's decisions to make",
+      "Escalate to the sponsor and ask for the retail promotion to be cancelled so the team has enough time to fix the security flaw",
+      "Work with the product owner to make the fix a release blocker, reorder the backlog, and warn the partner of date risk",
+      "Launch on schedule and disclose the flaw in the release notes so that customers can take their own precautions"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Can a business commitment override a condition the law sets for putting a product on sale?",
+    "why": "Selling a device with a known exploitable flaw would breach the law, so the fix is a hard release condition, not a backlog preference. The PM should work with the product owner rather than around them: make the fix a release blocker, reorder the remaining work so it fits in the two sprints if possible, and give the sponsor and retail partner early warning so they can plan if the date moves. Escalating to cancel the promotion is premature before the team knows whether the fix fits.",
+    "how": "When a mandatory compliance condition collides with a business date, treat the condition as fixed, re-plan the flexible work around it, and communicate the date risk early.",
+    "optionNotes": [
+      "Incorrect — Product owners order work within legal limits; shipping a device with a known exploitable flaw breaches the law whatever the backlog says.",
+      "Incorrect — Cancelling the promotion may be unnecessary if the fix fits in two sprints, so escalating before re-planning is premature.",
+      "Correct — It treats compliance as a fixed constraint, uses the backlog to make room for the fix, and warns stakeholders early about possible date impact.",
+      "Incorrect — Disclosure does not cure noncompliance; the law bars sale of devices with known exploitable flaws, and customers would still be exposed."
+    ],
+    "deepDive": "Connected-product security laws now exist in several markets, typically banning default passwords, requiring a vulnerability-disclosure policy, and committing manufacturers to security updates for a stated period. Security and privacy obligations are often non-negotiable items for agile teams — part of the definition of done or the release criteria — which the product owner schedules but cannot waive. Consequences of noncompliance can include recalls, market bans, fines, and reputational harm that far exceed the value of a promotion. Exam trap: 'we'll patch it later' is a common but wrong answer when a legal condition applies at the point of sale.",
+    "tags": [
+      "compliance",
+      "security",
+      "release",
+      "product owner",
+      "regulation"
+    ]
+  },
+  {
+    "id": "BUS-084",
+    "domain": "Business Environment",
+    "task": "3. Manage and control changes",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Reading a change log",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Artifacts (4.6.2): change log; monitoring new work and changes (2.5.7)",
+    "question": "Refer to the exhibit. A hybrid program delivers its customer-portal software in sprints, but changes that affect contracted interfaces, such as payments, must be approved by the change control board (CCB). The project manager is reviewing the change log before tomorrow's CCB meeting. Which entry should the project manager act on FIRST, and how?",
+    "exhibit": {
+      "kind": "table",
+      "title": "Change log — customer portal, release 3 (extract)",
+      "columns": [
+        "ID",
+        "Change",
+        "Raised by",
+        "Impact assessed",
+        "CCB decision",
+        "Status"
+      ],
+      "rows": [
+        [
+          "CR-21",
+          "Add French-language interface",
+          "Marketing",
+          "Yes",
+          "Approved",
+          "Implemented; plan and backlog updated"
+        ],
+        [
+          "CR-22",
+          "Upgrade payment-gateway API version",
+          "Tech lead",
+          "Yes",
+          "Pending",
+          "Deployed to production"
+        ],
+        [
+          "CR-23",
+          "Extend warranty-claim fields",
+          "Legal",
+          "Not yet",
+          "—",
+          "Submitted 2 days ago"
+        ],
+        [
+          "CR-24",
+          "Replace SMS provider",
+          "Procurement",
+          "Yes",
+          "Rejected",
+          "Closed; requester notified"
+        ]
+      ]
+    },
+    "options": [
+      "CR-21: confirm that stakeholders have been told about the new language option, and then close the request",
+      "CR-22: find out why it went live without approval, assess its effects, and take it to the CCB for a decision",
+      "CR-23: complete the impact assessment quickly so that the CCB can decide on it at tomorrow's meeting",
+      "CR-24: reopen the request, since procurement is likely to appeal the board's rejection at the next CCB meeting"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Which entry shows that the agreed process has already been bypassed, rather than simply being in progress?",
+    "why": "CR-22 is the only entry where the work got ahead of the decision: a change to a contracted payment interface is live in production while the CCB decision is still pending. That creates unapproved risk to a critical function, so the PM should find out how it happened, assess its effects with the team (rolling back if needed), and put it before the CCB for a decision. CR-23 is progressing normally, CR-21 is complete, and CR-24 was closed properly.",
+    "how": "When reviewing a change log, look for status that runs ahead of approval: work implemented without a decision is the priority because it carries unapproved risk and signals a process breakdown.",
+    "optionNotes": [
+      "Incorrect — CR-21 has already been approved, implemented, and reflected in the plans; confirming communication is routine and not urgent.",
+      "Correct — An unapproved change to a contracted payment interface is live; it needs impact assessment and a CCB decision, and the process gap needs fixing.",
+      "Incorrect — CR-23 is two days old and following the normal path; rushing its assessment is less urgent than an unapproved production change.",
+      "Incorrect — CR-24 was rejected and properly closed; reopening it on speculation about an appeal undermines the board's decision."
+    ],
+    "deepDive": "A change log records each change request, its impact assessment, the decision, and its implementation status, so reading it for inconsistencies is a quick audit of whether change control is working. In hybrid programs a common arrangement is that the product owner manages backlog changes within the agreed scope, while changes to baselined or contractual elements (interfaces, regulated functions, fixed-price deliverables) go to a CCB. Unauthorized changes are handled by assessing their impact, deciding through the proper authority whether to keep or reverse them, and closing the process gap, such as a missing pipeline check. Exam trap: the speed of approval is not the issue here; the bypassed control is.",
+    "tags": [
+      "change control",
+      "change log",
+      "exhibit",
+      "hybrid",
+      "ccb"
+    ]
+  },
+  {
+    "id": "BUS-085",
+    "domain": "Business Environment",
+    "task": "3. Manage and control changes",
+    "approach": "Predictive",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Tiered change approval thresholds",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Tailoring (3.3.2): right-sizing processes such as change control",
+    "question": "On a hospital refurbishment project, every change request goes to a change control board that meets once a month. Minor requests — such as swapping a discontinued light fitting for an equivalent model at the same cost — wait up to five weeks for approval, and subcontractors are sometimes idle while they wait. Larger changes are rare. What is the BEST way for the project manager to improve the situation?",
+    "options": [
+      "Propose tiered approval levels in the change management plan so the PM can approve low-impact changes",
+      "Allow the subcontractors to go ahead with minor changes and complete the change paperwork afterward",
+      "Ask the change control board to meet weekly so that every request can still receive a full board review",
+      "Stop recording minor changes so that they no longer overload the project's change control process"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Must every change, whatever its size, go to the same decision body?",
+    "why": "The process applies heavyweight control to trivial, cost-neutral changes, which delays work without reducing risk. Tailoring the change management plan to include tiered authority — for example, the PM approves changes below set cost, schedule, and scope thresholds, and the CCB handles the rest — keeps control and traceability while removing the bottleneck. The change to the plan itself should be agreed with the sponsor or governance body.",
+    "how": "Right-size change control: define approval levels by impact so small, low-risk changes are decided quickly and the board spends its time on changes that matter.",
+    "optionNotes": [
+      "Correct — Delegated thresholds keep every change recorded and controlled while matching the approval effort to the size of the change.",
+      "Incorrect — Retroactive approval makes change control meaningless and lets unreviewed changes into a regulated healthcare environment.",
+      "Incorrect — Weekly meetings for every trivial request would multiply the board's workload instead of fixing the mismatch between effort and impact.",
+      "Incorrect — Unrecorded changes break traceability and configuration control, which matter in a hospital where accurate as-built records are required."
+    ],
+    "deepDive": "Most change management plans define change authority levels: the PM may approve changes up to a cost or schedule threshold, the sponsor up to a higher level, and the CCB anything beyond that or anything affecting baselines. This is a classic tailoring decision, because process rigor should match the risk and criticality of the work. Even delegated approvals must be logged so the change log and configuration records stay complete. In agile work the same idea appears as the product owner's authority to reorder the backlog within the agreed product goal, with escalation only for changes to budget or release commitments.",
+    "tags": [
+      "change control",
+      "tailoring",
+      "thresholds",
+      "predictive"
+    ]
+  },
+  {
+    "id": "BUS-086",
+    "domain": "Business Environment",
+    "task": "3. Manage and control changes",
+    "approach": "Agile",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Prompt changes as configuration items",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Project Work Performance Domain (2.5.7): controlling changes; configuration management systems (2.4.1)",
+    "question": "An agile team runs a customer-service chatbot built on a third-party large language model. To fix a customer complaint, an engineer edited the chatbot's system prompt directly in production on Friday afternoon. By Monday, answers about refund eligibility had changed for all users, and some contradicted company policy. The prompt is not in version control, and the team's automated tests and release pipeline do not cover it. The team has now restored the previous prompt from a screenshot. What should the project manager do NEXT?",
+    "options": [
+      "Have the team version the prompts, test them against a set of sample questions, and release them via the pipeline",
+      "Restrict prompt editing to the product owner so that one accountable person approves every wording change",
+      "Ask the engineer to document the edit and remind the whole team to take more care with production changes",
+      "Replace the language model with a rules-based engine so that the chatbot's answers stay fully predictable"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Which change would stop the same kind of untested edit from reaching customers again, whoever makes it?",
+    "why": "In an AI-based product the prompt and model settings shape behavior as much as code does, so they must be controlled like code: versioned, tested, and released through the same pipeline. Treating them as configuration items makes every change traceable, checkable against an evaluation set of representative questions (including policy-sensitive ones such as refunds), and easy to roll back. This closes the systemic gap instead of relying on one person's care or authority.",
+    "how": "When a change bypasses control because an artifact sits outside the configuration system, bring that artifact under version control, automated checks, and the normal release path rather than adding individual gatekeepers.",
+    "optionNotes": [
+      "Correct — Versioning, automated evaluation, and pipeline releases make prompt changes traceable, testable, and reversible, like any other code change.",
+      "Incorrect — A single approver creates a bottleneck and still lets untested wording reach production; the product owner cannot judge behavior without tests.",
+      "Incorrect — Documentation and reminders treat the symptom; the same untracked, untested change path stays open to anyone.",
+      "Incorrect — Discarding the model is a drastic overreaction to a control gap that ordinary configuration management can close."
+    ],
+    "deepDive": "Configuration management identifies the items that define a product, controls changes to them, records their status, and verifies them. For AI-enabled products, configuration items include prompts, model versions, temperature and other parameters, retrieval sources, and evaluation datasets; changing any of them can alter outputs for every user at once. Teams commonly use 'evals' — a fixed set of test questions with expected behaviors — as automated regression tests for prompt or model changes. In predictive projects the same idea appears as configuration control under the change management plan; in agile teams it is built into the definition of done and the deployment pipeline.",
+    "tags": [
+      "ai",
+      "change control",
+      "configuration management",
+      "agile",
+      "devops"
+    ]
+  },
+  {
+    "id": "BUS-087",
+    "domain": "Business Environment",
+    "task": "3. Manage and control changes",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Recurring change requests in one area",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Tailoring (3.3.1): life cycle and development approach selection for parts of a project",
+    "question": "In a predictive ERP rollout, 27 of the 45 change requests raised in the last four months relate to the reporting module. Business users keep refining dashboard designs after seeing them in test, and each request takes about three weeks to pass through the change control board. The rest of the scope — finance, inventory, and payroll — has been stable, with very few changes. What is the BEST response for the project manager to propose?",
+    "options": [
+      "Tighten the board's criteria so that reporting changes are rejected unless they fix a critical business problem",
+      "Ask business users to sign off final dashboard designs now so that the reporting scope can finally be frozen",
+      "Add a larger contingency reserve to absorb the cost of reporting changes as they pass through the board",
+      "Deliver reporting from a prioritized backlog with short user reviews, keeping change control for the rest"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Is the volume of change in one area a control problem, or a sign that the area needs a different way of delivering?",
+    "why": "The pattern shows that reporting requirements are emergent: users can only say what they need once they see real dashboards, while the rest of the scope is stable. Running the reporting module adaptively — a prioritized backlog within an agreed budget, short iterations, and frequent reviews with users — uses that learning instead of processing it as a stream of change requests. Keeping formal change control for the stable, baselined modules is what makes the overall approach a deliberate hybrid rather than a free-for-all.",
+    "how": "When one part of a predictive project generates most of the change because its requirements emerge through use, tailor that part to an adaptive approach and keep baseline control for the stable parts.",
+    "optionNotes": [
+      "Incorrect — Rejecting changes suppresses legitimate learning and risks delivering dashboards that users will not adopt.",
+      "Incorrect — An early sign-off ignores evidence that users cannot specify dashboards before seeing them, so the changes will simply return later.",
+      "Incorrect — More reserve pays for the symptom but keeps the slow, costly change cycle that frustrates both users and the team.",
+      "Correct — It matches the delivery approach to the uncertainty of each part, handling emergent reporting needs through a backlog and fast feedback."
+    ],
+    "deepDive": "PMBOK 7 treats the development approach as something to tailor, and hybrid life cycles often combine predictive delivery for stable, well-understood components with adaptive delivery for components whose requirements are uncertain. A high change-request rate concentrated in one area is a strong signal of requirement uncertainty, not of an undisciplined team. Typical guardrails for the adaptive part are a fixed budget or capacity, a business product owner, and a clear definition of done. Exam trap: answers that simply tighten control or add reserve treat the symptom and leave the mismatch between approach and uncertainty in place.",
+    "tags": [
+      "change control",
+      "hybrid",
+      "tailoring",
+      "development approach"
+    ]
+  },
+  {
+    "id": "BUS-088",
+    "domain": "Business Environment",
+    "task": "4. Remove impediments and manage issues",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Issue escalation thresholds",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Artifacts (4.6.2): issue log; escalating issues beyond the team's authority (Appendix X2)",
+    "question": "Refer to the exhibit. The software is built in sprints and the hardware follows a fixed plan. The project's issue management approach says the project manager resolves issues within the project's authority, and any issue that needs more than $25,000 or moves a milestone must be raised with the sponsor as soon as its impact is known. I-08 was logged yesterday. What should the project manager do NEXT?",
+    "exhibit": {
+      "kind": "table",
+      "title": "Issue log — smart-building controls project (open items)",
+      "columns": [
+        "ID",
+        "Issue",
+        "Impact",
+        "Owner",
+        "Status"
+      ],
+      "rows": [
+        [
+          "I-07",
+          "Test lab double-booked by another program",
+          "3-day slip to a task with 8 days of float",
+          "PM",
+          "Negotiating a new slot with the lab manager"
+        ],
+        [
+          "I-08",
+          "Supplier shipped gateway firmware incompatible with the sensors",
+          "Integration milestone slips 3 weeks; rework about $40,000",
+          "Tech lead",
+          "Options being analyzed"
+        ],
+        [
+          "I-09",
+          "Two developers disagree on the logging standard",
+          "Minor; no schedule impact",
+          "Team",
+          "On the retrospective agenda"
+        ],
+        [
+          "I-10",
+          "Office move falls in the middle of Sprint 6",
+          "About 1 day of lost capacity",
+          "PM",
+          "Capacity adjusted in the sprint plan"
+        ]
+      ]
+    },
+    "options": [
+      "Escalate I-07 to the sponsor so that the other program is told to release its test-lab booking",
+      "Raise I-08 with the sponsor now, sharing its impact and the options that the team is analyzing",
+      "Settle I-09 by choosing the logging standard so that the developers can get back to their work",
+      "Use contingency reserve to pay for the I-08 rework so the milestone is kept without escalation"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Which open item already crosses the limits the plan sets on the project manager's own authority?",
+    "why": "I-08 meets both escalation triggers in the plan: it needs about $40,000, above the $25,000 limit, and it moves the integration milestone by three weeks. The PM should raise it with the sponsor now, with the known impact and the options under analysis, so the sponsor can prepare to decide while the team completes the analysis. I-07 has enough float to be handled within the PM's authority, I-09 belongs to the team, and I-10 is already addressed.",
+    "how": "Apply the escalation thresholds agreed in governance: resolve what is within your authority, let the team own team-level issues, and escalate promptly — with impact and options — anything that crosses a threshold.",
+    "optionNotes": [
+      "Incorrect — I-07 affects a task with 8 days of float and is within the PM's authority; escalating it wastes the sponsor's attention.",
+      "Correct — I-08 exceeds both the cost and milestone thresholds, so the sponsor must be told promptly, with the impact and the options in progress.",
+      "Incorrect — I-09 is a team-level disagreement already on the retrospective agenda; imposing a standard undermines the team's ownership.",
+      "Incorrect — Spending about $40,000 of reserve exceeds the PM's $25,000 authority and hides a milestone slip that the plan says must be escalated."
+    ],
+    "deepDive": "An issue log records current problems with owners, impacts, actions, and status, unlike a risk register, which holds uncertain future events. Governance typically sets tolerances — cost, schedule, scope, or quality limits — within which the PM manages issues and beyond which they are escalated, an approach often called management by exception. Good escalations are early and informative: what happened, the impact, the options being considered, and the decision needed and by when. In hybrid projects, issues on the predictive side (hardware, suppliers) often ripple into sprint plans, so integration milestones deserve special attention.",
+    "tags": [
+      "issue log",
+      "escalation",
+      "exhibit",
+      "thresholds",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "BUS-089",
+    "domain": "Business Environment",
+    "task": "4. Remove impediments and manage issues",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Compliant route around a data block",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Stewardship principle: complying with guidelines that protect stakeholders",
+    "question": "A hybrid analytics project needs customer data to train a churn-prediction model. The data-protection office is still reviewing the team's data-sharing request, which is expected to take three to four more weeks, and the modeling work is on the critical path. At the daily stand-up, a senior data scientist offers to copy a production extract to her encrypted laptop 'just for exploratory work' so the team is not blocked. What should the project manager do?",
+    "options": [
+      "Allow the extract for exploratory work only, provided the laptop is encrypted and the data are deleted afterward",
+      "Escalate to the sponsor to override the data-protection office's queue, because the work is on the critical path",
+      "Work with the data-protection office on an approved interim dataset, such as masked or synthetic records",
+      "Delay all modeling tasks until the approval arrives, and report the resulting schedule slip at the next review"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Is there a way to keep the team moving that the people responsible for the data can approve?",
+    "why": "Copying production personal data to a laptop before approval would breach the very control the data-protection office exists to enforce, however good the intent. Escalating to override the review is not appropriate either, because a compliance review is not a queue to jump. The PM can remove the impediment legitimately by asking the data-protection office for an interim option it can approve quickly — for example, a masked or synthetic dataset with the same structure — so exploratory work continues while the full request is processed.",
+    "how": "When a compliance control blocks progress, look for a compliant path with the control owner rather than bypassing or overriding the control.",
+    "optionNotes": [
+      "Incorrect — Encryption does not make an unapproved transfer of personal data compliant; it bypasses the review and exposes the organization.",
+      "Incorrect — Schedule pressure does not justify overriding a privacy review, and the sponsor may not have the authority to waive it anyway.",
+      "Correct — An approved masked or synthetic dataset removes the blocker without breaching privacy rules, while the full request continues in parallel.",
+      "Incorrect — Simply waiting accepts a critical-path delay without exploring legitimate ways to keep the work moving."
+    ],
+    "deepDive": "Removing impediments does not mean removing controls. Privacy regulations and internal data-governance policies typically require purpose limitation, data minimization, and approval before personal data are copied or reused, so the right move is to find a path the control owner will accept. Common options include masked or pseudonymized extracts, synthetic data generated to match the statistical shape of the real data, and secure analysis environments where data never leave a governed platform. Engaging the data-protection office at planning time prevents this impediment from landing on the critical path in the first place.",
+    "tags": [
+      "impediments",
+      "privacy",
+      "compliance",
+      "data protection",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "BUS-090",
+    "domain": "Business Environment",
+    "task": "4. Remove impediments and manage issues",
+    "approach": "Agile",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Team ownership of impediments",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Team Performance Domain (2.2): servant leadership and team ownership",
+    "question": "A project manager recently moved from predictive construction projects into an agile software role. At every daily stand-up he takes personal ownership of each impediment raised — including a disagreement over code-review rules and a flaky automated test that the developers could easily fix — and resolves them himself. After a month, team members have started waiting for him instead of solving problems, and blocked items sit idle while he is in meetings. What should he do?",
+    "options": [
+      "Keep resolving impediments himself as quickly as possible, because removing blockers is the servant leader's main duty",
+      "Ask the team to log every impediment in a tracker and review the list with him weekly to agree on priorities",
+      "Ask the product owner to decide which impediments are important enough to deserve his personal attention",
+      "Coach the team to clear impediments within its control and focus his effort on those needing outside influence"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Which impediments actually need someone with authority or influence beyond the team?",
+    "why": "Servant leadership aims to build a team that can solve its own problems; removing every blocker personally creates dependence and a bottleneck, as the idle items show. The PM should coach the team to handle impediments within its control, such as code-review rules or a flaky test, and reserve his own effort for those needing organizational influence, such as other departments, funding, or policies. This speeds up flow and grows the team's capability.",
+    "how": "Servant leaders remove impediments the team cannot remove itself and coach the team to own the rest; if the team is waiting for you, you have become the impediment.",
+    "optionNotes": [
+      "Incorrect — Doing everything himself creates dependence and a bottleneck; servant leadership grows the team's ability to solve its own problems.",
+      "Incorrect — A weekly review slows resolution further and keeps him as the central decision maker for problems the team can fix daily.",
+      "Incorrect — The product owner manages value and the backlog; routing impediment triage through that role adds delay and blurs accountabilities.",
+      "Correct — It builds team self-management and targets his time on impediments that genuinely need authority or influence outside the team."
+    ],
+    "deepDive": "PMBOK 7 describes servant leadership as supporting the team by removing obstacles, shielding it from diversions, and encouraging growth, all aimed at helping the team become self-organizing. A useful split is 'within the team's control' versus 'needs organizational influence': the first is the team's to solve, with coaching if needed; the second is where the PM or scrum master adds unique value. Leaders moving from predictive to agile roles often over-control out of habit, and the fix is to ask questions ('What could you try?') rather than supply answers. Exam trap: 'remove impediments' is a responsibility, not a license to do the team's problem-solving for it.",
+    "tags": [
+      "impediments",
+      "servant leadership",
+      "self-organizing",
+      "agile"
+    ]
+  },
+  {
+    "id": "BUS-091",
+    "domain": "Business Environment",
+    "task": "4. Remove impediments and manage issues",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Issue beyond the PM's authority",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Appendix X2 (the sponsor role): addressing issues outside the project team's authority",
+    "question": "On a water-treatment plant upgrade, the only qualified supplier of custom valves has entered administration. The valves are on the critical path and were due in ten weeks. The team has identified three possible responses: buy finished stock from the administrator at a premium, qualify an alternative supplier in about 14 weeks, or redesign the system to use standard valves. Early figures suggest each option would exceed the project manager's $50,000 approval limit. What should the project manager do NEXT?",
+    "options": [
+      "Ask the sponsor to decide what the team should do, since every option exceeds the PM's own approval limit",
+      "Commit to buying the administrator's stock now, before another buyer takes it, and seek approval afterward",
+      "Complete a quick impact analysis of each option and take a recommendation to the sponsor for decision",
+      "Record the supplier's failure as a new risk and monitor the administration process for any further news"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "What does a decision maker need from the project manager in order to decide quickly and well?",
+    "why": "The decision is above the PM's authority, so the sponsor must make it, but the PM's job is to make that decision fast and well informed. Completing a short impact analysis of each option on cost, schedule, quality, and risk, and bringing a recommendation, lets the sponsor decide in one conversation. Committing funds without approval exceeds the PM's authority, and treating a supplier that has already failed as a 'risk' misclassifies an issue that is already affecting the project.",
+    "how": "For issues beyond your authority, escalate promptly but prepared: the impact, the options, a recommendation, and the date by which a decision is needed.",
+    "optionNotes": [
+      "Incorrect — Escalating without analysis or a recommendation pushes the PM's work onto the sponsor and slows the decision.",
+      "Incorrect — Committing funds above the PM's approval limit, even with good intentions, breaks governance and could lock in the wrong option.",
+      "Correct — It respects the approval limit while giving the sponsor analyzed options and a recommendation, enabling a fast and sound decision.",
+      "Incorrect — The supplier has already failed, so this is an issue to resolve now, not a risk to monitor."
+    ],
+    "deepDive": "When a risk materializes or an unforeseen problem appears, it becomes an issue and moves to the issue log with an owner and an action. PMBOK 7 describes the sponsor as the escalation path for problems the team cannot resolve on its own, such as funding shortfalls or deadlines that cannot be met. Good escalation practice is often summarized as 'bring options, not just problems': the facts, the impact on objectives, two or three options with trade-offs, a recommendation, and the date by which a decision is needed. In time-critical cases the PM can ask for a rapid decision but still should not exceed delegated authority.",
+    "tags": [
+      "issues",
+      "escalation",
+      "sponsor",
+      "supplier",
+      "predictive"
+    ]
+  },
+  {
+    "id": "BUS-092",
+    "domain": "Business Environment",
+    "task": "4. Remove impediments and manage issues",
+    "approach": "Agile",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Recurring capacity drain from operations",
+    "source": "ECO 2026 · Business Environment Task 4 · Evaluate an impediment's impact and agree an intervention",
+    "question": "For six sprints, the operations manager has pulled two of an agile team's seven developers onto production incidents without warning, and roughly 30% of planned sprint work has not been completed. The two developers report to her functionally, and the incidents are genuine. The team has raised the problem in two retrospectives, and the project manager's informal requests to 'give us more notice' have not changed anything. What should the project manager do NEXT?",
+    "options": [
+      "Show the operations manager data on the lost capacity and delivery impact, and agree a support policy with her",
+      "Escalate to the sponsor and ask for the two developers to be formally dedicated to the project full time",
+      "Reduce the team's sprint commitments by 30% so that its forecasts reflect the capacity actually available",
+      "Tell the two developers to decline incident work unless the operations manager goes through the product owner"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Has the person causing the impediment actually seen its full cost, and been invited to help design a fix?",
+    "why": "The PM's requests so far have been informal and vague, so the operations manager may not realize how much delivery is suffering, and her incident needs are legitimate. Quantifying the impact (lost capacity, missed sprint goals, forecast slip) and working with her on a policy — for example, a rotating on-call developer, an agreed capacity allocation for support, or an intake rule — addresses both groups' needs. If that collaboration fails, escalating with the same data becomes the right next step.",
+    "how": "For a recurring impediment caused by another stakeholder: measure its impact, make it visible to them, and co-design a policy that meets both sides' needs before escalating.",
+    "optionNotes": [
+      "Correct — Evidence makes the cost visible, and a jointly designed policy such as a rotating on-call developer meets both operations and delivery needs.",
+      "Incorrect — Escalation may become necessary, but the PM has not yet tried a data-based, collaborative solution with the manager involved.",
+      "Incorrect — Adjusting forecasts is honest but only accepts the symptom; the unpredictable disruption and lost value continue.",
+      "Incorrect — It puts developers in conflict with their functional manager over genuine incidents and pushes the PM's job onto them."
+    ],
+    "deepDive": "Matrix organizations routinely create competing demands on shared people, and production support is one of the most common sources of unplanned work for delivery teams. Useful interventions include a fixed capacity allocation for support work, a rotating on-call or 'interrupt shield' role, a separate class of service on the team's board, and agreed rules for incident handoff. Making the impact visible with data turns a complaint into a shared problem. The ECO expects PMs to evaluate an impediment's impact, choose an intervention, and collaborate with the stakeholders involved; escalation is the backup, not the opening move.",
+    "tags": [
+      "impediments",
+      "matrix organization",
+      "capacity",
+      "collaboration",
+      "agile"
+    ]
+  },
+  {
+    "id": "BUS-093",
+    "domain": "Business Environment",
+    "task": "5. Plan and manage risk",
+    "approach": "Any",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Scoring risks against a threshold",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Artifacts (4.6.6): probability and impact matrix; risk thresholds (2.8.5)",
+    "question": "Refer to the exhibit. The risk management plan scores each risk as probability × impact, using the scales shown. Any risk scoring 0.18 or higher is rated high and must have a named owner and a response approved by the steering group; the rest are handled within the team and reviewed monthly. Which risks need a response approved by the steering group?",
+    "exhibit": {
+      "kind": "table",
+      "title": "Risk register extract — mobile banking upgrade",
+      "columns": [
+        "Risk",
+        "Description",
+        "Probability",
+        "Impact"
+      ],
+      "rows": [
+        [
+          "R1",
+          "Cloud hosting costs exceed the estimate",
+          "0.7",
+          "0.2"
+        ],
+        [
+          "R2",
+          "Card-network certification is delayed",
+          "0.3",
+          "0.8"
+        ],
+        [
+          "R3",
+          "Minor rework after usability testing",
+          "0.9",
+          "0.1"
+        ],
+        [
+          "R4",
+          "Integration partner delivers its API late",
+          "0.5",
+          "0.4"
+        ],
+        [
+          "R5",
+          "Data-center outage during the cutover weekend",
+          "0.1",
+          "0.8"
+        ]
+      ]
+    },
+    "options": [
+      "R2 only",
+      "R2 and R4",
+      "R2, R4, and R5",
+      "R1, R2, and R4"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Multiply before you judge — a striking impact or a high probability on its own does not make a risk high.",
+    "why": "Score each risk as probability × impact: R1 = 0.7 × 0.2 = 0.14; R2 = 0.3 × 0.8 = 0.24; R3 = 0.9 × 0.1 = 0.09; R4 = 0.5 × 0.4 = 0.20; R5 = 0.1 × 0.8 = 0.08. Only R2 (0.24) and R4 (0.20) reach the 0.18 threshold, so they need named owners and steering-group-approved responses. R5 looks alarming because of its impact, and R1 and R3 feel pressing because they are likely, but their scores fall below the threshold.",
+    "how": "For probability-impact questions, compute every score before comparing it with the threshold; never rank risks by impact or probability alone.",
+    "optionNotes": [
+      "Incorrect — R4 scores 0.5 × 0.4 = 0.20, which also meets the 0.18 threshold, so it cannot be left out.",
+      "Correct — R2 (0.24) and R4 (0.20) are the only scores at or above 0.18; every other risk scores between 0.08 and 0.14.",
+      "Incorrect — R5 has a severe impact but only a 0.1 probability, giving a score of 0.08, well below the threshold.",
+      "Incorrect — R1 is likely, but 0.7 × 0.2 = 0.14 is below 0.18; judging by probability alone overstates it."
+    ],
+    "deepDive": "A probability and impact matrix turns qualitative judgments into comparable scores so the team can focus its attention; the cut-offs for high, medium, and low come from the organization's risk appetite and are recorded in the risk management plan. Scores are only as good as the scales, so teams calibrate definitions (for example, impact 0.8 = more than a 20% cost increase or a missed regulatory date). Low-probability, high-impact risks such as R5 may still deserve attention through business-continuity plans, and some organizations add factors such as proximity or urgency to the score. In agile teams the same scoring can feed a risk-adjusted backlog, where high-scoring risk responses are ordered alongside features.",
+    "tags": [
+      "risk",
+      "probability and impact",
+      "calculation",
+      "exhibit",
+      "thresholds"
+    ]
+  }
+]

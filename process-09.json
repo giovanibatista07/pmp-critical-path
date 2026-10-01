@@ -1,0 +1,1189 @@
+[
+  {
+    "id": "PRO-206",
+    "domain": "Process",
+    "task": "6. Plan and manage finance",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "NPV of incremental release",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 10: Value-Driven and Business-Related Metrics (financial value metrics and time to value)",
+    "question": "A logistics firm is choosing how to deliver a new route-planning platform. Option 1 (single release) costs $600,000 now, yields no benefit in year 1, then $400,000 in each of years 2 and 3. Option 2 (hybrid, quarterly increments) costs $640,000 now because of extra release and deployment work, but starts earning early: $150,000 in year 1, $350,000 in year 2 and $400,000 in year 3. The sponsor uses a 10% discount rate. By how much does Option 2's NPV exceed Option 1's NPV?",
+    "options": [
+      "About $55,000",
+      "About $60,000",
+      "About $86,100",
+      "About $95,000"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Discount every year's cash flow for both options, and remember which option carries the higher up-front cost.",
+    "why": "NPV = −initial cost + Σ benefit ÷ (1.10)^year. Option 1: −600,000 + 0 + 400,000/1.21 + 400,000/1.331 = −600,000 + 330,579 + 300,526 ≈ $31,100. Option 2: −640,000 + 150,000/1.10 + 350,000/1.21 + 400,000/1.331 = −640,000 + 136,364 + 289,256 + 300,526 ≈ $86,100. Difference ≈ 86,100 − 31,100 ≈ $55,000 in favor of incremental delivery, even after paying $40,000 more up front.",
+    "how": "For release-strategy finance questions, compare options on the NPV of the whole cash-flow profile: earlier benefits are worth more after discounting, but the extra cost of frequent delivery must be subtracted before declaring a winner.",
+    "optionNotes": [
+      "Correct — Option 2's NPV (≈$86,100) minus Option 1's NPV (≈$31,100) is about $55,000: earlier benefits, net of the extra $40,000 cost.",
+      "Incorrect — $60,000 is the undiscounted difference in net cash; it ignores the time value of money that NPV exists to capture.",
+      "Incorrect — About $86,100 is Option 2's NPV on its own; the question asks for the gap between the two options' NPVs.",
+      "Incorrect — About $95,000 compares only the discounted benefits and forgets the extra $40,000 that Option 2 costs up front."
+    ],
+    "deepDive": "Kerzner argues that value metrics such as NPV, ROI and time to achieve value belong beside time, cost and scope when leaders judge a project. Incremental or hybrid delivery often wins financially not because total benefits are larger but because benefits start sooner, and discounting rewards earlier cash. The trap is crediting early delivery without costing it: more releases usually need automation, regression testing and deployment effort. On the exam, NPV > 0 means the investment beats the discount (hurdle) rate, and between mutually exclusive options the higher NPV is generally preferred.",
+    "tags": [
+      "npv",
+      "incremental delivery",
+      "value",
+      "calculation"
+    ]
+  },
+  {
+    "id": "PRO-207",
+    "domain": "Process",
+    "task": "6. Plan and manage finance",
+    "approach": "Any",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Converting benefits into value",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 10: Value-Driven and Business-Related Metrics (converting benefits to value)",
+    "question": "Eighteen months into an invoice-automation project for a regional utility, the pilot confirms the headline benefit: clerks are saving almost exactly the staff hours the business case promised. However, finance has since moved the remaining manual invoice work to a shared-services center with much lower labor costs, so each hour saved is now worth far less than assumed. The sponsor's monthly dashboard still shows the benefit as green. What should the project manager do?",
+    "options": [
+      "Keep reporting the benefit as green, because hours saved is the metric the business case baselined and it is on target",
+      "Update the value forecast with the new labor-cost assumption and review the revised business case with the sponsor",
+      "Ask the team to find extra automation features that would save more hours, so that the original financial value returns",
+      "Record the labor-cost change as a lesson learned and recalculate the project's value at the post-implementation review"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "A benefit can be on track while the worth of that benefit changes — which of the two does the business case ultimately depend on?",
+    "why": "Benefits are the measurable improvements (hours saved); value is what those benefits are worth to the organization, and it depends on financial assumptions. Because a key assumption changed, the value forecast is now overstated even though the benefit metric is green. The project manager should update the forecast and put the revised business case in front of the sponsor and benefit owner, who can decide whether the investment still makes sense or should be reshaped.",
+    "how": "When an assumption behind the business case changes, re-forecast value, make the gap transparent, and let the accountable decision makers (sponsor, benefit owner, governance) decide; never keep reporting a metric that no longer tells the truth.",
+    "optionNotes": [
+      "Incorrect — The metric is accurate but misleading; reporting it as green hides a material drop in value that decision makers need to see.",
+      "Correct — Re-forecasting value on current assumptions and reviewing it with the sponsor keeps the business case honest and lets governance decide the next step.",
+      "Incorrect — Adding features to chase the old number is team-driven gold plating; scope changes need their own value case and an owner's decision.",
+      "Incorrect — Waiting for the post-implementation review delays a decision that could redirect funds now, while action is still possible."
+    ],
+    "deepDive": "Kerzner separates benefits (outcomes such as hours saved or errors avoided) from value (what those benefits are worth, now or later). Value can drift even when benefits are on track because of pricing, labor rates, exchange rates or stakeholder acceptance. A benefits realization plan should therefore record the assumptions behind each value figure and who monitors them. In PMI terms the business case stays a living document through the life cycle: the project manager keeps it current and raises changes in viability, while the sponsor owns the investment decision.",
+    "tags": [
+      "benefits",
+      "business case",
+      "value",
+      "assumptions"
+    ]
+  },
+  {
+    "id": "PRO-208",
+    "domain": "Process",
+    "task": "7. Plan and optimize quality of products/deliverables",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Symptom versus root cause",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 5: Evolving Project Delivery Skills (defining the problem, not the symptom)",
+    "question": "A hybrid team is building smart water meters: hardware follows a stage-gated plan while firmware ships in two-week sprints. Field trials show that 9% of meters drop their network connection overnight. In an urgent meeting, the hardware lead proposes adding a second inspection step at the factory, and the firmware lead proposes a nightly automatic reboot. Both fixes could be ready within a week. What should the project manager do FIRST?",
+    "options": [
+      "Approve both fixes as containment and ask each lead to monitor the dropout rate during the next field trial",
+      "Facilitate a data-driven analysis of the trial failures to define the problem precisely and find its root cause",
+      "Raise a change request for the extra factory inspection step, since it is clearly the more conservative of the two proposals",
+      "Ask the sponsor to choose between the two proposals, since the hardware and firmware leads cannot agree"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Both proposals are solutions — has anyone yet shown what is actually causing the dropouts?",
+    "why": "Each lead has jumped from a symptom (overnight dropouts) to a favored fix, a classic decision-making bias. An extra inspection only helps if the defect originates in manufacturing, and a nightly reboot hides the failure rather than removing it. A structured analysis — stratifying failures by batch, firmware version and network conditions, then using a cause-and-effect diagram or 5 Whys — defines the real problem so the team fixes it once.",
+    "how": "For quality problems, define the problem with data and separate symptoms from causes before choosing a solution; use containment only when the impact justifies it, and never let it replace root-cause work.",
+    "optionNotes": [
+      "Incorrect — Approving two unverified fixes spends effort on guesses, and the reboot masks the symptom so later tests may miss the real defect.",
+      "Correct — Defining the problem and verifying its root cause with the team comes before selecting any corrective action.",
+      "Incorrect — Picking the safer-looking fix without knowing the cause adds appraisal cost that may not reduce the dropouts at all.",
+      "Incorrect — Escalating a technical disagreement that data can settle is premature and takes ownership away from the people closest to the problem."
+    ],
+    "deepDive": "Kerzner's problem-solving sequence starts by defining the problem and separating it from its symptoms, then finding root causes, generating alternatives, applying decision criteria and planning implementation. He lists biases such as believing your own solution is the only one and neglecting the root cause. Useful tools include stratification, Pareto analysis for the vital few, Ishikawa diagrams and 5 Whys. In hybrid work the cause often sits at the interface between the predictive and adaptive parts, which is another reason not to let each sub-team fix only its own side.",
+    "tags": [
+      "root cause",
+      "problem solving",
+      "quality",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "PRO-209",
+    "domain": "Process",
+    "task": "7. Plan and optimize quality of products/deliverables",
+    "approach": "Predictive",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Limits of Pareto prioritization",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 5: Evolving Project Delivery Skills (Pareto analysis and its blind spots)",
+    "question": "On a rail-signaling upgrade, the quality engineer presents a Pareto chart of 412 installation defects. Three categories — loose cable ties, labeling errors and paint damage — account for 78% of defects, and the team proposes to focus all corrective action on them this quarter. A category representing 2% of defects, incorrect relay wiring, has doubled in each of the last three months and could cause a wrong-side signal failure. What should the project manager do?",
+    "options": [
+      "Endorse the team's plan, since concentrating on the vital few categories removes the most defects in the shortest time",
+      "Ask the quality engineer to collect another quarter of data so that the relay-wiring trend can be confirmed statistically",
+      "Log relay wiring in the risk register, assign an owner, and review it again at the next monthly risk review meeting",
+      "Add relay wiring to the corrective-action plan now, analyzing it by severity and trend rather than by frequency alone"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Frequency tells you where most defects are; does it tell you which defect could hurt someone?",
+    "why": "Pareto analysis ranks causes by frequency, which is efficient but blind to severity and to small problems that are growing. Relay wiring is rare but safety-critical and trending sharply upward, so it must be tackled now alongside the vital few. Analyzing it with severity-based tools (such as FMEA or fault tree analysis) and a trend view gives it the priority its consequences demand.",
+    "how": "Prioritize quality problems by impact as well as frequency: use Pareto to find the vital few, but pull forward any low-frequency defect that is safety-critical or trending upward.",
+    "optionNotes": [
+      "Incorrect — Following the chart blindly ignores severity; one rare safety-critical defect outweighs many cosmetic ones.",
+      "Incorrect — Waiting a quarter for statistical certainty lets a doubling, safety-related defect keep spreading through live installations.",
+      "Incorrect — The defect is already occurring, so it is an issue that needs corrective action now, not only a risk to revisit next month.",
+      "Correct — Adding the wiring defect to the plan and ranking it by severity and trend corrects the known blind spot of frequency-only analysis."
+    ],
+    "deepDive": "Kerzner notes that Pareto analysis can exclude problems that start small but grow over time, and recommends pairing it with failure mode and effects analysis or fault tree analysis. FMEA scores severity, occurrence and detection, so a rare but catastrophic failure can still rank first. A run chart would make the relay-wiring trend obvious. Exam trap: 'focus on the vital few' is usually right — unless the scenario adds safety, compliance or a worsening trend that changes the priority.",
+    "tags": [
+      "pareto",
+      "fmea",
+      "safety",
+      "quality"
+    ]
+  },
+  {
+    "id": "PRO-210",
+    "domain": "Process",
+    "task": "7. Plan and optimize quality of products/deliverables",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Technical debt as a quality signal",
+    "source": "ECO 2026 · Process Task 7 · Agile practice",
+    "question": "A product team at an online insurer has held velocity steady at about 40 points for six sprints, and the product owner is pleased. Over the same period, escaped defects reported by customers have tripled, the time to fix each bug has grown, and developers describe the claims module as 'held together with tape'. The product owner wants all capacity kept on new features for an upcoming marketing launch. As the team's servant leader, what should you do?",
+    "options": [
+      "Help the team make the technical debt visible with data on its cost, and discuss with the product owner how to prioritize it",
+      "Tell the developers to fix the escaped defects in their own time after each sprint so that velocity for new features is not affected",
+      "Schedule a dedicated hardening sprint after the marketing launch and freeze all refactoring until that sprint begins",
+      "Ask the developers to add refactoring tasks quietly to every user story so the product owner does not need to approve them"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Stable velocity shows the team is busy; what do the defect and fix-time trends say about the product, and who decides priorities?",
+    "why": "Rising escaped defects and longer fix times are signs that technical debt is eroding quality and will soon erode velocity too. The servant-leader response is transparency: quantify the debt and its cost (defect rate, fix time, risk to the launch) and bring it to the product owner, who owns backlog order. The team and product owner can then agree on refactoring items, a stronger definition of done or a capacity allocation.",
+    "how": "Treat technical debt as a quality and value risk: make it visible in the backlog with evidence, let the product owner prioritize it against features, and prevent new debt through the definition of done.",
+    "optionNotes": [
+      "Correct — Evidence-based transparency lets the product owner make an informed trade-off between new features and the product's long-term health.",
+      "Incorrect — Unpaid extra hours are unsustainable, hide the real cost of the work and break agile's sustainable-pace principle.",
+      "Incorrect — Deferring all refactoring until after launch lets defects keep escaping to customers during the most visible period.",
+      "Incorrect — Hiding work from the product owner undermines transparency and the product owner's accountability for ordering the backlog."
+    ],
+    "deepDive": "Technical debt is the future cost of shortcuts in design or code; like financial debt it accrues interest as slower change and more defects. Useful signals include escaped-defect rate, change failure rate, mean time to repair and cycle-time trends — not velocity alone, which can look stable while quality decays. Common remedies are a standing capacity allocation for debt, a definition of done that includes automated tests and code review, and explicit backlog items for larger refactoring. A recurring 'hardening sprint' is widely seen as a sign that done is not really done.",
+    "tags": [
+      "technical debt",
+      "agile",
+      "quality",
+      "product owner"
+    ]
+  },
+  {
+    "id": "PRO-211",
+    "domain": "Process",
+    "task": "7. Plan and optimize quality of products/deliverables",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Customer-focused quality measures",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 10: Value-Driven and Business-Related Metrics (value metrics versus traditional metrics)",
+    "question": "An agile team is building a self-service portal for a hospital's outpatients. Every sprint meets the definition of done: all acceptance tests pass, code coverage is above 85%, and no critical defects are open. Yet in the pilot only 41% of patients manage to change an appointment without phoning the help desk, and the product owner keeps hearing that the portal is confusing. What is the BEST way for the team to improve quality?",
+    "options": [
+      "Raise the code-coverage target and add more automated regression tests, since the current internal checks are not strict enough",
+      "Report to the steering group that quality targets are met and route the patients' complaints to the hospital help-desk manager",
+      "Work with the product owner to add user-outcome measures, such as task completion, to acceptance criteria and reviews",
+      "Pause feature work and commission a full usability audit by an outside agency before releasing any further increments"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Every internal measure is green; which kind of measure would show whether patients actually get the value they need?",
+    "why": "The team's metrics measure conformance to its own definition of done, not fitness for use. Quality means meeting stakeholders' real needs, and the pilot shows the portal is not meeting them. Adding outcome measures such as task-completion rate to acceptance criteria, and inspecting them with the product owner at each review, makes customer value part of 'done' and steers the next increments.",
+    "how": "When internal quality metrics look good but customers are unhappy, add outcome-based, customer-facing measures to acceptance criteria or the definition of done and inspect them every iteration.",
+    "optionNotes": [
+      "Incorrect — More tests of the same kind verify the code more thoroughly but would never reveal that patients find the portal confusing.",
+      "Incorrect — Declaring success on internal measures while pushing complaints elsewhere ignores the customer and hides a real quality gap.",
+      "Correct — Outcome measures agreed with the product owner tie quality to what patients need and give fast feedback on every increment.",
+      "Incorrect — Halting delivery for an external audit is heavier than needed; the team can learn quickly through its own usability feedback loops."
+    ],
+    "deepDive": "Kerzner distinguishes traditional metrics, which show how well the work is being managed, from value metrics, which show whether stakeholders will receive the value they expect. Test pass rates and code coverage are verification measures; task success, time on task and help-desk call deflection are validation measures of fitness for use. PMI defines quality as the degree to which characteristics fulfill requirements, and agile adds that the customer is the final judge. Exam trap: 'more testing' is not the answer when the product is built right but is not yet the right product.",
+    "tags": [
+      "quality",
+      "value metrics",
+      "acceptance criteria",
+      "agile"
+    ]
+  },
+  {
+    "id": "PRO-212",
+    "domain": "Process",
+    "task": "7. Plan and optimize quality of products/deliverables",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Gate-ready compliance evidence",
+    "source": "ECO 2026 · Process Task 7 · Agile practice",
+    "question": "A medical-device company runs its software work in sprints inside a stage-gated program. The next gate, four months away, requires traceability from each requirement to its verification tests plus signed test records, as regulators expect. The team plans to 'write up the documentation' in a final two-sprint push before the gate, arguing that this keeps them fast now. The quality manager is uneasy about the plan. What should the project manager do?",
+    "options": [
+      "Accept the team's plan, because self-organizing teams decide how to do their work and the gate is still four months away",
+      "Ask the quality manager to take over all documentation so that developers can stay focused on delivering features each sprint",
+      "Request that the program board waive the traceability criterion for the software stream because it follows an agile approach",
+      "Work with the team and quality manager to add traceability and test records to the definition of done for every increment"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "In a regulated hybrid program, when should compliance evidence be produced for an increment to be truly done?",
+    "why": "Leaving traceability and verification records to the end creates a large, risky batch of work and invites gaps that surface only at the gate. Building the evidence into the definition of done makes every increment compliant as it is produced, turns the gate into a review of accumulated proof, and keeps the pace sustainable. It also involves the quality manager as a partner rather than a late inspector.",
+    "how": "In hybrid or regulated work, make compliance a property of each increment: put required evidence into the definition of done so gates review what already exists instead of triggering a documentation crunch.",
+    "optionNotes": [
+      "Incorrect — Self-organization operates within agreed quality and compliance constraints; a late documentation crunch is a known quality and schedule risk.",
+      "Incorrect — Separating documentation from the people doing the work adds handoffs and traceability errors; quality is the whole team's responsibility.",
+      "Incorrect — Regulatory expectations do not change with the delivery approach, and seeking a waiver sidesteps a genuine compliance obligation.",
+      "Correct — Evidence produced incrementally keeps each increment compliant, spreads the effort and turns the gate into a review of existing proof."
+    ],
+    "deepDive": "Hybrid programs often pair adaptive teams with predictive governance such as phase gates, and friction usually appears at the gate when governance asks for artifacts the teams never produced. Standard remedies are a definition of done that captures regulatory evidence, automated traceability in the tool chain, and quality and compliance roles taking part in sprint reviews. This is the built-in quality idea: quality and compliance are designed into the way work flows, not inspected in at the end. Kerzner makes a similar point about gates: they work best when their criteria are known early and evidence accumulates as work progresses.",
+    "tags": [
+      "hybrid",
+      "stage gate",
+      "definition of done",
+      "compliance"
+    ]
+  },
+  {
+    "id": "PRO-213",
+    "domain": "Process",
+    "task": "8. Plan and manage schedule",
+    "approach": "Agile",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Setting a WIP limit with Little's Law",
+    "source": "ECO 2026 · Process Task 8 · Agile practice",
+    "question": "A Kanban team handling change requests for a bank's mobile app completes an average of 3 items per working day. Over the last quarter it has carried an average of 30 items in progress, and stakeholders complain that a typical request takes too long. The team agrees to target an average cycle time of 6 working days, and its throughput is expected to stay stable. Using Little's Law, what total WIP limit should the team aim for?",
+    "options": [
+      "5 items",
+      "12 items",
+      "18 items",
+      "50 items"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Little's Law links average work in progress, throughput and cycle time; rearrange it to solve for the quantity you need.",
+    "why": "Little's Law: average cycle time = average WIP ÷ average throughput. Today the cycle time is 30 ÷ 3 = 10 working days. To reach 6 days at the same throughput, WIP = throughput × target cycle time = 3 × 6 = 18 items. Cutting WIP from 30 to 18 shortens the queue each item waits in, which is what brings cycle time down.",
+    "how": "For flow questions, write Little's Law (cycle time = WIP ÷ throughput), check the units match, rearrange for the unknown, and remember it describes averages in a reasonably stable system.",
+    "optionNotes": [
+      "Incorrect — 5 comes from dividing current WIP by the target cycle time (30 ÷ 6), which mixes up the terms of the formula.",
+      "Incorrect — 12 is throughput times the reduction in days (3 × 4); that is how far WIP must fall, not the new limit itself.",
+      "Correct — WIP = throughput × cycle time = 3 × 6 = 18 items, down from the current average of 30.",
+      "Incorrect — 50 treats WIP as inversely related to cycle time (30 × 10 ÷ 6); lowering WIP, not raising it, shortens cycle time."
+    ],
+    "deepDive": "Little's Law comes from queueing theory and holds for long-run averages when arrivals and departures are roughly balanced. It explains why WIP limits work: at a given throughput, less work in the system means each item spends less time waiting. Teams usually set limits per board column and tune them empirically, watching cycle time and throughput on a cumulative flow diagram or cycle-time scatterplot. Exam trap: adding people might raise throughput, but the quicker and cheaper lever is to stop starting and start finishing.",
+    "tags": [
+      "little's law",
+      "wip limits",
+      "kanban",
+      "calculation"
+    ]
+  },
+  {
+    "id": "PRO-214",
+    "domain": "Process",
+    "task": "8. Plan and manage schedule",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Throughput forecast with scope growth",
+    "source": "ECO 2026 · Process Task 8 · Agile practice",
+    "question": "Refer to the exhibit. A team building a travel-booking feature tracks how many items it completes each week and how many new items are added to the release backlog. The backlog has 60 items remaining today, and the product owner expects new items to keep arriving at the same rate as user feedback comes in. Using the eight-week averages, about how many more weeks will the team need to empty the release backlog?",
+    "options": [
+      "6 weeks",
+      "7.5 weeks",
+      "10 weeks",
+      "15 weeks"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "The backlog shrinks each week only by the difference between what is finished and what arrives.",
+    "why": "Average completed per week = (7 + 9 + 6 + 8 + 10 + 7 + 8 + 9) ÷ 8 = 64 ÷ 8 = 8 items. Average added per week = (1 + 3 + 2 + 2 + 1 + 3 + 2 + 2) ÷ 8 = 16 ÷ 8 = 2 items. Net burn = 8 − 2 = 6 items per week, so 60 ÷ 6 = 10 weeks. The product owner can use this to discuss scope or date trade-offs before a release date is promised.",
+    "how": "When forecasting from throughput, use net throughput (completed minus added) whenever scope keeps growing, and present a range or probabilistic forecast rather than a single date.",
+    "optionNotes": [
+      "Incorrect — 6 weeks adds the new items to throughput (60 ÷ 10) instead of subtracting them, so scope growth looks like extra speed.",
+      "Incorrect — 7.5 weeks (60 ÷ 8) ignores the two items added each week, the classic error of forecasting against a frozen scope.",
+      "Correct — Net throughput is 8 − 2 = 6 items per week, and 60 ÷ 6 = 10 weeks to empty the release backlog.",
+      "Incorrect — 15 weeks uses the worst single week's net throughput (4 items); that is a pessimistic bound, not the average-based forecast."
+    ],
+    "deepDive": "Throughput-based forecasting is common in flow-based teams because it uses actual delivery data rather than estimates. A release burnup chart shows the same idea visually: the gap between the completed line and a rising total-scope line is what must really close. A range, or a Monte Carlo forecast built from past throughput, is more honest than a single date. When the forecast misses the target, the agile response is to negotiate scope with the product owner (slice, reorder, defer) rather than push the team to work harder.",
+    "tags": [
+      "throughput",
+      "forecasting",
+      "kanban",
+      "calculation",
+      "exhibit"
+    ],
+    "exhibit": {
+      "kind": "bar",
+      "title": "Weekly throughput and new backlog items",
+      "xLabel": "Week",
+      "yLabel": "Items",
+      "x": [
+        "W1",
+        "W2",
+        "W3",
+        "W4",
+        "W5",
+        "W6",
+        "W7",
+        "W8"
+      ],
+      "series": [
+        {
+          "name": "Completed",
+          "values": [
+            7,
+            9,
+            6,
+            8,
+            10,
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "name": "Added to backlog",
+          "values": [
+            1,
+            3,
+            2,
+            2,
+            1,
+            3,
+            2,
+            2
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "PRO-215",
+    "domain": "Process",
+    "task": "8. Plan and manage schedule",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Sprint goal at risk",
+    "source": "ECO 2026 · Process Task 8 · Agile practice",
+    "question": "Four days into a ten-day sprint, the developers on a fintech team discover that the partner bank's payment API needs an extra security handshake nobody anticipated. The sprint goal — 'customers can pay a bill with a saved card' — now looks unlikely if the team also finishes the two reporting stories it pulled in. The Scrum master hears about this at the daily scrum. What should happen NEXT?",
+    "options": [
+      "The Scrum master extends the sprint by three days so that the team can finish all committed work, including the handshake",
+      "The developers work with the product owner to renegotiate the sprint backlog so that the sprint goal can still be met",
+      "The product owner cancels the sprint at once because the plan agreed at sprint planning is no longer achievable",
+      "The team keeps the plan unchanged and records the unexpected handshake as a lesson for the sprint retrospective"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "In Scrum, what is the commitment during a sprint, what may be adjusted, and who takes part in adjusting it?",
+    "why": "The sprint goal is the commitment, while the sprint backlog can be clarified and renegotiated with the product owner as more is learned. Deferring the reporting stories frees capacity for the handshake so the goal can still be met. The developers own the plan, and the product owner takes part because scope is being traded.",
+    "how": "When a sprint goal is at risk, protect the goal: the developers and product owner renegotiate sprint backlog scope, the timebox stays fixed, and cancellation is reserved for a goal that has become obsolete.",
+    "optionNotes": [
+      "Incorrect — Sprints are fixed timeboxes; stretching one breaks the cadence and hides the real trade-off between scope and time.",
+      "Correct — Renegotiating which items stay in the sprint protects the goal within the timebox, with the product owner deciding on scope.",
+      "Incorrect — Cancellation is for a goal that has become obsolete; this goal is still valuable and achievable with less scope.",
+      "Incorrect — Sitting on new information until the retrospective defeats the daily scrum's purpose of adapting the plan toward the goal."
+    ],
+    "deepDive": "The Scrum Guide makes the sprint goal the commitment for the sprint backlog; scope may be clarified and renegotiated with the product owner as more is learned, provided quality does not decrease. Only the product owner can cancel a sprint, and only when the goal becomes obsolete. In predictive terms this resembles using float or re-sequencing to protect a milestone rather than moving the milestone. A related trap is 'add overtime', which treats a scope problem as an effort problem and undermines sustainable pace.",
+    "tags": [
+      "sprint goal",
+      "scrum",
+      "sprint backlog",
+      "agile"
+    ]
+  },
+  {
+    "id": "PRO-216",
+    "domain": "Process",
+    "task": "8. Plan and manage schedule",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Tailoring a hybrid schedule",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 8: Adaptive Frameworks and Life Cycles (selecting the right framework per component)",
+    "question": "A pharmaceutical company asks you to plan a program with two very different parts. Building and validating a new packaging line has well-understood steps, long equipment lead times and a regulatory inspection date that cannot move. The accompanying patient-adherence app has vague requirements that marketing expects to change after early user testing. The PMO's standard methodology is a single detailed Gantt schedule for everything. How should you plan the schedule?",
+    "options": [
+      "Use a critical-path schedule for the packaging line and iteration-based release planning for the app, linked at key milestones",
+      "Build one detailed Gantt schedule for both parts as the methodology requires, and control later app changes through the change board",
+      "Run both parts in two-week sprints so that the whole program shares one cadence, and treat the inspection date as a backlog item",
+      "Plan the packaging line in full detail now and defer any scheduling of the app until its requirements have become stable"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Does one scheduling model fit work with very different levels of certainty, and what must still connect the two parts?",
+    "why": "Kerzner warns that a single one-size-fits-all methodology fails when a program mixes predictable and uncertain work. The packaging line has known activities, long lead times and a fixed inspection date, so a critical-path schedule with milestones suits it. The app's requirements will evolve, so iteration and release planning fits better. Shared integration milestones keep the two parts synchronized, and the PMO can be engaged to endorse the tailored approach.",
+    "how": "Tailor the scheduling approach to each component's uncertainty: predictive scheduling for stable, dependency-heavy work, adaptive planning for evolving work, and shared milestones or integration points to keep a hybrid plan coherent.",
+    "optionNotes": [
+      "Correct — Matching each part's scheduling method to its uncertainty, and linking the parts through shared milestones, is the essence of a tailored hybrid plan.",
+      "Incorrect — Forcing volatile app requirements into a detailed Gantt chart creates churn and constant change requests instead of planned adaptation.",
+      "Incorrect — Equipment lead times, validation and a fixed inspection date need dependency-based scheduling that sprints alone do not provide.",
+      "Incorrect — The app still needs a release plan and integration milestones now; deferring all of its scheduling hides a risk to the launch."
+    ],
+    "deepDive": "Kerzner describes the shift from a single rigid methodology to flexible frameworks chosen per project or component, and cautions that this flexibility demands capable project managers ('be careful what you wish for'). Selection factors include requirement stability, risk, regulatory constraints and customer involvement. PMBOK calls the result a hybrid approach: predictive and adaptive elements combined and joined by milestones, integration events and a common roadmap. On the exam the best answer usually tailors the approach and engages the PMO, rather than ignoring or blindly following the standard methodology.",
+    "tags": [
+      "hybrid",
+      "tailoring",
+      "schedule",
+      "milestones"
+    ]
+  },
+  {
+    "id": "PRO-217",
+    "domain": "Process",
+    "task": "8. Plan and manage schedule",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Scheduling benefit milestones",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 8: Adaptive Frameworks and Life Cycles (investment life-cycle phases)",
+    "question": "You are building the integrated roadmap for a hybrid program that replaces a city's permit-application system. Your draft schedule ends at go-live and the release of the team. Reviewing it, the sponsor points out that the business case promises a 40% cut in permit processing time within nine months after go-live, and that the city council will judge the program on that result. What is the BEST way to update the schedule?",
+    "options": [
+      "Leave the schedule ending at go-live, since results after deployment belong to operations and sit outside the project's scope",
+      "Keep the entire project team assigned for nine months after go-live so that it can deliver the processing-time reduction itself",
+      "Add a single post-implementation review milestone at month nine and let the operations manager decide then what to measure",
+      "Extend the roadmap with benefit milestones and measurement points after go-live, each with an accountable business owner"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "When will the program's success actually be judged, and does the plan show how and by whom that result will be tracked?",
+    "why": "Kerzner describes an investment life cycle that extends beyond delivery into benefits realization and value analysis. If success is judged on processing time nine months after go-live, the roadmap should show when and how that benefit will be measured, the transition and adoption activities that lead to it, and who owns each milestone — usually the business owner, with the project providing handover support. That keeps the plan aligned to the outcome rather than just the output.",
+    "how": "Plan to outcomes, not only outputs: include transition, adoption and benefit-measurement milestones in the roadmap and assign each to an accountable owner, even when they fall after project closure.",
+    "optionNotes": [
+      "Incorrect — Ending the plan at go-live leaves the result the council cares about unplanned and unowned, a common cause of benefit shortfalls.",
+      "Incorrect — Holding the whole team for nine months is costly and blurs accountability; business owners, not the full team, harvest the benefits.",
+      "Incorrect — One late review with no agreed measures gives no early warning and leaves measurement undefined until it is too late to act.",
+      "Correct — Benefit milestones with named business owners connect the schedule to the promised outcome and set up a clean handover at closure."
+    ],
+    "deepDive": "Kerzner's investment life cycle adds phases before and after the traditional project: idea generation and approval at the front, benefits realization and value analysis after delivery. Project managers are increasingly brought in earlier and may stay involved longer to confirm that value was created. PMI's benefits practices agree: a benefits management plan names each benefit's owner, measure, target and timing, and the schedule shows when benefits will be measured. Exam trap: go-live is an output milestone, while the business case is judged on outcomes.",
+    "tags": [
+      "benefits realization",
+      "roadmap",
+      "schedule",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "PRO-218",
+    "domain": "Process",
+    "task": "9. Evaluate project status",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Reading a project health check",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 10: Value-Driven and Business-Related Metrics (project health checks as early warning)",
+    "question": "Refer to the exhibit. It summarizes this month's health check for a hybrid customer-portal program in month 7 of 12. At the steering committee, the sponsor glances at it and says, 'Time and cost are green, so we're fine.' What is the BEST interpretation for the project manager to give the committee?",
+    "options": [
+      "The program is healthy overall, because the baseline measures for time and cost are within tolerance and no new high risks exist",
+      "Future value is at risk: scope churn, falling adoption and key staff turnover are early warnings needing root-cause analysis",
+      "Staffing is the underlying problem, so the committee should approve retention bonuses to stop further turnover in key roles",
+      "Scope is the only real concern, so the committee should freeze all further change requests until the program is complete"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "A health check looks forward; which rows describe whether the customer will get value at the end, and which way are they moving?",
+    "why": "Health checks are meant to look ahead at value, not merely confirm that baselines are met. Time and cost are stable, but three signals are amber and worsening together: repeated scope changes, adoption far below target and the loss of two key leads. Together they suggest the program could finish on time and budget yet miss its benefits, and the 'no new high risks' entry looks stale. The project manager should say so candidly and propose root-cause analysis and a recovery plan.",
+    "how": "When reading a dashboard, weigh trends and forward-looking value measures over current baseline status: several worsening amber indicators together are an early warning that calls for analysis and corrective action, not reassurance.",
+    "optionNotes": [
+      "Incorrect — Green time and cost only show the work is on plan; they say nothing about benefits, and the risk entry looks out of date.",
+      "Correct — Reading the worsening value, scope and team signals together gives the committee an honest early warning while there is time to act.",
+      "Incorrect — Turnover is one signal, but jumping to a single remedy treats a symptom before the causes of all three trends are understood.",
+      "Incorrect — A blanket change freeze could block the very changes needed to lift adoption; the scope churn needs analysis, not a reflex ban."
+    ],
+    "deepDive": "Kerzner lists triggers for a prompt health check, including scope creep, cost growth with declining value, uncorrectable slippage, missed deadlines, poor morale with changes in key personnel, and metrics falling below thresholds. Unlike an audit, which looks at the present and at compliance, a health check looks to the future and asks whether benefits and value will be there at completion. Its output is an issue list, root-cause and gap analysis, a fix-it plan and often new metrics. The exam lesson: 'watermelon' reporting — green outside, red inside — is a status failure the project manager must surface, not smooth over.",
+    "tags": [
+      "health check",
+      "dashboard",
+      "status",
+      "exhibit"
+    ],
+    "exhibit": {
+      "kind": "table",
+      "title": "Health check summary — customer portal (month 7 of 12)",
+      "columns": [
+        "Area",
+        "Measure",
+        "Status",
+        "3-month trend"
+      ],
+      "rows": [
+        [
+          "Schedule",
+          "SPI 0.97; next milestone forecast on time",
+          "Green",
+          "Stable"
+        ],
+        [
+          "Cost",
+          "CPI 1.02; EAC within budget",
+          "Green",
+          "Stable"
+        ],
+        [
+          "Scope",
+          "11 approved change requests in the last 8 weeks",
+          "Amber",
+          "Worsening"
+        ],
+        [
+          "Benefits",
+          "Pilot adoption 34% vs. 60% planned at this point",
+          "Amber",
+          "Worsening"
+        ],
+        [
+          "Team",
+          "Lead architect and test lead replaced last month",
+          "Amber",
+          "Worsening"
+        ],
+        [
+          "Risk",
+          "No new high risks logged",
+          "Green",
+          "Stable"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "PRO-219",
+    "domain": "Process",
+    "task": "9. Evaluate project status",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Independence of a health check",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 10: Value-Driven and Business-Related Metrics (who performs the health check)",
+    "question": "A portfolio director asks you, as PMO lead, to arrange a health check on a data-center migration that has missed two milestones. The migration's project manager offers to run it himself, saying he knows the project best. Your PMO analyst, who helped write the migration plan and is a close friend of its team lead, also volunteers. Team members are already worried the review will be used to assign blame. How should you set up the health check?",
+    "options": [
+      "Let the project manager lead it, since he has the deepest knowledge of the project and can start the review immediately",
+      "Postpone the check until the phase-end audit so that the team is not distracted while it tries to recover the lost milestones",
+      "Assign an independent reviewer with no stake in the project, and present the check as forward-looking support, not blame",
+      "Assign the PMO analyst, since she already understands the plan well, and ask her to keep all interview findings confidential"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "What makes a reviewer's findings credible to everyone, and what makes interviewees willing to tell the truth?",
+    "why": "A health check is only useful if it reveals true status, which requires impartiality and candor. The project manager, and an analyst who wrote the plan and is close to the team, both have loyalties that can color the findings. An independent reviewer — from outside the project's reporting line, or external — can be impartial, and framing the check as a forward-looking aid to recovery rather than a hunt for fault encourages people to speak openly.",
+    "how": "For independent reviews such as health checks or audits, choose someone without a stake in the outcome and set a psychologically safe, future-focused tone so that interviewees share real information.",
+    "optionNotes": [
+      "Incorrect — Self-assessment by the person accountable for the project lacks independence and tends to confirm the existing view of status.",
+      "Incorrect — Delaying the check throws away its main benefit: early detection while there is still time for corrective action.",
+      "Correct — An impartial reviewer and a supportive framing produce candid interviews and findings that all stakeholders can trust.",
+      "Incorrect — Confidentiality helps, but her authorship of the plan and friendship with the team lead still compromise her impartiality."
+    ],
+    "deepDive": "Kerzner contrasts audits, which focus on the present and on compliance, with health checks, which focus on the future, on execution effectiveness and on whether benefits will be there at the end. Internal reviewers may have loyalties that blunt honesty, which is why independent or external facilitators are often preferred: they bring templates, impartiality and a setting where people can speak freely. Common objections are that health checks cost too much or arrive too late. A health check typically runs in three phases: review the business case and history, research the facts, then report with root causes and a fix-it plan.",
+    "tags": [
+      "health check",
+      "independence",
+      "status",
+      "psychological safety"
+    ]
+  },
+  {
+    "id": "PRO-220",
+    "domain": "Process",
+    "task": "9. Evaluate project status",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "multi",
+    "topic": "Selecting KPIs for a dashboard",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 10: Value-Driven and Business-Related Metrics (selecting the right metrics and KPIs)",
+    "question": "The steering committee of a hybrid loan-origination program says the current 38-metric status pack is unreadable, and the sponsor asks you to propose a handful of KPIs for a one-screen dashboard. The program's critical success factors are: launch before the regulatory deadline, stay within the approved budget, and cut average loan approval time from ten days to three. Which metrics BEST qualify as KPIs for this dashboard? (Select three.)",
+    "options": [
+      "Forecast launch date versus the regulatory deadline, updated from current throughput and milestone progress",
+      "Number of user stories completed per sprint by each of the program's four delivery teams",
+      "Estimate at completion compared with the approved budget, using thresholds agreed by the committee",
+      "Total hours logged by employees and contractors across all workstreams during the reporting month",
+      "Average approval time for loans processed through the pilot, trended against the three-day target"
+    ],
+    "answer": [
+      0,
+      2,
+      4
+    ],
+    "hint": "A KPI should trace to a critical success factor, say something about the future, and prompt a decision when it moves.",
+    "why": "Kerzner describes KPIs as the few metrics that predict whether the project will succeed and that validate its critical success factors; good ones are predictive, measurable, actionable, relevant, ideally automated, and few. The forecast launch date, EAC against budget and pilot approval time map one-to-one to the three success factors, and each prompts a decision when it drifts. Story counts and hours logged are activity measures that help teams but do not tell the committee whether success is likely.",
+    "how": "To pick KPIs, start from the agreed critical success factors and choose one or two forward-looking, actionable measures for each; keep activity and effort metrics in team-level views.",
+    "optionNotes": [
+      "Correct — A forecast date set against the deadline predicts success on the first success factor and prompts early action if it slips.",
+      "Incorrect — Stories per team is an output count that varies with story size and says little about meeting the deadline or budget.",
+      "Correct — EAC versus budget with agreed thresholds is forward-looking and tells the committee when a cost decision is needed.",
+      "Incorrect — Hours logged measure effort, not progress or value, and could rise even as the program drifts further from its goals.",
+      "Correct — Pilot approval time tracks the business outcome the program exists to deliver and shows whether the benefit is emerging."
+    ],
+    "deepDive": "Kerzner warns that tracking dozens of metrics creates information overload and measurement cost, and that a dashboard can realistically show about six to ten items at a glance. He distinguishes traditional metrics (mainly for the project manager and team), KPIs (for status reporting to clients and stakeholders) and value metrics (whether the expected value will be achieved). His six KPI attributes are predictive, measurable, actionable, relevant, automated and few in number. In PMBOK terms these are leading indicators tied to success criteria, while velocity and hours are better kept on team-level information radiators.",
+    "tags": [
+      "kpi",
+      "dashboard",
+      "metrics",
+      "multi-select"
+    ]
+  },
+  {
+    "id": "PRO-221",
+    "domain": "Process",
+    "task": "9. Evaluate project status",
+    "approach": "Any",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Dashboards versus reports",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 4: Digitalization (dashboards versus reports)",
+    "question": "Each Friday you send a 34-page status report to the executive sponsor of a warehouse-automation project. In a one-to-one meeting she admits she rarely reads beyond the first page and often hears about problems from other executives first. Finance and the delivery leads, however, rely on the detailed tables in the report. What is the BEST way to change your status reporting?",
+    "options": [
+      "Shorten the report to two pages for everyone and stop producing the detailed tables that no executive has time to read",
+      "Send the full report twice a week instead of weekly so the sponsor has more chances to spot the important problems early",
+      "Highlight the problems in red inside the existing report and ask the sponsor's assistant to summarize it for her each week",
+      "Give the sponsor a one-screen dashboard of key indicators tied to objectives, with drill-down to the detailed report"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Different audiences need different views; what does a decision maker need at a glance, and what should stay available underneath?",
+    "why": "A dashboard presents the few indicators an executive needs to monitor objectives and decide at a glance, while a report carries the background detail analysts and managers need. A focused dashboard for the sponsor, with the option to drill into the existing report, meets her need without taking detail away from finance and the delivery leads. It also makes problems visible to her before she hears about them elsewhere.",
+    "how": "Tailor communication to the audience: dashboards for at-a-glance decisions, reports for detailed analysis, and a drill-down link between them so everyone works from the same data.",
+    "optionNotes": [
+      "Incorrect — Cutting the detail that others depend on fixes the sponsor's problem by creating a new one for finance and the delivery leads.",
+      "Incorrect — Sending the same unread report more often adds volume, not clarity, and does not change what the sponsor sees first.",
+      "Incorrect — Color in a long document plus a second-hand summary still leaves the sponsor without a direct, reliable view of key indicators.",
+      "Correct — A decision-focused dashboard for the sponsor, backed by the detailed report for others, serves both audiences from one source."
+    ],
+    "deepDive": "Kerzner's digitalization pillar distinguishes reports — text- and table-heavy, often scheduled, rich in background detail — from dashboards, which show the most important information for specific objectives on one screen and are designed to drive decisions. The ideal is to start at the dashboard and drill down into a report already filtered on the issue at hand. PMBOK makes the same point with information radiators and tailored communications. Exam trap: 'more reporting' or 'less reporting for everyone' rarely beats 'the right view for each stakeholder'.",
+    "tags": [
+      "dashboard",
+      "reporting",
+      "communication",
+      "status"
+    ]
+  },
+  {
+    "id": "PRO-222",
+    "domain": "Process",
+    "task": "9. Evaluate project status",
+    "approach": "Agile",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Validating dashboard KPIs",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 4: Digitalization (mapping dashboards to objectives and validating KPIs)",
+    "question": "A product organization runs five agile teams on a customer-onboarding platform. Its dashboard includes 'onboarding drop-off rate', which has been red for three consecutive sprint reviews. Each time, the teams note it and move on: nobody is sure which team owns it, and no one has agreed what should happen when it turns red. The chief product owner asks you to 'fix the dashboard'. What should you do FIRST?",
+    "options": [
+      "Adjust the red threshold for drop-off rate so that the indicator reflects a more realistic target for this stage of the product",
+      "Review each KPI with its stakeholders to confirm what it traces to, who owns it, and what action a red value should trigger",
+      "Remove the drop-off indicator from the dashboard, since it is not driving any decisions and only distracts the teams at reviews",
+      "Escalate the drop-off rate to the executive sponsor so that senior management can direct the teams to fix the onboarding flow"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "A KPI turns data into action only when certain questions about it have already been answered.",
+    "why": "The indicator is red but produces no action because two validation questions were never answered: who is responsible, and what corrective action follows a negative value. Kerzner's guidance on mapping dashboards to objectives is to validate every KPI — understood by stakeholders, traceable to a success factor, linked to an owner, and paired with a known response. Doing this across the dashboard fixes the root problem rather than this single symptom.",
+    "how": "When a dashboard is being ignored, validate its KPIs before changing thresholds or escalating: each must trace to an objective, have an owner and agreed thresholds, and trigger a known response.",
+    "optionNotes": [
+      "Incorrect — Moving the threshold makes the indicator look better without changing the customer outcome, a quiet way of hiding bad news.",
+      "Correct — Validating traceability, ownership and the agreed response for each KPI turns the dashboard back into a decision-making tool.",
+      "Incorrect — Drop-off rate is tied to the platform's purpose; deleting it loses a key outcome signal instead of making it actionable.",
+      "Incorrect — Escalation skips the missing basics of ownership and agreed response, and top-down direction undercuts team self-management."
+    ],
+    "deepDive": "Kerzner's approach to mapping dashboards to objectives starts from business objectives, the gap between as-is and to-be, the success factors and the obstacles, then defines KPIs with values, dimensions, filters, targets and states (good and bad ranges). Each KPI is then validated: is it understood by all stakeholders, is the corrective action known when it goes negative, can it be traced to the success factors, and is someone responsible for it? In agile organizations the product owner or a named team usually owns each outcome metric, and reviews should end with a decision, not just an observation. An unowned red metric is a classic 'watched but not managed' measure.",
+    "tags": [
+      "kpi",
+      "dashboard",
+      "ownership",
+      "agile"
+    ]
+  },
+  {
+    "id": "PRO-223",
+    "domain": "Process",
+    "task": "9. Evaluate project status",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Reporting strategic metrics",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 10: Value-Driven and Business-Related Metrics (the need for strategic metrics)",
+    "question": "Your organization's portfolio board has started ranking projects by their contribution to three strategic goals: entering two new regional markets, improving brand reputation, and growing recurring revenue. Your quarterly status report for a partner-portal project shows only schedule variance, cost variance and scope completed. The board chair says she cannot tell whether your project deserves funding next year. What should you do?",
+    "options": [
+      "Agree with the sponsor on strategic and business-value measures linked to those goals, and report them alongside the variances",
+      "Add a clearer explanation of each variance so that the board can see the project is well controlled against its approved baselines",
+      "Ask the PMO to explain to the board that project managers are accountable only for delivering the scope on time and on budget",
+      "Replace the variance data with success stories from partners, since the board is mainly interested in strategic outcomes now"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "What question is the board actually trying to answer when it decides next year's funding?",
+    "why": "Time, cost and scope show how well the project is executed, but the board is deciding which investments best advance strategy. Kerzner argues that strategic metrics — such as contribution to new-market entry, reputation and financial value — let leaders judge alignment and portfolio health. Agreeing these measures with the sponsor and reporting them alongside the variances shows both that the project is well managed and whether it is worth continuing.",
+    "how": "Report to the audience's decision: governance bodies choosing investments need strategic and value metrics linked to objectives, in addition to the execution metrics that show control.",
+    "optionNotes": [
+      "Correct — Strategic and value measures agreed with the sponsor give the board evidence of alignment, while execution data stays visible.",
+      "Incorrect — Better-explained variances still answer only 'are we on plan?', not 'is this project advancing our strategy?'.",
+      "Incorrect — Project managers are expected to show business value; declining to report it leaves the board unable to judge the investment.",
+      "Incorrect — Anecdotes are not measures, and dropping the variance data removes the evidence that the project is under control."
+    ],
+    "deepDive": "Kerzner observes that for years only time, cost and scope were measured, but better measurement techniques now let organizations show a project's strategic value (competitive position, new business opportunity, image and reputation) and financial value (ROI, benefit-cost ratio, payback). Combining them lets a portfolio board assess the health of the whole portfolio as well as individual projects. PMI frames projects the same way, as part of a value delivery system linked to strategy. Exam trap: the project manager does not own the portfolio decision, but should supply the evidence governance needs to make it.",
+    "tags": [
+      "strategic metrics",
+      "value",
+      "portfolio",
+      "status"
+    ]
+  },
+  {
+    "id": "PRO-224",
+    "domain": "Process",
+    "task": "9. Evaluate project status",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Measuring intangible outcomes",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 10: Value-Driven and Business-Related Metrics (metrics for measuring intangibles)",
+    "question": "A two-year project is establishing a new governance model and delivery culture across a hospital network's IT department. The sponsor wants each quarterly status review to cover 'governance effectiveness' and 'trust between clinical and IT staff', both named in the charter as expected outcomes. A steering member argues that intangibles cannot be measured, so the review should stick to milestones and spend. What should the project manager do?",
+    "options": [
+      "Agree with the steering member and track only milestones and spend, since intangible outcomes cannot be measured accurately",
+      "Ask the sponsor to remove the two intangible outcomes from the charter, since they cannot be reported as project status",
+      "Report the two intangibles each quarter using the project manager's own judgment of how the relationships seem to be developing",
+      "Define observable indicators for each intangible, such as decision turnaround and pulse-survey scores, with agreed baselines"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Something that cannot be counted directly can often still be observed; what would make such a measure credible to the committee?",
+    "why": "Kerzner argues that intangibles such as governance effectiveness, leadership, teamwork and trust can be measured when management commits to valid techniques that are free of manipulation. Defining observable proxies — decision turnaround time, escalations resolved within agreed limits, repeated pulse-survey scores — with baselines and a consistent method makes them reportable and comparable over time. Dropping them would leave two of the charter's stated outcomes unmonitored.",
+    "how": "For intangible outcomes, agree observable proxy indicators with a baseline, a consistent method and a target, and report them alongside tangible measures instead of ignoring or guessing them.",
+    "optionNotes": [
+      "Incorrect — Tracking only milestones and spend leaves two charter outcomes unmonitored, the classic failure of time-and-cost-only metrics.",
+      "Incorrect — Removing expected outcomes because they are hard to measure bends the project's purpose to suit the reporting.",
+      "Incorrect — An unstructured personal judgment is neither repeatable nor verifiable, and it invites bias into a governance report.",
+      "Correct — Observable indicators with baselines and a consistent method make intangible outcomes measurable, credible and comparable over time."
+    ],
+    "deepDive": "Kerzner lists intangible project-management assets that can be measured, including governance, leadership, commitment, lessons learned, knowledge management, intellectual property, working conditions, and teamwork and trust. He also notes the usual objections: intangibles are long-term, seem unrelated to the bottom line, might show uncomfortable results, or look too hard to measure. Practical techniques include pulse surveys, maturity assessments, counting behaviors such as escalations or decision cycle time, and structured interviews. On the exam, 'we cannot measure it' is rarely right; 'define a measurable proxy with the stakeholders' usually is.",
+    "tags": [
+      "intangibles",
+      "metrics",
+      "governance",
+      "status"
+    ]
+  },
+  {
+    "id": "PRO-225",
+    "domain": "Process",
+    "task": "9. Evaluate project status",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Rising WIP and aging items",
+    "source": "ECO 2026 · Process Task 9 · Agile practice",
+    "question": "A Kanban team that maintains a retailer's e-commerce integrations says at every stand-up that everyone is fully busy. Its board tells a different story: work in progress has grown from 14 to 31 items in six weeks, weekly throughput has fallen from 11 to 7, and nine items have sat in 'waiting for review' for more than ten days. Stakeholders are asking why requests take so long. What should the project manager do?",
+    "options": [
+      "Ask the team to report percent complete on every open item daily so that stakeholders can see how much progress is being made",
+      "Request two more developers from the resource manager so that the team can work through the growing number of open items",
+      "Facilitate a team review of the flow data, agree WIP limits, and have the team swarm on aging items before starting new work",
+      "Add a separate 'blocked' column to the board so that the items stuck in review no longer distort the team's WIP figures"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Rising WIP with falling throughput is a well-known pattern; what does flow theory say about starting even more work?",
+    "why": "The flow metrics show classic overload: as WIP rose, throughput fell and items began to age in a review queue, so cycle times are growing — exactly what Little's Law predicts. The team is busy but not finishing. Helping the team interpret its own data, agree explicit WIP limits and swarm on aging items ('stop starting, start finishing') addresses the cause, and the team owns the change.",
+    "how": "When flow metrics show rising WIP, falling throughput and aging items, limit WIP and finish what has been started before adding capacity or changing how status is reported.",
+    "optionNotes": [
+      "Incorrect — Percent-complete reporting adds overhead and optimism bias but does nothing to move work through the system faster.",
+      "Incorrect — Adding people to an overloaded, bottlenecked system tends to add more started work and onboarding drag, not more finished work.",
+      "Correct — Team-owned WIP limits and swarming on aged items tackle the bottleneck directly and shorten cycle time for stakeholders.",
+      "Incorrect — A new column relabels the problem; the items still wait, and hiding them from WIP counts makes the metrics less honest."
+    ],
+    "deepDive": "Kanban's core flow metrics are WIP, throughput, cycle time and work-item age. Aging WIP is an early warning: items that sit far longer than the team's usual cycle time are the ones most likely to disappoint stakeholders. A cumulative flow diagram would show the 'waiting for review' band widening, a bottleneck that WIP limits and pairing on reviews can relieve. Busyness is not a status measure; flow is. Adding people should come only after the system's constraint is understood.",
+    "tags": [
+      "kanban",
+      "flow metrics",
+      "wip limits",
+      "agile"
+    ]
+  },
+  {
+    "id": "PRO-226",
+    "domain": "Process",
+    "task": "10. Manage project closure",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Benefits register at closure",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 10: Value-Driven and Business-Related Metrics (benefits realization plan and handover)",
+    "question": "Refer to the exhibit. A hybrid claims-digitization project has delivered its final increment, and the customer has accepted the product. The sponsor wants to close the project at next week's gate and release the team. While reviewing the benefits register shown, what should the project manager do BEFORE recommending closure?",
+    "options": [
+      "Agree an accountable owner, measurement method and date for the satisfaction benefit, and add them to the transition handover",
+      "Keep the project open until customer satisfaction reaches its target so that the project team can deliver the remaining benefit",
+      "Remove the satisfaction benefit from the register, since it cannot be measured yet and would otherwise hold up the project's closure",
+      "Close the project as planned, since the deliverables are accepted and three of the four benefits already have owners and dates"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Closure hands benefits over to the business; look for any benefit that would have nobody to receive it.",
+    "why": "Three benefits have an owner, a measure and a measurement date, so they can be handed over cleanly. The satisfaction benefit has no owner and no date, so once the team is released nobody will measure or pursue it — a known cause of benefit shortfalls. Before recommending closure, the project manager should work with the sponsor to assign an owner, confirm how and when it will be measured, and include that in the transition package; the project itself does not need to stay open until the benefit is realized.",
+    "how": "At closure, confirm that every benefit in the register has an accountable business owner, a measure, a target and a measurement date in the transition plan; the project closes, but benefits realization continues under the business.",
+    "optionNotes": [
+      "Correct — Assigning an owner, a method and a date closes the gap in the handover, so the benefit survives the team's release.",
+      "Incorrect — Benefits often arrive long after delivery; keeping the whole project open for them wastes resources and blurs accountability.",
+      "Incorrect — Deleting an expected benefit because it is awkward to measure undermines the business case and hides a value gap from governance.",
+      "Incorrect — Accepted deliverables are not enough; closing with an orphaned benefit means no one will ever track or pursue it."
+    ],
+    "deepDive": "Kerzner suggests a benefits realization plan should describe each benefit, classify it as tangible or intangible, name its recipient, and state how and when it will be realized and measured, plus which group takes it over after the project. Among newer causes of failure he lists benefits not tracked over the whole life cycle and a focus on deliverables rather than value. PMI's view is consistent: the project delivers outputs and enables outcomes, and closure includes transferring benefit ownership to the business. Customer satisfaction is harder to measure than cost, but it becomes measurable once someone owns it and a method is agreed.",
+    "tags": [
+      "benefits realization",
+      "closure",
+      "transition",
+      "exhibit"
+    ],
+    "exhibit": {
+      "kind": "table",
+      "title": "Benefits register — claims digitization (final gate review)",
+      "columns": [
+        "Benefit",
+        "Measure and target",
+        "Benefit owner",
+        "Measurement date",
+        "Status"
+      ],
+      "rows": [
+        [
+          "Faster claim settlement",
+          "Average settlement time from 12 to 5 days",
+          "Head of Claims Operations",
+          "Month 3 after go-live",
+          "On track (pilot: 6 days)"
+        ],
+        [
+          "Lower paper and postage cost",
+          "Annual cost down 70%",
+          "Finance Director",
+          "Month 6 after go-live",
+          "On track"
+        ],
+        [
+          "Higher customer satisfaction",
+          "Claims NPS from +12 to +30",
+          "Not assigned",
+          "Not set",
+          "Not yet measurable"
+        ],
+        [
+          "Fewer data-entry errors",
+          "Rework rate below 2%",
+          "Head of Claims Operations",
+          "Month 3 after go-live",
+          "Achieved in pilot (1.6%)"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "PRO-227",
+    "domain": "Process",
+    "task": "10. Manage project closure",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Supporting benefit harvesting at closure",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 8: Adaptive Frameworks and Life Cycles (project closure and benefits harvesting)",
+    "question": "A hybrid project has rolled out a new warehouse-management system to 14 distribution centers, and the final site accepted the deliverables last week. Functional managers want all nine team members back immediately. The operations director, who owns the productivity benefit, worries that without expert help her supervisors will slip back to old spreadsheets before the new ways of working stick. The benefits plan expects gains to build over the next five months. What should the project manager do?",
+    "options": [
+      "Release all team members as the functional managers request, and give the operations director a list of experts she can call",
+      "Keep the full team together until the productivity gains appear, since the project has not succeeded until its benefits are real",
+      "Agree with the sponsor and operations director on a small, time-boxed support role for key experts, then close and release the rest",
+      "Ask the operations director to hire contractors for adoption support, since the project's duties ended when deliverables were accepted"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Benefits need time and support to be harvested; what is the smallest arrangement that protects them without keeping the project open indefinitely?",
+    "why": "Kerzner notes that for strategic projects some team members may need to stay involved after delivery to help stakeholders extract the benefits, while ownership of harvesting sits with the business. A small, time-boxed arrangement for key experts — agreed with the sponsor, the operations director as benefit owner, and the functional managers — protects adoption during the critical months. The rest of the team can be released and the project formally closed, keeping accountability clear.",
+    "how": "When benefits depend on adoption after delivery, negotiate a limited, time-boxed support arrangement under the benefit owner, then complete formal closure and release the remaining resources.",
+    "optionNotes": [
+      "Incorrect — An on-call list is weak support for a known adoption risk; relapse to old tools could erode the benefit that justified the project.",
+      "Incorrect — Keeping all nine people for five months is costly and unnecessary; the business, not the whole project team, harvests the benefits.",
+      "Correct — A targeted, time-boxed support role under the benefit owner protects adoption while the project closes and releases most people.",
+      "Incorrect — Declaring the job done at acceptance ignores the transition and knowledge-transfer duties of closure and adds avoidable cost."
+    ],
+    "deepDive": "Kerzner describes a benefits-harvesting period after strategic projects deliver their outcomes: the business value gap closes gradually, and someone must own the harvesting, which may or may not include people who built the deliverables. Harvesting can take months or years and may need readjustment. In PMI terms this touches knowledge transfer, organizational change and transition planning, and the sponsor stays accountable for benefits after closure. Exam trap: 'the project ends at acceptance' and 'the project continues until benefits are realized' are both extremes; a tailored middle path is usually best.",
+    "tags": [
+      "closure",
+      "benefits harvesting",
+      "resources",
+      "transition"
+    ]
+  },
+  {
+    "id": "PRO-228",
+    "domain": "Process",
+    "task": "10. Manage project closure",
+    "approach": "Any",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Lessons learned from success",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 10: Value-Driven and Business-Related Metrics (learning from successful projects too)",
+    "question": "A 14-month network-modernization project finished three weeks early and under budget, and the customer is delighted. As closure begins, the sponsor tells the project manager to skip the lessons-learned session: 'Nothing went wrong, so there is nothing to learn — let the team move on.' Several team members believe their new vendor-coordination approach was the main reason for the early finish. What should the project manager do?",
+    "options": [
+      "Skip the session as the sponsor asks, since lessons-learned reviews exist mainly to stop mistakes from being repeated",
+      "Hold a short, focused session to capture what made the project succeed and share it in the organization's repository",
+      "Ask the team members to email their thoughts on the vendor approach to the PMO after they start their next assignments",
+      "Delay closure until a full independent audit of the project is complete so that the success factors can be formally validated"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Is a lessons-learned review only about what went wrong?",
+    "why": "Lessons learned and best practices come from successes as well as failures, and the vendor-coordination approach is a candidate best practice other projects could reuse. A short, focused session before the team disperses captures it while memories are fresh, respects the sponsor's concern about time, and stores the knowledge where future projects can find it. The project manager can explain that value to the sponsor rather than simply dropping the activity.",
+    "how": "At closure, always capture lessons — including success factors — before the team disbands, scale the effort to the project, and store them in the organization's knowledge repository for reuse.",
+    "optionNotes": [
+      "Incorrect — Lessons-learned reviews also capture repeatable success factors; skipping one throws away a practice that shortened the schedule.",
+      "Correct — A brief, focused session preserves the success factors while the team is together and makes them available to future projects.",
+      "Incorrect — Asking for input after people have moved on yields sparse, unstructured feedback and usually loses the most useful details.",
+      "Incorrect — A full audit is out of proportion for capturing a good practice, and it delays closure without adding much learning value."
+    ],
+    "deepDive": "Kerzner stresses that lessons and best practices can be found in projects heading for success as well as in troubled ones, and that a close look at an apparently successful project sometimes reveals hidden problems. He also lists the lack of a process for capturing lessons and best practices as a cause of repeated failure. PMBOK treats lessons learned as an ongoing activity — captured throughout, consolidated at closure and transferred to organizational process assets. In agile teams, retrospectives serve the same purpose continuously.",
+    "tags": [
+      "lessons learned",
+      "closure",
+      "best practices",
+      "knowledge"
+    ]
+  },
+  {
+    "id": "PRO-229",
+    "domain": "Process",
+    "task": "10. Manage project closure",
+    "approach": "Predictive",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Administrative and financial closure",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 8: Adaptive Frameworks and Life Cycles (project closure: administrative closure)",
+    "question": "The customer formally accepted the final deliverable of a factory-automation project two weeks ago. While reconciling costs, the project manager notices that several engineers are still booking time to the project's charge code for 'tidying up files', and a purchase order for spare sensors that were never needed remains open. Finance wants to publish the final cost report next week. What should the project manager do?",
+    "options": [
+      "Complete the remaining closure tasks, close the charge code and the unneeded purchase order, then reconcile the final costs",
+      "Leave the charge code open for another month so that the engineers can finish any clean-up work they might need to do later",
+      "Ask finance to publish the cost report now and treat any further hours and purchase orders as normal operating expenses",
+      "Move the open purchase order and the engineers' hours to a new project so that the final report for this project looks clean"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "What has to be true of the project's accounts before a final cost figure can be trusted?",
+    "why": "Once deliverables are accepted, administrative closure means finishing any genuinely required closure tasks and then closing the accounts so no further costs are charged: closing charge codes, closing or cancelling unneeded purchase orders under their terms, and reconciling actual costs for the final report. This gives finance an accurate final cost and stops open-ended spending on a completed project.",
+    "how": "For financial closure: finish required closure tasks, close charge codes and open purchase orders, reconcile costs against the budget, then publish the final report and archive the records.",
+    "optionNotes": [
+      "Correct — Finishing the closure tasks, then closing accounts and open orders, stops cost leakage and produces an accurate, reconciled final cost.",
+      "Incorrect — An open charge code invites unplanned spending on a finished project and delays the accurate final cost that finance needs.",
+      "Incorrect — Publishing before reconciling yields an inaccurate report and hides project costs in operations, distorting both budgets.",
+      "Incorrect — Shifting costs to another project to make a report look clean misrepresents actual costs and breaches the PMI Code's honesty standard."
+    ],
+    "deepDive": "Kerzner notes that on traditional projects closure happens once the deliverables are accepted: the team performs administrative and contractual closure and moves on. Administrative closure covers financial closure (charge codes, invoices, cost reconciliation), archiving records, final reports and releasing resources; contractual closure covers verifying that contract terms were met, settling claims and formally closing procurements. One common exam trap is to 'leave things open just in case'; another is to disguise costs, which is an ethics issue rather than an accounting shortcut.",
+    "tags": [
+      "closure",
+      "financial closure",
+      "charge codes",
+      "procurement"
+    ]
+  },
+  {
+    "id": "PRO-230",
+    "domain": "Process",
+    "task": "10. Manage project closure",
+    "approach": "Agile",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Knowledge repository at program close",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 4: Digitalization (information warehouses and knowledge repositories)",
+    "question": "A program of six agile teams is closing after two years of building a public-transport ticketing platform. Each team kept its retrospective notes in its own wiki space, and a new program starting next month will reuse the same payment technology. The new program's lead says she has no idea where to find what these teams learned. As the closing program's delivery lead, what should you do?",
+    "options": [
+      "Tell the new program lead which team wikis exist so that she can search the retrospective notes whenever she needs something",
+      "Archive all six team wikis in a read-only folder so that the program's records are complete and protected after closure",
+      "Ask each team to email its most important lessons directly to the new program lead before the teams are released next week",
+      "Curate the key lessons into the organization's searchable repository and walk the new program team through them"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Knowledge that exists but cannot be found or understood has not really been transferred; what would make it usable by the next team?",
+    "why": "Kerzner treats knowledge repositories as a core digital asset: learning is valuable only if others can find and apply it. Consolidating the recurring themes from six teams' retrospectives into the organizational repository, tagged so they are searchable, turns scattered notes into reusable knowledge, and a short walkthrough with the new team passes on tacit context that documents miss. It is also a natural closure activity for the program.",
+    "how": "At closure, lift lessons from local team spaces into the organization's knowledge repository in a curated, searchable form, and pair documents with conversations so tacit knowledge transfers too.",
+    "optionNotes": [
+      "Incorrect — Pointing to six raw wikis leaves the new team to dig through scattered notes, so relevant lessons are likely to be missed.",
+      "Incorrect — A read-only archive preserves the records but does nothing to make the lessons findable or usable by the next program.",
+      "Incorrect — Ad-hoc emails to one person are unstructured, easily lost and unavailable to anyone else who needs the knowledge later.",
+      "Correct — A curated, searchable repository entry plus a walkthrough makes the lessons findable, reusable and understood by the next team."
+    ],
+    "deepDive": "Kerzner's digitalization pillar describes information warehouses and knowledge repositories that store lessons learned, best practices and project data for reuse, feeding business intelligence and better decisions. PMBOK distinguishes explicit knowledge, which can be codified in repositories, from tacit knowledge, which transfers best through conversation, mentoring and communities of practice, so good transfer uses both. In agile programs, retrospective insights tend to stay local to one team; closure is the moment to lift cross-team lessons to the organization. Exam trap: archiving is about records retention, not knowledge transfer.",
+    "tags": [
+      "knowledge transfer",
+      "lessons learned",
+      "closure",
+      "agile"
+    ]
+  },
+  {
+    "id": "PRO-231",
+    "domain": "Process",
+    "task": "10. Manage project closure",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "multi",
+    "topic": "Releasing an agile team at close",
+    "source": "ECO 2026 · Process Task 10 · Agile practice",
+    "question": "An agile team has delivered the final release of a mobile-banking feature, and the product owner has confirmed that the remaining backlog items are not worth funding. The team will be disbanded at the end of the month and its members reassigned to other products, and an operations support group will run the feature from now on. Which actions should the project manager prioritize before the team is released? (Select two.)",
+    "options": [
+      "Hold a final retrospective covering the whole project and share the key insights with other teams in the organization",
+      "Run one more sprint to finish the lowest-priority backlog items so that the backlog is empty when the team disbands",
+      "Transfer knowledge to the support group through documentation, pairing sessions and a clear handover of open issues",
+      "Ask the functional managers to write performance reviews once team members have already moved to their new roles",
+      "Keep the product backlog active and continue refining items in case funding is approved again in the coming months"
+    ],
+    "answer": [
+      0,
+      2
+    ],
+    "hint": "The product owner has already decided what not to build; what must still happen so that learning and operational knowledge outlast the team?",
+    "why": "The product owner has decided the remaining backlog is not worth funding, so the focus shifts to preserving learning and enabling operations. A final whole-project retrospective captures insights for the wider organization, and structured knowledge transfer to the support group — documentation, pairing and an open-issue handover — lets the feature be run safely. Both must happen while the team still exists.",
+    "how": "Closing an agile project: respect the product owner's value decision on remaining scope, run a final retrospective, transfer knowledge to whoever will operate the product, recognize the team, then release people.",
+    "optionNotes": [
+      "Correct — A whole-project retrospective captures lessons while the team is still together and spreads them beyond this one team.",
+      "Incorrect — The product owner judged these items not worth funding; building them anyway spends money without matching value.",
+      "Correct — Structured knowledge transfer and a clean issue handover let the support group run the feature without the original team.",
+      "Incorrect — Performance input should be given while the project manager can still observe and discuss it, not after people have left.",
+      "Incorrect — Continuing to refine a backlog for an unfunded product consumes effort; archive it with the product owner instead."
+    ],
+    "deepDive": "Agile projects often end when the product owner decides the remaining backlog no longer justifies its cost — delivering enough value, not every item, is the point. Closure activities still apply: a final retrospective, knowledge transfer to operations or a successor team, archiving the backlog and artifacts, recognizing contributions, giving performance input, and releasing people through their resource managers. Many organizations prefer to keep stable teams together and bring new work to them; when a team must disband, knowledge transfer matters even more. 'Finish every backlog item before closing' is a common exam distractor.",
+    "tags": [
+      "agile closure",
+      "retrospective",
+      "knowledge transfer",
+      "multi-select"
+    ]
+  },
+  {
+    "id": "PRO-232",
+    "domain": "Process",
+    "task": "10. Manage project closure",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Retiring project access and environments",
+    "source": "ECO 2026 · Process Task 10 · Retiring project environments, subscriptions and access at closure",
+    "question": "An agile team of four employees and seven contract developers has finished a loyalty-rewards feature for a grocery chain's mobile app, and the product owner has accepted the final increment. The contracts end on Friday, and a two-person support team will maintain the app. During the project the team created six cloud test environments, bought a paid feature-flag service that now controls live promotions, and gave every contractor access to the code repository and to a copy of customer data. What should the project manager ensure as part of closing the project?",
+    "options": [
+      "Leave every environment, service and access right in place for three months in case support needs the contractors",
+      "Review each environment, service and access right with the product owner, then transfer, retire or revoke it",
+      "Ask cloud operations to delete every environment and service the project created on Friday so that costs stop",
+      "Record the environments and access rights in the lessons learned so that the next team sets them up with more care"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Some of what the project created is still needed by the product and some is not — who can tell which is which?",
+    "why": "Closure includes winding down the project's own arrangements, not just accepting the product. Leftover environments and subscriptions keep costing money, and contractors who keep repository and customer-data access after their contracts end are a security and privacy exposure. Yet the feature-flag service now runs live promotions, so blanket deletion would break the product. Reviewing each item with the product owner, transferring what the product still needs to the support team, and retiring or revoking the rest — including contractor access on their last day — closes the project cleanly and safely.",
+    "how": "At closure, inventory everything the project created or granted — environments, licenses, subscriptions, accounts and data copies — and, with the product or operations owner, decide for each item whether to transfer, retire or revoke it.",
+    "optionNotes": [
+      "Incorrect — Unused environments keep billing, and leaving former contractors with access to customer data is a serious security and privacy risk.",
+      "Correct — A joint review keeps what the product still needs under a named owner and removes the cost and access the project no longer needs.",
+      "Incorrect — Blanket deletion would switch off the feature-flag service that runs live promotions and could destroy data the support team needs.",
+      "Incorrect — Recording the issue for future teams does nothing about the costs and access risks that exist on this project today."
+    ],
+    "deepDive": "Administrative closure covers more than documents and final acceptance: the project must release the resources it holds, and in digital work those include cloud environments, tool subscriptions, service accounts, licenses and copies of data. Items without an owner become orphaned infrastructure that keeps billing and is rarely patched. Access for people leaving the project, especially external contractors, should be revoked on their exit date in line with the organization's security policy. In agile product settings the product owner decides which tools and environments the product still needs, and the support or operations team takes them over formally.",
+    "tags": [
+      "closure",
+      "access management",
+      "cloud environments",
+      "security",
+      "agile"
+    ]
+  },
+  {
+    "id": "PRO-233",
+    "domain": "Process",
+    "task": "10. Manage project closure",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Judging success at closure",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 8: Adaptive Frameworks and Life Cycles (the wrong definition of success as a cause of failure)",
+    "question": "A hybrid project installed self-service kiosks in 30 branches of a credit union, with the hardware rolled out on a fixed plan and the kiosk software built in sprints. It finished six weeks late and 9% over its original budget; the change log shows both variances came from two sponsor-approved changes, accessibility features and a second language, with the baselines updated each time. Early data show kiosk use 40% above the business-case forecast. The PMO's closure template rates success against the original baseline only, so the PMO lead says the project must be rated 'unsuccessful'. What should the project manager do?",
+    "options": [
+      "Report results against the original and approved baselines, explain the changes, and add the early outcome data",
+      "Rate the project unsuccessful as the template requires, since the original baseline was the commitment at approval",
+      "Ask the sponsor to overrule the PMO lead and rate the project successful, since the sponsor owns the business case",
+      "Leave the rating blank until a full year of kiosk usage data is available, and close the project without a rating"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Which baseline reflects what the organization actually agreed to deliver, and what else shows whether the investment worked?",
+    "why": "Performance is normally judged against the current approved baselines, which here include two changes the sponsor authorized through change control; measured that way, the project delivered what was agreed. Kerzner also warns that using the wrong definition of success, such as time and cost alone, is a cause of failure, and the early outcome data show the business case being exceeded. Reporting both baselines transparently, explaining the approved changes, and adding the outcome evidence gives governance an honest, complete picture, and the template gap can go into the lessons learned. Letting either the PMO lead or the sponsor impose a rating without that evidence, or skipping the rating, is less transparent.",
+    "how": "At closure, evaluate the project against its approved, change-controlled baselines and its intended outcomes, show variances from the original plan with their causes, and feed any flaw in the closure template into lessons learned.",
+    "optionNotes": [
+      "Correct — Shows the full, honest picture: the original commitment, the approved changes that altered it, and early evidence that value is being delivered.",
+      "Incorrect — Ignores changes the sponsor formally approved and judges success on time and cost alone, which misrepresents what the project delivered.",
+      "Incorrect — Using the sponsor's authority to impose a rating replaces evidence with influence and leaves the template's flaw unaddressed.",
+      "Incorrect — Closure should record an evaluation now; outcome measurement continues under the benefit owner and need not hold up the closure report."
+    ],
+    "deepDive": "Among the book's causes of complete or partial failure are a heavy focus on deliverables rather than value and the use of the wrong definition of project success. Closure reports that compare only time, cost and scope with the original plan can make a project that absorbed valuable approved changes look like a failure, while one that hit its dates but produced no benefits looks like a success. PMI practice measures performance against the approved baselines, which change only through change control, and reports variance from the original plan separately as an estimating lesson. Good closure reports combine delivery performance with early outcome evidence and hand longer-term benefit measurement to the business owner.",
+    "tags": [
+      "closure",
+      "project success",
+      "baselines",
+      "value",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "PRO-234",
+    "domain": "Process",
+    "task": "10. Manage project closure",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Settling a claim before contract closure",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 8: Adaptive Frameworks and Life Cycles (project closure: contractual closure)",
+    "question": "A fixed-price contractor has delivered and installed all equipment for a water-treatment plant expansion, and the plant has verified performance against the specifications. Before the contract is closed, the contractor submits a $48,000 claim for extra site work that it says was caused by inaccurate soil data in your bid documents. Your engineer disputes part of the claim. The procurement manager wants the contract closed this month. What should the project manager do?",
+    "options": [
+      "Close the contract as scheduled, since all deliverables have been accepted and the price was fixed under the agreement",
+      "Withhold final acceptance of the equipment until the contractor agrees to withdraw its claim for the extra site work",
+      "Resolve the claim through the contract's claims procedure, preferably by negotiation, before completing contract closure",
+      "Pay the claim in full so that contract closure is not delayed and the good working relationship with the contractor is kept"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "What must be settled before a procurement can be formally closed, and which process governs disagreements?",
+    "why": "Contractual closure requires confirming that all work is complete and accepted and that all claims and disputes are settled. Even under a fixed price, the contractor may be entitled to extra payment if the buyer's own documents (here, the soil data) were inaccurate, so the claim must be evaluated on its merits. Following the contract's claims procedure — negotiation first, then mediation or arbitration only if needed — resolves it properly before the contract is closed.",
+    "how": "For claims at contract closeout: evaluate them against the contract terms, settle through the agreed claims administration (negotiate first, then alternative dispute resolution), and only then formally close the procurement.",
+    "optionNotes": [
+      "Incorrect — Closing with an open claim leaves a live dispute; a fixed price does not cancel entitlements arising from the buyer's own documents.",
+      "Incorrect — Holding verified work hostage to force a withdrawal is coercive, conflicts with the contract and damages trust and fairness.",
+      "Correct — Evaluating and settling the claim through the agreed procedure, starting with negotiation, must come before contractual closure.",
+      "Incorrect — Paying a partly disputed amount without evaluation wastes funds and sidesteps the buyer's duty to manage claims on their merits."
+    ],
+    "deepDive": "Kerzner identifies administrative and contractual closure as the core of traditional project closure once deliverables are accepted. Contractual closure includes verifying deliverables, settling claims, finalizing payments, confirming warranties and archiving the procurement file. In PMI's claims administration, contested changes are claims; negotiation is preferred, followed by alternative dispute resolution such as mediation or arbitration. Differing site conditions caused by inaccurate buyer information are a classic source of legitimate claims even under fixed-price contracts.",
+    "tags": [
+      "contract closure",
+      "claims",
+      "procurement",
+      "closure"
+    ]
+  }
+]

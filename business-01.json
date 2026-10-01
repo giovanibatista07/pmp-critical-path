@@ -1,0 +1,915 @@
+[
+  {
+    "id": "BUS-001",
+    "domain": "Business Environment",
+    "task": "1. Define and establish project governance",
+    "approach": "Any",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "PMO types",
+    "source": "ECO 2026 · Business Environment Task 1",
+    "question": "Priya joins a regional bank as a project manager. The bank's PMO publishes templates, runs training, shares lessons learned on its portal and offers coaching on request, but project managers are not required to use any of it, and the PMO does not review projects. Priya's project is small, and she wants to use a lighter status report than the PMO's template. Given the type of PMO the bank has, what is the MOST accurate description of her position?",
+    "options": [
+      "She needs the PMO's formal approval, because it directly manages all projects",
+      "She must use the template, because the PMO audits compliance with its standards",
+      "She must ask the portfolio board for a waiver, because templates are bank policy",
+      "She may tailor the report, because the PMO advises rather than mandates its use"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Consider how much control a PMO exercises when it offers resources but neither requires their use nor reviews projects.",
+    "why": "The PMO described is supportive: it provides templates, training, lessons learned and coaching, but it neither mandates their use nor reviews projects, so its degree of control is low. Priya can therefore tailor her status report to her small project, ideally still drawing on the PMO's template and making sure her stakeholders' information needs are met.",
+    "how": "PMO types by degree of control: supportive (low — templates, advice, training), controlling (moderate — requires compliance with methods and audits it), directive (high — directly manages projects).",
+    "optionNotes": [
+      "Incorrect — This describes a directive PMO, which assigns and manages project managers directly; this PMO does neither.",
+      "Incorrect — This describes a controlling PMO, which requires compliance and audits projects; this PMO does not review projects.",
+      "Incorrect — Nothing indicates the templates are mandatory policy; a supportive PMO's resources are optional by design.",
+      "Correct — A supportive PMO plays a consultative role with low control, so tailoring its templates is Priya's choice."
+    ],
+    "deepDive": "Many organizations blend PMO types, and PMOs are increasingly framed around value delivery rather than compliance — for example, a value delivery office or an agile PMO that coaches teams and supports portfolio decisions. Tailoring is still expected under a controlling PMO, but it happens within the PMO's rules and may need approval. When tailoring optional templates, the PM should confirm stakeholders still get what they need, such as the steering committee's key measures. A common exam trap is assuming every PMO has authority over projects; the degree of control defines the type.",
+    "tags": [
+      "PMO",
+      "governance",
+      "supportive",
+      "tailoring"
+    ]
+  },
+  {
+    "id": "BUS-002",
+    "domain": "Business Environment",
+    "task": "1. Define and establish project governance",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Escalation paths",
+    "source": "ECO 2026 · Business Environment Task 1 (outline escalation paths)",
+    "question": "During execution of a predictive plant-upgrade project, an unforeseen problem arises: a supplier's insolvency means a replacement control panel must be sourced urgently, at an extra cost of $150,000 that would come from management reserve. The governance plan lets the project manager approve up to $50,000; anything larger needs the steering committee, which meets in six days but can hold an extraordinary session. Each day of delay adds cost. What should the PM do?",
+    "options": [
+      "Wait for the scheduled meeting in six days, then begin sourcing once funds are approved",
+      "Prepare the impact analysis and options, and ask the committee for a prompt decision",
+      "Approve the spending personally, since the situation is urgent and delay costs more",
+      "Split the request into three $50,000 approvals so that each is within your authority"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Check whose authority the amount falls under, then consider how quickly the decision is needed.",
+    "why": "The $150,000 exceeds the PM's $50,000 limit, so the governance plan requires a steering-committee decision. Because each day of delay adds cost, the PM should prepare the impact analysis, options and recommendation now and ask for a prompt decision, using the extraordinary session. Acting beyond authority or gaming the limit would violate governance, while waiting passively lets an urgent problem grow.",
+    "how": "Act within your delegated authority; when a decision exceeds it, escalate promptly through the defined path with analysis, options and a recommendation. Never split or disguise requests to avoid approval limits.",
+    "optionNotes": [
+      "Incorrect — The escalation path is right, but waiting passively for the routine meeting lets an urgent, costly problem drag on.",
+      "Correct — Escalating promptly with analysis and a recommendation respects decision rights while securing a fast, informed decision.",
+      "Incorrect — Urgency does not expand the PM's authority; approving $150,000 personally breaches the governance plan.",
+      "Incorrect — Splitting a request to evade approval limits is dishonest and a serious governance and ethics violation."
+    ],
+    "deepDive": "Management reserve covers unknown-unknowns and is controlled by management, not the PM; using it moves funds into the cost baseline and usually requires sponsor or steering approval. Contingency reserve, by contrast, covers identified risks and is typically released by the PM under the risk management plan. Good governance plans define both authority limits and fast escalation routes for urgent issues, so urgency never becomes an excuse to bypass them. A common exam trap is picking the 'decisive' option of acting beyond authority because delay is costly.",
+    "tags": [
+      "escalation",
+      "authority",
+      "management reserve",
+      "steering committee"
+    ]
+  },
+  {
+    "id": "BUS-003",
+    "domain": "Business Environment",
+    "task": "1. Define and establish project governance",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Steering committee role",
+    "source": "ECO 2026 · Business Environment Task 1 (establish structure)",
+    "question": "A mid-sized insurer is setting up governance for a two-year claims-modernization program. At the first steering committee meeting, several executives propose that the committee review each team's weekly task assignments, sign off the detailed schedule, and inspect every deliverable before release. The program manager is asked to draft the committee's terms of reference. What should the terms of reference define as the committee's PRIMARY role?",
+    "options": [
+      "Directing the daily tasks and assignments of the program's team members each week",
+      "Performing quality inspections of all major deliverables before each release",
+      "Building and maintaining the detailed program schedule and the cost baseline",
+      "Setting direction, deciding beyond the PM's authority, resolving escalations"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Separate governance — steering and deciding — from managing the work itself.",
+    "why": "A steering committee is a governance body: it provides strategic direction and oversight, makes decisions that exceed the program manager's authority (such as major changes, funding and gate decisions), resolves escalated issues, and keeps the program aligned with strategy and benefits. Reviewing weekly assignments, building schedules and inspecting deliverables are management and quality activities that belong to the program manager, the teams and the quality function.",
+    "how": "Distinguish governance (direction, oversight, decisions, escalations) from management (planning and executing the work). When governance bodies drift into management, the PM should tactfully redirect them to their decision role.",
+    "optionNotes": [
+      "Incorrect — Assigning and directing daily work is a management responsibility of the program manager and teams, not of a governance body.",
+      "Incorrect — Quality inspections are performed by the team or quality function; the committee reviews quality results at summary level.",
+      "Incorrect — The PM and team develop the schedule and cost baseline; the committee approves baselines and major changes to them.",
+      "Correct — Direction, decisions above the PM's authority and resolution of escalations are the core of a steering committee's role."
+    ],
+    "deepDive": "Governance frameworks typically define the decision-making structure, roles and responsibilities, stage gates, reporting and escalation paths, risk thresholds and benefits oversight. A steering committee's terms of reference usually state its membership, decision rights, meeting cadence, quorum and the information it receives. Micromanaging committees slow delivery and blur accountability; agile-friendly governance focuses them on outcomes, funding and impediments teams cannot remove themselves. A common exam trap is choosing an operational task for a governance body simply because its members are senior.",
+    "tags": [
+      "steering committee",
+      "governance",
+      "oversight",
+      "terms of reference"
+    ]
+  },
+  {
+    "id": "BUS-004",
+    "domain": "Business Environment",
+    "task": "1. Define and establish project governance",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Defining success metrics",
+    "source": "ECO 2026 · Business Environment Task 1 (define success metrics)",
+    "question": "An airline is launching a three-year digital transformation of its customer-service operations. While governance is being set up, the executives on the steering committee disagree about what success means: the COO talks about cost per contact, the chief digital officer about app adoption, and the CFO about delivering on budget. The sponsor asks the project manager when and how the program's success metrics should be defined. What should the PM recommend?",
+    "options": [
+      "Define them now, during governance setup, as agreed measures tied to the business case",
+      "Define them at the end, based on what was actually delivered and adopted by customers",
+      "Have the PMO set them alone, so that they are consistent and free of stakeholder bias",
+      "Define them once the program is under way and executives have seen some early results"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "You cannot steer toward a destination nobody has agreed on.",
+    "why": "Success metrics should be defined early, during governance setup, agreed with the key stakeholders, measurable, and linked to the business case, so that decisions and trade-offs can be judged consistently throughout the program. Here that means reconciling the executives' views into a balanced set — for example, cost per contact, digital adoption and budget performance — with owners and targets. Without agreement now, each executive will judge the program by a different yardstick.",
+    "how": "Success criteria belong in the charter and governance framework, agreed with stakeholders, tied to the business case and reviewed at gates. Both delivery measures (time, cost, scope) and outcome measures (benefits) are needed.",
+    "optionNotes": [
+      "Correct — Agreeing measurable, business-linked metrics early gives the program a shared target and a basis for governance decisions.",
+      "Incorrect — Defining success after the fact invites bias and cannot guide decisions and trade-offs during the program.",
+      "Incorrect — Metrics imposed without the executives' agreement will not resolve their disagreement or earn their commitment.",
+      "Incorrect — Waiting lets conflicting expectations harden; transformations especially need clear measures from the start."
+    ],
+    "deepDive": "Transformation programs need both delivery measures (schedule, budget, scope) and outcome measures tied to the business case, such as lower cost per contact or higher digital adoption; being on budget alone does not prove that value was created. Balanced scorecards and objectives and key results (OKRs) are common ways to combine them. Leading indicators, such as adoption in early pilots, help steer the program before the lagging outcome measures appear. A common exam trap is treating success as 'on time and on budget' only; PMI emphasizes value and benefits realization.",
+    "tags": [
+      "success metrics",
+      "governance",
+      "KPIs",
+      "business case"
+    ]
+  },
+  {
+    "id": "BUS-005",
+    "domain": "Business Environment",
+    "task": "1. Define and establish project governance",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Sponsor approval above a policy threshold",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Organizational governance systems (2.2): project decisions within organizational thresholds",
+    "question": "Tobiah manages a hybrid program to replace a hospital group's scheduling system, approved by the portfolio board at $2.8 million. The group's investment policy says any project whose forecast cost exceeds $3 million must return to the portfolio board with an updated business case. The sponsor has just approved, in writing, a patient-reminder module that raises the forecast to $3.3 million, and tells Tobiah to start it next sprint, saying, 'I'm the sponsor, so it's my call.' What should Tobiah do?",
+    "options": [
+      "Start the module next sprint, since the sponsor owns the project and approved it in writing",
+      "Report the sponsor to internal audit for breaching the policy before discussing it with her",
+      "Fund the module from contingency reserve so that the forecast stays below the policy limit",
+      "Explain the policy to the sponsor and help her take an updated business case to the board first"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Ask whose authority governs this decision — the project's own governance, or the organization's governance above it.",
+    "why": "Project governance operates within organizational governance. The sponsor can approve changes inside the project's authorized envelope, but the investment policy reserves decisions above $3 million for the portfolio board, so her approval alone is not enough. Tobiah should respectfully explain the policy, help her prepare the updated business case (costs, benefits and options such as phasing the module), and hold the new work until the board decides while the approved scope continues.",
+    "how": "When a decision exceeds the authority set by organizational governance, even a sponsor's approval must go to the higher body. Raise it with the sponsor first, support the escalation with analysis, and never game thresholds.",
+    "optionNotes": [
+      "Incorrect — The sponsor's authority is limited by the investment policy; starting now would commit funds the board has not approved.",
+      "Incorrect — Going to audit before raising it with the sponsor is premature; she may simply be unaware of the threshold.",
+      "Incorrect — Reserves exist for identified risks, not new scope; using them to stay under the limit games the policy.",
+      "Correct — Raising the policy with the sponsor and supporting a board decision respects both her role and the organization's decision rights."
+    ],
+    "deepDive": "PMBOK Guide 7th edition describes project governance as operating inside the wider organizational governance system, which sets policies, thresholds and decision bodies such as portfolio boards. Investment thresholds exist because the portfolio board balances funding across all initiatives, and a project growing past its approved envelope changes that balance. Options such as phasing the module or funding it as a separate proposal help the board decide. The exam often tests escalating to the right level: the sponsor for decisions beyond the PM, and the portfolio board for decisions beyond the sponsor. A common trap is assuming the sponsor's word is final on everything about the project.",
+    "tags": [
+      "governance",
+      "escalation",
+      "portfolio board",
+      "sponsor",
+      "decision rights"
+    ]
+  },
+  {
+    "id": "BUS-006",
+    "domain": "Business Environment",
+    "task": "1. Define and establish project governance",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Governance for scaling an AI pilot",
+    "source": "ECO 2026 · Business Environment Task 1 · Gate criteria and ownership for an AI model",
+    "question": "A logistics company's hybrid program piloted a machine-learning demand-forecasting model in two of its 40 warehouses, and stock-outs there fell by 18%. The COO wants the model rolled out to every warehouse next month. The program's governance framework has gate criteria for hardware and software releases but none for models: nobody is named to monitor forecast accuracy after go-live, approve retraining, or decide when planners may override the model, and the data-science contractors leave at rollout. What should the project manager do?",
+    "options": [
+      "Proceed with the rollout next month and ask the contractors to email accuracy reports",
+      "Pause the rollout indefinitely until the corporate AI policy now under review is published",
+      "Let the data-science contractors define and approve all future model changes, as the experts",
+      "With the sponsor, add AI gate criteria and name an accountable model owner before rollout"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Ask who will be accountable for this model's decisions once the project team has gone, and where that should be settled.",
+    "why": "The pilot shows value, but governance has a gap: nothing defines what a model must meet to scale, who monitors its accuracy, who approves retraining, or when people may override it — and the only experts are leaving. The PM should work with the sponsor and governance board to add model-specific gate criteria (accuracy thresholds, monitoring, override rules, rollback) and name an accountable owner in operations before rollout, with knowledge transfer from the contractors. That keeps the benefit while making the model governable.",
+    "how": "When a new kind of deliverable does not fit existing governance, extend the framework — decision rights, gate criteria and post-transition ownership — before scaling, rather than bypassing governance or waiting indefinitely.",
+    "optionNotes": [
+      "Incorrect — Informal reports from departing contractors leave no accountable owner, no thresholds and no decision rights after they go.",
+      "Incorrect — Waiting indefinitely for an enterprise policy delays proven value; the program can set proportionate controls in its own governance.",
+      "Incorrect — Expertise matters, but handing decisions to departing contractors removes business accountability and oversight for the model.",
+      "Correct — Gate criteria and a named owner close the governance gap, so the model scales with clear accountability after the team leaves."
+    ],
+    "deepDive": "AI models behave differently from conventional software: their accuracy can drift as data patterns change, so governance must cover monitoring, retraining approval and human override after go-live, not just the launch decision. Effective AI governance is multidisciplinary — operations, data science, risk and, where relevant, legal and privacy — with one accountable owner. In PMBOK terms this reflects stewardship and systems thinking, because the output will operate in a changing environment long after closure. Common exam traps are treating a successful pilot as permission to scale without transition planning, and the opposite extreme of halting value until a perfect enterprise policy exists.",
+    "tags": [
+      "ai",
+      "governance",
+      "gate criteria",
+      "transition",
+      "decision rights"
+    ]
+  },
+  {
+    "id": "BUS-007",
+    "domain": "Business Environment",
+    "task": "1. Define and establish project governance",
+    "approach": "Any",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Portfolio vs. program vs. project",
+    "source": "ECO 2026 · Business Environment Task 1",
+    "question": "Meridian Health has 40 proposed and active initiatives competing for the same capital budget and a small pool of clinical-informatics staff. Two of them, a telehealth app and a hospital-records upgrade, both claim top priority, and each executive sponsor has asked their project manager to 'go around' the other. The CEO asks which management function should decide which initiatives to fund, pause or stop so that the organization's investments align with strategy. Which function should make that decision?",
+    "options": [
+      "Program management, which coordinates related projects for shared benefits",
+      "Portfolio management, which selects and balances work against strategy",
+      "Project management, which delivers each project's agreed deliverables",
+      "Operations management, which runs the organization's ongoing business"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Think of the difference between doing projects right and choosing the right projects to do.",
+    "why": "Portfolio management selects, prioritizes and balances projects, programs and operations to achieve strategic objectives within limited capital and people. Deciding which initiatives to fund, pause or stop across the whole organization — including settling competing priorities such as the telehealth app versus the records upgrade — is precisely its role. The project managers should raise the conflict to that forum rather than go around each other.",
+    "how": "Project = delivers a unique output; program = related projects managed together for benefits; portfolio = the collection of work selected and prioritized to meet strategy. Priority conflicts between unrelated initiatives go to portfolio governance.",
+    "optionNotes": [
+      "Incorrect — Program management coordinates related projects for benefits, but these initiatives are unrelated and compete across the organization.",
+      "Correct — Portfolio management decides which work to fund, pause or stop so that investments match strategy and capacity.",
+      "Incorrect — Project managers deliver their own projects and lack the authority to set priorities across the organization's investments.",
+      "Incorrect — Operations management runs ongoing business activities and does not select or prioritize project investments."
+    ],
+    "deepDive": "Portfolio decisions typically combine strategic fit, value measures from business cases (NPV, IRR, payback, benefit–cost ratio), risk and resource capacity, often through a weighted scoring model. Lean portfolio management applies the same idea in agile organizations, funding value streams and reviewing them regularly rather than approving projects one by one. When sponsors ask PMs to bypass each other, the ethical and effective response is to surface the conflict to portfolio governance with facts. A common exam trap is choosing program management whenever several projects appear in one stem.",
+    "tags": [
+      "portfolio",
+      "program",
+      "strategy alignment",
+      "prioritization"
+    ]
+  },
+  {
+    "id": "BUS-008",
+    "domain": "Business Environment",
+    "task": "1. Define and establish project governance",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Oversight based on working product",
+    "source": "ECO 2026 · Business Environment Task 1 (establish policies)",
+    "question": "A city transport authority's governance board receives a 40-page monthly report from each of the three agile teams building its new ticketing app, and each team spends about two days a month preparing it. Every report last quarter was green, yet at the first public demo the app failed basic journeys that the board had assumed were finished. The board chair now proposes weekly reports 'so we are not surprised again.' What should the project manager propose instead?",
+    "options": [
+      "Exempt the agile teams from board reporting, since sprint reviews already give oversight",
+      "Have the PMO audit each team's report against its plan before the report reaches the board",
+      "Have the board judge progress from demonstrated, done increments and objective measures",
+      "Adopt weekly reports but cap each one at ten pages, so that the teams lose less time"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Ask whether the board's problem is how often it hears about progress or what kind of evidence it sees.",
+    "why": "The problem is not how often the board receives reports but what they contain: self-assessed status stayed green while the product did not work, so more frequent reports would repeat the same unreliable signal. Basing oversight on objective evidence — board members seeing done increments demonstrated at sprint reviews or a regular product demo, plus measures such as journeys passing acceptance tests, a release burnup and spend against funding — shows actual progress and exposes problems early. It also lets the teams replace most of the 40-page reports, freeing capacity for delivery.",
+    "how": "In agile and hybrid governance, measure progress by working, done increments and objective measures rather than self-reported status; when reports and reality diverge, change the evidence governance relies on, not just the reporting frequency.",
+    "optionNotes": [
+      "Incorrect — The board has a legitimate need for oversight of funding and risk; sprint reviews help but do not replace governance.",
+      "Incorrect — Auditing documents checks each report against its plan, not the product against its requirements, so green-but-broken work could still pass.",
+      "Correct — Demonstrated increments and objective measures give the board reliable evidence of progress while cutting reporting waste.",
+      "Incorrect — Shorter, more frequent documents still report opinions about progress rather than evidence of working product."
+    ],
+    "deepDive": "Status reports describe work, whereas working product demonstrates it, which is why the Agile Manifesto treats working software as the primary measure of progress and agile governance favors demos and objective measures such as tests passed and journeys completed. 'Watermelon' reporting — green outside, red inside — usually comes from optimistic percent-complete estimates rather than increments that meet the definition of done. Governance still owns funding, compliance and risk decisions, so the board keeps a few thresholds that trigger escalation; tailoring governance is not removing it. A common exam trap is answering a trust problem with more frequent or more heavily checked reports.",
+    "tags": [
+      "agile governance",
+      "working product",
+      "status reporting",
+      "tailoring"
+    ]
+  },
+  {
+    "id": "BUS-009",
+    "domain": "Business Environment",
+    "task": "1. Define and establish project governance",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Phase gates",
+    "source": "ECO 2026 · Business Environment Task 1",
+    "question": "On a predictive project to build a regional sports arena, the design phase has just ended. Design finished three weeks late, and the updated cost estimate lowers the business case's forecast return. The construction contractor is ready to mobilize and urges the project manager to start site work immediately to recover time. The governance plan defines a review by the governance board at the end of each phase. What should happen next?",
+    "options": [
+      "Start site work now to recover time, and update the business case at the next milestone",
+      "Let the project manager decide whether to proceed, since the design work is complete",
+      "Hold the phase-gate review, where the board decides whether and how to proceed",
+      "Submit the updated estimate to the change control board as a routine change request"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Consider what the end of a phase in a predictive life cycle is designed to trigger, and who owns that decision.",
+    "why": "The end of the design phase is a phase gate (stage gate or kill point): the governance board reviews performance to date and the updated business case, then decides to proceed, proceed with conditions, rework, or stop. With the design late and the expected return lower, this is exactly the decision the gate exists for. Starting construction first would commit major funds before the governing body has confirmed that the investment still makes sense.",
+    "how": "At phase ends in a predictive life cycle, hold the gate review: governance compares performance and the business case with the gate criteria and makes a go, go-with-conditions or no-go decision.",
+    "optionNotes": [
+      "Incorrect — Mobilizing construction commits large sums before governance confirms that the weaker business case still justifies the investment.",
+      "Incorrect — Continuing into a new phase is a governance decision beyond the PM's authority, especially with a weaker business case.",
+      "Correct — The phase gate is where the board reviews performance and the business case and makes the go, conditional or stop decision.",
+      "Incorrect — A CCB decides on changes to baselines; whether the project should continue at all is a phase-gate governance decision."
+    ],
+    "deepDive": "Phase gates are also called phase reviews, stage gates, kill points, or phase exits and entries. Gate criteria usually cover deliverable completion, updated cost and schedule forecasts, risk status and the business case, and outcomes range from go to kill. In agile programs the equivalent is regular funding and roadmap reviews based on working increments and validated learning, which allow investment decisions more often and with better evidence. A common exam trap is letting schedule pressure skip the gate; the gate exists precisely to stop sunk-cost momentum.",
+    "tags": [
+      "phase gate",
+      "stage gate",
+      "kill point",
+      "business case",
+      "governance"
+    ]
+  },
+  {
+    "id": "BUS-010",
+    "domain": "Business Environment",
+    "task": "1. Define and establish project governance",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Decision rights",
+    "source": "ECO 2026 · Business Environment Task 1",
+    "question": "A retail group's omnichannel program has two executive co-sponsors: the chief digital officer and the chief operating officer. Both insist on final approval of every major decision, so each design choice needs two sign-offs, and the two often disagree. Decisions now take three to four weeks, teams sit idle while they wait, and some leads have started taking requests to whichever sponsor is likelier to agree. What governance change should the project manager recommend?",
+    "options": [
+      "Escalate every major decision to the executive board so neither sponsor overrules the other",
+      "Agree decision rights with both sponsors: one accountable decider per decision type",
+      "Let the team vote on each major decision so that outcomes reflect expert consensus",
+      "Keep dual approval for major decisions, since balance between the sponsors matters"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Ask what the delays and the sponsor shopping have in common as a root cause.",
+    "why": "The root cause is ambiguous decision authority: two people hold final say on everything, which produces double approvals, delays, and leads choosing the more agreeable sponsor. Agreeing clear decision rights — for example, the CDO decides customer-experience matters and the COO decides store-operations matters, with a defined joint route for decisions affecting both — restores speed and accountability. The PM facilitates the agreement; the sponsors own it.",
+    "how": "Governance must define who decides what. Every significant decision type needs exactly one accountable decision maker, with others consulted, and a tie-break route agreed in advance.",
+    "optionNotes": [
+      "Incorrect — Pushing every decision higher overloads the board and slows decisions further without clarifying accountability.",
+      "Correct — Clear, agreed decision rights remove the double approvals and the sponsor shopping while keeping both sponsors engaged.",
+      "Incorrect — Voting on major decisions is slow and diffuses accountability; experts should inform sponsor-level decisions, not own them.",
+      "Incorrect — Dual approval is the cause of the stall; keeping it preserves the delays and invites continued sponsor shopping."
+    ],
+    "deepDive": "Decision-rights tools include RACI charts with exactly one 'A' per decision, RAPID-style roles, and a decision-rights matrix in the governance plan. Shared final authority can feel collaborative, but it leaves everyone waiting for two people to agree and rewards those who shop for the friendlier approver. A defined route for cross-cutting decisions, such as a joint session with a named tie-breaker, avoids the opposite problem of each sponsor deciding in isolation. A common exam trap is escalating to a higher body, which adds a layer instead of fixing the ambiguity.",
+    "tags": [
+      "decision rights",
+      "governance",
+      "accountability",
+      "sponsor"
+    ]
+  },
+  {
+    "id": "BUS-011",
+    "domain": "Business Environment",
+    "task": "2. Plan and manage project compliance",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "New regulation mid-project",
+    "source": "ECO 2026 · Business Environment Task 2 (confirm compliance requirements)",
+    "question": "Midway through a project to build a mobile payments service for a credit union, the project manager hears at an industry event that a new regulation will require stronger customer authentication for payments, possibly before the planned launch in seven months. The architect wants to add fingerprint login immediately 'to be safe,' while the product owner suggests ignoring the rule until the regulator starts enforcing it. What should the PM do FIRST?",
+    "options": [
+      "Delay the launch until the regulator publishes its final technical guidance",
+      "Add the first strong-authentication method the architect considers adequate",
+      "Continue as planned and address the rule once the regulator begins enforcing it",
+      "Confirm the rule and its timing with compliance experts, then assess impact"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Before choosing a solution or a delay, ask what you actually know about the obligation.",
+    "why": "The PM has only heard about the regulation informally. The first step is to confirm with the organization's compliance or legal experts whether it applies, what exactly it requires and when, and then analyze the impact on scope, schedule, cost and risk. Confirmed requirements then enter the backlog or change control, with evidence of compliance planned before launch.",
+    "how": "Compliance change: confirm the requirement and its applicability → assess impact → plan the response through change control or the backlog → implement → verify and keep evidence.",
+    "optionNotes": [
+      "Incorrect — Delaying before understanding the requirement may be unnecessary and costly; analysis should come before such a decision.",
+      "Incorrect — Choosing a solution before confirming the requirement risks building something that still does not comply.",
+      "Incorrect — Ignoring a likely obligation risks fines, rework and a blocked launch; compliance must be planned before enforcement.",
+      "Correct — Confirming the obligation with experts and then assessing its impact gives a sound basis for any change."
+    ],
+    "deepDive": "A compliance register, or requirements tagged as regulatory in the backlog, tracks each obligation with its source, owner, controls and evidence. Regulations often have transition periods, so confirming timing matters as much as confirming content. In agile delivery, confirmed regulatory requirements become high-priority backlog items with acceptance criteria and may be added to the definition of done. A common exam trap is picking a decisive technical fix before confirming the requirement; another is the passive 'wait for enforcement' option.",
+    "tags": [
+      "compliance",
+      "regulation",
+      "impact analysis",
+      "compliance register"
+    ]
+  },
+  {
+    "id": "BUS-012",
+    "domain": "Business Environment",
+    "task": "2. Plan and manage project compliance",
+    "approach": "Any",
+    "difficulty": "Easy",
+    "type": "multi",
+    "topic": "Compliance categories",
+    "source": "ECO 2026 · Business Environment Task 2 (classify compliance categories)",
+    "question": "A project manager is building the compliance register for a project to construct and fit out a new hospital pharmacy wing. At the kickoff workshop, stakeholders raise many items, and the PM must decide which ones are compliance obligations to be tracked with owners, controls and evidence, rather than preferences or business goals managed elsewhere in the plan. Which TWO items belong in the compliance register? (Select two.)",
+    "options": [
+      "The architect's preference for a particular brand of pharmacy shelving",
+      "A permit condition limiting the construction waste sent to landfill",
+      "The sponsor's wish to open the wing before the annual board meeting",
+      "The national safety rule for installers working at height on scaffolding",
+      "The equipment vendor's suggestion to buy its premium support package"
+    ],
+    "answer": [
+      1,
+      3
+    ],
+    "hint": "Ask which items are imposed by law, regulation, permit or binding policy, and which are choices the project could make differently.",
+    "why": "Compliance obligations are requirements imposed by laws, regulations, permits, standards, contracts or binding policies, and each needs an owner, controls and evidence. The landfill-waste condition is an environmental (sustainability) obligation attached to the permit, and the working-at-height rule is a health-and-safety obligation. The other items are preferences, business goals or vendor offers, which matter but are handled through requirements, scheduling or procurement decisions.",
+    "how": "To classify compliance, ask whether the requirement is mandatory and externally imposed (law, regulation, permit, contract, standard, policy). Then group it by category — safety, security, privacy, environmental, financial, sector-specific — to assign owners and controls.",
+    "optionNotes": [
+      "Incorrect — A design preference is a requirement choice that can be negotiated; it is not a legal or regulatory obligation.",
+      "Correct — A permit condition on landfill waste is a binding environmental obligation that needs an owner, controls and evidence.",
+      "Incorrect — The opening date is a business goal or schedule constraint, managed in the schedule rather than as a compliance obligation.",
+      "Correct — A national rule on working at height is a health-and-safety obligation that the project must meet and demonstrate.",
+      "Incorrect — A vendor's upsell is a procurement decision; nothing makes the premium support package mandatory for the project."
+    ],
+    "deepDive": "Other common compliance categories include data privacy, information security, accessibility, financial controls, industry standards and sector regulations, labor law and export controls. The 2026 ECO emphasizes classifying compliance requirements so each gets the right owner — for example, a safety officer for site safety and an environmental manager for permit conditions. Unlike preferences and goals, compliance obligations are usually not negotiable trade-offs, so they should be visible in the plan and, in agile work, in the definition of done. A common exam trap is treating a hard deadline or a sponsor's wish as a compliance requirement when nothing external imposes it.",
+    "tags": [
+      "compliance categories",
+      "safety",
+      "sustainability",
+      "multi-select",
+      "compliance register"
+    ]
+  },
+  {
+    "id": "BUS-013",
+    "domain": "Business Environment",
+    "task": "2. Plan and manage project compliance",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Privacy by design in an agile feature",
+    "source": "ECO 2026 · Business Environment Task 2 · Privacy requirements in the definition of done",
+    "question": "An agile team at a fitness-app company is building a feature that suggests running routes. To 'keep options open for future features,' the developers plan to collect users' continuous GPS location even when the app is closed, plus their contacts and health data, and to 'handle privacy later' because the release is due in six weeks. The company operates under a privacy law that requires data minimization and a lawful purpose for each type of personal data. What should the project manager do?",
+    "options": [
+      "Let the developers collect all the data now and add privacy controls before the next audit",
+      "Collect the data now but hold it in a separate database until a future use is decided",
+      "With the PO and privacy officer, limit the data and add privacy to the definition of done",
+      "Ask the legal team to draft a longer consent notice so users can accept every data use"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Consider what the law's principles say about collecting data for purposes that do not exist yet.",
+    "why": "Privacy by design means building privacy into the product from the start rather than retrofitting it. Collecting background location, contacts and health data 'just in case' breaches data minimization, because the route feature has no purpose for most of it. The PM should bring the product owner and privacy officer together to limit collection to what the feature needs and make privacy checks — such as a privacy review of any new data field — part of the definition of done, so that every increment complies.",
+    "how": "In agile delivery, make compliance explicit in backlog items, acceptance criteria and the definition of done, and involve compliance specialists early rather than at release.",
+    "optionNotes": [
+      "Incorrect — Retrofitting privacy is costly and means non-compliant collection happens in the meantime, exposing users and the company.",
+      "Incorrect — Storing data separately does not make its collection lawful; data with no present purpose breaches minimization.",
+      "Correct — Limiting collection and building privacy into the definition of done achieves privacy by design in every increment.",
+      "Incorrect — A longer consent notice does not cure collecting data with no purpose, and users rarely give truly informed consent to it."
+    ],
+    "deepDive": "Privacy by design and by default is a principle in many modern privacy laws: collect the minimum data needed for a stated purpose, keep it only as long as necessary, and protect it by default. For high-risk processing, such as continuous location or health data, many laws also require a privacy impact assessment before launch. Agile teams can make this routine through privacy acceptance criteria, a privacy check in the definition of done, and a privacy specialist joining refinement sessions. A common exam trap is treating consent as a cure-all; consent does not justify collecting data that has no legitimate purpose.",
+    "tags": [
+      "privacy by design",
+      "data minimization",
+      "definition of done",
+      "compliance",
+      "agile"
+    ]
+  },
+  {
+    "id": "BUS-014",
+    "domain": "Business Environment",
+    "task": "2. Plan and manage project compliance",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "AI detection versus a required safety control",
+    "source": "ECO 2026 · Business Environment Task 2 · Safety compliance when adding AI to a controlled process",
+    "question": "A hybrid project at a food-processing plant is installing an AI camera system that detects people near a high-speed packaging robot and stops it. In integration tests, the system detected every person in 2,000 trials. The operations manager now proposes removing the physical light curtain around the robot, which the plant's machine-safety risk assessment requires, because it slows changeovers and 'the AI is more accurate anyway.' The AI vendor offers a letter stating that its system is safer. What should the project manager do?",
+    "options": [
+      "Remove the light curtain for a two-week trial while supervisors closely watch the robot",
+      "Accept the vendor's letter as evidence and remove the light curtain after the next test cycle",
+      "Keep the light curtain and refer the proposal to the safety engineer through change control",
+      "Remove the light curtain, since 2,000 successful trials show the AI system is reliable enough"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Ask who is qualified to decide whether a required safety control may change, and what evidence that decision needs.",
+    "why": "The light curtain is a control required by the plant's machine-safety risk assessment, so removing it is a safety-compliance decision, not an operational convenience. Test results and a vendor letter are not independent safety validation: an AI detection system may fail in conditions the tests did not cover, such as poor lighting, obstructions or unusual clothing. The PM should keep the curtain in place and route the proposal through change control to the safety engineer, who can assess it against the applicable machine-safety standard and decide what evidence would be required.",
+    "how": "When a proposal would change a mandated safety control, keep the control in place, involve the accountable safety authority, and use formal change control; neither schedule pressure nor vendor claims replace a safety assessment.",
+    "optionNotes": [
+      "Incorrect — A trial without the required control exposes workers to an unassessed hazard; supervision is no substitute for a validated safeguard.",
+      "Incorrect — The vendor's own letter is not independent validation and does not satisfy the plant's safety risk assessment or standard.",
+      "Correct — The required control stays while qualified safety specialists assess the change formally, protecting people and compliance.",
+      "Incorrect — Two thousand test trials cannot reveal rare failure modes; a safety function needs formal validation, not a test count."
+    ],
+    "deepDive": "Health and safety is a core compliance category in the 2026 ECO, and AI adds a new twist: machine-learning systems are probabilistic and can fail in situations absent from their test data. Machinery safety standards typically require functional-safety evidence, such as a demonstrated performance level, before a control can be relied on — far more than demonstration testing. Adding the AI system as an extra layer while keeping the certified control is often acceptable; replacing the control is a much bigger decision. When people's safety is at stake, PMI's mindset is decisive, and a common exam trap is accepting a trial or a vendor assurance to relieve schedule pressure.",
+    "tags": [
+      "ai",
+      "safety",
+      "compliance",
+      "change control",
+      "vendor claims"
+    ]
+  },
+  {
+    "id": "BUS-015",
+    "domain": "Business Environment",
+    "task": "2. Plan and manage project compliance",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Rubber-stamp review of AI decisions",
+    "source": "ECO 2026 · Business Environment Task 2 · Measuring whether AI human oversight works",
+    "question": "A public benefits agency's hybrid program is piloting an AI tool that recommends whether to deny benefit applications. Agency policy and the governing regulation require every recommended denial to be reviewed by a qualified caseworker who can override it. Pilot logs show caseworkers confirmed 2,996 of 3,000 recommended denials with a median review time of six seconds, and the review screen shows only the AI's recommendation, not the evidence behind it. The sponsor wants to scale next month, saying 'every denial has a human sign-off.' What should the project manager do?",
+    "options": [
+      "Report the control as compliant, since a qualified caseworker signs off every denial",
+      "Drop the human review step, since caseworkers agreed with nearly every recommendation",
+      "Treat it as a compliance gap; redesign and test the review with compliance first",
+      "Set a quota requiring caseworkers to override at least 5% of recommended denials"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Ask whether the control exists only on paper or actually works the way the requirement intends.",
+    "why": "The requirement is for meaningful human review that can override the AI, not merely a signature. Agreement in 2,996 of 3,000 cases (99.9%), six-second reviews and a screen without the underlying evidence strongly suggest automation bias — caseworkers are rubber-stamping, so the control is not effective. The PM should raise this with the sponsor and compliance officer as a compliance gap, redesign the review (show the evidence, allow time, train caseworkers, audit samples), and verify that it works before scaling.",
+    "how": "Measuring compliance means testing whether a control works in practice, not only whether it exists; when evidence shows a control is ineffective, correct it before extending its use.",
+    "optionNotes": [
+      "Incorrect — A signature on every case shows the control exists on paper, but the data show it is not a meaningful review.",
+      "Incorrect — Removing required human oversight breaches the policy and regulation; near-total agreement is a warning sign, not proof of accuracy.",
+      "Correct — The evidence points to automation bias, so the review must be made effective and verified before more applicants are affected.",
+      "Incorrect — An override quota distorts judgment in the other direction and still gives caseworkers none of the evidence they need."
+    ],
+    "deepDive": "Automation bias is the tendency to over-trust automated recommendations, especially under time pressure or when the system's reasoning is hidden. Human-oversight requirements in AI regulation and public-sector policy aim for reviewers who have the competence, information, time and authority to disagree. Useful compliance measures include override rates, review times, sample audits of reviewed cases and outcome checks across applicant groups. Measuring whether a control actually works is part of managing compliance in the 2026 ECO. A common exam trap is accepting 'a human signs off' as proof of oversight.",
+    "tags": [
+      "ai",
+      "human oversight",
+      "compliance",
+      "automation bias",
+      "public sector"
+    ]
+  },
+  {
+    "id": "BUS-016",
+    "domain": "Business Environment",
+    "task": "2. Plan and manage project compliance",
+    "approach": "Any",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Least-privilege access for contractors",
+    "source": "ECO 2026 · Business Environment Task 2 · Security compliance for third-party access",
+    "question": "A health insurer's project is migrating 1.2 million member records to a new claims platform with the help of a contracted migration firm. The firm's six engineers ask for one shared administrator login to the production member database for the full four-month project, saying access tickets will slow them down. The insurer's security policy requires named accounts, least-privilege access approved by the data owner, and logging of all access to member data. The migration is on the critical path, and the sponsor is pressing for speed. What should the project manager do?",
+    "options": [
+      "Grant the shared login now to protect the schedule, and change the password when work ends",
+      "Give each engineer a named administrator account for the whole project, for traceability",
+      "Ask the sponsor to sign a risk acceptance that waives the security policy for the migration",
+      "Arrange named, role-based access limited to the migration's data and period, with logging"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Check which option satisfies every element of the security policy rather than only part of it, and who owns access to the data.",
+    "why": "The policy sets three requirements: named accounts, least-privilege access approved by the data owner, and logging. Working with the data owner and security team to give each engineer a named, role-based account limited to the data and systems the migration needs, for the migration window only, with access logged, satisfies all three. Any set-up lead time should be planned into the schedule rather than used as a reason to bypass the policy.",
+    "how": "For security compliance on access requests, apply named accounts, least privilege, time-limited access, data-owner approval and logging; plan the lead time instead of trading compliance for speed.",
+    "optionNotes": [
+      "Incorrect — A shared administrator login breaks the named-account, least-privilege and traceability requirements for highly sensitive member data.",
+      "Incorrect — Named accounts help traceability, but full administrator rights for four months still violate least privilege.",
+      "Incorrect — A compliant option exists, and a project sponsor typically lacks the authority to waive the organization's security policy.",
+      "Correct — Named, role-based, time-limited, logged access approved by the data owner meets the policy while enabling the migration."
+    ],
+    "deepDive": "Least privilege means granting only the access needed to perform a task, for only as long as it is needed; it limits the damage from mistakes, stolen credentials or misuse. Third-party access is a frequent source of data breaches, so supplier contracts should also set security obligations, audit rights and breach-notification duties. Removing the engineers' access when the migration ends is part of closure. In agile delivery, security requirements can be written as acceptance criteria and checks in the definition of done. A common exam trap is accepting a partial control, such as named accounts with excessive rights, as full compliance.",
+    "tags": [
+      "security",
+      "least privilege",
+      "compliance",
+      "third-party access",
+      "data protection"
+    ]
+  },
+  {
+    "id": "BUS-017",
+    "domain": "Business Environment",
+    "task": "2. Plan and manage project compliance",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Ethics — gifts from vendors",
+    "source": "ECO 2026 · Business Environment Task 2 · PMI Code of Ethics",
+    "question": "During contract negotiations for a new fleet-maintenance service, the sales director of one of three shortlisted vendors offers the project manager two premium concert tickets worth about $400 'as a thank-you for your time.' Company policy prohibits accepting supplier gifts worth more than $50 and requires any such offer to be reported to the procurement office. The vendor evaluation will be completed next week. What should the PM do?",
+    "options": [
+      "Accept the tickets and give them to a team member as a reward for hard work",
+      "Accept the tickets, since the vendor has not yet been selected for the contract",
+      "Accept the tickets but make sure the gift does not influence the evaluation",
+      "Decline, report the offer to procurement as required, and keep the evaluation objective"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Consider both the written policy and how the situation would look to the other bidders.",
+    "why": "Accepting the tickets would breach the $50 gift policy and create at least the appearance of a conflict of interest during an active evaluation. The PM should decline politely, report the offer to the procurement office as the policy requires, and keep evaluating all three vendors against the published criteria. This reflects the PMI Code of Ethics values of responsibility, fairness and honesty.",
+    "how": "For gifts and conflicts of interest, follow organizational policy, decline anything that could influence or appear to influence a decision, disclose the offer, and keep the process fair.",
+    "optionNotes": [
+      "Incorrect — Passing the gift to a team member still means accepting a prohibited gift and does not remove the conflict of interest.",
+      "Incorrect — An active negotiation is exactly when a gift can sway the outcome, and the policy applies regardless of timing.",
+      "Incorrect — Personal resolve does not remove the appearance of bias, and accepting the tickets still breaches the gift policy.",
+      "Correct — Declining, reporting as policy requires and staying objective protects the fairness and integrity of the procurement."
+    ],
+    "deepDive": "Under the Fairness value of the PMI Code of Ethics, practitioners proactively and fully disclose real or potential conflicts of interest and do not let personal gain influence decisions. Where local customs around gifts differ, the organization's policy and applicable law set the boundary, and when in doubt the PM should ask the ethics or procurement office. Reporting the offer also protects the PM and the other bidders if questions arise later. A common exam trap is the 'accept but stay objective' option, because the appearance of bias matters as much as actual bias.",
+    "tags": [
+      "ethics",
+      "conflict of interest",
+      "procurement",
+      "Code of Ethics"
+    ]
+  },
+  {
+    "id": "BUS-018",
+    "domain": "Business Environment",
+    "task": "2. Plan and manage project compliance",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Sustainability requirements",
+    "source": "ECO 2026 · Business Environment Task 2 · PMBOK 8 (Integrate sustainability)",
+    "question": "A European retail client's new logistics contract requires the supplier's project to report the carbon footprint of its transport and warehousing operations every quarter, using a named greenhouse-gas accounting method, and gives the client the right to audit the figures. The contract starts next month. The supplier's logistics lead suggests simply estimating the numbers from industry averages at each quarter-end. What should the project manager do?",
+    "options": [
+      "Estimate the figures at each quarter-end from published industry averages",
+      "Plan the reporting: data sources, owners and method, and verify each report",
+      "Treat the clause as optional, since it does not change the contracted services",
+      "Ask the client to remove the clause, since carbon reporting is outside scope"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Ask whether a contractual, auditable sustainability clause is any different from other compliance obligations.",
+    "why": "Carbon reporting required by contract is a compliance obligation, and because the client can audit it, the figures must be accurate and defensible. The PM should plan it like any requirement: identify data sources (fuel use, energy meters, subcontractor data), assign owners, apply the named accounting method, build data collection into operations, and verify each report before submission. End-of-quarter guesses from averages would neither follow the method nor survive an audit.",
+    "how": "Treat sustainability and ESG obligations with the same rigor as other compliance items: plan → assign ownership → measure → verify → report, and keep evidence for audits.",
+    "optionNotes": [
+      "Incorrect — Industry averages do not reflect the project's actual operations or the named method, so the reports could fail an audit.",
+      "Correct — Planned data sources, clear owners, the required method and verification produce accurate, auditable reports.",
+      "Incorrect — Contractual obligations are not optional; ignoring this one risks breach of contract and damage to the relationship.",
+      "Incorrect — The clause is part of the agreed contract; trying to remove it dodges an obligation the client clearly values."
+    ],
+    "deepDive": "Sustainability runs through the 2026 ECO's compliance and external-environment tasks, and the current PMBOK Guide gives it greater prominence. Greenhouse-gas reporting usually distinguishes direct emissions, purchased energy and value-chain emissions, so data from subcontractors may be needed and should be required in their contracts. Building measurement into operations from day one is far cheaper than reconstructing data later. A common exam trap is treating ESG clauses as nice-to-have extras; when they are contractual or regulatory, they are compliance requirements.",
+    "tags": [
+      "sustainability",
+      "ESG",
+      "carbon reporting",
+      "compliance"
+    ]
+  },
+  {
+    "id": "BUS-019",
+    "domain": "Business Environment",
+    "task": "2. Plan and manage project compliance",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Responding to a compliance gap",
+    "source": "ECO 2026 · Business Environment Task 2 (measure compliance)",
+    "question": "An internal audit of a city council's digital-services project finds that the accessibility testing required by corporate policy was skipped for the last three releases of the public website, because the test step was dropped from the release checklist when a new tester joined. Several forms may now be unusable with screen readers, and national law also requires public-sector websites to be accessible. What should the project manager do?",
+    "options": [
+      "Explain to the auditors that the testing vendor was responsible for these checks",
+      "Wait for the next audit to see whether the finding is raised again before acting",
+      "Own the finding, assess the exposure, fix and prevent it, and report it to governance",
+      "Explain to the auditors that tight release deadlines made the testing impossible"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Think about fixing both the gap that exists now and the reason it happened.",
+    "why": "A compliance gap calls for accountable action: acknowledge the finding, assess which pages and users are affected, correct the past releases (corrective action), restore the test step and add a safeguard such as an automated accessibility check in the release pipeline (preventive action), and report transparently to governance. Because national law also applies, the exposure may be legal as well as reputational, so the compliance or legal team should be involved.",
+    "how": "Corrective action fixes the current nonconformance; preventive action removes its cause so it does not recur. Report compliance gaps openly to governance rather than deflecting.",
+    "optionNotes": [
+      "Incorrect — Blaming the vendor deflects accountability; the project remains responsible for planning and verifying compliance.",
+      "Incorrect — Waiting leaves users unable to complete the forms and the council exposed to legal risk for months.",
+      "Correct — Accountable correction, prevention of recurrence and transparent reporting address both the gap and its root cause.",
+      "Incorrect — Excuses do not resolve the gap, and deadlines do not suspend legal or policy obligations."
+    ],
+    "deepDive": "Accessibility standards such as the Web Content Accessibility Guidelines (WCAG) are legally required for public-sector websites in many jurisdictions. The root cause here was a process weakness — a checklist step lost during a handover — so the lasting fix is to make the check hard to skip, for example by automating it and adding it to the definition of done. Automated tools catch only some issues, so manual testing with assistive technology is still needed. A common exam trap is choosing a response that explains the failure rather than one that corrects it.",
+    "tags": [
+      "audit",
+      "corrective action",
+      "preventive action",
+      "accessibility",
+      "compliance"
+    ]
+  },
+  {
+    "id": "BUS-020",
+    "domain": "Business Environment",
+    "task": "2. Plan and manage project compliance",
+    "approach": "Any",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Pressure to claim a milestone early",
+    "source": "ECO 2026 · Business Environment Task 2 · Contract compliance and honest milestone reporting",
+    "question": "Kasimir is the supplier's project manager on a fixed-price contract to deliver a baggage-screening system to an airport. The contract allows the $1.2 million milestone 3 invoice only after the airport signs off the site acceptance test, which is now due to finish two weeks after quarter-end. The supplier's regional sales vice president asks Kasimir to mark milestone 3 as achieved in the billing system today so the invoice goes out this quarter, saying, 'We'll finish the test in two weeks anyway.' What should Kasimir do?",
+    "options": [
+      "Mark the milestone achieved, with a note that the site acceptance test is still running",
+      "Decline to record it, explain the contract terms, and offer accurate status and options",
+      "Ask the airport to sign acceptance now with a side letter promising to fix any test findings",
+      "Mark the milestone achieved once the vice president confirms in writing that he is responsible"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Ask what the contract says triggers the payment, and what the PMI Code of Ethics expects when you are pressed to misstate facts.",
+    "why": "The contract ties the milestone invoice to the airport's sign-off of the site acceptance test, which has not happened. Recording the milestone as achieved would misstate the project's status and bill the client for something not yet earned, breaching both the contract and the PMI Code of Ethics value of honesty. Kasimir should decline, explain the contract terms, and give the vice president accurate status and legitimate options, such as ways to bring the test forward; if the pressure continues, he should raise it through the company's compliance or ethics channel.",
+    "how": "When pressed to misreport status or trigger payments early, decline, explain the contractual or policy basis, offer legitimate alternatives, and escalate through ethics or compliance channels if the pressure persists.",
+    "optionNotes": [
+      "Incorrect — A note does not change the fact that the billing record claims an achievement the contract has not yet recognized.",
+      "Correct — Declining, explaining the contract, and offering honest status and options keeps the supplier compliant and truthful.",
+      "Incorrect — Pressing the client to accept before testing undermines the purpose of acceptance and circumvents the contract's terms.",
+      "Incorrect — Written cover from a senior person does not make a false record accurate; Kasimir would still be misstating the facts."
+    ],
+    "deepDive": "Milestone payments in fixed-price contracts are usually tied to objective evidence, such as a signed acceptance certificate, so both parties know exactly when payment falls due. The PMI Code of Ethics asks practitioners to provide accurate, truthful information and not to engage in deceptive behavior for personal or organizational gain, even under pressure from senior people. Offering legitimate options — expediting the test, giving finance an honest forecast — keeps the conversation constructive rather than confrontational. A common exam trap is the 'get it in writing' option: documented instructions do not make a misrepresentation acceptable.",
+    "tags": [
+      "ethics",
+      "contract compliance",
+      "honesty",
+      "milestone payment",
+      "Code of Ethics"
+    ]
+  },
+  {
+    "id": "BUS-021",
+    "domain": "Business Environment",
+    "task": "3. Manage and control changes",
+    "approach": "Predictive",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Handling a change request",
+    "source": "ECO 2026 · Business Environment Task 3 (execute change control)",
+    "question": "On a predictive project to implement a finance system for a university, scope, schedule and cost are baselined, and the change control board meets weekly. At a design review, the deputy vice-chancellor — an influential stakeholder — asks the project manager to add a research-grants reporting module, saying it would 'take the team only a few days.' What should the PM do FIRST?",
+    "options": [
+      "Ask the sponsor to approve the module informally so the team can begin right away",
+      "Document a change request and analyze its impact on scope, schedule, cost, and risk",
+      "Add the module to the plan, since the stakeholder is influential and it adds value",
+      "Reject the request, since the scope is baselined and changes would cause delays"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Neither a yes nor a no is possible before the impact is understood.",
+    "why": "In a predictive project with baselines and a CCB, a new request is first documented as a change request, and its impact on scope, schedule, cost, quality and risk is analyzed — the 'few days' claim needs checking. The CCB then approves, rejects or defers it, and approved changes update the baselines and are communicated. The PM neither promises nor refuses before the analysis.",
+    "how": "Integrated change control: request → document → analyze impact → decision by the authorized body → update plans and baselines → implement → communicate and verify.",
+    "optionNotes": [
+      "Incorrect — Informal approval bypasses the CCB and the impact analysis the process requires, whoever gives it.",
+      "Correct — Documenting and analyzing the change first gives the CCB what it needs to decide, regardless of who asked for it.",
+      "Incorrect — Adding work without approval is scope creep, and a stakeholder's influence does not replace the change process.",
+      "Incorrect — Baselined scope can change through proper control, and the module may be valuable; refusing before analysis is premature."
+    ],
+    "deepDive": "Change requests can be corrective actions, preventive actions, defect repairs or updates, and in predictive projects all of them pass through integrated change control. Many governance plans let the PM approve small changes within set thresholds and route larger ones to the CCB or sponsor. In agile work, the same request would go to the product owner as a new backlog item to be ordered against existing work. A common exam trap is picking 'reject' because the scope is baselined; baselines are controlled, not frozen.",
+    "tags": [
+      "change request",
+      "integrated change control",
+      "impact analysis",
+      "scope creep"
+    ]
+  },
+  {
+    "id": "BUS-022",
+    "domain": "Business Environment",
+    "task": "3. Manage and control changes",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Change control board",
+    "source": "ECO 2026 · Business Environment Task 3",
+    "question": "On a predictive construction project for a regional museum, the change control board rejected a request to replace the planned exterior cladding with a more expensive glass system, because it would add $400,000 and eight weeks. The museum director, who strongly supported the request, now asks the project manager to 'just go ahead with the glass this once,' saying he will find the money later. What should the PM do?",
+    "options": [
+      "Install glass on one façade so the director gets part of what he asked for",
+      "Explain the decision, record it, and see if new facts justify a resubmission",
+      "Ask the contractor to install glass at its own risk so the baseline isn't affected",
+      "Proceed with the glass, since keeping the customer satisfied is the top priority"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "A rejected change stays rejected unless something about the analysis has changed.",
+    "why": "The CCB's decision stands unless new information changes the analysis. The PM should explain the decision and its reasons respectfully, make sure it is recorded in the change log, and discuss whether anything has changed — for example, if the director secures confirmed additional funding, a revised request could be submitted. Implementing a rejected change, fully or partly, would undermine governance and the baselines.",
+    "how": "Never implement rejected or unapproved changes. Communicate change decisions transparently, record them in the change log, and resubmit only with new information.",
+    "optionNotes": [
+      "Incorrect — A partial installation is still an unauthorized change and would compromise the approved design and budget.",
+      "Correct — Respecting the decision, recording it and offering a route for a revised request protects governance and the relationship.",
+      "Incorrect — Shifting the risk to the contractor does not authorize the change and would probably create a claim later.",
+      "Incorrect — Customer satisfaction does not override a change control decision made by the agreed governance structure."
+    ],
+    "deepDive": "The change log records every change request and its status — approved, rejected or deferred — and supports transparent communication with stakeholders. A rejected request can be resubmitted if circumstances change, such as confirmed funding or a revised estimate, and the CCB then reassesses it. If the customer believes the CCB lacked authority for the decision, the right route is the governance escalation path, not an informal instruction to the PM. A common exam trap is choosing a compromise that partly implements a rejected change.",
+    "tags": [
+      "CCB",
+      "change log",
+      "rejected change",
+      "governance"
+    ]
+  },
+  {
+    "id": "BUS-023",
+    "domain": "Business Environment",
+    "task": "3. Manage and control changes",
+    "approach": "Any",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Change log vs. issue log",
+    "source": "ECO 2026 · Business Environment Task 3 (communicate status)",
+    "question": "A predictive project to upgrade a port's crane-control systems has received 27 change requests in six months. At the monthly stakeholder meeting, the terminal operations manager complains that nobody can tell him which of his team's requests were approved, rejected or deferred, or why, and he has been chasing the project manager by email. The PM wants a single project document that stakeholders can consult for this information. Which document should the PM use?",
+    "options": [
+      "The change log, which records each change request with its status and decision",
+      "The issue log, which records open problems and the actions to resolve them",
+      "The risk register, which records uncertain events and their planned responses",
+      "The assumption log, which records assumptions and constraints and their validity"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Consider which project document is designed to follow a request all the way to a decision.",
+    "why": "The change log records every change request, its status (approved, rejected, deferred), the decision and its rationale, and it is used to communicate change decisions to stakeholders. Sharing it, or a filtered view of it, answers the operations manager's questions without one-off emails. The other documents track problems, uncertainties and assumptions, not change decisions.",
+    "how": "Change log = change requests and decisions; issue log = current problems needing action; risk register = uncertain future events; assumption log = assumptions and constraints. Choose the document by what it tracks.",
+    "optionNotes": [
+      "Correct — The change log tracks every request's status and decision, which is exactly what the operations manager needs to see.",
+      "Incorrect — The issue log tracks current problems and their resolution, not the outcome of change requests.",
+      "Incorrect — The risk register tracks uncertain future events and responses; change decisions are recorded elsewhere.",
+      "Incorrect — The assumption log tracks assumptions and constraints, not the progress of change requests through approval."
+    ],
+    "deepDive": "Approved changes also update the affected plans, baselines and documents, while the configuration management system keeps their versions under control. Making the change log visible — for example, as a shared dashboard — cuts email chasing and builds trust, especially with stakeholders whose requests were rejected. In agile work the product backlog plays a similar role: stakeholders can see where their requests sit in priority order and why. A common exam trap is confusing the issue log with the change log, because a disputed change can also become an issue.",
+    "tags": [
+      "change log",
+      "project documents",
+      "communication",
+      "change control"
+    ]
+  },
+  {
+    "id": "BUS-024",
+    "domain": "Business Environment",
+    "task": "3. Manage and control changes",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Configuration management",
+    "source": "ECO 2026 · Business Environment Task 3 (implement approved changes)",
+    "question": "On a predictive defense-electronics project, two subcontractor teams built their interfaces against different versions of the same interface control document: one used version 2.3, the other version 2.5, which had been approved but never formally released to both teams. The mismatch surfaced only at system integration and caused six weeks of rework. At the lessons-learned session, the sponsor asks which project system should have prevented this. What should the project manager answer?",
+    "options": [
+      "The risk breakdown structure, which groups the project's risks by category",
+      "The resource management plan, which defines how teams are acquired and managed",
+      "The configuration management system, which controls versions and their status",
+      "The communications management plan, which defines how information is distributed"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Think about which system ensures everyone works from the current approved version of a controlled document.",
+    "why": "Configuration management identifies configuration items such as interface control documents, controls their versions, records and reports which version is current (status accounting), and verifies through audits that the correct versions are in use. Had version 2.5 been released through configuration control with notification and verification, neither team could have kept building against 2.3 unnoticed. Change control approved the new version; configuration management should have ensured that everyone used it.",
+    "how": "Change control decides whether a change is made; configuration management controls the versions and integrity of the items being changed and ensures everyone uses the right one.",
+    "optionNotes": [
+      "Incorrect — A risk breakdown structure categorizes risks to aid identification; it does not control document versions.",
+      "Incorrect — The resource management plan covers acquiring and managing people and equipment, not version control of documents.",
+      "Correct — Configuration identification, status accounting and verification would have ensured both teams used version 2.5.",
+      "Incorrect — Communication planning matters, but controlling and verifying which version is current is configuration management's job."
+    ],
+    "deepDive": "Configuration management activities include configuration identification, configuration status accounting, and configuration verification and audit. Interface control documents are classic configuration items on multi-supplier projects, because mismatches appear only when parts come together. In agile and DevOps settings, version control, automated builds and contract tests on interfaces play the same role continuously. A common exam trap is confusing change control (the decision about a change) with configuration management (control of the items and versions after that decision).",
+    "tags": [
+      "configuration management",
+      "version control",
+      "interfaces",
+      "change control"
+    ]
+  },
+  {
+    "id": "BUS-025",
+    "domain": "Business Environment",
+    "task": "3. Manage and control changes",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Change during a sprint",
+    "source": "ECO 2026 · Business Environment Task 3",
+    "question": "In the middle of a two-week sprint on a hotel-booking platform, the marketing director goes straight to the developers and asks them to add a promotional banner for a campaign launching in five weeks. The request is unrelated to the current sprint goal, which the developers are on track to meet. When they hesitate, the director tells the project manager the banner is urgent and asks her to make sure it goes in now. How should the request be handled?",
+    "options": [
+      "Reject it, since agile teams do not accept any scope changes once a sprint has started",
+      "Route it to the product owner to order in the backlog for a coming sprint",
+      "Submit it to the change control board for a formal impact analysis and decision",
+      "Add it to the current sprint straight away, since the stakeholder says it is urgent"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Agile welcomes change — ask through which channel, and at what point, it should enter the work.",
+    "why": "Agile welcomes changing requirements, but through the product owner and the product backlog, while the current sprint goal is protected. The banner is not needed for five weeks, so the product owner can order it for a coming sprint with time to spare. If a request ever made the sprint goal obsolete, the product owner could cancel the sprint, but that is not the case here.",
+    "how": "Agile change control = product backlog + product owner prioritization + sprint boundaries. Route new requests to the product owner rather than to the developers or a CCB.",
+    "optionNotes": [
+      "Incorrect — Agile explicitly welcomes change; refusing ignores a legitimate business need that can easily be scheduled.",
+      "Correct — The product owner orders the request in the backlog, protecting the sprint goal while still meeting the campaign date.",
+      "Incorrect — Agile teams manage change through the backlog and product owner, not a CCB, for a routine feature request like this.",
+      "Incorrect — Injecting work mid-sprint disrupts the sprint goal and bypasses the product owner's prioritization."
+    ],
+    "deepDive": "The Agile Manifesto welcomes changing requirements, even late in development, and short sprints make it possible to act on new requests within weeks. In Scrum, the developers can renegotiate sprint backlog scope with the product owner as they learn, but the sprint goal stays fixed. Stakeholders who go straight to developers bypass prioritization, so the PM should coach the director to work through the product owner. A common exam trap is choosing the CCB in an agile scenario.",
+    "tags": [
+      "agile change",
+      "product backlog",
+      "sprint goal",
+      "product owner"
+    ]
+  }
+]

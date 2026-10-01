@@ -1,0 +1,779 @@
+[
+  {
+    "id": "PEO-126",
+    "domain": "People",
+    "task": "5. Align stakeholder expectations",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Conflicting expectations of an AI model",
+    "source": "ECO 2026 · People Task 5 · Aligning expectations for AI performance",
+    "question": "A hospital network is piloting a machine-learning model that flags chest X-rays for urgent radiologist review. At a steering meeting, the chief medical officer says she expects the model to 'never miss' an urgent case, while the operations director expects it to halve radiologists' workload. The data science lead privately tells the project manager that, at current performance, catching nearly all urgent cases would mean flagging about 40% of all images. What should the project manager do?",
+    "options": [
+      "Report the operations director's 50% workload reduction as the pilot's target, since efficiency is the heart of the business case",
+      "Ask the data science team to keep tuning the model until it meets both expectations before sharing any results with stakeholders",
+      "Set up a session where the data science lead explains the trade-off and the stakeholders agree thresholds and human review steps",
+      "Tell the chief medical officer that no model can be perfect and that some missed urgent cases will simply have to be accepted"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "The stakeholders want two things the model cannot deliver together, and they don't know it yet; who should decide what matters more?",
+    "why": "The two expectations clash because of an inherent trade-off between catching urgent cases and reducing workload, and the stakeholders are not yet aware of it. Making the trade-off transparent, explained by the expert who understands it, lets the people who own clinical risk and operational value agree explicit thresholds and a human-in-the-loop design. Hiding the issue or picking one side leaves expectations misaligned and creates safety or credibility problems later.",
+    "how": "When stakeholders hold incompatible expectations about an AI system's performance, surface the trade-off with evidence early and have the accountable stakeholders agree explicit thresholds, safeguards, and success measures.",
+    "optionNotes": [
+      "Incorrect — Silently favoring efficiency ignores the clinical safety expectation and sets up a serious dispute when urgent cases are missed.",
+      "Incorrect — Withholding the trade-off delays an unavoidable conversation, and tuning may never satisfy both expectations at once.",
+      "Correct — Makes the trade-off visible with expert evidence so accountable stakeholders can agree realistic thresholds and safeguards together.",
+      "Incorrect — The project manager should not unilaterally decide acceptable clinical risk or deliver it as a blunt verdict."
+    ],
+    "deepDive": "Classification models trade missed cases (false negatives) against false alarms (false positives): pushing sensitivity up usually increases the number of items flagged. Aligning expectations on AI projects means agreeing measurable acceptance criteria (sensitivity, specificity, review rates), human oversight, and monitoring after deployment. PMBOK 7's integrity behaviors include surfacing risks and assumptions early. In a hybrid setting, the pilot can iterate on thresholds while governance approves clinical use through stage gates.",
+    "tags": [
+      "ai",
+      "expectations",
+      "trade-offs",
+      "healthcare",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "PEO-127",
+    "domain": "People",
+    "task": "5. Align stakeholder expectations",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Clarifying 'what' before committing",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Models (4.2.6.2): goal clarification before commitment",
+    "question": "A software vendor has been hired under a fixed-price contract to build a warehouse management system. The customer's operations manager wants a signed schedule and budget within a week. The kickoff covered the project's purpose and introduced both teams, but the customer's requirements document says only that the system must be 'fast, reliable, and easy to use.' What should the project manager do before committing to a schedule and budget?",
+    "options": [
+      "Work with the customer to agree measurable acceptance criteria and assumptions for 'fast, reliable, and easy to use'",
+      "Commit to the schedule and budget as requested, then clarify the vague requirements through change requests as they come up",
+      "Add a large contingency to the estimate to cover whatever 'fast, reliable, and easy to use' eventually turns out to mean",
+      "Set the performance and usability targets internally, based on the vendor's usual standards, and note them as assumptions"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "The team knows why and who; what hasn't it pinned down yet?",
+    "why": "The team has covered 'why' and 'who' but not 'what': with vague expectations, any committed schedule or price rests on guesses. Clarifying requirements, assumptions, and measurable acceptance criteria with the customer aligns expectations before the commitment is made, which matters even more under a fixed-price contract where disputes about 'done' are costly for both sides.",
+    "how": "Before committing to plans, turn vague stakeholder expectations into agreed, measurable acceptance criteria and documented assumptions.",
+    "optionNotes": [
+      "Correct — Converts vague wishes into shared, testable criteria before the vendor commits, reducing disputes over what 'done' means.",
+      "Incorrect — Committing first and clarifying later almost guarantees disputes and claims under a fixed-price contract.",
+      "Incorrect — Padding hides the ambiguity rather than resolving it, and the customer may still expect far more than the padding covers.",
+      "Incorrect — Targets set without the customer are guesses about their expectations; they must be agreed with the people who will accept the work."
+    ],
+    "deepDive": "In the Drexler/Sibbet model, goal clarification ('what') comes before commitment ('how'); it is where the team learns stakeholder expectations, requirements, assumptions, and acceptance criteria. Skipping it tends to show up later as scope disputes and rework. Predictive projects capture the result in requirements documentation and the scope statement, while agile teams use acceptance criteria and a definition of done. For example, 'fast' might become 'order lookup in under two seconds for 95% of queries.'",
+    "tags": [
+      "acceptance criteria",
+      "expectations",
+      "fixed price",
+      "predictive"
+    ]
+  },
+  {
+    "id": "PEO-128",
+    "domain": "People",
+    "task": "6. Manage stakeholder expectations",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Net Promoter Score (calculation)",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Measurement Performance Domain (2.7): stakeholder satisfaction measures",
+    "question": "Six months after launching a new online tax-filing service, the project team surveys 250 small-business users, asking how likely they are, on a scale of 0 to 10, to recommend the service. 110 respond with 9 or 10, 85 respond with 7 or 8, and 55 respond with 0 to 6. The sponsor wants the Net Promoter Score for the benefits report to stakeholders. What is the Net Promoter Score?",
+    "options": [
+      "−12",
+      "22",
+      "33",
+      "44"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Recall which score bands NPS counts, which it ignores, and what the percentages are taken of.",
+    "why": "NPS = % promoters (scores 9–10) − % detractors (scores 0–6); passives (7–8) count in the total but in neither group. Promoters = 110 ÷ 250 = 44%. Detractors = 55 ÷ 250 = 22%. NPS = 44 − 22 = 22.",
+    "how": "For NPS, divide promoters and detractors by all respondents (passives stay in the denominator), subtract the detractor percentage from the promoter percentage, and report the result on a −100 to +100 scale.",
+    "optionNotes": [
+      "Incorrect — This subtracts passives as well as detractors ((110 − 85 − 55) ÷ 250); passives are neutral and are not subtracted.",
+      "Correct — 44% promoters minus 22% detractors gives an NPS of 22.",
+      "Incorrect — Dropping passives from the base ((110 − 55) ÷ 165) overstates the score; all 250 respondents belong in the denominator.",
+      "Incorrect — 44 is only the promoter percentage; the 22% detractors must be subtracted from it."
+    ],
+    "deepDive": "PMBOK 7 lists NPS among ways to measure stakeholder satisfaction; it runs from −100 to +100 and also signals loyalty. A positive score means more promoters than detractors, and what counts as 'good' depends on industry benchmarks and the trend over time. NPS is a lagging summary measure, so pair it with qualitative feedback on why users scored as they did before drawing conclusions. Common errors: removing passives from the base (33) or reporting only the promoter share (44).",
+    "tags": [
+      "net promoter score",
+      "calculation",
+      "stakeholder satisfaction",
+      "benefits"
+    ]
+  },
+  {
+    "id": "PEO-129",
+    "domain": "People",
+    "task": "6. Manage stakeholder expectations",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "multi",
+    "topic": "Signals that engagement isn't working",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Stakeholder Performance Domain (2.1): checking results",
+    "question": "Four months into a hybrid program to consolidate three regional billing systems into one platform, the project manager reviews the stakeholder engagement plan with the PMO. The regional managers all approved the program's objectives at the start. Which TWO observations MOST strongly indicate that stakeholders are not engaged or aligned with the objectives and that the engagement approach needs adjusting? (Select two.)",
+    "options": [
+      "Regional managers have submitted 23 change requests to scope and requirements in the last six weeks",
+      "Attendance at sprint reviews has been stable, with regional super-users giving feedback at each one",
+      "The risk register shows two new technical risks related to data migration from the legacy systems",
+      "The PMO receives a steady stream of one-off requests from regional finance teams for project information",
+      "The software stream's velocity has varied between 28 and 34 points over the last five sprints"
+    ],
+    "answer": [
+      0,
+      3
+    ],
+    "hint": "Look for signs that stakeholders keep trying to reshape the work, or can't get what they need from the planned communications.",
+    "why": "PMBOK 7 notes that a large number of changes to requirements and scope may indicate stakeholders are not engaged or aligned with the project objectives, and that an abundance of ad hoc information requests suggests communication planning is not meeting stakeholder needs. Both point to engagement gaps that need follow-up conversations and plan updates. Stable review participation, technical risks, and normal velocity variation are not signs of an engagement problem.",
+    "how": "Watch for engagement warning signals, such as churn in requirements, many ad hoc information requests, issues tied to specific stakeholders, and movement away from desired engagement levels, and respond by revisiting the engagement and communications plans with those stakeholders.",
+    "optionNotes": [
+      "Correct — A spike in scope and requirement changes from people who approved the objectives suggests they are not aligned with them.",
+      "Incorrect — Stable attendance with regular feedback is evidence of healthy engagement, not a warning sign.",
+      "Incorrect — Technical migration risks belong to risk management; they say nothing about stakeholder engagement or alignment.",
+      "Correct — Frequent ad hoc requests show the planned communications are not meeting stakeholders' information needs.",
+      "Incorrect — A modest range in velocity is normal variation and is not an indicator of stakeholder engagement."
+    ],
+    "deepDive": "Checking results for stakeholder engagement uses observable evidence: stakeholders' movement along the engagement continuum, requirement changes, behavior, surveys, interviews, focus groups, and entries in the issue and risk registers. Change requests are not bad in themselves, since adaptive work expects change, but a surge from a group that approved the objectives suggests misalignment. The right response is to engage: ask why, then adjust the engagement and communications approaches.",
+    "tags": [
+      "stakeholder engagement",
+      "multi-select",
+      "monitoring",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "PEO-130",
+    "domain": "People",
+    "task": "6. Manage stakeholder expectations",
+    "approach": "Agile",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Endless backlog on a fixed budget",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Project Work Performance Domain (2.5): monitoring new work",
+    "question": "An agile team is building a member portal for a professional association with a fixed budget covering eight more sprints. Over the last four sprints, stakeholders have added about 40 points of new backlog items per sprint, while the team completes about 30. The association's president keeps telling members that 'everything on the list' will be in the portal. What should the project manager do?",
+    "options": [
+      "Freeze the backlog so that no new items can be added until every feature currently on the list has been completed",
+      "Ask the team to raise velocity to 40 points per sprint by working extended hours until the backlog stops growing",
+      "Request extra funding from the sponsor so that the team can deliver every item currently on the product backlog",
+      "Show the president and product owner the burnup trend, then help them agree what the budget should deliver first"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "If more work arrives than leaves, when does the list ever finish, and who decides which items matter most?",
+    "why": "With about 40 points added and 30 completed each sprint, the backlog grows indefinitely, so 'everything on the list' cannot be delivered within a fixed budget. The project manager works with the product owner to manage expectations about scope, budget, and capacity, making the trend visible so the president understands the trade-off. The product owner then orders by value, and the project can be considered done when the highest-priority items are delivered. More funding may become an option, but only after the trade-off is understood.",
+    "how": "When scope grows faster than delivery under a fixed budget, make the trend visible (for example, a burnup chart) and work with the product owner and stakeholders to prioritize by value instead of promising everything.",
+    "optionNotes": [
+      "Incorrect — Freezing the backlog rejects valuable new learning and contradicts agile's welcome of change; the issue is priority, not intake.",
+      "Incorrect — Overtime is unsustainable and still wouldn't keep pace with a backlog that keeps growing.",
+      "Incorrect — Asking for money before the value trade-off is understood skips the prioritization conversation and may simply fund low-value items.",
+      "Correct — Uses transparent data to reset the president's expectation and lets the product owner prioritize what the fixed budget will deliver."
+    ],
+    "deepDive": "PMBOK 7 warns that if work is added as fast as, or faster than, it is completed, a project continues without end; when the schedule or budget is constrained, the product owner may consider the project done once the highest-priority items are delivered. A burnup chart shows both the scope line and the completed line, making growth obvious. Exam traps: freezing scope contradicts agile, overtime violates sustainable pace, and asking for money first skips the conversation about value.",
+    "tags": [
+      "expectations",
+      "burnup",
+      "product owner",
+      "fixed budget",
+      "agile"
+    ]
+  },
+  {
+    "id": "PEO-131",
+    "domain": "People",
+    "task": "6. Manage stakeholder expectations",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Resetting an AI feature promise",
+    "source": "ECO 2026 · People Task 6 · Resetting expectations for AI features",
+    "question": "After a vendor demo, the marketing director of a home-appliance maker tells key retail partners that a generative AI troubleshooting assistant will be in the company's app 'next quarter.' The hybrid project team has not estimated the feature, the vendor's model has not been tested on the company's product manuals, and privacy review has not started. Two retailers have already announced the feature to their staff. What should the project manager do FIRST?",
+    "options": [
+      "Share the unknowns with the marketing director and agree a quick feasibility check before messaging partners",
+      "Ask the team to start building the assistant immediately so that the next-quarter date can be met if at all possible",
+      "Contact the two retailers directly to explain that the announcement was premature and that no date has been committed",
+      "Report the marketing director's promise to the steering committee as an unauthorized scope change requiring action"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Start with the person who set the expectation, and bring facts rather than blame.",
+    "why": "An expectation has been set that the project cannot yet support, and it is spreading. The first move is a direct, non-blaming conversation with the person who made the promise, sharing the unknowns (untested model, no estimate, no privacy review) and agreeing a fast feasibility assessment. That gives the director realistic options, such as a limited pilot, to take back to partners, instead of the project either overcommitting or publicly contradicting her.",
+    "how": "When a stakeholder has promised more than has been planned, engage that stakeholder first, be honest about unknowns and risks, assess feasibility quickly, and agree a realistic message together.",
+    "optionNotes": [
+      "Correct — Engages the source of the expectation with facts and sets up a quick assessment so a realistic, shared message can follow.",
+      "Incorrect — Building without estimates, model testing, or privacy review commits the project to an unvalidated date and skips compliance.",
+      "Incorrect — Going around the director to external partners undermines her and the company's credibility before options are known.",
+      "Incorrect — Framing it as misconduct escalates prematurely; the steering committee may need to know, but after the facts and options are clear."
+    ],
+    "deepDive": "Managing expectations includes correcting them early and honestly; PMBOK 7's integrity behaviors include surfacing risks and delivering bad news early. Generative AI features carry particular uncertainties, including accuracy on domain content, hallucinated answers, privacy, and vendor dependence, so feasibility spikes and compliance reviews belong in any realistic commitment. Going around the director damages trust, and going straight to governance escalates too early. Once options are clear, the steering committee may still need to decide on scope and funding.",
+    "tags": [
+      "ai",
+      "expectations",
+      "overpromising",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "PEO-132",
+    "domain": "People",
+    "task": "6. Manage stakeholder expectations",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "A champion's engagement slips",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Stakeholder Performance Domain (2.1): monitoring stakeholder engagement",
+    "question": "Maria Kowalski manages a predictive data-center migration. For eight months the chief financial officer, Henrik Larsen, has been one of the project's strongest champions. Since the company announced a 10% budget cut last month, Henrik has skipped two steering meetings and delegated his approvals to a junior analyst. The stakeholder engagement assessment matrix still records him as 'leading.' What should Maria do?",
+    "options": [
+      "Keep his engagement level as 'leading' until he says otherwise, since one month of absence is not enough evidence of a change",
+      "Ask the sponsor to require Henrik's attendance at steering meetings so that approvals stay at the right level of authority",
+      "Ask Henrik for a short meeting to understand how the budget cut affects his view, then update his engagement level and approach",
+      "Route future approvals through the junior analyst, since Henrik has delegated his authority and seems comfortable with that"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "An engagement rating is a snapshot; what are his recent actions telling you?",
+    "why": "Stakeholder attitudes and power can shift as events unfold, so engagement must be monitored and adjusted. Henrik's behavior suggests his engagement has changed, probably because of the budget cut. A direct conversation reveals whether his priorities or concerns have shifted, and Maria can then update the matrix and the engagement approach, for example by showing how the migration supports the cost savings the company now needs.",
+    "how": "Monitor stakeholder engagement through behavior, not just the last recorded rating; when signals change, talk to the stakeholder, reassess, and update the engagement strategy.",
+    "optionNotes": [
+      "Incorrect — Waiting for him to announce a change ignores clear evidence and lets a key champion drift away unnoticed.",
+      "Incorrect — Compelling attendance treats the symptom and may turn a wavering champion into a resistant stakeholder.",
+      "Correct — Responds to the behavioral signals with a direct conversation, then updates the analysis and approach based on what she learns.",
+      "Incorrect — Accepting the delegation without understanding why risks losing executive support precisely when budgets are under pressure."
+    ],
+    "deepDive": "PMBOK 7's stakeholder engagement cycle (identify, understand and analyze, prioritize, engage, monitor) repeats throughout the project. The stakeholder engagement assessment matrix is a snapshot, so it must be updated as current engagement moves. In predictive projects this updates the stakeholder engagement plan; in agile work, stakeholder maps are revisited at reviews or planning. Exam trap: using authority to compel attendance treats the symptom and can make a neutral stakeholder resistant.",
+    "tags": [
+      "stakeholder engagement",
+      "monitoring",
+      "executives",
+      "predictive"
+    ]
+  },
+  {
+    "id": "PEO-133",
+    "domain": "People",
+    "task": "6. Manage stakeholder expectations",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Pacing releases to absorption",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Principles (3.12): enabling change and avoiding change saturation",
+    "question": "An agile team is replacing a retail chain's store-operations software and releases new features to all 300 stores every two weeks. Store managers, who are also absorbing a new staff-scheduling system and a price-labeling change this quarter, report that their teams can't keep up, and several stores have quietly gone back to paper workarounds. The product owner is proud of the team's delivery rate. What should the project manager do?",
+    "options": [
+      "Keep releasing every two weeks, since frequent delivery is a core agile practice and stores will adjust over time",
+      "Work with the product owner and store leaders to pace releases to what stores can absorb, and support adoption",
+      "Pause all releases until the other two initiatives are finished, then resume the original two-week release cadence",
+      "Ask regional managers to instruct store staff to stop using paper workarounds and follow the new system at once"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "A feature nobody can adopt yet delivers no benefit; whose capacity sets the pace?",
+    "why": "Delivering features is not the same as delivering value: if stores cannot adopt the changes, the benefits never materialize, and too much change in a short time leads to saturation and resistance. Aligning release timing and bundling with the stores' capacity, while adding training and support, manages expectations on both sides and lets adoption catch up. The team can keep deploying frequently while releasing to stores at a pace they can absorb.",
+    "how": "Match the pace of change to stakeholders' capacity to absorb it; separate deploying from releasing, and support adoption so delivered features become realized benefits.",
+    "optionNotes": [
+      "Incorrect — Frequent delivery is a means, not the goal; workarounds show the current pace is destroying value rather than creating it.",
+      "Correct — Aligns change with the stores' absorption capacity and supports adoption, so delivered features actually turn into benefits.",
+      "Incorrect — A full pause overcorrects, delaying value for months when adjusting pace and bundling would solve the problem.",
+      "Incorrect — Ordering compliance ignores why staff reverted and is likely to deepen resistance to the new software."
+    ],
+    "deepDive": "PMBOK 7's change principle warns that attempting too many changes too quickly causes change fatigue and resistance, and that projects may need activities to reinforce change so people don't slip back to old ways. Practical tools include feature toggles, release trains aligned to business calendars, and change champions in stores. Paper workarounds are a classic signal that adoption is failing. Exam trap: agile values frequent delivery, but the outcome that counts is adopted, valuable change.",
+    "tags": [
+      "change fatigue",
+      "release planning",
+      "adoption",
+      "agile"
+    ]
+  },
+  {
+    "id": "PEO-134",
+    "domain": "People",
+    "task": "7. Help ensure knowledge transfer",
+    "approach": "Agile",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Sharing a failed experiment",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Principles (3.6): leadership behaviors — fail fast, learn quickly",
+    "question": "An agile team spent two sprints testing a redesigned checkout flow with 10% of customers. Conversion fell by 3%, so the product owner rolled it back. She now wants to leave the experiment out of the sprint review and the team's notes because it 'makes us look bad.' Another team in the company is planning a similar checkout redesign next quarter. What should the project manager do?",
+    "options": [
+      "Agree to leave it out of the review, since an unsuccessful experiment delivered no value stakeholders need to see",
+      "Record the result only in the team's private notes, so that it is available if anyone asks about checkout later",
+      "Tell the other team's manager that their planned redesign will fail, based on this team's two-sprint experiment",
+      "Encourage sharing the experiment, its data, and what was learned at the review and with the other team"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Is a disproved idea a failure to hide, or knowledge someone else could use?",
+    "why": "An experiment that disproves a hypothesis still produces valuable knowledge, here evidence that could save another team a quarter of work. Acknowledging the result openly models a fail-fast, learn-quickly culture and gives stakeholders an honest view of what the team is learning. Sharing the data and context, rather than a verdict, lets the other team judge how it applies to their situation.",
+    "how": "Treat negative results as knowledge: share the hypothesis, data, and learning openly and proactively with those who can use it, rather than hiding or overgeneralizing it.",
+    "optionNotes": [
+      "Incorrect — Learning is value in agile; hiding it misleads stakeholders and discourages future experiments.",
+      "Incorrect — Knowledge that sits where no one looks is effectively lost, and the other team does not know to ask.",
+      "Incorrect — Converting data into a verdict overgeneralizes one experiment and ignores the other team's different context.",
+      "Correct — Turns the result into shared knowledge for stakeholders and the other team, and reinforces a culture where learning is safe."
+    ],
+    "deepDive": "PMBOK 7 lists 'facilitating a fail-fast/learn quickly mindset by acknowledging mistakes' among leadership skills and notes that some project learning can be shared with other project teams. Hiding failures creates a culture in which people stop experimenting and the organization repeats mistakes. In lean start-up terms, a disproved hypothesis is validated learning. Exam trap: telling another team what to do based on your results turns knowledge into an instruction and skips their context.",
+    "tags": [
+      "knowledge sharing",
+      "experimentation",
+      "transparency",
+      "agile"
+    ]
+  },
+  {
+    "id": "PEO-135",
+    "domain": "People",
+    "task": "7. Help ensure knowledge transfer",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "AI summaries for the knowledge base",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Project Work Performance Domain (2.5): explicit knowledge and information management",
+    "question": "A hybrid infrastructure program records all of its design meetings. To preserve knowledge, the lead architect proposes having a generative AI tool automatically summarize every recording and publish the summaries to the program's knowledge base, which vendors and contractors can access. Some meetings include commercially sensitive pricing and security details. The organization has an approved AI-use policy, but it does not cover this kind of use. What should the project manager do?",
+    "options": [
+      "Pilot the tool on non-sensitive meetings, with human review before publishing, and seek guidance on the policy gap",
+      "Approve the proposal, since automated summaries will capture far more knowledge than team members would ever write down",
+      "Reject the proposal and require team members to keep writing meeting notes by hand, as the program has always done",
+      "Approve it but restrict the knowledge base to employees, so that vendors and contractors can no longer read the summaries"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "The idea has real value and real risks; how can you test the value while keeping the risks under control?",
+    "why": "AI summaries could make explicit knowledge far easier to capture and find, but two risks need control: accuracy (summaries can omit or invent decisions) and confidentiality (pricing and security details reaching vendors). A limited pilot with human review tests the benefit while containing those risks, and seeking guidance on the policy gap is what a responsible steward does when rules don't clearly cover a situation.",
+    "how": "When adopting AI tools for knowledge capture, pilot on low-risk content, keep a person accountable for what is published, protect sensitive information, and seek direction where policy is unclear.",
+    "optionNotes": [
+      "Correct — Captures the benefit on low-risk content, keeps human accountability for accuracy, and resolves the policy gap through proper channels.",
+      "Incorrect — Ignores the accuracy and confidentiality risks and assumes the policy allows a use it doesn't address.",
+      "Incorrect — Overcautious: rejecting outright loses a useful knowledge tool rather than finding a safe way to use it.",
+      "Incorrect — Cutting vendors off harms the knowledge sharing the program relies on and still leaves the accuracy risk unmanaged."
+    ],
+    "deepDive": "PMBOK 7 notes that explicit knowledge is distributed through information management tools such as repositories and searchable databases; AI can speed this up, but it does not verify what is true. Stewardship duties include compliance and seeking counsel when guidelines are unclear or conflicting. Access to a knowledge repository should follow information categories (internal versus external, sensitive versus public). Remember that AI summaries capture only what was said aloud; tacit knowledge still needs person-to-person methods such as shadowing and workshops.",
+    "tags": [
+      "ai",
+      "knowledge management",
+      "confidentiality",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "PEO-136",
+    "domain": "People",
+    "task": "7. Help ensure knowledge transfer",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Lessons that change future practice",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Project Work Performance Domain (2.5.8): knowledge management — learning shared beyond the project",
+    "question": "A construction firm's project to build a regional distribution center is closing. Its lessons learned register holds 64 entries. The two most important show that the firm's standard estimating checklist ignores winter concrete-curing delays and that its subcontractor onboarding pack omits site-security rules. Project managers say they rarely search the PMO's repository, which already holds hundreds of past lessons. Which action will MOST help this project's learning improve future projects?",
+    "options": [
+      "Add all 64 lessons to the PMO repository with full narratives, so that future teams can read the complete story",
+      "Email the final lessons learned report to every project manager in the firm with a request that they read it carefully",
+      "Ask each team member to write a personal reflection on what they would do differently on their next project",
+      "Work with the owners of the estimating checklist and onboarding pack to build both lessons into those standards"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Ask where people will actually meet this lesson the next time they do this kind of work.",
+    "why": "Knowledge changes outcomes only when it reaches the place where future work is done. Working with the owners of the estimating checklist and the subcontractor onboarding pack builds the two most important lessons into organizational process assets that future teams use by default, and the owners keep those assets maintained. Adding more entries to a rarely searched repository, emailing a report, or collecting private reflections records the learning without changing how the next project will work.",
+    "how": "To make lessons learned stick, turn the most important ones into updates to standards, templates, checklists, and training that someone owns, rather than only storing or broadcasting them.",
+    "optionNotes": [
+      "Incorrect — Archiving is reasonable, but adding more narratives to a repository people rarely search does little to change future estimates or onboarding.",
+      "Incorrect — A broadcast email is one-way push communication that is easy to ignore, and it changes no process asset that future teams rely on.",
+      "Incorrect — Personal reflections help individuals learn, but they leave the organization's estimating and onboarding assets unchanged.",
+      "Correct — Builds both lessons into the checklist and onboarding pack that future teams use by default, with owners keeping them current."
+    ],
+    "deepDive": "PMBOK 7 distinguishes learning that is project specific, learning that other project teams can use, and learning the whole organization can use. Organizational process assets such as templates, checklists, and standards are the most reliable vehicles for the last two kinds, because future teams use them without having to go looking. A common trap is to treat the lessons learned register or repository as the end point; a lesson is only learned when behavior changes. In agile settings the same idea appears when retrospective actions become updates to the definition of done or the working agreement.",
+    "tags": [
+      "lessons learned",
+      "knowledge management",
+      "organizational process assets",
+      "predictive"
+    ]
+  },
+  {
+    "id": "PEO-137",
+    "domain": "People",
+    "task": "7. Help ensure knowledge transfer",
+    "approach": "Any",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Timing user training for adoption",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Project Work Performance Domain (2.5.8.1): organization-wide learning, such as training users on a new application",
+    "question": "A regional hospital group will move 1,200 staff to a new patient-scheduling system on a fixed go-live date five months from now. To keep things simple, the training lead proposes running all classroom training in the next four weeks, while the trainers are available. Ward managers point out that staff will keep using the old system until go-live and that many rarely use scheduling software at all. What should the project manager do?",
+    "options": [
+      "Approve the training lead's plan, since finishing early frees the trainers and protects the go-live date",
+      "Replace classroom sessions with a detailed user manual that staff can read whenever they have spare time",
+      "Schedule training close to go-live, backed by practice access, ward super-users, and quick-reference guides",
+      "Train only the ward managers now and have them pass the training on to their staff when they find time"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "How much of a skill learned today will someone remember after five more months on the old system?",
+    "why": "Skills learned months before they are needed fade quickly, especially when staff keep using the old system in the meantime. Scheduling training close to go-live, with hands-on practice, on-ward super-users, and job aids for the first weeks, transfers the knowledge when staff can apply it. Trainer availability is a planning constraint to solve, not a reason to train at the wrong time.",
+    "how": "Transfer knowledge to users just in time: time training to when it will be used, make it hands-on, and back it with on-the-job support such as super-users and job aids.",
+    "optionNotes": [
+      "Incorrect — Convenient for the trainers, but staff will forget most of it during five months on the old system, risking a poor go-live.",
+      "Incorrect — A manual offers explicit knowledge only; staff need hands-on practice to build the skills a new system demands.",
+      "Correct — Training close to use, reinforced by practice and on-ward support, gives staff knowledge they can apply and retain.",
+      "Incorrect — Managers trained months early and teaching when they find time will pass on faded and inconsistent knowledge."
+    ],
+    "deepDive": "PMBOK 7 notes that some project learning is meant for the whole organization, such as teaching users to work with a new application; this knowledge transfer is part of delivering the intended value. Unused skills decay within weeks (the 'forgetting curve'), which is why just-in-time training, sandbox practice, super-users or floor walkers, and job aids are standard in system rollouts. Train-the-trainer can work well, but only when the trainers are prepared, supported, and teach close to go-live. Exam trap: optimizing for the project's convenience, such as trainer availability, over users' ability to adopt the change.",
+    "tags": [
+      "training",
+      "knowledge transfer",
+      "adoption",
+      "go-live"
+    ]
+  },
+  {
+    "id": "PEO-138",
+    "domain": "People",
+    "task": "7. Help ensure knowledge transfer",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Support knowledge in the definition of done",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Delivery Performance Domain (2.6): definition of done — ready for use, including support",
+    "question": "An agile team is building a claims-processing service for an insurer. In three months the service will be handed to a separate support team that will run it around the clock. The team has written very little documentation, and the product owner says that is fine because the Agile Manifesto values working software over comprehensive documentation. The support team lead has asked twice how her analysts will learn to diagnose failures. What should the project manager do?",
+    "options": [
+      "Accept the product owner's view, since agile treats documentation as waste and the support team can learn from the code",
+      "Help the product owner and support lead add runbooks, shadowing, and other support needs to the backlog and done criteria",
+      "Ask the team to produce full system documentation in the final sprint, just before the service is handed to support",
+      "Suggest that the support lead raise the concern with the sponsor, since handover planning is outside the agile team's remit"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Valuing one thing more than another is not the same as not valuing it; who will depend on this knowledge?",
+    "why": "The manifesto values working software more than comprehensive documentation, but it still values documentation that serves someone who needs it. The support team is a real stakeholder with real needs, so the knowledge they require (runbooks, alerts, diagnostic steps, and time shadowing the developers) should be planned as backlog work and built into the definition of done, created incrementally while the knowledge is fresh. That keeps the product owner in charge of priorities while making sure the service can be run after handover.",
+    "how": "In agile, plan knowledge transfer as visible work: put the receiving group's needs in the backlog and definition of done, produce them incrementally, and combine documents with person-to-person learning.",
+    "optionNotes": [
+      "Incorrect — Misreads the manifesto; documentation someone needs to run the product has value, and code alone rarely explains operations.",
+      "Correct — Treats the support team's needs as backlog work and done criteria, created incrementally and paired with hands-on shadowing.",
+      "Incorrect — A last-sprint documentation push is rushed, written after details are forgotten, and gives support no hands-on learning.",
+      "Incorrect — Deflects a legitimate stakeholder need; the team building the service is best placed to plan how it will be supported."
+    ],
+    "deepDive": "The Agile Manifesto says that while there is value in the items on the right, such as comprehensive documentation, the items on the left are valued more; it does not call documentation waste. PMBOK 7 describes the definition of done as the criteria a deliverable must meet to be ready for use, and 'ready' can include operational readiness for the people who will support it. Tacit knowledge, such as how an experienced developer diagnoses a failure, transfers best through shadowing, pairing on incidents, and joint reviews, so combine lightweight documents with those methods. Many teams also invite the support team to sprint reviews well before handover.",
+    "tags": [
+      "definition of done",
+      "documentation",
+      "handover",
+      "agile"
+    ]
+  },
+  {
+    "id": "PEO-139",
+    "domain": "People",
+    "task": "7. Help ensure knowledge transfer",
+    "approach": "Agile",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Expert reluctant to share knowledge",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Project Work Performance Domain (2.5.8.2): tacit knowledge is shared by connecting people",
+    "question": "Rumors of layoffs are circulating at a logistics company. On its agile route-optimization team, Tomasz is the only developer who understands the pricing engine. He has started declining pairing sessions and turned down a request to walk colleagues through the engine at a team workshop, saying he is 'too busy with stories.' Two teammates are blocked waiting for his help every sprint. The team's working agreement says knowledge is shared openly. What should the project manager do FIRST?",
+    "options": [
+      "Raise at the next retrospective that Tomasz is breaking the working agreement, so that the team can hold him to it",
+      "Ask Tomasz's functional manager to make knowledge sharing a mandatory objective in his next performance review",
+      "Assign the two blocked teammates to reverse-engineer the pricing engine so the team no longer depends on Tomasz",
+      "Talk privately with Tomasz to understand his reluctance and explore how sharing could strengthen his role on the team"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Before deciding how to get the knowledge out, ask why someone might want to keep it in right now.",
+    "why": "The timing points to a likely cause: with layoffs rumored, being the only person who understands the pricing engine may feel like job security. Tacit knowledge like his can only be transferred if he is willing, so pressure or public criticism is likely to deepen his resistance. A private, empathetic conversation lets the project manager learn his real concerns and reframe sharing as valuable, for example by recognizing him as the engine's mentor, before agreeing concrete steps such as pairing rotations.",
+    "how": "When someone withholds knowledge, look for the underlying motive (often fear or incentives), address it privately and empathetically first, and make sharing something that is recognized rather than a threat.",
+    "optionNotes": [
+      "Incorrect — Calling him out in front of the team is likely to feel threatening and harden his resistance before the cause is understood.",
+      "Incorrect — Escalating to formal performance objectives is premature and coercive, and forced sharing of tacit knowledge rarely works well.",
+      "Incorrect — A costly workaround that treats the symptom, uses two people's capacity, and signals that the team is working around him.",
+      "Correct — Seeks the root cause privately and looks for a way that sharing strengthens, rather than threatens, his position on the team."
+    ],
+    "deepDive": "PMBOK 7 notes that tacit knowledge, such as experience, insight, and judgment, cannot be fully written down and is shared by connecting people through methods like shadowing, pairing, and workshops, all of which depend on the expert's willingness. Knowledge hoarding usually has a cause: job insecurity, incentives that reward being indispensable, or lack of time. Emotional intelligence and servant leadership point to understanding that cause first; practical remedies then include recognizing mentoring, rotating pairs, and making the engine a shared team responsibility. Exam trap: enforcing the working agreement is legitimate, but doing it publicly before understanding the fear treats the symptom.",
+    "tags": [
+      "tacit knowledge",
+      "knowledge hoarding",
+      "emotional intelligence",
+      "agile"
+    ]
+  },
+  {
+    "id": "PEO-140",
+    "domain": "People",
+    "task": "8. Plan and manage communication",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Matching communication to release cadence",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Planning Performance Domain (2.4.4): communication planning — what, how, and how often",
+    "question": "Refer to the exhibit. A hybrid program is automating a company's warehouses: the robotics hardware follows a phased plan, while the warehouse software is released every two weeks. Since releases began, shift supervisors say they learn about changed picking steps from confused workers at the start of a shift, and picking errors spike for several days after each release. Which change to the communications plan should the project manager make?",
+    "exhibit": {
+      "kind": "table",
+      "title": "Communications plan (excerpt)",
+      "columns": [
+        "Stakeholder",
+        "Information needed",
+        "Method",
+        "Frequency",
+        "Owner"
+      ],
+      "rows": [
+        [
+          "Steering committee",
+          "Milestones, budget, top risks",
+          "Dashboard and meeting",
+          "Monthly",
+          "Project manager"
+        ],
+        [
+          "Shift supervisors",
+          "Changes to picking and packing steps",
+          "Email newsletter",
+          "Monthly",
+          "Change lead"
+        ],
+        [
+          "Product owner and team",
+          "Progress and impediments",
+          "Daily standup and task board",
+          "Daily",
+          "Team"
+        ],
+        [
+          "Union representative",
+          "Staffing and role impacts",
+          "Formal letter",
+          "Each phase gate",
+          "HR partner"
+        ],
+        [
+          "Finance controller",
+          "Actual costs versus budget",
+          "Written report",
+          "Monthly",
+          "Project manager"
+        ]
+      ]
+    },
+    "options": [
+      "Shift supervisors: replace the monthly newsletter with a short interactive briefing before each release",
+      "Steering committee: meet weekly instead of monthly so that leaders can resolve the picking errors faster",
+      "Union representative: replace the phase-gate letters with monthly meetings about staffing and role impacts",
+      "Shift supervisors: expand the monthly newsletter with step-by-step screenshots of every changed task"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Compare how often the supervisors' work changes with how often, and how, the plan tells them about it.",
+    "why": "The exhibit shows a cadence and method mismatch: supervisors need to know about process changes before each two-week release, but they receive a one-way newsletter once a month. Their problem is timing and understanding, so the fix is communication aligned to the release cadence and delivered interactively, so that supervisors can ask questions and prepare their shifts. The other rows may merit review, but they do not cause the errors described.",
+    "how": "When a communication problem appears, compare the plan's who, what, method, and frequency against the actual need: frequency should match the rhythm of change, and behavior-changing information needs an interactive method.",
+    "optionNotes": [
+      "Correct — Aligns frequency with the two-week release rhythm and uses an interactive method so supervisors understand changes before shifts start.",
+      "Incorrect — The steering committee is not the audience that needs this information; weekly meetings add overhead without informing supervisors.",
+      "Incorrect — Possibly a sensible improvement later, but union communication is not what causes the supervisors' surprises and the error spikes.",
+      "Incorrect — More detail in a monthly newsletter keeps the wrong cadence and a one-way method, so changes still arrive after they happen."
+    ],
+    "deepDive": "PMBOK 7 frames communication planning around who needs information, what they need, why, the best way to provide it, when and how often, and who has it. In hybrid programs, a common gap is a communications plan that follows the predictive governance calendar (monthly reports, phase gates) while adaptive components release far more often. Push methods such as newsletters make it hard to gauge reaction, so behavior-changing messages need interactive methods such as briefings, demos, or walk-throughs. Exam tip for exhibit items: find the row whose method or frequency conflicts with the scenario's facts before judging the options.",
+    "tags": [
+      "communications plan",
+      "exhibit",
+      "release cadence",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "PEO-141",
+    "domain": "People",
+    "task": "8. Plan and manage communication",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "multi",
+    "topic": "AI-drafted status reports",
+    "source": "ECO 2026 · People Task 8 · Safeguards for AI-assisted status reporting",
+    "question": "On a hybrid program at a regional bank, the PMO proposes using a generative AI assistant to draft the weekly executive status report from the team's work-tracking data, the risk register, and meeting notes. The project manager would save about four hours a week. Some of the meeting notes contain customer names and unreleased pricing decisions. Which TWO safeguards should the project manager insist on before adopting the tool? (Select two.)",
+    "options": [
+      "Confirm the tool is approved for the bank's data classifications and exclude data it is not cleared for",
+      "Let the tool send each report directly to the executives, so that they receive updates without any delay",
+      "Stop the regular conversations with executives, since the reports will now be more detailed and consistent",
+      "Add a note that the report was generated by AI, so that responsibility for any errors rests with the tool",
+      "Review and edit each draft before it is sent, remaining accountable for its accuracy, tone, and completeness"
+    ],
+    "answer": [
+      0,
+      4
+    ],
+    "hint": "Consider both what the tool is allowed to consume and what executives finally receive.",
+    "why": "Generative AI can draft reports quickly, but it can misstate facts or omit important context, and the project manager remains accountable for what stakeholders are told; a human review before sending keeps accuracy and judgment in the loop. The input data also matters: notes with customer names and unreleased pricing may only be processed by a tool approved for that classification, so confirming approval and excluding restricted data protects compliance. Automating distribution, dropping conversations, or shifting blame to the tool all weaken communication and accountability.",
+    "how": "When using AI in project communications, keep a person accountable for every message, give the tool only data it is approved to handle, and keep interactive channels alongside generated reports.",
+    "optionNotes": [
+      "Correct — Protects confidential customer and pricing data by using the tool only within the bank's approved data-handling rules.",
+      "Incorrect — Removing human review lets errors or sensitive content reach executives unchecked, and saves little time for the added risk.",
+      "Incorrect — Reports are one-way push communication; executives still need interactive conversations to question, decide, and give feedback.",
+      "Incorrect — Disclosure can be good practice, but accountability for what is communicated stays with the project manager, not the tool.",
+      "Correct — Human review catches inaccuracies and omissions and keeps the project manager accountable for what executives are told."
+    ],
+    "deepDive": "The 2026 ECO highlights AI and emerging technology as part of the environment project managers work in. Typical safeguards for generative AI in communications are approved tools only, data classification checks, human review of outputs, and transparency about AI use where policy requires it. Generated reports are push communication, which makes it hard to gauge reaction, so they supplement rather than replace interactive engagement. Exam trap: labeling output as AI-generated does not transfer accountability for its content.",
+    "tags": [
+      "ai",
+      "status reporting",
+      "confidentiality",
+      "multi-select",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "PEO-142",
+    "domain": "People",
+    "task": "8. Plan and manage communication",
+    "approach": "Predictive",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "When 'yes' does not mean commitment",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Models (4.2.2.1): cross-cultural communication — sender and receiver frames of reference",
+    "question": "Ingrid, a project manager in Oslo, is running a predictive substation upgrade with an engineering subcontractor whose team is based overseas. In weekly group video calls she asks, 'Can you deliver the protection-relay drawings by Friday?' and the subcontractor's engineers always reply, 'Yes, no problem.' The drawings have now been late three times, each time followed by a polite apology. Ingrid's written reminders have grown increasingly blunt. What should Ingrid do?",
+    "options": [
+      "Issue formal notices under the contract so that the engineers understand that the delivery dates are binding",
+      "Keep sending reminders but make them firmer, copying the subcontractor's senior managers on every late delivery",
+      "Speak privately with the subcontractor's lead, use open questions about obstacles, and agree how to flag risks early",
+      "Add a two-week buffer to every date the subcontractor gives, so that late drawings stop affecting the schedule"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Consider what the word 'yes' might mean to the people saying it, in that setting, to a client.",
+    "why": "The pattern suggests the 'yes' is heard differently from how it is meant: in some communication styles a direct 'no' to a client in a group call is very hard to say, so 'yes' may mean 'we understand' rather than 'we commit.' The cross-cultural communication model explains that sender and receiver each interpret messages through their own language, culture, and relationship. A private conversation using open questions ('What needs to happen for Friday to work?') and an agreed, safe way to flag risks addresses the cause, while blunter messages and contractual pressure make open disclosure even less likely.",
+    "how": "When messages are repeatedly misunderstood across cultures, change how you communicate: check understanding with open questions, use settings where people can speak freely, and agree explicit norms for raising problems.",
+    "optionNotes": [
+      "Incorrect — Contract remedies may be needed later, but formal notices now treat a communication gap as a breach and discourage honest disclosure.",
+      "Incorrect — Firmer messages copied to senior managers increase the pressure to say 'yes' without fixing whatever is blocking the work.",
+      "Correct — Addresses the likely cause by creating a safe setting and asking questions that surface real obstacles and realistic dates.",
+      "Incorrect — Hidden buffers treat the symptom, inflate the schedule, and leave the real reasons for the delays unknown and unresolved."
+    ],
+    "deepDive": "PMBOK 7 includes cross-cultural communication among its communication models: the sender's and receiver's knowledge, language, thinking style, stereotypes, and relationship shape both how a message is sent and how it is understood. Closed yes/no questions, group settings, and a client-supplier power gap all make it harder for some people to disagree openly. Practical techniques include open questions, asking people to play back their plan, one-to-one check-ins, and written confirmation of what was agreed. Avoid stereotyping any nationality; the point is to notice a pattern and adapt, not to assume.",
+    "tags": [
+      "cross-cultural communication",
+      "subcontractor",
+      "virtual teams",
+      "predictive"
+    ]
+  },
+  {
+    "id": "PEO-143",
+    "domain": "People",
+    "task": "8. Plan and manage communication",
+    "approach": "Agile",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "One channel during a live incident",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Project Work Performance Domain (2.5): communication — ad hoc requests signal unmet information needs",
+    "question": "An agile team at a food-delivery company released an update on Friday evening, and about 15% of card payments began failing. The developers are rolling back the release, which will take roughly two hours. Meanwhile, customer-support leads, restaurant-partner managers, and two executives are messaging individual developers for updates, and each group has heard a different estimate. What should the project manager do?",
+    "options": [
+      "Ask each developer to answer the requests they receive, since they hold the most accurate technical details",
+      "Hold all communication until the rollback is complete and the root cause is known, to avoid spreading errors",
+      "Send the two executives a detailed incident report now, and let the other groups wait for the incident review",
+      "Set up one status channel, act as the single point of contact, and post updates at announced intervals"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Two groups need protecting here: the people fixing the problem, and the people who must answer to customers.",
+    "why": "Stakeholders need timely, consistent information, and the developers need to focus on the rollback. A single channel with one spokesperson and updates at announced times (for example, every 30 minutes, even if the news is 'no change') replaces conflicting estimates with one version of the truth and stops the interruptions. Staying silent until the root cause is known leaves support staff and partners unable to respond to customers, and informing only executives ignores the groups most affected right now.",
+    "how": "During an incident, protect the people fixing the problem and give stakeholders one source of truth: a single channel, a named spokesperson, what is known and being done, and when the next update will come.",
+    "optionNotes": [
+      "Incorrect — Keeps pulling developers off the fix and continues the flow of inconsistent estimates to different stakeholder groups.",
+      "Incorrect — Silence during an active outage leaves support and partners unable to respond; share what is known now and update it as it changes.",
+      "Incorrect — Support leads and restaurant partners are handling customers right now and need information as urgently as the executives do.",
+      "Correct — Gives every stakeholder one consistent source of updates on a predictable cadence and shields developers from interruptions."
+    ],
+    "deepDive": "PMBOK 7 notes that an abundance of ad hoc information requests signals that planned communication is not meeting stakeholders' needs; an incident makes that visible within minutes. Incident practice in DevOps and site reliability engineering separates the communications lead from the people doing the technical work. Good updates state the impact, what is being done, and when the next update will come. Afterward, a blameless post-incident review captures lessons about both the technical fix and the communication approach.",
+    "tags": [
+      "incident communication",
+      "single source of truth",
+      "servant leadership",
+      "agile"
+    ]
+  },
+  {
+    "id": "PEO-144",
+    "domain": "People",
+    "task": "8. Plan and manage communication",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Unconfirmed date shared in public",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Planning Performance Domain (2.4.4): information categories — internal vs. external, sensitive vs. public",
+    "question": "A city is building a new light-rail station. At a community open day, a well-meaning site engineer told a local journalist that the station would 'definitely open in March,' although the confirmed date depends on safety certification. The date is now in the local news, and residents are asking the city council about it. The communications plan covers reporting to the council and the transit authority but says nothing about public statements. What should the project manager do?",
+    "options": [
+      "Ask the site engineer to contact the journalist and correct the date personally, since he made the original statement",
+      "Agree a correction with the city's press office, then add public-information rules and named spokespeople to the plan",
+      "Stop project team members from attending community events so that no further unapproved statements can be made",
+      "Leave the news report uncorrected for now, since a March opening is still possible if certification goes smoothly"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "There are two problems here: an expectation already in the public domain, and the gap that let it get there.",
+    "why": "Two problems need attention: a public expectation built on an unconfirmed date, and a plan gap that allowed it. Working with the city's press office, which owns public statements, produces a consistent and accurate correction, and updating the communications plan to classify information as internal or public and to name approved spokespeople prevents a repeat. Sending the engineer back to the journalist, pulling the team out of the community, or leaving the error to spread each leaves at least one problem unsolved.",
+    "how": "When information reaches the wrong audience, correct it quickly through the proper channel, then fix the root cause in the communications plan: information categories, approval paths, and who may speak for the project.",
+    "optionNotes": [
+      "Incorrect — An ad hoc personal correction risks another inconsistent message and bypasses the press office, which owns public statements.",
+      "Correct — Corrects the public expectation through the authorized channel and closes the plan gap on information categories and spokespeople.",
+      "Incorrect — Withdrawing from the community damages engagement and treats the symptom instead of defining what can be shared publicly.",
+      "Incorrect — Letting an unconfirmed date stand builds an expectation that may well fail, eroding trust with residents and the council."
+    ],
+    "deepDive": "PMBOK 7's communication planning questions (who needs what information, why, how, when, and who has it) include recognizing categories of information such as internal and external, sensitive and public, or general and detailed. On public-sector and infrastructure projects, the communications plan typically names spokespeople and routes media questions through a press office. Team members can still take part in community events; they just need clear guidance on what they may say. Exam trap: silencing the team treats the symptom, while the lasting fix is a clearer plan.",
+    "tags": [
+      "communications plan",
+      "public information",
+      "spokesperson",
+      "expectations"
+    ]
+  },
+  {
+    "id": "PEO-145",
+    "domain": "People",
+    "task": "8. Plan and manage communication",
+    "approach": "Any",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "A dashboard nobody can read",
+    "source": "Book: PMBOK Guide 7th ed. (PMI, 2021) — Measurement Performance Domain (2.7.3): presenting information — dashboards",
+    "question": "A project manager's monthly dashboard for a public-sector digital services project has grown to 38 metrics across six pages, because each stakeholder asked for a favorite measure to be added. At the last steering meeting, the sponsor admitted she could not tell whether the project was on track, and two board members said they no longer open the dashboard. What should the project manager do?",
+    "options": [
+      "Keep every metric but add red, amber, and green status markers so that readers can spot problems at a glance",
+      "Replace the dashboard with a detailed written narrative that explains what each metric means in plain language",
+      "Ask steering members which decisions they must make, then show a few matching measures with thresholds and trends",
+      "Cut the dashboard back to the five metrics that the project team finds most useful for managing its daily work"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Before choosing what to show, ask what the audience is trying to do with the information.",
+    "why": "A dashboard exists to support its audience's decisions, and 38 metrics across six pages hide the signal the sponsor needs. Starting from the decisions steering members must make lets the project manager select a small set of meaningful measures, show them against thresholds and trends, and keep the detail available for drill-down. Color coding alone still leaves six pages of noise, a narrative is harder to scan, and metrics chosen for the team's daily use do not answer the steering committee's questions.",
+    "how": "Design stakeholder dashboards backward from the decisions the audience must make: a few meaningful measures, clear thresholds and trends, and detail available on request rather than on the front page.",
+    "optionNotes": [
+      "Incorrect — Color helps, but 38 metrics still bury what matters, and status colors without agreed thresholds can easily mislead.",
+      "Incorrect — A long narrative is even harder to scan and removes the at-a-glance view that busy steering members need.",
+      "Correct — Ties each displayed measure to a steering decision and uses thresholds and trends so that project health is visible at a glance.",
+      "Incorrect — Measures that help the team manage daily work are not necessarily the ones the steering committee needs for its decisions."
+    ],
+    "deepDive": "PMBOK 7 describes dashboards as a way to present large amounts of information graphically, usually with a high-level summary and the ability to drill down, often using red-amber-green thresholds. Its measurement guidance stresses metrics that are meaningful and tied to decisions, and warns about pitfalls such as vanity metrics. A frequent failure is 'metric creep,' where every stakeholder's favorite measure is added until nobody reads the whole. Agree the audience, its decisions, and the thresholds that trigger action before designing the display.",
+    "tags": [
+      "dashboards",
+      "metrics",
+      "steering committee",
+      "reporting"
+    ]
+  }
+]

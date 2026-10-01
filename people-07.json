@@ -1,0 +1,977 @@
+[
+  {
+    "id": "PEO-146",
+    "domain": "People",
+    "task": "1. Develop a common vision",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Line-of-sight to strategy",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 1: Strategic Delivery Capability (line-of-sight)",
+    "question": "A logistics company is running a hybrid project to automate its regional warehouses. In the last two iterations, the team made three design trade-offs that minimized unit cost. At a steering review, the sponsor points out that the company's new strategy puts same-day delivery speed ahead of cost savings. Team members say they have never seen the strategy; the operations director had treated it as 'management only.' What should the project manager do FIRST?",
+    "options": [
+      "Route every future design trade-off to the steering committee for approval before the team implements it",
+      "Have the sponsor brief the team on the strategy, then let the team re-assess its trade-offs against it",
+      "Direct the team to rework the three trade-offs in the next iteration so that they favor delivery speed",
+      "Ask the operations director to turn the strategy into detailed design rules that the team must follow"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "What does the team need in order to make good trade-offs on its own, without someone checking every decision?",
+    "why": "The trade-offs were reasonable given what the team knew; the real gap is that the team had no line-of-sight to the strategy. Having the sponsor share the strategic objectives and letting the team re-assess its own decisions fixes the root cause and keeps decisions at the lowest sensible level. The other options add control or rules but leave the team unable to judge the next trade-off by itself.",
+    "how": "When a team's decisions drift from strategy, first check whether it can see the strategy: give it line-of-sight to the objectives, then let it re-evaluate its work, rather than adding approval layers.",
+    "optionNotes": [
+      "Incorrect — A steering-committee approval step creates a bottleneck and treats the symptom; the team still would not understand what the business is optimizing for.",
+      "Correct — Sharing the strategic objectives gives the team line-of-sight, so it can re-check these trade-offs and make aligned decisions on its own in future.",
+      "Incorrect — Directing specific rework skips the team's analysis; some trade-offs may be fine, and the team still lacks the context to judge the next ones.",
+      "Incorrect — Converting strategy into rigid rules replaces understanding with compliance and cannot anticipate every trade-off the team will face."
+    ],
+    "deepDive": "Kerzner, Zeitoun and Vargas argue that as project managers take on strategic work, teams need a clear line-of-sight to senior management's objectives, and that the old belief that information is power is fading. When workers understand the strategy they make better decisions, behave more effectively and even manage risk better. In PMI terms this is developing a shared vision and empowering decisions at the lowest appropriate level. A common exam trap is choosing more control, such as approvals or checklists, when the real gap is missing context.",
+    "tags": [
+      "vision",
+      "line-of-sight",
+      "strategy alignment",
+      "empowerment",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "PEO-147",
+    "domain": "People",
+    "task": "1. Develop a common vision",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Vendor teams and product vision",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 3: Innovative Cultures (project leader and external teams)",
+    "question": "A retailer has contracted a nearshore vendor to supply two of the five Scrum teams building its new loyalty app. The vendor's developers receive refined user stories through a ticketing tool and have never attended a product vision session or a sprint review. The product owner notices that their increments meet the acceptance criteria but often miss what customers actually need, such as a quick sign-up at the store counter. What should the project manager do to BEST address this?",
+    "options": [
+      "Ask the product owner to write longer, more detailed acceptance criteria for every story sent to the vendor",
+      "Add an internal quality gate where employees check each vendor increment against customer needs",
+      "Include the vendor teams in product vision sessions and sprint reviews so they see the goals behind stories",
+      "Raise the gap with procurement so the vendor contract penalizes increments that customers later reject"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Are the vendor developers missing information about the work, or about the purpose of the work?",
+    "why": "The vendor increments pass their acceptance criteria yet miss the need, which shows the developers are building to specification without understanding the outcome. Treating the vendor teams as full members of the delivery effort — sharing the product vision and letting them hear customer feedback in reviews — lets them make better choices inside each story. More detail, extra gates or penalties keep them in a narrow customer–supplier role.",
+    "how": "On distributed or multi-vendor teams, give every team, internal or external, the same access to vision, goals and feedback; alignment comes from shared purpose, not thicker specifications.",
+    "optionNotes": [
+      "Incorrect — More detailed criteria may reduce some defects but still leave the developers blind to why features matter, so gaps will reappear in new forms.",
+      "Incorrect — An extra inspection gate adds delay and cost and catches problems late instead of preventing them by sharing the purpose up front.",
+      "Correct — Exposing the vendor teams to the vision and to real stakeholder feedback lets them understand the outcome and build what customers need.",
+      "Incorrect — Contract penalties are adversarial and premature; the vendor is meeting the stated criteria, so the gap is shared context, not performance."
+    ],
+    "deepDive": "Pillar 3 of the book warns that when external or offshore teams are treated as simple suppliers and never told which business objective their software supports, projects can fail even though the code technically works. The recommended stance is equal empowerment: internal and external team members share the same vision and access to feedback. In Scrum terms, all developers should know the product goal and take part in sprint reviews. The exam trap is reaching for contracts or inspections when the real issue is a missing shared vision.",
+    "tags": [
+      "vision",
+      "vendor teams",
+      "distributed teams",
+      "sprint review",
+      "agile"
+    ]
+  },
+  {
+    "id": "PEO-148",
+    "domain": "People",
+    "task": "1. Develop a common vision",
+    "approach": "Agile",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Balancing alignment and autonomy",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 3: Innovative Cultures (balanced alignment and autonomy)",
+    "question": "An insurer launches an innovation program with six cross-functional agile teams exploring new digital services. The chief operating officer wants every team to use the same detailed task templates and submit weekly plans for approval so that 'nothing drifts.' The team leads argue they should be free to pick their own problems and goals. Early signs show two teams chasing ideas unrelated to the program's objectives. Which approach should the program's project manager propose?",
+    "options": [
+      "Adopt the COO's templates and weekly approvals for now, and relax them once the teams show consistent results",
+      "Let each team set its own goals and methods, and review at the end of the quarter which ideas deserve funding",
+      "Stop the two drifting teams and reassign their members to the four teams working on approved ideas",
+      "Agree clear program outcomes and guardrails with the COO, then let each team decide how to pursue them"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Which parts of the work need to be common across teams, and which can safely be left to each team?",
+    "why": "Innovation needs both focus and freedom. The COO's controls would stifle creativity, while full autonomy has already let two teams drift from the objectives. Aligning on the what and why — outcomes, benefits and boundaries — while leaving the how to the teams gives the program direction without micromanagement, and the drifting teams can re-anchor on the agreed outcomes.",
+    "how": "When leaders want control and teams want freedom, align tightly on outcomes, priorities and guardrails, loosen control over methods, and keep revisiting the balance as evidence comes in.",
+    "optionNotes": [
+      "Incorrect — Detailed templates and weekly approvals trade creativity for control and signal distrust; innovation teams rarely earn that freedom back once heavy governance is in place.",
+      "Incorrect — Full autonomy with a quarter-end review is how two teams already drifted; without shared outcomes, effort and funding are wasted for months.",
+      "Incorrect — Disbanding teams punishes a symptom; the drift comes from unclear shared outcomes, which would affect the remaining teams as well.",
+      "Correct — Shared outcomes and guardrails provide alignment on what matters, while autonomy over methods preserves the creativity the program needs."
+    ],
+    "deepDive": "The book's Innovative Culture Model begins with a building block of balanced alignment and autonomy: organizations need enough governance to be confident about strategic outcomes without exerting excessive control. Alignment keeps teams focused on anticipated benefits; autonomy lets them chart their own course to innovative solutions. Agile scaling approaches express the same idea as aligned autonomy — leaders set intent and constraints, teams own the solution. Exam distractors often present the two extremes; the best answer usually combines clear intent with team ownership.",
+    "tags": [
+      "alignment",
+      "autonomy",
+      "innovation",
+      "governance",
+      "agile"
+    ]
+  },
+  {
+    "id": "PEO-149",
+    "domain": "People",
+    "task": "1. Develop a common vision",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Cascading objectives and key results",
+    "source": "ECO 2026 · People Task 1 · Agile practice",
+    "question": "A public-transport operator runs a hybrid program: a predictive track installs new ticket gates while four agile teams build the mobile ticketing app. Each agile team reports its own metrics — story points, bugs closed, app-store rating — and says it is 'on track,' yet the program is not moving the sponsor's goal of shifting 40% of riders to contactless payment within a year. How can the project manager BEST help every team see how its work contributes to the shared goal?",
+    "options": [
+      "Replace the teams' local metrics with a single program earned-value report that every team reviews weekly",
+      "Set program objectives with measurable key results and let each team derive its own key results from them",
+      "Ask the sponsor to present the 40% target at the next town hall and repeat it at every sprint review",
+      "Rank the four teams each month on their contribution to contactless adoption to create healthy competition"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Repeating a goal is not the same as linking each team's work to it — what would make that link visible and measurable?",
+    "why": "Each team is optimizing its own output metrics, so the program goal stays abstract. Cascading objectives and key results — the program-level outcome first, then team key results derived from it — lets every team see and measure how its work moves contactless adoption. That creates a shared vision the teams own, rather than one they merely hear about.",
+    "how": "To align many teams to one vision, translate the goal into measurable outcomes and let each team define how its own results contribute; avoid replacing team ownership with rankings or top-down reports.",
+    "optionNotes": [
+      "Incorrect — An earned-value report measures cost and schedule of outputs, not progress toward the adoption outcome, and removes useful team-level feedback.",
+      "Correct — Hierarchical objectives and key results connect each team's measurable results to the program outcome, so progress toward the vision becomes visible.",
+      "Incorrect — Repeating the target raises awareness but does not show teams how their specific work moves it, so local optimization would continue.",
+      "Incorrect — Ranking teams encourages competition and gaming of numbers when the goal depends on collaboration across the teams and the gate track."
+    ],
+    "deepDive": "Objectives and key results (OKRs) pair a qualitative objective with a few measurable key results; in a cascade, lower-level objectives are derived from higher-level key results, so alignment to strategy is traceable. OKRs work best when teams help set their own key results and when those results measure outcomes, not activity. Outcome measures such as adoption rates mean more to sponsors than velocity or bug counts, which are team-internal signals. Beware of turning OKRs into individual performance targets, which invites sandbagging.",
+    "tags": [
+      "vision",
+      "okrs",
+      "outcomes",
+      "scaled agile",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "PEO-150",
+    "domain": "People",
+    "task": "1. Develop a common vision",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Connecting purpose to aspirations",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 7: Organizational Cultural Shift (new workforce behavior)",
+    "question": "Six months into a two-year energy-efficiency retrofit program, several early-career engineers tell the project manager in one-on-ones that the work 'feels like ticking boxes.' They are competent and on schedule, but two have applied for internal transfers. In these conversations they say they want to build skills in data analytics and to see the environmental impact of their work. What should the project manager do?",
+    "options": [
+      "Connect the engineers' goals to the program's purpose, e.g., share carbon results and offer analytics tasks",
+      "Ask HR to offer the engineers a retention bonus that is payable when the program reaches its final milestone",
+      "Approve the transfer requests promptly so that disengaged engineers do not affect the rest of the team",
+      "Remind them that the program is on schedule and that their current tasks are exactly what the plan requires"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "What do these engineers say motivates them, and can the program offer it?",
+    "why": "The engineers are not asking for money; they want purpose and growth. Linking their personal aspirations to the program's impact (visible carbon savings) and to development opportunities (analytics work) aligns their journey with the program's, which rebuilds engagement and helps retention. A bonus is an extrinsic fix for an intrinsic problem, and approving transfers or restating the plan ignores what they said.",
+    "how": "When capable people disengage, ask what they value, then connect their goals to the project's purpose and to growth opportunities before reaching for extrinsic rewards.",
+    "optionNotes": [
+      "Correct — Linking individual goals to the program's purpose and to skill growth addresses the actual motivators the engineers described.",
+      "Incorrect — A deferred bonus is extrinsic and transactional; it may delay departures but does not address the lack of meaning they expressed.",
+      "Incorrect — Letting good people go without trying to re-engage them loses talent and knowledge and ignores a problem that can be fixed.",
+      "Incorrect — Restating the plan reinforces the 'ticking boxes' feeling; progress against schedule is not what the engineers find missing."
+    ],
+    "deepDive": "Pillar 7 of the book stresses that today's workforce is motivated differently from 10 or 20 years ago: people want their own interests connected to the organization's journey, an idea linked to human-centric or inside-out transformation. This echoes motivation theory — Herzberg's motivators such as achievement, growth and meaningful work, and the autonomy, mastery and purpose model. For PMP questions, meaningful work and development usually beat money or pressure as responses to disengagement. It also connects to a common vision: people commit to a vision they can see themselves in.",
+    "tags": [
+      "vision",
+      "motivation",
+      "purpose",
+      "engagement",
+      "retention"
+    ]
+  },
+  {
+    "id": "PEO-151",
+    "domain": "People",
+    "task": "1. Develop a common vision",
+    "approach": "Agile",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Sprint goal as shared focus",
+    "source": "ECO 2026 · People Task 1 · Agile practice",
+    "question": "A newly formed Scrum team at a hospital software vendor ends sprint planning with a list of 14 unrelated backlog items and no sprint goal. During the sprint, developers work on their own items in isolation, and when an urgent defect appears, nobody can decide which planned items could be dropped. Acting as the team's agile coach, what should the project manager encourage at the next sprint planning?",
+    "options": [
+      "Assign each item to a named developer during planning so that ownership and accountability are clear",
+      "Plan fewer items per sprint so that the team can absorb urgent defects without making trade-offs",
+      "Craft a sprint goal with the product owner that states why the sprint matters to the product goal",
+      "Ask the product owner to rank the 14 items so that the lowest-ranked ones are dropped when problems appear"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "What gives a sprint a single purpose that the team can use to make trade-offs?",
+    "why": "A sprint goal gives the sprint coherence: it tells the team why the sprint is valuable and links it to the product goal. With a goal, developers collaborate on a shared outcome and can adapt scope when surprises arrive, keeping whatever serves the goal. Assigning items, shrinking the list or ranking items may help a little, but none gives the team a shared purpose.",
+    "how": "In Scrum, alignment inside a sprint comes from the sprint goal; when teams work in silos or cannot make trade-offs, coach them to plan around a goal rather than a to-do list.",
+    "optionNotes": [
+      "Incorrect — Pre-assigning items reinforces silos; Scrum developers self-manage their work and collaborate toward a shared goal.",
+      "Incorrect — Planning less may leave slack, but without a shared goal the team still lacks a basis for deciding what matters most.",
+      "Correct — A sprint goal linked to the product goal creates focus and collaboration and gives the team a clear basis for flexible trade-offs.",
+      "Incorrect — Ordering helps, but a ranked list of unrelated items still lacks a coherent purpose that the whole team is working toward."
+    ],
+    "deepDive": "The 2020 Scrum Guide makes the sprint goal the commitment for the sprint backlog and the product goal the commitment for the product backlog. The whole Scrum team creates the sprint goal during sprint planning, and it gives developers flexibility in the exact work needed to achieve it. If work turns out differently than expected, developers negotiate scope with the product owner without endangering the goal. The cascade of product vision, product goal and sprint goal keeps a shared vision alive at every time scale.",
+    "tags": [
+      "vision",
+      "sprint goal",
+      "scrum",
+      "agile coaching",
+      "focus"
+    ]
+  },
+  {
+    "id": "PEO-152",
+    "domain": "People",
+    "task": "1. Develop a common vision",
+    "approach": "Any",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Outcome-based vision statement",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 1: Strategic Delivery Capability (focus on benefits)",
+    "question": "At the kickoff of a customer-relationship project for a regional credit union, the sponsor's vision slide reads: 'Deliver the new CRM platform by the end of Q3, within budget.' Team members say it is hard to prioritize features because everything seems equally important. The project manager believes the vision statement itself is part of the problem. Which revision would BEST help the team and stakeholders share a common vision?",
+    "options": [
+      "Add the full list of CRM modules and interfaces to the vision so that the team can see the complete scope",
+      "Keep the vision short and add a detailed milestone schedule showing when each module will be delivered",
+      "Add the budget breakdown by module so that the team can prioritize the features that cost the least",
+      "Restate the vision around the outcome sought, such as cutting member onboarding from ten days to two"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "A vision that only restates time and budget does not tell anyone why the work matters — what would?",
+    "why": "The current statement describes an output and its constraints, so it cannot guide prioritization. Restating it in terms of the outcome the credit union wants — faster member onboarding — with measurable success criteria gives the team a reason to rank features by their contribution and gives stakeholders a shared definition of success beyond time, cost and scope.",
+    "how": "A useful vision states the desired outcome and how success will be measured, not just the deliverable and deadline; use it as the yardstick for prioritization.",
+    "optionNotes": [
+      "Incorrect — Listing all modules makes the scope visible but still treats every feature as equally necessary and says nothing about the value sought.",
+      "Incorrect — A milestone schedule clarifies timing, not purpose, so the team still has no basis for deciding which features matter most.",
+      "Incorrect — Prioritizing by lowest cost optimizes spending rather than value and may deliver cheap features that do little for members.",
+      "Correct — An outcome-based vision with measures explains why the project exists and gives everyone a common yardstick for prioritizing work."
+    ],
+    "deepDive": "The book's advice to future project managers is to champion organizational goals as well as the project: stay focused on benefits, and decisions on scope, schedule and funding will follow. It also urges defining success with stakeholders beyond budget, scope and schedule, using criteria that show whether the investment delivers on business strategy. PMI's value-focused guidance frames this as outcomes over outputs. Tools such as a product vision board or an elevator-pitch template express a vision as target users, needs, outcome and measures.",
+    "tags": [
+      "vision",
+      "outcomes",
+      "success criteria",
+      "benefits",
+      "prioritization"
+    ]
+  },
+  {
+    "id": "PEO-153",
+    "domain": "People",
+    "task": "2. Manage conflicts",
+    "approach": "Predictive",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Real vs. manufactured problems",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 5: Evolving Project Delivery Skills (real vs. personality problems)",
+    "question": "In a matrix organization, a functional quality manager has raised five 'critical workmanship problems' about his own staff on a pipeline-inspection project, each time proposing that he personally supervise them more closely. Rework is rising, and team members complain they receive conflicting instructions from him. The project manager has heard rumors that the quality department may be merged into another unit. Before calling a problem-solving meeting, what should the project manager do FIRST?",
+    "options": [
+      "Use inspection data and team input to confirm whether the problems are real and what is causing rework",
+      "Accept the manager's proposal for closer supervision, since he is accountable for his staff's workmanship",
+      "Escalate to the sponsor that the quality manager appears to be sabotaging the project to protect his role",
+      "Schedule a problem-solving session with the quality manager's staff to brainstorm fixes for all five problems"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Before solving a problem, what should you confirm about the problem itself?",
+    "why": "The pattern — problems only the manager can fix, conflicting instructions and a threat to his position — suggests the problems may be created or inflated. The first step in problem solving is to confirm with facts whether a problem is real and what its cause is. Accepting the proposal, brainstorming fixes or accusing the manager without evidence would all act on an unverified problem definition.",
+    "how": "In any problem-solving situation, first confirm with data that the problem is real and understand its root cause; only then generate alternatives or escalate.",
+    "optionNotes": [
+      "Correct — Checking inspection data and talking with the team establishes whether the problems exist and why rework is rising before any action is chosen.",
+      "Incorrect — Granting closer supervision acts on an unverified problem and may reward the very behavior that is producing conflicting instructions.",
+      "Incorrect — Escalating an accusation of sabotage based on rumors is premature and unfair; the project manager needs facts before involving the sponsor.",
+      "Incorrect — Brainstorming fixes for five problems that may not be real wastes effort and treats a possible personality issue as a technical one."
+    ],
+    "deepDive": "Kerzner, Zeitoun and Vargas distinguish real problems from personality problems — issues created or exaggerated because solving them brings someone power, authority, visibility or job security. Their advice is to discover first whether a problem is real and whether a simple solution exists. This matches root-cause thinking (five whys, fishbone diagrams) and PMI's emphasis on data-driven decisions. If the facts do point to deliberate behavior, the next step is a private, fact-based conversation and then escalation through the functional reporting line.",
+    "tags": [
+      "conflict",
+      "problem solving",
+      "root cause",
+      "matrix organization",
+      "predictive"
+    ]
+  },
+  {
+    "id": "PEO-154",
+    "domain": "People",
+    "task": "2. Manage conflicts",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Distributed code review conflict",
+    "source": "ECO 2026 · People Task 2 · Agile practice",
+    "question": "A Scrum team is split between Lisbon and Manila. Code reviews have become tense: Lisbon developers leave terse comments late in their day, and Manila developers find them the next morning, feel criticized and rework the code without discussion. Two Manila developers now avoid reviewing Lisbon code at all, and cycle time has doubled. What should the scrum master do FIRST?",
+    "options": [
+      "Assign all code reviews to a senior developer in each location so that reviews stay within one site",
+      "Facilitate a session where both sites discuss the friction and agree review norms as one team",
+      "Coach the Lisbon developers privately to soften their comments, since their tone is causing the problem",
+      "Ask each site's functional manager to remind their developers of the company's code-of-conduct policy"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Who should own the rules for how this team works together, and when is the best time to address them?",
+    "why": "This is task conflict turning into relationship conflict, amplified by time zones and asynchronous communication. Bringing both sites together to surface the impact and agree explicit review norms — for example tone, turnaround and when to switch to a call — lets the team own the solution and rebuild trust. Splitting reviews by site deepens the divide, and one-sided coaching or management reminders take ownership away from the team.",
+    "how": "For conflict inside a distributed agile team, surface it early, make implicit expectations explicit and let the team update its working agreement; escalate only if the team cannot resolve it.",
+    "optionNotes": [
+      "Incorrect — Keeping reviews within each site avoids friction but splits the team into silos and loses cross-site knowledge sharing.",
+      "Correct — A facilitated discussion lets both sites understand each other's view and co-create explicit review norms they will actually honor.",
+      "Incorrect — Coaching one side assigns blame before hearing both perspectives; the asynchronous hand-off and missing norms also drive the conflict.",
+      "Incorrect — Involving functional managers escalates prematurely and frames a team-level working issue as a disciplinary matter."
+    ],
+    "deepDive": "Working agreements, or team norms, are created and revised by the team itself and cover how members collaborate: channels, response times, meeting times, code review etiquette and how to disagree. In distributed teams, written asynchronous channels strip away tone and body language, so misunderstandings escalate faster; agreements such as 'discuss anything beyond a small fix on a short call' help. Retrospectives are a natural place to revisit agreements. On the exam, the scrum master or agile project manager facilitates rather than decides, and escalation is a last resort.",
+    "tags": [
+      "conflict",
+      "working agreements",
+      "distributed teams",
+      "code review",
+      "agile"
+    ]
+  },
+  {
+    "id": "PEO-155",
+    "domain": "People",
+    "task": "2. Manage conflicts",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "multi",
+    "topic": "Artificial harmony and dissent",
+    "source": "ECO 2026 · People Task 2 · Agile practice",
+    "question": "A newly merged data-platform team always reaches agreement quickly in refinement and planning. Yet in each of the last two sprints, a story failed late because of a design flaw that at least three developers later admitted they had doubted but not raised. In a retrospective, one developer said, 'Nobody wants to be the one who slows things down.' Which TWO actions should the team's agile project manager take to encourage constructive disagreement? (Select two.)",
+    "options": [
+      "Require that any concern raised in refinement be backed by written evidence before it is discussed",
+      "Model candor by inviting critique of their own proposals and thanking people who raise concerns",
+      "Let the most experienced developer make final design decisions so that debates do not slow the team",
+      "Use structured techniques, such as silent writing or a rotating challenger, before decisions are final",
+      "Record who raised or missed each design issue so that accountability is visible in later sprints"
+    ],
+    "answer": [
+      1,
+      3
+    ],
+    "hint": "Why are people staying silent, and what would make speaking up feel safe and normal?",
+    "why": "The team shows artificial harmony: people hold back doubts because disagreeing feels risky. A leader who openly invites challenge and thanks people for raising concerns builds psychological safety, and structured techniques such as silent writing or a rotating devil's advocate make dissent a normal part of the process rather than a personal risk. Demanding evidence, tracking blame or deferring to one expert would make people even less likely to speak up.",
+    "how": "To turn silence into healthy task conflict, build psychological safety: model fallibility, reward candor and use structured methods that give every voice a turn before decisions are made.",
+    "optionNotes": [
+      "Incorrect — Demanding written evidence raises the cost of speaking up, so early, informal doubts — often the most valuable kind — stay hidden.",
+      "Correct — When the leader invites critique of their own ideas and thanks dissenters, the team learns that raising concerns is safe and valued.",
+      "Incorrect — Deferring to one expert removes debate but also removes the diverse perspectives that would have caught the design flaws.",
+      "Correct — Silent writing or a designated challenger makes dissent part of the process, so no individual has to take a social risk to raise it.",
+      "Incorrect — Tracking who missed issues creates a blame culture, which lowers psychological safety and makes people even less willing to speak."
+    ],
+    "deepDive": "Research by Amy Edmondson defines psychological safety as a shared belief that the team is safe for interpersonal risk-taking, and it strongly predicts team learning. Low safety often shows up as artificial harmony: fast agreement followed by late surprises. Leaders build safety by framing work as learning, acknowledging their own fallibility and responding well when people speak up. Techniques such as brainwriting, simultaneous reveals in estimation and red-team roles reduce conformity pressure; healthy task conflict improves decisions, while relationship conflict harms them.",
+    "tags": [
+      "conflict",
+      "psychological safety",
+      "groupthink",
+      "agile",
+      "multi-select"
+    ]
+  },
+  {
+    "id": "PEO-156",
+    "domain": "People",
+    "task": "3. Lead the project team",
+    "approach": "Agile",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Transactional incentives backfire",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 6: New Forms of Project Leadership (transactional vs. transformational styles)",
+    "question": "Eighteen months into a platform rebuild at a logistics firm, the project manager introduced a leaderboard that awards gift cards to the developers who close the most story points each sprint. Velocity rose at first. Now escaped defects have doubled, developers grab the easiest stories, nobody picks up refactoring work, and two senior engineers told the project manager their work 'no longer feels like it matters.' The rebuild still has a year to run. What should the project manager do?",
+    "options": [
+      "Keep the leaderboard but deduct points for escaped defects so that quality is rewarded and penalized as well",
+      "Have the product owner assign every story to a named developer so that nobody can avoid the harder work",
+      "Retire the individual leaderboard and reconnect the team to the rebuild's purpose through shared outcome goals",
+      "Meet the two senior engineers privately and offer them technical lead titles to help restore their motivation"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Is the problem a few unmotivated people, or the way the whole team is being motivated?",
+    "why": "The reward scheme is transactional: it bought a short-term rise in output but now drives gaming, lower quality and disengagement. For a long, knowledge-intensive effort, a transformational approach works better — linking the work to its purpose and customer outcomes, setting shared team goals and inviting engineers to own how quality and refactoring are handled. Adding penalties or tighter control deepens the transactional problem, and rewarding two individuals ignores the system that caused it.",
+    "how": "When incentives produce gaming or disengagement, change the system rather than the individuals: move from individual rewards and punishments to shared goals, purpose and team ownership, especially for long, complex work.",
+    "optionNotes": [
+      "Incorrect — Adding penalties makes the scheme more transactional; developers will game the new rule too, and fear of deductions discourages honest defect reporting.",
+      "Incorrect — Central assignment removes the cherry-picking symptom but undermines self-organization and does nothing about the team's lost sense of meaning.",
+      "Correct — Replacing individual rewards with shared, purpose-linked goals tackles the root cause and builds the intrinsic motivation a year-long rebuild needs.",
+      "Incorrect — New titles may placate two people briefly, but the incentive system that is harming quality and morale across the team stays in place."
+    ],
+    "deepDive": "The book contrasts transactional leadership, which secures compliance through rewards and punishments and tends to motivate only in the short term, with transformational leadership, which connects people's identity to the project's purpose, models the desired behavior and challenges people to take ownership. Individual velocity contests are a well-known agile anti-pattern: story points are a team estimation aid, not a personal productivity measure, and rewarding them invites point inflation and quality shortcuts. Motivation research points the same way — for complex work, autonomy, mastery and purpose outperform extrinsic rewards. Exam distractors often 'fix' a bad incentive with another incentive or with tighter control.",
+    "tags": [
+      "leadership styles",
+      "transformational leadership",
+      "motivation",
+      "incentives",
+      "agile"
+    ]
+  },
+  {
+    "id": "PEO-157",
+    "domain": "People",
+    "task": "3. Lead the project team",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Servant leadership as the expert",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 6: New Forms of Project Leadership (servant leadership and expert leaders)",
+    "question": "Priyanka, a highly respected solutions architect, has just become the agile project manager for a ten-week proof-of-concept team of seven. In the first two sprints, whenever a design choice comes up, the team waits for her view and then adopts it without debate. Retrospectives are quiet, and one developer admitted that 'there's no point arguing with the expert.' Priyanka wants the team to take ownership of technical decisions. What should she do?",
+    "options": [
+      "Withhold her own view until the team has proposed and weighed options, asking questions instead of giving answers",
+      "Keep making the key design calls herself, since the proof of concept is short and she is the best-qualified person",
+      "Stop attending design discussions entirely so that the team has no choice but to settle matters on its own",
+      "Ask the organization's agile coach to facilitate all design sessions so that her expertise does not dominate them"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "How does the team's behavior change depending on when and how the leader offers her view?",
+    "why": "Servant leadership is harder when the leader is a recognized expert, because people defer instead of contributing. By speaking last, asking open questions and letting the team propose and choose options within agreed boundaries, Priyanka keeps her expertise available while creating room for the team to own decisions. Deciding herself reinforces dependency, while withdrawing or handing facilitation to someone else avoids the change in her own behavior that the situation needs.",
+    "how": "To build team ownership as an expert leader: ask before you tell, speak last, set boundaries and let the team decide within them — neither dominate nor abdicate.",
+    "optionNotes": [
+      "Correct — Speaking last and coaching through questions lets the team build decision-making ownership while her expertise remains available as a safety check.",
+      "Incorrect — A short timeline tempts directive behavior, but it deepens the team's dependency and wastes the diverse thinking she wants the team to contribute.",
+      "Incorrect — Abrupt withdrawal is laissez-faire abdication; the team loses useful expertise and may read her absence as disinterest rather than empowerment.",
+      "Incorrect — Outsourcing facilitation sidesteps the real issue; the team will still defer to her whenever she speaks, so her own behavior must change."
+    ],
+    "deepDive": "The book notes two conditions that make servant leadership difficult on projects: a leader recognized as an expert, which leaves people feeling unable to offer their opinion, and a short project, which leaves little time to build the trust that encourages risk-taking. Practical countermeasures include speaking last, asking 'what options do we have?', making decision rules explicit (for example, the team decides within architecture guardrails) and thanking people who challenge ideas. PMI frames servant leadership as serving the team — removing obstacles, protecting focus and developing people — rather than directing its work. Watch for exam options that swing to either extreme: taking over or disappearing.",
+    "tags": [
+      "servant leadership",
+      "empowerment",
+      "decision making",
+      "expert power",
+      "agile"
+    ]
+  },
+  {
+    "id": "PEO-158",
+    "domain": "People",
+    "task": "3. Lead the project team",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Competencies versus job titles",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 6: New Forms of Project Leadership (competency models vs. job descriptions)",
+    "question": "A bank is launching an AI-driven fraud-detection initiative using a hybrid approach, with team members in Brazil, Poland and India. Functional managers nominated people by job title — three 'senior data scientists' and two 'lead engineers.' In the first sprint it becomes clear that people with the same title differ widely in machine-learning operations, model validation and regulatory documentation skills. Two of these gaps could delay the model-risk review planned for month three. What should the project manager do?",
+    "options": [
+      "Ask the functional managers to replace the nominees with people who hold more senior titles in their home business units",
+      "Assign work by title as nominated and let the team close the skill differences through pairing as the work proceeds",
+      "Postpone the model-risk review until every team member has completed the same generic machine-learning certification",
+      "Assess members against the competencies the work needs, then close critical gaps via targeted staffing and development"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "What does a job title actually tell you about whether someone can do this particular work?",
+    "why": "Job titles describe positions, not capabilities, and their meaning varies between countries and organizations. Mapping the competencies the initiative needs — for example, basic, advanced and expert levels in ML operations, validation and regulatory documentation — against each member's demonstrated skills shows exactly where the gaps are. The project manager can then negotiate targeted additions and set up development for the rest, protecting the model-risk review. Swapping for bigger titles repeats the same error, and a blanket certification delay treats every gap as equal.",
+    "how": "When staffing complex or strategic work, build and develop the team against the competencies the work requires, not against titles or years of experience, and close the gaps that threaten critical milestones first.",
+    "optionNotes": [
+      "Incorrect — Seniority of title is the same flawed proxy; a more senior title in one country may still not bring the specific skills that are missing.",
+      "Incorrect — Pairing helps development, but ignoring two known critical gaps leaves the model-risk review exposed to a foreseeable and avoidable delay.",
+      "Incorrect — Generic certification for everyone delays delivery, may not cover the specific gaps and wastes the time of members who are already competent.",
+      "Correct — A competency-based assessment targets the real gaps behind the review risk and directs staffing and development effort where it matters most."
+    ],
+    "deepDive": "The book anticipates a shift from project job descriptions — built on role, authority and power — to competency models that describe the demonstrated skills an organization needs, often at basic, advanced and expert levels, with career paths across the whole company. It also warns that in global teams the same title can signal very different skill levels in different countries. AI initiatives sharpen the issue because they blend data science, engineering, domain knowledge and compliance skills that rarely map to one title. In PMBOK terms this is team development and resource planning: assess competencies, plan training or acquisition, and track growth as the team matures.",
+    "tags": [
+      "competency models",
+      "team development",
+      "ai",
+      "distributed teams",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "PEO-159",
+    "domain": "People",
+    "task": "4. Engage stakeholders",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Private support, public silence",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 6: New Forms of Project Leadership (stakeholder relations: group vs. individual behavior)",
+    "question": "On a hybrid warehouse-automation program, the regional operations director, Aiyana, is enthusiastic in her one-on-one meetings with the project manager and has approved every pilot site. In the monthly steering meeting, however, she says little when the finance director questions the business case, and last month she agreed to 'pause and reassess' the rollout. The next steering meeting will decide funding for phase two. What should the project manager do?",
+    "options": [
+      "Report Aiyana's private support to the steering committee so that members know operations backs the rollout",
+      "Meet Aiyana beforehand to explore what makes her cautious in the group and agree how her views will be heard",
+      "Remind Aiyana during the steering meeting that she approved every pilot site and ask her to confirm her support",
+      "Ask the sponsor to instruct Aiyana to speak up for the rollout at the meeting where the funding is decided"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "What might explain a stakeholder behaving differently depending on who else is in the room?",
+    "why": "Stakeholders often behave differently in a group than one-on-one, influenced by who else is present and by organizational pressure. The project manager needs to understand why Aiyana holds back when the finance director is in the room — perhaps unresolved cost concerns or a sensitive relationship — and plan with her how her operational evidence can be presented. Relaying private comments, confronting her publicly or having the sponsor pressure her would damage trust and could turn a supporter into a blocker.",
+    "how": "When a stakeholder's position shifts between private and group settings, observe the dynamics, understand the drivers privately and co-plan how their input will be expressed; never expose or pressure them.",
+    "optionNotes": [
+      "Incorrect — Repeating private remarks without consent breaches trust and may backfire if Aiyana then qualifies her support in front of the committee.",
+      "Correct — A private conversation uncovers the dynamics or concerns behind her silence and lets them plan together how her evidence reaches the decision.",
+      "Incorrect — Publicly pinning her to earlier approvals is likely to embarrass her, harden her caution and damage the working relationship.",
+      "Incorrect — Using the sponsor's authority to force public support skips understanding her concerns and can create a reluctant, resentful stakeholder."
+    ],
+    "deepDive": "The book stresses that a stakeholder who supports a project in individual meetings may not do so in a group, because group dynamics and the presence of particular people shape what they are willing to say. Its practical advice is to observe stakeholders in group settings, note who is present when positions change, and understand each stakeholder's interests. In PMI terms this is part of understanding and analyzing stakeholders — their feelings, beliefs and relationships — and tailoring engagement accordingly. Pre-meeting alignment is legitimate when it seeks to understand concerns and prepare evidence, not to manipulate a vote.",
+    "tags": [
+      "stakeholder engagement",
+      "group dynamics",
+      "steering committee",
+      "influence",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "PEO-160",
+    "domain": "People",
+    "task": "4. Engage stakeholders",
+    "approach": "Predictive",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Clarifying stakeholder roles early",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 6: New Forms of Project Leadership (stakeholder role clarification)",
+    "question": "A project manager is preparing to kick off a three-year regional water-treatment upgrade funded jointly by two municipalities, a national agency and a private operator. Most of the stakeholder representatives have never served on a project before. Previous projects in the region suffered when some representatives acted only as observers while others tried to direct contractors on site. Which action will BEST prevent these problems?",
+    "options": [
+      "Agree early with each stakeholder an explicit list of what the project expects of them in decisions and approvals",
+      "Give stakeholders access to the full project management plan and ask them to raise questions whenever they have any",
+      "Limit stakeholder involvement to the quarterly steering meeting so that contractors take direction only from the PM",
+      "Wait to see how each representative behaves in the first months, then correct any unhelpful behavior individually"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Many of the past problems came from stakeholders not knowing what part they were meant to play.",
+    "why": "Many stakeholders are never taught how to act as a stakeholder, so some assume they are observers while others overstep into directing the work. Clarifying roles at the start — what each stakeholder decides, reviews and approves, and how their requests reach the team — works the same way as role clarification for team members at kickoff. It is proactive and addresses both the passivity and the micromanagement seen on earlier projects.",
+    "how": "Clarify stakeholder roles and expectations early and explicitly, just as you clarify team roles at kickoff; preventing role confusion is cheaper than correcting it.",
+    "optionNotes": [
+      "Correct — Explicit, agreed role expectations tell each stakeholder where to participate and where not to intervene, preventing both passivity and micromanagement.",
+      "Incorrect — A full plan is too much for new stakeholders to absorb and does not tell them what role they personally are expected to play.",
+      "Incorrect — Restricting everyone to a quarterly meeting reduces engagement and still leaves decision rights and approval roles undefined.",
+      "Incorrect — Waiting is reactive; the risk is already known from past projects, so clarifying expectations up front is cheaper and fairer."
+    ],
+    "deepDive": "The book observes that many stakeholders do not understand project management or their own role: some believe they are mere observers who need not decide anything, while others micromanage and usurp the project manager's authority — often the more harmful behavior. It recommends preparing a list of the project manager's expectations of stakeholders and clarifying roles early, as is done for team members at kickoff. Useful tools include a stakeholder RACI, a decision-rights matrix and the stakeholder engagement plan. On multi-party projects, also make clear how change requests and site instructions must flow.",
+    "tags": [
+      "stakeholder roles",
+      "role clarification",
+      "kickoff",
+      "governance",
+      "predictive"
+    ]
+  },
+  {
+    "id": "PEO-161",
+    "domain": "People",
+    "task": "4. Engage stakeholders",
+    "approach": "Predictive",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Reading hidden resistance signals",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 6: New Forms of Project Leadership (signs a stakeholder has lost confidence)",
+    "question": "Tomasz, head of a finance shared-service center, publicly endorsed a predictive ERP consolidation project at kickoff. Since then he has assigned only trainees to the finance workstream, taken three weeks to approve a minor scope change and declined to fund two extra testers his own staff requested. When asked, he says the project 'has my full support.' The consolidation will merge his center into a regional hub next year. What should the project manager do FIRST?",
+    "options": [
+      "Escalate to the sponsor with evidence of the delays and ask that Tomasz be directed to release experienced staff",
+      "Log the late approvals and trainee staffing as issues and keep executing the plan while monitoring their impact",
+      "Meet Tomasz to explore how the consolidation affects him and his team and what would address his concerns",
+      "Reclassify Tomasz as a resistor in the register and route future approvals to his deputy to avoid more delays"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Which tells you more about his position — what he says or what he does — and why might the two differ?",
+    "why": "Reluctance to approve changes, fund additions or assign qualified people are warning signs that a stakeholder has lost confidence or fears the outcome — here, the loss of his center. Stated support can mask those concerns. The first step is to understand his interests privately and explore what might help, such as his role in the future hub or a transition plan for his staff, which may turn him into a genuine supporter. Escalation may be needed later, but doing it first risks entrenching resistance.",
+    "how": "When behavior contradicts stated support, treat the behavior as the real signal, seek to understand the stakeholder's interests (often a fear of losing power or position) directly, and escalate only if engagement fails.",
+    "optionNotes": [
+      "Incorrect — Escalation may become necessary, but doing it first skips understanding his concerns and can harden quiet resistance into open opposition.",
+      "Incorrect — Logging issues treats the symptoms and lets the resistance pattern continue while the finance workstream keeps slipping.",
+      "Correct — Understanding what he stands to lose addresses the likely root cause of his behavior and opens options for winning genuine support.",
+      "Incorrect — Routing around a powerful stakeholder without engaging him usually increases resistance and may override his legitimate decision rights."
+    ],
+    "deepDive": "The book warns that not every stakeholder wants the project to succeed — especially those who believe they may lose power, position or even their job — and that such people may appear supportive or silent until late in the project. It points to indirect signals, such as reluctance to approve scope changes, provide more investment or assign highly qualified resources, as signs of lost confidence. PMBOK's stakeholder guidance adds that understanding the feelings, beliefs and values behind resistance should come before choosing an engagement strategy. On the exam, 'FIRST' combined with a resistant stakeholder usually points to direct engagement before escalation.",
+    "tags": [
+      "stakeholder engagement",
+      "resistance",
+      "hidden agenda",
+      "power",
+      "predictive"
+    ]
+  },
+  {
+    "id": "PEO-162",
+    "domain": "People",
+    "task": "4. Engage stakeholders",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Co-creating with external users",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 4: Digitalization (co-creation with users and partners)",
+    "question": "An agile team at a food distributor is building a self-service ordering portal for its 400 independent suppliers. After four sprints, a pilot with three suppliers revealed that the invoice screens do not match how small suppliers actually reconcile orders, and several features built at procurement's request were never used. The backlog so far has been written entirely from procurement's internal assumptions. What should the project manager recommend?",
+    "options": [
+      "Have procurement run a detailed requirements survey of all 400 suppliers before the team builds anything more",
+      "Freeze the invoice features and finish the remaining backlog before inviting suppliers to a formal acceptance test",
+      "Ask the product owner to rewrite the invoice stories more precisely, based on procurement's reading of the pilot",
+      "Bring a small, varied supplier panel into refinement and reviews to shape features using simple visual mock-ups"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Who has been shaping the backlog so far, and who has been left out of that loop?",
+    "why": "The pilot shows the portal is being designed for suppliers rather than with them. Co-creation brings users and partners into shaping the product as it evolves — for example, a rotating supplier panel working with the product owner in refinement and reviews, using simple mock-ups so that feedback is quick and concrete. A one-off survey delays learning and captures what suppliers say rather than how they work, while continuing with procurement's assumptions repeats the original error.",
+    "how": "When a product misses users' real needs, bring representative users into the ongoing flow of refinement and review; short feedback loops with visual prototypes beat big up-front surveys or late acceptance tests.",
+    "optionNotes": [
+      "Incorrect — A large survey halts delivery, captures what suppliers say rather than how they work, and becomes stale as the product evolves.",
+      "Incorrect — Waiting for a formal acceptance test pushes learning to the end, when misfit features are most expensive to change.",
+      "Incorrect — Refining stories through procurement's lens keeps suppliers outside the loop that produced the mismatch in the first place.",
+      "Correct — Direct, recurring supplier involvement with visual mock-ups gives fast, concrete feedback and lets suppliers help shape the portal."
+    ],
+    "deepDive": "In the book's digitalization framework, co-creation means involving customers, users, suppliers, partners and experts interactively in shaping the solution, supported by two enablers: visual clarity (simple visuals that gather people around a shared picture) and streamlined inputs (a continuous flow of feedback, as in design thinking). This echoes the Agile Manifesto's preference for customer collaboration over contract negotiation. A small, rotating panel keeps involvement manageable while still representing different segments — here, small suppliers whose processes differ from large ones. Common exam traps are 'more documentation' or 'better stories from the same internal source.'",
+    "tags": [
+      "co-creation",
+      "stakeholder engagement",
+      "user feedback",
+      "prototyping",
+      "agile"
+    ]
+  },
+  {
+    "id": "PEO-163",
+    "domain": "People",
+    "task": "4. Engage stakeholders",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "multi",
+    "topic": "Engaging remote sprint reviewers",
+    "source": "ECO 2026 · People Task 4 · Agile practice",
+    "question": "A Scrum team in Lisbon is building a claims app for an insurer whose key stakeholders work in Toronto, Cape Town and Singapore. Sprint reviews are held on video: the team demonstrates features while most stakeholders keep cameras off and say little. Feedback arrives weeks later by email, often after the next sprint has started. The product owner wants reviews to produce timely, usable feedback. Which TWO actions should the project manager suggest? (Select two.)",
+    "options": [
+      "Give stakeholders access to the increment in a test environment before the review so they can try it themselves",
+      "Replace the live review with a recorded demo video that stakeholders can watch at a time that suits their zone",
+      "Have the project manager present a polished slide summary of completed stories so the session stays short",
+      "Capture feedback live on a shared board during the review, with the product owner triaging it into the backlog",
+      "Limit attendance to the sponsor so that one person gives clear, consolidated feedback on behalf of all regions"
+    ],
+    "answer": [
+      0,
+      3
+    ],
+    "hint": "What would turn remote stakeholders from viewers into active participants?",
+    "why": "Distributed reviews fail when stakeholders are passive viewers. Letting them use the increment beforehand turns the review into a discussion of real experience, and a shared digital board makes it easy for everyone to contribute during the session, with the product owner turning feedback into backlog items straight away. Recorded videos and slide decks keep stakeholders passive, and limiting attendance to the sponsor removes the regional users whose feedback matters most.",
+    "how": "Make remote reviews interactive: hands-on access to the increment, simple digital collaboration tools for real-time input and immediate backlog triage by the product owner.",
+    "optionNotes": [
+      "Correct — Hands-on access beforehand lets stakeholders arrive with concrete observations, so the review becomes a working conversation rather than a presentation.",
+      "Incorrect — Recorded demos make feedback slower still and remove the collaborative inspect-and-adapt conversation that the review exists to provide.",
+      "Incorrect — Slides about stories replace inspection of the working increment and reinforce a passive, status-report style of meeting.",
+      "Correct — A shared board lets every remote stakeholder contribute during the session, and immediate triage turns their input into backlog decisions quickly.",
+      "Incorrect — Funnelling everything through the sponsor filters out regional user perspectives and weakens engagement from the people who will use the app."
+    ],
+    "deepDive": "The Scrum Guide describes the sprint review as a working session in which the team and stakeholders inspect the increment and adapt the product backlog — not a one-way presentation. With distributed stakeholders, facilitation matters even more: rotate time slots fairly across time zones, keep sessions short, use collaborative whiteboards, polls or breakout rooms, and give hands-on access to a staging environment. Asynchronous input can supplement a live review but should not replace the conversation. Track engagement signals such as the volume and turnaround of feedback to see whether the changes are working.",
+    "tags": [
+      "sprint review",
+      "distributed teams",
+      "stakeholder engagement",
+      "agile",
+      "multi-select"
+    ]
+  },
+  {
+    "id": "PEO-164",
+    "domain": "People",
+    "task": "5. Align stakeholder expectations",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Prototype mistaken for product",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 5: Evolving Project Delivery Skills (design thinking: prototype and test)",
+    "question": "A digital team at a regional hospital is using design thinking to rethink outpatient check-in. After two weeks, the team produced a polished, clickable prototype to test with patients. When the chief operating officer saw it, she presented it as 'the new check-in system' at an all-staff meeting and asked when it would go live. The first patient tests are scheduled for next week. What should the project manager do?",
+    "options": [
+      "Pull the build forward and start developing the prototype's screens while patient testing runs in parallel",
+      "Explain to the COO that the prototype is a learning tool and agree how test results will shape later versions",
+      "Cancel next week's patient tests, because the COO has already chosen the design and more testing may confuse staff",
+      "Ask the designers to add features to the prototype so that it better matches what the COO told the staff"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "What is a prototype for, and what does the COO seem to think it is?",
+    "why": "One prototype is not a final solution; expecting it to be is a common cause of design thinking failure. The prototype exists to test assumptions with patients, and several iterations are normal. Aligning the COO on the purpose of prototyping — and on how and when test results will lead to a decision — protects the learning and prevents an unvalidated design from being built or announced as final. Skipping or running ahead of the tests commits the hospital to an untested solution.",
+    "how": "When stakeholders treat an early prototype as the product, reset expectations about the purpose of prototyping and agree how evidence from testing will drive the decision.",
+    "optionNotes": [
+      "Incorrect — Building before testing commits scarce effort to a design that has not yet been validated with the patients who must use it.",
+      "Correct — Aligning the COO on what the prototype is for, and how results will shape the next version, protects learning and sets realistic expectations.",
+      "Incorrect — Dropping the tests trades user evidence for executive approval; usability problems will surface later at far greater cost.",
+      "Incorrect — Adding features to match the announcement gold-plates a prototype and further reinforces the belief that it is the final product."
+    ],
+    "deepDive": "The book lists typical reasons design thinking fails, including rushing into prototype development and expecting a final solution from a single prototype. In nonlinear prototyping, common in strategic and innovation work, several prototypes are built early and then refined or discarded as the team learns. The design thinking stages — empathize, define, ideate, prototype, test — are iterative, and testing often sends the team back to redefine the problem. A polished prototype can create false certainty; low-fidelity versions such as paper sketches or wireframes signal 'work in progress' more clearly to executives.",
+    "tags": [
+      "design thinking",
+      "prototyping",
+      "expectations",
+      "executives",
+      "agile"
+    ]
+  },
+  {
+    "id": "PEO-165",
+    "domain": "People",
+    "task": "5. Align stakeholder expectations",
+    "approach": "Any",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Agreeing the problem before solutions",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 5: Evolving Project Delivery Skills (problem solving: problems vs. symptoms)",
+    "question": "At a water utility, the customer-service director asks the project manager to start a project to build a chatbot because 'our call center is overwhelmed.' The billing director wants a new billing system instead, and the IT director favors hiring more call-center staff. Each group has already set aside budget for its preferred option. Call volumes rose 35% soon after a tariff change six months ago. What should the project manager do FIRST to align these stakeholders?",
+    "options": [
+      "Facilitate a session with all three groups to define the underlying problem and its causes before comparing options",
+      "Compare the cost and benefit of the chatbot, billing system and extra staff, then recommend the highest-value option",
+      "Start the chatbot project, since the customer-service director owns the call center and raised the request first",
+      "Ask the sponsor to choose among the three proposals so that work can start without further internal debate"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Do the three groups actually agree on what problem they are trying to solve?",
+    "why": "Each stakeholder has jumped to a solution, and each treats the symptom — high call volume — differently. The jump in calls after the tariff change suggests a root cause, such as confusing bills, that none of the proposals may address. Getting the groups to agree on the problem statement and its causes first creates common ground, and comparing solutions afterwards becomes easier and less political. Cost-benefit analysis is valuable, but only once everyone agrees what problem is being solved.",
+    "how": "When stakeholders arrive with competing solutions, align them on the problem and its root cause first; evaluate alternatives only after the problem is agreed.",
+    "optionNotes": [
+      "Correct — A shared, evidence-based problem definition moves the groups from competing positions to a common goal and may reveal a cause none of them proposed.",
+      "Incorrect — Comparing alternatives is a later step; without an agreed problem, each group will dispute any analysis that does not favor its own option.",
+      "Incorrect — Choosing by ownership or by who asked first ignores the other stakeholders and risks funding a solution to the wrong problem.",
+      "Incorrect — Handing the choice to the sponsor escalates prematurely and still leaves the underlying problem undefined for whoever decides."
+    ],
+    "deepDive": "The book's problem-solving sequence begins with defining the real problem rather than its symptoms, then identifying root causes, generating alternatives, setting decision criteria and clarifying who decides. Design thinking follows the same logic, with a 'define' stage after empathy work with users. In this scenario, the tariff change is a clue: a confusing bill may be the root cause, and a clearer bill or proactive messaging could cut calls more cheaply than any of the three proposals. PMI treats agreement on the problem and desired outcomes as a prerequisite for selecting a solution or writing a business case.",
+    "tags": [
+      "problem definition",
+      "root cause",
+      "stakeholder alignment",
+      "solution bias",
+      "business analysis"
+    ]
+  },
+  {
+    "id": "PEO-166",
+    "domain": "People",
+    "task": "5. Align stakeholder expectations",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "BI as a business initiative",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 4: Digitalization (BI projects are business projects)",
+    "question": "A retail chain's executives approved a business-intelligence initiative and expect the IT department to 'deliver the dashboards' within six months. The store-operations and merchandising leaders say they are too busy to take part and will review the product at the end. Early prototypes already show dense tables of data that nobody has asked for. The project manager is using a hybrid approach. How should the project manager align stakeholder expectations?",
+    "options": [
+      "Have IT collect every report from the existing spreadsheets and build dashboards that reproduce all of them faithfully",
+      "Accept the executives' view, since IT owns the tools, and schedule business reviews for the final month of the project",
+      "Ask the executives to extend the timeline so that IT can gather detailed requirements from each department first",
+      "Reframe it as a business change effort with business owners and champions, starting with small wins tied to decisions"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Who needs to own the outcome for these dashboards to actually change how decisions are made?",
+    "why": "BI initiatives most often fail when they are treated as technology installations: business users stay uninvolved, dashboards become data dumps and people keep using their old spreadsheets. Positioning the work as a business change — with business owners defining the decisions and questions the dashboards must support, champions in each area and early small wins — aligns expectations about who is responsible for value. The other options keep the business outside the work or simply reproduce old reporting habits.",
+    "how": "For analytics and BI work, anchor expectations on business decisions and adoption: business ownership, champions, small early wins and change management come before tools and reports.",
+    "optionNotes": [
+      "Incorrect — Reproducing every existing report creates a data dump and moves old spreadsheet habits into a new tool without improving any decisions.",
+      "Incorrect — Leaving business reviews to the end guarantees late surprises and low adoption, because the users never shaped what was built.",
+      "Incorrect — More up-front requirements gathered by IT still keeps business leaders out of ownership and delays value without addressing adoption.",
+      "Correct — Business ownership, champions and quick wins tied to real decisions align everyone on value and build the adoption the initiative depends on."
+    ],
+    "deepDive": "The book argues that business-intelligence projects should be run as strategic business projects that need change management: awareness of the benefits at every level, the right skills, champions across the organization, small achievable goals that prove value, transparency and embedding the change in the culture. It also warns that successful dashboards are not data dumps — stakeholders stuck in a spreadsheet mindset want every row on one screen. In hybrid delivery, the data platform may follow a planned roadmap while dashboards evolve iteratively with business users. The same logic applies to AI and analytics initiatives: value lies in changed decisions, not in the tool.",
+    "tags": [
+      "business intelligence",
+      "stakeholder alignment",
+      "change management",
+      "dashboards",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "PEO-167",
+    "domain": "People",
+    "task": "5. Align stakeholder expectations",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Consortium interaction agreements",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 6: New Forms of Project Leadership (stakeholder agreements on how parties interact)",
+    "question": "A project manager is initiating a four-year research program to develop low-carbon cement. The partners are two universities, a cement producer and a government innovation agency. Each partner will contribute researchers, laboratory time or funding, and the results may be patentable. The charter has been approved, but so far the partners have agreed only on the technical objectives. What should the project manager secure next?",
+    "options": [
+      "A detailed integrated schedule for all four years so that each partner knows exactly when its researchers are needed",
+      "A communication plan setting out the frequency and format of progress reports for each of the partner organizations",
+      "Agreements on how partners will share resources, time their funding and handle intellectual property from the work",
+      "A stakeholder register that ranks the four partners by power and interest so the team can prioritize its engagement"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Beyond what the partners want to achieve, what else must they settle to work together for four years?",
+    "why": "In multi-party projects, partners must agree not only on objectives but also on how they will interact — sharing people and facilities, timing funding contributions and owning or licensing intellectual property. These agreements are hardest to reach once work is under way and disputes have started, so they belong at the beginning. A detailed four-year schedule is premature for research, and the communication plan and register are useful but do not resolve the issues most likely to derail a consortium.",
+    "how": "On consortium or multi-party projects, secure explicit agreements on how stakeholders will interact — resource sharing, funding timing, IP and decision rights — at initiation, before disputes arise.",
+    "optionNotes": [
+      "Incorrect — A detailed four-year schedule is unrealistic for research work and does not settle how partners will share resources, funds or results.",
+      "Incorrect — Reporting arrangements matter, but they do not resolve the resource, funding and ownership questions most likely to cause disputes.",
+      "Correct — Early agreements on resource sharing, funding timing and IP ownership prevent the partner disputes that most often derail consortium projects.",
+      "Incorrect — Ranking partners by power adds little when all four are key parties, and it leaves the terms of their collaboration undefined."
+    ],
+    "deepDive": "The book highlights a second kind of stakeholder agreement beyond objectives: how stakeholders will interact and support one another, such as sharing resources, providing financial support on time and sharing intellectual property. It stresses that obtaining these agreements at the start is essential, because politics, economics and leadership changes later make them harder to reach or enforce. In practice they are captured in collaboration or consortium agreements, memoranda of understanding and a governance charter. Once they are in place, the project manager's job shifts to making sure the parties abide by them throughout the life cycle.",
+    "tags": [
+      "stakeholder agreements",
+      "consortium",
+      "intellectual property",
+      "initiation",
+      "alignment"
+    ]
+  },
+  {
+    "id": "PEO-168",
+    "domain": "People",
+    "task": "5. Align stakeholder expectations",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Competing VPs and the product owner",
+    "source": "ECO 2026 · People Task 5 · Agile practice",
+    "question": "The product owner of a fintech mobile app is under pressure from two vice presidents: one wants a loyalty-points feature for a marketing campaign, the other wants bank-account aggregation to satisfy a strategic partner. Each has told their own teams the feature will be in the next release. The development team can deliver only one of them by that date. The product owner asks the agile project manager for help. What should the project manager do?",
+    "options": [
+      "Split the team so that half works on each feature, allowing both vice presidents to see progress in the next release",
+      "Facilitate a session where both VPs and the PO weigh each feature against the product goal and the cost of delay",
+      "Ask the sponsor to decide which vice president's feature takes priority, since the conflict is between two executives",
+      "Advise the product owner to prioritize the more senior vice president's feature to protect the team's relationships"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Who owns the backlog order, and what would help that person's decision be understood and accepted?",
+    "why": "The product owner is accountable for ordering the backlog, but decisions stick better when stakeholders understand the reasoning. A transparent session that compares both features against the product goal, value and cost of delay helps the VPs see the trade-off, lets the product owner make an informed decision and aligns expectations about the next release. Splitting the team risks finishing neither feature, while deferring to seniority or the sponsor bypasses the product owner's role.",
+    "how": "When stakeholders compete for backlog priority, support the product owner with transparent, value-based prioritization (product goal, cost of delay, WSJF) so the decision is informed and understood.",
+    "optionNotes": [
+      "Incorrect — Splitting capacity usually means neither feature is finished, and it avoids the trade-off the stakeholders need to understand and accept.",
+      "Correct — A transparent, value-based discussion supports the product owner's decision and helps both VPs understand and accept the release contents.",
+      "Incorrect — Escalating first bypasses the product owner's accountability for backlog order; the sponsor is a fallback if the PO cannot resolve it.",
+      "Incorrect — Prioritizing by seniority ignores value, undermines the product owner and teaches stakeholders that rank matters more than outcomes."
+    ],
+    "deepDive": "The Scrum Guide makes the product owner accountable for maximizing product value and ordering the product backlog, and says the organization must respect those decisions for this to work. Techniques such as weighted shortest job first (cost of delay divided by job size), impact mapping and explicit links to the product goal make trade-offs visible and depersonalize them. In agile and hybrid settings, the project manager facilitates and supports rather than taking the product owner's decision. Also address the root cause: stakeholders announced release content before it was agreed, so clarify how release commitments are made and communicated.",
+    "tags": [
+      "product owner",
+      "prioritization",
+      "cost of delay",
+      "stakeholder alignment",
+      "agile"
+    ]
+  },
+  {
+    "id": "PEO-169",
+    "domain": "People",
+    "task": "5. Align stakeholder expectations",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Context-driven hybrid planning",
+    "source": "Book: Project Management Next Generation (Kerzner, Zeitoun & Vargas, 2022) — Pillar 4: Digitalization (context-driven planning)",
+    "question": "A medical-device company is developing a connected insulin pump. The regulatory submission, hardware tooling and clinical trial must follow fixed, audited stages, while the companion mobile app and data dashboard face fast-changing user needs. Headquarters executives expect one detailed three-year Gantt chart for everything; the software lead wants the whole program run in sprints with no milestone dates. The project manager will present the delivery approach to both groups next week. What should the project manager propose?",
+    "options": [
+      "Staged plans for regulated work and iterative delivery for the app, linked through shared milestones and one dashboard",
+      "One detailed three-year Gantt chart for every component, since the regulated parts dominate the program's risk profile",
+      "Sprints for every workstream, with regulatory evidence compiled at the end so that no milestone dates constrain teams",
+      "Two separate projects with their own sponsors, so that each group can keep its preferred delivery method unchanged"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Do all parts of this program share the same level of uncertainty and regulatory constraint?",
+    "why": "The program contains two different contexts: regulated hardware and trials that need fixed, auditable stages, and software whose requirements change quickly. A context-driven, hybrid plan applies each approach where it fits and ties them together with integration milestones and a single view of progress, so both the executives and the software lead see their legitimate concerns addressed. One Gantt chart forces false precision on the app, while end-loaded regulatory evidence endangers compliance, and separate projects break the integration the product depends on.",
+    "how": "Fit the approach to each component's context — stable, regulated work in planned stages and volatile work iteratively — and integrate them through shared milestones, governance and reporting.",
+    "optionNotes": [
+      "Correct — Matching each workstream to its context and integrating them through shared milestones and one dashboard meets both groups' legitimate concerns.",
+      "Incorrect — A single detailed plan forces false precision on the fast-changing app and will need constant rework as user needs shift.",
+      "Incorrect — Compiling regulatory evidence at the end ignores audited stage requirements and puts the submission and clinical trial at serious risk.",
+      "Incorrect — The pump and app form one product; splitting them breaks integration and pushes the coordination problem onto patients and clinicians."
+    ],
+    "deepDive": "The book's digitalization framework includes context-driven planning, with dynamic adjustments and fit for complexity as its sub-elements, and notes a clear movement toward hybrid ways of working. Its later argument about adaptive frameworks is similar: a single, one-size-fits-all methodology creates risk, and teams need flexible frameworks chosen for each context. PMBOK's development-approach guidance lists factors — regulatory requirements, degree of innovation, requirements certainty — that drive this choice. When presenting a hybrid plan, show how the pieces integrate: shared milestones, a common definition of done at integration points and unified reporting.",
+    "tags": [
+      "hybrid",
+      "context-driven planning",
+      "tailoring",
+      "regulated products",
+      "stakeholder alignment"
+    ]
+  },
+  {
+    "id": "PEO-170",
+    "domain": "People",
+    "task": "6. Manage stakeholder expectations",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Burnup shows scope growth",
+    "source": "ECO 2026 · People Task 6 · Agile practice",
+    "question": "Refer to the exhibit. An agile team is building a customer portal for an energy retailer. At the sprint 8 review, the marketing director, whose launch campaign depends on the portal, complains that the release date 'keeps slipping' and suggests the developers are slowing down. The original forecast at release planning was about nine sprints. What should the project manager do?",
+    "options": [
+      "Ask the team to raise its velocity for the remaining sprints so the original campaign launch date can still be met",
+      "Reassure the marketing director that the team will finish in one more sprint, based on its average velocity so far",
+      "Walk through the burnup to show steady delivery and scope growth, then have the product owner lead a trade-off",
+      "Stop accepting any new backlog items until the release is delivered, so that the total scope line stays fixed"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Look at the two lines separately: which one explains the moving finish date?",
+    "why": "The completed line rises by about 23 points every sprint (183 ÷ 8 ≈ 22.9), so the team's pace is steady. The total-scope line grew from 200 to 285 points, an increase of 85 points (42.5%). Remaining work is 285 − 183 = 102 points, which at about 23 points per sprint is roughly 4.4 more sprints — completion in sprint 13 at the earliest (and later if scope keeps growing by 15 points a sprint), rather than the forecast 9. Showing this transparently corrects the misperception and lets the product owner and stakeholders decide whether to trim scope or accept a later date.",
+    "how": "Use a burnup chart to separate scope change from delivery rate; when scope grows, make the trade-off visible and let the product owner and stakeholders choose between scope and date.",
+    "optionNotes": [
+      "Incorrect — The team's rate is steady; pressure for higher velocity invites inflated estimates or cut corners and ignores the real cause, scope growth.",
+      "Incorrect — About 102 points remain, more than four sprints at the current pace; a one-sprint promise would create a bigger disappointment later.",
+      "Correct — The chart shows the date moved because scope grew, not because the team slowed, and transparency enables an informed scope-versus-date decision.",
+      "Incorrect — Freezing the backlog removes the product owner's ability to add higher-value items; stakeholders need a trade-off decision, not a ban."
+    ],
+    "deepDive": "A burnup chart plots total scope and completed work as separate lines, so it distinguishes 'the team is slower' from 'the target moved' — a distinction a simple burndown can hide. Here the scope line rose by 15 points in every sprint from sprint 4 onward, while the completed line kept a steady slope. Forecasts should be shown as ranges (for example, using the best and worst recent velocities) and refreshed every sprint. Managing expectations in agile means making this data visible at the sprint review and letting the product owner negotiate scope, date or both with stakeholders.",
+    "tags": [
+      "burnup chart",
+      "scope growth",
+      "sprint review",
+      "forecasting",
+      "exhibit"
+    ],
+    "exhibit": {
+      "kind": "line",
+      "title": "Release burnup — customer portal",
+      "xLabel": "Sprint",
+      "yLabel": "Story points",
+      "x": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "series": [
+        {
+          "name": "Total scope",
+          "values": [
+            200,
+            200,
+            210,
+            225,
+            240,
+            255,
+            270,
+            285
+          ]
+        },
+        {
+          "name": "Completed",
+          "values": [
+            22,
+            46,
+            68,
+            92,
+            115,
+            138,
+            160,
+            183
+          ]
+        }
+      ]
+    }
+  }
+]

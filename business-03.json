@@ -1,0 +1,944 @@
+[
+  {
+    "id": "BUS-051",
+    "domain": "Business Environment",
+    "task": "5. Plan and manage risk",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Risk identification techniques",
+    "source": "ECO 2026 · Business Environment Task 5 (identify risks)",
+    "question": "A telecom company's project to build 300 rural cell towers held a risk workshop with its engineers, and all 45 risks identified are technical: equipment faults, power supply and weather damage. The sponsor worries that land-access disputes, subsidy changes, local opposition and new environmental rules have been missed. What should the project manager use to broaden risk identification?",
+    "options": [
+      "A burndown chart grouped by risk category to show how quickly risks are being closed",
+      "A prompt list such as PESTLE to probe political, economic, social and other sources",
+      "A RACI chart to confirm who owns each of the 45 technical risks already identified",
+      "An earned value analysis by work package to reveal where risks are hurting progress"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "The gap is in the range of sources the workshop considered — ask which technique widens that range.",
+    "why": "The workshop's blind spot is the range of risk sources considered, not ownership or tracking. A prompt list is a predetermined set of risk categories — PESTLE covers political, economic, social, technological, legal and environmental factors — that pushes participants to think beyond their own specialty. Used with non-engineering participants such as land agents and community liaison staff, it would surface the non-technical risks the sponsor is worried about.",
+    "how": "To widen risk identification, combine techniques and people: prompt lists (PESTLE, TECOP, VUCA), checklists from past projects, assumption and constraint analysis, SWOT, interviews and a diverse set of participants.",
+    "optionNotes": [
+      "Incorrect — A burndown tracks how risks are closed over time; it cannot reveal risk categories that were never identified.",
+      "Correct — A prompt list systematically directs attention to external sources such as politics, economics, society, law and the environment.",
+      "Incorrect — A RACI clarifies ownership of known risks; it does nothing to find the non-technical risks that were missed.",
+      "Incorrect — Earned value measures cost and schedule performance, and it cannot identify future risks from outside the engineering domain."
+    ],
+    "deepDive": "Other identification techniques include brainstorming, expert interviews, checklists built from lessons learned, root cause analysis, assumption and constraint analysis, document analysis and SWOT analysis, which links internal strengths and weaknesses to external opportunities and threats. A risk breakdown structure can act as a structured prompt list at deeper levels. Who participates matters as much as the tool: a workshop made up only of engineers will naturally find engineering risks. The exam trap is choosing a tracking or reporting tool (burndown, RACI, EVM) for a problem of identification.",
+    "tags": [
+      "PESTLE",
+      "prompt list",
+      "risk identification",
+      "external factors"
+    ]
+  },
+  {
+    "id": "BUS-052",
+    "domain": "Business Environment",
+    "task": "5. Plan and manage risk",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Risk audits",
+    "source": "ECO 2026 · Business Environment Task 5",
+    "question": "Halfway through a hospital-expansion project, the sponsor notices that the risk register is updated every month, yet three risks that materialized were never escalated and several planned responses were never carried out. She wants an independent, objective assessment of whether the project team is following its risk management process and whether that process is actually working. What should the project manager arrange?",
+    "options": [
+      "A quality control inspection of the deliverables completed so far",
+      "A risk reassessment workshop to re-score the risks in the register",
+      "A sensitivity analysis to find which risks drive schedule outcomes",
+      "A risk audit, carried out by the PMO or another independent party"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Ask whether the sponsor is questioning the individual risks or the way risk is being managed.",
+    "why": "The sponsor is questioning the process itself — whether people follow it and whether it works — rather than the individual risks. A risk audit evaluates the effectiveness of the risk management process, often led by the PMO or an independent reviewer, and produces findings on gaps such as missed escalations and unexecuted responses. A reassessment would only re-score the same risks with the same flawed process.",
+    "how": "Risk audit = is the risk process followed and effective? Risk reassessment or review = are the individual risks and responses still correct? Choose by what is being questioned.",
+    "optionNotes": [
+      "Incorrect — Inspection checks deliverables against requirements; it says nothing about how risks are identified, escalated or responded to.",
+      "Incorrect — Reassessment updates individual risks and ratings, but it would repeat the same process the sponsor already doubts.",
+      "Incorrect — Sensitivity analysis is a quantitative technique for ranking risk drivers, not an evaluation of process compliance.",
+      "Correct — An independent audit examines whether the risk management process is followed and effective, which is exactly the sponsor's concern."
+    ],
+    "deepDive": "Risk reviews happen regularly, in status meetings or dedicated sessions, to update risks and responses; risk audits are periodic, more formal checks on the process itself, and their timing and scope are defined in the risk management plan. Audit findings may lead to changes to the plan, training or clearer escalation rules. In agile teams, retrospectives can play a similar role by asking whether the team's risk practices are working. The trap is confusing a review of the risks with an audit of the process.",
+    "tags": [
+      "risk audit",
+      "risk reassessment",
+      "PMO",
+      "process compliance"
+    ]
+  },
+  {
+    "id": "BUS-053",
+    "domain": "Business Environment",
+    "task": "5. Plan and manage risk",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Spikes and risk-adjusted backlogs",
+    "source": "ECO 2026 · Business Environment Task 5",
+    "question": "An agile team is building a fraud-detection feature that depends on a new open-source machine-learning library. Nobody is sure whether the library can score transactions within the 50-millisecond limit that the payment network requires. The product owner wants to reduce this uncertainty before the team commits several sprints to the feature. What should the team do?",
+    "options": [
+      "Transfer the performance risk to the library's maintainers by opening an issue on the project",
+      "Add a timeboxed spike near the top of the backlog to test the library against the time limit",
+      "Schedule full performance testing for the final sprint, once all of the features have been built",
+      "Build the complete feature now, and optimize the library's performance if problems appear later"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Ask when, and how cheaply, the team could find out whether the design can work at all.",
+    "why": "The uncertainty is technical and could invalidate the whole design, so it should be reduced as early and cheaply as possible. A spike is a timeboxed piece of research or prototyping that answers a specific question — here, whether scoring fits within 50 ms — and ordering it high in the backlog (a risk-adjusted backlog) means the team learns before it commits sprints of work.",
+    "how": "In agile risk management, pull high-uncertainty work forward: use spikes, risk-adjusted backlog ordering and early increments so that learning happens before large investments.",
+    "optionNotes": [
+      "Incorrect — Open-source maintainers owe the project nothing; opening an issue does not transfer ownership of the risk or its impact.",
+      "Correct — A short, timeboxed experiment answers the feasibility question early, before several sprints are committed to the feature.",
+      "Incorrect — Discovering a performance failure in the final sprint is the most expensive time to learn it, with no room to change course.",
+      "Incorrect — Building everything first risks sprints of work on a design that may never meet the payment network's limit."
+    ],
+    "deepDive": "Spikes come in two broad kinds: technical spikes (feasibility, performance, architecture) and functional spikes (how users will interact, what a requirement really means). Their output is knowledge — a decision, an estimate or a prototype — rather than shippable features, so they should be small and clearly timeboxed. A risk-adjusted backlog places risk-reducing work alongside value-delivering work, and some teams use a risk burndown chart to show exposure falling over time. Predictive projects achieve something similar with prototypes or proof-of-concept phases before the design is baselined.",
+    "tags": [
+      "spike",
+      "risk-adjusted backlog",
+      "agile risk",
+      "technical uncertainty"
+    ]
+  },
+  {
+    "id": "BUS-054",
+    "domain": "Business Environment",
+    "task": "5. Plan and manage risk",
+    "approach": "Any",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Overall project risk",
+    "source": "ECO 2026 · Business Environment Task 5",
+    "question": "At a quarterly review of a $40 million rail-signaling program, the steering committee chair asks, 'Taking everything into account, how likely are we to hit the budget and the 2028 date?' The project manager has prepared a slide listing the ten highest-scoring risks from the register, with their owners and responses. What would BEST answer the chair's question?",
+    "options": [
+      "An explanation of the single highest-scoring risk, since it drives most of the program's exposure",
+      "A count of open risks in the register compared with last quarter, showing the trend in exposure",
+      "An assessment of overall project risk, such as simulated odds of meeting the cost and the date",
+      "The contingency reserve as a share of the budget, since reserve size reflects the total exposure"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "PMI separates individual risks from something broader — ask which one the chair is asking about.",
+    "why": "The chair is asking about overall project risk: the effect of all sources of uncertainty — individual risks, estimate variability and their combinations — on the program's objectives. It is typically assessed with quantitative analysis such as Monte Carlo simulation, expressed as the probability of meeting the budget and date, and summarized in the risk report. A list of top risks, a count or a reserve ratio does not answer 'how likely are we to succeed?'",
+    "how": "Individual project risks live in the risk register; overall project risk is expressed in the risk report, often as the probability of achieving cost and schedule objectives.",
+    "optionNotes": [
+      "Incorrect — One risk, however large, cannot represent the combined effect of all the uncertainties on cost and schedule.",
+      "Incorrect — The number of open risks says little about exposure, because a few severe risks can outweigh many minor ones.",
+      "Correct — Overall project risk expresses the combined effect of all uncertainty, answering how likely the program is to meet its objectives.",
+      "Incorrect — Reserve size is a response decision; on its own it does not show how likely the program is to stay within it."
+    ],
+    "deepDive": "PMI distinguishes individual project risks (specific uncertain events or conditions) from overall project risk (the effect of uncertainty on the project as a whole, representing stakeholders' exposure to variation in outcomes). Monte Carlo simulation produces S-curves showing the probability of finishing by each date or within each cost, and tornado diagrams show which risks and estimates drive the result. Overall risk can also come from non-event sources such as ambiguity, variability and complexity. The exam trap is presenting the top of the register when the question is about the whole project.",
+    "tags": [
+      "overall project risk",
+      "risk report",
+      "Monte Carlo",
+      "governance"
+    ]
+  },
+  {
+    "id": "BUS-055",
+    "domain": "Business Environment",
+    "task": "5. Plan and manage risk",
+    "approach": "Predictive",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Contingency from a cost simulation",
+    "source": "ECO 2026 · Business Environment Task 5 · Quantitative risk analysis to size contingency reserve",
+    "question": "A predictive project to build a regional data hub has a base cost estimate of $4.40 million, built from the most likely cost of each work package. The risk management plan requires a budget that gives the sponsor 80% confidence of not being exceeded. The team has run a Monte Carlo simulation of cost risk. Refer to the exhibit. A team member suggests instead adding the full impacts of the top ten risks, which total $1.35 million. How much contingency reserve should the project manager recommend?",
+    "options": [
+      "$0.40 million",
+      "$0.60 million",
+      "$0.90 million",
+      "$1.35 million"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Start from the confidence level the risk management plan requires, and ask what the reserve is added to.",
+    "why": "The plan requires 80% confidence, so the budget should be set at the simulation's P80 value of $5.00 million. Contingency reserve = P80 cost − base estimate = $5.00 million − $4.40 million = $0.60 million. Measuring from P50 ($5.00M − $4.60M = $0.40M) or using P90 ($5.30M − $4.40M = $0.90M) does not match the plan, and adding the full impacts of the top risks ignores their probabilities.",
+    "how": "To size contingency from a simulation, read the cost at the confidence level set in the risk management plan and subtract the base (deterministic) estimate; the difference is the reserve for identified risks and estimate uncertainty.",
+    "optionNotes": [
+      "Incorrect — This measures from the P50 value ($5.00M − $4.60M) instead of from the $4.40 million base estimate the reserve is added to.",
+      "Correct — The P80 cost of $5.00 million minus the $4.40 million base estimate gives a contingency reserve of $0.60 million.",
+      "Incorrect — This uses the P90 value ($5.30M − $4.40M), buying more confidence than the plan requires and tying up extra funds.",
+      "Incorrect — Summing the full impacts of the top risks treats every risk as certain to occur and ignores their probabilities."
+    ],
+    "deepDive": "Monte Carlo simulation runs the cost or schedule model thousands of times with values drawn from estimate ranges and risk events, producing an S-curve of possible outcomes. Base estimates built from most-likely values often sit near or below P50, because risks and right-skewed ranges push outcomes upward. The confidence level to fund is a governance decision recorded in the risk management plan (P70 and P80 are common); the resulting contingency covers identified risks and estimate uncertainty, while management reserve for unknown-unknowns is set separately. Showing the S-curve also lets the sponsor see the price of more certainty: moving from P80 to P90 here would cost another $0.30 million.",
+    "tags": [
+      "Monte Carlo",
+      "contingency reserve",
+      "quantitative risk",
+      "calculation",
+      "exhibit"
+    ],
+    "exhibit": {
+      "kind": "table",
+      "title": "Cost simulation results (10,000 iterations)",
+      "columns": [
+        "Confidence level",
+        "Total project cost"
+      ],
+      "rows": [
+        [
+          "P10",
+          "$4.15 million"
+        ],
+        [
+          "P50",
+          "$4.60 million"
+        ],
+        [
+          "P70",
+          "$4.85 million"
+        ],
+        [
+          "P80",
+          "$5.00 million"
+        ],
+        [
+          "P90",
+          "$5.30 million"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "BUS-056",
+    "domain": "Business Environment",
+    "task": "6. Continuous improvement",
+    "approach": "Agile",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Retrospective follow-through",
+    "source": "ECO 2026 · Business Environment Task 6 (utilize lessons learned)",
+    "question": "A Scrum team at an online grocer holds a retrospective every sprint and leaves each one with a long list of improvement ideas on sticky notes. Three months later, almost nothing has changed: the same complaints about flaky tests and unclear acceptance criteria come up every time, and team members now call the retrospective 'a venting session'. What should the project manager, who also coaches the team, do?",
+    "options": [
+      "Help the team pick one or two improvements, assign owners, add them to the backlog and review them",
+      "Lengthen each retrospective to three hours so that every improvement idea can be discussed in full detail",
+      "Suspend retrospectives until the team has found time to act on the ideas it has already collected",
+      "Ask the functional managers to decide which of the improvements the team must implement each sprint"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Ask what turns a list of ideas into changed behavior — how many, owned by whom, visible where, and checked when.",
+    "why": "Retrospectives create value only when their actions are carried out. Choosing a small number of improvements, giving each a clear owner, making them visible as items in the next sprint backlog and checking the effect at the following retrospective closes the inspect-and-adapt loop. The team keeps ownership, and recurring complaints such as flaky tests finally get fixed.",
+    "how": "Make continuous improvement actionable: select few actions, give each an owner, make them visible in the backlog, and check the results at the next retrospective.",
+    "optionNotes": [
+      "Correct — A few owned, visible actions that are reviewed next time turn retrospective talk into real improvement the team controls.",
+      "Incorrect — More discussion time does not fix the missing follow-through; it would produce an even longer list that is not acted on.",
+      "Incorrect — Stopping retrospectives removes the team's main improvement mechanism instead of repairing how it works.",
+      "Incorrect — Having managers impose improvements undermines the team's ownership of its process and its commitment to the changes."
+    ],
+    "deepDive": "The Scrum Guide notes that the most helpful improvements are addressed as soon as possible and may even be added to the Sprint Backlog for the next Sprint. A retrospective action works best when phrased as a small experiment with a way to tell whether it worked, which ties it to PDCA thinking. Long lists dilute effort; one or two high-impact changes per sprint is how kaizen gains accumulate. Facilitators can also vary the retrospective format and open each one by reviewing the previous actions, which builds accountability. The trap is imposing improvements from outside the team.",
+    "tags": [
+      "retrospective",
+      "continuous improvement",
+      "kaizen",
+      "agile"
+    ]
+  },
+  {
+    "id": "BUS-057",
+    "domain": "Business Environment",
+    "task": "6. Continuous improvement",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Using lessons learned from past projects",
+    "source": "ECO 2026 · Business Environment Task 6",
+    "question": "Priya is starting a project to move a bank's payment systems to a new data center. The organization completed three similar migrations in the last four years, and their lessons learned are stored in the PMO's repository. Priya is under pressure to publish a schedule within two weeks and is tempted to skip the old material. When should she review those lessons learned, and why?",
+    "options": [
+      "Only briefly, because every migration is unique and past lessons rarely transfer to a new one",
+      "Now, during initiation and planning, so that estimates and risks reuse what was learned",
+      "At project closure, to compare this migration's results against the earlier migrations' results",
+      "Only if problems arise, to see how the earlier projects solved similar issues when they occurred"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Ask when knowledge from similar projects can still change the decisions you are about to make.",
+    "why": "Lessons from similar migrations are most valuable before the same decisions are made again. Reviewing them now lets Priya use actual durations to build the schedule, reuse proven cutover approaches, and add risks that hit earlier migrations to the register — preventing repeat mistakes and saving planning time rather than costing it. Reviewing them later would only explain problems that could have been avoided.",
+    "how": "Use organizational process assets such as lessons learned and historical data as inputs to planning: review them at the start, apply them to estimates, risks and approach, and add new lessons throughout.",
+    "optionNotes": [
+      "Incorrect — Each project is unique, but similar migrations share many patterns, risks and durations that are directly reusable.",
+      "Correct — Reviewing lessons during initiation and planning improves the schedule, risk register and approach before commitments are made.",
+      "Incorrect — Comparing results at closure is useful for the organization but far too late to help this migration avoid known problems.",
+      "Incorrect — Waiting for problems is reactive; the value of lessons learned lies in preventing the issues in the first place."
+    ],
+    "deepDive": "Organizational process assets such as lessons learned repositories, historical estimates and risk checklists are inputs to most planning activities. Historical data improves analogous and parametric estimates, and past risk registers are excellent prompts for risk identification. A good habit is to talk to the previous project managers as well as reading their documents, because much useful knowledge is tacit. In agile teams, the equivalent is using velocity history and earlier retrospective outcomes when planning releases. The exam trap is treating lessons learned as a closure-only activity.",
+    "tags": [
+      "lessons learned",
+      "OPA",
+      "planning",
+      "historical data"
+    ]
+  },
+  {
+    "id": "BUS-058",
+    "domain": "Business Environment",
+    "task": "6. Continuous improvement",
+    "approach": "Hybrid",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Systemic issue beyond team retrospectives",
+    "source": "ECO 2026 · Business Environment Task 6 · Program-level inspect and adapt",
+    "question": "A hybrid program has four agile software teams and a hardware integration team. For three months, every team's retrospective has named the same problem: stories the software teams accept as done keep failing at hardware integration, because each team works to its own definition of done and each assumes another team covers the integration checks. Each team has tightened its own definition, but none can change how the other teams work, and the failures keep recurring. What should the project manager do?",
+    "options": [
+      "Facilitate a cross-team retrospective with representatives of every team to find and own a shared fix",
+      "Ask each team to add another integration action item to its own retrospective until the issue fades",
+      "Write one program-wide definition of done and require every team to adopt it from the next sprint",
+      "Assign the hardware integration team to police story readiness and report any breaches to the program"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Ask at what level this problem actually lives, and who would need to be in the room to change it.",
+    "why": "Each team can improve only what it controls, and this problem lives in the gaps between teams: nobody owns the checks that matter at integration. A cross-team (program-level) retrospective brings representatives together to examine the whole system — how work flows to integration and which checks each team assumes someone else performs — and agree an improvement they all own, such as a shared definition of done that includes integration checks, or automated integration tests in every team's pipeline. That is continuous improvement at the level where the problem exists.",
+    "how": "When the same issue appears in several teams' retrospectives, move the improvement effort up a level: inspect and adapt across teams with the people who own the handoffs, then verify the fix.",
+    "optionNotes": [
+      "Correct — Bringing the teams together tackles a system-level problem where it exists and creates shared ownership of the fix.",
+      "Incorrect — More local actions repeat what has already failed; no single team can change how the other teams define and check done work.",
+      "Incorrect — Imposing a definition without the teams skips the joint diagnosis and loses the shared ownership that makes a cross-team standard stick.",
+      "Incorrect — Making one team the police breeds friction and blame instead of a jointly designed process the teams will actually follow."
+    ],
+    "deepDive": "Scaled agile approaches include a periodic inspect-and-adapt event or a 'retrospective of retrospectives' for exactly this reason: systemic impediments cannot be fixed inside one team. The Scrum Guide says that when several Scrum teams work on the same product they must mutually define and comply with the same definition of done, which is why the fix should come from the teams together rather than be imposed. Useful techniques include mapping the flow of work to integration, root cause analysis of recent failures, and automated integration tests in each team's pipeline. Each improvement should be treated as an experiment with a measure — for example, stories failing integration per sprint — and reviewed at the next cross-team session. The underlying principle is systems thinking: look at the interactions between parts, not just the parts.",
+    "tags": [
+      "continuous improvement",
+      "retrospective",
+      "systems thinking",
+      "definition of done",
+      "scaled agile",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "BUS-059",
+    "domain": "Business Environment",
+    "task": "6. Continuous improvement",
+    "approach": "Any",
+    "difficulty": "Easy",
+    "type": "single",
+    "topic": "Updating organizational process assets",
+    "source": "ECO 2026 · Business Environment Task 6 (update organizational assets)",
+    "question": "While closing a cloud-migration project, the team finds that the organization's standard risk checklist, maintained by the PMO, has no entries for cloud-vendor risks such as data-egress fees and service-deprecation notices. Two of these risks hit the project and cost it six weeks. The PMO says checklist changes must come through its update process. What should the project manager do?",
+    "options": [
+      "Nothing further, because standard checklists are generic by design and cannot cover every situation",
+      "Mention the gap in the project's final report so that anyone who reads the report is aware of it",
+      "Submit the missing cloud-vendor risks to the PMO as a proposed update to the standard risk checklist",
+      "Keep a personal checklist of cloud-vendor risks and use it on future projects that you manage yourself"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Ask how this lesson could reach every future project, not just this report or this project manager.",
+    "why": "Continuous improvement means turning a project's lessons into better organizational process assets, not just recording them. The checklist is owned by the PMO and has an update process, so the project manager should submit the specific cloud-vendor risks through that route, with evidence of their impact. Future projects then benefit automatically whenever they use the standard checklist.",
+    "how": "Project lessons → proposed updates to organizational process assets through their owner → better starting points for future projects.",
+    "optionNotes": [
+      "Incorrect — Checklists are meant to evolve with experience; leaving a known, costly gap guarantees other projects will repeat it.",
+      "Incorrect — A note buried in a final report is unlikely to reach the checklist or the next project manager who needs it.",
+      "Correct — Proposing the update through the PMO's process improves the shared asset every future project will use.",
+      "Incorrect — A private checklist keeps the knowledge with one person instead of improving the organization's assets."
+    ],
+    "deepDive": "Organizational process assets include processes, policies, procedures, templates and checklists, plus knowledge bases such as lessons learned repositories and historical information. Updating them is a typical output of monitoring and closing work, and it usually goes through an owner such as the PMO so that standards stay consistent. A lesson that sits only in a final report or someone's personal notes rarely changes future behavior. In agile organizations, communities of practice often maintain these shared assets. The exam favors answers that improve the organization's assets through the proper channel.",
+    "tags": [
+      "OPA",
+      "checklist",
+      "PMO",
+      "continuous improvement"
+    ]
+  },
+  {
+    "id": "BUS-060",
+    "domain": "Business Environment",
+    "task": "6. Continuous improvement",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Six Sigma DMAIC",
+    "source": "ECO 2026 · Business Environment Task 6",
+    "question": "An insurer's claims-processing workflow has run for five years, but 8% of claims now need rework because of data-entry errors, and the error rate varies widely between regional offices. The operations director asks the project manager for a structured, data-driven way to improve this existing process and to keep the gains after the project ends. Which approach is MOST suitable?",
+    "options": [
+      "DMADV, to design a replacement claims workflow from scratch around new requirements",
+      "MoSCoW, to classify the staff's suggested fixes into must, should, could and won't",
+      "DMAIC, to measure errors, find root causes, improve the process and then control it",
+      "The Tuckman ladder, to rebuild team dynamics in the offices with the most errors"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Ask whether the process needs designing from scratch or improving, and which method ends by sustaining the gains.",
+    "why": "DMAIC (Define, Measure, Analyze, Improve, Control) is Six Sigma's method for improving an existing process with data: define the defect, measure the current error rate and its variation, analyze root causes across offices, improve the process, and put controls in place so gains are sustained. The Control phase directly meets the director's request to keep the gains. DMADV is intended for designing a new process, which is not needed here.",
+    "how": "Improving an existing process → DMAIC; designing a new process or product → DMADV (Design for Six Sigma); quick, small iterative tests → PDCA.",
+    "optionNotes": [
+      "Incorrect — DMADV designs a new process; replacing a working five-year-old workflow is unnecessary when the goal is to fix known errors.",
+      "Incorrect — MoSCoW prioritizes requirements; ranking suggested fixes skips the measurement and root cause analysis the director asked for.",
+      "Correct — DMAIC's data-driven phases, ending with Control, fit the improvement of an existing process and the need to sustain the gains.",
+      "Incorrect — Tuckman describes stages of team development; nothing suggests the errors stem from team dynamics rather than process causes."
+    ],
+    "deepDive": "Lean Six Sigma combines Lean's focus on removing waste with Six Sigma's focus on reducing variation, and DMAIC is its standard improvement cycle. Typical tools include process maps, control charts, Pareto charts, fishbone diagrams and hypothesis tests. The Control phase often uses control plans, standard work and statistical process control so the process does not drift back. PDCA is a lighter, faster cycle suited to small improvements, and the exam may contrast the two. Choosing a method that fits the problem is itself an act of tailoring.",
+    "tags": [
+      "Six Sigma",
+      "DMAIC",
+      "process improvement",
+      "quality"
+    ]
+  },
+  {
+    "id": "BUS-061",
+    "domain": "Business Environment",
+    "task": "6. Continuous improvement",
+    "approach": "Agile",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Reviving a daily scrum that lost its purpose",
+    "source": "ECO 2026 · Business Environment Task 6 · Inspect and adapt the team's own process",
+    "question": "A seven-person Scrum team says its daily scrum has become a status report: each developer tells the project manager what they did yesterday, discussions drift into problem-solving, and the meeting regularly runs 30 minutes. At the retrospective, the developers propose dropping the daily scrum altogether and posting chat updates instead. What should the project manager do?",
+    "options": [
+      "Help the team explore why the event lost its purpose and trial a format built on the sprint goal",
+      "Agree to drop the daily scrum, since the team is self-managing and has decided it adds no value",
+      "Keep the current format but enforce a strict 15-minute timebox by cutting off anyone who runs over",
+      "Replace the daily scrum with a written daily status report that each developer sends to the manager"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Ask whether the problem lies in the event itself or in the way it is currently being run.",
+    "why": "The daily scrum exists for the developers to inspect progress toward the sprint goal and adapt their plan for the next day; it has turned into reporting to the project manager, which is why it feels useless. Treating this as an improvement problem — examining the cause and trying a better format, such as walking the board toward the sprint goal with problem-solving moved to afterward — restores its value while respecting the team's ownership. The team can then judge the experiment at the next retrospective.",
+    "how": "When a practice stops working, inspect why before changing or dropping it; adapt the format to restore its purpose, run the change as an experiment, and review the result at the next retrospective.",
+    "optionNotes": [
+      "Correct — Diagnosing the cause and trialing a goal-focused format fixes the real problem and keeps the team in charge of its own process.",
+      "Incorrect — Dropping the event removes daily inspection and adaptation; the dysfunction comes from how the meeting is run, not from its purpose.",
+      "Incorrect — A timebox alone treats the symptom; the meeting would remain a status report to the project manager, only shorter.",
+      "Incorrect — A written report to the project manager deepens the status-reporting problem and removes the team's own daily coordination."
+    ],
+    "deepDive": "In Scrum, the daily scrum is a 15-minute event for the developers to inspect progress toward the sprint goal and adjust the sprint backlog, with detailed discussions held afterward among the people involved. When a leader attends and people address their updates to that person, the event often slides into status reporting, so a common remedy is for the leader to step back or stay silent. Formats such as walking the board from right to left, or focusing on blocked and aging items, keep attention on flow and the goal. Tailoring practices is legitimate, but changes should preserve the practice's purpose and be evaluated like any other improvement experiment.",
+    "tags": [
+      "daily scrum",
+      "continuous improvement",
+      "inspect and adapt",
+      "agile",
+      "tailoring"
+    ]
+  },
+  {
+    "id": "BUS-062",
+    "domain": "Business Environment",
+    "task": "6. Continuous improvement",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Closing the loop on estimate accuracy",
+    "source": "ECO 2026 · Business Environment Task 6 · Feeding estimate-versus-actual data back into organizational assets",
+    "question": "On its last six infrastructure projects, a utility's cost estimates for underground cable work came in 25% to 35% below actual costs. Each project manager explained the overrun as bad luck, citing rock, permit delays or subcontractor rates. The PMO asks the project manager, who leads the estimating improvement working group, how to make future estimates more reliable. What should the project manager recommend?",
+    "options": [
+      "Add a flat 30% uplift to every future cable estimate to cover the pattern of overruns seen so far",
+      "Require each project manager to justify every overrun in a formal report to the steering committee",
+      "Move all cable work to fixed-price contracts so that the risk of overruns shifts to the contractors",
+      "Compare estimates with actuals across the six projects, find the causes, and update estimating data"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Six overruns in the same direction are a pattern — ask what that pattern says about the estimating process.",
+    "why": "A consistent 25–35% shortfall across six projects is a systematic bias, not bad luck, so the estimating process itself needs improving. Comparing each project's actuals with its estimates, by cost element and cause (for example, ground conditions or permit durations), reveals which assumptions are wrong; the working group can then update unit rates, basis-of-estimate guidance and risk checklists in the organizational process assets. Future estimates improve at the source, and genuine risks such as rock can be handled explicitly rather than hidden in a flat uplift.",
+    "how": "Treat recurring variances as feedback on the process: compare estimates with actuals, find systematic causes, update organizational assets such as estimating data and guidelines, and check whether accuracy improves on later projects.",
+    "optionNotes": [
+      "Incorrect — A flat uplift hides the causes, may be wrong for some work, and blurs base estimates with risk reserves instead of fixing the process.",
+      "Incorrect — Justification reports put the focus on individuals; they do not produce the cross-project analysis needed to correct a systematic bias.",
+      "Incorrect — Contractors would price the same uncertainty into their bids, and the organization still would not learn why its estimates are wrong.",
+      "Correct — Analyzing estimate-versus-actual data across projects exposes the systematic causes and lets the organization correct its estimating assets."
+    ],
+    "deepDive": "Closing the loop between estimates and actuals is one of the most valuable forms of organizational learning, because historical data feeds analogous and parametric estimating on every future project. Reference class forecasting goes further by adjusting a new estimate using the actual outcomes of a class of similar past projects, which counteracts optimism bias. A useful analysis separates base-estimate errors (wrong quantities or rates) from risk events that occurred, because each needs a different fix. Updated unit rates, estimating checklists and risk prompts become organizational process assets, and the PMO should track estimate accuracy on the next projects to confirm the improvement. The exam trap is treating a recurring variance as isolated bad luck or blaming individuals.",
+    "tags": [
+      "continuous improvement",
+      "estimating",
+      "historical data",
+      "OPA",
+      "lessons learned"
+    ]
+  },
+  {
+    "id": "BUS-063",
+    "domain": "Business Environment",
+    "task": "7. Support organizational change",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Assessing organizational culture",
+    "source": "ECO 2026 · Business Environment Task 7 (assess culture)",
+    "question": "A project will introduce a self-service analytics tool at a manufacturer where information has always flowed through managers: supervisors receive reports, interpret them and brief their teams. The sponsor wants all 2,000 employees using the tool within three months. Several plant managers privately say that 'people will draw the wrong conclusions from raw data'. What should the project manager do BEFORE planning the rollout?",
+    "options": [
+      "Mandate use of the tool from day one, and switch off the old managed reports on the same date",
+      "Train the IT support team first so that it can handle the questions users raise after launch",
+      "Assess the culture and change readiness of each group, then tailor the change approach to it",
+      "Roll the tool out to everyone at once so that no department feels that it has been left behind"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "The plant managers' comments are a clue — ask what they reveal about how this change will be received.",
+    "why": "The plant managers' comments reveal a cultural barrier: self-service data shifts information power away from managers in a hierarchical organization. Assessing culture and readiness — who gains, who loses, and which beliefs and habits will resist the change — lets the project manager design a tailored approach, for example involving managers as coaches for data use and phasing the rollout by readiness. Rolling out without that understanding risks low adoption regardless of the tool's quality.",
+    "how": "Supporting organizational change: assess culture and readiness → evaluate the impact on each group → determine actions (communication, involvement, training, champions, reinforcement) → monitor adoption.",
+    "optionNotes": [
+      "Incorrect — Coercion before understanding the resistance tends to produce minimal, grudging use and hardens managers' opposition.",
+      "Incorrect — Support capacity matters later, but it does nothing about the cultural barrier the plant managers have signaled.",
+      "Correct — Understanding culture and readiness first lets the project manager tailor involvement, communication and pacing to each group.",
+      "Incorrect — A simultaneous rollout ignores differences in readiness and the cultural barriers, maximizing the chance of widespread rejection."
+    ],
+    "deepDive": "Readiness assessments typically look at sponsorship strength, the organization's change history, its capacity for change, cultural norms such as how decisions are made, and the impact on each stakeholder group. Cultural dimensions such as power distance help explain why a hierarchical culture may resist tools that bypass managers. Involving the people who stand to lose status — here, supervisors and plant managers — often turns them from blockers into champions. The exam trap is jumping to training or mandates before understanding the culture the change must land in.",
+    "tags": [
+      "organizational change",
+      "culture",
+      "readiness",
+      "tailoring"
+    ]
+  },
+  {
+    "id": "BUS-064",
+    "domain": "Business Environment",
+    "task": "7. Support organizational change",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "ADKAR",
+    "source": "ECO 2026 · Business Environment Task 7 (determine actions)",
+    "question": "Six weeks after a new CRM went live at an industrial distributor, training records show that all 120 sales representatives completed the course and passed a practical test. Yet many still enter customer data in their old spreadsheets and say, 'Nobody has explained why we needed to change, and the old way works fine for me.' Using the ADKAR model, which elements should the project manager address FIRST?",
+    "options": [
+      "Knowledge and Ability",
+      "Ability only",
+      "Reinforcement only",
+      "Awareness and Desire"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "ADKAR is sequential — look for the earliest element the representatives' own words show is missing.",
+    "why": "ADKAR (Awareness, Desire, Knowledge, Ability, Reinforcement) is sequential, and the earliest missing element is where to start. The representatives passed training and a practical test, so Knowledge and Ability are in place; their words show they do not understand why the change was needed (Awareness) and do not want to change (Desire). Reinforcement matters later, but it cannot build a commitment that never existed.",
+    "how": "Diagnose the earliest missing ADKAR element and address it first; more training will not fix a lack of awareness or desire.",
+    "optionNotes": [
+      "Incorrect — The representatives completed training and passed a practical test, so they already know how to use the CRM and can do so.",
+      "Incorrect — Passing a practical test shows that ability is present; the reported barrier is about why to change, not how.",
+      "Incorrect — Reinforcement sustains a change that people have adopted; these representatives have not yet accepted the reason for it.",
+      "Correct — The representatives say nobody explained the reason and the old way suits them, which points to gaps in awareness and desire."
+    ],
+    "deepDive": "Typical actions for Awareness and Desire include the sponsor explaining the business reasons in person, managers discussing what the change means for each person, sharing early adopters' results, and retiring the old spreadsheets once the new system is ready. Change research consistently links active, visible sponsorship and engaged people managers to successful adoption. ADKAR's value is diagnostic: it helps the project manager target effort where the change is actually stuck. The exam trap is defaulting to more training when the gap is motivation.",
+    "tags": [
+      "ADKAR",
+      "change management",
+      "adoption",
+      "diagnosis"
+    ]
+  },
+  {
+    "id": "BUS-065",
+    "domain": "Business Environment",
+    "task": "7. Support organizational change",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Kotter's first step",
+    "source": "ECO 2026 · Business Environment Task 7",
+    "question": "A hospital is replacing paper shift-handover notes with a structured electronic handover. Most nurses believe the paper process works well enough, and the change sponsor plans to open the program by announcing the new system's vision and training schedule. Incident data that has not been widely shared shows that incomplete handovers contributed to 14 medication errors last year. Following Kotter's model for leading change, what should the project manager recommend doing FIRST?",
+    "options": [
+      "Communicate the vision for electronic handover widely through every available channel",
+      "Share the incident data with staff and discuss it to build a sense of urgency",
+      "Pilot the system on one ward to generate a short-term win that can then be celebrated",
+      "Anchor the new handover in hospital policy so that it becomes part of the ward culture"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Ask what the nurses currently believe about the paper process, and what must change in that belief before anything else can work.",
+    "why": "Kotter's first step is creating a sense of urgency — helping people see why change is needed now. The nurses see no problem with paper handovers, so announcing a vision or training first would meet indifference. The incident data provides a credible, compelling reason to change, and discussing it openly with staff builds the urgency on which the coalition, the vision and all later steps depend.",
+    "how": "Kotter's eight steps: create urgency → form a powerful coalition → create a vision for change → communicate the vision → remove obstacles → create short-term wins → build on the change → anchor the changes in the culture.",
+    "optionNotes": [
+      "Incorrect — Communicating the vision comes after urgency, a coalition and the vision itself; announced to indifferent staff, it will fall flat.",
+      "Correct — Credible evidence of real harm creates urgency, the foundation on which every later step of the change depends.",
+      "Incorrect — Short-term wins are a later step that builds momentum; a pilot started before people see a need will lack support.",
+      "Incorrect — Anchoring the change in culture is the final step, used to sustain a change that people have already adopted."
+    ],
+    "deepDive": "Other change models that appear on the exam include Lewin's unfreeze–change–refreeze, ADKAR, Bridges' transition model (endings, neutral zone, new beginnings) and the Satir model, which predicts a performance dip while people adjust. Kotter's model suits organization-wide changes led by senior sponsors, and urgency is where many efforts fail because leaders assume others already see the problem. Urgency should be honest and evidence-based rather than fear-driven, or it breeds anxiety instead of commitment. The same logic applies in agile transformations: explain the business problem before prescribing the framework.",
+    "tags": [
+      "Kotter",
+      "urgency",
+      "change models",
+      "healthcare"
+    ]
+  },
+  {
+    "id": "BUS-066",
+    "domain": "Business Environment",
+    "task": "7. Support organizational change",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "AI automation and changing job roles",
+    "source": "ECO 2026 · Business Environment Task 7 · Organizational change from AI-enabled automation",
+    "question": "A hybrid project is deploying an AI claims-triage tool at an insurer; it will automate about 40% of the routine sorting that 60 claims handlers do today. Leadership has decided there will be no job cuts this year: handlers will move to complex claims with a funded reskilling plan, but longer-term staffing is undecided. Rumors of layoffs are spreading, and pilot users are quietly overriding the tool without logging reasons. What should the project manager do?",
+    "options": [
+      "Keep role impacts out of project messages and focus all communication on the tool's accuracy and speed",
+      "Ask the sponsor to announce that no handler will ever lose a job as a result of introducing the AI tool",
+      "With the sponsor and HR, say plainly what is and isn't decided, and involve handlers in the redesign",
+      "Require pilot users to log a reason for every override and report each user's override rate to managers"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Ask what is really driving the handlers' behavior, and what they most need to hear — and from whom.",
+    "why": "The resistance is driven by fear about jobs, fed by silence and rumor, so the change needs honest, specific communication and involvement. With the sponsor and HR, the project manager should explain exactly what leadership has decided (no cuts this year, new complex-claims roles, funded reskilling), be candid that longer-term staffing is not yet decided, and involve handlers in designing the new workflow and override process. That builds trust, turns the people most affected into contributors, and makes their override reasons useful feedback on the tool.",
+    "how": "When a change alters people's roles, pair transparent communication — including what is not yet known — with involvement in designing the new way of working and support to build new skills; never overpromise or hide the impact.",
+    "optionNotes": [
+      "Incorrect — Avoiding the topic people care most about lets rumors fill the gap and signals that their fears may be justified.",
+      "Incorrect — Promising what leadership has not decided would destroy trust later; honesty about uncertainty beats a guarantee nobody can keep.",
+      "Correct — Honest, specific messages from leaders plus a real role in shaping the new workflow address the fear that is driving the resistance.",
+      "Incorrect — Policing overrides without addressing the fear breeds paper compliance and deeper distrust, treating a symptom rather than the cause."
+    ],
+    "deepDive": "AI-enabled change often alters tasks and roles rather than simply adding a tool, so organizational change management must cover role design, skills and career paths as well as software training. Bridges' transition model helps here: people must let go of an old identity, such as expert sorter, before they can embrace a new one, and acknowledging that loss openly helps them move on. Honest communication includes saying what is not yet known and when it will be decided, which is more credible than blanket reassurance. Involving frontline users in designing human-in-the-loop controls, such as override reasons, also improves the AI system's quality. The exam trap is choosing either silence or an unconditional promise when the scenario calls for candor and involvement.",
+    "tags": [
+      "organizational change",
+      "ai",
+      "transparency",
+      "reskilling",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "BUS-067",
+    "domain": "Business Environment",
+    "task": "7. Support organizational change",
+    "approach": "Predictive",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Visible sponsorship for a change",
+    "source": "ECO 2026 · Business Environment Task 7 · Engaging the sponsor to lead the change",
+    "question": "A predictive program will consolidate a logistics company's five regional dispatch centers into one national center over 18 months. The sponsoring COO has asked the project manager to handle 'all the people side' and plans to stay out of sight until go-live. At the first town halls, run by the project team, staff repeatedly asked why leadership was absent and whether the decision was final. Engagement survey scores are falling. What should the project manager do?",
+    "options": [
+      "Run more town halls with the project team and publish a detailed FAQ answering every question raised",
+      "Ask the regional managers to deliver the key messages, since staff trust their direct managers most",
+      "Share the feedback with the COO and agree the key moments when she will explain the change in person",
+      "Continue as planned, since the COO has delegated change management and the project team now owns it"
+    ],
+    "answer": [
+      2
+    ],
+    "hint": "Ask which of the staff's questions the project team can credibly answer, and which only one person can.",
+    "why": "Staff are asking questions only the sponsor can credibly answer — why the change is happening and whether the decision is final — and her absence is being read as a lack of commitment. The project manager should share the evidence (the town-hall questions and falling survey scores) with the COO and agree specific, high-value moments where she explains the case for change in person, while the project team and managers handle the details. Active, visible sponsorship is one of the strongest predictors of change success and cannot be delegated to the project team.",
+    "how": "In organizational change, the sponsor explains the business case and shows commitment, people managers explain what it means for their teams, and the project team supports both; coach an absent sponsor with evidence rather than filling the gap yourself.",
+    "optionNotes": [
+      "Incorrect — More project-team messaging cannot answer questions about leadership's commitment; only the sponsor's own presence can do that.",
+      "Incorrect — Managers are vital for explaining personal impact, but the case for change and its finality should come from the sponsor, not be pushed down.",
+      "Correct — Evidence-based coaching helps the COO see why her visible role matters and targets her limited time on the moments that count most.",
+      "Incorrect — Delegating 'the people side' does not remove the sponsor's role, and carrying on ignores clear warning signs of failing engagement."
+    ],
+    "deepDive": "Change research consistently ranks active and visible sponsorship as a top contributor to success, and sponsors often underestimate how much their presence matters. A useful split is the sponsor for 'why and why now', people managers for 'what it means for me', and the project team for 'how and when'. Project managers often need to manage upward: showing a sponsor evidence and proposing a few targeted actions, such as opening town halls or visiting each center, is more effective than general appeals. Kotter's guiding coalition and ADKAR's emphasis on awareness both depend on credible leaders explaining the reason for change. The exam trap is either doing the sponsor's job for them or pushing it onto line managers.",
+    "tags": [
+      "sponsorship",
+      "organizational change",
+      "communication",
+      "predictive"
+    ]
+  },
+  {
+    "id": "BUS-068",
+    "domain": "Business Environment",
+    "task": "7. Support organizational change",
+    "approach": "Hybrid",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Resistance that signals a design flaw",
+    "source": "ECO 2026 · Business Environment Task 7 · Treating resistance as information",
+    "question": "A hybrid project is rolling out a new electronic medication-administration workflow across a hospital's wards. On the pilot ward, experienced night-shift nurses keep printing paper checklists alongside the system, and the ward manager calls them 'change resisters'. When the project manager talks to them, they explain that the new screens skip the independent double-check for high-risk drugs that the paper process enforced. Rollout to 12 more wards is scheduled for next month. What should the project manager do?",
+    "options": [
+      "Ask the ward manager to reinforce that the new workflow is mandatory and that paper use must now stop",
+      "Enlist respected day-shift nurses as change champions to model the new workflow for the night shift",
+      "Keep the rollout date and put the double-check issue in the backlog for a release after the rollout",
+      "Validate the safety gap with clinical leads, get it fixed or controlled, then confirm the rollout"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Before deciding how to overcome resistance, ask whether the people resisting might be right.",
+    "why": "This resistance is information: the nurses have found a patient-safety gap that the new design introduced, and their workaround is protecting patients. The project manager should validate it with clinical and safety leads, get the workflow fixed (or an interim control agreed) through the project's change process, and only then confirm whether the wider rollout can go ahead on schedule. Treating the nurses as resisters — through mandates or champions — would suppress a legitimate warning and spread the flaw to 12 more wards.",
+    "how": "Before managing resistance, understand it: if it reveals a genuine flaw in the change, fix the change; if it reflects fear or habit, address those with communication, involvement and support.",
+    "optionNotes": [
+      "Incorrect — Mandating the new workflow would remove the nurses' safeguard and push a known patient-safety gap across the hospital.",
+      "Incorrect — Champions help when people lack confidence or motivation; here the objection is a valid safety concern that peer modeling would not fix.",
+      "Incorrect — Deferring a patient-safety gap until after a hospital-wide rollout knowingly exposes 12 more wards to the risk.",
+      "Correct — Treating the resistance as a signal, validating the gap and resolving it before scaling protects patients and the change's credibility."
+    ],
+    "deepDive": "Resistance has many sources — loss of status, fear, habit, poor communication — but sometimes it signals a real problem with the change itself, and experienced users are often the first to see it. Treating resisters as partners with useful knowledge fits PMI's emphasis on stakeholder engagement and on building quality into both processes and deliverables. In hybrid rollouts, pilot waves exist precisely to surface issues like this before scaling, so the go/no-go check after each wave should include adoption and user feedback, not just technical readiness. In regulated environments, safety findings usually take priority over schedule. The exam trap is treating all resistance as something to overcome rather than something to understand.",
+    "tags": [
+      "resistance",
+      "organizational change",
+      "patient safety",
+      "hybrid",
+      "pilot"
+    ]
+  },
+  {
+    "id": "BUS-069",
+    "domain": "Business Environment",
+    "task": "7. Support organizational change",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Change champions",
+    "source": "ECO 2026 · Business Environment Task 7 (evaluate impact, determine actions)",
+    "question": "A retailer is rolling out a new workforce-scheduling system to 40 stores. Head-office teams adopted it quickly, but adoption in the regional stores is low: store managers quietly keep using their own spreadsheets, and their staff follow their lead. Interviews suggest the managers fear losing control over shift allocation and worry about extra admin during the busy season. What is the MOST effective next step for the project manager?",
+    "options": [
+      "Bypass the store managers and train their staff directly so that adoption can proceed without them",
+      "Address the managers' concerns, involve them in shaping store use, and equip them as champions",
+      "Report the store managers' resistance to the CEO so that senior leadership can intervene with them",
+      "Wait until the busy season ends, then retrain the store managers on the system's full set of features"
+    ],
+    "answer": [
+      1
+    ],
+    "hint": "Ask who the store staff take their cue from, and what those people are worried about.",
+    "why": "Store managers strongly shape how their teams adopt a change, and the interviews have already revealed why they resist: fear of losing control and extra admin at a busy time. Addressing those specific concerns — for example, showing how managers keep approval rights and cutting setup work — and involving them in local rollout decisions turns them from blockers into champions who bring their teams along. Bypassing or reporting them would harden resistance.",
+    "how": "Change support: identify impacted groups → understand their concerns → address them and involve the group → equip influential people as champions → reinforce and monitor adoption.",
+    "optionNotes": [
+      "Incorrect — Going around managers undermines their authority, creates conflict, and leaves staff caught between two sets of instructions.",
+      "Correct — Tackling the managers' real concerns and giving them an active role turns the most influential group into advocates.",
+      "Incorrect — Escalating to the CEO before addressing known concerns is punitive and premature, and it tends to deepen resistance.",
+      "Incorrect — Waiting delays benefits, and more feature training does not address the fear of losing control that interviews revealed."
+    ],
+    "deepDive": "Research on change consistently finds that engaged people managers and visible sponsors are among the strongest contributors to adoption, because employees look to their direct manager for cues. Middle-manager resistance often reflects perceived loss of control or status, or extra workload, so addressing those interests works better than pressure. Champion networks work best when champions have real input and early access, not just a messaging role. Timing matters too: rolling out during a peak season can overload the very people whose support you need. The exam trap is bypassing or escalating around managers instead of engaging them.",
+    "tags": [
+      "change champions",
+      "resistance",
+      "middle managers",
+      "adoption"
+    ]
+  },
+  {
+    "id": "BUS-070",
+    "domain": "Business Environment",
+    "task": "8. Evaluate external business environment changes",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Scanning the external environment",
+    "source": "ECO 2026 · Business Environment Task 8 (survey changes)",
+    "question": "Tomás manages a two-year hybrid program to launch a digital-payments app in three countries. At initiation, the team completed a thorough PESTLE analysis. Since then, one country has begun consulting on new open-banking rules and a major phone maker has changed its digital-wallet policy, but the team learned of both only by chance. What is the BEST way for Tomás to stay ahead of such external changes?",
+    "options": [
+      "Build regular environment scanning into the plan, assign owners and review impacts with experts",
+      "Rely on the sponsor, who follows the industry closely, to mention any changes that seem important",
+      "Repeat the thorough PESTLE analysis once more at the program midpoint and stay focused until then",
+      "Respond to external changes only once they start to affect the work, since most never materialize"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Ask whether the external environment stands still for two years, and how a one-off analysis would notice.",
+    "why": "External conditions change continuously over a two-year program, and a one-time analysis has already let two relevant developments slip past. Building regular scanning into the plan — with named owners for regulatory, technology and market sources, a cadence for reviewing impacts with experts, and a route into the risk register and backlog — lets the team spot changes early, when options are cheapest. That is what the ECO asks: survey external changes and assess their impact continually.",
+    "how": "External environment: scan continuously (owners, sources, cadence) → assess impact → recommend options → update the risk register, backlog, plans or business case through governance.",
+    "optionNotes": [
+      "Correct — Regular, owned scanning with expert review catches regulatory, technology and market shifts early enough to respond well.",
+      "Incorrect — Relying on one busy executive is passive and unreliable; the sponsor may not track every country or technical platform.",
+      "Incorrect — A single midpoint review still leaves long gaps in which developments like these can go unnoticed for months.",
+      "Incorrect — Waiting until changes hit the work is reactive and leaves the fewest and most expensive options."
+    ],
+    "deepDive": "Useful sources include regulatory consultations and bulletins, industry associations, platform and vendor roadmaps, analyst reports, competitor releases and customer feedback. PESTLE (political, economic, social, technological, legal, environmental) provides a helpful structure for a scanning checklist, and horizon-scanning findings can feed straight into risk identification. In agile programs, scanning results can be reviewed at a regular cadence, such as quarterly planning, so the product owner can reorder the backlog. The exam trap is treating environmental analysis as a one-time initiation activity or relying on someone else to notice.",
+    "tags": [
+      "environment scanning",
+      "PESTLE",
+      "external changes",
+      "hybrid"
+    ]
+  },
+  {
+    "id": "BUS-071",
+    "domain": "Business Environment",
+    "task": "8. Evaluate external business environment changes",
+    "approach": "Predictive",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Market change and the business case",
+    "source": "ECO 2026 · Business Environment Task 8 (assess impact)",
+    "question": "Midway through a project to build 240 rental apartments, central-bank interest rates rise sharply. The developer's financing costs increase, and the finance team estimates that the project's net present value has fallen from strongly positive to close to zero. Construction is 45% complete and on schedule. The sponsor asks the project manager for input before the next investment committee meeting. What should the project manager do?",
+    "options": [
+      "Continue as planned, since financing costs are the finance team's concern rather than the project's",
+      "Trim quality and scope in a few places now to offset the higher financing costs of the project",
+      "Stop the project at once, since its returns have fallen below what the business case approved",
+      "Help finance update the business case, analyze the options, and present them to the committee"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Ask what the rate rise does to the value case that justified the project, and who should decide what happens next.",
+    "why": "Higher interest rates raise the cost of capital and the discount rate applied to future rental income, which lowers NPV, so the value case that justified the project has changed. The project manager should help finance update the business case and analyze options — continuing as planned, rephasing the remaining work, changing the unit mix, or pausing after the current phase — and present them with their cost, schedule and value effects. The investment committee, not the project manager, then decides.",
+    "how": "When an external economic change affects the project's value, reassess the business case with the right experts, develop options, and bring them to governance for a decision; don't ignore it or act unilaterally.",
+    "optionNotes": [
+      "Incorrect — The project manager shares responsibility for the project continuing to deliver value; a sharp fall in NPV is a project concern.",
+      "Incorrect — Unilateral cuts to quality and scope bypass change control, may breach building standards, and erode the value the project exists to create.",
+      "Incorrect — Stopping is a governance decision, and it would be premature before the updated business case and options have been analyzed.",
+      "Correct — An updated business case with analyzed options gives the investment committee what it needs to decide how to proceed."
+    ],
+    "deepDive": "The business case and benefits management plan are living documents: when external conditions such as interest rates, inflation or demand shift, the case should be re-examined at governance points. NPV discounts future cash flows at a rate that reflects the cost of capital, so a higher rate reduces the present value of future rental income and can turn a marginal project negative. Sunk costs — the 45% already spent — should not drive the decision; only future costs and benefits matter. In predictive projects, a phase gate or an out-of-cycle review is the natural decision point, while in agile work the product owner and sponsor would revisit the roadmap and funding. The exam trap is either ignoring an external change or making a decision that belongs to governance.",
+    "tags": [
+      "interest rates",
+      "business case",
+      "NPV",
+      "external change",
+      "sunk cost"
+    ]
+  },
+  {
+    "id": "BUS-072",
+    "domain": "Business Environment",
+    "task": "8. Evaluate external business environment changes",
+    "approach": "Predictive",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Exchange-rate shock on imported equipment",
+    "source": "ECO 2026 · Business Environment Task 8 · Assessing the impact of an economic change",
+    "question": "A US hospital project is buying imaging equipment from a European supplier under a fixed-price contract of €2.0 million. The budget converted the contract at $1.10 per euro. Forty percent has been paid, and the remaining €1.2 million falls due over the next six months. The euro has since risen to $1.25, and the contingency reserve held for currency risk is $120,000. What should the project manager do FIRST?",
+    "options": [
+      "Quantify the exposure on the unpaid balance, compare it with the reserve, and take options to the sponsor",
+      "Draw the extra cost from the currency contingency reserve and continue, since the risk was already planned",
+      "Wait for the next quarterly review, since exchange rates often move back before the payments fall due",
+      "Ask the supplier to reprice the remaining payments in dollars at the original budget rate of $1.10"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Only part of the contract is still exposed to the exchange rate, and the reserve set aside for this risk has a limit.",
+    "why": "Only the unpaid balance is exposed: €1.2 million × ($1.25 − $1.10) = €1.2 million × $0.15 = $180,000 of extra cost at today's rate. That exceeds the $120,000 currency reserve by $60,000, so the project cannot absorb it within its reserve, and the shortfall is beyond the project manager's authority. The first step is to confirm the figure and bring it to the sponsor with options — for example, hedging the remaining payments through the treasury team, using the reserve and requesting management reserve for the gap, or renegotiating the payment schedule.",
+    "how": "For an external economic change, quantify the impact on the remaining exposure, compare it with the reserves and thresholds you control, and escalate with options when it exceeds them.",
+    "optionNotes": [
+      "Correct — Calculating the $180,000 exposure shows it exceeds the $120,000 reserve, so the sponsor needs the numbers and options to decide.",
+      "Incorrect — The reserve covers only $120,000 of the $180,000 increase; drawing it and carrying on leaves a $60,000 shortfall unaddressed.",
+      "Incorrect — Waiting leaves the exposure unmanaged as payments approach; the rate could rise further and hedging options may be lost.",
+      "Incorrect — The contract is fixed in euros, so the supplier has no obligation to absorb the loss; asking is not a substitute for analysis."
+    ],
+    "deepDive": "Economic factors such as exchange rates, inflation and interest rates are part of the external environment the ECO expects project managers to monitor, and PESTLE-based scanning should flag them for any project with foreign-currency contracts. Common responses include forward contracts or other hedges arranged by the organization's treasury (a form of risk transfer), pricing contracts in the home currency, and price-adjustment clauses. Only the unpaid portion is exposed, because the 40% already paid was settled at earlier rates. Contingency reserve covers identified risks up to the planned amount, and anything beyond it normally needs management reserve or a budget change approved by the sponsor. The exam trap is assuming that because a risk was identified, its full impact is automatically covered.",
+    "tags": [
+      "external environment",
+      "exchange rate",
+      "contingency reserve",
+      "calculation",
+      "escalation"
+    ]
+  },
+  {
+    "id": "BUS-073",
+    "domain": "Business Environment",
+    "task": "8. Evaluate external business environment changes",
+    "approach": "Agile",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "AI model version retirement",
+    "source": "ECO 2026 · Business Environment Task 8 · Emerging-technology change affecting an AI feature",
+    "question": "An agile team's customer-support product uses a third-party large language model to draft replies. The provider announces that the model version the team relies on will be retired in 90 days; its successor is cheaper and faster, but early users report that its tone and formatting differ. The team has an evaluation suite of 400 real support cases with approved answers. The next release is three sprints away. What should the project manager do?",
+    "options": [
+      "Switch production to the new version now, since it is cheaper and faster and the old one is being retired",
+      "Leave the feature unchanged for now and plan the migration for the final weeks before the retirement date",
+      "Negotiate extended support for the old version with the provider, whatever it costs, to avoid any change",
+      "Work with the product owner to add evaluation and migration work to the backlog and test the new version"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Ask what the team does not yet know about the successor, and how much time it needs to find out and react.",
+    "why": "The retirement is a dated external change that will affect the product, and the unknown is how the successor behaves on the team's real cases. The project manager should help the product owner put the work into the backlog — running the existing 400-case evaluation suite against the new version, adjusting prompts or settings, and planning the switch — and order it so migration finishes well before day 90. Testing first avoids exposing customers to unvalidated behavior, and starting now leaves time to react if the results are poor.",
+    "how": "When an external technology change affects the product, turn it into backlog work early: assess the impact with objective tests, let the product owner prioritize the response, and leave time to adapt before the deadline.",
+    "optionNotes": [
+      "Incorrect — Switching without evaluation exposes customers to untested changes in tone and format, skipping the checks the evaluation suite exists for.",
+      "Incorrect — Leaving migration to the final weeks leaves no time to fix problems the new version reveals, turning a planned change into a crisis.",
+      "Incorrect — Paying any price to avoid change is an unanalyzed commitment that only postpones the migration, and it may not even be offered.",
+      "Correct — Evaluating the successor on real cases and letting the product owner prioritize the migration handles the change early and on evidence."
+    ],
+    "deepDive": "Products built on third-party AI models inherit the provider's release and retirement cycle, so model versions should be treated as managed dependencies with owners, monitoring and planned upgrades. An evaluation suite of representative cases with approved answers works like a regression test for AI behavior and gives an objective basis for switching. For customer-facing output, differences in tone or format can matter as much as accuracy, which is why teams often add human review of a sample. Cost savings from the new version may improve the business case, but only after quality is confirmed. The exam trap is either reacting too late to a known external change or adopting new technology without validating it.",
+    "tags": [
+      "ai",
+      "external change",
+      "emerging technology",
+      "backlog",
+      "evaluation"
+    ]
+  },
+  {
+    "id": "BUS-074",
+    "domain": "Business Environment",
+    "task": "8. Evaluate external business environment changes",
+    "approach": "Any",
+    "difficulty": "Hard",
+    "type": "single",
+    "topic": "Prioritizing several external changes",
+    "source": "ECO 2026 · Business Environment Task 8 · Prioritizing external changes by certainty, impact and timing",
+    "question": "Nadia manages the build of a telehealth platform that will launch in two countries in five months. Her weekly environment scan turns up four developments, and she has time to analyze one in depth before Friday's steering committee meeting. Which development should she assess and bring to the sponsor FIRST?",
+    "options": [
+      "A health-data rule, enacted this week and effective in four months, requiring consent records the design lacks",
+      "A competitor's launch of a similar service in one of the two countries this week, priced 20% below Nadia's plan",
+      "A 3% price rise from the video-hosting vendor next quarter, which fits within the project's cost contingency",
+      "An analyst report predicting that AI triage chatbots will become standard in telehealth within five years"
+    ],
+    "answer": [
+      0
+    ],
+    "hint": "Rank each development by how certain it is, how much it would affect the launch, and how soon it takes effect.",
+    "why": "External changes are prioritized by certainty, impact and timing. The health-data rule is already enacted, mandatory, takes effect before launch and requires design changes the team has not planned, so it threatens a lawful launch and needs lead time — it must be assessed and raised first. The competitor's pricing matters for the business case and should be analyzed soon, the vendor price rise is within the contingency the project manager controls, and the five-year AI forecast is an input to the product roadmap rather than an urgent threat.",
+    "how": "When several external changes compete for attention, rank them by certainty (enacted or rumored), impact on objectives, and time until they take effect; handle what is within your authority, and bring the rest to governance in that order.",
+    "optionNotes": [
+      "Correct — It is certain, legally binding, effective before launch and needs unplanned design work, so it combines the highest impact with the least time.",
+      "Incorrect — A cheaper competitor affects the business case and deserves analysis soon, but it does not block a lawful launch the way the rule could.",
+      "Incorrect — A small price rise within the contingency can be handled under the project manager's existing authority and simply reported.",
+      "Incorrect — A five-year technology forecast is useful for roadmap planning, but it is neither certain nor urgent for a launch in five months."
+    ],
+    "deepDive": "The ECO asks project managers to survey external changes, assess and prioritize their impact on scope, backlog and value, and recommend options. A simple triage asks three questions: how certain is it, how much would it affect objectives, and how soon will it bite? Compliance changes with fixed effective dates usually rise to the top because they are non-negotiable and need lead time, while market moves feed the business case and long-range trends feed the roadmap. Changes within the project manager's authority and reserves are handled directly and reported. The exam trap is chasing the most exciting development, such as a technology trend, instead of the one most likely to derail the project.",
+    "tags": [
+      "external environment",
+      "prioritization",
+      "compliance",
+      "market change",
+      "ai"
+    ]
+  },
+  {
+    "id": "BUS-075",
+    "domain": "Business Environment",
+    "task": "8. Evaluate external business environment changes",
+    "approach": "Any",
+    "difficulty": "Medium",
+    "type": "single",
+    "topic": "Technology end-of-life",
+    "source": "ECO 2026 · Business Environment Task 8 (review ongoing changes)",
+    "question": "Four months before go-live of a new order-management system, the database vendor announces that it will end support for the database version the project uses in 18 months, after which there will be no security patches. The system is expected to run for at least seven years, and upgrading after go-live would require a data migration and downtime. What should the project manager do FIRST?",
+    "options": [
+      "Stop development now and switch to a supported database version immediately to avoid later rework",
+      "Leave it to the operations team, since the end-of-support date falls well after the go-live date",
+      "Keep the announcement within the project team until after go-live, to avoid unsettling the launch",
+      "Assess the options and their costs, record the risk, and present the options to the sponsor"
+    ],
+    "answer": [
+      3
+    ],
+    "hint": "Ask what the decision-makers would need to know to choose the cheapest point at which to deal with this.",
+    "why": "The announcement is an external technology change with a known date that will leave the system unsupported early in its seven-year life. The first step is to analyze it: compare options such as upgrading before go-live, upgrading soon after, or migrating later, with their cost, schedule and security implications; record the risk; and bring a recommendation to the sponsor for a decision. Acting drastically, handing it to operations or hiding it would each cost more later.",
+    "how": "External change → impact assessment → risk register → options with trade-offs → governance decision → plan or backlog updates.",
+    "optionNotes": [
+      "Incorrect — Switching immediately without analysis could disrupt go-live for a problem that may be cheaper to solve at another point.",
+      "Incorrect — The project delivers a product meant to run for years; passing a known, dated problem to operations shifts cost and security risk downstream.",
+      "Incorrect — Withholding material information is dishonest and denies decision-makers the chance to choose the cheapest option while it is still open.",
+      "Correct — Analyzing options and presenting them lets the sponsor weigh cost, schedule and security trade-offs while choices are still open."
+    ],
+    "deepDive": "Total cost of ownership should include migration effort, the operational and security risk of running unsupported software, and any extended-support fees the vendor offers. Technology lifecycle checks — confirming that key components will be supported for the product's expected life — are a good planning habit for systems with long operating lives. Stewardship means considering the product's whole life cycle, not just the project's end date. In agile teams, the upgrade would become backlog work ordered by the product owner against features. The exam trap is 'it happens after go-live, so it is not the project's problem'.",
+    "tags": [
+      "end-of-life",
+      "technology change",
+      "risk",
+      "TCO",
+      "stewardship"
+    ]
+  }
+]

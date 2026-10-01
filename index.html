@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>PMP Critical Path</title>
+<meta name="description" content="300 PMP practice questions mapped to the 2026 Exam Content Outline, with hints, reveal-on-demand answers, explanations, exam simulation, and a study guide.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="#home" aria-label="PMP Critical Path — home">
+      <svg viewBox="0 0 34 22" aria-hidden="true">
+        <line x1="4" y1="11" x2="13" y2="4" stroke="var(--line-strong)" stroke-width="1.6"/>
+        <line x1="4" y1="11" x2="13" y2="18" stroke="var(--accent)" stroke-width="2.2"/>
+        <line x1="13" y1="4" x2="22" y2="11" stroke="var(--line-strong)" stroke-width="1.6"/>
+        <line x1="13" y1="18" x2="22" y2="11" stroke="var(--accent)" stroke-width="2.2"/>
+        <line x1="22" y1="11" x2="30" y2="11" stroke="var(--accent)" stroke-width="2.2"/>
+        <circle cx="4" cy="11" r="3" fill="var(--accent)"/>
+        <circle cx="13" cy="4" r="2.6" fill="var(--surface)" stroke="var(--line-strong)" stroke-width="1.4"/>
+        <circle cx="13" cy="18" r="3" fill="var(--accent)"/>
+        <circle cx="22" cy="11" r="3" fill="var(--accent)"/>
+        <circle cx="30" cy="11" r="3" fill="var(--accent)"/>
+      </svg>
+      <span class="brand-name">Critical Path<small>PMP · ECO 2026</small></span>
+    </a>
+    <nav class="tabs" aria-label="Sections">
+      <button class="tab" data-nav="home">Home</button>
+      <button class="tab" data-nav="practice">Practice</button>
+      <button class="tab" data-nav="exam">Exam</button>
+      <button class="tab" data-nav="review">Review</button>
+      <button class="tab" data-nav="guide">Study Guide</button>
+      <button class="tab" data-nav="bank">Question Bank</button>
+      <button class="tab" data-nav="progress">Progress</button>
+    </nav>
+    <button class="icon-btn" id="themeToggle" type="button" aria-label="Switch color theme" title="Switch color theme">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9 7 7 0 0 1-9-9z"/></svg>
+    </button>
+  </div>
+</header>
+<main id="view" tabindex="-1"></main>
+<footer>
+  <p>Study aid built on the 2026 PMP Examination Content Outline and PMBOK Guide concepts, with original questions that also draw on the <em>PMBOK Guide 7th ed.</em> and <em>Project Management Next Generation</em> (Kerzner, Zeitoun &amp; Vargas). Not affiliated with or endorsed by PMI. PMP and PMBOK are registered marks of the Project Management Institute. Progress is saved in this browser only.</p>
+</footer>
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+<script src="data/questions.js"></script>
+<script src="data/study-guide.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
